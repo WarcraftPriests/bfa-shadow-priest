@@ -18,7 +18,9 @@ TODO: Add on-use effects to the apl
 - [Consumables](https://www.raidbots.com/simbot/report/fmEF4G3mSbE9Vj6z8HeiNM)
 
 # azerite traits
-SimC Script
+- [Patchwerk - 1 Target - No Adds - Best Talents](https://www.raidbots.com/simbot/report/wJbBqTSUWSWxXk7CNSx3p3)
+
+## SimC Script
 ```
 .\simc.exe spell_query=azerite.class=priest
 ```
