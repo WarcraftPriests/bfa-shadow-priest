@@ -1,0 +1,76 @@
+priest="Base"
+level=110
+role=spell
+position=back
+talents=3111121
+spec=shadow
+
+default_actions=1
+
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+neck=,id=158075
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+
+# Ring Enchants
+copy="Ring-Vers-9","Base"
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9vers
+
+copy="Ring-Mast-9","Base"
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9mastery
+
+copy="Ring-Crit-9","Base"
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9crit
+
+copy="Ring-Haste-9","Base"
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9haste
+
+# Neck Enchants
+copy="Neck-Vers-9","Base"
+neck=,id=158075,enchant=9vers
+
+copy="Neck-Mast-9","Base"
+neck=,id=158075,enchant=9mastery
+
+copy="Neck-Crit-9","Base"
+neck=,id=158075,enchant=9crit
+
+copy="Neck-Haste-9","Base"
+neck=,id=158075,enchant=9haste
+
+# Weapon Enchants
+# Not working?
+copy="Weapon-Torrent-of-Elements","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+
+# Not working?
+copy="Weapon-Gale-Force-Striking","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=gale_force_striking
+
+copy="Weapon-Deadly-Navigation","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
+
+copy="Weapon-Quick-Navigation","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
+
+copy="Weapon-Masterful-Navigation","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=masterful_navigation
+
+copy="Weapon-Versatile-Navigation","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=versatile_navigation
+
+# Cloak Enchants
+copy="Cloak-Intellect-9","Base"
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507,enchant=7int

@@ -1,0 +1,71 @@
+priest="Base"
+level=110
+role=spell
+position=back
+talents=3111121
+spec=shadow
+
+default_actions=1
+
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+neck=,id=158075
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+food=lawl
+
+# not working?
+copy="Flask","Base"
+# flask=endless_fathoms
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=238int
+
+# copy="Potion","Base"
+# potion=prolonged_power
+
+copy="Honey-Glazed_Haunches","Base"
+food=honeyglazed_haunches
+
+copy="Swamp_Fish_n_Chips","Base"
+food=swamp_fish_n_chips
+
+copy="Spiced_Snapper","Base"
+food=spiced_snapper
+
+copy="Sailors_Pie","Base"
+food=sailors_pie
+
+# not working?
+copy="Bountiful_Captains_Feast_Haste","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91haste
+#food=bountiful_captains_feast
+
+# not working?
+copy="Bountiful_Captains_Feast_Mastery","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91mastery
+#food=bountiful_captains_feast
+
+# not working?
+copy="Bountiful_Captains_Feast_Crit","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91crit
+#food=bountiful_captains_feast
+
+# not working?
+copy="Bountiful_Captains_Feast_Vers","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91vers
+#food=bountiful_captains_feast
+
+# not working?
+copy="Bountiful_Captains_Feast_Int","Base"
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91int
+#food=bountiful_captains_feast
