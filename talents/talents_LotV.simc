@@ -1,0 +1,283 @@
+# LotV
+# LI
+# AS
+# ToF
+# FotM
+copy=FotM_ToF_AS_LI_LotV
+talents=1111111
+# SI
+copy=SI_ToF_AS_LI_LotV
+talents=2111111
+# SWV
+copy=SWV_ToF_AS_LI_LotV
+talents=3111111
+# Mis
+# FotM
+copy=FotM_Mis_AS_LI_LotV
+talents=1121111
+# SI
+copy=SI_Mis_AS_LI_LotV
+talents=2121111
+# SWV
+copy=SWV_Mis_AS_LI_LotV
+talents=3121111
+# DV
+# FotM
+copy=FotM_DV_AS_LI_LotV
+talents=1131111
+# SI
+copy=SI_DV_AS_LI_LotV
+talents=2131111
+# SWV
+copy=SWV_DV_AS_LI_LotV
+talents=3131111
+# SWD
+# ToF
+# FotM
+copy=FotM_ToF_SWD_LI_LotV
+talents=1111211
+# SI
+copy=SI_ToF_SWD_LI_LotV
+talents=2111211
+# SWV
+copy=SWV_ToF_SWD_LI_LotV
+talents=3111211
+# Mis
+# FotM
+copy=FotM_Mis_SWD_LI_LotV
+talents=1121211
+# SI
+copy=SI_Mis_SWD_LI_LotV
+talents=2121211
+# SWV
+copy=SWV_Mis_SWD_LI_LotV
+talents=3121211
+# DV
+# FotM
+copy=FotM_DV_SWD_LI_LotV
+talents=1131211
+# SI
+copy=SI_DV_SWD_LI_LotV
+talents=2131211
+# SWV
+copy=SWV_DV_SWD_LI_LotV
+talents=3131211
+# SC
+# ToF
+# FotM
+copy=FotM_ToF_SC_LI_LotV
+talents=1111311
+# SI
+copy=SI_ToF_SC_LI_LotV
+talents=2111311
+# SWV
+copy=SWV_ToF_SC_LI_LotV
+talents=3111311
+# Mis
+# FotM
+copy=FotM_Mis_SC_LI_LotV
+talents=1121311
+# SI
+copy=SI_Mis_SC_LI_LotV
+talents=2121311
+# SWV
+copy=SWV_Mis_SC_LI_LotV
+talents=3121311
+# DV
+# FotM
+copy=FotM_DV_SC_LI_LotV
+talents=1131311
+# SI
+copy=SI_DV_SC_LI_LotV
+talents=2131311
+# SWV
+copy=SWV_DV_SC_LI_LotV
+talents=3131311
+# MB
+# AS
+# ToF
+# FotM
+copy=FotM_ToF_AS_MB_LotV
+talents=1111121
+# SI
+copy=SI_ToF_AS_MB_LotV
+talents=2111121
+# SWV
+copy=SWV_ToF_AS_MB_LotV
+talents=3111121
+# Mis
+# FotM
+copy=FotM_Mis_AS_MB_LotV
+talents=1121121
+# SI
+copy=SI_Mis_AS_MB_LotV
+talents=2121121
+# SWV
+copy=SWV_Mis_AS_MB_LotV
+talents=3121121
+# DV
+# FotM
+copy=FotM_DV_AS_MB_LotV
+talents=1131121
+# SI
+copy=SI_DV_AS_MB_LotV
+talents=2131121
+# SWV
+copy=SWV_DV_AS_MB_LotV
+talents=3131121
+# SWD
+# ToF
+# FotM
+copy=FotM_ToF_SWD_MB_LotV
+talents=1111221
+# SI
+copy=SI_ToF_SWD_MB_LotV
+talents=2111221
+# SWV
+copy=SWV_ToF_SWD_MB_LotV
+talents=3111221
+# Mis
+# FotM
+copy=FotM_Mis_SWD_MB_LotV
+talents=1121221
+# SI
+copy=SI_Mis_SWD_MB_LotV
+talents=2121221
+# SWV
+copy=SWV_Mis_SWD_MB_LotV
+talents=3121221
+# DV
+# FotM
+copy=FotM_DV_SWD_MB_LotV
+talents=1131221
+# SI
+copy=SI_DV_SWD_MB_LotV
+talents=2131221
+# SWV
+copy=SWV_DV_SWD_MB_LotV
+talents=3131221
+# SC
+# ToF
+# FotM
+copy=FotM_ToF_SC_MB_LotV
+talents=1111321
+# SI
+copy=SI_ToF_SC_MB_LotV
+talents=2111321
+# SWV
+copy=SWV_ToF_SC_MB_LotV
+talents=3111321
+# Mis
+# FotM
+copy=FotM_Mis_SC_MB_LotV
+talents=1121321
+# SI
+copy=SI_Mis_SC_MB_LotV
+talents=2121321
+# SWV
+copy=SWV_Mis_SC_MB_LotV
+talents=3121321
+# DV
+# FotM
+copy=FotM_DV_SC_MB_LotV
+talents=1131321
+# SI
+copy=SI_DV_SC_MB_LotV
+talents=2131321
+# SWV
+copy=SWV_DV_SC_MB_LotV
+talents=3131321
+# VT
+# AS
+# ToF
+# FotM
+copy=FotM_ToF_AS_VT_LotV
+talents=1111131
+# SI
+copy=SI_ToF_AS_VT_LotV
+talents=2111131
+# SWV
+copy=SWV_ToF_AS_VT_LotV
+talents=3111131
+# Mis
+# FotM
+copy=FotM_Mis_AS_VT_LotV
+talents=1121131
+# SI
+copy=SI_Mis_AS_VT_LotV
+talents=2121131
+# SWV
+copy=SWV_Mis_AS_VT_LotV
+talents=3121131
+# DV
+# FotM
+copy=FotM_DV_AS_VT_LotV
+talents=1131131
+# SI
+copy=SI_DV_AS_VT_LotV
+talents=2131131
+# SWV
+copy=SWV_DV_AS_VT_LotV
+talents=3131131
+# SWD
+# ToF
+# FotM
+copy=FotM_ToF_SWD_VT_LotV
+talents=1111231
+# SI
+copy=SI_ToF_SWD_VT_LotV
+talents=2111231
+# SWV
+copy=SWV_ToF_SWD_VT_LotV
+talents=3111231
+# Mis
+# FotM
+copy=FotM_Mis_SWD_VT_LotV
+talents=1121231
+# SI
+copy=SI_Mis_SWD_VT_LotV
+talents=2121231
+# SWV
+copy=SWV_Mis_SWD_VT_LotV
+talents=3121231
+# DV
+# FotM
+copy=FotM_DV_SWD_VT_LotV
+talents=1131231
+# SI
+copy=SI_DV_SWD_VT_LotV
+talents=2131231
+# SWV
+copy=SWV_DV_SWD_VT_LotV
+talents=3131231
+# SC
+# ToF
+# FotM
+copy=FotM_ToF_SC_VT_LotV
+talents=1111331
+# SI
+copy=SI_ToF_SC_VT_LotV
+talents=2111331
+# SWV
+copy=SWV_ToF_SC_VT_LotV
+talents=3111331
+# Mis
+# FotM
+copy=FotM_Mis_SC_VT_LotV
+talents=1121331
+# SI
+copy=SI_Mis_SC_VT_LotV
+talents=2121331
+# SWV
+copy=SWV_Mis_SC_VT_LotV
+talents=3121331
+# DV
+# FotM
+copy=FotM_DV_SC_VT_LotV
+talents=1131331
+# SI
+copy=SI_DV_SC_VT_LotV
+talents=2131331
+# SWV
+copy=SWV_DV_SC_VT_LotV
+talents=3131331
