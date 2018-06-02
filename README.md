@@ -16,3 +16,9 @@ TODO: Add on-use effects to the apl
 # enhancements
 - [Enchants](https://www.raidbots.com/simbot/report/xdzcxYikoxeWudJvUEDLbM)
 - [Consumables](https://www.raidbots.com/simbot/report/fmEF4G3mSbE9Vj6z8HeiNM)
+
+# azerite traits
+SimC Script
+```
+.\simc.exe spell_query=azerite.class=priest
+```

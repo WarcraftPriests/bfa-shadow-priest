@@ -24,7 +24,7 @@ trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
-# +5 ilvls
+# +5 ilvls 13
 copy="Azerite_Empowered_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -37,7 +37,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Death Throes
+# Death Throes 404
 copy="Death_Throes_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -63,7 +63,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Whispers of the Damned
+# Whispers of the Damned 236
 copy="Whispers_of_the_Damned_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -89,7 +89,20 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Searing Dialogue
+# Thought of the Harvester 166
+copy="Thought_of_the_Harvester_1","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+
+copy="Thought_of_the_Harvester_2","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+
+copy="Thought_of_the_Harvester_3","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+
+# Searing Dialogue 115
 copy="Searing_Dialogue_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -102,7 +115,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Spiteful Apparitions
+# Spiteful Apparitions 403
 copy="Spiteful_Apparitions_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -128,7 +141,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Chorus of Insanity
+# Chorus of Insanity 405
 copy="Chorus_of_Insanity_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -154,7 +167,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Filthy Transfusion
+# Filthy Transfusion 194
 copy="Filthy_Transfusion_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -180,7 +193,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Rezan's Fury
+# Rezan's Fury 157
 copy="Rezans_Fury_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -206,7 +219,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Blightborne Infusion
+# Blightborne Infusion 193
 copy="Blightborne_Infusion_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -245,6 +258,19 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
+# Sandstorm 196
+copy="Sandstorm_1","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+
+copy="Sandstorm_2","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+
+copy="Sandstorm_3","Base"
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+
 # Thunderous Blast
 copy="Thunderous_Blast_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
@@ -271,7 +297,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Secrets of the Deep
+# Secrets of the Deep 195
 copy="Secrets_of_the_Deep_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -284,7 +310,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Meticulous Scheming
+# Meticulous Scheming 192
 copy="Meticulous_Scheming_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -297,7 +323,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Earthlink
+# Earthlink 461
 copy="Earthlink_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -310,7 +336,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Blood Siphon
+# Blood Siphon 18
 copy="Blood_Siphon_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -323,7 +349,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Champion of Azeroth
+# Champion of Azeroth 82
 copy="Champion_of_Azeroth_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -349,7 +375,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# On My Way
+# On My Way 38
 copy="On_My_Way_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -362,7 +388,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Unstable Flames
+# Unstable Flames 459
 copy="Unstable_Flames_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -375,7 +401,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Azerite Globules
+# Azerite Globules 462
 copy="Azerite_Globules_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -388,7 +414,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Elemental Whirl
+# Elemental Whirl 21
 copy="Elemental_Whirl_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -427,7 +453,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Gutripper
+# Gutripper 31
 copy="Gutripper_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
@@ -440,7 +466,7 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
-# Heed My Call
+# Heed My Call 22
 copy="Heed_My_Call_1","Base"
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
 
