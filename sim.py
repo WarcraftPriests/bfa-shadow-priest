@@ -30,7 +30,7 @@ existing = listdir(args.dir + 'results/')
 count = 0
 
 for value in profiles:
-    count++
+    count = count + 1
     print "Simming {0} out of {1}.".format(count, profiles.length)
     name = value.replace('simc', 'json')
     name = name.replace('profiles', 'results')
