@@ -44,7 +44,7 @@ try:
     data=body,
     headers={
       'content-type': 'application/json',
-      'User-Agent': 'Publik\'s Raidbots API Demo Script'
+      'User-Agent': 'Publik\'s Raidbots Script
     }
   )
   res = urllib.request.urlopen(req)
