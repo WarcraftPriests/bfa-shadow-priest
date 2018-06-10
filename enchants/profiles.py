@@ -1,5 +1,6 @@
-file = 'consumables.simc'
-#file = 'enchants.simc'
+import reports
+
+file = 'enchants.simc'
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
@@ -8,32 +9,18 @@ patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="Light Movement"'
 heavy_movement = 'fight_style="Heavy Movement"'
 
-reports = [
-    'profiles/pw_ba_1.simc',
-    'profiles/pw_na_1.simc',
-    'profiles/pw_sa_1.simc',
-    'profiles/lm_ba_1.simc',
-    'profiles/lm_na_1.simc',
-    'profiles/lm_sa_1.simc',
-    'profiles/hm_ba_1.simc',
-    'profiles/hm_na_1.simc',
-    'profiles/hm_sa_1.simc',
-    'profiles/pw_ba_2.simc',
-    'profiles/pw_na_2.simc',
-    'profiles/pw_sa_2.simc',
-    'profiles/lm_ba_2.simc',
-    'profiles/lm_na_2.simc',
-    'profiles/lm_sa_2.simc',
-    'profiles/hm_ba_2.simc',
-    'profiles/hm_na_2.simc',
-    'profiles/hm_sa_2.simc',
-]
-
 with open(file, 'r') as f:
     data = f.read()
     f.close()
 
-for value in reports:
+profiles = []
+
+for value in reports.reports:
+    profile = value.replace('results', 'profiles')
+    profile = profile.replace('json', 'simc')
+    profiles.append(profile)
+
+for value in profiles:
     settings = '\n'
     if "pw" in value:
         settings = settings + patchwerk + "\n"

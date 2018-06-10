@@ -1,11 +1,17 @@
 import reports
 
+file = 'consumables.simc'
+
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
 
 patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="Light Movement"'
 heavy_movement = 'fight_style="Heavy Movement"'
+
+with open(file, 'r') as f:
+    data = f.read()
+    f.close()
 
 profiles = []
 
@@ -15,15 +21,6 @@ for value in reports.reports:
     profiles.append(profile)
 
 for value in profiles:
-    if "da" in value:
-        file = 'talents_DA.simc'
-    if "lotv" in value:
-        file = 'talents_LotV.simc'
-    if "stm" in value:
-        file = 'talents_STM.simc'
-    with open(file, 'r') as f:
-        data = f.read()
-        f.close()
     settings = '\n'
     if "pw" in value:
         settings = settings + patchwerk + "\n"
