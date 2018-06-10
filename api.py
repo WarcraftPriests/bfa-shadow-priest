@@ -1,0 +1,97 @@
+# USAGE:
+# python3 api.py API_KEY test.simc
+# file is saved to [simId].json
+
+from __future__ import print_function
+
+import time
+import sys
+import argparse
+import json
+import urllib.request
+import urllib.parse
+
+def eprint(*args, **kwargs):
+  print(*args, file=sys.stderr, **kwargs)
+
+parser = argparse.ArgumentParser()
+parser.add_argument("api_key")
+parser.add_argument("input_file")
+parser.add_argument("--simc_version", default="nightly")
+parser.add_argument("output_file")
+args = parser.parse_args()
+
+HOST = 'https://www.raidbots.com'
+
+SIM_SUBMIT_URL = "%s/sim" % HOST
+
+simc_file = open(args.input_file, 'r')
+simc_input = simc_file.read()
+
+data = {
+    'apiKey': args.api_key,
+    'type': 'advanced',
+    'advancedInput': simc_input,
+    'simcVersion': args.simc_version,
+  }
+body = json.dumps(data).encode('utf8')
+
+res=None
+try:
+  eprint("Submitting simulation")
+  req = urllib.request.Request(
+    SIM_SUBMIT_URL,
+    data=body,
+    headers={
+      'content-type': 'application/json',
+      'User-Agent': 'Publik\'s Raidbots API Demo Script'
+    }
+  )
+  res = urllib.request.urlopen(req)
+except urllib.error.URLError as e:
+  print(e.reason)
+  print(e.read())
+  sys.exit(1)
+
+
+sim = json.loads(res.read().decode('utf8'))
+simId = sim['simId']
+
+eprint('simId is %s' % simId)
+
+while True:
+  req = urllib.request.Request(
+    "%s/api/job/%s" % (HOST, simId),
+    headers={
+      'content-type': 'application/json',
+      'User-Agent': 'Publik\'s Raidbots API Demo Script'
+    }
+  )
+  res = urllib.request.urlopen(req)
+  sim_status = json.loads(res.read().decode('utf8'))
+  progress = sim_status['job']['progress']
+  state = sim_status['job']['state']
+  if (state == "complete"):
+    eprint('Done')
+    break;
+  if (state == "inactive"):
+    eprint('In Queue')
+  if (state == "active"):
+    eprint('Progress: %s' % progress)
+
+  time.sleep(20)
+
+eprint('Retrieving result')
+
+req = urllib.request.Request(
+  "%s/reports/%s/data.json" % (HOST, simId),
+  headers={
+    'User-Agent': 'Publik\'s Raidbots API Demo Script'
+  }
+)
+res = urllib.request.urlopen(req)
+sim_data = json.loads(res.read().decode('utf8'))
+output_file = open(args.output_file, 'w')
+output_file.write(json.dumps(sim_data))
+
+eprint('Result saved to %s' % args.output_file)
