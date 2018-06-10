@@ -44,7 +44,7 @@ try:
     data=body,
     headers={
       'content-type': 'application/json',
-      'User-Agent': 'Publik\'s Raidbots Script
+      'User-Agent': 'Publik\'s Raidbots API Script'
     }
   )
   res = urllib.request.urlopen(req)
@@ -64,7 +64,7 @@ while True:
     "%s/api/job/%s" % (HOST, simId),
     headers={
       'content-type': 'application/json',
-      'User-Agent': 'Publik\'s Raidbots API Demo Script'
+      'User-Agent': 'Publik\'s Raidbots API Script'
     }
   )
   res = urllib.request.urlopen(req)
@@ -86,7 +86,7 @@ eprint('Retrieving result')
 req = urllib.request.Request(
   "%s/reports/%s/data.json" % (HOST, simId),
   headers={
-    'User-Agent': 'Publik\'s Raidbots API Demo Script'
+    'User-Agent': 'Publik\'s Raidbots API Script'
   }
 )
 res = urllib.request.urlopen(req)

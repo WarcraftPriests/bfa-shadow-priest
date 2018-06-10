@@ -27,8 +27,11 @@ for value in reports.reports:
 
 # determine existing jsons
 existing = listdir(args.dir + 'results/')
+count = 0
 
 for value in profiles:
+    count++
+    print "Simming {0} out of {1}.".format(count, profiles.length)
     name = value.replace('simc', 'json')
     name = name.replace('profiles', 'results')
     if name[8:] not in existing:

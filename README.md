@@ -9,6 +9,7 @@ This repo includes scripts and sims for shadow priests.
 5. By default if a file already exists in `results/` sim.py will skip it
 6. To run the sims use `python sim.py dir/` where `dir/` is the sim directory you want to sim
 
+**IF YOU WANT TO STOP THE SCRIPT USE CTRL+Z**
 
 ## SimC Script for Azerite Traits
 ```
