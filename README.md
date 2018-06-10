@@ -1,13 +1,7 @@
 # BfA Shadow Priest Sims
 
-# talents
-
-## Patchwerk - 1 Target - No Adds
-- [LotV](https://www.raidbots.com/simbot/report/9W5Fdk1XCTisZWgikJygGQ)
-
 # gear
-
-[Gear Drops from Uldir](https://bfa.wowhead.com/zone=9389/uldir)
+- [Gear Drops from Uldir](https://bfa.wowhead.com/zone=9389/uldir)
 
 # racials
 TODO: Add on-use effects to the apl
