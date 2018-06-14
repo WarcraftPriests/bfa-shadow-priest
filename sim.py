@@ -35,9 +35,10 @@ for value in profiles:
     name = value.replace('simc', 'json')
     name = name.replace('profiles', 'results')
     if name[8:] not in existing:
+        reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
-        cmd = "python3 api.py {0} {1} --simc_version {2} {3}".format(apiKey, value, version, name)
+        cmd = "python3 api.py {0} {1} --simc_version {2} {3} {4}".format(apiKey, value, version, name, reportName)
         os.system(cmd)
     else:
         print "{0} already exists. Skipping file.".format(name[8:])

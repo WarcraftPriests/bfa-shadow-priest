@@ -19,6 +19,7 @@ parser.add_argument("api_key")
 parser.add_argument("input_file")
 parser.add_argument("--simc_version", default="nightly")
 parser.add_argument("output_file")
+parser.add_argument("report_name")
 args = parser.parse_args()
 
 HOST = 'https://www.raidbots.com'
@@ -35,13 +36,13 @@ data = {
     'type': 'advanced',
     'advancedInput': simc_input,
     'simcVersion': args.simc_version,
-    'reportName': reportName,
+    'reportName': args.report_name,
   }
 body = json.dumps(data).encode('utf8')
 
 res=None
 try:
-  eprint("Submitting " + reportName)
+  eprint("Submitting " + args.report_name)
   req = urllib.request.Request(
     SIM_SUBMIT_URL,
     data=body,
