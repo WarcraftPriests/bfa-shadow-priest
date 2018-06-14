@@ -28,17 +28,20 @@ SIM_SUBMIT_URL = "%s/sim" % HOST
 simc_file = open(args.input_file, 'r')
 simc_input = simc_file.read()
 
+reportName = args.input_file[:8] + args.output_file[16:-5]
+
 data = {
     'apiKey': args.api_key,
     'type': 'advanced',
     'advancedInput': simc_input,
     'simcVersion': args.simc_version,
+    'reportName': reportName,
   }
 body = json.dumps(data).encode('utf8')
 
 res=None
 try:
-  eprint("Submitting simulation")
+  eprint("Submitting " + reportName)
   req = urllib.request.Request(
     SIM_SUBMIT_URL,
     data=body,
