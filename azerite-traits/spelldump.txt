@@ -102,8 +102,10 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=713207)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 933 (avg=3) | Misc Value: 1792 | Trigger Spell: 279955 | Target: Self (1)
-Description      : Your damaging abilities have a chance to implant an Azerite Globule on your enemies. When an enemy collects $s2 Azerite Globules, they explode, dealing $s1 damage to nearby enemies.
-Tooltip          : Your damaging abilities have a chance to implant an Azerite Globule on your enemies. When an enemy collects $s2 Azerite Globules, they explode, dealing $s1 damage to nearby enemies.
+#2 (id=739251)   : Dummy (3)
+                   Base Value: 3 | Scaled Value: 3
+Description      : Your damaging abilities have a chance to implant an Azerite Globule on your enemies. When an enemy collects $s2 Azerite Globules, they explode, dealing $s1 Fire damage to nearby enemies.
+Tooltip          : Your damaging abilities have a chance to implant an Azerite Globule on your enemies. When an enemy collects $s2 Azerite Globules, they explode, dealing $s1 Fire damage to nearby enemies.
 
 Name             : Gutripper (id=266937) [Scaling Spell (-1), Passive]
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Demon Hunter
@@ -504,7 +506,7 @@ Effects          :
                    Base Value: 3 | Scaled Value: 3 | Trigger Spell: 273684 | Target: Self (1)
 #4 (id=725610)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 224.1442 (avg=0.720721) | Target: Self (1)
-Description      : Your spells and abilities have a chance to grant you Meticulous Scheming for $273685d, which transforms into Seize the Moment! after you cast $s3 different spells, granting you $s4 Haste for $273714d seconds.
+Description      : Your spells and abilities have a chance to grant you Meticulous Scheming for $273685d, which transforms into Seize the Moment! after you cast $s3 different spells, granting you $s4 Haste for $273714d.
 
 Name             : Rezan's Fury (Zuldazar) (id=273790) [Scaling Spell (-1), Passive]
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -626,7 +628,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=728716)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 8 | Scaled Value: 108.85 (avg=0.35) | Trigger Spell: 270649 | Target: Self (1)
+                   Base Value: 8 | Scaled Value: 108.85 (avg=0.35) | Target: Self (1)
 Description      : Prayer of Healing restores an additional $s1 health to the most injured ally it affects.
 
 Name             : Whispers of the Damned (id=275722) [Scaling Spell (-1), Spell Family (6), Passive]
@@ -713,7 +715,7 @@ Effects          :
 #2 (id=734462)   : Apply Aura (6) | Add Flat Modifier (107): Spell Direct Amount (0)
                    Base Value: 0 | Scaled Value: 126.4227 (avg=0.406504) | Target: Self (1)
                    Affected Spells: Penance (47666)
-Description      : Penance deals an additional $s2 damage and extends your Shadow Word: Pain by ${$s1/1000} sec per bolt.
+Description      : Penance deals an additional $s2 damage and extends your $?s204197[Purge the Wicked][Shadow Word: Pain] by ${$s1/1000} sec per bolt.
 
 Name             : Enduring Luminescence (id=278643) [Scaling Spell (-1), Spell Family (6), Passive]
 Class            : Priest
