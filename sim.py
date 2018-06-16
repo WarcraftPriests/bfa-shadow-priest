@@ -9,10 +9,15 @@ from os.path import isfile, join
 profiles = []
 apiKey = secrets.apiKey
 version = 'bfa-dev'
+weights = '-s'
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
+parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
 args = parser.parse_args()
+
+if args.weights:
+    weights = ''
 
 sys.path.insert(0, args.dir)
 import reports
@@ -44,5 +49,5 @@ for value in profiles:
         print "{0} already exists. Skipping file.".format(name[8:])
 
 results_dir = args.dir + "results/"
-cmd = "python simParser.py -c -s -r -d {0}".format(results_dir)
+cmd = "python simParser.py -c {0} -r -d {1}".format(weights, results_dir)
 os.system(cmd)
