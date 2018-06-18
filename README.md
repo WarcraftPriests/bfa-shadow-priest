@@ -13,7 +13,7 @@ This repo includes scripts and sims for shadow priests.
 
 ## SimC Script for Azerite Traits
 ```
-.\simc.exe spell_query=azerite.class=priest
+.\simc.exe spell_query=azerite.class=priest | Out-File 'A:\simc-bfa\priest-traits.txt'
 ```
 
 ## Results
