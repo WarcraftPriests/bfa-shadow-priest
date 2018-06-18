@@ -15,3 +15,7 @@ This repo includes scripts and sims for shadow priests.
 ```
 .\simc.exe spell_query=azerite.class=priest
 ```
+
+## Results
+- [talents](https://docs.google.com/spreadsheets/d/1KG77iYgMBnWpYEaSKfTR1Fh3_WEh8FB3jQDUUSY5Im4/edit?usp=sharing)
+- [bulk weights](https://docs.google.com/spreadsheets/d/1cP_9mOss69hTSYrp7DOELdDwRFbaEhHt_P5yjOmmAaQ/edit?usp=sharing)
