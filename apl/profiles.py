@@ -1,8 +1,6 @@
 import reports
 
-# file = 'Priest_Shadow_T22N.simc'
-#file = 'Priest_Shadow_T22H.simc'
-file = 'Priest_Shadow_T22M.simc'
+file = 'apl.simc'
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
