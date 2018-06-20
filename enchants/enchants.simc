@@ -25,52 +25,37 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
 # Ring Enchants
-copy="Ring-Vers-9","Base"
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9vers
+profileset."Ring-Vers-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9vers
 
-copy="Ring-Mast-9","Base"
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9mastery
+profileset."Ring-Mast-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9mastery
 
-copy="Ring-Crit-9","Base"
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9crit
+profileset."Ring-Crit-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9crit
 
-copy="Ring-Haste-9","Base"
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9haste
+profileset."Ring-Haste-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9haste
 
 # Neck Enchants
-copy="Neck-Vers-9","Base"
-neck=,id=158075,enchant=9vers
+profileset."Neck-Vers-9"+=neck=,id=158075,enchant=9vers
 
-copy="Neck-Mast-9","Base"
-neck=,id=158075,enchant=9mastery
+profileset."Neck-Mast-9"+=neck=,id=158075,enchant=9mastery
 
-copy="Neck-Crit-9","Base"
-neck=,id=158075,enchant=9crit
+profileset."Neck-Crit-9"+=neck=,id=158075,enchant=9crit
 
-copy="Neck-Haste-9","Base"
-neck=,id=158075,enchant=9haste
+profileset."Neck-Haste-9"+=neck=,id=158075,enchant=9haste
 
 # Weapon Enchants
 # Not working?
-copy="Weapon-Torrent-of-Elements","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+profileset."Weapon-Torrent-of-Elements"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 
 # Not working?
-copy="Weapon-Gale-Force-Striking","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=gale_force_striking
+profileset."Weapon-Gale-Force-Striking"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=gale_force_striking
 
-copy="Weapon-Deadly-Navigation","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
+profileset."Weapon-Deadly-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
 
-copy="Weapon-Quick-Navigation","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
+profileset."Weapon-Quick-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 
-copy="Weapon-Masterful-Navigation","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=masterful_navigation
+profileset."Weapon-Masterful-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=masterful_navigation
 
-copy="Weapon-Versatile-Navigation","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=versatile_navigation
+profileset."Weapon-Versatile-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=versatile_navigation
 
 # Cloak Enchants
-copy="Cloak-Intellect-9","Base"
-back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507,enchant=7int
+profileset."Cloak-Intellect-9"+=back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507,enchant=7int

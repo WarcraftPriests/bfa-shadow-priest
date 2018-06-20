@@ -28,281 +28,200 @@ off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_LI_STM
-talents=1111113
+profileset."FotM_ToF_AS_LI_STM"+=talents=1111113
 # SI
-copy=SI_ToF_AS_LI_STM
-talents=2111113
+profileset."SI_ToF_AS_LI_STM"+=talents=2111113
 # SWV
-copy=SWV_ToF_AS_LI_STM
-talents=3111113
+profileset."SWV_ToF_AS_LI_STM"+=talents=3111113
 # Mis
 # FotM
-copy=FotM_Mis_AS_LI_STM
-talents=1121113
+profileset."FotM_Mis_AS_LI_STM"+=talents=1121113
 # SI
-copy=SI_Mis_AS_LI_STM
-talents=2121113
+profileset."SI_Mis_AS_LI_STM"+=talents=2121113
 # SWV
-copy=SWV_Mis_AS_LI_STM
-talents=3121113
+profileset."SWV_Mis_AS_LI_STM"+=talents=3121113
 # DV
 # FotM
-copy=FotM_DV_AS_LI_STM
-talents=1131113
+profileset."FotM_DV_AS_LI_STM"+=talents=1131113
 # SI
-copy=SI_DV_AS_LI_STM
-talents=2131113
+profileset."SI_DV_AS_LI_STM"+=talents=2131113
 # SWV
-copy=SWV_DV_AS_LI_STM
-talents=3131113
+profileset."SWV_DV_AS_LI_STM"+=talents=3131113
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_LI_STM
-talents=1111213
+profileset."FotM_ToF_SWD_LI_STM"+=talents=1111213
 # SI
-copy=SI_ToF_SWD_LI_STM
-talents=2111213
+profileset."SI_ToF_SWD_LI_STM"+=talents=2111213
 # SWV
-copy=SWV_ToF_SWD_LI_STM
-talents=3111213
+profileset."SWV_ToF_SWD_LI_STM"+=talents=3111213
 # Mis
 # FotM
-copy=FotM_Mis_SWD_LI_STM
-talents=1121213
+profileset."FotM_Mis_SWD_LI_STM"+=talents=1121213
 # SI
-copy=SI_Mis_SWD_LI_STM
-talents=2121213
+profileset."SI_Mis_SWD_LI_STM"+=talents=2121213
 # SWV
-copy=SWV_Mis_SWD_LI_STM
-talents=3121213
+profileset."SWV_Mis_SWD_LI_STM"+=talents=3121213
 # DV
 # FotM
-copy=FotM_DV_SWD_LI_STM
-talents=1131213
+profileset."FotM_DV_SWD_LI_STM"+=talents=1131213
 # SI
-copy=SI_DV_SWD_LI_STM
-talents=2131213
+profileset."SI_DV_SWD_LI_STM"+=talents=2131213
 # SWV
-copy=SWV_DV_SWD_LI_STM
-talents=3131213
+profileset."SWV_DV_SWD_LI_STM"+=talents=3131213
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_LI_STM
-talents=1111313
+profileset."FotM_ToF_SC_LI_STM"+=talents=1111313
 # SI
-copy=SI_ToF_SC_LI_STM
-talents=2111313
+profileset."SI_ToF_SC_LI_STM"+=talents=2111313
 # SWV
-copy=SWV_ToF_SC_LI_STM
-talents=3111313
+profileset."SWV_ToF_SC_LI_STM"+=talents=3111313
 # Mis
 # FotM
-copy=FotM_Mis_SC_LI_STM
-talents=1121313
+profileset."FotM_Mis_SC_LI_STM"+=talents=1121313
 # SI
-copy=SI_Mis_SC_LI_STM
-talents=2121313
+profileset."SI_Mis_SC_LI_STM"+=talents=2121313
 # SWV
-copy=SWV_Mis_SC_LI_STM
-talents=3121313
+profileset."SWV_Mis_SC_LI_STM"+=talents=3121313
 # DV
 # FotM
-copy=FotM_DV_SC_LI_STM
-talents=1131313
+profileset."FotM_DV_SC_LI_STM"+=talents=1131313
 # SI
-copy=SI_DV_SC_LI_STM
-talents=2131313
+profileset."SI_DV_SC_LI_STM"+=talents=2131313
 # SWV
-copy=SWV_DV_SC_LI_STM
-talents=3131313
+profileset."SWV_DV_SC_LI_STM"+=talents=3131313
 # MB
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_MB_STM
-talents=1111123
+profileset."FotM_ToF_AS_MB_STM"+=talents=1111123
 # SI
-copy=SI_ToF_AS_MB_STM
-talents=2111123
+profileset."SI_ToF_AS_MB_STM"+=talents=2111123
 # SWV
-copy=SWV_ToF_AS_MB_STM
-talents=3111123
+profileset."SWV_ToF_AS_MB_STM"+=talents=3111123
 # Mis
 # FotM
-copy=FotM_Mis_AS_MB_STM
-talents=1121123
+profileset."FotM_Mis_AS_MB_STM"+=talents=1121123
 # SI
-copy=SI_Mis_AS_MB_STM
-talents=2121123
+profileset."SI_Mis_AS_MB_STM"+=talents=2121123
 # SWV
-copy=SWV_Mis_AS_MB_STM
-talents=3121123
+profileset."SWV_Mis_AS_MB_STM"+=talents=3121123
 # DV
 # FotM
-copy=FotM_DV_AS_MB_STM
-talents=1131123
+profileset."FotM_DV_AS_MB_STM"+=talents=1131123
 # SI
-copy=SI_DV_AS_MB_STM
-talents=2131123
+profileset."SI_DV_AS_MB_STM"+=talents=2131123
 # SWV
-copy=SWV_DV_AS_MB_STM
-talents=3131123
+profileset."SWV_DV_AS_MB_STM"+=talents=3131123
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_MB_STM
-talents=1111223
+profileset."FotM_ToF_SWD_MB_STM"+=talents=1111223
 # SI
-copy=SI_ToF_SWD_MB_STM
-talents=2111223
+profileset."SI_ToF_SWD_MB_STM"+=talents=2111223
 # SWV
-copy=SWV_ToF_SWD_MB_STM
-talents=3111223
+profileset."SWV_ToF_SWD_MB_STM"+=talents=3111223
 # Mis
 # FotM
-copy=FotM_Mis_SWD_MB_STM
-talents=1121223
+profileset."FotM_Mis_SWD_MB_STM"+=talents=1121223
 # SI
-copy=SI_Mis_SWD_MB_STM
-talents=2121223
+profileset."SI_Mis_SWD_MB_STM"+=talents=2121223
 # SWV
-copy=SWV_Mis_SWD_MB_STM
-talents=3121223
+profileset."SWV_Mis_SWD_MB_STM"+=talents=3121223
 # DV
 # FotM
-copy=FotM_DV_SWD_MB_STM
-talents=1131223
+profileset."FotM_DV_SWD_MB_STM"+=talents=1131223
 # SI
-copy=SI_DV_SWD_MB_STM
-talents=2131223
+profileset."SI_DV_SWD_MB_STM"+=talents=2131223
 # SWV
-copy=SWV_DV_SWD_MB_STM
-talents=3131223
+profileset."SWV_DV_SWD_MB_STM"+=talents=3131223
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_MB_STM
-talents=1111323
+profileset."FotM_ToF_SC_MB_STM"+=talents=1111323
 # SI
-copy=SI_ToF_SC_MB_STM
-talents=2111323
+profileset."SI_ToF_SC_MB_STM"+=talents=2111323
 # SWV
-copy=SWV_ToF_SC_MB_STM
-talents=3111323
+profileset."SWV_ToF_SC_MB_STM"+=talents=3111323
 # Mis
 # FotM
-copy=FotM_Mis_SC_MB_STM
-talents=1121323
+profileset."FotM_Mis_SC_MB_STM"+=talents=1121323
 # SI
-copy=SI_Mis_SC_MB_STM
-talents=2121323
+profileset."SI_Mis_SC_MB_STM"+=talents=2121323
 # SWV
-copy=SWV_Mis_SC_MB_STM
-talents=3121323
+profileset."SWV_Mis_SC_MB_STM"+=talents=3121323
 # DV
 # FotM
-copy=FotM_DV_SC_MB_STM
-talents=1131323
+profileset."FotM_DV_SC_MB_STM"+=talents=1131323
 # SI
-copy=SI_DV_SC_MB_STM
-talents=2131323
+profileset."SI_DV_SC_MB_STM"+=talents=2131323
 # SWV
-copy=SWV_DV_SC_MB_STM
-talents=3131323
+profileset."SWV_DV_SC_MB_STM"+=talents=3131323
 # VT
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_VT_STM
-talents=1111133
+profileset."FotM_ToF_AS_VT_STM"+=talents=1111133
 # SI
-copy=SI_ToF_AS_VT_STM
-talents=2111133
+profileset."SI_ToF_AS_VT_STM"+=talents=2111133
 # SWV
-copy=SWV_ToF_AS_VT_STM
-talents=3111133
+profileset."SWV_ToF_AS_VT_STM"+=talents=3111133
 # Mis
 # FotM
-copy=FotM_Mis_AS_VT_STM
-talents=1121133
+profileset."FotM_Mis_AS_VT_STM"+=talents=1121133
 # SI
-copy=SI_Mis_AS_VT_STM
-talents=2121133
+profileset."SI_Mis_AS_VT_STM"+=talents=2121133
 # SWV
-copy=SWV_Mis_AS_VT_STM
-talents=3121133
+profileset."SWV_Mis_AS_VT_STM"+=talents=3121133
 # DV
 # FotM
-copy=FotM_DV_AS_VT_STM
-talents=1131133
+profileset."FotM_DV_AS_VT_STM"+=talents=1131133
 # SI
-copy=SI_DV_AS_VT_STM
-talents=2131133
+profileset."SI_DV_AS_VT_STM"+=talents=2131133
 # SWV
-copy=SWV_DV_AS_VT_STM
-talents=3131133
+profileset."SWV_DV_AS_VT_STM"+=talents=3131133
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_VT_STM
-talents=1111233
+profileset."FotM_ToF_SWD_VT_STM"+=talents=1111233
 # SI
-copy=SI_ToF_SWD_VT_STM
-talents=2111233
+profileset."SI_ToF_SWD_VT_STM"+=talents=2111233
 # SWV
-copy=SWV_ToF_SWD_VT_STM
-talents=3111233
+profileset."SWV_ToF_SWD_VT_STM"+=talents=3111233
 # Mis
 # FotM
-copy=FotM_Mis_SWD_VT_STM
-talents=1121233
+profileset."FotM_Mis_SWD_VT_STM"+=talents=1121233
 # SI
-copy=SI_Mis_SWD_VT_STM
-talents=2121233
+profileset."SI_Mis_SWD_VT_STM"+=talents=2121233
 # SWV
-copy=SWV_Mis_SWD_VT_STM
-talents=3121233
+profileset."SWV_Mis_SWD_VT_STM"+=talents=3121233
 # DV
 # FotM
-copy=FotM_DV_SWD_VT_STM
-talents=1131233
+profileset."FotM_DV_SWD_VT_STM"+=talents=1131233
 # SI
-copy=SI_DV_SWD_VT_STM
-talents=2131233
+profileset."SI_DV_SWD_VT_STM"+=talents=2131233
 # SWV
-copy=SWV_DV_SWD_VT_STM
-talents=3131233
+profileset."SWV_DV_SWD_VT_STM"+=talents=3131233
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_VT_STM
-talents=1111333
+profileset."FotM_ToF_SC_VT_STM"+=talents=1111333
 # SI
-copy=SI_ToF_SC_VT_STM
-talents=2111333
+profileset."SI_ToF_SC_VT_STM"+=talents=2111333
 # SWV
-copy=SWV_ToF_SC_VT_STM
-talents=3111333
+profileset."SWV_ToF_SC_VT_STM"+=talents=3111333
 # Mis
 # FotM
-copy=FotM_Mis_SC_VT_STM
-talents=1121333
+profileset."FotM_Mis_SC_VT_STM"+=talents=1121333
 # SI
-copy=SI_Mis_SC_VT_STM
-talents=2121333
+profileset."SI_Mis_SC_VT_STM"+=talents=2121333
 # SWV
-copy=SWV_Mis_SC_VT_STM
-talents=3121333
+profileset."SWV_Mis_SC_VT_STM"+=talents=3121333
 # DV
 # FotM
-copy=FotM_DV_SC_VT_STM
-talents=1131333
+profileset."FotM_DV_SC_VT_STM"+=talents=1131333
 # SI
-copy=SI_DV_SC_VT_STM
-talents=2131333
+profileset."SI_DV_SC_VT_STM"+=talents=2131333
 # SWV
-copy=SWV_DV_SC_VT_STM
-talents=3131333
+profileset."SWV_DV_SC_VT_STM"+=talents=3131333

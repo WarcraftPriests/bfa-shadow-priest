@@ -49,5 +49,5 @@ for value in profiles:
         print "{0} already exists. Skipping file.".format(name[8:])
 
 results_dir = args.dir + "results/"
-cmd = "python simParser.py -c {0} -r -d {1}".format(weights, results_dir)
+cmd = "python3 simParser.py -c {0} -r -d {1}".format(weights, results_dir)
 os.system(cmd)

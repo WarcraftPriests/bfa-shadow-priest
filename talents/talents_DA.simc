@@ -28,281 +28,200 @@ off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_LI_DA
-talents=1111112
+profileset."FotM_ToF_AS_LI_DA"+=talents=1111112
 # SI
-copy=SI_ToF_AS_LI_DA
-talents=2111112
+profileset."SI_ToF_AS_LI_DA"+=talents=2111112
 # SWV
-copy=SWV_ToF_AS_LI_DA
-talents=3111112
+profileset."SWV_ToF_AS_LI_DA"+=talents=3111112
 # Mis
 # FotM
-copy=FotM_Mis_AS_LI_DA
-talents=1121112
+profileset."FotM_Mis_AS_LI_DA"+=talents=1121112
 # SI
-copy=SI_Mis_AS_LI_DA
-talents=2121112
+profileset."SI_Mis_AS_LI_DA"+=talents=2121112
 # SWV
-copy=SWV_Mis_AS_LI_DA
-talents=3121112
+profileset."SWV_Mis_AS_LI_DA"+=talents=3121112
 # DV
 # FotM
-copy=FotM_DV_AS_LI_DA
-talents=1131112
+profileset."FotM_DV_AS_LI_DA"+=talents=1131112
 # SI
-copy=SI_DV_AS_LI_DA
-talents=2131112
+profileset."SI_DV_AS_LI_DA"+=talents=2131112
 # SWV
-copy=SWV_DV_AS_LI_DA
-talents=3131112
+profileset."SWV_DV_AS_LI_DA"+=talents=3131112
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_LI_DA
-talents=1111212
+profileset."FotM_ToF_SWD_LI_DA"+=talents=1111212
 # SI
-copy=SI_ToF_SWD_LI_DA
-talents=2111212
+profileset."SI_ToF_SWD_LI_DA"+=talents=2111212
 # SWV
-copy=SWV_ToF_SWD_LI_DA
-talents=3111212
+profileset."SWV_ToF_SWD_LI_DA"+=talents=3111212
 # Mis
 # FotM
-copy=FotM_Mis_SWD_LI_DA
-talents=1121212
+profileset."FotM_Mis_SWD_LI_DA"+=talents=1121212
 # SI
-copy=SI_Mis_SWD_LI_DA
-talents=2121212
+profileset."SI_Mis_SWD_LI_DA"+=talents=2121212
 # SWV
-copy=SWV_Mis_SWD_LI_DA
-talents=3121212
+profileset."SWV_Mis_SWD_LI_DA"+=talents=3121212
 # DV
 # FotM
-copy=FotM_DV_SWD_LI_DA
-talents=1131212
+profileset."FotM_DV_SWD_LI_DA"+=talents=1131212
 # SI
-copy=SI_DV_SWD_LI_DA
-talents=2131212
+profileset."SI_DV_SWD_LI_DA"+=talents=2131212
 # SWV
-copy=SWV_DV_SWD_LI_DA
-talents=3131212
+profileset."SWV_DV_SWD_LI_DA"+=talents=3131212
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_LI_DA
-talents=1111312
+profileset."FotM_ToF_SC_LI_DA"+=talents=1111312
 # SI
-copy=SI_ToF_SC_LI_DA
-talents=2111312
+profileset."SI_ToF_SC_LI_DA"+=talents=2111312
 # SWV
-copy=SWV_ToF_SC_LI_DA
-talents=3111312
+profileset."SWV_ToF_SC_LI_DA"+=talents=3111312
 # Mis
 # FotM
-copy=FotM_Mis_SC_LI_DA
-talents=1121312
+profileset."FotM_Mis_SC_LI_DA"+=talents=1121312
 # SI
-copy=SI_Mis_SC_LI_DA
-talents=2121312
+profileset."SI_Mis_SC_LI_DA"+=talents=2121312
 # SWV
-copy=SWV_Mis_SC_LI_DA
-talents=3121312
+profileset."SWV_Mis_SC_LI_DA"+=talents=3121312
 # DV
 # FotM
-copy=FotM_DV_SC_LI_DA
-talents=1131312
+profileset."FotM_DV_SC_LI_DA"+=talents=1131312
 # SI
-copy=SI_DV_SC_LI_DA
-talents=2131312
+profileset."SI_DV_SC_LI_DA"+=talents=2131312
 # SWV
-copy=SWV_DV_SC_LI_DA
-talents=3131312
+profileset."SWV_DV_SC_LI_DA"+=talents=3131312
 # MB
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_MB_DA
-talents=1111122
+profileset."FotM_ToF_AS_MB_DA"+=talents=1111122
 # SI
-copy=SI_ToF_AS_MB_DA
-talents=2111122
+profileset."SI_ToF_AS_MB_DA"+=talents=2111122
 # SWV
-copy=SWV_ToF_AS_MB_DA
-talents=3111122
+profileset."SWV_ToF_AS_MB_DA"+=talents=3111122
 # Mis
 # FotM
-copy=FotM_Mis_AS_MB_DA
-talents=1121122
+profileset."FotM_Mis_AS_MB_DA"+=talents=1121122
 # SI
-copy=SI_Mis_AS_MB_DA
-talents=2121122
+profileset."SI_Mis_AS_MB_DA"+=talents=2121122
 # SWV
-copy=SWV_Mis_AS_MB_DA
-talents=3121122
+profileset."SWV_Mis_AS_MB_DA"+=talents=3121122
 # DV
 # FotM
-copy=FotM_DV_AS_MB_DA
-talents=1131122
+profileset."FotM_DV_AS_MB_DA"+=talents=1131122
 # SI
-copy=SI_DV_AS_MB_DA
-talents=2131122
+profileset."SI_DV_AS_MB_DA"+=talents=2131122
 # SWV
-copy=SWV_DV_AS_MB_DA
-talents=3131122
+profileset."SWV_DV_AS_MB_DA"+=talents=3131122
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_MB_DA
-talents=1111222
+profileset."FotM_ToF_SWD_MB_DA"+=talents=1111222
 # SI
-copy=SI_ToF_SWD_MB_DA
-talents=2111222
+profileset."SI_ToF_SWD_MB_DA"+=talents=2111222
 # SWV
-copy=SWV_ToF_SWD_MB_DA
-talents=3111222
+profileset."SWV_ToF_SWD_MB_DA"+=talents=3111222
 # Mis
 # FotM
-copy=FotM_Mis_SWD_MB_DA
-talents=1121222
+profileset."FotM_Mis_SWD_MB_DA"+=talents=1121222
 # SI
-copy=SI_Mis_SWD_MB_DA
-talents=2121222
+profileset."SI_Mis_SWD_MB_DA"+=talents=2121222
 # SWV
-copy=SWV_Mis_SWD_MB_DA
-talents=3121222
+profileset."SWV_Mis_SWD_MB_DA"+=talents=3121222
 # DV
 # FotM
-copy=FotM_DV_SWD_MB_DA
-talents=1131222
+profileset."FotM_DV_SWD_MB_DA"+=talents=1131222
 # SI
-copy=SI_DV_SWD_MB_DA
-talents=2131222
+profileset."SI_DV_SWD_MB_DA"+=talents=2131222
 # SWV
-copy=SWV_DV_SWD_MB_DA
-talents=3131222
+profileset."SWV_DV_SWD_MB_DA"+=talents=3131222
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_MB_DA
-talents=1111322
+profileset."FotM_ToF_SC_MB_DA"+=talents=1111322
 # SI
-copy=SI_ToF_SC_MB_DA
-talents=2111322
+profileset."SI_ToF_SC_MB_DA"+=talents=2111322
 # SWV
-copy=SWV_ToF_SC_MB_DA
-talents=3111322
+profileset."SWV_ToF_SC_MB_DA"+=talents=3111322
 # Mis
 # FotM
-copy=FotM_Mis_SC_MB_DA
-talents=1121322
+profileset."FotM_Mis_SC_MB_DA"+=talents=1121322
 # SI
-copy=SI_Mis_SC_MB_DA
-talents=2121322
+profileset."SI_Mis_SC_MB_DA"+=talents=2121322
 # SWV
-copy=SWV_Mis_SC_MB_DA
-talents=3121322
+profileset."SWV_Mis_SC_MB_DA"+=talents=3121322
 # DV
 # FotM
-copy=FotM_DV_SC_MB_DA
-talents=1131322
+profileset."FotM_DV_SC_MB_DA"+=talents=1131322
 # SI
-copy=SI_DV_SC_MB_DA
-talents=2131322
+profileset."SI_DV_SC_MB_DA"+=talents=2131322
 # SWV
-copy=SWV_DV_SC_MB_DA
-talents=3131322
+profileset."SWV_DV_SC_MB_DA"+=talents=3131322
 # VT
 # AS
 # ToF
 # FotM
-copy=FotM_ToF_AS_VT_DA
-talents=1111132
+profileset."FotM_ToF_AS_VT_DA"+=talents=1111132
 # SI
-copy=SI_ToF_AS_VT_DA
-talents=2111132
+profileset."SI_ToF_AS_VT_DA"+=talents=2111132
 # SWV
-copy=SWV_ToF_AS_VT_DA
-talents=3111132
+profileset."SWV_ToF_AS_VT_DA"+=talents=3111132
 # Mis
 # FotM
-copy=FotM_Mis_AS_VT_DA
-talents=1121132
+profileset."FotM_Mis_AS_VT_DA"+=talents=1121132
 # SI
-copy=SI_Mis_AS_VT_DA
-talents=2121132
+profileset."SI_Mis_AS_VT_DA"+=talents=2121132
 # SWV
-copy=SWV_Mis_AS_VT_DA
-talents=3121132
+profileset."SWV_Mis_AS_VT_DA"+=talents=3121132
 # DV
 # FotM
-copy=FotM_DV_AS_VT_DA
-talents=1131132
+profileset."FotM_DV_AS_VT_DA"+=talents=1131132
 # SI
-copy=SI_DV_AS_VT_DA
-talents=2131132
+profileset."SI_DV_AS_VT_DA"+=talents=2131132
 # SWV
-copy=SWV_DV_AS_VT_DA
-talents=3131132
+profileset."SWV_DV_AS_VT_DA"+=talents=3131132
 # SWD
 # ToF
 # FotM
-copy=FotM_ToF_SWD_VT_DA
-talents=1111232
+profileset."FotM_ToF_SWD_VT_DA"+=talents=1111232
 # SI
-copy=SI_ToF_SWD_VT_DA
-talents=2111232
+profileset."SI_ToF_SWD_VT_DA"+=talents=2111232
 # SWV
-copy=SWV_ToF_SWD_VT_DA
-talents=3111232
+profileset."SWV_ToF_SWD_VT_DA"+=talents=3111232
 # Mis
 # FotM
-copy=FotM_Mis_SWD_VT_DA
-talents=1121232
+profileset."FotM_Mis_SWD_VT_DA"+=talents=1121232
 # SI
-copy=SI_Mis_SWD_VT_DA
-talents=2121232
+profileset."SI_Mis_SWD_VT_DA"+=talents=2121232
 # SWV
-copy=SWV_Mis_SWD_VT_DA
-talents=3121232
+profileset."SWV_Mis_SWD_VT_DA"+=talents=3121232
 # DV
 # FotM
-copy=FotM_DV_SWD_VT_DA
-talents=1131232
+profileset."FotM_DV_SWD_VT_DA"+=talents=1131232
 # SI
-copy=SI_DV_SWD_VT_DA
-talents=2131232
+profileset."SI_DV_SWD_VT_DA"+=talents=2131232
 # SWV
-copy=SWV_DV_SWD_VT_DA
-talents=3131232
+profileset."SWV_DV_SWD_VT_DA"+=talents=3131232
 # SC
 # ToF
 # FotM
-copy=FotM_ToF_SC_VT_DA
-talents=1111332
+profileset."FotM_ToF_SC_VT_DA"+=talents=1111332
 # SI
-copy=SI_ToF_SC_VT_DA
-talents=2111332
+profileset."SI_ToF_SC_VT_DA"+=talents=2111332
 # SWV
-copy=SWV_ToF_SC_VT_DA
-talents=3111332
+profileset."SWV_ToF_SC_VT_DA"+=talents=3111332
 # Mis
 # FotM
-copy=FotM_Mis_SC_VT_DA
-talents=1121332
+profileset."FotM_Mis_SC_VT_DA"+=talents=1121332
 # SI
-copy=SI_Mis_SC_VT_DA
-talents=2121332
+profileset."SI_Mis_SC_VT_DA"+=talents=2121332
 # SWV
-copy=SWV_Mis_SC_VT_DA
-talents=3121332
+profileset."SWV_Mis_SC_VT_DA"+=talents=3121332
 # DV
 # FotM
-copy=FotM_DV_SC_VT_DA
-talents=1131332
+profileset."FotM_DV_SC_VT_DA"+=talents=1131332
 # SI
-copy=SI_DV_SC_VT_DA
-talents=2131332
+profileset."SI_DV_SC_VT_DA"+=talents=2131332
 # SWV
-copy=SWV_DV_SC_VT_DA
-talents=3131332
+profileset."SWV_DV_SC_VT_DA"+=talents=3131332

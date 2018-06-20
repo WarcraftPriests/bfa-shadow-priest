@@ -2,6 +2,7 @@ from optparse import OptionParser
 import os
 import json
 from os import path
+from operator import attrgetter
 
 def parse(filename, isCsv, hideHeaders, hideProfiles, hideActors, dpsOnly):
     separator = ',' if isCsv else '\t'
@@ -9,13 +10,14 @@ def parse(filename, isCsv, hideHeaders, hideProfiles, hideActors, dpsOnly):
         ret = ''
     else:
         ret = filename + '\n'
-        ret += 'actor'+separator+'DD'+separator+'DPS'
+        ret += 'actor'+separator+'DD'+separator+'DPS\n'
         if not dpsOnly:
             ret += separator+'int'+separator+'haste'+separator+'crit'+separator+'mastery'+separator+'vers\n'
     with open(filename, "r") as f:
         s = f.read()
         sim = json.loads(s)
-        for player in sim['sim']['players']:
+        results = sim['sim']['players']
+        for player in sorted(results, key=lambda k: k['name']):
             if dpsOnly or 'Int' in player['scale_factors']:
                 if(not hideProfiles):
                     ret+= path.splitext(filename)[0]+separator
@@ -25,6 +27,33 @@ def parse(filename, isCsv, hideHeaders, hideProfiles, hideActors, dpsOnly):
                 ret+= '{0:.{1}f}'.format(player['collected_data']['dps']['mean'],2) + separator
                 if not dpsOnly:
                     weights = player['scale_factors']
+                    ret+= '{0:.{1}f}'.format(weights['Int'],2) + separator
+                    ret+= '{0:.{1}f}'.format(weights['Haste'],2) + separator
+                    ret+= '{0:.{1}f}'.format(weights['Crit'],2) + separator
+                    ret+= '{0:.{1}f}'.format(weights['Mastery'],2) + separator
+                    ret+= '{0:.{1}f}'.format(weights['Vers'],2)
+                ret+= '\n'
+    if 'profilesets' in sim['sim']:
+        ret+= parseProfileSets(filename, isCsv, hideHeaders, hideProfiles, hideActors, dpsOnly)
+    return ret+ '\n' if not hideHeaders else ret
+
+def parseProfileSets(filename, isCsv, hideHeaders, hideProfiles, hideActors, dpsOnly):
+    separator = ',' if isCsv else '\t'
+    ret = ''
+    with open(filename, "r") as f:
+        s = f.read()
+        sim = json.loads(s)
+        results = sim['sim']['profilesets']['results']
+        for profile in sorted(results, key=lambda k: k['name']):
+            if dpsOnly or 'Int' in profile['scale_factors']:
+                if(not hideProfiles):
+                    ret+= path.splitext(filename)[0]+separator
+                if(not hideActors):
+                    ret+= profile['name'] + separator
+                ret+= '{0:.{1}f}'.format(0,2) + separator
+                ret+= '{0:.{1}f}'.format(profile['mean'],2) + separator
+                if not dpsOnly:
+                    weights = profile['scale_factors']
                     ret+= '{0:.{1}f}'.format(weights['Int'],2) + separator
                     ret+= '{0:.{1}f}'.format(weights['Haste'],2) + separator
                     ret+= '{0:.{1}f}'.format(weights['Crit'],2) + separator
@@ -59,7 +88,7 @@ def main():
             parses += 'profile'+separator
         if not options.hideActors:
             parses += 'actor'+separator
-        parses += 'DD'+separator+'DPS'
+        parses += 'DD'+separator+'DPS\n'
         if not options.dpsOnly:
             parses +=separator+'int'+separator+'haste'+separator+'crit'+separator+'mastery'+separator+'vers\n'
 
@@ -68,7 +97,7 @@ def main():
             parses += parse(filename, options.csv, options.hideHeaders, options.hideProfiles, options.hideActors, options.dpsOnly)
 
     with open(options.output, "w") as ofile:
-        ofile.write(parses)
+        print(parses, file=ofile)
 
 if __name__ == "__main__":
     main()

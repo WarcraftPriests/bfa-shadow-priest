@@ -5,6 +5,7 @@ role=spell
 position=back
 talents=3111321
 spec=shadow
+race=test
 
 default_actions=1
 
@@ -25,55 +26,38 @@ trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
-copy="Nightborne","Base"
-race=nightborne
+profileset."Nightborne"+=race=nightborne
 
-copy="Highmountain_Tauren","Base"
-race=highmountaintauren
+profileset."Highmountain_Tauren"+=race=highmountaintauren
 
-copy="Lightforged_Draenei","Base"
-race=lightforgeddraenei
+profileset."Lightforged_Draenei"+=race=lightforgeddraenei
 
-copy="Void_Elf","Base"
-race=voidelf
+profileset."Void_Elf"+=race=voidelf
 
-copy="Human","Base"
-race=human
+profileset."Human"+=race=human
 
-copy="Dwarf","Base"
-race=dwarf
+profileset."Dwarf"+=race=dwarf
 
-copy="Night_Elf_Haste","Base"
-race=night_elf
-timeofday=night
+profileset."Night_Elf_Haste"+=race=night_elf
+profileset."Night_Elf_Haste"+=timeofday=night
 
-copy="Night_Elf_Crit","Base"
-race=night_elf
-timeofday=day
+profileset."Night_Elf_Crit"+=race=night_elf
+profileset."Night_Elf_Crit"+=timeofday=day
 
-copy="Gnome","Base"
-race=gnome
+profileset."Gnome"+=race=gnome
 
-copy="Draenei","Base"
-race=draenei
+profileset."Draenei"+=race=draenei
 
-copy="Worgen","Base"
-race=worgen
+profileset."Worgen"+=race=worgen
 
-copy="Panda","Base"
-race=pandaren
+profileset."Panda"+=race=pandaren
 
-copy="Undead","Base"
-race=undead
+profileset."Undead"+=race=undead
 
-copy="Tauren","Base"
-race=tauren
+profileset."Tauren"+=race=tauren
 
-copy="Goblin","Base"
-race=goblin
+profileset."Goblin"+=race=goblin
 
-copy="Troll","Base"
-race=troll
+profileset."Troll"+=race=troll
 
-copy="Blood_Elf","Base"
-race=blood_elf
+profileset."Blood_Elf"+=race=blood_elf

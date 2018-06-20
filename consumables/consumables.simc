@@ -23,49 +23,37 @@ trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
 trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
-food=lawl
+food=test
 
-# not working?
-copy="Flask","Base"
 # flask=endless_fathoms
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=238int
+profileset."Flask"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=238int
 
-# copy="Potion","Base"
-# potion=prolonged_power
+# profileset."Potion"+=potion=prolonged_power
 
-copy="Honey-Glazed_Haunches","Base"
-food=honeyglazed_haunches
+profileset."Honey-Glazed_Haunches"+=food=honeyglazed_haunches
 
-copy="Swamp_Fish_n_Chips","Base"
-food=swamp_fish_n_chips
+profileset."Swamp_Fish_n_Chips"+=food=swamp_fish_n_chips
 
-copy="Spiced_Snapper","Base"
-food=spiced_snapper
+profileset."Spiced_Snapper"+=food=spiced_snapper
 
-copy="Sailors_Pie","Base"
-food=sailors_pie
+profileset."Sailors_Pie"+=food=sailors_pie
 
 # not working?
-copy="Bountiful_Captains_Feast_Haste","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91haste
+profileset."Bountiful_Captains_Feast_Haste"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91haste
 #food=bountiful_captains_feast
 
 # not working?
-copy="Bountiful_Captains_Feast_Mastery","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91mastery
+profileset."Bountiful_Captains_Feast_Mastery"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91mastery
 #food=bountiful_captains_feast
 
 # not working?
-copy="Bountiful_Captains_Feast_Crit","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91crit
+profileset."Bountiful_Captains_Feast_Crit"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91crit
 #food=bountiful_captains_feast
 
 # not working?
-copy="Bountiful_Captains_Feast_Vers","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91vers
+profileset."Bountiful_Captains_Feast_Vers"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91vers
 #food=bountiful_captains_feast
 
 # not working?
-copy="Bountiful_Captains_Feast_Int","Base"
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91int
+profileset."Bountiful_Captains_Feast_Int"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91int
 #food=bountiful_captains_feast
