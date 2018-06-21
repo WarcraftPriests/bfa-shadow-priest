@@ -445,7 +445,7 @@ trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
-priest="If_Refreshable"
+priest="If_Refreshable_!Mis_!DV_Check"
 level=120
 role=spell
 position=back
@@ -505,8 +505,8 @@ actions.cleave+=/mindbender
 actions.cleave+=/mind_blast,if=buff.voidform.down&talent.misery.enabled
 actions.cleave+=/shadow_crash,if=(raid_event.adds.in>5&raid_event.adds.duration<2)|raid_event.adds.duration>2
 
-actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4
-actions.cleave+=/vampiric_touch,target_if=refreshable&target.time_to_die>6
+actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4,if=!talent.misery.enabled&!talent.dark_void.enabled
+actions.cleave+=/vampiric_touch,target_if=refreshable&target.time_to_die>(6-2*talent.misery.enabled)
 # actions.cleave+=/shadow_word_pain,target_if=min:dot.shadow_word_pain.remains&refreshable&target.time_to_die>4,if=!talent.misery.enabled&!talent.dark_void.enabled
 # actions.cleave+=/vampiric_touch,target_if=min:dot.vampiric_touch.remains&refreshable&target.time_to_die>6
 
