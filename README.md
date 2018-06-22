@@ -23,3 +23,4 @@ This repo includes scripts and sims for shadow priests.
 - [racials](https://docs.google.com/spreadsheets/d/1OBwalI1I3I-hiVtvT1Khe3e9Zx-4ukN1llA0EbPPg7I/edit?usp=sharing)
 - [consumables](https://docs.google.com/spreadsheets/d/1vPeHRUBw8BeYRp25GRKAmdV7qvPs081sQTe_qIiPsbI/edit?usp=sharing)
 - [enchants](https://docs.google.com/spreadsheets/d/1rxQETXpLDykysRiSPwIZmXa6L0UtkRs-VMZbduO2qAQ/edit?usp=sharing)
+- [APL Tests](https://docs.google.com/spreadsheets/d/1f07RQKAnI7XXuMT1vpeWMJ69jEh9nBS-0SMfjy28u40/edit?usp=sharing)

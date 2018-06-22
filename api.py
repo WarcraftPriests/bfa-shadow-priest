@@ -37,6 +37,7 @@ data = {
     'advancedInput': simc_input,
     'simcVersion': args.simc_version,
     'reportName': args.report_name,
+    'iterations': 'smart',
   }
 body = json.dumps(data).encode('utf8')
 
