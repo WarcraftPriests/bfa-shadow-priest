@@ -2,7 +2,7 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=3111321
+talents=0000000
 spec=shadow
 
 default_actions=1
@@ -23,6 +23,23 @@ trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
 trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+
+profileset."FotM_ToF_SC_MB_LotV"+=talents=1111321
+profileset."FotM_ToF_SC_MB_DA"+=talents=1111322
+profileset."FotM_ToF_AS_MB_DA"+=talents=1111122
+profileset."SWV_ToF_SC_MB_LotV"+=talents=3111321
+profileset."SWV_ToF_SC_MB_DA"+=talents=3111322
+profileset."FotM_ToF_AS_MB_LotV"+=talents=1111121
+profileset."FotM_ToF_SWD_MB_DA"+=talents=1111222
+profileset."FotM_ToF_SWD_MB_LotV"+=talents=1111221
+profileset."SWV_ToF_AS_MB_DA"+=talents=3111122
+profileset."SWV_ToF_AS_MB_LotV"+=talents=3111121
+profileset."FotM_DV_SC_MB_LotV"+=talents=1131321
+profileset."SI_ToF_SC_MB_LotV"+=talents=2111321
+profileset."SWV_Mis_SC_MB_LotV"+=talents=3121321
+profileset."FotM_DV_SC_MB_DA"+=talents=1131322
+profileset."FotM_Mis_SC_MB_LotV"+=talents=1121321
+profileset."FotM_ToF_SC_MB_STM"+=talents=1111323
 
 calculate_scale_factors="1"
 scale_only="strength,intellect,agility,crit,mastery,vers,haste"
