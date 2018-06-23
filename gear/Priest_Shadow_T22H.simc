@@ -3,7 +3,7 @@ level=120
 #race=troll
 role=spell
 position=back
-talents=3111321
+talents=1111321
 spec=shadow
 
 default_actions=1
@@ -21,7 +21,7 @@ shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492
 
 # Back
 #back=cloak_of_rippling_whispers,id=160642,bonus_id=4799/1492
-#back=plasma_spattered_greatcloak,id=160644,bonus_id=4798/1477
+#back=plasma_spattered_greatcloak,id=160644,bonus_id=4799/1492
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4799/1492
 
 # Chest

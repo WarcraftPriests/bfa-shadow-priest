@@ -96,6 +96,16 @@ req = urllib.request.Request(
 )
 res = urllib.request.urlopen(req)
 sim_data = json.loads(res.read().decode('utf8'))
+if 'hasFullJson' in sim_data['simbot']:
+    eprint('has full json')
+    req = urllib.request.Request(
+      "%s/reports/%s/data.full.json" % (HOST, simId),
+      headers={
+        'User-Agent': 'Publik\'s Raidbots API Script'
+      }
+    )
+    res = urllib.request.urlopen(req)
+    sim_data = json.loads(res.read().decode('utf8'))
 output_file = open(args.output_file, 'w')
 output_file.write(json.dumps(sim_data))
 
