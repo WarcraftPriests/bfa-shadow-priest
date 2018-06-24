@@ -97,7 +97,6 @@ req = urllib.request.Request(
 res = urllib.request.urlopen(req)
 sim_data = json.loads(res.read().decode('utf8'))
 if 'hasFullJson' in sim_data['simbot']:
-    eprint('has full json')
     req = urllib.request.Request(
       "%s/reports/%s/data.full.json" % (HOST, simId),
       headers={
