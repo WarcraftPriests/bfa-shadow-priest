@@ -20,6 +20,7 @@ parser.add_argument("input_file")
 parser.add_argument("--simc_version", default="nightly")
 parser.add_argument("output_file")
 parser.add_argument("report_name")
+parser.add_argument("--iterations", default="smart")
 args = parser.parse_args()
 
 HOST = 'https://www.raidbots.com'
@@ -31,13 +32,18 @@ simc_input = simc_file.read()
 
 reportName = args.input_file[:8] + args.output_file[16:-5]
 
+if args.iterations == "smart":
+    iterations = "smart"
+else:
+    iterations = int(args.iterations)
+
 data = {
     'apiKey': args.api_key,
     'type': 'advanced',
     'advancedInput': simc_input,
     'simcVersion': args.simc_version,
     'reportName': args.report_name,
-    'iterations': 'smart',
+    'iterations': iterations,
   }
 body = json.dumps(data).encode('utf8')
 

@@ -25,12 +25,11 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 food=test
 
-# flask=endless_fathoms
-profileset."Flask"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=238int
+profileset."Endless Fathoms"+=flask=endless_fathoms
 
 # profileset."Potion"+=potion=prolonged_power
 
-profileset."Honey-Glazed_Haunches"+=food=honeyglazed_haunches
+profileset."Honey-Glazed_Haunches"+=food=honey_glazed_haunches
 
 profileset."Swamp_Fish_n_Chips"+=food=swamp_fish_n_chips
 
@@ -39,21 +38,8 @@ profileset."Spiced_Snapper"+=food=spiced_snapper
 profileset."Sailors_Pie"+=food=sailors_pie
 
 # not working?
-profileset."Bountiful_Captains_Feast_Haste"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91haste
-#food=bountiful_captains_feast
-
-# not working?
-profileset."Bountiful_Captains_Feast_Mastery"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91mastery
-#food=bountiful_captains_feast
-
-# not working?
-profileset."Bountiful_Captains_Feast_Crit"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91crit
-#food=bountiful_captains_feast
-
-# not working?
-profileset."Bountiful_Captains_Feast_Vers"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91vers
-#food=bountiful_captains_feast
-
-# not working?
-profileset."Bountiful_Captains_Feast_Int"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=91int
-#food=bountiful_captains_feast
+# profileset."Bountiful_Captains_Feast_Haste"+=food=bountiful_captains_feast_haste
+# profileset."Bountiful_Captains_Feast_Crit"+=food=bountiful_captains_feast_crit
+# profileset."Bountiful_Captains_Feast_Mastery"+=food=bountiful_captains_feast_mastery
+# profileset."Bountiful_Captains_Feast_Versatility"+=food=bountiful_captains_feast_versatility
+profileset."Bountiful_Captains_Feast"+=food=bountiful_captains_feast

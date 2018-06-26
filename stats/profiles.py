@@ -11,18 +11,12 @@ for the_file in os.listdir(folder):
     except Exception as e:
         print(e)
 
-file = 'stats.simc'
-
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
 
 patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="Light Movement"'
 heavy_movement = 'fight_style="Heavy Movement"'
-
-with open(file, 'r') as f:
-    data = f.read()
-    f.close()
 
 profiles = []
 
@@ -32,6 +26,21 @@ for value in reports.reports:
     profiles.append(profile)
 
 for value in profiles:
+    if "da1" in value:
+        file = 'talents_DA_1.simc'
+    if "da2" in value:
+        file = 'talents_DA_2.simc'
+    if "lotv1" in value:
+        file = 'talents_LotV_1.simc'
+    if "lotv2" in value:
+        file = 'talents_LotV_2.simc'
+    if "stm1" in value:
+        file = 'talents_STM_1.simc'
+    if "stm2" in value:
+        file = 'talents_STM_2.simc'
+    with open(file, 'r') as f:
+        data = f.read()
+        f.close()
     settings = '\n'
     if "pw" in value:
         settings = settings + patchwerk + "\n"

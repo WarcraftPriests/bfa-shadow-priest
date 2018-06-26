@@ -1,0 +1,171 @@
+priest="Base"
+level=120
+#race=troll
+role=spell
+position=back
+spec=shadow
+
+default_actions=1
+
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+neck=,id=158075
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+# DA
+# LI
+# AS
+# ToF
+# FotM
+copy="FotM_ToF_AS_LI_DA","Base"
+talents=1111112
+# SI
+copy="SI_ToF_AS_LI_DA","Base"
+talents=2111112
+# SWV
+copy="SWV_ToF_AS_LI_DA","Base"
+talents=3111112
+# Mis
+# FotM
+copy="FotM_Mis_AS_LI_DA","Base"
+talents=1121112
+# SI
+copy="SI_Mis_AS_LI_DA","Base"
+talents=2121112
+# SWV
+copy="SWV_Mis_AS_LI_DA","Base"
+talents=3121112
+# DV
+# FotM
+copy="FotM_DV_AS_LI_DA","Base"
+talents=1131112
+# SI
+copy="SI_DV_AS_LI_DA","Base"
+talents=2131112
+# SWV
+copy="SWV_DV_AS_LI_DA","Base"
+talents=3131112
+# SWD
+# ToF
+# FotM
+copy="FotM_ToF_SWD_LI_DA","Base"
+talents=1111212
+# SI
+copy="SI_ToF_SWD_LI_DA","Base"
+talents=2111212
+# SWV
+copy="SWV_ToF_SWD_LI_DA","Base"
+talents=3111212
+# Mis
+# FotM
+copy="FotM_Mis_SWD_LI_DA","Base"
+talents=1121212
+# SI
+copy="SI_Mis_SWD_LI_DA","Base"
+talents=2121212
+# SWV
+copy="SWV_Mis_SWD_LI_DA","Base"
+talents=3121212
+# DV
+# FotM
+copy="FotM_DV_SWD_LI_DA","Base"
+talents=1131212
+# SI
+copy="SI_DV_SWD_LI_DA","Base"
+talents=2131212
+# SWV
+copy="SWV_DV_SWD_LI_DA","Base"
+talents=3131212
+# SC
+# ToF
+# FotM
+copy="FotM_ToF_SC_LI_DA","Base"
+talents=1111312
+# SI
+copy="SI_ToF_SC_LI_DA","Base"
+talents=2111312
+# SWV
+copy="SWV_ToF_SC_LI_DA","Base"
+talents=3111312
+# Mis
+# FotM
+copy="FotM_Mis_SC_LI_DA","Base"
+talents=1121312
+# SI
+copy="SI_Mis_SC_LI_DA","Base"
+talents=2121312
+# SWV
+copy="SWV_Mis_SC_LI_DA","Base"
+talents=3121312
+# DV
+# FotM
+copy="FotM_DV_SC_LI_DA","Base"
+talents=1131312
+# SI
+copy="SI_DV_SC_LI_DA","Base"
+talents=2131312
+# SWV
+copy="SWV_DV_SC_LI_DA","Base"
+talents=3131312
+# MB
+# AS
+# ToF
+# FotM
+copy="FotM_ToF_AS_MB_DA","Base"
+talents=1111122
+# SI
+copy="SI_ToF_AS_MB_DA","Base"
+talents=2111122
+# SWV
+copy="SWV_ToF_AS_MB_DA","Base"
+talents=3111122
+# Mis
+# FotM
+copy="FotM_Mis_AS_MB_DA","Base"
+talents=1121122
+# SI
+copy="SI_Mis_AS_MB_DA","Base"
+talents=2121122
+# SWV
+copy="SWV_Mis_AS_MB_DA","Base"
+talents=3121122
+# DV
+# FotM
+copy="FotM_DV_AS_MB_DA","Base"
+talents=1131122
+# SI
+copy="SI_DV_AS_MB_DA","Base"
+talents=2131122
+# SWV
+copy="SWV_DV_AS_MB_DA","Base"
+talents=3131122
+# SWD
+# ToF
+# FotM
+copy="FotM_ToF_SWD_MB_DA","Base"
+talents=1111222
+# SI
+copy="SI_ToF_SWD_MB_DA","Base"
+talents=2111222
+# SWV
+copy="SWV_ToF_SWD_MB_DA","Base"
+talents=3111222
+# Mis
+# FotM
+copy="FotM_Mis_SWD_MB_DA","Base"
+talents=1121222
+
+single_actor_batch=1
+calculate_scale_factors="1"
+scale_only="strength,intellect,agility,crit,mastery,vers,haste"
