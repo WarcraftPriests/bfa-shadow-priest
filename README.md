@@ -24,3 +24,4 @@ This repo includes scripts and sims for shadow priests.
 - [consumables](https://docs.google.com/spreadsheets/d/1vPeHRUBw8BeYRp25GRKAmdV7qvPs081sQTe_qIiPsbI/edit?usp=sharing)
 - [enchants](https://docs.google.com/spreadsheets/d/1rxQETXpLDykysRiSPwIZmXa6L0UtkRs-VMZbduO2qAQ/edit?usp=sharing)
 - [APL Tests](https://docs.google.com/spreadsheets/d/1f07RQKAnI7XXuMT1vpeWMJ69jEh9nBS-0SMfjy28u40/edit?usp=sharing)
+- [antorus composite scaling](https://docs.google.com/spreadsheets/d/1xfME0P6LKmI541Ma6NE7b5XahWu-rxdFUSHy0Y-MoCM/edit?usp=sharing)
