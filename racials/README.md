@@ -1,0 +1,20 @@
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Undead|12378|1.38%|
+|Draenei|12354|1.18%|
+|Gnome|12349|1.14%|
+|Goblin|12347|1.13%|
+|Night_Elf_Haste|12339|1.06%|
+|Blood_Elf|12336|1.04%|
+|Night_Elf_Crit|12333|1.01%|
+|Void_Elf|12331|0.99%|
+|Worgen|12329|0.98%|
+|Nightborne|12325|0.94%|
+|Panda|12319|0.90%|
+|Human|12315|0.86%|
+|Dwarf|12294|0.70%|
+|Tauren|12293|0.69%|
+|Lightforged_Draenei|12215|0.04%|
+|Dark_Iron_Dwarf|12211|0.01%|
+|Base|12210|0.00%|
+|Troll|12205|-0.03%|

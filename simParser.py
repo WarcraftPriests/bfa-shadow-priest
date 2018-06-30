@@ -88,9 +88,10 @@ def main():
             parses += 'profile'+separator
         if not options.hideActors:
             parses += 'actor'+separator
-        parses += 'DD'+separator+'DPS\n'
         if not options.dpsOnly:
-            parses +=separator+'int'+separator+'haste'+separator+'crit'+separator+'mastery'+separator+'vers\n'
+            parses += 'DD'+separator+'DPS'+separator+'int'+separator+'haste'+separator+'crit'+separator+'mastery'+separator+'vers\n'
+        else:
+            parses += 'DD'+separator+'DPS\n'
 
     for filename in os.listdir(os.getcwd()):
         if filename.startswith(options.prefix) and filename.endswith('.json'):

@@ -13,7 +13,7 @@ def getChange(current, previous):
     except ZeroDivisionError:
         return 0
 
-data = pandas.read_csv("azerite-traits/results/statweights.txt",usecols=['profile','actor','DD','DPS'])
+data = pandas.read_csv("enchants/results/statweights.txt",usecols=['profile','actor','DD','DPS'])
 
 weights = {
     'pw_ba_1': 0.04090909091,
@@ -49,7 +49,7 @@ for value in data.iterrows():
 
 baseDPS = results.get('Base')
 
-with open('azerite-traits/README.md', 'w') as file:
+with open('enchants/README.md', 'w') as file:
     file.write('| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
     for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
         file.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
