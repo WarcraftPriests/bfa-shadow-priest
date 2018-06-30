@@ -1,10 +1,15 @@
 import pandas
 
 def getChange(current, previous):
-    if current == previous:
-        return 100.0
+    negative = 0
+    if current < previous:
+        negative = True
     try:
-        return (abs(current - previous) / previous) * 100.0
+        value = (abs(current - previous) / previous) * 100.0
+        value = float('%.2f' % value)
+        if value >= 0.01 and negative:
+            value = value * -1
+        return value
     except ZeroDivisionError:
         return 0
 
@@ -49,5 +54,4 @@ keyList.sort()
 with open('README.md', 'w') as file:
     file.write('| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
     for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
-        # print "%s: %s" % (key, value)
         file.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
