@@ -94,6 +94,15 @@ if args.dir == "talents/":
     results['Base'] = baseDPS
     baseDPSSingle = resultsSingle.get('Base') / 3
     resultsSingle['Base'] = baseDPSSingle
+elif args.dir == "gear/":
+    baseDPS = results.get('Priest_Shadow_T22N')
+    baseDPSSingle = resultsSingle.get('Priest_Shadow_T22N')
+    if not baseDPS:
+        baseDPS = results.get('Priest_Shadow_T22H')
+        baseDPSSingle = resultsSingle.get('Priest_Shadow_T22H')
+        if not baseDPS:
+            baseDPS = results.get('Priest_Shadow_T22M')
+            baseDPSSingle = resultsSingle.get('Priest_Shadow_T22M')
 else:
     baseDPS = results.get('Base')
     baseDPSSingle = resultsSingle.get('Base')
