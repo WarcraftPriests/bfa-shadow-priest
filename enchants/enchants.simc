@@ -25,22 +25,21 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
 # Ring Enchants
-profileset."Ring-Vers-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9vers
+profileset."Ring-Vers-37"+=neck=,id=158075,enchant=37vers
 
-profileset."Ring-Mast-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9mastery
+profileset."Ring-Mast-37"+=neck=,id=158075,enchant=37mastery
 
-profileset."Ring-Crit-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9crit
+profileset."Ring-Crit-37"+=neck=,id=158075,enchant=37crit
 
-profileset."Ring-Haste-9"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=9haste
+profileset."Ring-Haste-37"+=neck=,id=158075,enchant=37haste
 
-# Neck Enchants
-profileset."Neck-Vers-9"+=neck=,id=158075,enchant=9vers
+profileset."Ring-Vers-27"+=neck=,id=158075,enchant=27vers
 
-profileset."Neck-Mast-9"+=neck=,id=158075,enchant=9mastery
+profileset."Ring-Mast-27"+=neck=,id=158075,enchant=27mastery
 
-profileset."Neck-Crit-9"+=neck=,id=158075,enchant=9crit
+profileset."Ring-Crit-27"+=neck=,id=158075,enchant=27crit
 
-profileset."Neck-Haste-9"+=neck=,id=158075,enchant=9haste
+profileset."Ring-Haste-27"+=neck=,id=158075,enchant=27haste
 
 # Weapon Enchants
 # Not working?
@@ -56,6 +55,3 @@ profileset."Weapon-Quick-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=16
 profileset."Weapon-Masterful-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=masterful_navigation
 
 profileset."Weapon-Versatile-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=versatile_navigation
-
-# Cloak Enchants
-profileset."Cloak-Intellect-9"+=back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507,enchant=7int
