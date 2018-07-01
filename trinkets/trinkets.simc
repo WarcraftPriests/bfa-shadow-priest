@@ -25,6 +25,8 @@ off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 # Uldir Trinkets
 profileset."Vigilant's Bloodshaper 355"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
 profileset."Tear of the Void 355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
+profileset."Twitching Tentacle of Xalzaix 355"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4798/1477
+profileset."Vanquished Tendril of G'huun 355"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4798/1477
 
 # Rare Elite Trinkets
 profileset."Azurethos' Singed Plumage 355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4798/1477
@@ -32,39 +34,33 @@ profileset."T'zane's Barkspines 355"+=trinket1=tzanes_barkspines,id=161411,bonus
 profileset."Wing Bone of the Budding Tempest 355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
 
 # PvP Trinkets
-profileset."Doom's Hatred 355"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
-profileset."Lion's Grace 355"+=trinket1=lions_grace,id=161472,bonus_id=5119/1492
-profileset."Dread Gladiator's Medallion 355"+=
-profileset."Dread Gladiator's Emblem 355"+=
-profileset."Dread Combatant's Medallion 355"+=
-profileset."Dread Combatant's Emblem 355"+=
+profileset."Doom's Hatred 355"+=trinket1=dooms_hatred,id=161461,bonus_id=4798/1477
+profileset."Lion's Grace 355"+=trinket1=lions_grace,id=161472,bonus_id=4798/1477
+profileset."Dread Gladiator's Medallion 355"+=trinket1=dread_gladiators_medallion,id=161674,bonus_id=4798/1477
+profileset."Dread Gladiator's Emblem 355"+=trinket1=dread_gladiators_emblem,id=161675,bonus_id=4798/1477
 
 # Dungeon trinkets
-profileset."Vessel of Skittering Shadows 355"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4777/1482
-profileset."Ignition Mage's Fuse 355"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4777/1482
-profileset."Conch of Dark Whispers 355"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4777/1482
-profileset."Hadal's Nautilus 355"+=trinket1=hadals_nautilus,id=159622,bonus_id=4777/1482
-profileset."Rotcrusted Voodoo Doll 355"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4777/1482
-profileset."Lady Waycrest's Music Box 355"+=
+profileset."Vessel of Skittering Shadows 355"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4798/1477
+profileset."Ignition Mage's Fuse 355"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4798/1477
+profileset."Conch of Dark Whispers 355"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4798/1477
+profileset."Hadal's Nautilus 355"+=trinket1=hadals_nautilus,id=159622,bonus_id=4798/1477
+profileset."Rotcrusted Voodoo Doll 355"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4798/1477
+profileset."Lady Waycrest's Music Box 355"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=4798/1477
 
 # Questing Trinkets
-profileset."Galewind Chimes 355"+=
-profileset."Emblam of Zandalar 355"+=
-profileset."Pearl Diver's Compass 355"+=
-profileset."First Mate's Spyglass 355"+=
-profileset."Living Oil Cannister 355"+=
-profileset."Vial of Storms 355"+=
-profileset."Doom Shroom 355"+=
-profileset."Snowpelt Mangler 355"+=
-profileset."Incessantly Ticking Clock 355"+=
-profileset."Berserker's Juju 355"+=
-profileset."Ravasaur Skull Bijou 355"+=
-profileset."Kaja-fied Banana 355"+=
+profileset."Galewind Chimes 355"+=trinket1=galewind_chimes,id=155568,bonus_id=4798/1477
+profileset."Emblam of Zandalar 355"+=trinket1=emblem_of_zandalar,id=158154,bonus_id=4798/1477
+profileset."Pearl Diver's Compass 355"+=trinket1=pearl_divers_compass,id=158162,bonus_id=4798/1477
+profileset."First Mate's Spyglass 355"+=trinket1=first_mates_spyglass,id=158163,bonus_id=4798/1477
+profileset."Living Oil Cannister 355"+=trinket1=living_oil_cannister,id=158216,bonus_id=4798/1477
+profileset."Vial of Storms 355"+=trinket1=vial_of_storms,id=158224,bonus_id=4798/1477
+profileset."Doom Shroom 355"+=trinket1=doom_shroom,id=158555,bonus_id=4798/1477
+profileset."Snowpelt Mangler 355"+=trinket1=snowpelt_mangler,id=160263,bonus_id=4798/1477
+profileset."Incessantly Ticking Clock 355"+=trinket1=incessantly_ticking_clock,id=161113,bonus_id=4798/1477
+profileset."Berserker's Juju 355"+=trinket1=berserkers_juju,id=161117,bonus_id=4798/1477
+profileset."Ravasaur Skull Bijou 355"+=trinket1=ravasaur_skull_bijou,id=161119,bonus_id=4798/1477
+profileset."Kaja-fied Banana 355"+=trinket1=kaja_fied_banana,id=161125,bonus_id=4798/1477
 
 # Misc Trinkets
-profileset."Crit Stick 355"+=
-profileset."Mastery Stick 355"+=
-profileset."Vers Stick 355"+=
-profileset."Haste Stick 355"+=
-profileset."Leyshock's Grand Compilation 355"+=trinket1=leyshocks_grand_compilation,id=163937
-profileset."Darkmoon Deck: Squalls 355"+=trinket1=darkmoon_deck__squalls,id=159126
+profileset."Leyshock's Grand Compilation 355"+=trinket1=leyshocks_grand_compilation,id=163937,bonus_id=4798/1477
+profileset."Darkmoon Deck: Squalls 355"+=trinket1=darkmoon_deck__squalls,id=159126,bonus_id=4798/1477
