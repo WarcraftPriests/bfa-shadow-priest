@@ -17,11 +17,11 @@ This repo includes scripts and sims for shadow priests.
 ```
 
 ## Results
-- [talents](https://docs.google.com/spreadsheets/d/1KG77iYgMBnWpYEaSKfTR1Fh3_WEh8FB3jQDUUSY5Im4/edit?usp=sharing)
-- [bulk weights](https://docs.google.com/spreadsheets/d/1cP_9mOss69hTSYrp7DOELdDwRFbaEhHt_P5yjOmmAaQ/edit?usp=sharing)
-- [azerite traits](https://docs.google.com/spreadsheets/d/1N1WAUhSFh96S-W3rLqvJJenzIhns7FiONV7G4M7zWIc/edit?usp=sharing)
-- [racials](https://docs.google.com/spreadsheets/d/1OBwalI1I3I-hiVtvT1Khe3e9Zx-4ukN1llA0EbPPg7I/edit?usp=sharing)
-- [consumables](https://docs.google.com/spreadsheets/d/1vPeHRUBw8BeYRp25GRKAmdV7qvPs081sQTe_qIiPsbI/edit?usp=sharing)
-- [enchants](https://docs.google.com/spreadsheets/d/1rxQETXpLDykysRiSPwIZmXa6L0UtkRs-VMZbduO2qAQ/edit?usp=sharing)
-- [APL Tests](https://docs.google.com/spreadsheets/d/1f07RQKAnI7XXuMT1vpeWMJ69jEh9nBS-0SMfjy28u40/edit?usp=sharing)
+- [talents](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/talents)
+- [bulk weights](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/stats)
+- [azerite traits](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/azerite-traits)
+- [racials](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/racials)
+- [consumables](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/consumables)
+- [enchants](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/enchants)
+- [APL Tests](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/apl)
 - [antorus composite scaling](https://docs.google.com/spreadsheets/d/1xfME0P6LKmI541Ma6NE7b5XahWu-rxdFUSHy0Y-MoCM/edit?usp=sharing)
