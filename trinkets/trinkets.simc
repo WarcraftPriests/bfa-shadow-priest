@@ -1,0 +1,70 @@
+priest="Base"
+level=120
+role=spell
+position=back
+talents=1111321
+spec=shadow
+
+default_actions=1
+
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+neck=,id=158075
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+
+# Uldir Trinkets
+profileset."Vigilant's Bloodshaper 355"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
+profileset."Tear of the Void 355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
+
+# Rare Elite Trinkets
+profileset."Azurethos' Singed Plumage 355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4798/1477
+profileset."T'zane's Barkspines 355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=4798/1477
+profileset."Wing Bone of the Budding Tempest 355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
+
+# PvP Trinkets
+profileset."Doom's Hatred 355"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
+profileset."Lion's Grace 355"+=trinket1=lions_grace,id=161472,bonus_id=5119/1492
+profileset."Dread Gladiator's Medallion 355"+=
+profileset."Dread Gladiator's Emblem 355"+=
+profileset."Dread Combatant's Medallion 355"+=
+profileset."Dread Combatant's Emblem 355"+=
+
+# Dungeon trinkets
+profileset."Vessel of Skittering Shadows 355"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4777/1482
+profileset."Ignition Mage's Fuse 355"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4777/1482
+profileset."Conch of Dark Whispers 355"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4777/1482
+profileset."Hadal's Nautilus 355"+=trinket1=hadals_nautilus,id=159622,bonus_id=4777/1482
+profileset."Rotcrusted Voodoo Doll 355"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4777/1482
+profileset."Lady Waycrest's Music Box 355"+=
+
+# Questing Trinkets
+profileset."Galewind Chimes 355"+=
+profileset."Emblam of Zandalar 355"+=
+profileset."Pearl Diver's Compass 355"+=
+profileset."First Mate's Spyglass 355"+=
+profileset."Living Oil Cannister 355"+=
+profileset."Vial of Storms 355"+=
+profileset."Doom Shroom 355"+=
+profileset."Snowpelt Mangler 355"+=
+profileset."Incessantly Ticking Clock 355"+=
+profileset."Berserker's Juju 355"+=
+profileset."Ravasaur Skull Bijou 355"+=
+profileset."Kaja-fied Banana 355"+=
+
+# Misc Trinkets
+profileset."Crit Stick 355"+=
+profileset."Mastery Stick 355"+=
+profileset."Vers Stick 355"+=
+profileset."Haste Stick 355"+=
+profileset."Leyshock's Grand Compilation 355"+=trinket1=leyshocks_grand_compilation,id=163937
+profileset."Darkmoon Deck: Squalls 355"+=trinket1=darkmoon_deck__squalls,id=159126

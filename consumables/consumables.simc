@@ -26,7 +26,7 @@ off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 food=test
 augmentation=test
 
-# profileset."Potion"+=potion=prolonged_power
+profileset."Potion"+=potion=battle_potion_of_intellect
 
 profileset."Battle-Scarred Augment Rune"+=augmentation=battle-scarred_augment_rune
 
@@ -37,6 +37,8 @@ profileset."Swamp_Fish_n_Chips"+=food=swamp_fish_n_chips
 profileset."Spiced_Snapper"+=food=spiced_snapper
 
 profileset."Sailors_Pie"+=food=sailors_pie
+
+profileset."Galley Banquet"+=food=galley_banquet
 
 # not working?
 # profileset."Bountiful_Captains_Feast_Haste"+=food=bountiful_captains_feast_haste

@@ -25,21 +25,13 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
 # Ring Enchants
-profileset."Ring-Vers-37"+=neck=,id=158075,enchant=37vers
+profileset."Ring-Vers-37"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=37vers
 
-profileset."Ring-Mast-37"+=neck=,id=158075,enchant=37mastery
+profileset."Ring-Mast-37"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=37mastery
 
-profileset."Ring-Crit-37"+=neck=,id=158075,enchant=37crit
+profileset."Ring-Crit-37"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=37crit
 
-profileset."Ring-Haste-37"+=neck=,id=158075,enchant=37haste
-
-profileset."Ring-Vers-27"+=neck=,id=158075,enchant=27vers
-
-profileset."Ring-Mast-27"+=neck=,id=158075,enchant=27mastery
-
-profileset."Ring-Crit-27"+=neck=,id=158075,enchant=27crit
-
-profileset."Ring-Haste-27"+=neck=,id=158075,enchant=27haste
+profileset."Ring-Haste-37"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=37haste
 
 # Weapon Enchants
 # Not working?
