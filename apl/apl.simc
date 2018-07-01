@@ -70,7 +70,7 @@ actions.aoe+=/dark_void
 actions.aoe+=/shadowfiend
 actions.aoe+=/mindbender
 actions.aoe+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
-actions.single+=/mind_sear,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
+actions.aoe+=/mind_sear,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 actions.aoe+=/shadow_word_pain
 
 actions.cleave=void_eruption
