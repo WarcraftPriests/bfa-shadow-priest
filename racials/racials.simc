@@ -61,3 +61,6 @@ profileset."Troll"+=race=troll
 profileset."Blood_Elf"+=race=blood_elf
 
 profileset."Dark_Iron_Dwarf"+=race=dark_iron_dwarf
+
+# TODO: Needs implemented in simc module
+# profileset."Maghar_Orc"+=race=maghar_orc
