@@ -23,44 +23,133 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
 # Uldir Trinkets
-profileset."Vigilant's Bloodshaper 355"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
-profileset."Tear of the Void 355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
-profileset."Twitching Tentacle of Xalzaix 355"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4798/1477
-profileset."Vanquished Tendril of G'huun 355"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4798/1477
+profileset."Vigilants_Bloodshaper_355"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
+profileset."Tear_of_the_Void_355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
+profileset."Twitching_Tentacle_of_Xalzaix_355"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4798/1477
+profileset."Vanquished_Tendril_of_Ghuun_355"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4798/1477
 
 # Rare Elite Trinkets
-profileset."Azurethos' Singed Plumage 355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4798/1477
-profileset."T'zane's Barkspines 355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=4798/1477
-profileset."Wing Bone of the Budding Tempest 355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
-
-# PvP Trinkets
-profileset."Doom's Hatred 355"+=trinket1=dooms_hatred,id=161461,bonus_id=4798/1477
-profileset."Lion's Grace 355"+=trinket1=lions_grace,id=161472,bonus_id=4798/1477
-profileset."Dread Gladiator's Medallion 355"+=trinket1=dread_gladiators_medallion,id=161674,bonus_id=4798/1477
-profileset."Dread Gladiator's Emblem 355"+=trinket1=dread_gladiators_emblem,id=161675,bonus_id=4798/1477
+profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4798/1477
+profileset."Tzanes_Barkspines_355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=4798/1477
+profileset."Wing_Bone_of_the_Budding_Tempest_355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
 
 # Dungeon trinkets
-profileset."Vessel of Skittering Shadows 355"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4798/1477
-profileset."Ignition Mage's Fuse 355"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4798/1477
-profileset."Conch of Dark Whispers 355"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4798/1477
-profileset."Hadal's Nautilus 355"+=trinket1=hadals_nautilus,id=159622,bonus_id=4798/1477
-profileset."Rotcrusted Voodoo Doll 355"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4798/1477
-profileset."Lady Waycrest's Music Box 355"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=4798/1477
+profileset."Vessel_of_Skittering_Shadows_310"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4777/1482
+profileset."Vessel_of_Skittering_Shadows_315"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1487/4777
+profileset."Vessel_of_Skittering_Shadows_320"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1492/4777
+profileset."Vessel_of_Skittering_Shadows_325"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1497/4777
+profileset."Vessel_of_Skittering_Shadows_330"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1502/4777
+profileset."Vessel_of_Skittering_Shadows_335"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1507/4777
+profileset."Vessel_of_Skittering_Shadows_340"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1512/4777
+profileset."Vessel_of_Skittering_Shadows_345"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1517/4777
+profileset."Vessel_of_Skittering_Shadows_350"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1522/4777
+profileset."Vessel_of_Skittering_Shadows_355"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1527/4777
+profileset."Vessel_of_Skittering_Shadows_360"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1532/4777
+profileset."Vessel_of_Skittering_Shadows_365"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1537/4777
+profileset."Vessel_of_Skittering_Shadows_370"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1542/4777
+profileset."Vessel_of_Skittering_Shadows_375"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1547/4777
+profileset."Vessel_of_Skittering_Shadows_380"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1552/4777
+profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1557/4777
+
+profileset."Ignition_Mages_Fuse_310"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4777/1482
+profileset."Ignition_Mages_Fuse_315"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1487/4777
+profileset."Ignition_Mages_Fuse_320"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1492/4777
+profileset."Ignition_Mages_Fuse_325"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1497/4777
+profileset."Ignition_Mages_Fuse_330"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1502/4777
+profileset."Ignition_Mages_Fuse_335"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1507/4777
+profileset."Ignition_Mages_Fuse_340"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1512/4777
+profileset."Ignition_Mages_Fuse_345"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1517/4777
+profileset."Ignition_Mages_Fuse_350"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1522/4777
+profileset."Ignition_Mages_Fuse_355"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1527/4777
+profileset."Ignition_Mages_Fuse_360"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1532/4777
+profileset."Ignition_Mages_Fuse_365"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1537/4777
+profileset."Ignition_Mages_Fuse_370"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1542/4777
+profileset."Ignition_Mages_Fuse_375"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1547/4777
+profileset."Ignition_Mages_Fuse_380"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1552/4777
+profileset."Ignition_Mages_Fuse_385"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1557/4777
+
+profileset."Conch_of_Dark_Whispers_310"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4777/1482
+profileset."Conch_of_Dark_Whispers_315"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1487/4777
+profileset."Conch_of_Dark_Whispers_320"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1492/4777
+profileset."Conch_of_Dark_Whispers_325"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1497/4777
+profileset."Conch_of_Dark_Whispers_330"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1502/4777
+profileset."Conch_of_Dark_Whispers_335"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1507/4777
+profileset."Conch_of_Dark_Whispers_340"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1512/4777
+profileset."Conch_of_Dark_Whispers_345"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1517/4777
+profileset."Conch_of_Dark_Whispers_350"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1522/4777
+profileset."Conch_of_Dark_Whispers_355"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1527/4777
+profileset."Conch_of_Dark_Whispers_360"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1532/4777
+profileset."Conch_of_Dark_Whispers_365"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1537/4777
+profileset."Conch_of_Dark_Whispers_370"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1542/4777
+profileset."Conch_of_Dark_Whispers_375"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1547/4777
+profileset."Conch_of_Dark_Whispers_380"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1552/4777
+profileset."Conch_of_Dark_Whispers_385"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1557/4777
+
+profileset."Hadals_Nautilus_310"+=trinket1=hadals_nautilus,id=159622,bonus_id=4777/1482
+profileset."Hadals_Nautilus_315"+=trinket1=hadals_nautilus,id=159622,bonus_id=1487/4777
+profileset."Hadals_Nautilus_320"+=trinket1=hadals_nautilus,id=159622,bonus_id=1492/4777
+profileset."Hadals_Nautilus_325"+=trinket1=hadals_nautilus,id=159622,bonus_id=1497/4777
+profileset."Hadals_Nautilus_330"+=trinket1=hadals_nautilus,id=159622,bonus_id=1502/4777
+profileset."Hadals_Nautilus_335"+=trinket1=hadals_nautilus,id=159622,bonus_id=1507/4777
+profileset."Hadals_Nautilus_340"+=trinket1=hadals_nautilus,id=159622,bonus_id=1512/4777
+profileset."Hadals_Nautilus_345"+=trinket1=hadals_nautilus,id=159622,bonus_id=1517/4777
+profileset."Hadals_Nautilus_350"+=trinket1=hadals_nautilus,id=159622,bonus_id=1522/4777
+profileset."Hadals_Nautilus_355"+=trinket1=hadals_nautilus,id=159622,bonus_id=1527/4777
+profileset."Hadals_Nautilus_360"+=trinket1=hadals_nautilus,id=159622,bonus_id=1532/4777
+profileset."Hadals_Nautilus_365"+=trinket1=hadals_nautilus,id=159622,bonus_id=1537/4777
+profileset."Hadals_Nautilus_370"+=trinket1=hadals_nautilus,id=159622,bonus_id=1542/4777
+profileset."Hadals_Nautilus_375"+=trinket1=hadals_nautilus,id=159622,bonus_id=1547/4777
+profileset."Hadals_Nautilus_380"+=trinket1=hadals_nautilus,id=159622,bonus_id=1552/4777
+profileset."Hadals_Nautilus_385"+=trinket1=hadals_nautilus,id=159622,bonus_id=1557/4777
+
+profileset."Rotcrusted_Voodoo_Doll_310"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4777/1482
+profileset."Rotcrusted_Voodoo_Doll_315"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1487/4777
+profileset."Rotcrusted_Voodoo_Doll_320"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1492/4777
+profileset."Rotcrusted_Voodoo_Doll_325"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1497/4777
+profileset."Rotcrusted_Voodoo_Doll_330"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1502/4777
+profileset."Rotcrusted_Voodoo_Doll_335"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1507/4777
+profileset."Rotcrusted_Voodoo_Doll_340"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1512/4777
+profileset."Rotcrusted_Voodoo_Doll_345"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1517/4777
+profileset."Rotcrusted_Voodoo_Doll_350"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1522/4777
+profileset."Rotcrusted_Voodoo_Doll_355"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1527/4777
+profileset."Rotcrusted_Voodoo_Doll_360"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1532/4777
+profileset."Rotcrusted_Voodoo_Doll_365"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1537/4777
+profileset."Rotcrusted_Voodoo_Doll_370"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1542/4777
+profileset."Rotcrusted_Voodoo_Doll_375"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1547/4777
+profileset."Rotcrusted_Voodoo_Doll_380"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1552/4777
+profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1557/4777
+
+profileset."Lady_Waycrests_Music_Box_310"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=4777/1482
+profileset."Lady_Waycrests_Music_Box_315"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1487/4777
+profileset."Lady_Waycrests_Music_Box_320"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1492/4777
+profileset."Lady_Waycrests_Music_Box_325"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1497/4777
+profileset."Lady_Waycrests_Music_Box_330"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1502/4777
+profileset."Lady_Waycrests_Music_Box_335"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1507/4777
+profileset."Lady_Waycrests_Music_Box_340"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1512/4777
+profileset."Lady_Waycrests_Music_Box_345"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1517/4777
+profileset."Lady_Waycrests_Music_Box_350"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1522/4777
+profileset."Lady_Waycrests_Music_Box_355"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1527/4777
+profileset."Lady_Waycrests_Music_Box_360"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1532/4777
+profileset."Lady_Waycrests_Music_Box_365"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1537/4777
+profileset."Lady_Waycrests_Music_Box_370"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1542/4777
+profileset."Lady_Waycrests_Music_Box_375"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1547/4777
+profileset."Lady_Waycrests_Music_Box_380"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1552/4777
+profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1557/4777
 
 # Questing Trinkets
-profileset."Galewind Chimes 355"+=trinket1=galewind_chimes,id=155568,bonus_id=4798/1477
-profileset."Emblam of Zandalar 355"+=trinket1=emblem_of_zandalar,id=158154,bonus_id=4798/1477
-profileset."Pearl Diver's Compass 355"+=trinket1=pearl_divers_compass,id=158162,bonus_id=4798/1477
-profileset."First Mate's Spyglass 355"+=trinket1=first_mates_spyglass,id=158163,bonus_id=4798/1477
-profileset."Living Oil Cannister 355"+=trinket1=living_oil_cannister,id=158216,bonus_id=4798/1477
-profileset."Vial of Storms 355"+=trinket1=vial_of_storms,id=158224,bonus_id=4798/1477
-profileset."Doom Shroom 355"+=trinket1=doom_shroom,id=158555,bonus_id=4798/1477
-profileset."Snowpelt Mangler 355"+=trinket1=snowpelt_mangler,id=160263,bonus_id=4798/1477
-profileset."Incessantly Ticking Clock 355"+=trinket1=incessantly_ticking_clock,id=161113,bonus_id=4798/1477
-profileset."Berserker's Juju 355"+=trinket1=berserkers_juju,id=161117,bonus_id=4798/1477
-profileset."Ravasaur Skull Bijou 355"+=trinket1=ravasaur_skull_bijou,id=161119,bonus_id=4798/1477
-profileset."Kaja-fied Banana 355"+=trinket1=kajafied_banana,id=161125,bonus_id=4798/1477
+profileset."Galewind_Chimes_280"+=trinket1=galewind_chimes,id=155568
+profileset."Emblam_of_Zandalar_280"+=trinket1=emblem_of_zandalar,id=158154
+profileset."Pearl_Divers_Compass_280"+=trinket1=pearl_divers_compass,id=158162
+profileset."First_Mates_Spyglass_280"+=trinket1=first_mates_spyglass,id=158163
+profileset."Living_Oil_Cannister_280"+=trinket1=living_oil_cannister,id=158216
+profileset."Vial_of_Storms_280"+=trinket1=vial_of_storms,id=158224
+profileset."Doom_Shroom_280"+=trinket1=doom_shroom,id=158555
+profileset."Snowpelt_Mangler_280"+=trinket1=snowpelt_mangler,id=160263
+profileset."Incessantly_Ticking_Clock_280"+=trinket1=incessantly_ticking_clock,id=161113
+profileset."Berserkers_Juju_280"+=trinket1=berserkers_juju,id=161117
+profileset."Ravasaur_Skull_Bijou_280"+=trinket1=ravasaur_skull_bijou,id=161119
+profileset."Kajafied_Banana_280"+=trinket1=kajafied_banana,id=161125
 
-# Misc Trinkets
-profileset."Leyshock's Grand Compilation 355"+=trinket1=leyshocks_grand_compilation,id=163937,bonus_id=4798/1477
-profileset."Darkmoon Deck: Squalls 355"+=trinket1=darkmoon_deck_squalls,id=159126,bonus_id=4798/1477
+# Misc Trinkets - Can't be increased?
+profileset."Leyshocks_Grand_Compilation_350"+=trinket1=leyshocks_grand_compilation,id=163937
+profileset."Darkmoon_Deck_Squalls_300"+=trinket1=darkmoon_deck__squalls,id=159126
