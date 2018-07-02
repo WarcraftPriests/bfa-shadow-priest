@@ -40,9 +40,4 @@ profileset."Sailors_Pie"+=food=sailors_pie
 
 profileset."Galley Banquet"+=food=galley_banquet
 
-# not working?
-# profileset."Bountiful_Captains_Feast_Haste"+=food=bountiful_captains_feast_haste
-# profileset."Bountiful_Captains_Feast_Crit"+=food=bountiful_captains_feast_crit
-# profileset."Bountiful_Captains_Feast_Mastery"+=food=bountiful_captains_feast_mastery
-# profileset."Bountiful_Captains_Feast_Versatility"+=food=bountiful_captains_feast_versatility
 profileset."Bountiful_Captains_Feast"+=food=bountiful_captains_feast
