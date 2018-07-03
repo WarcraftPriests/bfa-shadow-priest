@@ -1,9 +1,9 @@
 priest="Base"
+spec=shadow
 level=120
 role=spell
 position=back
 talents=1111321
-spec=shadow
 
 default_actions=1
 

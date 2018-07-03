@@ -22,17 +22,6 @@ finger2=rotscour_ring,id=160645,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 
-# Uldir Trinkets
-profileset."Vigilants_Bloodshaper_355"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
-profileset."Tear_of_the_Void_355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
-profileset."Twitching_Tentacle_of_Xalzaix_355"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4798/1477
-profileset."Vanquished_Tendril_of_Ghuun_355"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4798/1477
-
-# Rare Elite Trinkets
-profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4798/1477
-profileset."Tzanes_Barkspines_355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=4798/1477
-profileset."Wing_Bone_of_the_Budding_Tempest_355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
-
 # Dungeon trinkets
 profileset."Vessel_of_Skittering_Shadows_310"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4777/1482
 profileset."Vessel_of_Skittering_Shadows_315"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1487/4777
@@ -119,6 +108,23 @@ profileset."Rotcrusted_Voodoo_Doll_375"+=trinket1=rotcrusted_voodoo_doll,id=1596
 profileset."Rotcrusted_Voodoo_Doll_380"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1552/4777
 profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1557/4777
 
+profileset."Balefire_Branch_310"+=trinket1=balefire_branch,id=159630,bonus_id=4777/1482
+profileset."Balefire_Branch_315"+=trinket1=balefire_branch,id=159630,bonus_id=1487/4777
+profileset."Balefire_Branch_320"+=trinket1=balefire_branch,id=159630,bonus_id=1492/4777
+profileset."Balefire_Branch_325"+=trinket1=balefire_branch,id=159630,bonus_id=1497/4777
+profileset."Balefire_Branch_330"+=trinket1=balefire_branch,id=159630,bonus_id=1502/4777
+profileset."Balefire_Branch_335"+=trinket1=balefire_branch,id=159630,bonus_id=1507/4777
+profileset."Balefire_Branch_340"+=trinket1=balefire_branch,id=159630,bonus_id=1512/4777
+profileset."Balefire_Branch_345"+=trinket1=balefire_branch,id=159630,bonus_id=1517/4777
+profileset."Balefire_Branch_350"+=trinket1=balefire_branch,id=159630,bonus_id=1522/4777
+profileset."Balefire_Branch_355"+=trinket1=balefire_branch,id=159630,bonus_id=1527/4777
+profileset."Balefire_Branch_360"+=trinket1=balefire_branch,id=159630,bonus_id=1532/4777
+profileset."Balefire_Branch_365"+=trinket1=balefire_branch,id=159630,bonus_id=1537/4777
+profileset."Balefire_Branch_370"+=trinket1=balefire_branch,id=159630,bonus_id=1542/4777
+profileset."Balefire_Branch_375"+=trinket1=balefire_branch,id=159630,bonus_id=1547/4777
+profileset."Balefire_Branch_380"+=trinket1=balefire_branch,id=159630,bonus_id=1552/4777
+profileset."Balefire_Branch_385"+=trinket1=balefire_branch,id=159630,bonus_id=1557/4777
+
 profileset."Lady_Waycrests_Music_Box_310"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=4777/1482
 profileset."Lady_Waycrests_Music_Box_315"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1487/4777
 profileset."Lady_Waycrests_Music_Box_320"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1492/4777
@@ -135,21 +141,3 @@ profileset."Lady_Waycrests_Music_Box_370"+=trinket1=lady_waycrests_music_box,id=
 profileset."Lady_Waycrests_Music_Box_375"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1547/4777
 profileset."Lady_Waycrests_Music_Box_380"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1552/4777
 profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1557/4777
-
-# Questing Trinkets
-profileset."Galewind_Chimes_280"+=trinket1=galewind_chimes,id=155568
-profileset."Emblam_of_Zandalar_280"+=trinket1=emblem_of_zandalar,id=158154
-profileset."Pearl_Divers_Compass_280"+=trinket1=pearl_divers_compass,id=158162
-profileset."First_Mates_Spyglass_280"+=trinket1=first_mates_spyglass,id=158163
-profileset."Living_Oil_Cannister_280"+=trinket1=living_oil_cannister,id=158216
-profileset."Vial_of_Storms_280"+=trinket1=vial_of_storms,id=158224
-profileset."Doom_Shroom_280"+=trinket1=doom_shroom,id=158555
-profileset."Snowpelt_Mangler_280"+=trinket1=snowpelt_mangler,id=160263
-profileset."Incessantly_Ticking_Clock_280"+=trinket1=incessantly_ticking_clock,id=161113
-profileset."Berserkers_Juju_280"+=trinket1=berserkers_juju,id=161117
-profileset."Ravasaur_Skull_Bijou_280"+=trinket1=ravasaur_skull_bijou,id=161119
-profileset."Kajafied_Banana_280"+=trinket1=kajafied_banana,id=161125
-
-# Misc Trinkets - Can't be increased?
-profileset."Leyshocks_Grand_Compilation_350"+=trinket1=leyshocks_grand_compilation,id=163937
-profileset."Darkmoon_Deck_Squalls_300"+=trinket1=darkmoon_deck__squalls,id=159126
