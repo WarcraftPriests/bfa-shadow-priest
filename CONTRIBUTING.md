@@ -29,7 +29,7 @@ This project and everyone participating in it is governed by the [bfa-shadow-pri
 
 ## I don't want to read this whole thing I just have a question!!!
 
-* [Discord](https://discuss.atom.io)
+* [Discord](https://discord.gg/0f1Ta8lT8xZbLkBV)
 * [HowToPriest](https://howtopriest.com/)
 
 ## How Can I Contribute?
