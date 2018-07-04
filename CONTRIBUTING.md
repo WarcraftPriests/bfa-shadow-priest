@@ -18,7 +18,7 @@ What should I know before I get started?
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
-  * [Python Styleguide](#coffeescript-styleguide)
+  * [Python Styleguide](#python-styleguide)
 
 [Additional Notes](#additional-notes)
   * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
