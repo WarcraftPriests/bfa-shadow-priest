@@ -11,7 +11,8 @@ parser.add_argument('--weights', help='For sims ran with weights this flag will 
 args = parser.parse_args()
 
 csv = "%sresults/statweights.txt" % args.dir
-output = "%sREADME.md" % args.dir
+outputMarkdown = "%sREADME.md" % args.dir
+outputCSV = "%sresults.csv" % args.dir
 
 def getChange(current, previous):
     negative = 0
@@ -107,7 +108,8 @@ else:
     baseDPS = results.get('Base')
     baseDPSSingle = resultsSingle.get('Base')
 
-with open(output, 'w') as file:
+# README.md output
+with open(outputMarkdown, 'w') as file:
     # Antorus Composite
     if args.weights:
         file.write('# Antorus Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
@@ -126,3 +128,22 @@ with open(output, 'w') as file:
         file.write('\n# Single Target\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
         for key, value in sorted(resultsSingle.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             file.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPSSingle)))
+
+# results.csv output
+with open(outputCSV, 'w') as file:
+    # Antorus Composite
+    if args.weights:
+        file.write('profile,actor,DPS,int,haste,crit,mastery,vers\n')
+        for key, value in results.items():
+            file.write("composite,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+    else:
+        file.write('profile,actor,DPS,increase\n')
+        for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+            file.write("composite,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPS)))
+    # Single Target
+    if args.weights:
+        for key, value in resultsSingle.items():
+            file.write("single_target,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+    else:
+        for key, value in sorted(resultsSingle.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+            file.write("single_target,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPSSingle)))
