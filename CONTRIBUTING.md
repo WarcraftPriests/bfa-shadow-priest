@@ -44,7 +44,6 @@ Before creating issues, please check [this list](#before-submitting-an-issue) as
 
 #### Before Submitting an Issue
 
-* **Check the [FAQs on the forum](https://discuss.atom.io/c/faq)** for a list of common questions and problems.
 * **Check the [SimC repo for known issues](https://github.com/simulationcraft/simc/issues)** for a list of common questions and problems.
 * **Check the [WoW-BugTracker repo for known issues](https://github.com/SimCMinMax/WoW-BugTracker/issues)**
 
