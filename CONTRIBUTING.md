@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to bfa-shadow-priest, whic
 
 [Code of Conduct](#code-of-conduct)
 
-[What should I know before I get started?](#what-should-i-know-before-i-get-started)
+What should I know before I get started?
   * [SimulationCraft](https://github.com/simulationcraft/simc)
   * [Python Scripting](https://medium.com/the-renaissance-developer/python-101-the-basics-441136fb7cc3)
 
