@@ -38,7 +38,9 @@ profileset."Ring-Haste-37"+=finger1=band_of_certain_annihilation,id=160646,bonus
 profileset."Weapon-Torrent-of-Elements"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 
 # Not working?
-profileset."Weapon-Gale-Force-Striking"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=galeforce_striking
+profileset."Weapon-GaleForce-Striking"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=galeforce_striking
+profileset."Weapon-Gale-Force-Striking"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=gale-force_striking
+profileset."Weapon-Gale_Force-Striking"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=gale_force_striking
 
 profileset."Weapon-Deadly-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
 
