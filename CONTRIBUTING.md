@@ -100,14 +100,14 @@ Please open an issue if you have suggestions for new labels, and if you notice s
 
 | Label name | Link | Description |
 | ---------- | ---- | ----------- |
-| `enhancement` | [search][search-atom-repo-label-enhancement] | Feature requests. |
-| `bug` | [search][search-atom-repo-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search][search-atom-repo-label-question] | Question inside the issue needs to be answered. |
-| `help-wanted` | [search][search-atom-repo-label-help-wanted] | Needs someone to work on the issue |
-| `needs-reproduction` | [search][search-atom-repo-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | [search][search-atom-repo-label-blocked] | Issues blocked on other issues. |
-| `duplicate` | [search][search-atom-repo-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | [search][search-atom-repo-label-wontfix] | The Priest team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `analysis` | [search][search-atom-repo-label-wontfix] | The type of the issue requires analysis work. |
-| `apl` | [search][search-atom-repo-label-wontfix] | The type of the issue requires APL work. |
-| `simc module` | [search][search-atom-repo-label-wontfix] | The type of the issue requires simc module work. |
+| `enhancement` | [search][search-bfa-shadow-priest-repo-label-enhancement] | Feature requests. |
+| `bug` | [search][search-bfa-shadow-priest-repo-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | [search][search-bfa-shadow-priest-repo-label-question] | Question inside the issue needs to be answered. |
+| `help-wanted` | [search][search-bfa-shadow-priest-repo-label-help-wanted] | Needs someone to work on the issue |
+| `needs-reproduction` | [search][search-bfa-shadow-priest-repo-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
+| `blocked` | [search][search-bfa-shadow-priest-repo-label-blocked] | Issues blocked on other issues. |
+| `duplicate` | [search][search-bfa-shadow-priest-repo-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
+| `wontfix` | [search][search-bfa-shadow-priest-repo-label-wontfix] | The Priest team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `analysis` | [search][search-bfa-shadow-priest-repo-label-analysis] | The type of the issue requires analysis work. |
+| `apl` | [search][search-bfa-shadow-priest-repo-label-apl] | The type of the issue requires APL work. |
+| `simc module` | [search][search-bfa-shadow-priest-repo-label-simc-module] | The type of the issue requires simc module work. |
