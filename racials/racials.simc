@@ -1,11 +1,9 @@
-# TODO: Add on-use effects to the apl
 priest="Base"
 level=120
 role=spell
 position=back
 talents=1111321
 spec=shadow
-race=test
 
 default_actions=1
 

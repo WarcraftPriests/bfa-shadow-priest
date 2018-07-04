@@ -23,8 +23,8 @@ small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distanc
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
 
 patchwerk = 'fight_style="Patchwerk"'
-light_movement = 'fight_style="Light Movement"'
-heavy_movement = 'fight_style="Heavy Movement"'
+light_movement = 'fight_style="LightMovement"'
+heavy_movement = 'fight_style="HeavyMovement"'
 
 with open(file, 'r') as f:
     data = f.read()
