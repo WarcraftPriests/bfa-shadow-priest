@@ -84,7 +84,7 @@ while True:
   state = sim_status['job']['state']
   if (state == "complete"):
     eprint('Done')
-    break;
+    break
   if (state == "inactive"):
     eprint('In Queue')
   if (state == "active"):
