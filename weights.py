@@ -24,3 +24,27 @@ weightsSingle = {
     'lm_na_1': 0.5,
     'hm_na_1': 0.2,
 }
+
+weightsUldirHC = {
+    'HC_Taloc': 0.125,
+    'HC_Mother_Early': .0625,
+    'HC_Mother_Late': .0625,
+    'HC_FetidDevourer': 0.125,
+    'HC_Zekvoz': 0.125,
+    'HC_Vectis': 0.125,
+    'HC_Zul': 0.125,
+    'HC_Mythrax': 0.125,
+    'HC_Ghuun': 0.125,
+}
+
+weightsUldirMM = {
+    'HC_Taloc': 0.125,
+    'HC_Mother_Early': .0625,
+    'HC_Mother_Late': .0625,
+    'HC_FetidDevourer': 0.125,
+    'HC_Zekvoz': 0.125,
+    'HC_Vectis': 0.125,
+    'HC_Zul': 0.125,
+    'HC_Mythrax': 0.125,
+    'HC_Ghuun': 0.125,
+}

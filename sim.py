@@ -15,6 +15,7 @@ parser = argparse.ArgumentParser(description='Parses a list of reports from Raid
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
 parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is "smart"')
+parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 args = parser.parse_args()
 
 if args.weights:
@@ -31,10 +32,16 @@ import reports
 print "Running sims on {0} in {1}".format(version, args.dir)
 
 # determine sim files
-for value in reports.reports:
-    profile = value.replace('results', 'profiles')
-    profile = profile.replace('json', 'simc')
-    profiles.append(profile)
+if args.composite:
+    for value in reports.reportsRS:
+        profile = value.replace('results/_', 'profiles/%s_' % args.composite)
+        profile = profile.replace('json', 'simc')
+        profiles.append(profile)
+else:
+    for value in reports.reports:
+        profile = value.replace('results', 'profiles')
+        profile = profile.replace('json', 'simc')
+        profiles.append(profile)
 
 # determine existing jsons
 existing = listdir(args.dir + 'results/')
