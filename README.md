@@ -2,10 +2,6 @@
 
 This repo includes scripts and sims for shadow priests.
 
-![](https://i.imgur.com/tvDzLOG.gifv)
-[<img src="https://imgur.com/tvDzLOG">](https://imgur.com/tvDzLOG)
-https://i.imgur.com/tvDzLOG.gifv
-
 ## Documentation
 All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa-shadow-priest/wiki).
 
