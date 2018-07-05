@@ -27,18 +27,18 @@ for value in reports.reports:
 
 for value in profiles:
     if "da1" in value:
-        file = 'talents_DA_1.simc'
+        simc = 'talents_DA_1.simc'
     if "da2" in value:
-        file = 'talents_DA_2.simc'
+        simc = 'talents_DA_2.simc'
     if "lotv1" in value:
-        file = 'talents_LotV_1.simc'
+        simc = 'talents_LotV_1.simc'
     if "lotv2" in value:
-        file = 'talents_LotV_2.simc'
+        simc = 'talents_LotV_2.simc'
     if "stm1" in value:
-        file = 'talents_STM_1.simc'
+        simc = 'talents_STM_1.simc'
     if "stm2" in value:
-        file = 'talents_STM_2.simc'
-    with open(file, 'r') as f:
+        simc = 'talents_STM_2.simc'
+    with open(simc, 'r') as f:
         data = f.read()
         f.close()
     settings = '\n'

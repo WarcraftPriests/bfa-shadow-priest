@@ -11,13 +11,13 @@ for the_file in os.listdir(folder):
     except Exception as e:
         print(e)
 
-# file = 'Priest_Shadow_T22N.simc'
-#file = 'Priest_Shadow_T22H.simc'
-# file = 'Priest_Shadow_T22M.simc'
+# simc = 'Priest_Shadow_T22N.simc'
+# simc = 'Priest_Shadow_T22H.simc'
+# simc = 'Priest_Shadow_T22M.simc'
 
-# file = 'gear_combo_normal.simc'
-# file = 'gear_combo_heroic.simc'
-file = 'gear_combo_mythic.simc'
+# simc = 'gear_combo_normal.simc'
+# simc = 'gear_combo_heroic.simc'
+simc = 'gear_combo_mythic.simc'
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
@@ -26,7 +26,7 @@ patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
 
-with open(file, 'r') as f:
+with open(simc, 'r') as f:
     data = f.read()
     f.close()
 

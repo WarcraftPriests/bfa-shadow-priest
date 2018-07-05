@@ -27,12 +27,12 @@ for value in reports.reports:
 
 for value in profiles:
     if "dungeons" in value:
-        file = 'trinkets_dungeons.simc'
+        simc = 'trinkets_dungeons.simc'
     if "other" in value:
-        file = 'trinkets_other.simc'
+        simc = 'trinkets_other.simc'
     if "raid" in value:
-        file = 'trinkets_raid.simc'
-    with open(file, 'r') as f:
+        simc = 'trinkets_raid.simc'
+    with open(simc, 'r') as f:
         data = f.read()
         f.close()
     settings = '\n'
