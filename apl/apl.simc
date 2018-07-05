@@ -1,7 +1,6 @@
 priest="Base"
 spec=shadow
 level=120
-race=none
 role=spell
 position=back
 talents=3111321
@@ -102,7 +101,6 @@ off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 priest="New_APL"
 spec=shadow
 level=120
-race=none
 role=spell
 position=back
 talents=3111321
