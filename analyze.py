@@ -133,11 +133,11 @@ with open(outputMarkdown, 'w') as resultsMD:
 with open(outputCSV, 'w') as resultsCSV:
     # Antorus Composite
     if args.weights:
-        resultsCSV.write('profile,actor,DPS,int,haste,crit,mastery,vers\n')
+        resultsCSV.write('profile,actor,DPS,int,haste,crit,mastery,vers,\n')
         for key, value in results.items():
             resultsCSV.write("composite,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
     else:
-        resultsCSV.write('profile,actor,DPS,increase\n')
+        resultsCSV.write('profile,actor,DPS,increase,\n')
         for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             resultsCSV.write("composite,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
