@@ -36,15 +36,33 @@ heavy_movement = 'fight_style="HeavyMovement"'
 
 # --composite [HC, MM]
 if args.composite:
-    taloc = '%s_Taloc.simc' % args.composite
-    mother_early = '%s_Mother_Early.simc' % args.composite
-    mother_late = '%s_Mother_Late.simc' % args.composite
-    fetid = '%s_FetidDevourer.simc' % args.composite
-    zekvoz = '%s_Zekvoz.simc' % args.composite
-    vectis = '%s_Vectis.simc' % args.composite
-    zul = '%s_Zul.simc' % args.composite
-    mythrax = '%s_Mythrax.simc' % args.composite
-    ghuun = '%s_Ghuun.simc' % args.composite
+    with open("../raidsimming/{0}/{1}_Taloc.simc".format(args.composite,args.composite), 'r') as sim:
+        taloc = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Mother_Early.simc".format(args.composite,args.composite), 'r') as sim:
+        mother_early = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Mother_Late.simc".format(args.composite,args.composite), 'r') as sim:
+        mother_late = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_FetidDevourer.simc".format(args.composite,args.composite), 'r') as sim:
+        fetid = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Zekvoz.simc".format(args.composite,args.composite), 'r') as sim:
+        zekvoz = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Vectis.simc".format(args.composite,args.composite), 'r') as sim:
+        vectis = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Zul.simc".format(args.composite,args.composite), 'r') as sim:
+        zul = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Mythrax.simc".format(args.composite,args.composite), 'r') as sim:
+        mythrax = sim.read()
+        sim.close()
+    with open("../raidsimming/{0}/{1}_Ghuun.simc".format(args.composite,args.composite), 'r') as sim:
+        ghuun = sim.read()
+        sim.close()
 
 with open(simc, 'r') as f:
     data = f.read()

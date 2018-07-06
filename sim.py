@@ -65,8 +65,13 @@ results_dir = args.dir + "results/"
 cmd = "python3 simParser.py -c {0} -r -d {1}".format(weights, results_dir)
 os.system(cmd)
 
-if args.weights:
+# analyze.py
+if args.weights and not args.composite:
     cmd = "python analyze.py {0} --weights".format(args.dir)
+elif args.composite and not args.weights:
+    cmd = "python analyzeRS.py {0} --composite {1}".format(args.dir, args.composite)
+elif args.composite and args.weights:
+    cmd = "python analyzeRS.py {0} --weights --composite {1}".format(args.dir, args.composite)
 else:
     cmd = "python analyze.py {0}".format(args.dir)
 os.system(cmd)

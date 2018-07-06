@@ -27,6 +27,6 @@ reportsRS = {
     'results/_Zekvoz.json',
     'results/_Vectis.json',
     'results/_Zul.json',
-    'results/_Mythrax.json',
-    'results/_Ghuun',
+    # 'results/_Mythrax.json',
+    'results/_Ghuun.json',
 }
