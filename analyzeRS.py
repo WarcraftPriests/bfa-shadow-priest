@@ -1,6 +1,7 @@
 import pandas
 import weights
 import argparse
+import re
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -49,14 +50,18 @@ ghuun = {}
 for value in data.iterrows():
     profile = value[1].profile
     if args.weights:
-        weight = weights.get(profile[profile.index('_')+1:])
+        # HC_da1_FetidDevourer -> HC_FetidDevourer
+        # HC_da_FetidDevourer -> HC_FetidDevourer
+        profile = re.sub(r"(_\w*_)", "_", profile)
+        weight = weights.get(profile)
+        if value[1].int <= 0: value[1].int = 0.01
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
         mastery = (value[1].mastery / value[1].int) * weight
         vers = (value[1].vers / value[1].int) * weight
     else:
         if args.dir == "talents/" or args.dir == "trinkets/":
-            weight = weights.get(profile[profile.index('_')+1:])
+            weight = weights.get(profile)
         else:
             weight = weights.get(profile)
     weightedDPS = weight * value[1].DPS
@@ -72,25 +77,47 @@ for value in data.iterrows():
             results[value[1].actor] = [weightedDPS,weight,haste,crit,mastery,vers]
         else:
             results[value[1].actor] = weightedDPS
-    if profile == "HC_Taloc":
-        taloc[value[1].actor] = value[1].DPS
-    elif profile == "HC_Mother_Early" or profile == "HC_Mother_Late":
-        if value[1].actor in mother:
-            mother[value[1].actor] = mother.get(value[1].actor) + (value[1].DPS * .5)
-        else:
-            mother[value[1].actor] = value[1].DPS
-    if profile == "HC_FetidDevourer":
-        fetid[value[1].actor] = value[1].DPS
-    if profile == "HC_Zekvoz":
-        zekvoz[value[1].actor] = value[1].DPS
-    if profile == "HC_Vectis":
-        vectis[value[1].actor] = value[1].DPS
-    if profile == "HC_Zul":
-        zul[value[1].actor] = value[1].DPS
-    if profile == "HC_Mythrax":
-        mythrax[value[1].actor] = value[1].DPS
-    if profile == "HC_Ghuun":
-        ghuun[value[1].actor] = value[1].DPS
+    if args.weights:
+        if profile == "HC_Taloc":
+            taloc[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        elif profile == "HC_Mother_Early" or profile == "HC_Mother_Late":
+            if value[1].actor in mother:
+                existing = mother.get(value[1].actor)
+                mother[value[1].actor] = [existing[0] + (value[1].DPS * .5),existing[1] + 0.5,existing[2] + (value[1].haste * .5),existing[3] + (value[1].crit * .5),existing[4] + (value[1].mastery * .5),existing[5] + (value[1].vers * .5)]
+            else:
+                mother[value[1].actor] = [(value[1].DPS * .5),0.5,(value[1].haste * .5),(value[1].crit * .5),(value[1].mastery * .5),(value[1].vers * .5)]
+        if profile == "HC_FetidDevourer":
+            fetid[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        if profile == "HC_Zekvoz":
+            zekvoz[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        if profile == "HC_Vectis":
+            vectis[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        if profile == "HC_Zul":
+            zul[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        if profile == "HC_Mythrax":
+            mythrax[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+        if profile == "HC_Ghuun":
+            ghuun[value[1].actor] = [value[1].DPS,1.00,value[1].haste,value[1].crit,value[1].mastery,value[1].vers]
+    else:
+        if profile == "HC_Taloc":
+            taloc[value[1].actor] = value[1].DPS
+        elif profile == "HC_Mother_Early" or profile == "HC_Mother_Late":
+            if value[1].actor in mother:
+                mother[value[1].actor] = mother.get(value[1].actor) + (value[1].DPS * .5)
+            else:
+                mother[value[1].actor] = (value[1].DPS * .5)
+        if profile == "HC_FetidDevourer":
+            fetid[value[1].actor] = value[1].DPS
+        if profile == "HC_Zekvoz":
+            zekvoz[value[1].actor] = value[1].DPS
+        if profile == "HC_Vectis":
+            vectis[value[1].actor] = value[1].DPS
+        if profile == "HC_Zul":
+            zul[value[1].actor] = value[1].DPS
+        if profile == "HC_Mythrax":
+            mythrax[value[1].actor] = value[1].DPS
+        if profile == "HC_Ghuun":
+            ghuun[value[1].actor] = value[1].DPS
 
 if args.dir == "talents/" or args.dir == "trinkets/":
     baseDPS = results.get('Base') / 3
@@ -156,8 +183,40 @@ else:
 with open(outputMarkdownRS, 'w') as resultsMD:
     # Uldir Raidsimming
     if args.weights:
-        resultsMD.write('# Taloc\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        resultsMD.write('# Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
         for key, value in results.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Taloc\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in taloc.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Mother\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in mother.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Fetid\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in fetid.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Zekvoz\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in zekvoz.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Vectis\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in vectis.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Zul\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in zul.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Mythrax\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in mythrax.items():
+            resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
+
+        resultsMD.write('# Ghuun\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        for key, value in ghuun.items():
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
     else:
         resultsMD.write('# Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')

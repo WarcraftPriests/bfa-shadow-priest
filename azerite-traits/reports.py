@@ -18,3 +18,15 @@ reports = {
     'results/hm_na_2.json',
     'results/hm_sa_2.json',
 }
+
+reportsRS = {
+    'results/_Taloc.json',
+    'results/_Mother_Early.json',
+    'results/_Mother_Late.json',
+    'results/_FetidDevourer.json',
+    'results/_Zekvoz.json',
+    'results/_Vectis.json',
+    'results/_Zul.json',
+    # 'results/_Mythrax.json',
+    'results/_Ghuun.json',
+}
