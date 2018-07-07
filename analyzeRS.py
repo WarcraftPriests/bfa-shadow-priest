@@ -49,21 +49,23 @@ ghuun = {}
 # ['profile','actor','DD','DPS']
 for value in data.iterrows():
     profile = value[1].profile
-    if args.weights:
+    if args.weights or args.dir == "talents/" or args.dir == "trinkets/":
         # HC_da1_FetidDevourer -> HC_FetidDevourer
         # HC_da_FetidDevourer -> HC_FetidDevourer
-        profile = re.sub(r"(_\w*_)", "_", profile)
+        profile = re.sub(r"(_\w*?_)", "_", profile)
+    if args.weights:
         weight = weights.get(profile)
-        if value[1].int <= 0: value[1].int = 0.01
+        if value[1].int <= 0:
+            value[1].int = 0.01
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
         mastery = (value[1].mastery / value[1].int) * weight
         vers = (value[1].vers / value[1].int) * weight
     else:
-        if args.dir == "talents/" or args.dir == "trinkets/":
-            weight = weights.get(profile)
-        else:
-            weight = weights.get(profile)
+        # if args.dir == "talents/" or args.dir == "trinkets/":
+        #     weight = weights.get(profile)
+        # else:
+        weight = weights.get(profile)
     weightedDPS = weight * value[1].DPS
     # calculate composite
     if value[1].actor in results:
@@ -127,7 +129,8 @@ if args.dir == "talents/" or args.dir == "trinkets/":
     baseZekvoz = zekvoz.get('Base') / 3
     baseVectis = vectis.get('Base') / 3
     baseZul = zul.get('Base') / 3
-    baseMythrax = mythrax.get('Base') / 3
+    # baseMythrax = mythrax.get('Base') / 3
+    baseMythrax = 0
     baseGhuun = ghuun.get('Base') / 3
     results['Base'] = baseDPS
     taloc['Base'] = baseTaloc
@@ -136,7 +139,7 @@ if args.dir == "talents/" or args.dir == "trinkets/":
     zekvoz['Base'] = baseZekvoz
     vectis['Base'] = baseVectis
     zul['Base'] = baseZul
-    mythrax['Base'] = baseMythrax
+    # mythrax['Base'] = baseMythrax
     ghuun['Base'] = baseGhuun
 elif args.dir == "gear/":
     baseDPS = results.get('Priest_Shadow_T22N')
