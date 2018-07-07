@@ -104,6 +104,10 @@ elif args.dir == "gear/":
         if not baseDPS:
             baseDPS = results.get('Priest_Shadow_T22M')
             baseDPSSingle = resultsSingle.get('Priest_Shadow_T22M')
+elif args.dir == "stats/":
+    baseActor = results.get('Base')
+    baseActor = [(baseActor[0] / 6),(baseActor[1] / 6),(baseActor[2] / 6),(baseActor[3] / 6),(baseActor[4] / 6),(baseActor[5] / 6)]
+    results['Base'] = baseActor
 else:
     baseDPS = results.get('Base')
     baseDPSSingle = resultsSingle.get('Base')
