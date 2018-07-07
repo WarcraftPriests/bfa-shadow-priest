@@ -14,11 +14,11 @@ off_hand="uldir_subject_manifest,id=160695,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 head=",id=160616,bonus_id=4822/1477"
 #undefined null
-neck=",id=158075,enchant_id=5437"
+neck=",id=158075"
 #Amice of Corrupting Horror 355
 shoulder=",id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-back=",id=160644,bonus_id=4798/1477,enchant_id=5436"
+back=",id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 chest=",id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -32,9 +32,9 @@ legs=",id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 feet=",id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-finger1=",id=160645,bonus_id=4798/1477,enchant_id=5428"
+finger1=",id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-finger2=",id=160647,bonus_id=4798/1477,enchant_id=5428"
+finger2=",id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 trinket1=",id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -43,11 +43,11 @@ trinket2=",id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 2"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 2"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 2"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 2"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 2"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 2"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 2"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -61,9 +61,9 @@ profileset."Combo 2"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 2"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 2"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 2"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 2"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 2"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 2"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -72,11 +72,11 @@ profileset."Combo 2"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 3"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 3"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 3"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 3"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 3"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 3"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 3"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -90,9 +90,9 @@ profileset."Combo 3"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 3"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 3"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 3"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 3"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 3"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 3"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -101,11 +101,11 @@ profileset."Combo 3"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 4"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 4"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 4"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 4"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 4"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 4"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 4"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -119,9 +119,9 @@ profileset."Combo 4"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 4"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 4"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 4"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 4"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 4"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 4"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -130,11 +130,11 @@ profileset."Combo 4"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 5"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 5"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 5"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 5"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 5"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 5"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 5"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -148,9 +148,9 @@ profileset."Combo 5"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 5"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 5"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 5"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 5"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 5"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 5"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -159,11 +159,11 @@ profileset."Combo 5"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 6"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 6"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 6"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 6"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 6"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 6"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 6"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -177,9 +177,9 @@ profileset."Combo 6"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 6"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 6"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 6"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 6"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 6"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 6"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -188,11 +188,11 @@ profileset."Combo 6"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 7"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 7"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 7"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 7"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 7"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 7"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 7"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -206,9 +206,9 @@ profileset."Combo 7"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 7"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 7"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 7"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 7"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 7"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 7"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -217,11 +217,11 @@ profileset."Combo 7"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 8"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 8"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 8"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 8"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 8"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 8"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 8"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -235,9 +235,9 @@ profileset."Combo 8"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 8"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 8"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 8"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 8"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 8"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 8"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -246,11 +246,11 @@ profileset."Combo 8"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 9"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 9"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 9"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 9"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 9"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 9"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 9"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -264,9 +264,9 @@ profileset."Combo 9"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 9"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 9"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 9"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 9"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 9"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 9"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -275,11 +275,11 @@ profileset."Combo 9"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 10"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 10"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 10"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 10"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 10"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 10"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 10"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -293,9 +293,9 @@ profileset."Combo 10"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 10"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 10"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 10"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 10"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 10"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 10"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -304,11 +304,11 @@ profileset."Combo 10"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 11"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 11"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 11"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 11"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 11"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 11"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 11"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -322,9 +322,9 @@ profileset."Combo 11"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 11"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 11"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 11"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 11"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 11"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 11"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -333,11 +333,11 @@ profileset."Combo 11"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 12"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 12"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 12"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 12"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 12"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 12"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 12"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -351,9 +351,9 @@ profileset."Combo 12"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 12"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 12"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 12"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 12"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 12"+="finger2=,id=160647,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 12"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -362,11 +362,11 @@ profileset."Combo 12"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 13"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 13"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 13"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 13"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 13"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 13"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 13"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -380,9 +380,9 @@ profileset."Combo 13"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 13"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 13"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 13"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 13"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 13"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 13"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -391,11 +391,11 @@ profileset."Combo 13"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 14"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 14"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 14"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 14"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 14"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 14"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 14"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -409,9 +409,9 @@ profileset."Combo 14"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 14"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 14"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 14"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 14"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 14"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 14"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -420,11 +420,11 @@ profileset."Combo 14"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 15"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 15"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 15"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 15"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 15"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 15"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 15"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -438,9 +438,9 @@ profileset."Combo 15"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 15"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 15"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 15"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 15"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 15"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 15"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -449,11 +449,11 @@ profileset."Combo 15"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 16"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 16"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 16"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 16"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 16"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 16"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 16"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -467,9 +467,9 @@ profileset."Combo 16"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 16"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 16"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 16"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 16"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 16"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 16"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -478,11 +478,11 @@ profileset."Combo 16"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 17"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 17"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 17"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 17"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 17"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 17"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 17"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -496,9 +496,9 @@ profileset."Combo 17"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 17"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 17"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 17"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 17"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 17"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 17"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -507,11 +507,11 @@ profileset."Combo 17"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 18"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 18"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 18"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 18"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 18"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 18"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 18"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -525,9 +525,9 @@ profileset."Combo 18"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 18"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 18"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 18"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 18"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 18"+="finger2=,id=160645,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
 profileset."Combo 18"+="trinket1=,id=160651,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -536,11 +536,11 @@ profileset."Combo 18"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 19"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 19"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 19"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 19"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 19"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 19"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 19"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -554,9 +554,9 @@ profileset."Combo 19"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 19"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 19"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 19"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 19"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 19"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 19"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -565,11 +565,11 @@ profileset."Combo 19"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 20"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 20"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 20"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 20"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 20"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 20"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 20"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -583,9 +583,9 @@ profileset."Combo 20"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 20"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 20"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 20"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 20"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 20"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 20"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -594,11 +594,11 @@ profileset."Combo 20"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 21"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 21"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 21"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 21"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 21"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 21"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 21"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -612,9 +612,9 @@ profileset."Combo 21"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 21"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 21"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 21"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 21"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 21"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 21"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -623,11 +623,11 @@ profileset."Combo 21"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 22"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 22"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 22"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 22"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 22"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 22"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 22"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -641,9 +641,9 @@ profileset."Combo 22"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 22"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 22"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 22"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 22"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 22"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 22"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -652,11 +652,11 @@ profileset."Combo 22"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 23"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 23"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 23"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 23"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 23"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 23"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 23"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -670,9 +670,9 @@ profileset."Combo 23"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 23"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 23"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 23"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 23"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 23"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 23"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -681,11 +681,11 @@ profileset."Combo 23"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 24"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 24"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 24"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 24"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 24"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 24"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 24"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -699,9 +699,9 @@ profileset."Combo 24"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 24"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 24"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 24"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 24"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 24"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 24"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -710,11 +710,11 @@ profileset."Combo 24"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 25"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 25"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 25"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 25"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 25"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 25"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 25"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -728,9 +728,9 @@ profileset."Combo 25"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 25"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 25"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 25"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 25"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 25"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 25"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -739,11 +739,11 @@ profileset."Combo 25"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 26"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 26"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 26"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 26"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 26"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 26"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 26"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -757,9 +757,9 @@ profileset."Combo 26"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 26"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 26"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 26"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 26"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 26"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 26"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -768,11 +768,11 @@ profileset."Combo 26"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 27"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 27"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 27"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 27"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 27"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 27"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 27"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -786,9 +786,9 @@ profileset."Combo 27"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 27"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 27"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 27"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 27"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 27"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 27"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -797,11 +797,11 @@ profileset."Combo 27"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 28"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 28"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 28"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 28"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 28"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 28"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 28"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -815,9 +815,9 @@ profileset."Combo 28"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 28"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 28"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 28"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 28"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 28"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 28"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -826,11 +826,11 @@ profileset."Combo 28"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 29"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 29"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 29"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 29"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 29"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 29"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 29"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -844,9 +844,9 @@ profileset."Combo 29"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 29"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 29"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 29"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 29"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 29"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 29"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -855,11 +855,11 @@ profileset."Combo 29"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 30"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 30"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 30"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 30"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 30"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 30"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 30"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -873,9 +873,9 @@ profileset."Combo 30"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 30"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 30"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 30"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 30"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 30"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 30"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -884,11 +884,11 @@ profileset."Combo 30"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 31"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 31"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 31"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 31"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 31"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 31"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 31"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -902,9 +902,9 @@ profileset."Combo 31"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 31"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 31"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 31"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 31"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 31"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 31"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -913,11 +913,11 @@ profileset."Combo 31"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 32"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 32"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 32"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 32"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 32"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 32"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 32"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -931,9 +931,9 @@ profileset."Combo 32"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 32"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 32"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 32"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 32"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 32"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 32"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -942,11 +942,11 @@ profileset."Combo 32"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 33"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 33"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 33"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 33"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 33"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 33"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 33"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -960,9 +960,9 @@ profileset."Combo 33"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 33"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 33"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 33"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 33"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 33"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 33"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -971,11 +971,11 @@ profileset."Combo 33"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 34"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 34"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 34"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 34"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 34"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 34"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 34"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -989,9 +989,9 @@ profileset."Combo 34"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 34"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 34"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 34"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 34"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 34"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 34"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -1000,11 +1000,11 @@ profileset."Combo 34"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 35"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 35"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 35"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 35"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 35"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 35"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 35"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1018,9 +1018,9 @@ profileset."Combo 35"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 35"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 35"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 35"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 35"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 35"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 35"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -1029,11 +1029,11 @@ profileset."Combo 35"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 36"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 36"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 36"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 36"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 36"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 36"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 36"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1047,9 +1047,9 @@ profileset."Combo 36"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 36"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 36"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 36"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 36"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 36"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 36"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vanquished Tendril of G'huun 355
@@ -1058,11 +1058,11 @@ profileset."Combo 36"+="trinket2=,id=160654,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 37"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 37"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 37"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 37"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 37"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 37"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 37"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1076,9 +1076,9 @@ profileset."Combo 37"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 37"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 37"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 37"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 37"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 37"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 37"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1087,11 +1087,11 @@ profileset."Combo 37"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 38"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 38"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 38"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 38"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 38"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 38"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 38"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1105,9 +1105,9 @@ profileset."Combo 38"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 38"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 38"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 38"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 38"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 38"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 38"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1116,11 +1116,11 @@ profileset."Combo 38"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 39"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 39"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 39"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 39"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 39"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 39"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 39"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1134,9 +1134,9 @@ profileset."Combo 39"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 39"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 39"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 39"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 39"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 39"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 39"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1145,11 +1145,11 @@ profileset."Combo 39"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 40"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 40"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 40"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 40"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 40"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 40"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 40"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1163,9 +1163,9 @@ profileset."Combo 40"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 40"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 40"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 40"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 40"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 40"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 40"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1174,11 +1174,11 @@ profileset."Combo 40"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 41"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 41"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 41"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 41"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 41"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 41"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 41"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1192,9 +1192,9 @@ profileset."Combo 41"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 41"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 41"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 41"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 41"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 41"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 41"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1203,11 +1203,11 @@ profileset."Combo 41"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 42"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 42"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 42"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 42"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 42"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 42"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 42"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1221,9 +1221,9 @@ profileset."Combo 42"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 42"+="feet=,id=160714,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 42"+="finger1=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 42"+="finger1=,id=160645,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 42"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 42"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 42"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1232,11 +1232,11 @@ profileset."Combo 42"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 43"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 43"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 43"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 43"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 43"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 43"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 43"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1250,9 +1250,9 @@ profileset."Combo 43"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 43"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 43"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 43"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 43"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 43"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 43"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1261,11 +1261,11 @@ profileset."Combo 43"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 44"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 44"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 44"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 44"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 44"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 44"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 44"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1279,9 +1279,9 @@ profileset."Combo 44"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 44"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 44"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 44"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 44"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 44"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 44"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1290,11 +1290,11 @@ profileset."Combo 44"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 45"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 45"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 45"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 45"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 45"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 45"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 45"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1308,9 +1308,9 @@ profileset."Combo 45"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 45"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 45"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 45"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 45"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 45"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 45"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1319,11 +1319,11 @@ profileset."Combo 45"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 46"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 46"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 46"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 46"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 46"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 46"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 46"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1337,9 +1337,9 @@ profileset."Combo 46"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 46"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 46"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 46"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 46"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 46"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 46"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1348,11 +1348,11 @@ profileset."Combo 46"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 47"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 47"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 47"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 47"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 47"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 47"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 47"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1366,9 +1366,9 @@ profileset."Combo 47"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 47"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 47"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 47"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 47"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 47"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 47"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1377,11 +1377,11 @@ profileset."Combo 47"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 48"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 48"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 48"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 48"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 48"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 48"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 48"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1395,9 +1395,9 @@ profileset."Combo 48"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 48"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 48"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 48"+="finger1=,id=160646,bonus_id=4798/1477"
 #Ring of the Infinite Void 355
-profileset."Combo 48"+="finger2=,id=160647,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 48"+="finger2=,id=160647,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 48"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1406,11 +1406,11 @@ profileset."Combo 48"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 49"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 49"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 49"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 49"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 49"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 49"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 49"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1424,9 +1424,9 @@ profileset."Combo 49"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 49"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 49"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 49"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 49"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 49"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 49"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1435,11 +1435,11 @@ profileset."Combo 49"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 50"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 50"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 50"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 50"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 50"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 50"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 50"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1453,9 +1453,9 @@ profileset."Combo 50"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 50"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 50"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 50"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 50"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 50"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 50"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1464,11 +1464,11 @@ profileset."Combo 50"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 51"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 51"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 51"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 51"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 51"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 51"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 51"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1482,9 +1482,9 @@ profileset."Combo 51"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 51"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 51"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 51"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 51"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 51"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 51"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1493,11 +1493,11 @@ profileset."Combo 51"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 52"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 52"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 52"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 52"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Plasma-Spattered Greatcloak 355
-profileset."Combo 52"+="back=,id=160644,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 52"+="back=,id=160644,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 52"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1511,9 +1511,9 @@ profileset."Combo 52"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 52"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 52"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 52"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 52"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 52"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 52"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1522,11 +1522,11 @@ profileset."Combo 52"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 53"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 53"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 53"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 53"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Cloak of Rippling Whispers 355
-profileset."Combo 53"+="back=,id=160642,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 53"+="back=,id=160642,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 53"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1540,9 +1540,9 @@ profileset."Combo 53"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 53"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 53"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 53"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 53"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 53"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 53"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
@@ -1551,11 +1551,11 @@ profileset."Combo 53"+="trinket2=,id=160651,bonus_id=4798/1477"
 #Horrific Amalgam's Hood 355
 profileset."Combo 54"+="head=,id=160616,bonus_id=4822/1477"
 #undefined null
-profileset."Combo 54"+="neck=,id=158075,enchant_id=5437"
+profileset."Combo 54"+="neck=,id=158075"
 #Amice of Corrupting Horror 355
 profileset."Combo 54"+="shoulder=,id=160726,bonus_id=4822/1477"
 #Fetid Horror's Tanglecloak 355
-profileset."Combo 54"+="back=,id=160643,bonus_id=4798/1477,enchant_id=5436"
+profileset."Combo 54"+="back=,id=160643,bonus_id=4798/1477"
 #Robes of the Unraveler 355
 profileset."Combo 54"+="chest=,id=160614,bonus_id=4822/1477"
 #Void-Lashed Wristband 355
@@ -1569,9 +1569,9 @@ profileset."Combo 54"+="legs=,id=160615,bonus_id=4798/1477"
 #Volatile Walkers 355
 profileset."Combo 54"+="feet=,id=160714,bonus_id=4798/1477"
 #Band of Certain Annihilation 355
-profileset."Combo 54"+="finger1=,id=160646,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 54"+="finger1=,id=160646,bonus_id=4798/1477"
 #Rot-Scour Ring 355
-profileset."Combo 54"+="finger2=,id=160645,bonus_id=4798/1477,enchant_id=5428"
+profileset."Combo 54"+="finger2=,id=160645,bonus_id=4798/1477"
 #Twitching Tentacle of Xalzaix 355
 profileset."Combo 54"+="trinket1=,id=160656,bonus_id=4798/1477"
 #Vigilant's Bloodshaper 355
