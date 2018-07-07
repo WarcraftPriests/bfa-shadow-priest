@@ -123,24 +123,16 @@ for value in data.iterrows():
 
 if args.dir == "talents/" or args.dir == "trinkets/":
     baseDPS = results.get('Base') / 3
-    baseTaloc = taloc.get('Base') / 3
-    baseMother = mother.get('Base') / 3
-    baseFetid = fetid.get('Base') / 3
-    baseZekvoz = zekvoz.get('Base') / 3
-    baseVectis = vectis.get('Base') / 3
-    baseZul = zul.get('Base') / 3
-    # baseMythrax = mythrax.get('Base') / 3
+    baseTaloc = taloc.get('Base')
+    baseMother = mother.get('Base')
+    baseFetid = fetid.get('Base')
+    baseZekvoz = zekvoz.get('Base')
+    baseVectis = vectis.get('Base')
+    baseZul = zul.get('Base')
+    # baseMythrax = mythrax.get('Base')
     baseMythrax = 0
-    baseGhuun = ghuun.get('Base') / 3
+    baseGhuun = ghuun.get('Base')
     results['Base'] = baseDPS
-    taloc['Base'] = baseTaloc
-    mother['Base'] = baseMother
-    fetid['Base'] = baseFetid
-    zekvoz['Base'] = baseZekvoz
-    vectis['Base'] = baseVectis
-    zul['Base'] = baseZul
-    # mythrax['Base'] = baseMythrax
-    ghuun['Base'] = baseGhuun
 elif args.dir == "gear/":
     baseDPS = results.get('Priest_Shadow_T22N')
     baseTaloc = taloc.get('Priest_Shadow_T22N')
