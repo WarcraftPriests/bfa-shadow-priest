@@ -10,14 +10,12 @@ default_actions=1
 
 # Head
 head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477
-#head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477
 
 # Neck
 neck=,id=158075
 
 # Shoulders
 shoulders=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477
-#shoulders=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477
 
 # Back
 #back=cloak_of_rippling_whispers,id=160642,bonus_id=4798/1477
@@ -28,6 +26,7 @@ back=fetid_horrors_tanglecloak,id=160643,bonus_id=4798/1477
 chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477
 
 # Wrists
+# vers/mast
 wrists=voidlashed_wristband,id=160617,bonus_id=4798/1477
 
 # Hands
@@ -53,14 +52,13 @@ trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4798/1477
 trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4798/1477
 #trinket1=vigilants_bloodshaper,id=160651,bonus_id=4798/1477
 
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4798/1477
-off_hand=uldir_subject_manifest,id=160695,bonus_id=4798/1477
-
 # 2h
 #main_hand=heptavium__staff_of_torturous_knowledge,id=160690,bonus_id=4798/1477
 #main_hand=regurgitated_purifiers_flamestaff,id=160689,bonus_id=4798/1477
+
 # 1h
-#main_hand=containment_analysis_baton,id=160687,bonus_id=4798/1477
-#main_hand=titanspark_animator,id=160680,bonus_id=4798/1477
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4798/1477
+
 # Off-Hand
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4798/1477
 #off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4798/1477
