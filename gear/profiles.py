@@ -29,9 +29,9 @@ args = parser.parse_args()
 # simc = 'Priest_Shadow_T22H.simc'
 # simc = 'Priest_Shadow_T22M.simc'
 
-# simc = 'gear_combo_normal.simc'
+simc = 'gear_combo_normal.simc'
 # simc = 'gear_combo_heroic.simc'
-simc = 'gear_combo_mythic.simc'
+# simc = 'gear_combo_mythic.simc'
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
