@@ -25,7 +25,7 @@ parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 args = parser.parse_args()
 
-simc = 'azerite-traits.simc'
+simc = 'azerite.simc'
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
