@@ -7,11 +7,11 @@ spec=shadow
 
 default_actions=1
 
-head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
 neck=,id=158075
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
 wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
 hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
 waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
