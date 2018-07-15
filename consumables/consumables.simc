@@ -27,13 +27,16 @@ food=disabled
 augmentation=disabled
 
 # NYI
-# profileset."Potion"+=potion=battle_potion_of_intellect
+profileset."Potion_of_Intellect"+=potion=battle_potion_of_intellect
 
 # NYI
-# profileset."Battle-Scarred Augment Rune"+=augmentation=battle-scarred_augment_rune
+profileset."Potion_of_Rising_Death"+=potion=battle_potion_of_rising_death
 
 # NYI
-# profileset."Honey-Glazed_Haunches"+=food=honey_glazed_haunches
+profileset."Battle-Scarred Augment Rune"+=augmentation=battle-scarred_augment_rune
+
+# NYI
+profileset."Honey-Glazed_Haunches"+=food=honey_glazed_haunches
 
 profileset."Swamp_Fish_n_Chips"+=food=swamp_fish_n_chips
 
