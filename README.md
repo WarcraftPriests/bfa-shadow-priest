@@ -25,6 +25,33 @@ All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa
 .\simc.exe spell_query=azerite.class=priest | Out-File 'A:\simc-bfa\priest-traits.txt'
 ```
 
+## Base Actor Information
+All sims are run with the following as a base (unless specified otherwise)
+
+### Talent Combos
+Every sim is run with the top DA and LotV build:
+- DA: FotM_ToF_SC_MB_DA
+- LotV: FotM_ToF_SC_MB_LotV
+
+### Azerite Traits
+- Head: Horrific Amalgam's Hood: Death Throes, Heed My Call, Azerite Empowered
+- Shoulders: Amice of Corrupting Horror: Whispers of the Damned, Earthlink, Azerite Empowered
+- Chest: Robes of the Unraveler: Chorus of Insanity, Overwhelming Power, Azerite Empowered
+
+### Stats - Mythic (Percent Stat - Gear Amount)
+- 19.56% Crit - 1048
+- 14.04% Haste - 955
+- 4.27% Versatility - 363
+- 19.00% Mastery - 564
+- 7588 Intellect - 4750
+
+### Enchants
+- Weapon: Torrent of Elements
+- Ring: TBD
+
+### Consumables
+- Food: Bountiful Captains Feast
+
 ## Results
 - [talents](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/talents)
 - [bulk weights](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/stats)

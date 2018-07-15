@@ -21,7 +21,7 @@ finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
 finger2=rotscour_ring,id=160645,bonus_id=4800/1507
 trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
 trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
 # DA
 # LI
