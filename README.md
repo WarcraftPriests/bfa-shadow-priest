@@ -30,13 +30,13 @@ All sims are run with the following as a base (unless specified otherwise)
 
 ### Talent Combos
 Every sim is run with the top DA and LotV build:
-- DA: FotM_ToF_SC_MB_DA
+- DA: SWV_ToF_SC_MB_DA
 - LotV: FotM_ToF_SC_MB_LotV
 
 ### Azerite Traits
-- Head: Horrific Amalgam's Hood: Death Throes, Heed My Call, Azerite Empowered
-- Shoulders: Amice of Corrupting Horror: Whispers of the Damned, Earthlink, Azerite Empowered
-- Chest: Robes of the Unraveler: Chorus of Insanity, Overwhelming Power, Azerite Empowered
+- Head: [Horrific Amalgam's Hood](https://bfa.wowhead.com/item=160616/horrific-amalgams-hood&bonus=4822:1477&azerite-powers=5:404:22:14:13): [Death Throes](https://bfa.wowhead.com/spell=278659/death-throes), [Heed My Call](https://bfa.wowhead.com/spell=271681/heed-my-call), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- Shoulders: [Amice of Corrupting Horror](https://bfa.wowhead.com/item=160726/amice-of-corrupting-horror&bonus=4822:1477&azerite-powers=5:236:461:85:13): [Whispers of the Damned](https://bfa.wowhead.com/spell=275726/whispers-of-the-damned), [Earthlink](https://bfa.wowhead.com/spell=279926/earthlink), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- Chest: [Robes of the Unraveler](https://bfa.wowhead.com/item=160614/robes-of-the-unraveler&bonus=4822:1477&azerite-powers=5:405:30:44:13): [Chorus of Insanity](https://bfa.wowhead.com/spell=278661/chorus-of-insanity), [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 
 ### Stats - Mythic (Percent Stat - Gear Amount)
 - 19.56% Crit - 1048
@@ -46,11 +46,11 @@ Every sim is run with the top DA and LotV build:
 - 7588 Intellect - 4750
 
 ### Enchants
-- Weapon: Torrent of Elements
+- Weapon: [Torrent of Elements](https://bfa.wowhead.com/item=153479/enchant-weapon-torrent-of-elements)
 - Ring: TBD
 
 ### Consumables
-- Food: Bountiful Captains Feast
+- Food: [Bountiful Captains Feast](https://bfa.wowhead.com/item=156526/bountiful-captains-feast)
 
 ## Results
 - [talents](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/talents)
