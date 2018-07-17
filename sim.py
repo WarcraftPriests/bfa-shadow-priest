@@ -16,6 +16,7 @@ parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talen
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
 parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is "smart"')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
+parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
 
 if args.weights:
@@ -66,12 +67,17 @@ cmd = "python3 simParser.py -c {0} -r -d {1}".format(weights, results_dir)
 os.system(cmd)
 
 # analyze.py
-if args.weights and not args.composite:
-    cmd = "python analyze.py {0} --weights".format(args.dir)
-elif args.composite and not args.weights:
-    cmd = "python analyzeRS.py {0} --composite {1}".format(args.dir, args.composite)
-elif args.composite and args.weights:
-    cmd = "python analyzeRS.py {0} --weights --composite {1}".format(args.dir, args.composite)
+if args.composite:
+    script = "analyzeRS.py"
 else:
-    cmd = "python analyze.py {0}".format(args.dir)
+    script = "analyze.py"
+
+cmd = "python {0} {1}".format(script, args.dir)
+
+if args.weights:
+    cmd += " --weights"
+if args.composite:
+    cmd += " --composite {0}".format(args.composite)
+if args.talents:
+    cmd += " --talents {0}".format(args.talents)
 os.system(cmd)

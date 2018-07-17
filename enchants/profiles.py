@@ -22,10 +22,11 @@ for the_file in os.listdir('profiles/'):
         print(e)
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
+parser.add_argument('talents', help='indicate talent build for output.', choices=['LotV','DA'])
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 args = parser.parse_args()
 
-simc = 'enchants.simc'
+simc = "enchants_{0}.simc".format(args.talents)
 
 small_add = 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5'
 big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'

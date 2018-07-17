@@ -8,11 +8,17 @@ weightsATBT = weights.weightsATBT
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how analzye is ran.', action='store_true')
+parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
 
 csv = "%sresults/statweights.txt" % args.dir
-outputMarkdown = "%sREADME.md" % args.dir
-outputCSV = "%sresults.csv" % args.dir
+
+if args.talents:
+    outputMarkdown = "{0}Results_{1}.md".format(args.dir, args.talents)
+    outputCSV = "{0}Results_{1}.csv".format(args.dir, args.talents)
+else:
+    outputMarkdown = "%sREADME.md" % args.dir
+    outputCSV = "%sresults.csv" % args.dir
 
 def getChange(current, previous):
     negative = 0
