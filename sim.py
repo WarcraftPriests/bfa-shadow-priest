@@ -8,7 +8,7 @@ from os.path import isfile, join
 
 profiles = []
 apiKey = secrets.apiKey
-version = 'bfa-dev'
+version = 'nightly'
 weights = '-s'
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
