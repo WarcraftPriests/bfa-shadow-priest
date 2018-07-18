@@ -23,6 +23,8 @@ for the_file in os.listdir('profiles/'):
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
+parser.add_argument('talents', help='indicate talent build for output.', choices=['LotV','DA'])
+
 args = parser.parse_args()
 
 # --composite [HC, MM]
@@ -77,11 +79,11 @@ else:
 
 for value in profiles:
     if "dungeons" in value:
-        simc = 'trinkets_dungeons.simc'
+        simc = "trinkets_dungeons_{0}.simc".format(args.talents)
     if "other" in value:
-        simc = 'trinkets_other.simc'
+        simc = "trinkets_other_{0}.simc".format(args.talents)
     if "raid" in value:
-        simc = 'trinkets_raid.simc'
+        simc = "trinkets_raid_{0}.simc".format(args.talents)
     with open(simc, 'r') as f:
         data = f.read()
         f.close()
