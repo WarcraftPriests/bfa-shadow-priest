@@ -13,7 +13,7 @@ All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa
 
 1. Each directory has a list of reports in `reports.py` that you want to sim.
 2. Create `reports/` and `profiles/` directories within the directory you want to sim.
-3. After settings reports, run `python profiles.py` in the given directory you want to generate profiles for.
+3. After creating reports, run `python profiles.py [DA, LotV]` in the given directory you want to generate profiles for.
 4. After profiles are generated create `secrets.py` inside the root directory. Set `apiKey = XXX`
 5. By default if a file already exists in `results/` sim.py will skip it
 6. To run the sims use `python sim.py dir/ [--iterations X]` where `dir/` is the sim directory you want to sim
