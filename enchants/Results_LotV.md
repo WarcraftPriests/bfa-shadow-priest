@@ -1,19 +1,19 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Torrent-of-Elements|12006|3.99%|
-|Weapon-Quick-Navigation|11789|2.11%|
-|Weapon-Deadly-Navigation|11788|2.11%|
-|Weapon-Masterful-Navigation|11752|1.79%|
-|Weapon-Versatile-Navigation|11748|1.76%|
-|Base|11545|0.00%|
+|Weapon-Torrent-of-Elements|12334|3.99%|
+|Weapon-Deadly-Navigation|12113|2.12%|
+|Weapon-Quick-Navigation|12096|1.97%|
+|Weapon-Versatile-Navigation|12075|1.80%|
+|Weapon-Masterful-Navigation|12075|1.80%|
+|Base|11862|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Torrent-of-Elements|11231|3.99%|
-|Weapon-Quick-Navigation|11032|2.14%|
-|Weapon-Deadly-Navigation|11018|2.02%|
-|Weapon-Masterful-Navigation|10997|1.82%|
-|Weapon-Versatile-Navigation|10989|1.75%|
-|Base|10800|0.00%|
+|Weapon-Torrent-of-Elements|11537|3.96%|
+|Weapon-Deadly-Navigation|11321|2.01%|
+|Weapon-Quick-Navigation|11314|1.96%|
+|Weapon-Masterful-Navigation|11300|1.82%|
+|Weapon-Versatile-Navigation|11296|1.79%|
+|Base|11097|0.00%|
