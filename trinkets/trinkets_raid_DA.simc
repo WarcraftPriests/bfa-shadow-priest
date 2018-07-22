@@ -20,7 +20,7 @@ feet=volatile_walkers,id=160714,bonus_id=4800/1507
 finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
 finger2=rotscour_ring,id=160645,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
-off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
 # Uldir Trinkets
 profileset."Vigilants_Bloodshaper_340"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=4801/1462
