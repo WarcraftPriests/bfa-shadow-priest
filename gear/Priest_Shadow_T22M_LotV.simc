@@ -1,0 +1,70 @@
+priest="Priest_Shadow_T22M"
+level=120
+#race=troll
+role=spell
+position=back
+# LotV
+talents=1111321
+# DA
+# talents=3111322
+spec=shadow
+
+default_actions=1
+
+# Head - Death Throes/Archive of the Titans, Heed My Call, Azerite Empowered
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
+# Head - Thought Harvester/Laser Matrix, Elemental Whirl, Azerite Empowered
+# head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=166/21/13
+
+# Neck
+neck=,id=158075
+
+# Shoulders - Whispers of the Damned, Earthlink, Azerite Empowered
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
+# Shoulders - Spiteful Apparitions/Archive of the Titans, Unstable Flames, Azerite Empowered
+# shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/504/13
+
+# Back
+back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
+#back=plasma_spattered_greatcloak,id=160644,bonus_id=4800/1507
+# back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+
+# Chest - Chorus of Insanity/Archive of the Titans, Overwhelming Power, Azerite Empowered
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+
+# Wrists
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+
+# Hands
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+
+# Waist
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+#waist=cord_of_animated_contagion,id=160734,bonus_id=4800/1507
+
+# Legs
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+
+# Feet
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+
+# Rings
+# finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger1=ring_of_the_infinite_void,id=160647,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+
+# Trinkets
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+# trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
+trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
+
+# # 2h
+# main_hand=heptavium__staff_of_torturous_knowledge,id=160690,bonus_id=4800/1507
+# main_hand=regurgitated_purifiers_flamestaff,id=160689,bonus_id=4800/1507
+
+# # 1h
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+
+# # Off-Hand
+# off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
