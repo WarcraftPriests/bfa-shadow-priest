@@ -8,7 +8,7 @@ spec=shadow
 default_actions=1
 
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
-neck=,id=158075
+neck=,id=158075,azerite_level=21
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
