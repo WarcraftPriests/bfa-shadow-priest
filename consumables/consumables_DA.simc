@@ -31,7 +31,7 @@ augmentation=disabled
 # profileset."Potion_of_Intellect"+=potion=battle_potion_of_intellect
 
 # NYI
-# profileset."Potion_of_Rising_Death"+=potion=battle_potion_of_rising_death
+# profileset."Potion_of_Rising_Death"+=potion=potion_of_rising_death
 
 # NYI
 # profileset."Battle-Scarred Augment Rune"+=augmentation=battle_scarred_augment_rune
