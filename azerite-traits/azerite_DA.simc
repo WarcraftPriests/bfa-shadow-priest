@@ -24,6 +24,18 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
+# Add X intellect
+profileset."Int_10"+=enchant_intellect=10
+profileset."Int_20"+=enchant_intellect=20
+profileset."Int_30"+=enchant_intellect=30
+profileset."Int_40"+=enchant_intellect=40
+profileset."Int_50"+=enchant_intellect=50
+profileset."Int_60"+=enchant_intellect=60
+profileset."Int_70"+=enchant_intellect=70
+profileset."Int_80"+=enchant_intellect=80
+profileset."Int_90"+=enchant_intellect=90
+profileset."Int_100"+=enchant_intellect=100
+
 # +5 ilvls 13
 profileset."Azerite_Empowered_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=13
 
