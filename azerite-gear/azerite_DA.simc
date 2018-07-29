@@ -1,0 +1,107 @@
+priest="Base"
+level=120
+role=spell
+position=back
+talents=3111322
+spec=shadow
+
+default_actions=1
+
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+neck=,id=158075,azerite_level=21
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+
+# Add X intellect
+profileset."Int_10"+=enchant_intellect=10
+profileset."Int_20"+=enchant_intellect=20
+profileset."Int_30"+=enchant_intellect=30
+profileset."Int_40"+=enchant_intellect=40
+profileset."Int_50"+=enchant_intellect=50
+profileset."Int_60"+=enchant_intellect=60
+profileset."Int_70"+=enchant_intellect=70
+profileset."Int_80"+=enchant_intellect=80
+profileset."Int_90"+=enchant_intellect=90
+profileset."Int_100"+=enchant_intellect=100
+
+# Azerothian Champion's Crown - 355
+# Death Throes + Champion of Azeroth / N/A
+head=azerothian_champions_crown,id=161555
+
+# Mantle of Contained Corruption - 355, 370, 385
+# Spiteful Apparitions + Archive of the Titans / Unstable Flames
+shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477
+shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492
+shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507
+
+# Robes of the Unraveler - 355, 370, 385
+# Chorus of Insanity + Archive of the Titans / Overwhelming Power
+chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477
+chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+
+# Horrific Amalgams Hood - 355, 370, 385
+# Death Throes + Archive of the Titans / Heed My Call
+head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477
+head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492
+head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+
+# Visage of the Ascended Prophet - 355, 370, 385
+# Thought Harvester + Laser Matrix / Elemental Whirl
+head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477
+head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492
+head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507
+
+# Amice of Corrupting Horror - 355, 370, 385
+# Whispers of the Damned + Laser Matrix / Earthlink
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+
+# Amice of the Rending Abyss - 355, 370, 385
+# Searing Dialogue + Tidal Surge / Heed My Call
+shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4822/1477
+shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4823/1492
+shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4824/1507
+
+# Raider's Shrouding Thobe - 355, 370, 385
+# Spiteful Apparitions + Swirling Sands / Gitripper
+chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477
+chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492
+chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507
+
+# Matriarch's Shadowveil - 355, 370, 385
+# Thought Harvester + Rezan's Fury / Blood Siphon
+head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477
+head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492
+head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507
+
+# AZ3-R1-T3 Synthetic Specs - 340
+# Relational Normalization Gizmo + Ricocheting Inflatable Pyrosaw + Barrage of Many Bombs + Synaptic Spark Capacitor / Overwhelming Power
+head=az3_r1_t3_synthetic_specs,id=160488
+
+# Smartly Plumed Cap - 340, 355, 370, 385
+# Searing Dialogue + Meticulous Scheming / Azerite Globules
+head=smartly_plumed_cap,id=155886,bonus_id=4819/1512
+head=smartly_plumed_cap,id=155886,bonus_id=1527/4819
+head=smartly_plumed_cap,id=155886,bonus_id=1542/4819
+head=smartly_plumed_cap,id=155886,bonus_id=1557/4819
+
+# Ruffled Poet Blouse - 340, 355, 370, 385
+# Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
+chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
+chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819
+chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819
+chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819
