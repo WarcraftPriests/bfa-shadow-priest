@@ -1,15 +1,17 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|FotM_ToF_SC_MB_DA_New|11312|1.46%|
-|FotM_ToF_SC_MB_LotV|11196|0.42%|
-|Base|11149|0.00%|
-|SWV_ToF_SC_MB_LotV|11070|-0.71%|
+|Mind_Blast_Prev_GCD_VT_Cleave_Only|11956|1.12%|
+|Mind_Blast_Prev_GCD_VT|11885|0.51%|
+|Base_No_Trait_New_APL|11839|0.13%|
+|Base|11824|0.00%|
+|Base_No_Trait|11782|-0.36%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|FotM_ToF_SC_MB_LotV|10523|0.16%|
-|SWV_ToF_SC_MB_LotV|10516|0.09%|
-|Base|10506|0.00%|
-|FotM_ToF_SC_MB_DA_New|10493|-0.12%|
+|Base|10761|0.00%|
+|Mind_Blast_Prev_GCD_VT_Cleave_Only|10760|0.00%|
+|Base_No_Trait|10705|-0.52%|
+|Base_No_Trait_New_APL|10704|-0.52%|
+|Mind_Blast_Prev_GCD_VT|10628|-1.23%|
