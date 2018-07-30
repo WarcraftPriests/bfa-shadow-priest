@@ -469,6 +469,24 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
+copy="SWV_LotV","Base"
+talents=3111321
+
+copy="SWV_LotV_New_Cleave_Only","Mind_Blast_Prev_GCD_VT_Cleave_Only"
+talents=3111321
+
+copy="SWV_LotV_New","Mind_Blast_Prev_GCD_VT"
+talents=3111321
+
+copy="SWV_DA","Base"
+talents=3111322
+
+copy="SWV_DA_New_Cleave_Only","Mind_Blast_Prev_GCD_VT_Cleave_Only"
+talents=3111322
+
+copy="SWV_DA_New","Mind_Blast_Prev_GCD_VT"
+talents=3111322
+
 single_actor_batch=1
 vary_combat_length=0.10
 optimal_raid=1

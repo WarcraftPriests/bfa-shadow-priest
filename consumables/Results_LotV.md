@@ -1,19 +1,23 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bountiful_Captains_Feast|12308|1.46%|
-|Galley Banquet|12266|1.11%|
-|Spiced_Snapper|12231|0.82%|
-|Sailors_Pie|12228|0.80%|
-|Swamp_Fish_n_Chips|12216|0.70%|
-|Base|12131|0.00%|
+|Potion_of_Intellect|12885|1.66%|
+|Bountiful_Captains_Feast|12852|1.40%|
+|Galley Banquet|12809|1.06%|
+|Swamp_Fish_n_Chips|12791|0.92%|
+|Battle-Scarred Augment Rune|12781|0.84%|
+|Spiced_Snapper|12777|0.80%|
+|Sailors_Pie|12776|0.80%|
+|Base|12675|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bountiful_Captains_Feast|11513|1.41%|
-|Galley Banquet|11473|1.06%|
-|Sailors_Pie|11441|0.78%|
-|Spiced_Snapper|11441|0.78%|
-|Swamp_Fish_n_Chips|11440|0.77%|
-|Base|11353|0.00%|
+|Potion_of_Intellect|11757|1.70%|
+|Bountiful_Captains_Feast|11723|1.41%|
+|Swamp_Fish_n_Chips|11689|1.11%|
+|Galley Banquet|11684|1.07%|
+|Battle-Scarred Augment Rune|11656|0.82%|
+|Sailors_Pie|11655|0.82%|
+|Spiced_Snapper|11653|0.80%|
+|Base|11560|0.00%|
