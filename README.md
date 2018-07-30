@@ -47,7 +47,7 @@ Every sim is run with the top DA and LotV build:
 
 ### Enchants
 - Weapon: [Torrent of Elements](https://bfa.wowhead.com/item=153479/enchant-weapon-torrent-of-elements)
-- Ring: TBD
+- Ring: [Pact of Haste](https://www.wowhead.com/item=153443/enchant-ring-pact-of-haste)
 
 ### Consumables
 - Food: [Bountiful Captains Feast](https://bfa.wowhead.com/item=156526/bountiful-captains-feast)

@@ -126,7 +126,7 @@ main_hand=",id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 2"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 2"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 2"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 2"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -157,7 +157,7 @@ profileset."Combo 2"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 3"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 3"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 3"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 3"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -188,7 +188,7 @@ profileset."Combo 3"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 4"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 4"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 4"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 4"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -219,7 +219,7 @@ profileset."Combo 4"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 5"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 5"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 5"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 5"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -250,7 +250,7 @@ profileset."Combo 5"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 6"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 6"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 6"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 6"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -281,7 +281,7 @@ profileset."Combo 6"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 7"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 7"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 7"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 7"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -312,7 +312,7 @@ profileset."Combo 7"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 8"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 8"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 8"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 8"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -343,7 +343,7 @@ profileset."Combo 8"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 9"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 9"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 9"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 9"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -374,7 +374,7 @@ profileset."Combo 9"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 10"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 10"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 10"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 10"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -405,7 +405,7 @@ profileset."Combo 10"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 11"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 11"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 11"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 11"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -436,7 +436,7 @@ profileset."Combo 11"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 12"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 12"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 12"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 12"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -467,7 +467,7 @@ profileset."Combo 12"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 13"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 13"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 13"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 13"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -498,7 +498,7 @@ profileset."Combo 13"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 14"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 14"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 14"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 14"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -529,7 +529,7 @@ profileset."Combo 14"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 15"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 15"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 15"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 15"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -560,7 +560,7 @@ profileset."Combo 15"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 16"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 16"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 16"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 16"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -591,7 +591,7 @@ profileset."Combo 16"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 17"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 17"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 17"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 17"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -622,7 +622,7 @@ profileset."Combo 17"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 18"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 18"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 18"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 18"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -653,7 +653,7 @@ profileset."Combo 18"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 19"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 19"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 19"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 19"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -684,7 +684,7 @@ profileset."Combo 19"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 20"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 20"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 20"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 20"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -715,7 +715,7 @@ profileset."Combo 20"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 21"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 21"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 21"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 21"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -746,7 +746,7 @@ profileset."Combo 21"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 22"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 22"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 22"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 22"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -777,7 +777,7 @@ profileset."Combo 22"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 23"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 23"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 23"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 23"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -808,7 +808,7 @@ profileset."Combo 23"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 24"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 24"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 24"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 24"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -839,7 +839,7 @@ profileset."Combo 24"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 25"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 25"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 25"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 25"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -870,7 +870,7 @@ profileset."Combo 25"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 26"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 26"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 26"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 26"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -901,7 +901,7 @@ profileset."Combo 26"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 27"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 27"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 27"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 27"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -932,7 +932,7 @@ profileset."Combo 27"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 28"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 28"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 28"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 28"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -963,7 +963,7 @@ profileset."Combo 28"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 29"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 29"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 29"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 29"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -994,7 +994,7 @@ profileset."Combo 29"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 30"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 30"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 30"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 30"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1025,7 +1025,7 @@ profileset."Combo 30"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 31"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 31"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 31"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 31"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1056,7 +1056,7 @@ profileset."Combo 31"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 32"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 32"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 32"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 32"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1087,7 +1087,7 @@ profileset."Combo 32"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 33"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 33"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 33"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 33"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1118,7 +1118,7 @@ profileset."Combo 33"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 34"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 34"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 34"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 34"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1149,7 +1149,7 @@ profileset."Combo 34"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 35"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 35"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 35"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 35"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1180,7 +1180,7 @@ profileset."Combo 35"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 36"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 36"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 36"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 36"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1211,7 +1211,7 @@ profileset."Combo 36"+="main_hand=,id=160689,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 37"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 37"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 37"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 37"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1242,7 +1242,7 @@ profileset."Combo 37"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 38"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 38"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 38"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 38"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1273,7 +1273,7 @@ profileset."Combo 38"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 39"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 39"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 39"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 39"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1304,7 +1304,7 @@ profileset."Combo 39"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 40"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 40"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 40"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 40"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1335,7 +1335,7 @@ profileset."Combo 40"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 41"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 41"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 41"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 41"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1366,7 +1366,7 @@ profileset."Combo 41"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 42"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 42"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 42"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 42"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1397,7 +1397,7 @@ profileset."Combo 42"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 43"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 43"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 43"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 43"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1428,7 +1428,7 @@ profileset."Combo 43"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 44"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 44"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 44"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 44"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1459,7 +1459,7 @@ profileset."Combo 44"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 45"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 45"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 45"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 45"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1490,7 +1490,7 @@ profileset."Combo 45"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 46"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 46"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 46"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 46"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1521,7 +1521,7 @@ profileset."Combo 46"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 47"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 47"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 47"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 47"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1552,7 +1552,7 @@ profileset."Combo 47"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 48"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 48"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 48"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 48"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1583,7 +1583,7 @@ profileset."Combo 48"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 49"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 49"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 49"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 49"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1614,7 +1614,7 @@ profileset."Combo 49"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 50"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 50"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 50"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 50"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1645,7 +1645,7 @@ profileset."Combo 50"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 51"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 51"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 51"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 51"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1676,7 +1676,7 @@ profileset."Combo 51"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 52"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 52"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 52"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 52"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1707,7 +1707,7 @@ profileset."Combo 52"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 53"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 53"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 53"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 53"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1738,7 +1738,7 @@ profileset."Combo 53"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 54"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 54"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 54"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 54"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1769,7 +1769,7 @@ profileset."Combo 54"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 55"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 55"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 55"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 55"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1800,7 +1800,7 @@ profileset."Combo 55"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 56"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 56"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 56"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 56"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1831,7 +1831,7 @@ profileset."Combo 56"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 57"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 57"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 57"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 57"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1862,7 +1862,7 @@ profileset."Combo 57"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 58"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 58"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 58"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 58"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -1893,7 +1893,7 @@ profileset."Combo 58"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 59"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 59"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 59"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 59"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1924,7 +1924,7 @@ profileset."Combo 59"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 60"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 60"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 60"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 60"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -1955,7 +1955,7 @@ profileset."Combo 60"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 61"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 61"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 61"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 61"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -1986,7 +1986,7 @@ profileset."Combo 61"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 62"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 62"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 62"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 62"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2017,7 +2017,7 @@ profileset."Combo 62"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 63"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 63"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 63"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 63"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2048,7 +2048,7 @@ profileset."Combo 63"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 64"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 64"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 64"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 64"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2079,7 +2079,7 @@ profileset."Combo 64"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 65"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 65"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 65"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 65"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2110,7 +2110,7 @@ profileset."Combo 65"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 66"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 66"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 66"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 66"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2141,7 +2141,7 @@ profileset."Combo 66"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 67"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 67"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 67"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 67"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2172,7 +2172,7 @@ profileset."Combo 67"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 68"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 68"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 68"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 68"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2203,7 +2203,7 @@ profileset."Combo 68"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 69"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 69"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 69"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 69"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2234,7 +2234,7 @@ profileset."Combo 69"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 70"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 70"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 70"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 70"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2265,7 +2265,7 @@ profileset."Combo 70"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 71"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 71"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 71"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 71"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2296,7 +2296,7 @@ profileset."Combo 71"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 72"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 72"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 72"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 72"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2327,7 +2327,7 @@ profileset."Combo 72"+="main_hand=,id=160690,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 73"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 73"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 73"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 73"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2360,7 +2360,7 @@ profileset."Combo 73"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 74"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 74"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 74"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 74"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2393,7 +2393,7 @@ profileset."Combo 74"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 75"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 75"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 75"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 75"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2426,7 +2426,7 @@ profileset."Combo 75"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 76"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 76"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 76"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 76"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2459,7 +2459,7 @@ profileset."Combo 76"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 77"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 77"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 77"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 77"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2492,7 +2492,7 @@ profileset."Combo 77"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 78"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 78"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 78"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 78"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2525,7 +2525,7 @@ profileset."Combo 78"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 79"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 79"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 79"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 79"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2558,7 +2558,7 @@ profileset."Combo 79"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 80"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 80"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 80"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 80"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2591,7 +2591,7 @@ profileset."Combo 80"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 81"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 81"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 81"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 81"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2624,7 +2624,7 @@ profileset."Combo 81"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 82"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 82"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 82"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 82"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2657,7 +2657,7 @@ profileset."Combo 82"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 83"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 83"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 83"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 83"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2690,7 +2690,7 @@ profileset."Combo 83"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 84"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 84"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 84"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 84"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2723,7 +2723,7 @@ profileset."Combo 84"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 85"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 85"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 85"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 85"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2756,7 +2756,7 @@ profileset."Combo 85"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 86"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 86"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 86"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 86"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2789,7 +2789,7 @@ profileset."Combo 86"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 87"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 87"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 87"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 87"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2822,7 +2822,7 @@ profileset."Combo 87"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 88"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 88"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 88"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 88"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -2855,7 +2855,7 @@ profileset."Combo 88"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 89"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 89"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 89"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 89"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2888,7 +2888,7 @@ profileset."Combo 89"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 90"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 90"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 90"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 90"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -2921,7 +2921,7 @@ profileset."Combo 90"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 91"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 91"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 91"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 91"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2954,7 +2954,7 @@ profileset."Combo 91"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 92"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 92"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 92"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 92"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -2987,7 +2987,7 @@ profileset."Combo 92"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 93"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 93"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 93"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 93"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3020,7 +3020,7 @@ profileset."Combo 93"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 94"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 94"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 94"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 94"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3053,7 +3053,7 @@ profileset."Combo 94"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 95"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 95"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 95"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 95"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3086,7 +3086,7 @@ profileset."Combo 95"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 96"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 96"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 96"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 96"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3119,7 +3119,7 @@ profileset."Combo 96"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 97"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 97"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 97"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 97"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3152,7 +3152,7 @@ profileset."Combo 97"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 98"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 98"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 98"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 98"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3185,7 +3185,7 @@ profileset."Combo 98"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 99"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 99"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 99"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 99"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3218,7 +3218,7 @@ profileset."Combo 99"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 100"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 100"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 100"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 100"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3251,7 +3251,7 @@ profileset."Combo 100"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 101"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 101"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 101"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 101"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3284,7 +3284,7 @@ profileset."Combo 101"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 102"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 102"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 102"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 102"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3317,7 +3317,7 @@ profileset."Combo 102"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 103"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 103"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 103"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 103"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3350,7 +3350,7 @@ profileset."Combo 103"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 104"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 104"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 104"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 104"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3383,7 +3383,7 @@ profileset."Combo 104"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 105"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 105"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 105"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 105"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3416,7 +3416,7 @@ profileset."Combo 105"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 106"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 106"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 106"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 106"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3449,7 +3449,7 @@ profileset."Combo 106"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 107"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 107"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 107"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 107"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3482,7 +3482,7 @@ profileset."Combo 107"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 108"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 108"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 108"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 108"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3515,7 +3515,7 @@ profileset."Combo 108"+="off_hand=,id=160696,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 109"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 109"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 109"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 109"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3548,7 +3548,7 @@ profileset."Combo 109"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 110"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 110"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 110"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 110"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3581,7 +3581,7 @@ profileset."Combo 110"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 111"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 111"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 111"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 111"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3614,7 +3614,7 @@ profileset."Combo 111"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 112"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 112"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 112"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 112"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3647,7 +3647,7 @@ profileset."Combo 112"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 113"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 113"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 113"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 113"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3680,7 +3680,7 @@ profileset."Combo 113"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 114"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 114"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 114"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 114"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3713,7 +3713,7 @@ profileset."Combo 114"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 115"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 115"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 115"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 115"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3746,7 +3746,7 @@ profileset."Combo 115"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 116"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 116"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 116"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 116"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3779,7 +3779,7 @@ profileset."Combo 116"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 117"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 117"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 117"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 117"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3812,7 +3812,7 @@ profileset."Combo 117"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 118"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 118"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 118"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 118"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -3845,7 +3845,7 @@ profileset."Combo 118"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 119"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 119"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 119"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 119"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3878,7 +3878,7 @@ profileset."Combo 119"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 120"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 120"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 120"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 120"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -3911,7 +3911,7 @@ profileset."Combo 120"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 121"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 121"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 121"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 121"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3944,7 +3944,7 @@ profileset."Combo 121"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 122"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 122"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 122"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 122"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -3977,7 +3977,7 @@ profileset."Combo 122"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 123"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 123"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 123"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 123"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4010,7 +4010,7 @@ profileset."Combo 123"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 124"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 124"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 124"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 124"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4043,7 +4043,7 @@ profileset."Combo 124"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 125"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 125"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 125"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 125"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4076,7 +4076,7 @@ profileset."Combo 125"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 126"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 126"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 126"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 126"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4109,7 +4109,7 @@ profileset."Combo 126"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 127"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 127"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 127"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 127"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4142,7 +4142,7 @@ profileset."Combo 127"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 128"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 128"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 128"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 128"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4175,7 +4175,7 @@ profileset."Combo 128"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 129"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 129"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 129"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 129"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4208,7 +4208,7 @@ profileset."Combo 129"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 130"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 130"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 130"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 130"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4241,7 +4241,7 @@ profileset."Combo 130"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 131"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 131"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 131"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 131"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4274,7 +4274,7 @@ profileset."Combo 131"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 132"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 132"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 132"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 132"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4307,7 +4307,7 @@ profileset."Combo 132"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 133"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 133"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 133"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 133"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4340,7 +4340,7 @@ profileset."Combo 133"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 134"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 134"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 134"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 134"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4373,7 +4373,7 @@ profileset."Combo 134"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 135"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 135"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 135"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 135"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4406,7 +4406,7 @@ profileset."Combo 135"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 136"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 136"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 136"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 136"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4439,7 +4439,7 @@ profileset."Combo 136"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 137"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 137"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 137"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 137"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4472,7 +4472,7 @@ profileset."Combo 137"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 138"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 138"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 138"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 138"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4505,7 +4505,7 @@ profileset."Combo 138"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 139"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 139"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 139"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 139"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4538,7 +4538,7 @@ profileset."Combo 139"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 140"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 140"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 140"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 140"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Plasma-Spattered Greatcloak 385
@@ -4571,7 +4571,7 @@ profileset."Combo 140"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 141"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 141"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 141"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 141"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4604,7 +4604,7 @@ profileset."Combo 141"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 142"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 142"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 142"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 142"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Cloak of Rippling Whispers 385
@@ -4637,7 +4637,7 @@ profileset."Combo 142"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Visage of the Ascended Prophet 385
 profileset."Combo 143"+="head=,id=160719,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 143"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 143"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 143"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385
@@ -4670,7 +4670,7 @@ profileset."Combo 143"+="off_hand=,id=160695,bonus_id=4800/1507"
 #Horrific Amalgam's Hood 385
 profileset."Combo 144"+="head=,id=160616,bonus_id=4824/1507"
 #Heart of Azeroth 7
-profileset."Combo 144"+="neck=,id=158075,azerite_level=21"
+profileset."Combo 144"+="neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33"
 #Amice of Corrupting Horror 385
 profileset."Combo 144"+="shoulder=,id=160726,bonus_id=4824/1507"
 #Fetid Horror's Tanglecloak 385

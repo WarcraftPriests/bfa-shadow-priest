@@ -8,7 +8,7 @@ talents=1111321
 default_actions=1
 
 head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
-neck=,id=158075,azerite_level=21
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
 shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
 back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
 chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
@@ -24,17 +24,15 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-# Ring Enchants - NYI
-# profileset."Ring_Pact_of_Versatility"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_versatility
-#
-# profileset."Ring_Pact_of_Mastery"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_mastery
-#
-# profileset."Ring_Pact_of_Critical_Strike"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_critical_strike
-#
-# profileset."Ring_Pact_of_Haste"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
+profileset."Ring_Pact_of_Versatility"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_versatility
+
+profileset."Ring_Pact_of_Mastery"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_mastery
+
+profileset."Ring_Pact_of_Critical_Strike"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_critical_strike
+
+profileset."Ring_Pact_of_Haste"+=finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
 
 # Weapon Enchants
-# Not working?
 profileset."Weapon-Torrent-of-Elements"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
 
 profileset."Weapon-Deadly-Navigation"+=main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation

@@ -1,29 +1,25 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|SWV_DA_New_Cleave_Only|12111|2.42%|
-|SWV_DA_New|12092|2.26%|
-|SWV_LotV_New_Cleave_Only|12017|1.62%|
-|Mind_Blast_Prev_GCD_VT_Cleave_Only|11955|1.09%|
-|SWV_LotV_New|11940|0.97%|
-|SWV_DA|11936|0.93%|
-|Mind_Blast_Prev_GCD_VT|11886|0.52%|
-|Base_No_Trait_New_APL|11839|0.11%|
-|Base|11825|0.00%|
-|SWV_LotV|11806|-0.17%|
-|Base_No_Trait|11784|-0.35%|
+|FotM_DA_New|13215|3.48%|
+|FotM_DA_New_RIP_1min|13213|3.46%|
+|SWV_DA_New_RIP_1min|13109|2.65%|
+|SWV_DA_New|13108|2.64%|
+|FotM_DA|13003|1.82%|
+|SWV_DA|12977|1.62%|
+|MB_Cleave|12892|0.95%|
+|RIP_DA_Cycle|12889|0.93%|
+|Base|12771|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|SWV_DA|10941|1.69%|
-|SWV_DA_New_Cleave_Only|10940|1.69%|
-|SWV_DA_New|10877|1.10%|
-|SWV_LotV_New_Cleave_Only|10764|0.05%|
-|SWV_LotV|10762|0.03%|
-|Mind_Blast_Prev_GCD_VT_Cleave_Only|10759|0.00%|
-|Base|10759|0.00%|
-|SWV_LotV_New|10725|-0.32%|
-|Base_No_Trait_New_APL|10708|-0.48%|
-|Base_No_Trait|10706|-0.50%|
-|Mind_Blast_Prev_GCD_VT|10630|-1.20%|
+|FotM_DA_New|11774|2.43%|
+|FotM_DA_New_RIP_1min|11771|2.40%|
+|FotM_DA|11769|2.39%|
+|SWV_DA|11739|2.12%|
+|SWV_DA_New_RIP_1min|11737|2.11%|
+|SWV_DA_New|11736|2.10%|
+|Base|11495|0.00%|
+|MB_Cleave|11494|-0.01%|
+|RIP_DA_Cycle|11492|-0.03%|
