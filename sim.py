@@ -2,6 +2,7 @@ import os
 import argparse
 import sys
 import secrets
+import weights as fightWeights
 
 from os import listdir
 from os.path import isfile, join
@@ -10,6 +11,8 @@ profiles = []
 apiKey = secrets.apiKey
 version = 'nightly'
 weights = '-s'
+weightsSingle = fightWeights.weightsSingle
+weightsATBT = fightWeights.weightsATBT
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
@@ -50,15 +53,24 @@ count = 0
 
 for value in profiles:
     count = count + 1
+    lookup = value[9:-5]
+    if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/":
+        lookup = lookup[lookup.index('_')+1:]
+    weight = weightsATBT.get(lookup)
+    weightST = weightsSingle.get(lookup)
+    if weightST:
+        weight = weight + weightST
     print "Simming {0} out of {1}.".format(count, len(profiles))
     name = value.replace('simc', 'json')
     name = name.replace('profiles', 'results')
-    if name[8:] not in existing:
+    if name[8:] not in existing and weight > 0:
         reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
         cmd = "python3 api.py {0} {1} --simc_version {2} {3} {4} --iterations {5}".format(apiKey, value, version, name, reportName, iterations)
         os.system(cmd)
+    elif weight == 0:
+        print "{0} has a weight of 0. Skipping file.".format(name[8:])
     else:
         print "{0} already exists. Skipping file.".format(name[8:])
 
