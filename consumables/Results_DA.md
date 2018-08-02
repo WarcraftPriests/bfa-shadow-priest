@@ -1,27 +1,27 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Intellect|14615|1.52%|
-|Bountiful_Captains_Feast|14592|1.36%|
-|Galley Banquet|14545|1.04%|
-|Swamp_Fish_n_Chips|14541|1.00%|
-|Honey-Glazed_Haunches|14527|0.91%|
-|Battle-Scarred Augment Rune|14518|0.85%|
-|Spiced_Snapper|14515|0.82%|
-|Sailors_Pie|14513|0.81%|
-|Potion_of_Rising_Death|14433|0.25%|
-|Base|14396|0.00%|
+|Potion_of_Intellect|14626|2.29%|
+|Bountiful_Captains_Feast|14494|1.37%|
+|Galley Banquet|14447|1.04%|
+|Honey-Glazed_Haunches|14432|0.94%|
+|Potion_of_Rising_Death|14425|0.89%|
+|Swamp_Fish_n_Chips|14423|0.87%|
+|Battle-Scarred Augment Rune|14416|0.82%|
+|Spiced_Snapper|14415|0.81%|
+|Sailors_Pie|14413|0.80%|
+|Base|14298|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Intellect|13083|1.60%|
-|Bountiful_Captains_Feast|13051|1.36%|
-|Swamp_Fish_n_Chips|13011|1.04%|
-|Galley Banquet|13009|1.03%|
-|Honey-Glazed_Haunches|12992|0.90%|
-|Battle-Scarred Augment Rune|12987|0.86%|
-|Sailors_Pie|12985|0.84%|
-|Spiced_Snapper|12982|0.82%|
-|Potion_of_Rising_Death|12922|0.35%|
-|Base|12876|0.00%|
+|Potion_of_Intellect|13091|2.37%|
+|Bountiful_Captains_Feast|12964|1.37%|
+|Galley Banquet|12918|1.01%|
+|Potion_of_Rising_Death|12915|0.99%|
+|Honey-Glazed_Haunches|12904|0.90%|
+|Spiced_Snapper|12896|0.84%|
+|Battle-Scarred Augment Rune|12893|0.81%|
+|Sailors_Pie|12887|0.77%|
+|Swamp_Fish_n_Chips|12886|0.76%|
+|Base|12789|0.00%|

@@ -6,8 +6,8 @@ This repo includes scripts and sims for shadow priests.
 All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa-shadow-priest/wiki).
 
 ## Discussion
-- [Discord](https://discord.gg/0f1Ta8lT8xZbLkBV)
-- [Website](https://howtopriest.com/)
+- [Discord](https://discord.gg/WarcraftPriests)
+- [Website](https://warcraftpriests.com/)
 
 ## How to Run
 
@@ -16,7 +16,7 @@ All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa
 3. After creating reports, run `python profiles.py [DA, LotV]` in the given directory you want to generate profiles for.
 4. After profiles are generated create `secrets.py` inside the root directory. Set `apiKey = XXX`
 5. By default if a file already exists in `results/` sim.py will skip it
-6. To run the sims use `python sim.py dir/ [--iterations X]` where `dir/` is the sim directory you want to sim
+6. To run the sims use `python sim.py dir/ [--iterations X, --weights, --talents [DA, LotV]]` where `dir/` is the sim directory you want to sim
 
 **IF YOU WANT TO STOP THE SCRIPT USE CTRL+Z**
 
@@ -37,6 +37,7 @@ Every sim is run with the top DA and LotV build:
 - Head: [Horrific Amalgam's Hood](https://bfa.wowhead.com/item=160616/horrific-amalgams-hood&bonus=4822:1477&azerite-powers=5:404:22:14:13): [Death Throes](https://bfa.wowhead.com/spell=278659/death-throes), [Heed My Call](https://bfa.wowhead.com/spell=271681/heed-my-call), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - Shoulders: [Amice of Corrupting Horror](https://bfa.wowhead.com/item=160726/amice-of-corrupting-horror&bonus=4822:1477&azerite-powers=5:236:461:85:13): [Whispers of the Damned](https://bfa.wowhead.com/spell=275726/whispers-of-the-damned), [Earthlink](https://bfa.wowhead.com/spell=279926/earthlink), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - Chest: [Robes of the Unraveler](https://bfa.wowhead.com/item=160614/robes-of-the-unraveler&bonus=4822:1477&azerite-powers=5:405:30:44:13): [Chorus of Insanity](https://bfa.wowhead.com/spell=278661/chorus-of-insanity), [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33`
 
 ### Stats - Mythic (Percent Stat - Gear Amount)
 - 19.56% Crit - 1048
