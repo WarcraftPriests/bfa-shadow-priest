@@ -1,3 +1,5 @@
+# Broken beyond believe
+
 # Mythrax - Uldir mythic
 
 # General information
@@ -54,5 +56,5 @@ raid_events+=/adds,count=1,duration=70,cooldown=10000,first_pct=51,last_pct=49,d
 raid_events+=/adds,count=1,duration=30,cooldown=10000,first_pct=51,last_pct=49,duration_stddev=15,force_stop=0,min_distance=25,max_distance=28,name=add1
 
 # Obliteration beam
-raid_events+=/movement,distance=10,cooldown=30,player_chance=0.125,player_only=1,force_stop=1,first_pct=76,last_pct=74
-raid_events+=/movement,distance=10,cooldown=30,player_chance=0.125,player_only=1,force_stop=1,first_pct=51,last_pct=49
+raid_events+=/movement,distance=10,cooldown=30,player_chance=0.125,players_only=1,force_stop=1,first_pct=76,last_pct=74
+raid_events+=/movement,distance=10,cooldown=30,player_chance=0.125,players_only=1,force_stop=1,first_pct=51,last_pct=49
