@@ -1,11 +1,15 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|14789|0.00%|
-|Dump_MBs_B4_DA|14550|-1.62%|
+|Base_MB_New|14789|0.01%|
+|Base|14787|0.00%|
+|Base_SF|14112|-4.57%|
+|Base_SF_New|14112|-4.57%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|13098|0.00%|
-|Dump_MBs_B4_DA|12854|-1.86%|
+|Base_MB_New|13099|0.01%|
+|Base|13097|0.00%|
+|Base_SF|12461|-4.86%|
+|Base_SF_New|12459|-4.88%|
