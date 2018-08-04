@@ -33,6 +33,9 @@ profileset."Vigilants_Bloodshaper_370"+=trinket1=vigilants_bloodshaper,id=160651
 profileset."Vigilants_Bloodshaper_375"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1502/4798
 profileset."Vigilants_Bloodshaper_380"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1507/4798
 profileset."Vigilants_Bloodshaper_385"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1512/4798
+profileset."Vigilants_Bloodshaper_390"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1517/4798
+profileset."Vigilants_Bloodshaper_395"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1522/4798
+profileset."Vigilants_Bloodshaper_400"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1527/4798
 
 profileset."Tear_of_the_Void_340"+=trinket1=tear_of_the_void,id=161374,bonus_id=4801/1462
 profileset."Tear_of_the_Void_345"+=trinket1=tear_of_the_void,id=161374,bonus_id=1467/4801
@@ -44,6 +47,9 @@ profileset."Tear_of_the_Void_370"+=trinket1=tear_of_the_void,id=161374,bonus_id=
 profileset."Tear_of_the_Void_375"+=trinket1=tear_of_the_void,id=161374,bonus_id=1502/4798
 profileset."Tear_of_the_Void_380"+=trinket1=tear_of_the_void,id=161374,bonus_id=1507/4798
 profileset."Tear_of_the_Void_385"+=trinket1=tear_of_the_void,id=161374,bonus_id=1512/4798
+profileset."Tear_of_the_Void_390"+=trinket1=tear_of_the_void,id=161374,bonus_id=1517/4798
+profileset."Tear_of_the_Void_395"+=trinket1=tear_of_the_void,id=161374,bonus_id=1522/4798
+profileset."Tear_of_the_Void_400"+=trinket1=tear_of_the_void,id=161374,bonus_id=1527/4798
 
 profileset."Twitching_Tentacle_of_Xalzaix_340"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4801/1462
 profileset."Twitching_Tentacle_of_Xalzaix_345"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1467/4801
@@ -55,6 +61,9 @@ profileset."Twitching_Tentacle_of_Xalzaix_370"+=trinket1=twitching_tentacle_of_x
 profileset."Twitching_Tentacle_of_Xalzaix_375"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1502/4798
 profileset."Twitching_Tentacle_of_Xalzaix_380"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1507/4798
 profileset."Twitching_Tentacle_of_Xalzaix_385"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1512/4798
+profileset."Twitching_Tentacle_of_Xalzaix_390"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1517/4798
+profileset."Twitching_Tentacle_of_Xalzaix_395"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1522/4798
+profileset."Twitching_Tentacle_of_Xalzaix_400"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1527/4798
 
 profileset."Vanquished_Tendril_of_Ghuun_340"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4801/1462
 profileset."Vanquished_Tendril_of_Ghuun_345"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1467/4801
@@ -66,6 +75,9 @@ profileset."Vanquished_Tendril_of_Ghuun_370"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_375"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1502/4798
 profileset."Vanquished_Tendril_of_Ghuun_380"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1507/4798
 profileset."Vanquished_Tendril_of_Ghuun_385"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1512/4798
+profileset."Vanquished_Tendril_of_Ghuun_390"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1517/4798
+profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1522/4798
+profileset."Vanquished_Tendril_of_Ghuun_400"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1527/4798
 
 # Rare Elite Trinkets - Might start at 355
 profileset."Azurethos_Singed_Plumage_340"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=4801/1462
@@ -78,6 +90,9 @@ profileset."Azurethos_Singed_Plumage_370"+=trinket1=azurethos_singed_plumage,id=
 profileset."Azurethos_Singed_Plumage_375"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1497/4801
 profileset."Azurethos_Singed_Plumage_380"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1502/4801
 profileset."Azurethos_Singed_Plumage_385"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1507/4801
+profileset."Azurethos_Singed_Plumage_390"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1512/4801
+profileset."Azurethos_Singed_Plumage_395"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1517/4801
+profileset."Azurethos_Singed_Plumage_400"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1522/4801
 
 profileset."Tzanes_Barkspines_355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=4801/1462
 profileset."Tzanes_Barkspines_345"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1467/4801
@@ -89,6 +104,9 @@ profileset."Tzanes_Barkspines_370"+=trinket1=tzanes_barkspines,id=161411,bonus_i
 profileset."Tzanes_Barkspines_375"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1497/4801
 profileset."Tzanes_Barkspines_380"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1502/4801
 profileset."Tzanes_Barkspines_385"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1507/4801
+profileset."Tzanes_Barkspines_390"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1512/4801
+profileset."Tzanes_Barkspines_395"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1517/4801
+profileset."Tzanes_Barkspines_400"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1522/4801
 
 profileset."Wing_Bone_of_the_Budding_Tempest_355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=4798/1477
 profileset."Wing_Bone_of_the_Budding_Tempest_345"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1467/4801
@@ -100,3 +118,6 @@ profileset."Wing_Bone_of_the_Budding_Tempest_370"+=trinket1=wing_bone_of_the_bud
 profileset."Wing_Bone_of_the_Budding_Tempest_375"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1497/4801
 profileset."Wing_Bone_of_the_Budding_Tempest_380"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1502/4801
 profileset."Wing_Bone_of_the_Budding_Tempest_385"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1507/4801
+profileset."Wing_Bone_of_the_Budding_Tempest_390"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1512/4801
+profileset."Wing_Bone_of_the_Budding_Tempest_395"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1517/4801
+profileset."Wing_Bone_of_the_Budding_Tempest_400"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1522/4801
