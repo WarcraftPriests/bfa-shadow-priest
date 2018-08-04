@@ -6,6 +6,7 @@ import weights as fightWeights
 import subprocess
 
 from os import listdir
+from subprocess import PIPE, STDOUT
 
 profiles = []
 apiKey = secrets.apiKey
@@ -67,16 +68,14 @@ for value in profiles:
         reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
-        cmd = "python3 api.py {0} {1} --simc_version {2} {3} {4} --iterations {5}".format(apiKey, value, version, name, reportName, iterations)
-        subprocess.call(cmd, shell=False)
+        subprocess.call(['python3', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
     elif weight == 0:
         print "{0} has a weight of 0. Skipping file.".format(name[8:])
     else:
         print "{0} already exists. Skipping file.".format(name[8:])
 
 results_dir = args.dir + "results/"
-cmd = "python3 simParser.py -c {0} -r -d {1}".format(weights, results_dir)
-subprocess.call(cmd, shell=True)
+subprocess.call(['python3', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
 
 # analyze.py
 if args.composite:
