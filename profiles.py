@@ -37,11 +37,11 @@ elif args.dir in ("azerite-gear/", "azerite-traits/"):
         exit()
 elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
     if args.dir == "gear/":
-        dir = "gear_combo_mythic"
+        category = "gear_combo_mythic"
     else:
-        dir = args.dir[:-1]
+        category = args.dir[:-1]
     if args.talents:
-        simc = "{0}{1}_{2}.simc".format(args.dir, dir, args.talents)
+        simc = "{0}{1}_{2}.simc".format(args.dir, category, args.talents)
     else:
         print("Error: must provide --talents [DA, LotV]")
         exit()
