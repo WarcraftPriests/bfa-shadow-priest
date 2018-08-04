@@ -2,8 +2,9 @@
 
 This repo includes scripts and sims for shadow priests.
 
-## Documentation
-All documentation can be found in the [Wiki](https://github.com/seanpeters86/bfa-shadow-priest/wiki).
+## Imprtant Links
+- [Wiki](https://github.com/seanpeters86/bfa-shadow-priest/wiki)
+- [CodeFactor.io](https://www.codefactor.io/repository/github/seanpeters86/bfa-shadow-priest)
 
 ## Discussion
 - [Discord](https://discord.gg/WarcraftPriests)
