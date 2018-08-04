@@ -3,9 +3,9 @@ import argparse
 import sys
 import secrets
 import weights as fightWeights
+import subprocess
 
 from os import listdir
-from os.path import isfile, join
 
 profiles = []
 apiKey = secrets.apiKey
@@ -68,7 +68,7 @@ for value in profiles:
         name = args.dir + name
         value = args.dir + value
         cmd = "python3 api.py {0} {1} --simc_version {2} {3} {4} --iterations {5}".format(apiKey, value, version, name, reportName, iterations)
-        os.system(cmd)
+        subprocess.call(cmd, shell=False)
     elif weight == 0:
         print "{0} has a weight of 0. Skipping file.".format(name[8:])
     else:
@@ -76,7 +76,7 @@ for value in profiles:
 
 results_dir = args.dir + "results/"
 cmd = "python3 simParser.py -c {0} -r -d {1}".format(weights, results_dir)
-os.system(cmd)
+subprocess.call(cmd, shell=True)
 
 # analyze.py
 if args.composite:
@@ -92,4 +92,4 @@ if args.composite:
     cmd += " --composite {0}".format(args.composite)
 if args.talents:
     cmd += " --talents {0}".format(args.talents)
-os.system(cmd)
+subprocess.call(cmd, shell=True)
