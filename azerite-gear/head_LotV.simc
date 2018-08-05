@@ -1,0 +1,139 @@
+priest="Base"
+level=120
+role=spell
+position=back
+talents=1111321
+spec=shadow
+
+default_actions=1
+
+# Head/Shoulders/Chest at 340 ilvl
+head=smartly_plumed_cap,id=155886,bonus_id=4819/1512
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
+shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
+back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
+chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+
+# Azerothian Champion's Crown - 355
+# Death Throes + Champion of Azeroth / N/A
+profileset."H_355_azerothian_champions_crown_DT"+=head=azerothian_champions_crown,id=161555,azerite_powers=404/13
+profileset."H_355_azerothian_champions_crown_CoA"+=head=azerothian_champions_crown,id=161555,azerite_powers=82/13
+
+# Horrific Amalgams Hood - 355, 370, 385
+# Death Throes + Archive of the Titans / Heed My Call
+profileset."H_355_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477,azerite_powers=404/22/13
+profileset."H_370_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492,azerite_powers=404/22/13
+profileset."H_385_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
+profileset."H_355_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477,azerite_powers=483/22/13
+profileset."H_370_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492,azerite_powers=483/22/13
+profileset."H_385_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=483/22/13
+
+# Visage of the Ascended Prophet - 355, 370, 385
+# Thought Harvester + Laser Matrix / Elemental Whirl
+profileset."H_355_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477,azerite_powers=166/21/13
+profileset."H_370_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492,azerite_powers=166/21/13
+profileset."H_385_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=166/21/13
+profileset."H_355_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477,azerite_powers=485/21/13
+profileset."H_370_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492,azerite_powers=485/21/13
+profileset."H_385_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
+
+# Matriarch's Shadowveil - 355, 370, 385
+# Thought Harvester + Rezan's Fury / Blood Siphon
+profileset."H_355_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477,azerite_powers=166/18/13
+profileset."H_370_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492,azerite_powers=166/18/13
+profileset."H_385_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507,azerite_powers=166/18/13
+profileset."H_355_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477,azerite_powers=157/18/13
+profileset."H_370_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492,azerite_powers=157/18/13
+profileset."H_385_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507,azerite_powers=157/18/13
+
+# AZ3-R1-T3 Synthetic Specs - 340
+# Relational Normalization Gizmo + Ricocheting Inflatable Pyrosaw + Barrage of Many Bombs + Synaptic Spark Capacitor / Overwhelming Power
+profileset."H_340_az3_r1_t3_synthetic_specs_RNG_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=501/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_RIP_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=499/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_BoMB_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=498/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_SSC_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=500/30/13
+
+# Smartly Plumed Cap - 340, 355, 370, 385
+# Searing Dialogue + Meticulous Scheming / Azerite Globules
+profileset."H_340_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512,azerite_powers=115/462/13
+profileset."H_355_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819,azerite_powers=115/462/13
+profileset."H_370_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819,azerite_powers=115/462/13
+profileset."H_385_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819,azerite_powers=115/462/13
+profileset."H_340_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512,azerite_powers=192/462/13
+profileset."H_355_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819,azerite_powers=192/462/13
+profileset."H_370_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819,azerite_powers=192/462/13
+profileset."H_385_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819,azerite_powers=192/462/13
+
+# Secret Spinner's Miter - 340, 355, 370, 385
+# Thought Harvester + Incite the Pack / Overwhelming Power
+profileset."H_340_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512,azerite_powers=166/30/13
+profileset."H_355_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819,azerite_powers=166/30/13
+profileset."H_370_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819,azerite_powers=166/30/13
+profileset."H_385_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819,azerite_powers=166/30/13
+profileset."H_340_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512,azerite_powers=481/30/13
+profileset."H_355_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819,azerite_powers=481/30/13
+profileset."H_370_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819,azerite_powers=481/30/13
+profileset."H_385_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819,azerite_powers=481/30/13
+
+# Headdress of the First Empire - 340, 355, 370, 385
+# Thought Harvester + Rezan's Fury / Earthlink
+profileset."H_340_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=4819/1512,azerite_powers=166/461/13
+profileset."H_355_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1527/4819,azerite_powers=166/461/13
+profileset."H_370_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1542/4819,azerite_powers=166/461/13
+profileset."H_385_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1557/4819,azerite_powers=166/461/13
+profileset."H_340_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=4819/1512,azerite_powers=157/461/13
+profileset."H_355_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1527/4819,azerite_powers=157/461/13
+profileset."H_370_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1542/4819,azerite_powers=157/461/13
+profileset."H_385_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1557/4819,azerite_powers=157/461/13
+
+# Stormlurker's Cowl - 340, 355, 370, 385
+# Thought Harvester + Tidal Surge / Overwhelming Power + On My Way
+profileset."H_340_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=166/30/13
+profileset."H_355_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=166/30/13
+profileset."H_370_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=166/30/13
+profileset."H_385_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=166/30/13
+profileset."H_340_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=166/38/13
+profileset."H_355_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=166/38/13
+profileset."H_370_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=166/38/13
+profileset."H_385_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=166/38/13
+profileset."H_340_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=478/30/13
+profileset."H_355_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=478/30/13
+profileset."H_370_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=478/30/13
+profileset."H_385_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=478/30/13
+profileset."H_340_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=478/38/13
+profileset."H_355_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=478/38/13
+profileset."H_370_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=478/38/13
+profileset."H_385_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=478/38/13
+
+# Grasping Crown of the Deep - 340, 355, 370, 385
+# Death Throes + Dagger in the Back / Blood Siphon
+profileset."H_340_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=4819/1512,azerite_powers=404/18/13
+profileset."H_355_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1527/4819,azerite_powers=404/18/13
+profileset."H_370_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1542/4819,azerite_powers=404/18/13
+profileset."H_385_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1557/4819,azerite_powers=404/18/13
+profileset."H_340_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=4819/1512,azerite_powers=479/18/13
+profileset."H_355_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1527/4819,azerite_powers=479/18/13
+profileset."H_370_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1542/4819,azerite_powers=479/18/13
+profileset."H_385_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1557/4819,azerite_powers=479/18/13
+
+# Soulfuel Headdress - 340, 355, 370, 385
+# Chorus of Insanity + Blightborne Infusion / Azerite Globules
+profileset."H_340_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=4819/1512,azerite_powers=405/462/13
+profileset."H_355_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1527/4819,azerite_powers=405/462/13
+profileset."H_370_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1542/4819,azerite_powers=405/462/13
+profileset."H_385_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1557/4819,azerite_powers=405/462/13
+profileset."H_340_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=4819/1512,azerite_powers=193/462/13
+profileset."H_355_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1527/4819,azerite_powers=193/462/13
+profileset."H_370_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1542/4819,azerite_powers=193/462/13
+profileset."H_385_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1557/4819,azerite_powers=193/462/13

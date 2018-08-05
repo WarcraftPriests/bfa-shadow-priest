@@ -36,7 +36,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir in ("azerite-gear/", "azerite-traits/"):
+elif args.dir == "azerite-traits/":
     if args.talents:
         simc = "{0}azerite_{1}.simc".format(args.dir, args.talents)
     else:
@@ -55,7 +55,7 @@ elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
 elif args.dir == "trinkets/" and not args.talents:
     print("Error: must provide --talents [DA, LotV]")
     exit()
-elif args.dir not in ("stats/", "talents/", "trinkets/"):
+elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/"):
     print("Error: provided directory does not match known directory.")
     exit()
 
@@ -106,6 +106,9 @@ elif args.dir == "talents/":
 elif args.dir == "trinkets/":
     RSreport = reports.reportsRSTrinkets
     report = reports.reportsTrinkets
+elif args.dir == "azerite-gear/":
+    RSreport = reports.reportsRSAzerite
+    report = reports.reportsAzerite
 else:
     RSreport = reports.reportsRS
     report = reports.reports
@@ -149,6 +152,13 @@ for value in profiles:
             simc = "{0}trinkets_other_{1}.simc".format(args.dir, args.talents)
         if "raid" in value:
             simc = "{0}trinkets_raid_{1}.simc".format(args.dir, args.talents)
+    elif args.dir == "azerite-gear/":
+        if "chest" in value:
+            simc = "{0}chest_{1}.simc".format(args.dir, args.talents)
+        if "head" in value:
+            simc = "{0}head_{1}.simc".format(args.dir, args.talents)
+        if "shoulders" in value:
+            simc = "{0}shoulders_{1}.simc".format(args.dir, args.talents)
     with open(simc, 'r') as f:
         data = f.read()
         f.close()

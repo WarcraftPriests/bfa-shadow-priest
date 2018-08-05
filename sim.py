@@ -36,14 +36,30 @@ import reports
 
 print("Running sims on {0} in {1}".format(version, args.dir))
 
+if args.dir == "stats/":
+    RSreport = reports.reportsRSStats
+    report = reports.reportsStats
+elif args.dir == "talents/":
+    RSreport = reports.reportsRSTalents
+    report = reports.reportsTalents
+elif args.dir == "trinkets/":
+    RSreport = reports.reportsRSTrinkets
+    report = reports.reportsTrinkets
+elif args.dir == "azerite-gear/":
+    RSreport = reports.reportsRSAzerite
+    report = reports.reportsAzerite
+else:
+    RSreport = reports.reportsRS
+    report = reports.reports
+
 # determine sim files
 if args.composite:
-    for value in reports.reportsRS:
+    for value in RSreport:
         profile = value.replace('results/_', 'profiles/%s_' % args.composite)
         profile = profile.replace('json', 'simc')
         profiles.append(profile)
 else:
-    for value in reports.reports:
+    for value in report:
         profile = value.replace('results', 'profiles')
         profile = profile.replace('json', 'simc')
         profiles.append(profile)
@@ -56,7 +72,7 @@ for value in profiles:
     count = count + 1
     if not args.composite:
         lookup = value[9:-5]
-        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/":
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/":
             lookup = lookup[lookup.index('_')+1:]
         weight = weightsATBT.get(lookup)
         weightST = weightsSingle.get(lookup)

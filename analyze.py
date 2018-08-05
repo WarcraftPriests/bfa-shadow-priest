@@ -60,7 +60,7 @@ for value in data.iterrows():
             versSingle = (value[1].vers / value[1].int) * weightSingle
             wdpsSingle = (1 / value[1].int) * weightSingle
     else:
-        if args.dir == "talents/" or args.dir == "trinkets/":
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/":
             profile = value[1].profile
             weight = weightsATBT.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
@@ -100,7 +100,7 @@ for value in data.iterrows():
         else:
             resultsSingle[value[1].actor] = weightedDPSSingle
 
-if args.dir == "talents/" or args.dir == "trinkets/":
+if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/":
     baseDPS = results.get('Base') / 3
     results['Base'] = baseDPS
     baseDPSSingle = resultsSingle.get('Base') / 3

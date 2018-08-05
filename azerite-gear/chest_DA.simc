@@ -1,0 +1,134 @@
+priest="Base"
+level=120
+role=spell
+position=back
+talents=3111322
+spec=shadow
+
+default_actions=1
+
+# Head/Shoulders/Chest at 340 ilvl
+head=smartly_plumed_cap,id=155886,bonus_id=4819/1512
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
+shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
+wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+feet=volatile_walkers,id=160714,bonus_id=4800/1507
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
+finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
+trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
+trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=torrent_of_elements
+off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+
+# Robes of the Unraveler - 355, 370, 385
+# Chorus of Insanity + Archive of the Titans / Overwhelming Power
+profileset."C_355_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477,azerite_powers=405/30/13
+profileset."C_370_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492,azerite_powers=405/30/13
+profileset."C_385_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+profileset."C_355_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477,azerite_powers=483/30/13
+profileset."C_370_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492,azerite_powers=483/30/13
+profileset."C_385_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=483/30/13
+
+# Raider's Shrouding Thobe - 355, 370, 385
+# Spiteful Apparitions + Swirling Sands / Gutripper
+profileset."C_355_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477,azerite_powers=403/31/13
+profileset."C_370_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492,azerite_powers=403/31/13
+profileset."C_385_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507,azerite_powers=403/31/13
+profileset."C_355_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477,azerite_powers=196/31/13
+profileset."C_370_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492,azerite_powers=196/31/13
+profileset."C_385_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507,azerite_powers=196/31/13
+
+# Ruffled Poet Blouse - 340, 355, 370, 385
+# Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
+profileset."C_340_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=403/21/13
+profileset."C_355_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=403/21/13
+profileset."C_370_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=403/21/13
+profileset."C_385_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=403/21/13
+profileset."C_355_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=403/38/13
+profileset."C_340_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=403/38/13
+profileset."C_370_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=403/38/13
+profileset."C_385_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=403/38/13
+profileset."C_340_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=505/21/13
+profileset."C_355_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=505/21/13
+profileset."C_370_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=505/21/13
+profileset."C_385_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=505/21/13
+profileset."C_340_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=505/38/13
+profileset."C_355_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=505/38/13
+profileset."C_370_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=505/38/13
+profileset."C_385_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=505/38/13
+
+# Petticoat of the Self-Stylized Azerite Baron - 340, 355, 370, 385
+# Spiteful Apparitions + Unstable Catalyst / Unstable Flames
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512,azerite_powers=403/459/13
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819,azerite_powers=403/459/13
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819,azerite_powers=403/459/13
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819,azerite_powers=403/459/13
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512,azerite_powers=504/459/13
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819,azerite_powers=504/459/13
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819,azerite_powers=504/459/13
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819,azerite_powers=504/459/13
+
+# Loa Betrayer's Vestments - 340, 355, 370, 385
+# Chorus of Insanity + Rezan's Fury / Heed My Call + On My Way
+profileset."C_340_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=405/22/13
+profileset."C_355_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=405/22/13
+profileset."C_370_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=405/22/13
+profileset."C_385_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=405/22/13
+profileset."C_340_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=405/38/13
+profileset."C_355_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=405/38/13
+profileset."C_370_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=405/38/13
+profileset."C_385_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=405/38/13
+profileset."C_340_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=157/22/13
+profileset."C_355_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=157/22/13
+profileset."C_370_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=157/22/13
+profileset."C_385_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=157/22/13
+profileset."C_340_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=157/38/13
+profileset."C_355_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=157/38/13
+profileset."C_370_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=157/38/13
+profileset."C_385_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=157/38/13
+
+# Blood-Drenched Robes - 340, 355, 370, 385
+# Death Throes + Filthy Transfusion / Gutripper
+profileset."C_340_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=4819/1512,azerite_powers=404/31/13
+profileset."C_355_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1527/4819,azerite_powers=404/31/13
+profileset."C_370_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1542/4819,azerite_powers=404/31/13
+profileset."C_385_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1557/4819,azerite_powers=404/31/13
+profileset."C_340_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=4819/1512,azerite_powers=194/31/13
+profileset."C_355_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1527/4819,azerite_powers=194/31/13
+profileset."C_370_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1542/4819,azerite_powers=194/31/13
+profileset."C_385_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1557/4819,azerite_powers=194/31/13
+
+# Robes of the Reborn Serpent - 340, 355, 370, 385
+# Whispers of the Damned + Thunderous Blast / Blood Siphon
+profileset."C_340_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=4819/1512,azerite_powers=236/18/13
+profileset."C_355_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1527/4819,azerite_powers=236/18/13
+profileset."C_370_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1542/4819,azerite_powers=236/18/13
+profileset."C_385_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1557/4819,azerite_powers=236/18/13
+profileset."C_340_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=4819/1512,azerite_powers=482/18/13
+profileset."C_355_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1527/4819,azerite_powers=482/18/13
+profileset."C_370_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1542/4819,azerite_powers=482/18/13
+profileset."C_385_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1557/4819,azerite_powers=482/18/13
+
+# Inmate's Straight Robe - 340, 355, 370, 385
+# Whispers of the Damned + Dagger in the Back / Heed My Call + On My Way
+profileset."C_340_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=236/22/13
+profileset."C_355_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=236/22/13
+profileset."C_370_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=236/22/13
+profileset."C_385_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=236/22/13
+profileset."C_340_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=236/38/13
+profileset."C_355_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=236/38/13
+profileset."C_370_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=236/38/13
+profileset."C_385_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=236/38/13
+profileset."C_340_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=479/22/13
+profileset."C_355_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=479/22/13
+profileset."C_370_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=479/22/13
+profileset."C_385_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=479/22/13
+profileset."C_340_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=479/38/13
+profileset."C_355_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=479/38/13
+profileset."C_370_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=479/38/13
+profileset."C_385_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=479/38/13

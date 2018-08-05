@@ -10,6 +10,7 @@ import argparse
 import json
 import urllib.request
 import urllib.parse
+from urllib.error import URLError, HTTPError
 
 def eprint(*args, **kwargs):
   print(*args, file=sys.stderr, **kwargs)
@@ -29,6 +30,9 @@ SIM_SUBMIT_URL = "%s/sim" % HOST
 
 simc_file = open(args.input_file, 'r')
 simc_input = simc_file.read()
+
+num_of_retries = 2
+time_interval = 20
 
 reportName = args.input_file[:8] + args.output_file[16:-5]
 
@@ -78,7 +82,16 @@ while True:
       'User-Agent': 'Publik\'s Raidbots API Script'
     }
   )
-  res = urllib.request.urlopen(req)
+  for _ in range(num_of_retries):
+      try:
+        res = urllib.request.urlopen(req)
+        break
+      except urllib.error.URLError as e:
+        print(e.reason)
+        print(e.read())
+        time.sleep(time_interval)
+  else:
+      raise
   sim_status = json.loads(res.read().decode('utf8'))
   progress = sim_status['job']['progress']
   state = sim_status['job']['state']
@@ -90,7 +103,7 @@ while True:
   if (state == "active"):
     eprint('Progress: %s' % progress)
 
-  time.sleep(20)
+  time.sleep(time_interval)
 
 eprint('Retrieving result')
 

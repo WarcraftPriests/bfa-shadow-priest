@@ -17,9 +17,9 @@ head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/1
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
 
 # Shoulders - Whispers of the Damned, Earthlink, Azerite Empowered
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
+#shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
 # Shoulders - Spiteful Apparitions/Archive of the Titans, Unstable Flames, Azerite Empowered
-# shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/504/13
+shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/459/13
 
 # Back
 #back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
@@ -27,7 +27,7 @@ shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
 
 # Chest - Chorus of Insanity/Archive of the Titans, Overwhelming Power, Azerite Empowered
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=483/30/13
 
 # Wrists
 wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
