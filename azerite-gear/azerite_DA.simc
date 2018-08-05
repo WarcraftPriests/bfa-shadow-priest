@@ -39,262 +39,322 @@ profileset."Int_100"+=enchant_intellect=100
 
 # Azerothian Champion's Crown - 355
 # Death Throes + Champion of Azeroth / N/A
-profileset."H_355_azerothian_champions_crown_DT_CoA"+=head=azerothian_champions_crown,id=161555
+profileset."H_355_azerothian_champions_crown_DT"+=head=azerothian_champions_crown,id=161555,azerite_powers=404/13
+profileset."H_355_azerothian_champions_crown_CoA"+=head=azerothian_champions_crown,id=161555,azerite_powers=82/13
 
 # Mantle of Contained Corruption - 355, 370, 385
 # Spiteful Apparitions + Archive of the Titans / Unstable Flames
-profileset."S_355_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477
-profileset."S_370_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492
-profileset."S_385_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507
-profileset."S_355_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477
-profileset."S_370_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492
-profileset."S_385_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507
+profileset."S_355_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477,azerite_powers=403/459/13
+profileset."S_370_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492,azerite_powers=403/459/13
+profileset."S_385_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=403/459/13
+profileset."S_355_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477,azerite_powers=483/459/13
+profileset."S_370_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492,azerite_powers=483/459/13
+profileset."S_385_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/459/13
 
 # Robes of the Unraveler - 355, 370, 385
 # Chorus of Insanity + Archive of the Titans / Overwhelming Power
-profileset."C_355_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477
-profileset."C_370_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492
-profileset."C_385_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
-profileset."C_355_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477
-profileset."C_370_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492
-profileset."C_385_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+profileset."C_355_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477,azerite_powers=405/30/13
+profileset."C_370_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492,azerite_powers=405/30/13
+profileset."C_385_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+profileset."C_355_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477,azerite_powers=483/30/13
+profileset."C_370_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492,azerite_powers=483/30/13
+profileset."C_385_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=483/30/13
 
 # Horrific Amalgams Hood - 355, 370, 385
 # Death Throes + Archive of the Titans / Heed My Call
-profileset."H_355_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477
-profileset."H_370_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492
-profileset."H_385_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
-profileset."H_355_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477
-profileset."H_370_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492
-profileset."H_385_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+profileset."H_355_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477,azerite_powers=404/22/13
+profileset."H_370_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492,azerite_powers=404/22/13
+profileset."H_385_horrific_amalgams_hood_DT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
+profileset."H_355_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4822/1477,azerite_powers=483/22/13
+profileset."H_370_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4823/1492,azerite_powers=483/22/13
+profileset."H_385_horrific_amalgams_hood_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=483/22/13
 
 # Visage of the Ascended Prophet - 355, 370, 385
 # Thought Harvester + Laser Matrix / Elemental Whirl
-profileset."H_355_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477
-profileset."H_370_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492
-profileset."H_385_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507
-profileset."H_355_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477
-profileset."H_370_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492
-profileset."H_385_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507
+profileset."H_355_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."H_370_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."H_385_visage_of_the_ascended_prophet_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=X/X/13
+profileset."H_355_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."H_370_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."H_385_visage_of_the_ascended_prophet_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=X/X/13
 
 # Amice of Corrupting Horror - 355, 370, 385
 # Whispers of the Damned + Laser Matrix / Earthlink
-profileset."S_355_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477
-profileset."S_370_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492
-profileset."S_385_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
-profileset."S_355_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477
-profileset."S_370_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492
-profileset."S_385_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
+profileset."S_355_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."S_370_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."S_385_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=X/X/13
+profileset."S_355_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."S_370_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."S_385_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=X/X/13
 
 # Amice of the Rending Abyss - 355, 370, 385
 # Searing Dialogue + Tidal Surge / Heed My Call
-profileset."S_355_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4822/1477
-profileset."S_370_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4823/1492
-profileset."S_385_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4824/1507
-profileset."S_355_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4822/1477
-profileset."S_370_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4823/1492
-profileset."S_385_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4824/1507
+profileset."S_355_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4822/1477,azerite_powers=X/22/13
+profileset."S_370_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4823/1492,azerite_powers=X/22/13
+profileset."S_385_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4824/1507,azerite_powers=X/22/13
+profileset."S_355_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4822/1477,azerite_powers=X/22/13
+profileset."S_370_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4823/1492,azerite_powers=X/22/13
+profileset."S_385_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,bonus_id=4824/1507,azerite_powers=X/22/13
 
 # Raider's Shrouding Thobe - 355, 370, 385
 # Spiteful Apparitions + Swirling Sands / Gitripper
-profileset."C_355_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477
-profileset."C_370_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492
-profileset."C_385_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507
-profileset."C_355_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477
-profileset."C_370_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492
-profileset."C_385_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507
+profileset."C_355_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477,azerite_powers=403/X/13
+profileset."C_370_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492,azerite_powers=403/X/13
+profileset."C_385_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507,azerite_powers=403/X/13
+profileset."C_355_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."C_370_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."C_385_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,bonus_id=4824/1507,azerite_powers=X/X/13
 
 # Matriarch's Shadowveil - 355, 370, 385
 # Thought Harvester + Rezan's Fury / Blood Siphon
-profileset."H_355_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477
-profileset."H_370_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492
-profileset."H_385_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507
-profileset."H_355_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477
-profileset."H_370_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492
-profileset."H_385_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507
+profileset."H_355_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."H_370_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."H_385_matriarchs_shadowveil_TH_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507,azerite_powers=X/X/13
+profileset."H_355_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4822/1477,azerite_powers=X/X/13
+profileset."H_370_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4823/1492,azerite_powers=X/X/13
+profileset."H_385_matriarchs_shadowveil_RF_BS"+=head=matriarchs_shadowveil,id=161401,bonus_id=4824/1507,azerite_powers=X/X/13
 
 # AZ3-R1-T3 Synthetic Specs - 340
 # Relational Normalization Gizmo + Ricocheting Inflatable Pyrosaw + Barrage of Many Bombs + Synaptic Spark Capacitor / Overwhelming Power
-profileset."H_340_az3_r1_t3_synthetic_specs_RNG_OP"+=head=az3_r1_t3_synthetic_specs,id=160488
-profileset."H_340_az3_r1_t3_synthetic_specs_RIP_OP"+=head=az3_r1_t3_synthetic_specs,id=160488
-profileset."H_340_az3_r1_t3_synthetic_specs_BoMB_OP"+=head=az3_r1_t3_synthetic_specs,id=160488
-profileset."H_340_az3_r1_t3_synthetic_specs_SSC_OP"+=head=az3_r1_t3_synthetic_specs,id=160488
+profileset."H_340_az3_r1_t3_synthetic_specs_RNG_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=X/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_RIP_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=X/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_BoMB_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=X/30/13
+profileset."H_340_az3_r1_t3_synthetic_specs_SSC_OP"+=head=az3_r1_t3_synthetic_specs,id=160488,azerite_powers=X/30/13
 
 # Smartly Plumed Cap - 340, 355, 370, 385
 # Searing Dialogue + Meticulous Scheming / Azerite Globules
-profileset."H_340_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512
-profileset."H_355_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819
-profileset."H_370_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819
-profileset."H_385_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819
-profileset."H_340_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512
-profileset."H_355_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819
-profileset."H_370_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819
-profileset."H_385_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819
+profileset."H_340_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_smartly_plumed_cap_SD_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."H_340_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_smartly_plumed_cap_MS_AG"+=head=smartly_plumed_cap,id=155886,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Ruffled Poet Blouse - 340, 355, 370, 385
 # Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
-profileset."C_340_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
-profileset."C_355_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819
-profileset."C_370_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819
-profileset."C_385_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819
-profileset."C_340_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
-profileset."C_355_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819
-profileset."C_370_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819
-profileset."C_385_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819
-profileset."C_340_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
-profileset."C_355_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819
-profileset."C_370_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819
-profileset."C_385_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819
-profileset."C_340_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512
-profileset."C_355_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819
-profileset."C_370_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819
-profileset."C_385_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819
+profileset."C_340_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=403/X/13
+profileset."C_355_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=403/X/13
+profileset."C_370_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=403/X/13
+profileset."C_385_ruffled_poet_blouse_SA_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=403/X/13
+profileset."C_355_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=403/X/13
+profileset."C_340_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=403/X/13
+profileset."C_370_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=403/X/13
+profileset."C_385_ruffled_poet_blouse_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=403/X/13
+profileset."C_340_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_ruffled_poet_blouse_TW_EW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."C_340_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Secret Spinner's Miter - 340, 355, 370, 385
 # Thought Harvester + Incite the Pack / Overwhelming Power
-profileset."H_340_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512
-profileset."H_355_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819
-profileset."H_370_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819
-profileset."H_385_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819
-profileset."H_340_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512
-profileset."H_355_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819
-profileset."H_370_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819
-profileset."H_385_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819
+profileset."H_340_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512,azerite_powers=X/30/13
+profileset."H_355_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819,azerite_powers=X/30/13
+profileset."H_370_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819,azerite_powers=X/30/13
+profileset."H_385_secret_spinners_miter_TH_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819,azerite_powers=X/30/13
+profileset."H_340_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=4819/1512,azerite_powers=X/30/13
+profileset."H_355_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1527/4819,azerite_powers=X/30/13
+profileset."H_370_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1542/4819,azerite_powers=X/30/13
+profileset."H_385_secret_spinners_miter_ItP_OP"+=head=secret_spinners_miter,id=158315,bonus_id=1557/4819,azerite_powers=X/30/13
 
 # Mantle of Ceremonial Ascension - 340, 355, 370, 385
 # Chorus of Insanity + Incite the Pack / Elemental Whirl
-profileset."S_340_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=4819/1512
-profileset."S_355_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1527/4819
-profileset."S_370_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1542/4819
-profileset."S_385_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1557/4819
-profileset."S_340_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=4819/1512
-profileset."S_355_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1527/4819
-profileset."S_370_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1542/4819
-profileset."S_385_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1557/4819
+profileset."S_340_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=4819/1512,azerite_powers=405/X/13
+profileset."S_370_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1542/4819,azerite_powers=405/X/13
+profileset."S_355_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1527/4819,azerite_powers=405/X/13
+profileset."S_385_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1557/4819,azerite_powers=405/X/13
+profileset."S_340_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Petticoat of the Self-Stylized Azerite Baron - 340, 355, 370, 385
 # Spiteful Apparitions + Unstable Catalyst / Unstable Flames
-profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512
-profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819
-profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819
-profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512
-profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819
-profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512,azerite_powers=403/459/13
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819,azerite_powers=403/459/13
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819,azerite_powers=403/459/13
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819,azerite_powers=403/459/13
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=4819/1512,azerite_powers=X/459/13
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1527/4819,azerite_powers=X/459/13
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1542/4819,azerite_powers=X/459/13
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,bonus_id=1557/4819,azerite_powers=X/459/13
 
 # Exquisitely Aerodynamic Shoulderpads - 340, 355, 370, 385
 # Searing Dialogue + Unstable Catalyst / Gutripper + On My Way
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819
-
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819
+profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Loa Betrayer's Vestments - 340, 355, 370, 385
 # Chorus of Insanity + Rezan's Fury / Heed My Call + On My Way
-profileset."C_340_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512
-profileset."C_355_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819
-profileset."C_370_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819
-profileset."C_385_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819
-profileset."C_340_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512
-profileset."C_355_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819
-profileset."C_370_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819
-profileset."C_385_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819
-profileset."C_340_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512
-profileset."C_355_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819
-profileset."C_370_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819
-profileset."C_385_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819
-profileset."C_340_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512
-profileset."C_355_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819
-profileset."C_370_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819
-profileset."C_385_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819
+profileset."C_340_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=405/22/13
+profileset."C_355_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=405/22/13
+profileset."C_370_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=405/22/13
+profileset."C_385_loa_betrayers_vestments_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=405/22/13
+profileset."C_340_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=405/X/13
+profileset."C_355_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=405/X/13
+profileset."C_370_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=405/X/13
+profileset."C_385_loa_betrayers_vestments_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=405/X/13
+profileset."C_340_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=X/22/13
+profileset."C_355_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=X/22/13
+profileset."C_370_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=X/22/13
+profileset."C_385_loa_betrayers_vestments_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=X/22/13
+profileset."C_340_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_loa_betrayers_vestments_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Headdress of the First Empire - 340, 355, 370, 385
 # Thought Harvester + Rezan's Fury / Earthlink
-profileset."H_headdress_of_the_first_empire"+=head=headdress_of_the_first_empire,id=159236,bonus_id=4819/1512
-profileset."H_headdress_of_the_first_empire"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1527/4819
-profileset."H_headdress_of_the_first_empire"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1542/4819
-profileset."H_headdress_of_the_first_empire"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1557/4819
+profileset."H_340_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_headdress_of_the_first_empire_TH_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."H_340_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_headdress_of_the_first_empire_RF_EL"+=head=headdress_of_the_first_empire,id=159236,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Mantle of Void-Touched Waters - 340, 355, 370, 385
 # Whispers of the Damned + Secrets of the Deep / Heed My Call
-profileset."S_mantle_of_void_touched_waters"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=4819/1512
-profileset."S_mantle_of_void_touched_waters"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1527/4819
-profileset."S_mantle_of_void_touched_waters"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1542/4819
-profileset."S_mantle_of_void_touched_waters"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1557/4819
+profileset."S_340_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=4819/1512,azerite_powers=X/22/13
+profileset."S_355_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1527/4819,azerite_powers=X/22/13
+profileset."S_370_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1542/4819,azerite_powers=X/22/13
+profileset."S_385_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1557/4819,azerite_powers=X/22/13
+profileset."S_340_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=4819/1512,azerite_powers=X/22/13
+profileset."S_355_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1527/4819,azerite_powers=X/22/13
+profileset."S_370_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1542/4819,azerite_powers=X/22/13
+profileset."S_385_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,bonus_id=1557/4819,azerite_powers=X/22/13
 
 # Blood-Drenched Robes - 340, 355, 370, 385
 # Death Throes + Filthy Transfusion / Gutripper
-profileset."C_blood_drenched_robes"+=chest=blood_drenched_robes,id=159241,bonus_id=4819/1512
-profileset."C_blood_drenched_robes"+=chest=blood_drenched_robes,id=159241,bonus_id=1527/4819
-profileset."C_blood_drenched_robes"+=chest=blood_drenched_robes,id=159241,bonus_id=1542/4819
-profileset."C_blood_drenched_robes"+=chest=blood_drenched_robes,id=159241,bonus_id=1557/4819
+profileset."C_340_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=4819/1512,azerite_powers=404/X/13
+profileset."C_355_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1527/4819,azerite_powers=404/X/13
+profileset."C_370_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1542/4819,azerite_powers=404/X/13
+profileset."C_385_blood_drenched_robes_DT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1557/4819,azerite_powers=404/X/13
+profileset."C_340_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_blood_drenched_robes_FT_GR"+=chest=blood_drenched_robes,id=159241,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Stormlurker's Cowl - 340, 355, 370, 385
 # Thought Harvester + Tidal Surge / Overwhelming Power + On My Way
-profileset."H_stormlurkers_cowl"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512
-profileset."H_stormlurkers_cowl"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819
-profileset."H_stormlurkers_cowl"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819
-profileset."H_stormlurkers_cowl"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819
+profileset."H_340_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=X/30/13
+profileset."H_355_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=X/30/13
+profileset."H_370_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=X/30/13
+profileset."H_385_stormlurkers_cowl_TH_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=X/30/13
+profileset."H_340_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_stormlurkers_cowl_TH_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."H_340_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=X/30/13
+profileset."H_355_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=X/30/13
+profileset."H_370_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=X/30/13
+profileset."H_385_stormlurkers_cowl_TS_OP"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=X/30/13
+profileset."H_340_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_stormlurkers_cowl_TS_OMW"+=head=stormlurkers_cowl,id=159244,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Grasping Crown of the Deep - 340, 355, 370, 385
 # Death Throes + Dagger in the Back / Blood Siphon
-profileset."H_grasping_crown_of_the_deep"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=4819/1512
-profileset."H_grasping_crown_of_the_deep"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1527/4819
-profileset."H_grasping_crown_of_the_deep"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1542/4819
-profileset."H_grasping_crown_of_the_deep"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1557/4819
+profileset."H_340_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=4819/1512,azerite_powers=404/X/13
+profileset."H_355_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1527/4819,azerite_powers=404/X/13
+profileset."H_370_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1542/4819,azerite_powers=404/X/13
+profileset."H_385_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1557/4819,azerite_powers=404/X/13
+profileset."H_340_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Brood Cleanser's Amice - 340, 355, 370, 385
 # Searing Dialogue + Swirling Sands / Earthlink
-profileset."S_brood_cleansers_amice"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=4819/1512
-profileset."S_brood_cleansers_amice"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1527/4819
-profileset."S_brood_cleansers_amice"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1542/4819
-profileset."S_brood_cleansers_amice"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1557/4819
+profileset."S_340_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."S_340_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."S_355_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."S_370_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."S_385_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Robes of the Reborn Serpent - 340, 355, 370, 385
 # Whispers of the Damned + Thunderous Blast / Blood Siphon
-profileset."C_robes_of_the_reborn_serpent"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=4819/1512
-profileset."C_robes_of_the_reborn_serpent"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1527/4819
-profileset."C_robes_of_the_reborn_serpent"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1542/4819
-profileset."C_robes_of_the_reborn_serpent"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1557/4819
+profileset."C_340_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_robes_of_the_reborn_serpent_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."C_340_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_robes_of_the_reborn_serpent_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Pauldrons of Vile Corruption - 340, 355, 370, 385
 # Spiteful Apparitions + Blood Rite / Unstable Flames
-profileset."S_pauldrons_of_vile_corruption"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=4819/1512
-profileset."S_pauldrons_of_vile_corruption"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1527/4819
-profileset."S_pauldrons_of_vile_corruption"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1542/4819
-profileset."S_pauldrons_of_vile_corruption"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1557/4819
+profileset."S_340_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=4819/1512,azerite_powers=403/459/13
+profileset."S_355_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1527/4819,azerite_powers=403/459/13
+profileset."S_370_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1542/4819,azerite_powers=403/459/13
+profileset."S_385_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1557/4819,azerite_powers=403/459/13
+profileset."S_340_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=4819/1512,azerite_powers=X/459/13
+profileset."S_355_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1527/4819,azerite_powers=X/459/13
+profileset."S_370_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1542/4819,azerite_powers=X/459/13
+profileset."S_385_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,bonus_id=1557/4819,azerite_powers=X/459/13
 
 # Inmate's Straight Robe - 340, 355, 370, 385
 # Whispers of the Damned + Dagger in the Back / Heed My Call + On My Way
-profileset."C_inmates_straight_robe"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512
-profileset."C_inmates_straight_robe"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819
-profileset."C_inmates_straight_robe"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819
-profileset."C_inmates_straight_robe"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819
+profileset."C_340_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=X/22/13
+profileset."C_355_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=X/22/13
+profileset."C_370_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=X/22/13
+profileset."C_385_inmates_straight_robe_WotD_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=X/22/13
+profileset."C_340_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_inmates_straight_robe_WotD_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=X/X/13
+profileset."C_340_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=X/22/13
+profileset."C_355_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=X/22/13
+profileset."C_370_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=X/22/13
+profileset."C_385_inmates_straight_robe_DitB_HMC"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=X/22/13
+profileset."C_340_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."C_355_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."C_370_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."C_385_inmates_straight_robe_DitB_OMW"+=chest=inmates_straight_robe,id=159268,bonus_id=1557/4819,azerite_powers=X/X/13
 
 # Amice of the Returned - 340, 355, 370, 385
 # Death Throes + Ruinous Bolt / Unstable Flames
-profileset."S_amice_of_the_returned"+=shoulder=amice_of_the_returned,id=159273,bonus_id=4819/1512
-profileset."S_amice_of_the_returned"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1527/4819
-profileset."S_amice_of_the_returned"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1542/4819
-profileset."S_amice_of_the_returned"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1557/4819
+profileset."S_340_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=4819/1512,azerite_powers=404/459/13
+profileset."S_355_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1527/4819,azerite_powers=404/459/13
+profileset."S_370_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1542/4819,azerite_powers=404/459/13
+profileset."S_385_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1557/4819,azerite_powers=404/459/13
+profileset."S_340_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=4819/1512,azerite_powers=X/459/13
+profileset."S_355_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1527/4819,azerite_powers=X/459/13
+profileset."S_370_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1542/4819,azerite_powers=X/459/13
+profileset."S_385_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,bonus_id=1557/4819,azerite_powers=X/459/13
 
 # Soulfuel Headdress - 340, 355, 370, 385
 # Chorus of Insanity + Blightborne Infusion / Azerite Globules
-profileset."H_soulfuel_headdress"+=head=soulfuel_headdress,id=159279,bonus_id=4819/1512
-profileset."H_soulfuel_headdress"+=head=soulfuel_headdress,id=159279,bonus_id=1527/4819
-profileset."H_soulfuel_headdress"+=head=soulfuel_headdress,id=159279,bonus_id=1542/4819
-profileset."H_soulfuel_headdress"+=head=soulfuel_headdress,id=159279,bonus_id=1557/4819
+profileset."H_340_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=4819/1512,azerite_powers=405/X/13
+profileset."H_355_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1527/4819,azerite_powers=405/X/13
+profileset."H_370_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1542/4819,azerite_powers=405/X/13
+profileset."H_385_soulfuel_headdress_CoI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1557/4819,azerite_powers=405/X/13
+profileset."H_340_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=4819/1512,azerite_powers=X/X/13
+profileset."H_355_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1527/4819,azerite_powers=X/X/13
+profileset."H_370_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1542/4819,azerite_powers=X/X/13
+profileset."H_385_soulfuel_headdress_BI_AG"+=head=soulfuel_headdress,id=159279,bonus_id=1557/4819,azerite_powers=X/X/13

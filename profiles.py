@@ -3,6 +3,11 @@ import os
 import shutil
 import argparse
 
+def assure_path_exists(path):
+    dir = os.path.dirname(path)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
@@ -10,6 +15,7 @@ parser.add_argument('--talents', help='indicate talent build for output.', choic
 args = parser.parse_args()
 
 # clear out results
+assure_path_exists('%sresults/' % args.dir)
 for the_file in os.listdir('%sresults/' % args.dir):
     file_path = os.path.join('%sresults/' % args.dir, the_file)
     try:
@@ -19,6 +25,7 @@ for the_file in os.listdir('%sresults/' % args.dir):
         print(e)
 
 # clear out profiles
+assure_path_exists('%sprofiles/' % args.dir)
 for the_file in os.listdir('%sprofiles/' % args.dir):
     file_path = os.path.join('%sprofiles/' % args.dir, the_file)
     try:
