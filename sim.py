@@ -26,7 +26,7 @@ args = parser.parse_args()
 if args.weights:
     weights = ''
 
-if args.iterations > 0:
+if int(args.iterations) > 0:
     iterations = args.iterations
 else:
     iterations = "smart"
@@ -34,7 +34,7 @@ else:
 sys.path.insert(0, args.dir)
 import reports
 
-print "Running sims on {0} in {1}".format(version, args.dir)
+print("Running sims on {0} in {1}".format(version, args.dir))
 
 # determine sim files
 if args.composite:
@@ -54,28 +54,31 @@ count = 0
 
 for value in profiles:
     count = count + 1
-    lookup = value[9:-5]
-    if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/":
-        lookup = lookup[lookup.index('_')+1:]
-    weight = weightsATBT.get(lookup)
-    weightST = weightsSingle.get(lookup)
-    if weightST:
-        weight = weight + weightST
-    print "Simming {0} out of {1}.".format(count, len(profiles))
+    if not args.composite:
+        lookup = value[9:-5]
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/":
+            lookup = lookup[lookup.index('_')+1:]
+        weight = weightsATBT.get(lookup)
+        weightST = weightsSingle.get(lookup)
+        if weightST:
+            weight = weight + weightST
+    else:
+        weight = 1
+    print("Simming {0} out of {1}.".format(count, len(profiles)))
     name = value.replace('simc', 'json')
     name = name.replace('profiles', 'results')
     if name[8:] not in existing and weight > 0:
         reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
-        subprocess.call(['python3', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
+        subprocess.call(['python', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
     elif weight == 0:
-        print "{0} has a weight of 0. Skipping file.".format(name[8:])
+        print("{0} has a weight of 0. Skipping file.".format(name[8:]))
     else:
-        print "{0} already exists. Skipping file.".format(name[8:])
+        print("{0} already exists. Skipping file.".format(name[8:]))
 
 results_dir = args.dir + "results/"
-subprocess.call(['python3', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
+subprocess.call(['python', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
 
 # analyze.py
 if args.composite:

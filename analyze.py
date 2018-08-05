@@ -1,6 +1,7 @@
 import pandas
 import weights
 import argparse
+import operator
 
 weightsSingle = weights.weightsSingle
 weightsATBT = weights.weightsATBT
@@ -127,7 +128,7 @@ with open(outputMarkdown, 'w') as resultsMD:
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
         resultsMD.write('# Antorus Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
     if args.weights:
@@ -136,7 +137,7 @@ with open(outputMarkdown, 'w') as resultsMD:
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
         resultsMD.write('\n# Single Target\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(resultsSingle.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPSSingle)))
 
 # results.csv output
@@ -148,12 +149,12 @@ with open(outputCSV, 'w') as resultsCSV:
             resultsCSV.write("composite,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
         resultsCSV.write('profile,actor,DPS,increase,\n')
-        for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("composite,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
     if args.weights:
         for key, value in resultsSingle.items():
             resultsCSV.write("single_target,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
-        for key, value in sorted(resultsSingle.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("single_target,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPSSingle)))

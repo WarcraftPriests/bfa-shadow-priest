@@ -2,6 +2,7 @@ import pandas
 import weights
 import argparse
 import re
+import operator
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -195,39 +196,39 @@ with open(outputMarkdownRS, 'w') as resultsMD:
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
     else:
         resultsMD.write('# Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
 
         resultsMD.write('# Taloc\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(taloc.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(taloc.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseTaloc)))
 
         resultsMD.write('# Mother\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(mother.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(mother.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseMother)))
 
         resultsMD.write('# Fetid\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(fetid.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(fetid.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseFetid)))
 
         resultsMD.write('# Zekvoz\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(zekvoz.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(zekvoz.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseZekvoz)))
 
         resultsMD.write('# Vectis\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(vectis.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(vectis.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseVectis)))
 
         resultsMD.write('# Zul\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(zul.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(zul.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseZul)))
 
         resultsMD.write('# Mythrax\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(mythrax.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(mythrax.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseMythrax)))
 
         resultsMD.write('# G\'huun\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
-        for key, value in sorted(ghuun.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(ghuun.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseGhuun)))
 
 with open(outputCSVRS, 'w') as resultsCSV:
@@ -238,21 +239,21 @@ with open(outputCSVRS, 'w') as resultsCSV:
             resultsCSV.write("composite,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5]))
     else:
         resultsCSV.write('profile,actor,DPS,increase,\n')
-        for key, value in sorted(results.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("composite,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPS)))
-        for key, value in sorted(taloc.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(taloc.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("taloc,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseTaloc)))
-        for key, value in sorted(mother.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(mother.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("mother,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseMother)))
-        for key, value in sorted(fetid.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(fetid.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("fetid,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseFetid)))
-        for key, value in sorted(zekvoz.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(zekvoz.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("zekvoz,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseZekvoz)))
-        for key, value in sorted(vectis.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(vectis.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("vectis,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseVectis)))
-        for key, value in sorted(zul.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(zul.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("zul,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseZul)))
-        for key, value in sorted(mythrax.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(mythrax.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("mythrax,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseMythrax)))
-        for key, value in sorted(ghuun.iteritems(), key=lambda (k,v): (v,k), reverse=True):
+        for key, value in sorted(ghuun.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("ghuun,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseGhuun)))
