@@ -49,6 +49,9 @@ profileset."385_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contai
 profileset."355_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4822/1477
 profileset."370_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4823/1492
 profileset."385_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507
+profileset."390_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=1512/4822
+profileset."395_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=1517/4822
+profileset."400_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,bonus_id=1522/4822
 
 # Robes of the Unraveler - 355, 370, 385
 # Chorus of Insanity + Archive of the Titans / Overwhelming Power
@@ -58,6 +61,9 @@ profileset."385_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=
 profileset."355_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4822/1477
 profileset."370_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4823/1492
 profileset."385_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+profileset."390_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+profileset."395_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
+profileset."400_robes_of_the_unraveler_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
 
 # Horrific Amalgams Hood - 355, 370, 385
 # Death Throes + Archive of the Titans / Heed My Call
