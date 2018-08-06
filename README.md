@@ -56,7 +56,8 @@ Every sim is run with the top DA and LotV build:
 - 7169 Intellect - 5123
 
 ### Enchants
-- Weapon: [Torrent of Elements](https://bfa.wowhead.com/item=153479/enchant-weapon-torrent-of-elements)
+- Weapon - DA: [Deadly Navigation](https://www.wowhead.com/spell=268905/deadly-navigation)
+- Weapon - LotV: [Quick Navigation](https://www.wowhead.com/spell=268894/weapon-enchant-quick-navigation)
 - Ring: [Pact of Haste](https://www.wowhead.com/item=153443/enchant-ring-pact-of-haste)
 
 ### Consumables
