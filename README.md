@@ -32,7 +32,7 @@ All sims are run with the following as a base (unless specified otherwise)
 
 ### Talent Combos
 Every sim is run with the top DA and LotV build:
-- DA: SWV_ToF_SC_MB_DA
+- DA: FotM_ToF_SC_MB_DA
 - LotV: FotM_ToF_SC_MB_LotV
 
 ### Azerite Traits
