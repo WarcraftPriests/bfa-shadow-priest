@@ -88,7 +88,6 @@ while True:
         break
       except urllib.error.URLError as e:
         print(e.reason)
-        print(e.read())
         time.sleep(time_interval)
   else:
       raise
