@@ -392,7 +392,7 @@ reportsAzerite = {
     'results/chest_hm_ba_2.json',
     'results/chest_hm_na_2.json',
     'results/chest_hm_sa_2.json',
-    'results/chest_pw_ba_1.json',
+    'results/head_pw_ba_1.json',
     'results/head_pw_na_1.json',
     'results/head_pw_sa_1.json',
     'results/head_lm_ba_1.json',
