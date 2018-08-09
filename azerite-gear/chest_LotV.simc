@@ -25,6 +25,9 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
+copy="Base_AS","Base"
+talents=1111121
+
 # Robes of the Unraveler - 355, 370, 385
 # Chorus of Insanity + Archive of the Titans / Overwhelming Power
 profileset."C_355_robes_of_the_unraveler_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,ilevel=355,azerite_powers=405/30/13
@@ -42,6 +45,13 @@ profileset."C_385_raiders_shrouding_thobe_SA_GR"+=chest=raiders_shrouding_thobe,
 profileset."C_355_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=355,azerite_powers=196/31/13
 profileset."C_370_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=370,azerite_powers=196/31/13
 profileset."C_385_raiders_shrouding_thobe_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=196/31/13
+# AS Talented
+profileset."C_355_raiders_shrouding_thobe_SA_GR_AS"+=chest=raiders_shrouding_thobe,id=161400,ilevel=355,azerite_powers=403/31/13
+profileset."C_355_raiders_shrouding_thobe_SA_GR_AS"+=talents=1111121
+profileset."C_370_raiders_shrouding_thobe_SA_GR_AS"+=chest=raiders_shrouding_thobe,id=161400,ilevel=370,azerite_powers=403/31/13
+profileset."C_370_raiders_shrouding_thobe_SA_GR_AS"+=talents=1111121
+profileset."C_385_raiders_shrouding_thobe_SA_GR_AS"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=403/31/13
+profileset."C_385_raiders_shrouding_thobe_SA_GR_AS"+=talents=1111121
 
 # Ruffled Poet Blouse - 340, 355, 370, 385
 # Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
@@ -61,6 +71,23 @@ profileset."C_340_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=1583
 profileset."C_355_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=355,azerite_powers=505/38/13
 profileset."C_370_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=370,azerite_powers=505/38/13
 profileset."C_385_ruffled_poet_blouse_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=505/38/13
+# AS Talented
+profileset."C_340_ruffled_poet_blouse_SA_EW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=340,azerite_powers=403/21/13
+profileset."C_340_ruffled_poet_blouse_SA_EW_AS"+=talents=1111121
+profileset."C_355_ruffled_poet_blouse_SA_EW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=355,azerite_powers=403/21/13
+profileset."C_355_ruffled_poet_blouse_SA_EW_AS"+=talents=1111121
+profileset."C_370_ruffled_poet_blouse_SA_EW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=370,azerite_powers=403/21/13
+profileset."C_370_ruffled_poet_blouse_SA_EW_AS"+=talents=1111121
+profileset."C_385_ruffled_poet_blouse_SA_EW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=403/21/13
+profileset."C_385_ruffled_poet_blouse_SA_EW_AS"+=talents=1111121
+profileset."C_355_ruffled_poet_blouse_SA_OMW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=355,azerite_powers=403/38/13
+profileset."C_355_ruffled_poet_blouse_SA_OMW_AS"+=talents=1111121
+profileset."C_340_ruffled_poet_blouse_SA_OMW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=340,azerite_powers=403/38/13
+profileset."C_340_ruffled_poet_blouse_SA_OMW_AS"+=talents=1111121
+profileset."C_370_ruffled_poet_blouse_SA_OMW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=370,azerite_powers=403/38/13
+profileset."C_370_ruffled_poet_blouse_SA_OMW_AS"+=talents=1111121
+profileset."C_385_ruffled_poet_blouse_SA_OMW_AS"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=403/38/13
+profileset."C_385_ruffled_poet_blouse_SA_OMW_AS"+=talents=1111121
 
 # Petticoat of the Self-Stylized Azerite Baron - 340, 355, 370, 385
 # Spiteful Apparitions + Unstable Catalyst / Unstable Flames
@@ -72,6 +99,15 @@ profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=pet
 profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=355,azerite_powers=504/459/13
 profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=370,azerite_powers=504/459/13
 profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=504/459/13
+# AS
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=340,azerite_powers=403/459/13
+profileset."C_340_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=talents=1111121
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=355,azerite_powers=403/459/13
+profileset."C_355_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=talents=1111121
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=370,azerite_powers=403/459/13
+profileset."C_370_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=talents=1111121
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=403/459/13
+profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_SA_UF_AS"+=talents=1111121
 
 # Loa Betrayer's Vestments - 340, 355, 370, 385
 # Chorus of Insanity + Rezan's Fury / Heed My Call + On My Way
