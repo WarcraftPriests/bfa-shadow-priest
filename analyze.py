@@ -105,6 +105,12 @@ if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gea
     results['Base'] = baseDPS
     baseDPSSingle = resultsSingle.get('Base') / 3
     resultsSingle['Base'] = baseDPSSingle
+    if args.dir == "azerite-gear/":
+        # alter AS_Base dps
+        baseDPSAS = results.get('Base_AS') / 3
+        results['Base_AS'] = baseDPSAS
+        baseDPSSingleAS = resultsSingle.get('Base_AS') / 3
+        resultsSingle['Base_AS'] = baseDPSSingleAS
 elif args.dir == "gear/":
     baseDPS = results.get('Priest_Shadow_T22M')
     baseDPSSingle = resultsSingle.get('Priest_Shadow_T22M')

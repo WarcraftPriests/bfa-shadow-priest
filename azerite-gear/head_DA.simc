@@ -25,8 +25,7 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-copy="Base_AS","Base"
-talents=1111122
+profileset."Base_AS"+=talents=1111122
 
 # Azerothian Champion's Crown - 355
 # Death Throes + Champion of Azeroth / N/A
