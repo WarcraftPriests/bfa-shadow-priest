@@ -24,7 +24,7 @@ All scripts are run with python3. If you are using Windows you will likely need 
 
 ## SimC Script for Azerite Traits
 ```
-.\simc.exe spell_query=azerite.class=priest | Out-File 'A:\simc-bfa\priest-traits.txt'
+.\simc.exe spell_query=azerite.class=priest | Out-File 'A:\simc\priest-traits.txt'
 ```
 
 ## Base Actor Information
