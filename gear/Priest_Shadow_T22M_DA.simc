@@ -9,17 +9,17 @@ spec=shadow
 default_actions=1
 
 # Head - Death Throes/Archive of the Titans, Heed My Call, Azerite Empowered
-head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
+# head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
 # Head - Thought Harvester/Laser Matrix, Elemental Whirl, Azerite Empowered
-# head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=166/21/13
+head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
 
 # Neck
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
 
 # Shoulders - Whispers of the Damned, Earthlink, Azerite Empowered
-#shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236/461/13
+shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=485/461/13
 # Shoulders - Spiteful Apparitions/Archive of the Titans, Unstable Flames, Azerite Empowered
-shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/459/13
+# shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/459/13
 
 # Back
 #back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
