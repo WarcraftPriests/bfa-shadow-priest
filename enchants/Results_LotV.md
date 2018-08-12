@@ -1,27 +1,27 @@
 # Antorus Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|15064|2.73%|
-|Weapon-Deadly-Navigation|15035|2.54%|
-|Weapon-Torrent-of-Elements|14989|2.22%|
-|Weapon-Versatile-Navigation|14984|2.18%|
-|Weapon-Masterful-Navigation|14951|1.96%|
-|Ring_Pact_of_Haste|14744|0.55%|
-|Ring_Pact_of_Critical_Strike|14734|0.48%|
-|Ring_Pact_of_Versatility|14724|0.41%|
-|Ring_Pact_of_Mastery|14717|0.37%|
-|Base|14663|0.00%|
+|Weapon-Quick-Navigation|15168|2.74%|
+|Weapon-Deadly-Navigation|15139|2.55%|
+|Weapon-Torrent-of-Elements|15097|2.26%|
+|Weapon-Versatile-Navigation|15089|2.21%|
+|Weapon-Masterful-Navigation|15048|1.93%|
+|Ring_Pact_of_Haste|14849|0.58%|
+|Ring_Pact_of_Critical_Strike|14840|0.52%|
+|Ring_Pact_of_Versatility|14827|0.43%|
+|Ring_Pact_of_Mastery|14820|0.38%|
+|Base|14763|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|13706|2.75%|
-|Weapon-Deadly-Navigation|13668|2.46%|
-|Weapon-Torrent-of-Elements|13637|2.23%|
-|Weapon-Versatile-Navigation|13633|2.20%|
-|Weapon-Masterful-Navigation|13602|1.97%|
-|Ring_Pact_of_Haste|13418|0.59%|
-|Ring_Pact_of_Critical_Strike|13403|0.47%|
-|Ring_Pact_of_Versatility|13399|0.45%|
-|Ring_Pact_of_Mastery|13393|0.40%|
-|Base|13340|0.00%|
+|Weapon-Quick-Navigation|13837|2.74%|
+|Weapon-Deadly-Navigation|13797|2.45%|
+|Weapon-Torrent-of-Elements|13770|2.25%|
+|Weapon-Versatile-Navigation|13759|2.17%|
+|Weapon-Masterful-Navigation|13721|1.88%|
+|Ring_Pact_of_Haste|13542|0.56%|
+|Ring_Pact_of_Critical_Strike|13530|0.46%|
+|Ring_Pact_of_Versatility|13519|0.39%|
+|Ring_Pact_of_Mastery|13516|0.36%|
+|Base|13467|0.00%|
