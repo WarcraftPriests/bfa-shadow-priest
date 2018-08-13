@@ -3,10 +3,7 @@ level=120
 #race=troll
 role=spell
 position=back
-# LotV
-talents=1111321
-# DA
-# talents=3111322
+talents=1111121
 spec=shadow
 
 default_actions=1

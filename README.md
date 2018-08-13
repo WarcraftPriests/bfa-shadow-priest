@@ -34,8 +34,8 @@ All sims are run with the following as a base (unless specified otherwise)
 
 ### Talent Combos
 Every sim is run with the top DA and LotV build:
-- DA: FotM_ToF_SC_MB_DA
-- LotV: FotM_ToF_SC_MB_LotV
+- DA: FotM_ToF_AS_MB_DA
+- LotV: FotM_ToF_AS_MB_LotV
 
 ### Azerite Traits
 - Head: [Visage of the Ascended Prophet](https://www.wowhead.com/item=160719/visage-of-the-ascended-prophet&bonus=4822:1477): [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix), [Elemental Whirl](https://www.wowhead.com/spell=270667/elemental-whirl), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)

@@ -2,7 +2,7 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=1111322
+talents=1111122
 spec=shadow
 
 default_actions=1
@@ -25,7 +25,7 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-profileset."Base_AS"+=talents=1111122
+# profileset."Base_AS"+=talents=1111122
 
 # Mantle of Contained Corruption - 355, 370, 385
 # Spiteful Apparitions + Archive of the Titans / Unstable Flames
@@ -36,12 +36,12 @@ profileset."S_355_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_co
 profileset."S_370_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=483/459/13
 profileset."S_385_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=483/459/13
 # AS
-profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=403/459/13
-profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
-profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=403/459/13
-profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
-profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=403/459/13
-profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=403/459/13
+# profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=403/459/13
+# profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=403/459/13
+# profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
 
 # Amice of Corrupting Horror - 355, 370, 385
 # Whispers of the Damned + Laser Matrix / Earthlink
@@ -124,14 +124,14 @@ profileset."S_355_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vil
 profileset."S_370_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=480/459/13
 profileset."S_385_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=480/459/13
 # AS
-profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=340,azerite_powers=403/459/13
-profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=403/459/13
-profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=403/459/13
-profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=403/459/13
-profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=340,azerite_powers=403/459/13
+# profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=403/459/13
+# profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=403/459/13
+# profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
+# profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=403/459/13
+# profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
 
 # Amice of the Returned - 340, 355, 370, 385
 # Death Throes + Ruinous Bolt / Unstable Flames

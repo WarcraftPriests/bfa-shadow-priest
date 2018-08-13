@@ -2,7 +2,7 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=1111321
+talents=1111121
 spec=shadow
 
 default_actions=1
@@ -25,7 +25,7 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-profileset."Base_AS"+=talents=1111121
+# profileset."Base_AS"+=talents=1111121
 
 # Azerothian Champion's Crown - 355
 # Death Throes + Champion of Azeroth / N/A
