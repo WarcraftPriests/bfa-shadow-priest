@@ -64,6 +64,9 @@ Every sim is run with the top DA and LotV build:
 
 ### Consumables
 - Food: [Bountiful Captains Feast](https://bfa.wowhead.com/item=156526/bountiful-captains-feast)
+- Potion: [Potion of Rising Death](https://www.wowhead.com/item=152559/potion-of-rising-death)
+- Flask: [Flask of Endless Fathoms](https://www.wowhead.com/item=152639/flask-of-endless-fathoms)
+- Augment Rune: [Battle-Scarred Augment Rune](https://www.wowhead.com/item=160053/battle-scarred-augment-rune)
 
 ## Results
 - [talents](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/talents)

@@ -13,12 +13,12 @@ apiKey = secrets.apiKey
 version = 'nightly'
 weights = '-s'
 weightsSingle = fightWeights.weightsSingle
-weightsATBT = fightWeights.weightsATBT
+weightsUldir = fightWeights.weightsUldir
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
-parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is "smart"')
+parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
@@ -26,10 +26,10 @@ args = parser.parse_args()
 if args.weights:
     weights = ''
 
-if int(args.iterations) > 0:
+if args.iterations:
     iterations = args.iterations
 else:
-    iterations = "smart"
+    iterations = "10000"
 
 sys.path.insert(0, args.dir)
 import reports
@@ -74,7 +74,7 @@ for value in profiles:
         lookup = value[9:-5]
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/":
             lookup = lookup[lookup.index('_')+1:]
-        weight = weightsATBT.get(lookup)
+        weight = weightsUldir.get(lookup)
         weightST = weightsSingle.get(lookup)
         if weightST:
             weight = weight + weightST

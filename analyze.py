@@ -4,7 +4,7 @@ import argparse
 import operator
 
 weightsSingle = weights.weightsSingle
-weightsATBT = weights.weightsATBT
+weightsUldir = weights.weightsUldir
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -46,7 +46,7 @@ resultsSingle = {}
 for value in data.iterrows():
     if args.weights:
         profile = value[1].profile
-        weight = weightsATBT.get(profile[profile.index('_')+1:])
+        weight = weightsUldir.get(profile[profile.index('_')+1:])
         weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
@@ -62,10 +62,10 @@ for value in data.iterrows():
     else:
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/":
             profile = value[1].profile
-            weight = weightsATBT.get(profile[profile.index('_')+1:])
+            weight = weightsUldir.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         else:
-            weight = weightsATBT.get(value[1].profile)
+            weight = weightsUldir.get(value[1].profile)
             weightSingle = weightsSingle.get(value[1].profile)
     if not weightSingle:
         weightSingle = 0
@@ -127,13 +127,13 @@ else:
 
 # README.md output
 with open(outputMarkdown, 'w') as resultsMD:
-    # Antorus Composite
+    # Uldir Composite
     if args.weights:
-        resultsMD.write('# Antorus Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        resultsMD.write('# Uldir Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
         for key, value in results.items():
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
-        resultsMD.write('# Antorus Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
+        resultsMD.write('# Uldir Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
@@ -148,7 +148,7 @@ with open(outputMarkdown, 'w') as resultsMD:
 
 # results.csv output
 with open(outputCSV, 'w') as resultsCSV:
-    # Antorus Composite
+    # Uldir Composite
     if args.weights:
         resultsCSV.write('profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
         for key, value in results.items():
