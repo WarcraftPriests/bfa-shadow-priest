@@ -68,15 +68,15 @@ profileset."Whispers_of_the_Damned_3"+=head=horrific_amalgams_hood,id=160616,bon
 profileset."Whispers_of_the_Damned_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236
 profileset."Whispers_of_the_Damned_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=236
 
-# Harvested Thoughts 166
-profileset."Harvested_Thoughts_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
+# Harvested Thoughts - Thought Harvester 166
+profileset."Thought_Harvester_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
 
-profileset."Harvested_Thoughts_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
-profileset."Harvested_Thoughts_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
 
-profileset."Harvested_Thoughts_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
-profileset."Harvested_Thoughts_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
-profileset."Harvested_Thoughts_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=166
 
 # Searing Dialogue 115
 profileset."Searing_Dialogue_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=115
@@ -151,14 +151,14 @@ profileset."Blightborne_Infusion_3"+=shoulder=amice_of_corrupting_horror,id=1607
 profileset."Blightborne_Infusion_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=193
 
 # Sandstorm - Swirling Sands 196
-profileset."Sandstorm_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
 
-profileset."Sandstorm_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
-profileset."Sandstorm_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=196
 
-profileset."Sandstorm_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
-profileset."Sandstorm_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=196
-profileset."Sandstorm_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=196
+profileset."Swirling_Sands_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=196
 
 # Secrets of the Deep 195
 profileset."Secrets_of_the_Deep_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=195
