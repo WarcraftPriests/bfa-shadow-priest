@@ -39,14 +39,14 @@ profileset."Int_90"+=enchant_intellect=90
 profileset."Int_100"+=enchant_intellect=100
 
 # +5 ilvls 13
-profileset."Azerite_Empowered_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=13
+profileset."Azerite_Empowered_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=1512/4824,azerite_powers=13
 
-profileset."Azerite_Empowered_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=13
-profileset."Azerite_Empowered_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=13
+profileset."Azerite_Empowered_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=1512/4824,azerite_powers=13
+profileset."Azerite_Empowered_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=1512/4824,azerite_powers=13
 
-profileset."Azerite_Empowered_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=13
-profileset."Azerite_Empowered_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=13
-profileset."Azerite_Empowered_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=13
+profileset."Azerite_Empowered_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=1512/4824,azerite_powers=13
+profileset."Azerite_Empowered_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=1512/4824,azerite_powers=13
+profileset."Azerite_Empowered_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=1512/4824,azerite_powers=13
 
 # Death Throes 404
 profileset."Death_Throes_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404
