@@ -331,14 +331,26 @@ profileset."Relational_Normalization_Gizmo_3"+=shoulder=amice_of_corrupting_horr
 profileset."Relational_Normalization_Gizmo_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=501
 
 # Dagger in the Back 479
-profileset."Dagger_in_the_Back_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
 
-profileset."Dagger_in_the_Back_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
-profileset."Dagger_in_the_Back_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
 
-profileset."Dagger_in_the_Back_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
-profileset."Dagger_in_the_Back_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
-profileset."Dagger_in_the_Back_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=479
+
+profileset."Dagger_in_the_Back_Front_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_1"+=position=ranged_front
+
+profileset."Dagger_in_the_Back_Front_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_2"+=position=ranged_front
+
+profileset."Dagger_in_the_Back_Front_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=position=ranged_front
 
 # Thunderous Blast 482
 profileset."Thunderous_Blast_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=482

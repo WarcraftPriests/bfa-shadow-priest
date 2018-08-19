@@ -124,10 +124,18 @@ profileset."H_340_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_
 profileset."H_355_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=355,azerite_powers=404/18/13
 profileset."H_370_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=370,azerite_powers=404/18/13
 profileset."H_385_grasping_crown_of_the_deep_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=404/18/13
-profileset."H_340_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=340,azerite_powers=479/18/13
-profileset."H_355_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=355,azerite_powers=479/18/13
-profileset."H_370_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=370,azerite_powers=479/18/13
-profileset."H_385_grasping_crown_of_the_deep_DitB_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=479/18/13
+profileset."H_340_grasping_crown_of_the_deep_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=340,azerite_powers=479/18/13
+profileset."H_355_grasping_crown_of_the_deep_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=355,azerite_powers=479/18/13
+profileset."H_370_grasping_crown_of_the_deep_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=370,azerite_powers=479/18/13
+profileset."H_385_grasping_crown_of_the_deep_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=479/18/13
+profileset."H_340_grasping_crown_of_the_deep_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=340,azerite_powers=479/18/13
+profileset."H_340_grasping_crown_of_the_deep_DitB_BS_Front"+=position=ranged_front
+profileset."H_355_grasping_crown_of_the_deep_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=355,azerite_powers=479/18/13
+profileset."H_355_grasping_crown_of_the_deep_DitB_BS_Front"+=position=ranged_front
+profileset."H_370_grasping_crown_of_the_deep_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=370,azerite_powers=479/18/13
+profileset."H_370_grasping_crown_of_the_deep_DitB_BS_Front"+=position=ranged_front
+profileset."H_385_grasping_crown_of_the_deep_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=479/18/13
+profileset."H_385_grasping_crown_of_the_deep_DitB_BS_Front"+=position=ranged_front
 
 # Soulfuel Headdress - 340, 355, 370, 385
 # Chorus of Insanity + Blightborne Infusion / Azerite Globules
