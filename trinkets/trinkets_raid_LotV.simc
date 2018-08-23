@@ -133,10 +133,18 @@ profileset."Sandscoured_Idol_395"+=trinket1=sandscoured_idol,id=161417,bonus_id=
 profileset."Sandscoured_Idol_400"+=trinket1=sandscoured_idol,id=161417,bonus_id=1422/4798
 
 # PvP World Boss Trinket
-profileset."Dooms_Hatred_Lions_Grace_370"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
-profileset."Dooms_Hatred_Lions_Grace_375"+=trinket1=dooms_hatred,id=161461,bonus_id=1497/5119
-profileset."Dooms_Hatred_Lions_Grace_380"+=trinket1=dooms_hatred,id=161461,bonus_id=1502/5119
-profileset."Dooms_Hatred_Lions_Grace_385"+=trinket1=dooms_hatred,id=161461,bonus_id=1507/5119
-profileset."Dooms_Hatred_Lions_Grace_390"+=trinket1=dooms_hatred,id=161461,bonus_id=1512/5119
-profileset."Dooms_Hatred_Lions_Grace_395"+=trinket1=dooms_hatred,id=161461,bonus_id=1517/5119
-profileset."Dooms_Hatred_Lions_Grace_400"+=trinket1=dooms_hatred,id=161461,bonus_id=1522/5119
+profileset."Dooms_Hatred_370"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
+profileset."Dooms_Hatred_375"+=trinket1=dooms_hatred,id=161461,bonus_id=1497/5119
+profileset."Dooms_Hatred_380"+=trinket1=dooms_hatred,id=161461,bonus_id=1502/5119
+profileset."Dooms_Hatred_385"+=trinket1=dooms_hatred,id=161461,bonus_id=1507/5119
+profileset."Dooms_Hatred_390"+=trinket1=dooms_hatred,id=161461,bonus_id=1512/5119
+profileset."Dooms_Hatred_395"+=trinket1=dooms_hatred,id=161461,bonus_id=1517/5119
+profileset."Dooms_Hatred_400"+=trinket1=dooms_hatred,id=161461,bonus_id=1522/5119
+
+profileset."Lions_Grace_370"+=trinket1=lions_grace,id=161472,bonus_id=5119/1492
+profileset."Lions_Grace_375"+=trinket1=lions_grace,id=161472,bonus_id=1497/5119
+profileset."Lions_Grace_380"+=trinket1=lions_grace,id=161472,bonus_id=1502/5119
+profileset."Lions_Grace_385"+=trinket1=lions_grace,id=161472,bonus_id=1507/5119
+profileset."Lions_Grace_390"+=trinket1=lions_grace,id=161472,bonus_id=1512/5119
+profileset."Lions_Grace_395"+=trinket1=lions_grace,id=161472,bonus_id=1517/5119
+profileset."Lions_Grace_400"+=trinket1=lions_grace,id=161472,bonus_id=1522/5119

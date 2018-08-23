@@ -87,14 +87,14 @@ for value in profiles:
         reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
-        subprocess.call(['python3', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
+        subprocess.call(['python', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
     elif weight == 0:
         print("{0} has a weight of 0. Skipping file.".format(name[8:]))
     else:
         print("{0} already exists. Skipping file.".format(name[8:]))
 
 results_dir = args.dir + "results/"
-subprocess.call(['python3', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
+subprocess.call(['python', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
 
 # analyze.py
 if args.composite:
