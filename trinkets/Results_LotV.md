@@ -24,7 +24,7 @@
 |Incessantly_Ticking_Clock_395|14857|7.35%|
 |Dinobone_Charm_395|14857|7.35%|
 |Doom_Shroom_400|14855|7.33%|
-|Emblam_of_Zandalar_400|14854|7.32%|
+|Emblem_of_Zandalar_400|14854|7.32%|
 |Lady_Waycrests_Music_Box_400|14852|7.31%|
 |Galewind_Chimes_395|14850|7.30%|
 |Kajafied_Banana_400|14849|7.29%|
@@ -39,7 +39,7 @@
 |Rotcrusted_Voodoo_Doll_400|14824|7.11%|
 |Tzanes_Barkspines_390|14823|7.10%|
 |Dinobone_Charm_390|14821|7.08%|
-|Emblam_of_Zandalar_395|14818|7.07%|
+|Emblem_of_Zandalar_395|14818|7.07%|
 |Incessantly_Ticking_Clock_390|14816|7.05%|
 |Dread_Gladiators_Medallion_400|14813|7.03%|
 |Galewind_Chimes_390|14812|7.02%|
@@ -62,7 +62,7 @@
 |Dread_Gladiators_Medallion_395|14784|6.82%|
 |Hadals_Nautilus_395|14784|6.82%|
 |Rotcrusted_Voodoo_Doll_395|14784|6.81%|
-|Emblam_of_Zandalar_390|14783|6.81%|
+|Emblem_of_Zandalar_390|14783|6.81%|
 |Vial_of_Storms_400|14781|6.79%|
 |Incessantly_Ticking_Clock_385|14780|6.79%|
 |Galewind_Chimes_385|14778|6.78%|
@@ -85,7 +85,7 @@
 |Gilded_Loa_Figurine_395|14755|6.61%|
 |Dinobone_Charm_380|14752|6.59%|
 |Vigilants_Bloodshaper_385|14752|6.58%|
-|Emblam_of_Zandalar_385|14751|6.58%|
+|Emblem_of_Zandalar_385|14751|6.58%|
 |Dread_Gladiators_Medallion_390|14746|6.54%|
 |Incessantly_Ticking_Clock_380|14746|6.54%|
 |Galewind_Chimes_380|14746|6.54%|
@@ -113,7 +113,7 @@
 |Vessel_of_Skittering_Shadows_385|14718|6.34%|
 |Vigilants_Bloodshaper_380|14717|6.33%|
 |Incessantly_Ticking_Clock_375|14715|6.32%|
-|Emblam_of_Zandalar_380|14714|6.31%|
+|Emblem_of_Zandalar_380|14714|6.31%|
 |Dread_Gladiators_Medallion_385|14713|6.31%|
 |Galewind_Chimes_375|14712|6.30%|
 |First_Mates_Spyglass_370|14705|6.25%|
@@ -135,7 +135,7 @@
 |Dooms_Hatred_385|14691|6.14%|
 |Living_Oil_Cannister_390|14689|6.13%|
 |Dinobone_Charm_370|14684|6.09%|
-|Emblam_of_Zandalar_375|14683|6.09%|
+|Emblem_of_Zandalar_375|14683|6.09%|
 |Doom_Shroom_380|14683|6.09%|
 |Lady_Waycrests_Music_Box_380|14682|6.08%|
 |Dread_Gladiators_Medallion_380|14681|6.07%|
@@ -164,7 +164,7 @@
 |Dread_Gladiators_Insignia_380|14655|5.89%|
 |Snowpelt_Mangler_395|14653|5.87%|
 |Living_Oil_Cannister_385|14653|5.87%|
-|Emblam_of_Zandalar_370|14652|5.87%|
+|Emblem_of_Zandalar_370|14652|5.87%|
 |Galewind_Chimes_365|14651|5.86%|
 |Dread_Gladiators_Medallion_375|14650|5.85%|
 |Balefire_Branch_400|14650|5.85%|
@@ -183,7 +183,7 @@
 |Ignition_Mages_Fuse_365|14634|5.73%|
 |Dooms_Hatred_375|14630|5.71%|
 |Dread_Gladiators_Badge_380|14629|5.69%|
-|Emblam_of_Zandalar_365|14627|5.68%|
+|Emblem_of_Zandalar_365|14627|5.68%|
 |Dinobone_Charm_360|14627|5.68%|
 |Lions_Grace_375|14627|5.68%|
 |Gilded_Loa_Figurine_375|14626|5.68%|
@@ -216,7 +216,7 @@
 |Lions_Grace_370|14598|5.47%|
 |Dinobone_Charm_355|14596|5.46%|
 |Incessantly_Ticking_Clock_355|14595|5.46%|
-|Emblam_of_Zandalar_360|14595|5.45%|
+|Emblem_of_Zandalar_360|14595|5.45%|
 |Dread_Gladiators_Insignia_370|14594|5.44%|
 |Galewind_Chimes_355|14591|5.43%|
 |Balefire_Branch_390|14591|5.42%|
@@ -237,7 +237,7 @@
 |Doom_Shroom_365|14572|5.29%|
 |Dread_Gladiators_Badge_370|14570|5.27%|
 |Galewind_Chimes_350|14569|5.26%|
-|Emblam_of_Zandalar_355|14569|5.26%|
+|Emblem_of_Zandalar_355|14569|5.26%|
 |Vessel_of_Skittering_Shadows_365|14569|5.26%|
 |Gilded_Loa_Figurine_365|14569|5.26%|
 |Kajafied_Banana_365|14568|5.26%|
@@ -259,7 +259,7 @@
 |Pearl_Divers_Compass_370|14546|5.09%|
 |Snowpelt_Mangler_380|14546|5.09%|
 |Living_Oil_Cannister_370|14545|5.09%|
-|Emblam_of_Zandalar_350|14544|5.09%|
+|Emblem_of_Zandalar_350|14544|5.09%|
 |Dread_Gladiators_Badge_365|14544|5.09%|
 |Incessantly_Ticking_Clock_345|14543|5.08%|
 |Dinobone_Charm_345|14542|5.07%|
@@ -279,7 +279,7 @@
 |Conch_of_Dark_Whispers_345|14527|4.96%|
 |Pearl_Divers_Compass_365|14519|4.90%|
 |Gilded_Loa_Figurine_355|14519|4.90%|
-|Emblam_of_Zandalar_345|14518|4.89%|
+|Emblem_of_Zandalar_345|14518|4.89%|
 |Hadals_Nautilus_360|14517|4.89%|
 |Galewind_Chimes_340|14517|4.89%|
 |Dread_Gladiators_Badge_360|14517|4.89%|
@@ -303,7 +303,7 @@
 |Vigilants_Bloodshaper_355|14499|4.76%|
 |Dread_Gladiators_Badge_355|14495|4.73%|
 |Pearl_Divers_Compass_360|14494|4.72%|
-|Emblam_of_Zandalar_340|14492|4.71%|
+|Emblem_of_Zandalar_340|14492|4.71%|
 |Hadals_Nautilus_355|14490|4.69%|
 |Rotcrusted_Voodoo_Doll_355|14488|4.68%|
 |Gilded_Loa_Figurine_350|14488|4.68%|
@@ -516,7 +516,7 @@
 |Conch_of_Dark_Whispers_400|14229|7.31%|
 |Incessantly_Ticking_Clock_395|14225|7.28%|
 |First_Mates_Spyglass_390|14223|7.27%|
-|Emblam_of_Zandalar_400|14223|7.27%|
+|Emblem_of_Zandalar_400|14223|7.27%|
 |Hadals_Nautilus_400|14223|7.26%|
 |Berserkers_Juju_400|14222|7.26%|
 |Dinobone_Charm_395|14217|7.22%|
@@ -533,7 +533,7 @@
 |Vigilants_Bloodshaper_390|14193|7.04%|
 |Azurethos_Singed_Plumage_400|14191|7.03%|
 |First_Mates_Spyglass_385|14190|7.01%|
-|Emblam_of_Zandalar_395|14189|7.01%|
+|Emblem_of_Zandalar_395|14189|7.01%|
 |Incessantly_Ticking_Clock_390|14185|6.98%|
 |Berserkers_Juju_395|14184|6.97%|
 |Dinobone_Charm_390|14184|6.97%|
@@ -554,7 +554,7 @@
 |Azurethos_Singed_Plumage_395|14158|6.77%|
 |Lady_Waycrests_Music_Box_390|14157|6.76%|
 |First_Mates_Spyglass_380|14154|6.75%|
-|Emblam_of_Zandalar_390|14152|6.73%|
+|Emblem_of_Zandalar_390|14152|6.73%|
 |Incessantly_Ticking_Clock_385|14152|6.73%|
 |Vessel_of_Skittering_Shadows_390|14151|6.72%|
 |Kajafied_Banana_390|14151|6.72%|
@@ -575,7 +575,7 @@
 |Gilded_Loa_Figurine_395|14131|6.57%|
 |Hadals_Nautilus_390|14130|6.56%|
 |Vial_of_Storms_395|14129|6.56%|
-|Emblam_of_Zandalar_385|14127|6.54%|
+|Emblem_of_Zandalar_385|14127|6.54%|
 |Azurethos_Singed_Plumage_390|14125|6.53%|
 |Living_Oil_Cannister_395|14124|6.52%|
 |First_Mates_Spyglass_375|14124|6.52%|
@@ -605,7 +605,7 @@
 |First_Mates_Spyglass_370|14092|6.28%|
 |Incessantly_Ticking_Clock_375|14090|6.26%|
 |Vial_of_Storms_390|14090|6.26%|
-|Emblam_of_Zandalar_380|14090|6.26%|
+|Emblem_of_Zandalar_380|14090|6.26%|
 |Dread_Gladiators_Badge_390|14086|6.23%|
 |Dinobone_Charm_375|14085|6.22%|
 |Berserkers_Juju_380|14085|6.22%|
@@ -631,7 +631,7 @@
 |First_Mates_Spyglass_365|14063|6.06%|
 |Dread_Gladiators_Badge_385|14061|6.04%|
 |Hadals_Nautilus_380|14061|6.04%|
-|Emblam_of_Zandalar_375|14058|6.02%|
+|Emblem_of_Zandalar_375|14058|6.02%|
 |Incessantly_Ticking_Clock_370|14056|6.01%|
 |Berserkers_Juju_375|14056|6.01%|
 |Rotcrusted_Voodoo_Doll_380|14056|6.00%|
@@ -657,7 +657,7 @@
 |Azurethos_Singed_Plumage_375|14035|5.85%|
 |Vigilants_Bloodshaper_370|14035|5.84%|
 |Incessantly_Ticking_Clock_365|14031|5.82%|
-|Emblam_of_Zandalar_370|14030|5.81%|
+|Emblem_of_Zandalar_370|14030|5.81%|
 |Hadals_Nautilus_375|14025|5.77%|
 |First_Mates_Spyglass_360|14025|5.77%|
 |Dread_Gladiators_Badge_380|14025|5.77%|
@@ -675,7 +675,7 @@
 |Dread_Gladiators_Medallion_370|14010|5.66%|
 |Snowpelt_Mangler_390|14010|5.66%|
 |Conch_of_Dark_Whispers_365|14009|5.65%|
-|Emblam_of_Zandalar_365|14009|5.65%|
+|Emblem_of_Zandalar_365|14009|5.65%|
 |Lions_Grace_375|14008|5.64%|
 |Gilded_Loa_Figurine_375|14008|5.64%|
 |First_Mates_Spyglass_355|14008|5.64%|
@@ -704,7 +704,7 @@
 |Vial_of_Storms_375|13980|5.44%|
 |Conch_of_Dark_Whispers_360|13980|5.43%|
 |Dread_Gladiators_Insignia_370|13980|5.43%|
-|Emblam_of_Zandalar_360|13979|5.43%|
+|Emblem_of_Zandalar_360|13979|5.43%|
 |First_Mates_Spyglass_350|13978|5.42%|
 |Berserkers_Juju_360|13978|5.41%|
 |Azurethos_Singed_Plumage_365|13978|5.41%|
@@ -729,7 +729,7 @@
 |First_Mates_Spyglass_345|13956|5.25%|
 |Azurethos_Singed_Plumage_360|13955|5.24%|
 |Gilded_Loa_Figurine_365|13954|5.24%|
-|Emblam_of_Zandalar_355|13954|5.24%|
+|Emblem_of_Zandalar_355|13954|5.24%|
 |Conch_of_Dark_Whispers_355|13954|5.24%|
 |Dread_Gladiators_Insignia_365|13952|5.22%|
 |Hadals_Nautilus_365|13952|5.22%|
@@ -754,7 +754,7 @@
 |Conch_of_Dark_Whispers_350|13931|5.06%|
 |First_Mates_Spyglass_340|13931|5.06%|
 |Lady_Waycrests_Music_Box_360|13929|5.04%|
-|Emblam_of_Zandalar_350|13928|5.04%|
+|Emblem_of_Zandalar_350|13928|5.04%|
 |Incessantly_Ticking_Clock_345|13928|5.04%|
 |Azurethos_Singed_Plumage_355|13928|5.04%|
 |Dread_Gladiators_Insignia_360|13925|5.01%|
@@ -779,7 +779,7 @@
 |Conch_of_Dark_Whispers_345|13903|4.85%|
 |Vessel_of_Skittering_Shadows_355|13903|4.85%|
 |Incessantly_Ticking_Clock_340|13902|4.84%|
-|Emblam_of_Zandalar_345|13901|4.84%|
+|Emblem_of_Zandalar_345|13901|4.84%|
 |Berserkers_Juju_345|13901|4.83%|
 |Kajafied_Banana_355|13900|4.83%|
 |Pearl_Divers_Compass_365|13899|4.82%|
@@ -796,7 +796,7 @@
 |Balefire_Branch_375|13882|4.69%|
 |Conch_of_Dark_Whispers_340|13882|4.69%|
 |Living_Oil_Cannister_360|13881|4.68%|
-|Emblam_of_Zandalar_340|13878|4.67%|
+|Emblem_of_Zandalar_340|13878|4.67%|
 |Gilded_Loa_Figurine_350|13878|4.66%|
 |Snowpelt_Mangler_370|13878|4.66%|
 |Dread_Gladiators_Insignia_350|13877|4.65%|
