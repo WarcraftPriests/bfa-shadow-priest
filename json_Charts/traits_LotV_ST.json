@@ -1,0 +1,325 @@
+{
+	"data": {
+		"Thunderous Blast": {
+			"1": 12893,
+			"2": 13521,
+			"3": 14159
+		},
+		"Dagger in the Back Behind": {
+			"1": 12894,
+			"2": 13517,
+			"3": 14143
+		},
+		"Laser Matrix": {
+			"1": 12836,
+			"2": 13410,
+			"3": 13979
+		},
+		"Blightborne Infusion": {
+			"1": 12756,
+			"2": 13248,
+			"3": 13748
+		},
+		"Champion of Azeroth": {
+			"1": 12730,
+			"2": 13212,
+			"3": 13698
+		},
+		"Swirling Sands": {
+			"1": 12700,
+			"2": 13140,
+			"3": 13582
+		},
+		"Rezans Fury": {
+			"1": 12718,
+			"2": 13176,
+			"3": 13621
+		},
+		"Tidal Surge": {
+			"1": 12716,
+			"2": 13161,
+			"3": 13609
+		},
+		"Dagger in the Back Front": {
+			"1": 12716,
+			"2": 13161,
+			"3": 13611
+		},
+		"Synaptic Spark Capacitor": {
+			"1": 12592,
+			"2": 12931,
+			"3": 13254
+		},
+		"Relational Normalization Gizmo": {
+			"1": 12656,
+			"2": 13035,
+			"3": 13410
+		},
+		"Unstable Catalyst": {
+			"1": 12643,
+			"2": 13020,
+			"3": 13390
+		},
+		"Battlefield Focus": {
+			"1": 12720,
+			"2": 13174,
+			"3": 13636
+		},
+		"Filthy Transfusion": {
+			"1": 12659,
+			"2": 13056,
+			"3": 13450
+		},
+		"Death Throes": {
+			"1": 12587,
+			"2": 12909,
+			"3": 13232
+		},
+		"Meticulous Scheming": {
+			"1": 12629,
+			"2": 12985,
+			"3": 13339
+		},
+		"Secrets of the Deep": {
+			"1": 12604,
+			"2": 12944,
+			"3": 13279
+		},
+		"Whispers of the Damned": {
+			"1": 12617,
+			"2": 12959,
+			"3": 13313
+		},
+		"Barrage Of Many Bombs": {
+			"1": 12554,
+			"2": 12842,
+			"3": 13131
+		},
+		"Sylvanas Resolve": {
+			"1": 12593,
+			"2": 12918,
+			"3": 13239
+		},
+		"Glory in Battle": {
+			"1": 12558,
+			"2": 12854,
+			"3": 13172
+		},
+		"Tradewinds": {
+			"1": 12565,
+			"2": 12864,
+			"3": 13165
+		},
+		"Archive of the Titans": {
+			"1": 12562,
+			"2": 12860,
+			"3": 13158
+		},
+		"Blood Rite": {
+			"1": 12564,
+			"2": 12856,
+			"3": 13139
+		},
+		"Incite the Pack": {
+			"1": 12544,
+			"2": 12820,
+			"3": 13103
+		},
+		"Ruinous Bolt": {
+			"1": 12532,
+			"2": 12800,
+			"3": 13064
+		},
+		"Spiteful Apparitions": {
+			"1": 12486,
+			"2": 12705,
+			"3": 12932
+		},
+		"Overwhelming Power": {
+			"1": 12475,
+			"2": 12688,
+			"3": 12877
+		},
+		"Ricocheting Inflatable Pyrosaw": {
+			"1": 12435,
+			"2": 12610,
+			"3": 12788
+		},
+		"Heed My Call": {
+			"1": 12461,
+			"2": 12660,
+			"3": 12861
+		},
+		"Gutripper": {
+			"1": 12441,
+			"2": 12629,
+			"3": 12802
+		},
+		"Chorus of Insanity": {
+			"1": 12431,
+			"2": 12595,
+			"3": 12760
+		},
+		"Thought Harvester": {
+			"1": 12417,
+			"2": 12569,
+			"3": 12722
+		},
+		"Retaliatory Fury": {
+			"1": 12424,
+			"2": 12580,
+			"3": 12740
+		},
+		"Unstable Flames": {
+			"1": 12417,
+			"2": 12572,
+			"3": 12721
+		},
+		"Elemental Whirl": {
+			"1": 12407,
+			"2": 12555,
+			"3": 12706
+		},
+		"Azerite Globules": {
+			"1": 12398,
+			"2": 12527,
+			"3": 12661
+		},
+		"Earthlink": {
+			"1": 12398,
+			"2": 12531,
+			"3": 12663
+		},
+		"Collective Will": {
+			"1": 12378,
+			"2": 12487,
+			"3": 12596
+		},
+		"On My Way": {
+			"1": 12376,
+			"2": 12488,
+			"3": 12598
+		},
+		"Blood Siphon": {
+			"1": 12374,
+			"2": 12484,
+			"3": 12586
+		},
+		"Azerite Empowered": {
+			"1": 12363,
+			"2": 12443,
+			"3": 12540
+		},
+		"Combined Might": {
+			"1": 12344,
+			"2": 12421,
+			"3": 12499
+		},
+		"Searing Dialogue": {
+			"1": 12265,
+			"2": 12263,
+			"3": 12264
+		},
+		"Base": {
+			"1": 12267
+		}
+	},
+	"Data_type": "traits",
+	"spell_ids" : {
+		"Archive of the Titans ":"280708",
+		"Azerite Globules ":"279955",
+		"Barrage Of Many Bombs ":"280163",
+		"Battlefield Focus ":"280582",
+		"Blightborne Infusion ":"273823",
+		"Blood Rite ":"280409",
+		"Blood Siphon ":"264108",
+		"Champion of Azeroth ":"270583",
+		"Chorus of Insanity ":"278661",
+		"Collective Will ":"280837",
+		"Combined Might ":"280848",
+		"Dagger in the Back Behind ":"280285",
+		"Dagger in the Back Front ":"280285",
+		"Death Throes ":"278659",
+		"Earthlink ":"279927",
+		"Elemental Whirl ":"270667",
+		"Filthy Transfusion ":"273836",
+		"Glory in Battle ":"280852",
+		"Gutripper ":"266937",
+		"Heed My Call ":"271681",
+		"Incite the Pack ":"280410",
+		"Laser Matrix ":"280702",
+		"Lifespeed":"267665",
+		"Meticulous Scheming ":"273684",
+		"On My Way ":"267879",
+		"Overwhelming Power ":"266180",
+		"Relational Normalization Gizmo ":"280178",
+		"Retaliatory Fury ":"280785",
+		"Rezans Fury ":"281834",
+		"Ricocheting Inflatable Pyrosaw ":"280168",
+		"Ruinous Bolt ":"280206",
+		"Searing Dialogue ":"272788",
+		"Secrets of the Deep ":"273829",
+		"Spiteful Apparitions ":"277682",
+		"Swirling Sands ":"280433",
+		"Sylvanas Resolve ":"280810",
+		"Synaptic Spark Capacitor ":"280174",
+		"Thought Harvester ":"273320",
+		"Thunderous Blast ":"280384",
+		"Tidal Surge ":"280404",
+		"Tradewinds ":"281843",
+		"Unstable Catalyst ":"281516",
+		"Unstable Flames ":"279902",
+		"Whispers of the Damned ":"275726"
+	},
+	"simulated_steps": [
+		"1",
+		"2",
+		"3"
+	],
+	"sorted_data_keys": [
+		"Dagger in the Back Behind ",
+		"Thunderous Blast ",
+		"Laser Matrix ",
+		"Blightborne Infusion ",
+		"Champion of Azeroth ",
+		"Battlefield Focus ",
+		"Rezans Fury ",
+		"Tidal Surge ",
+		"Dagger in the Back Front ",
+		"Swirling Sands ",
+		"Filthy Transfusion ",
+		"Relational Normalization Gizmo ",
+		"Unstable Catalyst ",
+		"Meticulous Scheming ",
+		"Whispers of the Damned ",
+		"Secrets of the Deep ",
+		"Sylvanas Resolve ",
+		"Synaptic Spark Capacitor ",
+		"Death Throes ",
+		"Tradewinds ",
+		"Blood Rite ",
+		"Archive of the Titans ",
+		"Glory in Battle ",
+		"Barrage Of Many Bombs ",
+		"Incite the Pack ",
+		"Ruinous Bolt ",
+		"Spiteful Apparitions ",
+		"Overwhelming Power ",
+		"Heed My Call ",
+		"Gutripper ",
+		"Ricocheting Inflatable Pyrosaw ",
+		"Chorus of Insanity ",
+		"Retaliatory Fury ",
+		"Unstable Flames ",
+		"Thought Harvester ",
+		"Elemental Whirl ",
+		"Earthlink ",
+		"Azerite Globules ",
+		"Collective Will ",
+		"On My Way ",
+		"Blood Siphon ",
+		"Azerite Empowered ",
+		"Combined Might ",
+		"Base"
+	]
+}
