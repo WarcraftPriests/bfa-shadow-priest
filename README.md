@@ -2,7 +2,7 @@
 
 This repo includes scripts and sims for shadow priests.
 
-## Imprtant Links
+## Important Links
 - [Wiki](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki)
 - [APL 101](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/APLs-101)
 - [Glossary of Terms](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/Glossary)
