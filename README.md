@@ -3,10 +3,10 @@
 This repo includes scripts and sims for shadow priests.
 
 ## Imprtant Links
-- [Wiki](https://github.com/seanpeters86/bfa-shadow-priest/wiki)
-- [APL 101](https://github.com/seanpeters86/bfa-shadow-priest/wiki/APLs-101)
-- [Glossary of Terms](https://github.com/seanpeters86/bfa-shadow-priest/wiki/Glossary)
-- [CodeFactor.io](https://www.codefactor.io/repository/github/seanpeters86/bfa-shadow-priest)
+- [Wiki](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki)
+- [APL 101](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/APLs-101)
+- [Glossary of Terms](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/Glossary)
+- [CodeFactor.io](https://www.codefactor.io/repository/github/WarcraftPriests/bfa-shadow-priest)
 
 ## Discussion
 - [Discord](https://discord.gg/WarcraftPriests)
@@ -69,12 +69,12 @@ Every sim is run with the top DA and LotV build:
 - Augment Rune: [Battle-Scarred Augment Rune](https://www.wowhead.com/item=160053/battle-scarred-augment-rune)
 
 ## Results
-- [talents](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/talents)
-- [bulk weights](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/stats)
-- [azerite traits](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/azerite-traits)
-- [azerite gear](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/azerite-gear)
-- [racials](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/racials)
-- [consumables](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/consumables)
-- [enchants](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/enchants)
-- [APL Tests](https://github.com/seanpeters86/bfa-shadow-priest/tree/master/apl)
+- [talents](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/talents)
+- [bulk weights](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/stats)
+- [azerite traits](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-traits)
+- [azerite gear](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-gear)
+- [racials](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/racials)
+- [consumables](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/consumables)
+- [enchants](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/enchants)
+- [APL Tests](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/apl)
 - [antorus composite scaling](https://docs.google.com/spreadsheets/d/1xfME0P6LKmI541Ma6NE7b5XahWu-rxdFUSHy0Y-MoCM/edit?usp=sharing)
