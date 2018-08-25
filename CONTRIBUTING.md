@@ -99,14 +99,14 @@ Please open an issue if you have suggestions for new labels, and if you notice s
 
 | Label name | Link | Description |
 | ---------- | ---- | ----------- |
-| `enhancement` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) | Feature requests. |
-| `bug` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Abug) | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aquestion) | Question inside the issue needs to be answered. |
-| `help-wanted` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) | Needs someone to work on the issue |
-| `needs-reproduction` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aneeds-reproduction) | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Ablocked) | Issues blocked on other issues. |
-| `duplicate` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aduplicate) | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Awontfix) | The Priest team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `analysis` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aanalysis) | The type of the issue requires analysis work. |
-| `apl` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aapl) | The type of the issue requires APL work. |
-| `simc module` | [search](https://github.com/seanpeters86/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3A%22simc+module%22) | The type of the issue requires simc module work. |
+| `enhancement` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) | Feature requests. |
+| `bug` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Abug) | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aquestion) | Question inside the issue needs to be answered. |
+| `help-wanted` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) | Needs someone to work on the issue |
+| `needs-reproduction` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aneeds-reproduction) | Likely bugs, but haven't been reliably reproduced. |
+| `blocked` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Ablocked) | Issues blocked on other issues. |
+| `duplicate` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aduplicate) | Issues which are duplicates of other issues, i.e. they have been reported before. |
+| `wontfix` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Awontfix) | The Priest team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `analysis` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aanalysis) | The type of the issue requires analysis work. |
+| `apl` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3Aapl) | The type of the issue requires APL work. |
+| `simc module` | [search](https://github.com/WarcraftPriests/bfa-shadow-priest/issues?q=is%3Aopen+is%3Aissue+label%3A%22simc+module%22) | The type of the issue requires simc module work. |
