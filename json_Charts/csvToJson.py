@@ -20,8 +20,8 @@ traitsLotV = '../azerite-traits/Results_LotV.csv'
 trinketsDAJson = '../trinkets/Results_DA.json'
 trinketsLotVJson = '../trinkets/Results_LotV.json'
 #Traits
-traitsDAJson = '../azerite-traitsResults_DA.json'
-traitsLotVJson = '../azerite-traitsResults_LotV.json'
+traitsDAJson = '../azerite-traits/Results_DA.json'
+traitsLotVJson = '../azerite-traits/Results_LotV.json'
 
 #CSV Field names
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
@@ -345,6 +345,12 @@ buildTraitJsonChart(traitsDAJson, "traits_DA_C.json", 'composite')
 buildTraitJsonChart(traitsDAJson, "traits_DA_ST.json", 'single_target')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
+
+
+os.remove('../trinkets/Results_DA.json')
+os.remove('../trinkets/Results_LotV.json')
+os.remove('../azerite-traits/Results_DA.json')
+os.remove('../azerite-traits/Results_LotV.json')
 
 
 
