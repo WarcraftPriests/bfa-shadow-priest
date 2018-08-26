@@ -3,6 +3,7 @@ import weights
 import argparse
 import operator
 
+
 weightsSingle = weights.weightsSingle
 weightsUldir = weights.weightsUldir
 
@@ -164,3 +165,9 @@ with open(outputCSV, 'w') as resultsCSV:
     else:
         for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("single_target,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPSSingle)))
+
+
+#Update JSONs
+import subprocess
+if args.dir == "trinkets/" or "traits/" or "azerite-gear/":
+	subprocess.call("json_Charts/csvToJson.py")
