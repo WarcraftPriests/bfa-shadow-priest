@@ -57,8 +57,8 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line)[0].replace('trinket1=','').replace(',id=','') == itemname:
-                    itemID = re.search(r'(id=)\d*',line.strip('\n'))[0].strip('id=')
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                    itemID = re.search(r'(id=)\d*',line.strip('\n')).group(0).strip('id=')
                     return itemID
             except:
                 continue
@@ -66,8 +66,8 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line)[0].replace('trinket1=','').replace(',id=','') == itemname:
-                    itemID = re.search(r'(id=)\d*',line)[0].strip('id=')
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                    itemID = re.search(r'(id=)\d*',line).group(0).strip('id=')
                     return itemID
             except:
                 continue
@@ -75,11 +75,12 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line)[0].replace('trinket1=','').replace(',id=','') == itemname:
-                    itemID = re.search(r'(id=)\d*',line)[0].strip('id=')
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                    itemID = re.search(r'(id=)\d*',line).group(0).strip('id=')
                     return itemID
-            except TypeError:
+            except:
                 continue
+
 
 def make_unique(original_list):
     unique_list = []
@@ -91,7 +92,7 @@ def getNames(jsonFile):
 		nameList = list()
 		data = json.load(f)
 		for x in data:
-			m = re.search(r"\D*",x['actor'])[0].replace('_',' ').rstrip()
+			m = re.search(r"\D*",x['actor']).group(0).replace('_',' ').rstrip()
 			nameList.append(m)
 		uniqueList = make_unique(nameList)
 	return uniqueList
@@ -101,7 +102,7 @@ def getIlvl(jsonFile):
         nameList = list()
         data = json.load(f)
         for x in data:
-            m = re.search(r"\d*",x['actor'].lstrip().split('_')[-1])[0]
+            m = re.search(r"\d*",x['actor'].lstrip().split('_')[-1]).group(0)
             nameList.append(m)
         uniqueList = make_unique(nameList)
     return uniqueList
@@ -119,8 +120,8 @@ def ilvlPerItem(itemName):
         data = json.load(f)
         for x in data:
             itemName = itemName.replace('_',' ').rstrip()
-            n = re.search(r"\D*",x['actor'])[0].replace('_',' ').rstrip()
-            m = re.search(r'\d*',x['actor'].lstrip().split('_')[-1])[0]
+            n = re.search(r"\D*",x['actor']).group(0).replace('_',' ').rstrip()
+            m = re.search(r'\d*',x['actor'].lstrip().split('_')[-1]).group(0)
             if itemName == n:
                 ilvlList.append(m)
         uniqueList = make_unique(ilvlList)
@@ -143,7 +144,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
     with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
         data = json.load(f)
         for x in data: #Easier to parse the originally converted JSON to organize the data
-            m = re.search(r"\D*",x['actor'].rstrip())[0]
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
             namelist.append(m)
         uniqueList = make_unique(namelist)
         j.write('\t"data": {\n')
@@ -236,7 +237,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
     with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
         data = json.load(f)
         for x in data: #Easier to parse the originally converted JSON to organize the data
-            m = re.search(r"\D*",x['actor'].rstrip())[0]
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
             namelist.append(m)
         uniqueList = make_unique(namelist)
         #print(uniqueList)
