@@ -170,4 +170,4 @@ with open(outputCSV, 'w') as resultsCSV:
 #Update JSONs
 import subprocess
 if args.dir == "trinkets/" or "traits/" or "azerite-gear/":
-	subprocess.call("json_Charts/csvToJson.py")
+	subprocess.call("csvToJson.py")
