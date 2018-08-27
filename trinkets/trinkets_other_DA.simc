@@ -23,6 +23,26 @@ main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
 # Questing Trinkets Base 280
+profileset."Whirlwings_Plumage_310"+=trinket1=whirlwings_plumage,id=158215,bonus_id=4777/1502
+profileset."Whirlwings_Plumage_315"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1507/4777
+profileset."Whirlwings_Plumage_320"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1512/4777
+profileset."Whirlwings_Plumage_325"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1517/4777
+profileset."Whirlwings_Plumage_330"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1522/4777
+profileset."Whirlwings_Plumage_335"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1527/4777
+profileset."Whirlwings_Plumage_340"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1532/4777
+profileset."Whirlwings_Plumage_345"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1537/4777
+profileset."Whirlwings_Plumage_350"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1542/4777
+profileset."Whirlwings_Plumage_355"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1547/4777
+profileset."Whirlwings_Plumage_360"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1552/4777
+profileset."Whirlwings_Plumage_365"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1557/4777
+profileset."Whirlwings_Plumage_370"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1562/4777
+profileset."Whirlwings_Plumage_375"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1567/4777
+profileset."Whirlwings_Plumage_380"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1572/4777
+profileset."Whirlwings_Plumage_385"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1577/4777
+profileset."Whirlwings_Plumage_390"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1582/4777
+profileset."Whirlwings_Plumage_395"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1587/4777
+profileset."Whirlwings_Plumage_400"+=trinket1=whirlwings_plumage,id=158215,bonus_id=1592/4777
+
 profileset."Plunderbeards_Flask_310"+=trinket1=plunderbeards_flask,id=158164,bonus_id=1502/4803
 profileset."Plunderbeards_Flask_315"+=trinket1=plunderbeards_flask,id=158164,bonus_id=1507/4803
 profileset."Plunderbeards_Flask_320"+=trinket1=plunderbeards_flask,id=158164,bonus_id=1512/4803
