@@ -1,5 +1,5 @@
 # Default consumables
-potion=battle_potion_of_intellect
+potion=rising_death
 flask=endless_fathoms
 food=bountiful_captains_feast
 augmentation=battle_scarred
@@ -22,8 +22,10 @@ actions.precombat+=/mind_blast
 actions.precombat+=/shadow_word_void
 
 # Executed every time the actor is available.
-actions=potion,if=buff.bloodlust.react|target.time_to_die<=80|target.health.pct<35
+actions=use_item,slot=trinket1
+actions+=/potion,if=buff.bloodlust.react|target.time_to_die<=80|target.health.pct<35
 actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking
+actions+=/berserking
 actions+=/run_action_list,name=aoe,if=spell_targets.mind_sear>(5+1*talent.misery.enabled)
 actions+=/run_action_list,name=cleave,if=active_enemies>1
 actions+=/run_action_list,name=single,if=active_enemies=1
