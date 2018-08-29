@@ -257,9 +257,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                     if x['profile'] == simType:
                         if x['actor'] == str(u+y):
                             if cnt < maxCnt:
-                                j.write('\t\t\t"'+y+'": '+x['DPS']+',\n')
+                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')
                             else:
-                                j.write('\t\t\t"'+y+'": '+x['DPS']+'\n')
+                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
                     j.write('\t\t},\n')
@@ -319,9 +319,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         #end manual
         j.write('\t"simulated_steps": [\n')
         #write the 3 levels of traits
-        j.write('\t\t"1",\n')
-        j.write('\t\t"2",\n')
-        j.write('\t\t"3"\n')
+        j.write('\t\t"1_Stack",\n')
+        j.write('\t\t"2_Stack",\n')
+        j.write('\t\t"3_Stack"\n')
         j.write('\t],\n')
         DPSSort = list()
         for u in uniqueList:
@@ -344,14 +344,18 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\n}')
     j.close()
 
+os.chdir("json_Charts/")
+
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_C.json", 'composite')
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_ST.json", 'single_target')
+buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_C.json", 'composite')
 buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_ST.json", 'single_target')
 buildTraitJsonChart(traitsDAJson, "traits_DA_C.json", 'composite')
 buildTraitJsonChart(traitsDAJson, "traits_DA_ST.json", 'single_target')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
 
+os.chdir('..')
 
 os.remove(trinketsDAJson)
 os.remove(trinketsLotVJson)
