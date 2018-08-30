@@ -349,7 +349,17 @@ profileset."Surging_Alchemist_Stone_300"+=trinket1=surging_alchemist_stone,id=15
 profileset."Endless_Tincture_of_Fractional_Power_300"+=trinket1=endless_tincture_of_fractional_power,id=152636
 
 # Leyshock's Grand Compilation - uncommet after implementation
-# profileset."Leyshocks_Grand_Compilation_350"+=trinket1=leyshocks_grand_compilation,id=163937
+profileset."Leyshocks_Grand_Compilation_350"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=350
+profileset."Leyshocks_Grand_Compilation_355"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=355
+profileset."Leyshocks_Grand_Compilation_360"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=360
+profileset."Leyshocks_Grand_Compilation_365"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=365
+profileset."Leyshocks_Grand_Compilation_370"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=370
+profileset."Leyshocks_Grand_Compilation_375"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=375
+profileset."Leyshocks_Grand_Compilation_380"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=380
+profileset."Leyshocks_Grand_Compilation_385"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=385
+profileset."Leyshocks_Grand_Compilation_390"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=390
+profileset."Leyshocks_Grand_Compilation_395"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=395
+profileset."Leyshocks_Grand_Compilation_400"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=400
 
 # PvP Trinkets
 profileset."Dread_Gladiators_Medallion_340"+=trinket1=dread_gladiators_medallion,id=161674,bonus_id=4982/1532
