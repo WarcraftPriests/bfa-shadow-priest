@@ -169,5 +169,5 @@ with open(outputCSV, 'w') as resultsCSV:
 
 #Update JSONs
 import subprocess
-if args.dir == "trinkets/" or "traits/" or "azerite-gear/":
-    subprocess.call(['python3', 'csvToJson.py'])
+if args.dir == "trinkets/" or "azerite-traits/" or "azerite-gear/":
+    subprocess.call(['python', 'csvToJson.py'])
