@@ -2,8 +2,10 @@ import pandas
 import weights
 import argparse
 import operator
+import azeritePowerID
+import os
 
-
+azeritePowerIDs = azeritePowerID.azeritePowerIDs
 weightsSingle = weights.weightsSingle
 weightsUldir = weights.weightsUldir
 
@@ -18,6 +20,7 @@ csv = "%sresults/statweights.txt" % args.dir
 if args.talents:
     outputMarkdown = "{0}Results_{1}.md".format(args.dir, args.talents)
     outputCSV = "{0}Results_{1}.csv".format(args.dir, args.talents)
+    outputAPW = "{0}AzeritePowerWeights_{1}.md".format(args.dir, args.talents)
 else:
     outputMarkdown = "%sREADME.md" % args.dir
     outputCSV = "%sresults.csv" % args.dir
@@ -166,6 +169,24 @@ with open(outputCSV, 'w') as resultsCSV:
         for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("single_target,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPSSingle)))
 
+# AzeritePowerWeights Export
+if args.dir == "azerite-traits/":
+    with open(outputAPW, 'w') as resultsAPW:
+        # Uldir Composite
+        resultsAPW.write("# Uldir Composite\n```\n( AzeritePowerWeights:1:\"Priest - Uldir Composite {0}\":5:258:".format(args.talents))
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
+            traitID = azeritePowerIDs.get(key)
+            if traitID:
+                resultsAPW.write(" %s=%.2f," % (traitID, getChange(value, baseDPS)))
+        resultsAPW.write(')\n```\n')
+        # Single Target
+        resultsAPW.write("# Single Target\n```\n( AzeritePowerWeights:1:\"Priest - Single Target {0}\":5:258:".format(args.talents))
+        for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
+            traitID = azeritePowerIDs.get(key)
+            if traitID:
+                resultsAPW.write(" %s=%.2f," % (traitID, getChange(value, baseDPSSingle)))
+        resultsAPW.write(')\n```\n')
+        resultsAPW.write('\n Works with the [AzeritePowerWeights Addon](https://wow.curseforge.com/projects/azeritepowerweights)')
 
 #Update JSONs
 import subprocess
