@@ -66,16 +66,17 @@ profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_400"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1527/4798
 
 # Rare Elite Trinkets
-profileset."Tear_of_the_Void_355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
-profileset."Tear_of_the_Void_360"+=trinket1=tear_of_the_void,id=161374,bonus_id=1487/4798
-profileset."Tear_of_the_Void_365"+=trinket1=tear_of_the_void,id=161374,bonus_id=1492/4798
-profileset."Tear_of_the_Void_370"+=trinket1=tear_of_the_void,id=161374,bonus_id=1497/4798
-profileset."Tear_of_the_Void_375"+=trinket1=tear_of_the_void,id=161374,bonus_id=1502/4798
-profileset."Tear_of_the_Void_380"+=trinket1=tear_of_the_void,id=161374,bonus_id=1507/4798
-profileset."Tear_of_the_Void_385"+=trinket1=tear_of_the_void,id=161374,bonus_id=1512/4798
-profileset."Tear_of_the_Void_390"+=trinket1=tear_of_the_void,id=161374,bonus_id=1517/4798
-profileset."Tear_of_the_Void_395"+=trinket1=tear_of_the_void,id=161374,bonus_id=1522/4798
-profileset."Tear_of_the_Void_400"+=trinket1=tear_of_the_void,id=161374,bonus_id=1527/4798
+# doesnt exist
+# profileset."Tear_of_the_Void_355"+=trinket1=tear_of_the_void,id=161374,bonus_id=4798/1477
+# profileset."Tear_of_the_Void_360"+=trinket1=tear_of_the_void,id=161374,bonus_id=1487/4798
+# profileset."Tear_of_the_Void_365"+=trinket1=tear_of_the_void,id=161374,bonus_id=1492/4798
+# profileset."Tear_of_the_Void_370"+=trinket1=tear_of_the_void,id=161374,bonus_id=1497/4798
+# profileset."Tear_of_the_Void_375"+=trinket1=tear_of_the_void,id=161374,bonus_id=1502/4798
+# profileset."Tear_of_the_Void_380"+=trinket1=tear_of_the_void,id=161374,bonus_id=1507/4798
+# profileset."Tear_of_the_Void_385"+=trinket1=tear_of_the_void,id=161374,bonus_id=1512/4798
+# profileset."Tear_of_the_Void_390"+=trinket1=tear_of_the_void,id=161374,bonus_id=1517/4798
+# profileset."Tear_of_the_Void_395"+=trinket1=tear_of_the_void,id=161374,bonus_id=1522/4798
+# profileset."Tear_of_the_Void_400"+=trinket1=tear_of_the_void,id=161374,bonus_id=1527/4798
 
 profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1477/4801
 profileset."Azurethos_Singed_Plumage_360"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1482/4801
@@ -99,16 +100,17 @@ profileset."Tzanes_Barkspines_390"+=trinket1=tzanes_barkspines,id=161411,bonus_i
 profileset."Tzanes_Barkspines_395"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1517/4801
 profileset."Tzanes_Barkspines_400"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1522/4801
 
-profileset."Wing_Bone_of_the_Budding_Tempest_355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1477/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_360"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1482/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_365"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1487/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_370"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1492/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_375"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1497/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_380"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1502/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_385"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1507/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_390"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1512/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_395"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1517/4801
-profileset."Wing_Bone_of_the_Budding_Tempest_400"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1522/4801
+# doesnt exist
+# profileset."Wing_Bone_of_the_Budding_Tempest_355"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1477/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_360"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1482/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_365"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1487/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_370"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1492/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_375"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1497/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_380"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1502/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_385"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1507/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_390"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1512/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_395"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1517/4801
+# profileset."Wing_Bone_of_the_Budding_Tempest_400"+=trinket1=wing_bone_of_the_budding_tempest,id=161414,bonus_id=1522/4801
 
 profileset."Drust_Runed_Icicle_355"+=trinket1=drust_runed_icicle,id=161380,bonus_id=4798/1477
 profileset."Drust_Runed_Icicle_360"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1482/4798
@@ -121,16 +123,17 @@ profileset."Drust_Runed_Icicle_390"+=trinket1=drust_runed_icicle,id=161380,bonus
 profileset."Drust_Runed_Icicle_395"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1517/4798
 profileset."Drust_Runed_Icicle_400"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1522/4798
 
-profileset."Sandscoured_Idol_355"+=trinket1=sandscoured_idol,id=161417,bonus_id=4798/1477
-profileset."Sandscoured_Idol_360"+=trinket1=sandscoured_idol,id=161417,bonus_id=1482/4798
-profileset."Sandscoured_Idol_365"+=trinket1=sandscoured_idol,id=161417,bonus_id=1487/4798
-profileset."Sandscoured_Idol_370"+=trinket1=sandscoured_idol,id=161417,bonus_id=1492/4798
-profileset."Sandscoured_Idol_375"+=trinket1=sandscoured_idol,id=161417,bonus_id=1497/4798
-profileset."Sandscoured_Idol_380"+=trinket1=sandscoured_idol,id=161417,bonus_id=1502/4798
-profileset."Sandscoured_Idol_385"+=trinket1=sandscoured_idol,id=161417,bonus_id=1507/4798
-profileset."Sandscoured_Idol_390"+=trinket1=sandscoured_idol,id=161417,bonus_id=1512/4798
-profileset."Sandscoured_Idol_395"+=trinket1=sandscoured_idol,id=161417,bonus_id=1517/4798
-profileset."Sandscoured_Idol_400"+=trinket1=sandscoured_idol,id=161417,bonus_id=1522/4798
+# doesnt exist
+# profileset."Sandscoured_Idol_355"+=trinket1=sandscoured_idol,id=161417,bonus_id=4798/1477
+# profileset."Sandscoured_Idol_360"+=trinket1=sandscoured_idol,id=161417,bonus_id=1482/4798
+# profileset."Sandscoured_Idol_365"+=trinket1=sandscoured_idol,id=161417,bonus_id=1487/4798
+# profileset."Sandscoured_Idol_370"+=trinket1=sandscoured_idol,id=161417,bonus_id=1492/4798
+# profileset."Sandscoured_Idol_375"+=trinket1=sandscoured_idol,id=161417,bonus_id=1497/4798
+# profileset."Sandscoured_Idol_380"+=trinket1=sandscoured_idol,id=161417,bonus_id=1502/4798
+# profileset."Sandscoured_Idol_385"+=trinket1=sandscoured_idol,id=161417,bonus_id=1507/4798
+# profileset."Sandscoured_Idol_390"+=trinket1=sandscoured_idol,id=161417,bonus_id=1512/4798
+# profileset."Sandscoured_Idol_395"+=trinket1=sandscoured_idol,id=161417,bonus_id=1517/4798
+# profileset."Sandscoured_Idol_400"+=trinket1=sandscoured_idol,id=161417,bonus_id=1522/4798
 
 # PvP World Boss Trinket
 profileset."Dooms_Hatred_370"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
