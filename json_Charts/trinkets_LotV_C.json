@@ -644,43 +644,13 @@
 			"310": 14076
 		},
 		"Wing Bone of the Budding Tempest": {
-			"400": 14195,
-			"355": 14193,
-			"390": 14193,
-			"385": 14194,
-			"370": 14196,
-			"380": 14196,
-			"360": 14195,
-			"395": 14194,
-			"375": 14195,
-			"365": 14199
 		},
 		"Surging Alchemist Stone": {
 			"300": 14199
 		},
 		"Tear of the Void": {
-			"375": 14196,
-			"355": 14196,
-			"380": 14194,
-			"390": 14197,
-			"395": 14195,
-			"400": 14195,
-			"385": 14194,
-			"360": 14192,
-			"365": 14197,
-			"370": 14196
 		},
 		"Sandscoured Idol": {
-			"395": 14022,
-			"400": 14022,
-			"360": 14021,
-			"385": 14021,
-			"370": 14021,
-			"380": 14022,
-			"365": 14022,
-			"375": 14021,
-			"390": 14023,
-			"355": 14019
 		},
 		"Endless Tincture of Fractional Power": {
 			"300": 13998
@@ -727,10 +697,7 @@
 		"Vanquished_Tendril_of_Ghuun": 160654,
 		"Darkmoon_Deck_Squalls": 159126,
 		"Ravasaur_Skull_Bijou": 161119,
-		"Wing_Bone_of_the_Budding_Tempest": 161414,
 		"Surging_Alchemist_Stone": 152632,
-		"Tear_of_the_Void": 161374,
-		"Sandscoured_Idol": 161417,
 		"Endless_Tincture_of_Fractional_Power": 152636
 	},
 	"simulated_steps": [
@@ -755,48 +722,3 @@
 		310,
 		300
 	],
-	"sorted_data_keys": [
-		"Drust_Runed_Icicle_",
-		"Leyshocks_Grand_Compilation_",
-		"First_Mates_Spyglass_",
-		"Twitching_Tentacle_of_Xalzaix_",
-		"Tzanes_Barkspines_",
-		"Vigilants_Bloodshaper_",
-		"Dinobone_Charm_",
-		"Galewind_Chimes_",
-		"Incessantly_Ticking_Clock_",
-		"Ignition_Mages_Fuse_",
-		"Conch_of_Dark_Whispers_",
-		"Doom_Shroom_",
-		"Berserkers_Juju_",
-		"Lady_Waycrests_Music_Box_",
-		"Vessel_of_Skittering_Shadows_",
-		"Kajafied_Banana_",
-		"Emblem_of_Zandalar_",
-		"Azurethos_Singed_Plumage_",
-		"Whirlwings_Plumage_",
-		"Rotcrusted_Voodoo_Doll_",
-		"Hadals_Nautilus_",
-		"Dread_Gladiators_Medallion_",
-		"Vial_of_Storms_",
-		"Lions_Grace_",
-		"Dooms_Hatred_",
-		"Living_Oil_Cannister_",
-		"Gilded_Loa_Figurine_",
-		"Dread_Gladiators_Insignia_",
-		"Dread_Gladiators_Badge_",
-		"Plunderbeards_Flask_",
-		"Pearl_Divers_Compass_",
-		"Snowpelt_Mangler_",
-		"Balefire_Branch_",
-		"Vanquished_Tendril_of_Ghuun_",
-		"Darkmoon_Deck_Squalls_",
-		"Ravasaur_Skull_Bijou_",
-		"Surging_Alchemist_Stone_",
-		"Tear_of_the_Void_",
-		"Wing_Bone_of_the_Budding_Tempest_",
-		"Sandscoured_Idol_",
-		"Endless_Tincture_of_Fractional_Power_",
-		"Base"
-	]
-}
