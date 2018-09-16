@@ -36,13 +36,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir == "azerite-traits/":
-    if args.talents:
-        simc = "{0}azerite_{1}.simc".format(args.dir, args.talents)
-    else:
-        print("Error: must provide --talents [DA, LotV]")
-        exit()
-elif args.dir == "azerite-trait-ilvls/":
+elif args.dir == "azerite-traits/" or args.dir == "azerite-trait-ilvls/":
     if args.talents:
         simc = "{0}azerite_{1}.simc".format(args.dir, args.talents)
     else:
@@ -58,10 +52,10 @@ elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
     else:
         print("Error: must provide --talents [DA, LotV]")
         exit()
-elif args.dir == "trinkets/" and not args.talents:
+elif (args.dir == "trinkets/" or args.dir == "azerite-traits-ra/") and not args.talents:
     print("Error: must provide --talents [DA, LotV]")
     exit()
-elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/"):
+elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits-ra/"):
     print("Error: provided directory does not match known directory.")
     exit()
 
@@ -115,6 +109,9 @@ elif args.dir == "trinkets/":
 elif args.dir == "azerite-gear/":
     RSreport = reports.reportsRSAzerite
     report = reports.reportsAzerite
+elif args.dir == "azerite-traits-ra/":
+    RSreport = reports.reportsRSRA
+    report = reports.reportsRA
 else:
     RSreport = reports.reportsRS
     report = reports.reports
@@ -165,6 +162,13 @@ for value in profiles:
             simc = "{0}head_{1}.simc".format(args.dir, args.talents)
         if "shoulders" in value:
             simc = "{0}shoulders_{1}.simc".format(args.dir, args.talents)
+    elif args.dir == "azerite-traits-ra/":
+        if "zero" in value:
+            simc = "{0}azerite_zero_{1}.simc".format(args.dir, args.talents)
+        if "five" in value:
+            simc = "{0}azerite_five_{1}.simc".format(args.dir, args.talents)
+        if "ten" in value:
+            simc = "{0}azerite_ten_{1}.simc".format(args.dir, args.talents)
     with open(simc, 'r') as f:
         data = f.read()
         f.close()

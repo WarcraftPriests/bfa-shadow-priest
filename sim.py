@@ -48,6 +48,9 @@ elif args.dir == "trinkets/":
 elif args.dir == "azerite-gear/":
     RSreport = reports.reportsRSAzerite
     report = reports.reportsAzerite
+elif args.dir == "azerite-traits-ra/":
+    RSreport = reports.reportsRSRA
+    report = reports.reportsRA
 else:
     RSreport = reports.reportsRS
     report = reports.reports
@@ -72,7 +75,7 @@ for value in profiles:
     count = count + 1
     if not args.composite:
         lookup = value[9:-5]
-        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/":
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/":
             lookup = lookup[lookup.index('_')+1:]
         weight = weightsUldir.get(lookup)
         weightST = weightsSingle.get(lookup)
