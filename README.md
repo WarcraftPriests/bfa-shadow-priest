@@ -18,7 +18,7 @@ All scripts are run with python3. If you are using Windows you will likely need 
 
 1. Run `pip install -r requirements.txt` in order for `analyze.py` to work
 2. Validate the default lists of reports in `reports.py` are what you want to sim.
-3. Run `python profiles.py dir/ [DA, LotV]` for the directory you want to sim.
+3. Run `python profiles.py dir/ --talents [DA, LotV]` for the directory you want to sim.
 4. After profiles are generated create `secrets.py` inside the root directory. Set `apiKey = XXX`
 5. By default if a file already exists in `results/` or if the weight in `weights.py` is 0, sim.py will skip it
 6. To run the sims use `python sim.py dir/ [--iterations X, --weights, --talents [DA, LotV]]` where `dir/` is the sim directory you want to sim
