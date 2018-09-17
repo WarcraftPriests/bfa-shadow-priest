@@ -45,7 +45,7 @@ Every sim is run with the top DA and LotV build:
 ### Azerite Traits
 - Head: [Visage of the Ascended Prophet](https://www.wowhead.com/item=160719/visage-of-the-ascended-prophet&bonus=4822:1477): [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix), [Elemental Whirl](https://www.wowhead.com/spell=270667/elemental-whirl), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - Shoulders: [Amice of Corrupting Horror](https://www.wowhead.com/item=160726/amice-of-corrupting-horror&bonus=4822:1477): [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix), [Earthlink](https://www.wowhead.com/spell=279926/earthlink), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Chest: [Robes of the Unraveler](https://bfa.wowhead.com/item=160614/robes-of-the-unraveler&bonus=4822:1477&azerite-powers=5:405:30:44:13): [Archive of the Titans](https://www.wowhead.com/spell=280709/archive-of-the-titans), [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- Chest: [Robes of the Unraveler](chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507): [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity), [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33`
 
 ### Stats - Mythic (Percent Stat - Gear Amount) - DA
