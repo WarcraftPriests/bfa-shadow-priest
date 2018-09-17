@@ -103,7 +103,7 @@ with open(outputCSV, 'w') as resultsCSV:
 if args.dir == "azerite-traits/":
     with open(outputAPW, 'w') as resultsAPW:
         # HeroDamage Dungeons
-        resultsAPW.write("# HeroDamage Dungeons\n```\n( AzeritePowerWeights:1:\"Priest - Uldir Composite {0}\":5:258:".format(args.talents))
+        resultsAPW.write("# HeroDamage Dungeons\n```\n( AzeritePowerWeights:1:\"Priest - HeroDamage Dungeons {0}\":5:258:".format(args.talents))
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             traitID = azeritePowerIDs.get(key)
             if traitID:
