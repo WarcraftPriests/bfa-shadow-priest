@@ -1,0 +1,20 @@
+# Hero Dungeon
+
+# We disable all the buffs/debuffs. Characters that applies something will of course still apply it.
+optimal_raid=0
+# Enable all the passive buffs + the bloodlust since it can be provided by items.
+override.arcane_intellect=1
+override.battle_shout=1
+override.power_word_fortitude=1
+override.bloodlust=1
+
+max_time=360
+enemy=HeroDungeon
+# Will make the main target invulnerable for the whole fight (we ignore it to be able to make the boss die early and then do trashes).
+raid_events+=/invulnerable,cooldown=500,duration=500,retarget=1
+# Spawns 1 add at the start of the fight that will last ~136-144s (i.e. the boss).
+raid_events+=/adds,name=Boss,count=1,cooldown=500,duration=140,duration_stddev=2
+# Spawns 4-6 adds after 140s each 45s that will lasts ~11-19s each.
+raid_events+=/adds,name=SmallAdd,count=5,count_range=1,first=140,cooldown=45,duration=15,duration_stddev=2
+# Spawns 1-3 adds after 155s each 45s that will lasts ~26-34s each.
+raid_events+=/adds,name=BigAdd,count=2,count_range=1,first=155,cooldown=45,duration=30,duration_stddev=2

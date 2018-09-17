@@ -1,8 +1,19 @@
 # Azerite Trait Results
 
+## Raids
+### DA + LotV
 - [FotM_ToF_AS_MB_DA](Results_DA.md)
 - [FotM_ToF_AS_MB_LotV](Results_LotV.md)
 
-# AzeritePowerWeights Strings
+### AzeritePowerWeights Strings
 - [AzeritePowerWeights_DA](AzeritePowerWeights_DA.md)
 - [AzeritePowerWeights_LotV](AzeritePowerWeights_LotV.md)
+
+## Dungeons
+### DA + LotV
+- [SWV_DV_SC_MB_DA](Results_Dungeons_DA.md)
+- [SWV_DV_SC_MB_LotV](Results_Dungeons_LotV.md)
+
+### AzeritePowerWeights Strings
+- [AzeritePowerWeights_DA](AzeritePowerWeights_Dungeons_DA.md)
+- [AzeritePowerWeights_LotV](AzeritePowerWeights_Dungeons_LotV.md)

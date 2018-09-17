@@ -7,6 +7,7 @@ This repo includes scripts and sims for shadow priests.
 - [APL 101](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/APLs-101)
 - [Glossary of Terms](https://github.com/WarcraftPriests/bfa-shadow-priest/wiki/Glossary)
 - [CodeFactor.io](https://www.codefactor.io/repository/github/warcraftpriests/bfa-shadow-priest)
+- [Dungeon sims courtesy of Hero Damage](https://www.herodamage.com)
 
 ## Discussion
 - [Discord](https://discord.gg/WarcraftPriests)
@@ -34,8 +35,12 @@ All sims are run with the following as a base (unless specified otherwise)
 
 ### Talent Combos
 Every sim is run with the top DA and LotV build:
+### Raids
 - DA: FotM_ToF_AS_MB_DA
 - LotV: FotM_ToF_AS_MB_LotV
+### Dungeons
+- DA: SWV_DV_SC_MB_DA
+- LotV: SWV_DV_SC_MB_LotV
 
 ### Azerite Traits
 - Head: [Visage of the Ascended Prophet](https://www.wowhead.com/item=160719/visage-of-the-ascended-prophet&bonus=4822:1477): [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix), [Elemental Whirl](https://www.wowhead.com/spell=270667/elemental-whirl), [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
@@ -73,6 +78,8 @@ Every sim is run with the top DA and LotV build:
 - [bulk weights](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/stats)
 - [azerite traits](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-traits)
 - [azerite gear](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-gear)
+- [azerite ilvls](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-trait-ilvls)
+- [reorigination array](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/azerite-traits-ra)
 - [racials](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/racials)
 - [consumables](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/consumables)
 - [enchants](https://github.com/WarcraftPriests/bfa-shadow-priest/tree/master/enchants)

@@ -31,6 +31,10 @@ reportsRS = {
     'results/_Ghuun.json',
 }
 
+reportsDungeons = {
+    'results/herodamage.json',
+}
+
 reportsStats = {
     'results/da1_pw_ba_1.json',
     'results/da1_pw_na_1.json',
@@ -199,6 +203,15 @@ reportsRSStats = {
     'results/_stm2_Ghuun.json',
 }
 
+reportsDungeonsStats = {
+    'results/da1_herodamage.json',
+    'results/da2_herodamage.json',
+    'results/lotv1_herodamage.json',
+    'results/lotv2_herodamage.json',
+    'results/stm1_herodamage.json',
+    'results/stm2_herodamage.json',
+}
+
 reportsTalents = {
     'results/da_pw_ba_1.json',
     'results/da_pw_na_1.json',
@@ -284,6 +297,12 @@ reportsRSTalents = {
     'results/_stm_Zul.json',
     # 'results/_stm_Mythrax.json',
     'results/_stm_Ghuun.json',
+}
+
+reportsDungeonsTalents = {
+    'results/da_herodamage.json',
+    'results/lotv_herodamage.json',
+    'results/stm_herodamage.json',
 }
 
 reportsTrinkets = {
@@ -373,6 +392,12 @@ reportsRSTrinkets = {
     'results/_raid_Ghuun.json',
 }
 
+reportsDungeonsTrinkets = {
+    'results/other_herodamage.json',
+    'results/dungeons_herodamage.json',
+    'results/raid_herodamage.json',
+}
+
 reportsAzerite = {
     'results/chest_pw_ba_1.json',
     'results/chest_pw_na_1.json',
@@ -460,6 +485,12 @@ reportsRSAzerite = {
     'results/_shoulders_Ghuun.json',
 }
 
+reportsDungeonsAzerite = {
+    'results/chest_herodamage.json',
+    'results/head_herodamage.json',
+    'results/shoulders_herodamage.json',
+}
+
 reportsRA = {
     'results/zero_pw_ba_1.json',
     'results/zero_pw_na_1.json',
@@ -545,4 +576,10 @@ reportsRSRA = {
     'results/_ten_Zul.json',
     # 'results/_ten_Mythrax.json',
     'results/_ten_Ghuun.json',
+}
+
+reportsDungeonsRA = {
+    'results/zero_herodamage.json',
+    'results/five_herodamage.json',
+    'results/tens_herodamage.json',
 }

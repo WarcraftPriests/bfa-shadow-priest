@@ -8,11 +8,21 @@ def assure_path_exists(path):
     if not os.path.exists(dir):
         os.makedirs(dir)
 
+# Set Dungeon Talent Builds manually
+# SWV_DV_SC_MB_[DA/LotV]
+dungeonsLotV = 'talents=3131322'
+dungeonsDA = 'talents=3131321'
+
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
 parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
+parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
+
+if args.composite and args.dungeons:
+    print("Error: cannot sim composite and dungeons at the same time")
+    exit()
 
 # clear out results
 assure_path_exists('%sresults/' % args.dir)
@@ -66,6 +76,12 @@ patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
 
+# dungeons
+if args.dungeons:
+    with open("dungeonsimming/herodamage.simc", 'r') as sim:
+        dungeons = sim.read()
+        sim.close()
+
 # --composite [HC, MM]
 if args.composite:
     with open("raidsimming/{0}/{1}_Taloc.simc".format(args.composite,args.composite), 'r') as sim:
@@ -100,25 +116,36 @@ profiles = []
 if args.dir == "stats/":
     RSreport = reports.reportsRSStats
     report = reports.reportsStats
+    DSreport = reports.reportsDungeonsStats
 elif args.dir == "talents/":
     RSreport = reports.reportsRSTalents
     report = reports.reportsTalents
+    DSreport = reports.reportsDungeonsTalents
 elif args.dir == "trinkets/":
     RSreport = reports.reportsRSTrinkets
     report = reports.reportsTrinkets
+    DSreport = reports.reportsDungeonsTrinkets
 elif args.dir == "azerite-gear/":
     RSreport = reports.reportsRSAzerite
     report = reports.reportsAzerite
+    DSreport = reports.reportsDungeonsAzerite
 elif args.dir == "azerite-traits-ra/":
     RSreport = reports.reportsRSRA
     report = reports.reportsRA
+    DSreport = reports.reportsDungeonsRA
 else:
     RSreport = reports.reportsRS
+    DSreport = reports.reportsDungeons
     report = reports.reports
 
 if args.composite:
     for value in RSreport:
         profile = value.replace('results/_', 'profiles/%s_' % args.composite)
+        profile = profile.replace('json', 'simc')
+        profiles.append(profile)
+elif args.dungeons:
+    for value in DSreport:
+        profile = value.replace('results', 'profiles')
         profile = profile.replace('json', 'simc')
         profiles.append(profile)
 else:
@@ -192,6 +219,13 @@ for value in profiles:
             settings = settings + mythrax + "\n"
         if "Ghuun" in value:
             settings = settings + ghuun + "\n"
+    elif args.dungeons:
+        settings = settings + dungeons + "\n"
+        if args.talents and not args.dir == "talents/":
+            if args.talents == "LotV":
+                settings = settings + dungeonsLotV
+            else:
+                settings = settings + dungeonsDA
     else:
         if "pw" in value:
             settings = settings + patchwerk + "\n"
