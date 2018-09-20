@@ -221,9 +221,9 @@
 			"3_stack": 12675
 		},
 		"Base": {
-			"1_Stack": 12671,
-			"2_Stack": 0,
-			"3_Stack": 0
+			"1_stack": 12671,
+			"2_stack": 0,
+			"3_stack": 0
 		}
 	},
 	"Data_type": "traits",
