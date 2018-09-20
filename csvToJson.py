@@ -321,9 +321,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         #end manual
         j.write('\t"simulated_steps": [\n')
         #write the 3 levels of traits
-        j.write('\t\t"1_Stack",\n')
-        j.write('\t\t"2_Stack",\n')
-        j.write('\t\t"3_Stack"\n')
+        j.write('\t\t"1_stack",\n')
+        j.write('\t\t"2_stack",\n')
+        j.write('\t\t"3_stack"\n')
         j.write('\t],\n')
         DPSSort = list()
         for u in uniqueList:
