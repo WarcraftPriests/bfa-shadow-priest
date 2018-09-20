@@ -274,9 +274,9 @@
 		"Whispers of the Damned ":"275726"
 	},
 	"simulated_steps": [
-		"1_Stack",
-		"2_Stack",
-		"3_Stack"
+		"1_stack",
+		"2_stack",
+		"3_stack"
 	],
 	"sorted_data_keys": [
 		"Chorus of Insanity ",
