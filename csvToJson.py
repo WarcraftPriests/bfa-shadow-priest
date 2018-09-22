@@ -334,10 +334,11 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
         sortedTraits = sortedTraits[:-1] #Remove Int_ since it will always be the last option.
+        ucntMax = len(sortedTraits)
         for s in sortedTraits:
             ucnt+=1
             if not s == 'Base':
-                if ucnt < ucntMax-1:
+                if ucnt < ucntMax:
                     j.write('\t\t"'+s.replace('_',' ')+'",\n')
                 else:
                     j.write('\t\t"'+s.replace('_',' ')+'"\n')
