@@ -210,15 +210,17 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                 if x['profile'] == simType and x['actor'] == str(u+maxIlvl):
                     DPSSort.append(x['DPS'])
         sortedTrinkets = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
+        sortedTrinkets = sortedTrinkets[:-1] #Remove Base since it will always be the last option.
         ucnt = 0
+        ucntMax = len(sortedTrinkets)
         j.write('\t"sorted_data_keys": [\n')
         for s in sortedTrinkets:
             ucnt+=1
             if not s == 'Base':
                 if ucnt < ucntMax:
-                    j.write('\t\t"'+s+'",\n')
+                    j.write('\t\t"'+s.replace('_',' ').strip()+'",\n')
                 else:
-                    j.write('\t\t"'+s+'"\n')
+                    j.write('\t\t"'+s.replace('_',' ').strip()+'"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
