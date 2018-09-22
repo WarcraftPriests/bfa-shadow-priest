@@ -57,7 +57,7 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','').lower() == itemname:
                     itemID = re.search(r'(id=)\d*',line.strip('\n')).group(0).strip('id=')
                     return itemID
             except:
@@ -66,7 +66,7 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','').lower() == itemname:
                     itemID = re.search(r'(id=)\d*',line).group(0).strip('id=')
                     return itemID
             except:
@@ -75,7 +75,7 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','') == itemname:
+                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','').lower() == itemname:
                     itemID = re.search(r'(id=)\d*',line).group(0).strip('id=')
                     return itemID
             except:
@@ -188,8 +188,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     j.write('\t\t"'+u+'": '+str(itemID)+'\n')
             else:
                 if not u == 'Base':
-                    print('Error: ' + u + ' Trinket was not included, likely due to a spelling error')
-                    cnt+=1
+                    print('Error: ' + u + ' Trinket was not included in the item ID list.')
 
         j.write('\t},\n')
         j.write('\t"simulated_steps": [\n')
@@ -215,10 +214,11 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t"sorted_data_keys": [\n')
         for s in sortedTrinkets:
             ucnt+=1
-            if ucnt < ucntMax:
-                j.write('\t\t"'+s+'",\n')
-            else:
-                j.write('\t\t"'+s+'"\n')
+            if not s == 'Base':
+                if ucnt < ucntMax:
+                    j.write('\t\t"'+s+'",\n')
+                else:
+                    j.write('\t\t"'+s+'"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
@@ -268,7 +268,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                     if x['profile'] == simType and x['actor'] == 'Base':
                         j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                         j.write('\t\t\t"2_stack": 0,\n')
-                        j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.              
+                        j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
                 j.write('\t\t}\n')
         j.write('\t},\n')
         j.write('\t"Data_type": "traits",\n\t"spell_ids" : {\n')
@@ -336,11 +336,11 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         sortedTraits = sortedTraits[:-1] #Remove Int_ since it will always be the last option.
         for s in sortedTraits:
             ucnt+=1
-            if ucnt < ucntMax:
-                j.write('\t\t"'+s.replace('_',' ')+'",\n')
-            else:
-                j.write('\t\t"'+s.replace('_',' ')+'"\n')
-        j.write('\t\t"Base"\n')
+            if not s == 'Base':
+                if ucnt < ucntMax-1:
+                    j.write('\t\t"'+s.replace('_',' ')+'",\n')
+                else:
+                    j.write('\t\t"'+s.replace('_',' ')+'"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
