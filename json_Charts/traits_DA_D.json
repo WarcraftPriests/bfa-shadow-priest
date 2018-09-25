@@ -1,0 +1,148 @@
+{
+	"data": {
+		"Chorus of Insanity": {
+		},
+		"Synaptic Spark Capacitor": {
+		},
+		"Barrage Of Many Bombs": {
+		},
+		"Champion of Azeroth": {
+		},
+		"Blightborne Infusion": {
+		},
+		"Swirling Sands": {
+		},
+		"Archive of the Titans": {
+		},
+		"Unstable Catalyst": {
+		},
+		"Relational Normalization Gizmo": {
+		},
+		"Tidal Surge": {
+		},
+		"Secrets of the Deep": {
+		},
+		"Sylvanas Resolve": {
+		},
+		"Death Throes": {
+		},
+		"Tradewinds": {
+		},
+		"Dagger in the Back Behind": {
+		},
+		"Rezans Fury": {
+		},
+		"Meticulous Scheming": {
+		},
+		"Thunderous Blast": {
+		},
+		"Incite the Pack": {
+		},
+		"Glory in Battle": {
+		},
+		"Whispers of the Damned": {
+		},
+		"Filthy Transfusion": {
+		},
+		"Blood Rite": {
+		},
+		"Overwhelming Power": {
+		},
+		"Ricocheting Inflatable Pyrosaw": {
+		},
+		"Heed My Call": {
+		},
+		"Laser Matrix": {
+		},
+		"Dagger in the Back Front": {
+		},
+		"Spiteful Apparitions": {
+		},
+		"Thought Harvester": {
+		},
+		"Unstable Flames": {
+		},
+		"Retaliatory Fury": {
+		},
+		"Gutripper": {
+		},
+		"Elemental Whirl": {
+		},
+		"Ruinous Bolt": {
+		},
+		"Earthlink": {
+		},
+		"Searing Dialogue": {
+		},
+		"Azerite Globules": {
+		},
+		"On My Way": {
+		},
+		"Blood Siphon": {
+		},
+		"Collective Will": {
+		},
+		"Battlefield Focus": {
+		},
+		"Azerite Empowered": {
+		},
+		"Combined Might": {
+		},
+		"Base": {
+		}
+	},
+	"Data_type": "traits",
+	"spell_ids" : {
+		"Archive of the Titans ":"280708",
+		"Azerite Globules ":"279955",
+		"Barrage Of Many Bombs ":"280163",
+		"Battlefield Focus ":"280582",
+		"Blightborne Infusion ":"273823",
+		"Blood Rite ":"280409",
+		"Blood Siphon ":"264108",
+		"Champion of Azeroth ":"270583",
+		"Chorus of Insanity ":"278661",
+		"Collective Will ":"280837",
+		"Combined Might ":"280848",
+		"Dagger in the Back Behind ":"280285",
+		"Dagger in the Back Front ":"280285",
+		"Death Throes ":"278659",
+		"Earthlink ":"279927",
+		"Elemental Whirl ":"270667",
+		"Filthy Transfusion ":"273836",
+		"Glory in Battle ":"280852",
+		"Gutripper ":"266937",
+		"Heed My Call ":"271681",
+		"Incite the Pack ":"280410",
+		"Laser Matrix ":"280702",
+		"Lifespeed":"267665",
+		"Meticulous Scheming ":"273684",
+		"On My Way ":"267879",
+		"Overwhelming Power ":"266180",
+		"Relational Normalization Gizmo ":"280178",
+		"Retaliatory Fury ":"280785",
+		"Rezans Fury ":"281834",
+		"Ricocheting Inflatable Pyrosaw ":"280168",
+		"Ruinous Bolt ":"280206",
+		"Searing Dialogue ":"272788",
+		"Secrets of the Deep ":"273829",
+		"Spiteful Apparitions ":"277682",
+		"Swirling Sands ":"280433",
+		"Sylvanas Resolve ":"280810",
+		"Synaptic Spark Capacitor ":"280174",
+		"Thought Harvester ":"273320",
+		"Thunderous Blast ":"280384",
+		"Tidal Surge ":"280404",
+		"Tradewinds ":"281843",
+		"Unstable Catalyst ":"281516",
+		"Unstable Flames ":"279902",
+		"Whispers of the Damned ":"275726"
+	},
+	"simulated_steps": [
+		"1_stack",
+		"2_stack",
+		"3_stack"
+	],
+	"sorted_data_keys": [
+	]
+}
