@@ -1,15 +1,15 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Rising_Death|14988|1.93%|
-|Potion_of_Intellect|14939|1.60%|
-|Bountiful_Captains_Feast|14886|1.23%|
-|Honey-Glazed_Haunches|14839|0.92%|
-|Galley Banquet|14837|0.91%|
-|Swamp_Fish_n_Chips|14837|0.91%|
-|Sailors_Pie|14817|0.77%|
-|Spiced_Snapper|14813|0.74%|
-|Battle-Scarred Augment Rune|14810|0.72%|
-|Base|14704|0.00%|
+|Potion_of_Rising_Death|15771|1.95%|
+|Potion_of_Intellect|15731|1.69%|
+|Bountiful_Captains_Feast|15675|1.33%|
+|Galley Banquet|15647|1.15%|
+|Swamp_Fish_n_Chips|15640|1.10%|
+|Honey-Glazed_Haunches|15631|1.04%|
+|Battle-Scarred Augment Rune|15614|0.94%|
+|Sailors_Pie|15613|0.92%|
+|Spiced_Snapper|15594|0.81%|
+|Base|15470|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
