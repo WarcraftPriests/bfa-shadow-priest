@@ -1,11 +1,14 @@
+ptr=1
+
 priest="Base"
 level=120
 role=spell
 position=back
-talents=1111122
+talents=1111112
 spec=shadow
 
 default_actions=1
+initial_resource=insanity=25
 
 head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
@@ -64,6 +67,22 @@ profileset."Vanquished_Tendril_of_Ghuun_385"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_390"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1517/4798
 profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1522/4798
 profileset."Vanquished_Tendril_of_Ghuun_400"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1527/4798
+
+# Battle of Dazar'alor Trinkets
+profileset."Incandescent_Silver_385"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=4798/1507
+profileset."Incandescent_Silver_390"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1512/4798
+profileset."Incandescent_Silver_395"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1517/4798
+profileset."Incandescent_Silver_400"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1522/4798
+
+profileset."Tidestorm_Codex_385"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=4798/1507
+profileset."Tidestorm_Codex_390"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1512/4798
+profileset."Tidestorm_Codex_395"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1517/4798
+profileset."Tidestorm_Codex_400"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1522/4798
+
+profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,bonus_id=4798/1507
+profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4798
+profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,bonus_id=1517/4798
+profileset."Crest_of_Paku_400"+=trinket1=crest_of_paku,id=165581,bonus_id=1522/4798
 
 # Rare Elite Trinkets
 profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1477/4801

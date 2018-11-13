@@ -1,11 +1,14 @@
+ptr=1
+
 priest="Base"
 level=120
 role=spell
 position=back
-talents=1111121
+talents=1111111
 spec=shadow
 
 default_actions=1
+initial_resource=insanity=25
 
 head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33

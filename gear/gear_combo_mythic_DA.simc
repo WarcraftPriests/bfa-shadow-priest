@@ -1,12 +1,14 @@
+ptr="1"
 
 priest="Priest_Shadow_T22M"
 level="120"
 spec="shadow"
 role="spell"
 position="back"
-talents="1111122"
+talents="1111112"
 name="Priest_Shadow_T22M"
 
+initial_resource=insanity="25"
 
 #Horrific Amalgam's Hood 385
 head=",id=160616,bonus_id=4824/1507,azerite_powers=483/22/13"
