@@ -69,15 +69,15 @@ profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_400"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1527/4798
 
 # Battle of Dazar'alor Trinkets
-profileset."Incandescent_Silver_385"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=4798/1507
-profileset."Incandescent_Silver_390"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1512/4798
-profileset."Incandescent_Silver_395"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1517/4798
-profileset."Incandescent_Silver_400"+=trinket1=incandescent_sunburst_sliver,id=165571,bonus_id=1522/4798
+profileset."Incandescent_Sliver_385"+=trinket1=incandescent_sliver,id=165571,bonus_id=4798/1507
+profileset."Incandescent_Sliver_390"+=trinket1=incandescent_sliver,id=165571,bonus_id=1512/4798
+profileset."Incandescent_Sliver_395"+=trinket1=incandescent_sliver,id=165571,bonus_id=1517/4798
+profileset."Incandescent_Sliver_400"+=trinket1=incandescent_sliver,id=165571,bonus_id=1522/4798
 
-profileset."Tidestorm_Codex_385"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=4798/1507
-profileset."Tidestorm_Codex_390"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1512/4798
-profileset."Tidestorm_Codex_395"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1517/4798
-profileset."Tidestorm_Codex_400"+=trinket1=surging_tidestorm_codex,id=165576,bonus_id=1522/4798
+profileset."Tidestorm_Codex_385"+=trinket1=tidestorm_codex,id=165576,bonus_id=4798/1507
+profileset."Tidestorm_Codex_390"+=trinket1=tidestorm_codex,id=165576,bonus_id=1512/4798
+profileset."Tidestorm_Codex_395"+=trinket1=tidestorm_codex,id=165576,bonus_id=1517/4798
+profileset."Tidestorm_Codex_400"+=trinket1=tidestorm_codex,id=165576,bonus_id=1522/4798
 
 profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,bonus_id=4798/1507
 profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4798
