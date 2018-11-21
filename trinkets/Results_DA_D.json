@@ -1,4153 +1,4503 @@
 [
   {
-    "": "",
-    "DPS": "15653",
+    "profile": "dungeons",
+    "DPS": "17233",
+    "increase": "8.15%",
     "actor": "Incessantly_Ticking_Clock_400",
-    "profile": "dungeons",
-    "increase": "7.88%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15629",
+    "profile": "dungeons",
+    "DPS": "17217",
+    "increase": "8.04%",
     "actor": "Leyshocks_Grand_Compilation_400",
-    "profile": "dungeons",
-    "increase": "7.72%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15624",
-    "actor": "Dinobone_Charm_400",
     "profile": "dungeons",
-    "increase": "7.68%"
-  },
-  {
-    "": "",
-    "DPS": "15620",
-    "actor": "Incessantly_Ticking_Clock_395",
-    "profile": "dungeons",
-    "increase": "7.66%"
-  },
-  {
-    "": "",
-    "DPS": "15607",
-    "actor": "Galewind_Chimes_400",
-    "profile": "dungeons",
-    "increase": "7.57%"
-  },
-  {
-    "": "",
-    "DPS": "15604",
+    "DPS": "17205",
+    "increase": "7.97%",
     "actor": "Emblem_of_Zandalar_400",
-    "profile": "dungeons",
-    "increase": "7.55%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15604",
-    "actor": "Leyshocks_Grand_Compilation_395",
     "profile": "dungeons",
-    "increase": "7.54%"
+    "DPS": "17204",
+    "increase": "7.96%",
+    "actor": "Incessantly_Ticking_Clock_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15600",
-    "actor": "Conch_of_Dark_Whispers_400",
     "profile": "dungeons",
-    "increase": "7.51%"
+    "DPS": "17190",
+    "increase": "7.88%",
+    "actor": "Dinobone_Charm_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15591",
-    "actor": "Dinobone_Charm_395",
     "profile": "dungeons",
-    "increase": "7.45%"
+    "DPS": "17177",
+    "increase": "7.79%",
+    "actor": "Sea_Giants_Tidestone_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15578",
-    "actor": "Emblem_of_Zandalar_395",
     "profile": "dungeons",
-    "increase": "7.36%"
-  },
-  {
-    "": "",
-    "DPS": "15577",
-    "actor": "Galewind_Chimes_395",
-    "profile": "dungeons",
-    "increase": "7.35%"
-  },
-  {
-    "": "",
-    "DPS": "15570",
-    "actor": "Conch_of_Dark_Whispers_395",
-    "profile": "dungeons",
-    "increase": "7.31%"
-  },
-  {
-    "": "",
-    "DPS": "15563",
-    "actor": "Doom_Shroom_400",
-    "profile": "dungeons",
-    "increase": "7.26%"
-  },
-  {
-    "": "",
-    "DPS": "15558",
-    "actor": "Dinobone_Charm_390",
-    "profile": "dungeons",
-    "increase": "7.22%"
-  },
-  {
-    "": "",
-    "DPS": "15555",
-    "actor": "Incessantly_Ticking_Clock_390",
-    "profile": "dungeons",
-    "increase": "7.21%"
-  },
-  {
-    "": "",
-    "DPS": "15554",
-    "actor": "Leyshocks_Grand_Compilation_390",
-    "profile": "dungeons",
-    "increase": "7.20%"
-  },
-  {
-    "": "",
-    "DPS": "15552",
-    "actor": "Dread_Gladiators_Insignia_400",
-    "profile": "dungeons",
-    "increase": "7.19%"
-  },
-  {
-    "": "",
-    "DPS": "15551",
-    "actor": "Berserkers_Juju_400",
-    "profile": "dungeons",
-    "increase": "7.18%"
-  },
-  {
-    "": "",
-    "DPS": "15550",
-    "actor": "Dooms_Hatred_400",
-    "profile": "dungeons",
-    "increase": "7.17%"
-  },
-  {
-    "": "",
-    "DPS": "15550",
-    "actor": "Twitching_Tentacle_of_Xalzaix_400",
-    "profile": "dungeons",
-    "increase": "7.17%"
-  },
-  {
-    "": "",
-    "DPS": "15549",
-    "actor": "Lions_Grace_400",
-    "profile": "dungeons",
-    "increase": "7.16%"
-  },
-  {
-    "": "",
-    "DPS": "15546",
-    "actor": "Gilded_Loa_Figurine_400",
-    "profile": "dungeons",
-    "increase": "7.14%"
-  },
-  {
-    "": "",
-    "DPS": "15541",
-    "actor": "Galewind_Chimes_390",
-    "profile": "dungeons",
-    "increase": "7.11%"
-  },
-  {
-    "": "",
-    "DPS": "15535",
-    "actor": "Incessantly_Ticking_Clock_385",
-    "profile": "dungeons",
-    "increase": "7.07%"
-  },
-  {
-    "": "",
-    "DPS": "15532",
-    "actor": "Emblem_of_Zandalar_390",
-    "profile": "dungeons",
-    "increase": "7.05%"
-  },
-  {
-    "": "",
-    "DPS": "15527",
-    "actor": "Conch_of_Dark_Whispers_390",
-    "profile": "dungeons",
-    "increase": "7.01%"
-  },
-  {
-    "": "",
-    "DPS": "15526",
+    "DPS": "17169",
+    "increase": "7.74%",
     "actor": "Tzanes_Barkspines_400",
-    "profile": "dungeons",
-    "increase": "7.01%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15524",
-    "actor": "Doom_Shroom_395",
     "profile": "dungeons",
-    "increase": "6.99%"
+    "DPS": "17169",
+    "increase": "7.74%",
+    "actor": "Leyshocks_Grand_Compilation_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15524",
-    "actor": "Vigilants_Bloodshaper_400",
     "profile": "dungeons",
-    "increase": "6.99%"
+    "DPS": "17160",
+    "increase": "7.69%",
+    "actor": "Incessantly_Ticking_Clock_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15521",
-    "actor": "Dooms_Hatred_395",
     "profile": "dungeons",
-    "increase": "6.97%"
+    "DPS": "17156",
+    "increase": "7.66%",
+    "actor": "Moonstone_of_Zin_Azshari_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15521",
-    "actor": "Drust_Runed_Icicle_400",
     "profile": "dungeons",
-    "increase": "6.97%"
+    "DPS": "17156",
+    "increase": "7.66%",
+    "actor": "Galewind_Chimes_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15520",
-    "actor": "Dread_Gladiators_Insignia_395",
     "profile": "dungeons",
-    "increase": "6.96%"
+    "DPS": "17153",
+    "increase": "7.64%",
+    "actor": "Emblem_of_Zandalar_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15516",
-    "actor": "First_Mates_Spyglass_400",
     "profile": "dungeons",
-    "increase": "6.94%"
-  },
-  {
-    "": "",
-    "DPS": "15514",
-    "actor": "Leyshocks_Grand_Compilation_385",
-    "profile": "dungeons",
-    "increase": "6.92%"
-  },
-  {
-    "": "",
-    "DPS": "15514",
-    "actor": "Gilded_Loa_Figurine_395",
-    "profile": "dungeons",
-    "increase": "6.92%"
-  },
-  {
-    "": "",
-    "DPS": "15512",
-    "actor": "Lions_Grace_395",
-    "profile": "dungeons",
-    "increase": "6.91%"
-  },
-  {
-    "": "",
-    "DPS": "15507",
-    "actor": "Dinobone_Charm_385",
-    "profile": "dungeons",
-    "increase": "6.87%"
-  },
-  {
-    "": "",
-    "DPS": "15505",
-    "actor": "Berserkers_Juju_395",
-    "profile": "dungeons",
-    "increase": "6.86%"
-  },
-  {
-    "": "",
-    "DPS": "15502",
-    "actor": "Pearl_Divers_Compass_400",
-    "profile": "dungeons",
-    "increase": "6.84%"
-  },
-  {
-    "": "",
-    "DPS": "15497",
-    "actor": "Twitching_Tentacle_of_Xalzaix_395",
-    "profile": "dungeons",
-    "increase": "6.81%"
-  },
-  {
-    "": "",
-    "DPS": "15495",
-    "actor": "Tzanes_Barkspines_395",
-    "profile": "dungeons",
-    "increase": "6.79%"
-  },
-  {
-    "": "",
-    "DPS": "15493",
-    "actor": "Galewind_Chimes_385",
-    "profile": "dungeons",
-    "increase": "6.78%"
-  },
-  {
-    "": "",
-    "DPS": "15491",
-    "actor": "Emblem_of_Zandalar_385",
-    "profile": "dungeons",
-    "increase": "6.76%"
-  },
-  {
-    "": "",
-    "DPS": "15491",
-    "actor": "Living_Oil_Cannister_400",
-    "profile": "dungeons",
-    "increase": "6.76%"
-  },
-  {
-    "": "",
-    "DPS": "15488",
-    "actor": "Conch_of_Dark_Whispers_385",
-    "profile": "dungeons",
-    "increase": "6.74%"
-  },
-  {
-    "": "",
-    "DPS": "15487",
-    "actor": "Lions_Grace_390",
-    "profile": "dungeons",
-    "increase": "6.74%"
-  },
-  {
-    "": "",
-    "DPS": "15485",
-    "actor": "Dooms_Hatred_390",
-    "profile": "dungeons",
-    "increase": "6.72%"
-  },
-  {
-    "": "",
-    "DPS": "15483",
+    "DPS": "17152",
+    "increase": "7.64%",
     "actor": "Azurethos_Singed_Plumage_400",
-    "profile": "dungeons",
-    "increase": "6.71%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15480",
-    "actor": "Incessantly_Ticking_Clock_380",
     "profile": "dungeons",
-    "increase": "6.69%"
+    "DPS": "17150",
+    "increase": "7.62%",
+    "actor": "Conch_of_Dark_Whispers_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15479",
-    "actor": "Leyshocks_Grand_Compilation_380",
     "profile": "dungeons",
-    "increase": "6.68%"
+    "DPS": "17149",
+    "increase": "7.62%",
+    "actor": "First_Mates_Spyglass_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15477",
-    "actor": "Gilded_Loa_Figurine_390",
     "profile": "dungeons",
-    "increase": "6.67%"
-  },
-  {
-    "": "",
-    "DPS": "15476",
-    "actor": "Pearl_Divers_Compass_395",
-    "profile": "dungeons",
-    "increase": "6.66%"
-  },
-  {
-    "": "",
-    "DPS": "15476",
-    "actor": "Drust_Runed_Icicle_395",
-    "profile": "dungeons",
-    "increase": "6.66%"
-  },
-  {
-    "": "",
-    "DPS": "15471",
-    "actor": "Doom_Shroom_390",
-    "profile": "dungeons",
-    "increase": "6.63%"
-  },
-  {
-    "": "",
-    "DPS": "15471",
-    "actor": "Dinobone_Charm_380",
-    "profile": "dungeons",
-    "increase": "6.63%"
-  },
-  {
-    "": "",
-    "DPS": "15470",
+    "DPS": "17149",
+    "increase": "7.62%",
     "actor": "Ignition_Mages_Fuse_400",
-    "profile": "dungeons",
-    "increase": "6.62%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15469",
-    "actor": "Twitching_Tentacle_of_Xalzaix_390",
     "profile": "dungeons",
-    "increase": "6.61%"
+    "DPS": "17142",
+    "increase": "7.57%",
+    "actor": "Sea_Giants_Tidestone_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15467",
-    "actor": "Vigilants_Bloodshaper_395",
     "profile": "dungeons",
-    "increase": "6.60%"
+    "DPS": "17139",
+    "increase": "7.55%",
+    "actor": "Dinobone_Charm_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15467",
-    "actor": "Dread_Gladiators_Insignia_390",
     "profile": "dungeons",
-    "increase": "6.60%"
+    "DPS": "17128",
+    "increase": "7.48%",
+    "actor": "Galewind_Chimes_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15464",
-    "actor": "Berserkers_Juju_390",
     "profile": "dungeons",
-    "increase": "6.58%"
+    "DPS": "17127",
+    "increase": "7.48%",
+    "actor": "Leyshocks_Grand_Compilation_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15464",
-    "actor": "Galewind_Chimes_380",
     "profile": "dungeons",
-    "increase": "6.58%"
+    "DPS": "17127",
+    "increase": "7.48%",
+    "actor": "Tzanes_Barkspines_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15463",
-    "actor": "Emblem_of_Zandalar_380",
     "profile": "dungeons",
-    "increase": "6.57%"
-  },
-  {
-    "": "",
-    "DPS": "15462",
+    "DPS": "17119",
+    "increase": "7.43%",
     "actor": "First_Mates_Spyglass_395",
-    "profile": "dungeons",
-    "increase": "6.56%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15461",
-    "actor": "Dread_Gladiators_Medallion_400",
     "profile": "dungeons",
-    "increase": "6.56%"
-  },
-  {
-    "": "",
-    "DPS": "15459",
-    "actor": "Tzanes_Barkspines_390",
-    "profile": "dungeons",
-    "increase": "6.54%"
-  },
-  {
-    "": "",
-    "DPS": "15456",
-    "actor": "Lions_Grace_385",
-    "profile": "dungeons",
-    "increase": "6.52%"
-  },
-  {
-    "": "",
-    "DPS": "15455",
-    "actor": "Drust_Runed_Icicle_390",
-    "profile": "dungeons",
-    "increase": "6.51%"
-  },
-  {
-    "": "",
-    "DPS": "15452",
-    "actor": "Incessantly_Ticking_Clock_375",
-    "profile": "dungeons",
-    "increase": "6.49%"
-  },
-  {
-    "": "",
-    "DPS": "15451",
-    "actor": "Lady_Waycrests_Music_Box_400",
-    "profile": "dungeons",
-    "increase": "6.49%"
-  },
-  {
-    "": "",
-    "DPS": "15451",
-    "actor": "Dooms_Hatred_385",
-    "profile": "dungeons",
-    "increase": "6.49%"
-  },
-  {
-    "": "",
-    "DPS": "15450",
-    "actor": "Kajafied_Banana_400",
-    "profile": "dungeons",
-    "increase": "6.48%"
-  },
-  {
-    "": "",
-    "DPS": "15450",
-    "actor": "Gilded_Loa_Figurine_385",
-    "profile": "dungeons",
-    "increase": "6.48%"
-  },
-  {
-    "": "",
-    "DPS": "15449",
-    "actor": "Berserkers_Juju_385",
-    "profile": "dungeons",
-    "increase": "6.48%"
-  },
-  {
-    "": "",
-    "DPS": "15449",
-    "actor": "Vessel_of_Skittering_Shadows_400",
-    "profile": "dungeons",
-    "increase": "6.47%"
-  },
-  {
-    "": "",
-    "DPS": "15446",
-    "actor": "Azurethos_Singed_Plumage_395",
-    "profile": "dungeons",
-    "increase": "6.45%"
-  },
-  {
-    "": "",
-    "DPS": "15445",
-    "actor": "Dread_Gladiators_Insignia_385",
-    "profile": "dungeons",
-    "increase": "6.45%"
-  },
-  {
-    "": "",
-    "DPS": "15440",
-    "actor": "Conch_of_Dark_Whispers_380",
-    "profile": "dungeons",
-    "increase": "6.41%"
-  },
-  {
-    "": "",
-    "DPS": "15438",
-    "actor": "Leyshocks_Grand_Compilation_375",
-    "profile": "dungeons",
-    "increase": "6.40%"
-  },
-  {
-    "": "",
-    "DPS": "15438",
-    "actor": "Living_Oil_Cannister_395",
-    "profile": "dungeons",
-    "increase": "6.40%"
-  },
-  {
-    "": "",
-    "DPS": "15436",
-    "actor": "Dinobone_Charm_375",
-    "profile": "dungeons",
-    "increase": "6.39%"
-  },
-  {
-    "": "",
-    "DPS": "15433",
-    "actor": "Vigilants_Bloodshaper_390",
-    "profile": "dungeons",
-    "increase": "6.36%"
-  },
-  {
-    "": "",
-    "DPS": "15432",
-    "actor": "Doom_Shroom_385",
-    "profile": "dungeons",
-    "increase": "6.36%"
-  },
-  {
-    "": "",
-    "DPS": "15432",
-    "actor": "First_Mates_Spyglass_390",
-    "profile": "dungeons",
-    "increase": "6.36%"
-  },
-  {
-    "": "",
-    "DPS": "15431",
-    "actor": "Incessantly_Ticking_Clock_370",
-    "profile": "dungeons",
-    "increase": "6.35%"
-  },
-  {
-    "": "",
-    "DPS": "15431",
+    "DPS": "17119",
+    "increase": "7.43%",
     "actor": "Ignition_Mages_Fuse_395",
-    "profile": "dungeons",
-    "increase": "6.35%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15430",
-    "actor": "Twitching_Tentacle_of_Xalzaix_385",
     "profile": "dungeons",
-    "increase": "6.35%"
+    "DPS": "17117",
+    "increase": "7.42%",
+    "actor": "Emblem_of_Zandalar_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15429",
-    "actor": "Hadals_Nautilus_400",
     "profile": "dungeons",
-    "increase": "6.34%"
+    "DPS": "17117",
+    "increase": "7.41%",
+    "actor": "Incessantly_Ticking_Clock_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15429",
-    "actor": "Pearl_Divers_Compass_390",
     "profile": "dungeons",
-    "increase": "6.33%"
+    "DPS": "17114",
+    "increase": "7.40%",
+    "actor": "Conch_of_Dark_Whispers_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15426",
-    "actor": "Kajafied_Banana_395",
     "profile": "dungeons",
-    "increase": "6.31%"
+    "DPS": "17110",
+    "increase": "7.37%",
+    "actor": "Pearl_Divers_Compass_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15424",
-    "actor": "Galewind_Chimes_375",
     "profile": "dungeons",
-    "increase": "6.30%"
+    "DPS": "17102",
+    "increase": "7.32%",
+    "actor": "Lions_Grace_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15422",
-    "actor": "Tzanes_Barkspines_385",
     "profile": "dungeons",
-    "increase": "6.29%"
+    "DPS": "17098",
+    "increase": "7.29%",
+    "actor": "Sea_Giants_Tidestone_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15420",
-    "actor": "Emblem_of_Zandalar_375",
     "profile": "dungeons",
-    "increase": "6.27%"
+    "DPS": "17096",
+    "increase": "7.28%",
+    "actor": "Doom_Shroom_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15419",
-    "actor": "Drust_Runed_Icicle_385",
     "profile": "dungeons",
-    "increase": "6.27%"
+    "DPS": "17095",
+    "increase": "7.28%",
+    "actor": "Azurethos_Singed_Plumage_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15415",
-    "actor": "Dread_Gladiators_Medallion_395",
     "profile": "dungeons",
-    "increase": "6.24%"
+    "DPS": "17095",
+    "increase": "7.28%",
+    "actor": "Tzanes_Barkspines_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15414",
-    "actor": "Azurethos_Singed_Plumage_390",
     "profile": "dungeons",
-    "increase": "6.23%"
+    "DPS": "17093",
+    "increase": "7.27%",
+    "actor": "Dinobone_Charm_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15414",
-    "actor": "Lady_Waycrests_Music_Box_395",
     "profile": "dungeons",
-    "increase": "6.23%"
+    "DPS": "17089",
+    "increase": "7.24%",
+    "actor": "Dooms_Hatred_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15411",
-    "actor": "Lions_Grace_380",
     "profile": "dungeons",
-    "increase": "6.21%"
+    "DPS": "17088",
+    "increase": "7.23%",
+    "actor": "Dread_Gladiators_Insignia_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15407",
-    "actor": "Dooms_Hatred_380",
     "profile": "dungeons",
-    "increase": "6.19%"
+    "DPS": "17087",
+    "increase": "7.23%",
+    "actor": "Moonstone_of_Zin_Azshari_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15407",
-    "actor": "Conch_of_Dark_Whispers_375",
     "profile": "dungeons",
-    "increase": "6.19%"
+    "DPS": "17083",
+    "increase": "7.20%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15405",
-    "actor": "Dread_Gladiators_Insignia_380",
     "profile": "dungeons",
-    "increase": "6.17%"
+    "DPS": "17081",
+    "increase": "7.19%",
+    "actor": "Drust_Runed_Icicle_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15404",
-    "actor": "Plunderbeards_Flask_400",
     "profile": "dungeons",
-    "increase": "6.16%"
+    "DPS": "17078",
+    "increase": "7.17%",
+    "actor": "Gilded_Loa_Figurine_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15401",
-    "actor": "Twitching_Tentacle_of_Xalzaix_380",
     "profile": "dungeons",
-    "increase": "6.15%"
-  },
-  {
-    "": "",
-    "DPS": "15399",
-    "actor": "Vessel_of_Skittering_Shadows_395",
-    "profile": "dungeons",
-    "increase": "6.13%"
-  },
-  {
-    "": "",
-    "DPS": "15398",
-    "actor": "Berserkers_Juju_380",
-    "profile": "dungeons",
-    "increase": "6.12%"
-  },
-  {
-    "": "",
-    "DPS": "15397",
+    "DPS": "17078",
+    "increase": "7.17%",
     "actor": "Ignition_Mages_Fuse_390",
-    "profile": "dungeons",
-    "increase": "6.12%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15397",
-    "actor": "Gilded_Loa_Figurine_380",
     "profile": "dungeons",
-    "increase": "6.11%"
+    "DPS": "17072",
+    "increase": "7.13%",
+    "actor": "Azurethos_Singed_Plumage_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15394",
-    "actor": "Leyshocks_Grand_Compilation_370",
     "profile": "dungeons",
-    "increase": "6.09%"
+    "DPS": "17072",
+    "increase": "7.13%",
+    "actor": "Berserkers_Juju_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15393",
-    "actor": "Living_Oil_Cannister_390",
     "profile": "dungeons",
-    "increase": "6.09%"
+    "DPS": "17070",
+    "increase": "7.12%",
+    "actor": "Emblem_of_Zandalar_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15393",
-    "actor": "First_Mates_Spyglass_385",
     "profile": "dungeons",
-    "increase": "6.09%"
+    "DPS": "17068",
+    "increase": "7.11%",
+    "actor": "Galewind_Chimes_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15391",
-    "actor": "Pearl_Divers_Compass_385",
     "profile": "dungeons",
-    "increase": "6.08%"
+    "DPS": "17067",
+    "increase": "7.10%",
+    "actor": "First_Mates_Spyglass_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15389",
-    "actor": "Doom_Shroom_380",
     "profile": "dungeons",
-    "increase": "6.06%"
+    "DPS": "17065",
+    "increase": "7.09%",
+    "actor": "Pearl_Divers_Compass_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15388",
-    "actor": "Dinobone_Charm_370",
     "profile": "dungeons",
-    "increase": "6.05%"
+    "DPS": "17063",
+    "increase": "7.08%",
+    "actor": "Conch_of_Dark_Whispers_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15387",
-    "actor": "Hadals_Nautilus_395",
     "profile": "dungeons",
-    "increase": "6.05%"
+    "DPS": "17063",
+    "increase": "7.08%",
+    "actor": "Incessantly_Ticking_Clock_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15386",
-    "actor": "Conch_of_Dark_Whispers_370",
     "profile": "dungeons",
-    "increase": "6.04%"
+    "DPS": "17060",
+    "increase": "7.06%",
+    "actor": "Leyshocks_Grand_Compilation_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15385",
-    "actor": "Tzanes_Barkspines_380",
     "profile": "dungeons",
-    "increase": "6.03%"
+    "DPS": "17056",
+    "increase": "7.03%",
+    "actor": "Dinobone_Charm_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15382",
-    "actor": "Galewind_Chimes_370",
     "profile": "dungeons",
-    "increase": "6.01%"
+    "DPS": "17055",
+    "increase": "7.02%",
+    "actor": "Dread_Gladiators_Medallion_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15382",
-    "actor": "Incessantly_Ticking_Clock_365",
     "profile": "dungeons",
-    "increase": "6.01%"
+    "DPS": "17053",
+    "increase": "7.01%",
+    "actor": "Lions_Grace_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15380",
-    "actor": "Dooms_Hatred_375",
     "profile": "dungeons",
-    "increase": "6.00%"
+    "DPS": "17051",
+    "increase": "7.00%",
+    "actor": "Dooms_Hatred_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15380",
-    "actor": "Plunderbeards_Flask_395",
     "profile": "dungeons",
-    "increase": "6.00%"
+    "DPS": "17049",
+    "increase": "6.99%",
+    "actor": "Leyshocks_Grand_Compilation_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15380",
-    "actor": "Drust_Runed_Icicle_380",
     "profile": "dungeons",
-    "increase": "6.00%"
+    "DPS": "17048",
+    "increase": "6.99%",
+    "actor": "Moonstone_of_Zin_Azshari_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15379",
-    "actor": "Emblem_of_Zandalar_370",
     "profile": "dungeons",
-    "increase": "5.99%"
+    "DPS": "17046",
+    "increase": "6.97%",
+    "actor": "Dread_Gladiators_Insignia_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15379",
-    "actor": "Vigilants_Bloodshaper_385",
     "profile": "dungeons",
-    "increase": "5.99%"
+    "DPS": "17044",
+    "increase": "6.96%",
+    "actor": "Emblem_of_Zandalar_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15378",
-    "actor": "Vial_of_Storms_400",
     "profile": "dungeons",
-    "increase": "5.99%"
+    "DPS": "17044",
+    "increase": "6.96%",
+    "actor": "Vigilants_Bloodshaper_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15378",
-    "actor": "Dread_Gladiators_Medallion_390",
     "profile": "dungeons",
-    "increase": "5.99%"
+    "DPS": "17043",
+    "increase": "6.95%",
+    "actor": "Crest_of_Paku_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15376",
-    "actor": "Leyshocks_Grand_Compilation_365",
     "profile": "dungeons",
-    "increase": "5.97%"
+    "DPS": "17043",
+    "increase": "6.95%",
+    "actor": "Doom_Shroom_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15375",
-    "actor": "Snowpelt_Mangler_400",
     "profile": "dungeons",
-    "increase": "5.97%"
-  },
-  {
-    "": "",
-    "DPS": "15375",
-    "actor": "Azurethos_Singed_Plumage_385",
-    "profile": "dungeons",
-    "increase": "5.97%"
-  },
-  {
-    "": "",
-    "DPS": "15375",
-    "actor": "Lady_Waycrests_Music_Box_390",
-    "profile": "dungeons",
-    "increase": "5.97%"
-  },
-  {
-    "": "",
-    "DPS": "15375",
-    "actor": "Berserkers_Juju_375",
-    "profile": "dungeons",
-    "increase": "5.96%"
-  },
-  {
-    "": "",
-    "DPS": "15373",
-    "actor": "Lions_Grace_375",
-    "profile": "dungeons",
-    "increase": "5.95%"
-  },
-  {
-    "": "",
-    "DPS": "15371",
+    "DPS": "17043",
+    "increase": "6.95%",
     "actor": "Rotcrusted_Voodoo_Doll_400",
-    "profile": "dungeons",
-    "increase": "5.94%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15370",
-    "actor": "Dinobone_Charm_365",
     "profile": "dungeons",
-    "increase": "5.93%"
+    "DPS": "17043",
+    "increase": "6.95%",
+    "actor": "Plunderbeards_Flask_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15369",
-    "actor": "Kajafied_Banana_390",
     "profile": "dungeons",
-    "increase": "5.92%"
+    "DPS": "17042",
+    "increase": "6.95%",
+    "actor": "Gilded_Loa_Figurine_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15365",
-    "actor": "Gilded_Loa_Figurine_375",
     "profile": "dungeons",
-    "increase": "5.90%"
-  },
-  {
-    "": "",
-    "DPS": "15365",
+    "DPS": "17042",
+    "increase": "6.95%",
     "actor": "Ignition_Mages_Fuse_385",
-    "profile": "dungeons",
-    "increase": "5.89%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15364",
-    "actor": "Vessel_of_Skittering_Shadows_390",
     "profile": "dungeons",
-    "increase": "5.89%"
+    "DPS": "17041",
+    "increase": "6.94%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15363",
-    "actor": "Dread_Gladiators_Medallion_385",
     "profile": "dungeons",
-    "increase": "5.88%"
+    "DPS": "17040",
+    "increase": "6.94%",
+    "actor": "Tzanes_Barkspines_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15362",
-    "actor": "Living_Oil_Cannister_385",
     "profile": "dungeons",
-    "increase": "5.88%"
+    "DPS": "17040",
+    "increase": "6.93%",
+    "actor": "Drust_Runed_Icicle_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15362",
-    "actor": "Tzanes_Barkspines_375",
     "profile": "dungeons",
-    "increase": "5.87%"
+    "DPS": "17038",
+    "increase": "6.92%",
+    "actor": "Sea_Giants_Tidestone_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15361",
-    "actor": "Dread_Gladiators_Insignia_375",
     "profile": "dungeons",
-    "increase": "5.87%"
+    "DPS": "17030",
+    "increase": "6.87%",
+    "actor": "Berserkers_Juju_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15360",
-    "actor": "Galewind_Chimes_365",
     "profile": "dungeons",
-    "increase": "5.86%"
+    "DPS": "17030",
+    "increase": "6.87%",
+    "actor": "Pearl_Divers_Compass_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15358",
-    "actor": "First_Mates_Spyglass_380",
     "profile": "dungeons",
-    "increase": "5.85%"
+    "DPS": "17029",
+    "increase": "6.87%",
+    "actor": "Galewind_Chimes_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15357",
-    "actor": "Twitching_Tentacle_of_Xalzaix_375",
     "profile": "dungeons",
-    "increase": "5.84%"
-  },
-  {
-    "": "",
-    "DPS": "15356",
-    "actor": "Pearl_Divers_Compass_380",
-    "profile": "dungeons",
-    "increase": "5.83%"
-  },
-  {
-    "": "",
-    "DPS": "15356",
-    "actor": "Azurethos_Singed_Plumage_380",
-    "profile": "dungeons",
-    "increase": "5.83%"
-  },
-  {
-    "": "",
-    "DPS": "15354",
-    "actor": "Vigilants_Bloodshaper_380",
-    "profile": "dungeons",
-    "increase": "5.82%"
-  },
-  {
-    "": "",
-    "DPS": "15350",
-    "actor": "Incessantly_Ticking_Clock_360",
-    "profile": "dungeons",
-    "increase": "5.79%"
-  },
-  {
-    "": "",
-    "DPS": "15349",
-    "actor": "Leyshocks_Grand_Compilation_360",
-    "profile": "dungeons",
-    "increase": "5.79%"
-  },
-  {
-    "": "",
-    "DPS": "15347",
-    "actor": "Plunderbeards_Flask_390",
-    "profile": "dungeons",
-    "increase": "5.77%"
-  },
-  {
-    "": "",
-    "DPS": "15347",
-    "actor": "Emblem_of_Zandalar_365",
-    "profile": "dungeons",
-    "increase": "5.77%"
-  },
-  {
-    "": "",
-    "DPS": "15346",
-    "actor": "Conch_of_Dark_Whispers_365",
-    "profile": "dungeons",
-    "increase": "5.76%"
-  },
-  {
-    "": "",
-    "DPS": "15345",
-    "actor": "Dooms_Hatred_370",
-    "profile": "dungeons",
-    "increase": "5.76%"
-  },
-  {
-    "": "",
-    "DPS": "15344",
-    "actor": "Drust_Runed_Icicle_375",
-    "profile": "dungeons",
-    "increase": "5.75%"
-  },
-  {
-    "": "",
-    "DPS": "15343",
-    "actor": "Rotcrusted_Voodoo_Doll_395",
-    "profile": "dungeons",
-    "increase": "5.74%"
-  },
-  {
-    "": "",
-    "DPS": "15342",
-    "actor": "Dinobone_Charm_360",
-    "profile": "dungeons",
-    "increase": "5.74%"
-  },
-  {
-    "": "",
-    "DPS": "15341",
-    "actor": "Vial_of_Storms_395",
-    "profile": "dungeons",
-    "increase": "5.73%"
-  },
-  {
-    "": "",
-    "DPS": "15340",
-    "actor": "Doom_Shroom_375",
-    "profile": "dungeons",
-    "increase": "5.72%"
-  },
-  {
-    "": "",
-    "DPS": "15339",
-    "actor": "Hadals_Nautilus_390",
-    "profile": "dungeons",
-    "increase": "5.72%"
-  },
-  {
-    "": "",
-    "DPS": "15338",
-    "actor": "Lions_Grace_370",
-    "profile": "dungeons",
-    "increase": "5.71%"
-  },
-  {
-    "": "",
-    "DPS": "15336",
-    "actor": "Dread_Gladiators_Insignia_370",
-    "profile": "dungeons",
-    "increase": "5.69%"
-  },
-  {
-    "": "",
-    "DPS": "15334",
-    "actor": "Lady_Waycrests_Music_Box_385",
-    "profile": "dungeons",
-    "increase": "5.68%"
-  },
-  {
-    "": "",
-    "DPS": "15334",
-    "actor": "Twitching_Tentacle_of_Xalzaix_370",
-    "profile": "dungeons",
-    "increase": "5.68%"
-  },
-  {
-    "": "",
-    "DPS": "15333",
-    "actor": "Galewind_Chimes_360",
-    "profile": "dungeons",
-    "increase": "5.68%"
-  },
-  {
-    "": "",
-    "DPS": "15331",
-    "actor": "Gilded_Loa_Figurine_370",
-    "profile": "dungeons",
-    "increase": "5.66%"
-  },
-  {
-    "": "",
-    "DPS": "15331",
-    "actor": "Kajafied_Banana_385",
-    "profile": "dungeons",
-    "increase": "5.66%"
-  },
-  {
-    "": "",
-    "DPS": "15325",
-    "actor": "First_Mates_Spyglass_375",
-    "profile": "dungeons",
-    "increase": "5.62%"
-  },
-  {
-    "": "",
-    "DPS": "15322",
-    "actor": "Plunderbeards_Flask_385",
-    "profile": "dungeons",
-    "increase": "5.60%"
-  },
-  {
-    "": "",
-    "DPS": "15322",
+    "DPS": "17026",
+    "increase": "6.84%",
     "actor": "Balefire_Branch_400",
-    "profile": "dungeons",
-    "increase": "5.60%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15321",
-    "actor": "Incessantly_Ticking_Clock_355",
     "profile": "dungeons",
-    "increase": "5.59%"
+    "DPS": "17026",
+    "increase": "6.84%",
+    "actor": "Conch_of_Dark_Whispers_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15320",
-    "actor": "Berserkers_Juju_370",
     "profile": "dungeons",
-    "increase": "5.59%"
+    "DPS": "17024",
+    "increase": "6.83%",
+    "actor": "Lions_Grace_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15319",
-    "actor": "Dread_Gladiators_Medallion_380",
     "profile": "dungeons",
-    "increase": "5.58%"
+    "DPS": "17023",
+    "increase": "6.83%",
+    "actor": "Moonstone_of_Zin_Azshari_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15318",
-    "actor": "Pearl_Divers_Compass_375",
     "profile": "dungeons",
-    "increase": "5.58%"
+    "DPS": "17020",
+    "increase": "6.81%",
+    "actor": "First_Mates_Spyglass_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15318",
-    "actor": "Vessel_of_Skittering_Shadows_385",
     "profile": "dungeons",
-    "increase": "5.57%"
+    "DPS": "17020",
+    "increase": "6.80%",
+    "actor": "Gilded_Loa_Figurine_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15316",
-    "actor": "Conch_of_Dark_Whispers_360",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17017",
+    "increase": "6.79%",
+    "actor": "Incessantly_Ticking_Clock_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
-    "actor": "Drust_Runed_Icicle_370",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17017",
+    "increase": "6.79%",
+    "actor": "Azurethos_Singed_Plumage_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
-    "actor": "Living_Oil_Cannister_380",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17014",
+    "increase": "6.77%",
+    "actor": "Dread_Gladiators_Medallion_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
+    "profile": "dungeons",
+    "DPS": "17012",
+    "increase": "6.76%",
+    "actor": "Dooms_Hatred_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17011",
+    "increase": "6.75%",
+    "actor": "Living_Oil_Cannister_400",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17011",
+    "increase": "6.75%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17007",
+    "increase": "6.73%",
+    "actor": "Dread_Gladiators_Insignia_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17004",
+    "increase": "6.70%",
+    "actor": "Crest_of_Paku_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17003",
+    "increase": "6.70%",
+    "actor": "Vigilants_Bloodshaper_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "17003",
+    "increase": "6.70%",
     "actor": "Ignition_Mages_Fuse_380",
-    "profile": "dungeons",
-    "increase": "5.55%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
-    "actor": "Whirlwings_Plumage_400",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17002",
+    "increase": "6.69%",
+    "actor": "Sea_Giants_Tidestone_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
-    "actor": "Tzanes_Barkspines_370",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17001",
+    "increase": "6.69%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15315",
-    "actor": "Snowpelt_Mangler_395",
     "profile": "dungeons",
-    "increase": "5.55%"
+    "DPS": "17001",
+    "increase": "6.69%",
+    "actor": "Drust_Runed_Icicle_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15313",
-    "actor": "Leyshocks_Grand_Compilation_355",
     "profile": "dungeons",
-    "increase": "5.54%"
+    "DPS": "16998",
+    "increase": "6.67%",
+    "actor": "Emblem_of_Zandalar_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15312",
-    "actor": "Vigilants_Bloodshaper_375",
     "profile": "dungeons",
-    "increase": "5.53%"
+    "DPS": "16997",
+    "increase": "6.66%",
+    "actor": "Plunderbeards_Flask_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15311",
-    "actor": "Azurethos_Singed_Plumage_375",
     "profile": "dungeons",
-    "increase": "5.53%"
+    "DPS": "16996",
+    "increase": "6.66%",
+    "actor": "Tzanes_Barkspines_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15309",
-    "actor": "Dread_Gladiators_Insignia_365",
     "profile": "dungeons",
-    "increase": "5.51%"
+    "DPS": "16993",
+    "increase": "6.64%",
+    "actor": "Galewind_Chimes_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15309",
-    "actor": "Emblem_of_Zandalar_360",
     "profile": "dungeons",
-    "increase": "5.51%"
+    "DPS": "16992",
+    "increase": "6.63%",
+    "actor": "Dinobone_Charm_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15307",
-    "actor": "Twitching_Tentacle_of_Xalzaix_365",
     "profile": "dungeons",
-    "increase": "5.50%"
+    "DPS": "16992",
+    "increase": "6.63%",
+    "actor": "Leyshocks_Grand_Compilation_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15302",
-    "actor": "Hadals_Nautilus_385",
     "profile": "dungeons",
-    "increase": "5.46%"
+    "DPS": "16990",
+    "increase": "6.62%",
+    "actor": "Rotcrusted_Voodoo_Doll_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15302",
-    "actor": "Lady_Waycrests_Music_Box_380",
     "profile": "dungeons",
-    "increase": "5.46%"
+    "DPS": "16988",
+    "increase": "6.61%",
+    "actor": "Doom_Shroom_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15302",
-    "actor": "Vial_of_Storms_390",
     "profile": "dungeons",
-    "increase": "5.46%"
-  },
-  {
-    "": "",
-    "DPS": "15301",
-    "actor": "Doom_Shroom_370",
-    "profile": "dungeons",
-    "increase": "5.46%"
-  },
-  {
-    "": "",
-    "DPS": "15301",
-    "actor": "Vessel_of_Skittering_Shadows_380",
-    "profile": "dungeons",
-    "increase": "5.45%"
-  },
-  {
-    "": "",
-    "DPS": "15300",
-    "actor": "Pearl_Divers_Compass_370",
-    "profile": "dungeons",
-    "increase": "5.45%"
-  },
-  {
-    "": "",
-    "DPS": "15297",
-    "actor": "Rotcrusted_Voodoo_Doll_390",
-    "profile": "dungeons",
-    "increase": "5.43%"
-  },
-  {
-    "": "",
-    "DPS": "15296",
-    "actor": "Conch_of_Dark_Whispers_355",
-    "profile": "dungeons",
-    "increase": "5.42%"
-  },
-  {
-    "": "",
-    "DPS": "15296",
-    "actor": "Gilded_Loa_Figurine_365",
-    "profile": "dungeons",
-    "increase": "5.42%"
-  },
-  {
-    "": "",
-    "DPS": "15296",
-    "actor": "Dinobone_Charm_355",
-    "profile": "dungeons",
-    "increase": "5.42%"
-  },
-  {
-    "": "",
-    "DPS": "15296",
-    "actor": "Ignition_Mages_Fuse_375",
-    "profile": "dungeons",
-    "increase": "5.42%"
-  },
-  {
-    "": "",
-    "DPS": "15294",
-    "actor": "Tzanes_Barkspines_365",
-    "profile": "dungeons",
-    "increase": "5.41%"
-  },
-  {
-    "": "",
-    "DPS": "15294",
-    "actor": "Azurethos_Singed_Plumage_370",
-    "profile": "dungeons",
-    "increase": "5.40%"
-  },
-  {
-    "": "",
-    "DPS": "15292",
-    "actor": "Berserkers_Juju_365",
-    "profile": "dungeons",
-    "increase": "5.40%"
-  },
-  {
-    "": "",
-    "DPS": "15292",
-    "actor": "Galewind_Chimes_355",
-    "profile": "dungeons",
-    "increase": "5.39%"
-  },
-  {
-    "": "",
-    "DPS": "15290",
-    "actor": "Kajafied_Banana_380",
-    "profile": "dungeons",
-    "increase": "5.38%"
-  },
-  {
-    "": "",
-    "DPS": "15287",
-    "actor": "First_Mates_Spyglass_370",
-    "profile": "dungeons",
-    "increase": "5.36%"
-  },
-  {
-    "": "",
-    "DPS": "15286",
-    "actor": "Incessantly_Ticking_Clock_350",
-    "profile": "dungeons",
-    "increase": "5.35%"
-  },
-  {
-    "": "",
-    "DPS": "15285",
-    "actor": "Snowpelt_Mangler_390",
-    "profile": "dungeons",
-    "increase": "5.35%"
-  },
-  {
-    "": "",
-    "DPS": "15285",
+    "DPS": "16984",
+    "increase": "6.58%",
     "actor": "Balefire_Branch_395",
-    "profile": "dungeons",
-    "increase": "5.35%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15284",
-    "actor": "Emblem_of_Zandalar_355",
     "profile": "dungeons",
-    "increase": "5.34%"
+    "DPS": "16982",
+    "increase": "6.57%",
+    "actor": "Azurethos_Singed_Plumage_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15283",
-    "actor": "Drust_Runed_Icicle_365",
     "profile": "dungeons",
-    "increase": "5.33%"
+    "DPS": "16982",
+    "increase": "6.57%",
+    "actor": "Pearl_Divers_Compass_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15283",
-    "actor": "Living_Oil_Cannister_375",
     "profile": "dungeons",
-    "increase": "5.33%"
+    "DPS": "16979",
+    "increase": "6.55%",
+    "actor": "Incessantly_Ticking_Clock_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15283",
-    "actor": "Vigilants_Bloodshaper_370",
     "profile": "dungeons",
-    "increase": "5.33%"
+    "DPS": "16979",
+    "increase": "6.55%",
+    "actor": "Berserkers_Juju_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15281",
-    "actor": "Dread_Gladiators_Badge_400",
     "profile": "dungeons",
-    "increase": "5.31%"
+    "DPS": "16978",
+    "increase": "6.54%",
+    "actor": "Dread_Gladiators_Medallion_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15280",
-    "actor": "Plunderbeards_Flask_380",
     "profile": "dungeons",
-    "increase": "5.31%"
+    "DPS": "16977",
+    "increase": "6.54%",
+    "actor": "Conch_of_Dark_Whispers_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15278",
-    "actor": "Whirlwings_Plumage_395",
     "profile": "dungeons",
-    "increase": "5.29%"
+    "DPS": "16974",
+    "increase": "6.52%",
+    "actor": "Living_Oil_Cannister_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15275",
-    "actor": "Hadals_Nautilus_380",
     "profile": "dungeons",
-    "increase": "5.28%"
+    "DPS": "16973",
+    "increase": "6.51%",
+    "actor": "Gilded_Loa_Figurine_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15275",
-    "actor": "Vial_of_Storms_385",
     "profile": "dungeons",
-    "increase": "5.28%"
+    "DPS": "16972",
+    "increase": "6.51%",
+    "actor": "First_Mates_Spyglass_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15274",
-    "actor": "Leyshocks_Grand_Compilation_350",
     "profile": "dungeons",
-    "increase": "5.27%"
+    "DPS": "16971",
+    "increase": "6.50%",
+    "actor": "Kajafied_Banana_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15273",
-    "actor": "Galewind_Chimes_350",
     "profile": "dungeons",
-    "increase": "5.26%"
+    "DPS": "16969",
+    "increase": "6.49%",
+    "actor": "Dooms_Hatred_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15272",
-    "actor": "First_Mates_Spyglass_365",
     "profile": "dungeons",
-    "increase": "5.26%"
+    "DPS": "16969",
+    "increase": "6.48%",
+    "actor": "Vigilants_Bloodshaper_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15271",
-    "actor": "Gilded_Loa_Figurine_360",
     "profile": "dungeons",
-    "increase": "5.25%"
+    "DPS": "16968",
+    "increase": "6.48%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15271",
-    "actor": "Twitching_Tentacle_of_Xalzaix_360",
     "profile": "dungeons",
-    "increase": "5.25%"
+    "DPS": "16968",
+    "increase": "6.48%",
+    "actor": "Lady_Waycrests_Music_Box_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15270",
-    "actor": "Dread_Gladiators_Medallion_375",
     "profile": "dungeons",
-    "increase": "5.24%"
+    "DPS": "16967",
+    "increase": "6.48%",
+    "actor": "Whirlwings_Plumage_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15269",
-    "actor": "Dread_Gladiators_Badge_395",
     "profile": "dungeons",
-    "increase": "5.23%"
+    "DPS": "16966",
+    "increase": "6.47%",
+    "actor": "Sea_Giants_Tidestone_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15268",
-    "actor": "Lady_Waycrests_Music_Box_375",
     "profile": "dungeons",
-    "increase": "5.22%"
+    "DPS": "16966",
+    "increase": "6.47%",
+    "actor": "Moonstone_of_Zin_Azshari_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15267",
-    "actor": "Whirlwings_Plumage_390",
     "profile": "dungeons",
-    "increase": "5.22%"
+    "DPS": "16966",
+    "increase": "6.47%",
+    "actor": "Dinobone_Charm_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15267",
-    "actor": "Dinobone_Charm_350",
     "profile": "dungeons",
-    "increase": "5.22%"
+    "DPS": "16965",
+    "increase": "6.46%",
+    "actor": "Lions_Grace_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15265",
-    "actor": "Dread_Gladiators_Insignia_360",
     "profile": "dungeons",
-    "increase": "5.20%"
+    "DPS": "16964",
+    "increase": "6.45%",
+    "actor": "Ignition_Mages_Fuse_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15263",
-    "actor": "Incessantly_Ticking_Clock_345",
     "profile": "dungeons",
-    "increase": "5.19%"
+    "DPS": "16961",
+    "increase": "6.44%",
+    "actor": "Plunderbeards_Flask_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15263",
-    "actor": "Doom_Shroom_365",
     "profile": "dungeons",
-    "increase": "5.19%"
+    "DPS": "16959",
+    "increase": "6.43%",
+    "actor": "Drust_Runed_Icicle_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15262",
-    "actor": "Rotcrusted_Voodoo_Doll_385",
     "profile": "dungeons",
-    "increase": "5.18%"
+    "DPS": "16958",
+    "increase": "6.42%",
+    "actor": "Dread_Gladiators_Insignia_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15260",
-    "actor": "Tzanes_Barkspines_360",
     "profile": "dungeons",
-    "increase": "5.17%"
+    "DPS": "16958",
+    "increase": "6.42%",
+    "actor": "Incessantly_Ticking_Clock_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15258",
-    "actor": "Berserkers_Juju_360",
     "profile": "dungeons",
-    "increase": "5.16%"
+    "DPS": "16956",
+    "increase": "6.40%",
+    "actor": "Galewind_Chimes_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15258",
-    "actor": "Ignition_Mages_Fuse_370",
     "profile": "dungeons",
-    "increase": "5.16%"
+    "DPS": "16954",
+    "increase": "6.39%",
+    "actor": "Leyshocks_Grand_Compilation_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15257",
-    "actor": "Plunderbeards_Flask_375",
     "profile": "dungeons",
-    "increase": "5.15%"
+    "DPS": "16954",
+    "increase": "6.39%",
+    "actor": "Crest_of_Paku_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15256",
-    "actor": "Emblem_of_Zandalar_350",
     "profile": "dungeons",
-    "increase": "5.14%"
+    "DPS": "16952",
+    "increase": "6.38%",
+    "actor": "Emblem_of_Zandalar_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15256",
-    "actor": "Kajafied_Banana_375",
     "profile": "dungeons",
-    "increase": "5.14%"
+    "DPS": "16952",
+    "increase": "6.38%",
+    "actor": "Tzanes_Barkspines_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15254",
-    "actor": "Drust_Runed_Icicle_360",
     "profile": "dungeons",
-    "increase": "5.13%"
+    "DPS": "16951",
+    "increase": "6.38%",
+    "actor": "Doom_Shroom_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15253",
-    "actor": "Vessel_of_Skittering_Shadows_375",
     "profile": "dungeons",
-    "increase": "5.13%"
+    "DPS": "16949",
+    "increase": "6.36%",
+    "actor": "Rotcrusted_Voodoo_Doll_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15253",
-    "actor": "Pearl_Divers_Compass_365",
     "profile": "dungeons",
-    "increase": "5.13%"
+    "DPS": "16946",
+    "increase": "6.34%",
+    "actor": "Dread_Gladiators_Medallion_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15250",
-    "actor": "Living_Oil_Cannister_370",
     "profile": "dungeons",
-    "increase": "5.11%"
+    "DPS": "16945",
+    "increase": "6.34%",
+    "actor": "Pearl_Divers_Compass_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15250",
-    "actor": "Azurethos_Singed_Plumage_365",
     "profile": "dungeons",
-    "increase": "5.10%"
+    "DPS": "16945",
+    "increase": "6.34%",
+    "actor": "Conch_of_Dark_Whispers_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15249",
-    "actor": "Conch_of_Dark_Whispers_350",
     "profile": "dungeons",
-    "increase": "5.10%"
+    "DPS": "16945",
+    "increase": "6.33%",
+    "actor": "First_Mates_Spyglass_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15248",
-    "actor": "Snowpelt_Mangler_385",
     "profile": "dungeons",
-    "increase": "5.09%"
+    "DPS": "16944",
+    "increase": "6.33%",
+    "actor": "Lions_Grace_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15247",
+    "profile": "dungeons",
+    "DPS": "16943",
+    "increase": "6.33%",
+    "actor": "Hadals_Nautilus_400",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16941",
+    "increase": "6.31%",
+    "actor": "Berserkers_Juju_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16939",
+    "increase": "6.30%",
     "actor": "Balefire_Branch_390",
-    "profile": "dungeons",
-    "increase": "5.08%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15246",
-    "actor": "Gilded_Loa_Figurine_355",
     "profile": "dungeons",
-    "increase": "5.08%"
+    "DPS": "16937",
+    "increase": "6.28%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15243",
-    "actor": "Galewind_Chimes_345",
     "profile": "dungeons",
-    "increase": "5.06%"
+    "DPS": "16934",
+    "increase": "6.27%",
+    "actor": "Dooms_Hatred_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15243",
-    "actor": "Dread_Gladiators_Insignia_355",
     "profile": "dungeons",
-    "increase": "5.06%"
+    "DPS": "16933",
+    "increase": "6.26%",
+    "actor": "Plunderbeards_Flask_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15243",
-    "actor": "Dread_Gladiators_Medallion_370",
     "profile": "dungeons",
-    "increase": "5.06%"
+    "DPS": "16933",
+    "increase": "6.26%",
+    "actor": "Dread_Gladiators_Insignia_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15241",
-    "actor": "First_Mates_Spyglass_360",
     "profile": "dungeons",
-    "increase": "5.04%"
+    "DPS": "16932",
+    "increase": "6.26%",
+    "actor": "Azurethos_Singed_Plumage_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15240",
-    "actor": "Dread_Gladiators_Badge_390",
     "profile": "dungeons",
-    "increase": "5.03%"
+    "DPS": "16931",
+    "increase": "6.25%",
+    "actor": "Moonstone_of_Zin_Azshari_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15238",
-    "actor": "Pearl_Divers_Compass_360",
     "profile": "dungeons",
-    "increase": "5.02%"
+    "DPS": "16928",
+    "increase": "6.23%",
+    "actor": "Lady_Waycrests_Music_Box_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15236",
-    "actor": "Vial_of_Storms_380",
     "profile": "dungeons",
-    "increase": "5.01%"
+    "DPS": "16928",
+    "increase": "6.23%",
+    "actor": "Whirlwings_Plumage_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15236",
-    "actor": "Doom_Shroom_360",
     "profile": "dungeons",
-    "increase": "5.01%"
+    "DPS": "16928",
+    "increase": "6.23%",
+    "actor": "Dinobone_Charm_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15235",
-    "actor": "Plunderbeards_Flask_370",
     "profile": "dungeons",
-    "increase": "5.00%"
+    "DPS": "16927",
+    "increase": "6.22%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15234",
-    "actor": "Drust_Runed_Icicle_355",
     "profile": "dungeons",
-    "increase": "4.99%"
+    "DPS": "16926",
+    "increase": "6.22%",
+    "actor": "Incessantly_Ticking_Clock_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15234",
-    "actor": "Whirlwings_Plumage_385",
     "profile": "dungeons",
-    "increase": "4.99%"
+    "DPS": "16925",
+    "increase": "6.21%",
+    "actor": "Living_Oil_Cannister_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15234",
-    "actor": "Berserkers_Juju_355",
     "profile": "dungeons",
-    "increase": "4.99%"
+    "DPS": "16924",
+    "increase": "6.21%",
+    "actor": "Tzanes_Barkspines_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15233",
-    "actor": "Hadals_Nautilus_375",
     "profile": "dungeons",
-    "increase": "4.99%"
+    "DPS": "16924",
+    "increase": "6.20%",
+    "actor": "Dread_Gladiators_Badge_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15232",
-    "actor": "Dinobone_Charm_345",
     "profile": "dungeons",
-    "increase": "4.98%"
+    "DPS": "16922",
+    "increase": "6.19%",
+    "actor": "Kajafied_Banana_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15232",
-    "actor": "Vigilants_Bloodshaper_365",
     "profile": "dungeons",
-    "increase": "4.98%"
+    "DPS": "16922",
+    "increase": "6.19%",
+    "actor": "Sea_Giants_Tidestone_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15232",
-    "actor": "Tzanes_Barkspines_355",
     "profile": "dungeons",
-    "increase": "4.98%"
+    "DPS": "16919",
+    "increase": "6.18%",
+    "actor": "Ignition_Mages_Fuse_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15231",
-    "actor": "Incessantly_Ticking_Clock_340",
     "profile": "dungeons",
-    "increase": "4.97%"
+    "DPS": "16919",
+    "increase": "6.17%",
+    "actor": "Leyshocks_Grand_Compilation_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15231",
-    "actor": "Conch_of_Dark_Whispers_345",
     "profile": "dungeons",
-    "increase": "4.97%"
+    "DPS": "16917",
+    "increase": "6.16%",
+    "actor": "Crest_of_Paku_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15230",
-    "actor": "Emblem_of_Zandalar_345",
     "profile": "dungeons",
-    "increase": "4.96%"
+    "DPS": "16915",
+    "increase": "6.15%",
+    "actor": "Vigilants_Bloodshaper_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15227",
-    "actor": "Ravasaur_Skull_Bijou_400",
     "profile": "dungeons",
-    "increase": "4.94%"
+    "DPS": "16913",
+    "increase": "6.14%",
+    "actor": "First_Mates_Spyglass_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15225",
-    "actor": "Dread_Gladiators_Medallion_365",
     "profile": "dungeons",
-    "increase": "4.93%"
+    "DPS": "16912",
+    "increase": "6.13%",
+    "actor": "Drust_Runed_Icicle_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15225",
-    "actor": "Twitching_Tentacle_of_Xalzaix_355",
     "profile": "dungeons",
-    "increase": "4.93%"
+    "DPS": "16911",
+    "increase": "6.12%",
+    "actor": "Galewind_Chimes_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15225",
+    "profile": "dungeons",
+    "DPS": "16910",
+    "increase": "6.12%",
+    "actor": "Gilded_Loa_Figurine_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16908",
+    "increase": "6.11%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16908",
+    "increase": "6.10%",
+    "actor": "Pearl_Divers_Compass_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16907",
+    "increase": "6.10%",
+    "actor": "Azurethos_Singed_Plumage_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16904",
+    "increase": "6.08%",
+    "actor": "Vial_of_Storms_400",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16902",
+    "increase": "6.07%",
+    "actor": "Leyshocks_Grand_Compilation_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16901",
+    "increase": "6.06%",
+    "actor": "Conch_of_Dark_Whispers_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16901",
+    "increase": "6.06%",
+    "actor": "Berserkers_Juju_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16900",
+    "increase": "6.05%",
     "actor": "Balefire_Branch_385",
-    "profile": "dungeons",
-    "increase": "4.93%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15224",
-    "actor": "Rotcrusted_Voodoo_Doll_380",
     "profile": "dungeons",
-    "increase": "4.92%"
+    "DPS": "16899",
+    "increase": "6.05%",
+    "actor": "Whirlwings_Plumage_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15223",
-    "actor": "Lady_Waycrests_Music_Box_370",
     "profile": "dungeons",
-    "increase": "4.91%"
+    "DPS": "16898",
+    "increase": "6.04%",
+    "actor": "Rotcrusted_Voodoo_Doll_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15221",
-    "actor": "Dread_Gladiators_Badge_385",
     "profile": "dungeons",
-    "increase": "4.91%"
+    "DPS": "16897",
+    "increase": "6.04%",
+    "actor": "Moonstone_of_Zin_Azshari_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15220",
+    "profile": "dungeons",
+    "DPS": "16897",
+    "increase": "6.04%",
+    "actor": "Emblem_of_Zandalar_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16895",
+    "increase": "6.02%",
+    "actor": "Dinobone_Charm_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16894",
+    "increase": "6.02%",
+    "actor": "Lions_Grace_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16891",
+    "increase": "6.00%",
+    "actor": "Dread_Gladiators_Badge_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16890",
+    "increase": "5.99%",
+    "actor": "Doom_Shroom_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16889",
+    "increase": "5.98%",
+    "actor": "Dooms_Hatred_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16888",
+    "increase": "5.98%",
+    "actor": "Dread_Gladiators_Insignia_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16888",
+    "increase": "5.98%",
+    "actor": "Sea_Giants_Tidestone_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16886",
+    "increase": "5.97%",
+    "actor": "Dread_Gladiators_Medallion_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16885",
+    "increase": "5.96%",
+    "actor": "Hadals_Nautilus_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16884",
+    "increase": "5.95%",
+    "actor": "Incessantly_Ticking_Clock_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16884",
+    "increase": "5.95%",
+    "actor": "Vial_of_Storms_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16884",
+    "increase": "5.95%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16883",
+    "increase": "5.95%",
     "actor": "Ignition_Mages_Fuse_365",
-    "profile": "dungeons",
-    "increase": "4.90%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15220",
-    "actor": "Vessel_of_Skittering_Shadows_370",
     "profile": "dungeons",
-    "increase": "4.89%"
+    "DPS": "16883",
+    "increase": "5.95%",
+    "actor": "Berserkers_Juju_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15220",
-    "actor": "Snowpelt_Mangler_380",
     "profile": "dungeons",
-    "increase": "4.89%"
+    "DPS": "16883",
+    "increase": "5.95%",
+    "actor": "Kajafied_Banana_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15217",
-    "actor": "Emblem_of_Zandalar_340",
     "profile": "dungeons",
-    "increase": "4.88%"
+    "DPS": "16882",
+    "increase": "5.94%",
+    "actor": "Plunderbeards_Flask_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15217",
-    "actor": "Dread_Gladiators_Insignia_350",
     "profile": "dungeons",
-    "increase": "4.87%"
+    "DPS": "16882",
+    "increase": "5.94%",
+    "actor": "Tzanes_Barkspines_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15216",
-    "actor": "Kajafied_Banana_370",
     "profile": "dungeons",
-    "increase": "4.87%"
+    "DPS": "16880",
+    "increase": "5.93%",
+    "actor": "Living_Oil_Cannister_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15216",
-    "actor": "Dinobone_Charm_340",
     "profile": "dungeons",
-    "increase": "4.87%"
+    "DPS": "16880",
+    "increase": "5.93%",
+    "actor": "Galewind_Chimes_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15215",
-    "actor": "Azurethos_Singed_Plumage_360",
     "profile": "dungeons",
-    "increase": "4.86%"
+    "DPS": "16879",
+    "increase": "5.92%",
+    "actor": "Azurethos_Singed_Plumage_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15215",
-    "actor": "Galewind_Chimes_340",
     "profile": "dungeons",
-    "increase": "4.86%"
+    "DPS": "16877",
+    "increase": "5.91%",
+    "actor": "Conch_of_Dark_Whispers_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15214",
-    "actor": "Living_Oil_Cannister_365",
     "profile": "dungeons",
-    "increase": "4.86%"
+    "DPS": "16873",
+    "increase": "5.89%",
+    "actor": "Drust_Runed_Icicle_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15213",
-    "actor": "Gilded_Loa_Figurine_350",
     "profile": "dungeons",
-    "increase": "4.85%"
+    "DPS": "16872",
+    "increase": "5.88%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15213",
-    "actor": "Whirlwings_Plumage_380",
     "profile": "dungeons",
-    "increase": "4.85%"
+    "DPS": "16871",
+    "increase": "5.87%",
+    "actor": "Gilded_Loa_Figurine_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15211",
-    "actor": "Vigilants_Bloodshaper_360",
     "profile": "dungeons",
-    "increase": "4.84%"
+    "DPS": "16871",
+    "increase": "5.87%",
+    "actor": "Pearl_Divers_Compass_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15211",
-    "actor": "Vial_of_Storms_375",
     "profile": "dungeons",
-    "increase": "4.83%"
+    "DPS": "16871",
+    "increase": "5.87%",
+    "actor": "Whirlwings_Plumage_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15209",
-    "actor": "First_Mates_Spyglass_355",
     "profile": "dungeons",
-    "increase": "4.82%"
+    "DPS": "16871",
+    "increase": "5.87%",
+    "actor": "Lady_Waycrests_Music_Box_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15208",
-    "actor": "Berserkers_Juju_350",
     "profile": "dungeons",
-    "increase": "4.82%"
-  },
-  {
-    "": "",
-    "DPS": "15208",
-    "actor": "Incessantly_Ticking_Clock_335",
-    "profile": "dungeons",
-    "increase": "4.81%"
-  },
-  {
-    "": "",
-    "DPS": "15208",
-    "actor": "Vanquished_Tendril_of_Ghuun_400",
-    "profile": "dungeons",
-    "increase": "4.81%"
-  },
-  {
-    "": "",
-    "DPS": "15207",
-    "actor": "Hadals_Nautilus_370",
-    "profile": "dungeons",
-    "increase": "4.81%"
-  },
-  {
-    "": "",
-    "DPS": "15205",
-    "actor": "Conch_of_Dark_Whispers_340",
-    "profile": "dungeons",
-    "increase": "4.79%"
-  },
-  {
-    "": "",
-    "DPS": "15205",
-    "actor": "Pearl_Divers_Compass_355",
-    "profile": "dungeons",
-    "increase": "4.79%"
-  },
-  {
-    "": "",
-    "DPS": "15203",
-    "actor": "Ignition_Mages_Fuse_360",
-    "profile": "dungeons",
-    "increase": "4.78%"
-  },
-  {
-    "": "",
-    "DPS": "15199",
-    "actor": "Lady_Waycrests_Music_Box_365",
-    "profile": "dungeons",
-    "increase": "4.75%"
-  },
-  {
-    "": "",
-    "DPS": "15198",
-    "actor": "Doom_Shroom_355",
-    "profile": "dungeons",
-    "increase": "4.75%"
-  },
-  {
-    "": "",
-    "DPS": "15197",
-    "actor": "Azurethos_Singed_Plumage_355",
-    "profile": "dungeons",
-    "increase": "4.74%"
-  },
-  {
-    "": "",
-    "DPS": "15196",
-    "actor": "Twitching_Tentacle_of_Xalzaix_350",
-    "profile": "dungeons",
-    "increase": "4.73%"
-  },
-  {
-    "": "",
-    "DPS": "15195",
+    "DPS": "16870",
+    "increase": "5.87%",
     "actor": "Balefire_Branch_380",
-    "profile": "dungeons",
-    "increase": "4.72%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15194",
-    "actor": "Dread_Gladiators_Medallion_360",
     "profile": "dungeons",
-    "increase": "4.72%"
+    "DPS": "16870",
+    "increase": "5.87%",
+    "actor": "Snowpelt_Mangler_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15192",
-    "actor": "Emblem_of_Zandalar_335",
     "profile": "dungeons",
-    "increase": "4.70%"
+    "DPS": "16868",
+    "increase": "5.85%",
+    "actor": "Emblem_of_Zandalar_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15190",
-    "actor": "Darkmoon_Deck_Squalls_355",
     "profile": "dungeons",
-    "increase": "4.69%"
+    "DPS": "16865",
+    "increase": "5.84%",
+    "actor": "Doom_Shroom_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15189",
-    "actor": "Dread_Gladiators_Badge_380",
     "profile": "dungeons",
-    "increase": "4.69%"
+    "DPS": "16862",
+    "increase": "5.82%",
+    "actor": "Dooms_Hatred_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15186",
-    "actor": "Galewind_Chimes_335",
     "profile": "dungeons",
-    "increase": "4.66%"
+    "DPS": "16862",
+    "increase": "5.82%",
+    "actor": "Sea_Giants_Tidestone_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15185",
-    "actor": "Dread_Gladiators_Insignia_345",
     "profile": "dungeons",
-    "increase": "4.66%"
+    "DPS": "16859",
+    "increase": "5.80%",
+    "actor": "Drust_Runed_Icicle_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15184",
-    "actor": "First_Mates_Spyglass_350",
     "profile": "dungeons",
-    "increase": "4.65%"
+    "DPS": "16859",
+    "increase": "5.80%",
+    "actor": "Hadals_Nautilus_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15184",
-    "actor": "Plunderbeards_Flask_365",
     "profile": "dungeons",
-    "increase": "4.65%"
+    "DPS": "16859",
+    "increase": "5.80%",
+    "actor": "Ignition_Mages_Fuse_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15183",
+    "profile": "dungeons",
+    "DPS": "16858",
+    "increase": "5.79%",
+    "actor": "Dinobone_Charm_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16857",
+    "increase": "5.79%",
+    "actor": "Rotcrusted_Voodoo_Doll_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16857",
+    "increase": "5.79%",
+    "actor": "Dread_Gladiators_Medallion_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16857",
+    "increase": "5.78%",
+    "actor": "Vigilants_Bloodshaper_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16854",
+    "increase": "5.77%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16854",
+    "increase": "5.77%",
+    "actor": "Gilded_Loa_Figurine_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16854",
+    "increase": "5.77%",
+    "actor": "Moonstone_of_Zin_Azshari_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16851",
+    "increase": "5.75%",
+    "actor": "Lions_Grace_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16851",
+    "increase": "5.75%",
+    "actor": "First_Mates_Spyglass_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16849",
+    "increase": "5.74%",
+    "actor": "Tzanes_Barkspines_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16848",
+    "increase": "5.73%",
+    "actor": "Incessantly_Ticking_Clock_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16847",
+    "increase": "5.72%",
+    "actor": "Plunderbeards_Flask_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16846",
+    "increase": "5.72%",
+    "actor": "Pearl_Divers_Compass_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16842",
+    "increase": "5.69%",
+    "actor": "Dread_Gladiators_Badge_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16842",
+    "increase": "5.69%",
+    "actor": "Snowpelt_Mangler_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16841",
+    "increase": "5.69%",
+    "actor": "Emblem_of_Zandalar_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16841",
+    "increase": "5.69%",
+    "actor": "Galewind_Chimes_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16837",
+    "increase": "5.66%",
+    "actor": "Dread_Gladiators_Insignia_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16837",
+    "increase": "5.66%",
+    "actor": "Conch_of_Dark_Whispers_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16836",
+    "increase": "5.65%",
+    "actor": "Kajafied_Banana_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16835",
+    "increase": "5.65%",
+    "actor": "Leyshocks_Grand_Compilation_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16833",
+    "increase": "5.64%",
+    "actor": "Lady_Waycrests_Music_Box_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16833",
+    "increase": "5.63%",
+    "actor": "Whirlwings_Plumage_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16832",
+    "increase": "5.63%",
+    "actor": "Azurethos_Singed_Plumage_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16830",
+    "increase": "5.62%",
+    "actor": "Living_Oil_Cannister_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16828",
+    "increase": "5.61%",
+    "actor": "Moonstone_of_Zin_Azshari_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16828",
+    "increase": "5.60%",
     "actor": "Rotcrusted_Voodoo_Doll_375",
-    "profile": "dungeons",
-    "increase": "4.64%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15182",
-    "actor": "Berserkers_Juju_345",
     "profile": "dungeons",
-    "increase": "4.64%"
+    "DPS": "16827",
+    "increase": "5.60%",
+    "actor": "Plunderbeards_Flask_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15182",
-    "actor": "Ravasaur_Skull_Bijou_395",
     "profile": "dungeons",
-    "increase": "4.64%"
+    "DPS": "16826",
+    "increase": "5.59%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15180",
-    "actor": "Snowpelt_Mangler_375",
     "profile": "dungeons",
-    "increase": "4.62%"
+    "DPS": "16824",
+    "increase": "5.58%",
+    "actor": "Drust_Runed_Icicle_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15179",
-    "actor": "Kajafied_Banana_365",
     "profile": "dungeons",
-    "increase": "4.62%"
+    "DPS": "16824",
+    "increase": "5.58%",
+    "actor": "Sea_Giants_Tidestone_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15179",
-    "actor": "Vanquished_Tendril_of_Ghuun_395",
     "profile": "dungeons",
-    "increase": "4.61%"
+    "DPS": "16824",
+    "increase": "5.57%",
+    "actor": "Berserkers_Juju_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15178",
-    "actor": "Whirlwings_Plumage_375",
     "profile": "dungeons",
-    "increase": "4.61%"
+    "DPS": "16824",
+    "increase": "5.57%",
+    "actor": "Dinobone_Charm_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15178",
-    "actor": "Pearl_Divers_Compass_350",
     "profile": "dungeons",
-    "increase": "4.60%"
+    "DPS": "16823",
+    "increase": "5.57%",
+    "actor": "Vigilants_Bloodshaper_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15177",
-    "actor": "Living_Oil_Cannister_360",
     "profile": "dungeons",
-    "increase": "4.60%"
+    "DPS": "16821",
+    "increase": "5.56%",
+    "actor": "First_Mates_Spyglass_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15176",
-    "actor": "Dinobone_Charm_335",
     "profile": "dungeons",
-    "increase": "4.60%"
+    "DPS": "16819",
+    "increase": "5.55%",
+    "actor": "Dread_Gladiators_Medallion_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15176",
-    "actor": "Plunderbeards_Flask_360",
     "profile": "dungeons",
-    "increase": "4.59%"
+    "DPS": "16818",
+    "increase": "5.54%",
+    "actor": "Galewind_Chimes_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15173",
-    "actor": "Gilded_Loa_Figurine_345",
     "profile": "dungeons",
-    "increase": "4.57%"
+    "DPS": "16816",
+    "increase": "5.53%",
+    "actor": "Leyshocks_Grand_Compilation_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15172",
-    "actor": "Dread_Gladiators_Medallion_355",
     "profile": "dungeons",
-    "increase": "4.57%"
+    "DPS": "16816",
+    "increase": "5.53%",
+    "actor": "Tzanes_Barkspines_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15172",
-    "actor": "Incessantly_Ticking_Clock_330",
     "profile": "dungeons",
-    "increase": "4.56%"
-  },
-  {
-    "": "",
-    "DPS": "15171",
-    "actor": "Conch_of_Dark_Whispers_335",
-    "profile": "dungeons",
-    "increase": "4.56%"
-  },
-  {
-    "": "",
-    "DPS": "15170",
-    "actor": "Rotcrusted_Voodoo_Doll_370",
-    "profile": "dungeons",
-    "increase": "4.55%"
-  },
-  {
-    "": "",
-    "DPS": "15169",
-    "actor": "Vessel_of_Skittering_Shadows_365",
-    "profile": "dungeons",
-    "increase": "4.55%"
-  },
-  {
-    "": "",
-    "DPS": "15169",
-    "actor": "Dread_Gladiators_Badge_375",
-    "profile": "dungeons",
-    "increase": "4.55%"
-  },
-  {
-    "": "",
-    "DPS": "15168",
-    "actor": "Vial_of_Storms_370",
-    "profile": "dungeons",
-    "increase": "4.54%"
-  },
-  {
-    "": "",
-    "DPS": "15168",
-    "actor": "Balefire_Branch_375",
-    "profile": "dungeons",
-    "increase": "4.54%"
-  },
-  {
-    "": "",
-    "DPS": "15168",
-    "actor": "Doom_Shroom_350",
-    "profile": "dungeons",
-    "increase": "4.54%"
-  },
-  {
-    "": "",
-    "DPS": "15167",
+    "DPS": "16815",
+    "increase": "5.52%",
     "actor": "Ignition_Mages_Fuse_355",
-    "profile": "dungeons",
-    "increase": "4.53%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15165",
-    "actor": "Whirlwings_Plumage_370",
     "profile": "dungeons",
-    "increase": "4.52%"
+    "DPS": "16814",
+    "increase": "5.51%",
+    "actor": "Balefire_Branch_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15164",
-    "actor": "Twitching_Tentacle_of_Xalzaix_345",
     "profile": "dungeons",
-    "increase": "4.51%"
+    "DPS": "16814",
+    "increase": "5.51%",
+    "actor": "Vial_of_Storms_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15164",
-    "actor": "Galewind_Chimes_330",
     "profile": "dungeons",
-    "increase": "4.51%"
+    "DPS": "16814",
+    "increase": "5.51%",
+    "actor": "Incessantly_Ticking_Clock_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15164",
-    "actor": "Dread_Gladiators_Insignia_340",
     "profile": "dungeons",
-    "increase": "4.51%"
+    "DPS": "16813",
+    "increase": "5.51%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15162",
-    "actor": "Gilded_Loa_Figurine_340",
     "profile": "dungeons",
-    "increase": "4.50%"
+    "DPS": "16811",
+    "increase": "5.49%",
+    "actor": "Dread_Gladiators_Insignia_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15160",
-    "actor": "Hadals_Nautilus_365",
     "profile": "dungeons",
-    "increase": "4.49%"
+    "DPS": "16808",
+    "increase": "5.48%",
+    "actor": "Hadals_Nautilus_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15158",
-    "actor": "Dinobone_Charm_330",
     "profile": "dungeons",
-    "increase": "4.47%"
+    "DPS": "16808",
+    "increase": "5.48%",
+    "actor": "Dread_Gladiators_Badge_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15158",
-    "actor": "Vanquished_Tendril_of_Ghuun_390",
     "profile": "dungeons",
-    "increase": "4.47%"
+    "DPS": "16806",
+    "increase": "5.46%",
+    "actor": "Moonstone_of_Zin_Azshari_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15156",
-    "actor": "Lady_Waycrests_Music_Box_360",
     "profile": "dungeons",
-    "increase": "4.45%"
+    "DPS": "16804",
+    "increase": "5.45%",
+    "actor": "Berserkers_Juju_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15155",
-    "actor": "Vial_of_Storms_365",
     "profile": "dungeons",
-    "increase": "4.45%"
+    "DPS": "16803",
+    "increase": "5.45%",
+    "actor": "Emblem_of_Zandalar_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15153",
-    "actor": "Snowpelt_Mangler_370",
     "profile": "dungeons",
-    "increase": "4.44%"
+    "DPS": "16803",
+    "increase": "5.44%",
+    "actor": "Conch_of_Dark_Whispers_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15153",
-    "actor": "Living_Oil_Cannister_355",
     "profile": "dungeons",
-    "increase": "4.44%"
+    "DPS": "16802",
+    "increase": "5.44%",
+    "actor": "Pearl_Divers_Compass_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15153",
-    "actor": "Kajafied_Banana_360",
     "profile": "dungeons",
-    "increase": "4.44%"
+    "DPS": "16802",
+    "increase": "5.44%",
+    "actor": "Lady_Waycrests_Music_Box_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15153",
-    "actor": "Ravasaur_Skull_Bijou_390",
     "profile": "dungeons",
-    "increase": "4.43%"
+    "DPS": "16801",
+    "increase": "5.44%",
+    "actor": "Doom_Shroom_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15152",
-    "actor": "Pearl_Divers_Compass_345",
     "profile": "dungeons",
-    "increase": "4.43%"
+    "DPS": "16800",
+    "increase": "5.43%",
+    "actor": "Gilded_Loa_Figurine_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15151",
-    "actor": "Conch_of_Dark_Whispers_330",
     "profile": "dungeons",
-    "increase": "4.42%"
+    "DPS": "16799",
+    "increase": "5.42%",
+    "actor": "Whirlwings_Plumage_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15151",
-    "actor": "Incessantly_Ticking_Clock_325",
     "profile": "dungeons",
-    "increase": "4.42%"
+    "DPS": "16796",
+    "increase": "5.40%",
+    "actor": "Dread_Gladiators_Medallion_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15151",
-    "actor": "Gilded_Loa_Figurine_335",
     "profile": "dungeons",
-    "increase": "4.42%"
+    "DPS": "16795",
+    "increase": "5.40%",
+    "actor": "Kajafied_Banana_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15150",
-    "actor": "Twitching_Tentacle_of_Xalzaix_340",
     "profile": "dungeons",
-    "increase": "4.42%"
+    "DPS": "16794",
+    "increase": "5.39%",
+    "actor": "Sea_Giants_Tidestone_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15148",
-    "actor": "Plunderbeards_Flask_355",
     "profile": "dungeons",
-    "increase": "4.40%"
-  },
-  {
-    "": "",
-    "DPS": "15147",
+    "DPS": "16793",
+    "increase": "5.39%",
     "actor": "Ignition_Mages_Fuse_350",
-    "profile": "dungeons",
-    "increase": "4.40%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15147",
-    "actor": "Vessel_of_Skittering_Shadows_360",
     "profile": "dungeons",
-    "increase": "4.40%"
+    "DPS": "16793",
+    "increase": "5.38%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15144",
-    "actor": "Vigilants_Bloodshaper_355",
     "profile": "dungeons",
-    "increase": "4.37%"
+    "DPS": "16792",
+    "increase": "5.38%",
+    "actor": "Dread_Gladiators_Insignia_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15143",
-    "actor": "Berserkers_Juju_340",
     "profile": "dungeons",
-    "increase": "4.37%"
+    "DPS": "16791",
+    "increase": "5.37%",
+    "actor": "Azurethos_Singed_Plumage_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15141",
-    "actor": "First_Mates_Spyglass_345",
     "profile": "dungeons",
-    "increase": "4.36%"
+    "DPS": "16791",
+    "increase": "5.37%",
+    "actor": "Plunderbeards_Flask_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15140",
-    "actor": "Balefire_Branch_365",
     "profile": "dungeons",
-    "increase": "4.35%"
+    "DPS": "16791",
+    "increase": "5.37%",
+    "actor": "First_Mates_Spyglass_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15139",
-    "actor": "Emblem_of_Zandalar_330",
     "profile": "dungeons",
-    "increase": "4.34%"
+    "DPS": "16791",
+    "increase": "5.37%",
+    "actor": "Dinobone_Charm_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15139",
-    "actor": "Lady_Waycrests_Music_Box_355",
     "profile": "dungeons",
-    "increase": "4.34%"
+    "DPS": "16790",
+    "increase": "5.36%",
+    "actor": "Snowpelt_Mangler_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15138",
-    "actor": "Conch_of_Dark_Whispers_325",
     "profile": "dungeons",
-    "increase": "4.33%"
+    "DPS": "16786",
+    "increase": "5.34%",
+    "actor": "Vial_of_Storms_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15138",
-    "actor": "Whirlwings_Plumage_365",
     "profile": "dungeons",
-    "increase": "4.33%"
+    "DPS": "16782",
+    "increase": "5.32%",
+    "actor": "Emblem_of_Zandalar_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15138",
-    "actor": "Galewind_Chimes_325",
     "profile": "dungeons",
-    "increase": "4.33%"
+    "DPS": "16782",
+    "increase": "5.31%",
+    "actor": "Gilded_Loa_Figurine_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15137",
-    "actor": "Kajafied_Banana_355",
     "profile": "dungeons",
-    "increase": "4.32%"
+    "DPS": "16781",
+    "increase": "5.31%",
+    "actor": "Dread_Gladiators_Badge_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15136",
-    "actor": "Plunderbeards_Flask_350",
     "profile": "dungeons",
-    "increase": "4.32%"
+    "DPS": "16776",
+    "increase": "5.28%",
+    "actor": "Pearl_Divers_Compass_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15133",
-    "actor": "Berserkers_Juju_335",
     "profile": "dungeons",
-    "increase": "4.30%"
+    "DPS": "16776",
+    "increase": "5.28%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15133",
-    "actor": "Ravasaur_Skull_Bijou_385",
     "profile": "dungeons",
-    "increase": "4.30%"
+    "DPS": "16776",
+    "increase": "5.27%",
+    "actor": "Conch_of_Dark_Whispers_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15133",
-    "actor": "Rotcrusted_Voodoo_Doll_365",
     "profile": "dungeons",
-    "increase": "4.30%"
+    "DPS": "16773",
+    "increase": "5.25%",
+    "actor": "Plunderbeards_Flask_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15132",
-    "actor": "Dread_Gladiators_Medallion_350",
     "profile": "dungeons",
-    "increase": "4.29%"
+    "DPS": "16772",
+    "increase": "5.25%",
+    "actor": "Kajafied_Banana_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15132",
-    "actor": "Dinobone_Charm_325",
     "profile": "dungeons",
-    "increase": "4.29%"
-  },
-  {
-    "": "",
-    "DPS": "15131",
-    "actor": "Vanquished_Tendril_of_Ghuun_385",
-    "profile": "dungeons",
-    "increase": "4.29%"
-  },
-  {
-    "": "",
-    "DPS": "15131",
-    "actor": "Dread_Gladiators_Badge_370",
-    "profile": "dungeons",
-    "increase": "4.28%"
-  },
-  {
-    "": "",
-    "DPS": "15130",
-    "actor": "Hadals_Nautilus_360",
-    "profile": "dungeons",
-    "increase": "4.28%"
-  },
-  {
-    "": "",
-    "DPS": "15129",
-    "actor": "Doom_Shroom_345",
-    "profile": "dungeons",
-    "increase": "4.27%"
-  },
-  {
-    "": "",
-    "DPS": "15128",
-    "actor": "Snowpelt_Mangler_365",
-    "profile": "dungeons",
-    "increase": "4.26%"
-  },
-  {
-    "": "",
-    "DPS": "15127",
-    "actor": "Incessantly_Ticking_Clock_320",
-    "profile": "dungeons",
-    "increase": "4.26%"
-  },
-  {
-    "": "",
-    "DPS": "15126",
-    "actor": "Emblem_of_Zandalar_325",
-    "profile": "dungeons",
-    "increase": "4.25%"
-  },
-  {
-    "": "",
-    "DPS": "15125",
-    "actor": "Pearl_Divers_Compass_340",
-    "profile": "dungeons",
-    "increase": "4.24%"
-  },
-  {
-    "": "",
-    "DPS": "15125",
-    "actor": "Whirlwings_Plumage_360",
-    "profile": "dungeons",
-    "increase": "4.24%"
-  },
-  {
-    "": "",
-    "DPS": "15123",
+    "DPS": "16772",
+    "increase": "5.25%",
     "actor": "Balefire_Branch_370",
-    "profile": "dungeons",
-    "increase": "4.23%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15122",
-    "actor": "Gilded_Loa_Figurine_330",
     "profile": "dungeons",
-    "increase": "4.22%"
+    "DPS": "16771",
+    "increase": "5.25%",
+    "actor": "Whirlwings_Plumage_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15121",
-    "actor": "Vessel_of_Skittering_Shadows_355",
     "profile": "dungeons",
-    "increase": "4.22%"
+    "DPS": "16770",
+    "increase": "5.24%",
+    "actor": "Living_Oil_Cannister_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15119",
-    "actor": "Ravasaur_Skull_Bijou_380",
     "profile": "dungeons",
-    "increase": "4.20%"
+    "DPS": "16769",
+    "increase": "5.23%",
+    "actor": "Drust_Runed_Icicle_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15119",
-    "actor": "Vigilants_Bloodshaper_350",
     "profile": "dungeons",
-    "increase": "4.20%"
+    "DPS": "16769",
+    "increase": "5.23%",
+    "actor": "Doom_Shroom_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15119",
-    "actor": "First_Mates_Spyglass_340",
     "profile": "dungeons",
-    "increase": "4.20%"
+    "DPS": "16769",
+    "increase": "5.23%",
+    "actor": "Galewind_Chimes_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15118",
-    "actor": "Vanquished_Tendril_of_Ghuun_380",
     "profile": "dungeons",
-    "increase": "4.19%"
+    "DPS": "16766",
+    "increase": "5.22%",
+    "actor": "Sea_Giants_Tidestone_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15117",
-    "actor": "Vial_of_Storms_360",
     "profile": "dungeons",
-    "increase": "4.18%"
+    "DPS": "16766",
+    "increase": "5.21%",
+    "actor": "Berserkers_Juju_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15113",
-    "actor": "Plunderbeards_Flask_345",
     "profile": "dungeons",
-    "increase": "4.16%"
+    "DPS": "16764",
+    "increase": "5.20%",
+    "actor": "First_Mates_Spyglass_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15113",
-    "actor": "Galewind_Chimes_320",
     "profile": "dungeons",
-    "increase": "4.16%"
+    "DPS": "16764",
+    "increase": "5.20%",
+    "actor": "Dread_Gladiators_Medallion_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15112",
-    "actor": "Dread_Gladiators_Badge_365",
     "profile": "dungeons",
-    "increase": "4.15%"
+    "DPS": "16764",
+    "increase": "5.20%",
+    "actor": "Lady_Waycrests_Music_Box_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15111",
+    "profile": "dungeons",
+    "DPS": "16764",
+    "increase": "5.20%",
+    "actor": "Vigilants_Bloodshaper_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16763",
+    "increase": "5.20%",
+    "actor": "Moonstone_of_Zin_Azshari_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16762",
+    "increase": "5.19%",
+    "actor": "Balefire_Branch_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16761",
+    "increase": "5.18%",
+    "actor": "Incessantly_Ticking_Clock_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16755",
+    "increase": "5.15%",
+    "actor": "Snowpelt_Mangler_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16755",
+    "increase": "5.14%",
+    "actor": "Rotcrusted_Voodoo_Doll_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16755",
+    "increase": "5.14%",
+    "actor": "Dinobone_Charm_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16753",
+    "increase": "5.13%",
+    "actor": "Galewind_Chimes_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16750",
+    "increase": "5.12%",
+    "actor": "Hadals_Nautilus_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16749",
+    "increase": "5.11%",
     "actor": "Ignition_Mages_Fuse_345",
-    "profile": "dungeons",
-    "increase": "4.14%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15111",
-    "actor": "Living_Oil_Cannister_350",
     "profile": "dungeons",
-    "increase": "4.14%"
+    "DPS": "16748",
+    "increase": "5.10%",
+    "actor": "Gilded_Loa_Figurine_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15110",
-    "actor": "Dread_Gladiators_Medallion_345",
     "profile": "dungeons",
-    "increase": "4.14%"
+    "DPS": "16748",
+    "increase": "5.10%",
+    "actor": "Incessantly_Ticking_Clock_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15106",
-    "actor": "Vessel_of_Skittering_Shadows_350",
     "profile": "dungeons",
-    "increase": "4.11%"
+    "DPS": "16748",
+    "increase": "5.10%",
+    "actor": "Dread_Gladiators_Badge_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15106",
-    "actor": "Dinobone_Charm_320",
     "profile": "dungeons",
-    "increase": "4.11%"
+    "DPS": "16746",
+    "increase": "5.08%",
+    "actor": "Emblem_of_Zandalar_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15106",
-    "actor": "Hadals_Nautilus_355",
     "profile": "dungeons",
-    "increase": "4.11%"
+    "DPS": "16745",
+    "increase": "5.08%",
+    "actor": "Drust_Runed_Icicle_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15105",
-    "actor": "Doom_Shroom_340",
     "profile": "dungeons",
-    "increase": "4.11%"
+    "DPS": "16745",
+    "increase": "5.08%",
+    "actor": "Pearl_Divers_Compass_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15105",
-    "actor": "Incessantly_Ticking_Clock_315",
     "profile": "dungeons",
-    "increase": "4.10%"
+    "DPS": "16744",
+    "increase": "5.07%",
+    "actor": "Dread_Gladiators_Insignia_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15102",
-    "actor": "Emblem_of_Zandalar_320",
     "profile": "dungeons",
-    "increase": "4.08%"
+    "DPS": "16744",
+    "increase": "5.07%",
+    "actor": "Sea_Giants_Tidestone_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15100",
-    "actor": "Conch_of_Dark_Whispers_320",
     "profile": "dungeons",
-    "increase": "4.07%"
+    "DPS": "16742",
+    "increase": "5.06%",
+    "actor": "Vial_of_Storms_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15099",
-    "actor": "Pearl_Divers_Compass_335",
     "profile": "dungeons",
-    "increase": "4.06%"
+    "DPS": "16741",
+    "increase": "5.06%",
+    "actor": "Vigilants_Bloodshaper_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15099",
-    "actor": "Rotcrusted_Voodoo_Doll_360",
     "profile": "dungeons",
-    "increase": "4.06%"
+    "DPS": "16739",
+    "increase": "5.04%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15098",
+    "profile": "dungeons",
+    "DPS": "16737",
+    "increase": "5.03%",
+    "actor": "Living_Oil_Cannister_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16736",
+    "increase": "5.03%",
+    "actor": "Doom_Shroom_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16734",
+    "increase": "5.01%",
+    "actor": "Incandescent_Sliver_400",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16734",
+    "increase": "5.01%",
+    "actor": "Whirlwings_Plumage_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16734",
+    "increase": "5.01%",
+    "actor": "Plunderbeards_Flask_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16733",
+    "increase": "5.01%",
+    "actor": "Moonstone_of_Zin_Azshari_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16733",
+    "increase": "5.01%",
+    "actor": "Tidestorm_Codex_400",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16733",
+    "increase": "5.01%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16733",
+    "increase": "5.00%",
+    "actor": "Conch_of_Dark_Whispers_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16732",
+    "increase": "5.00%",
+    "actor": "Berserkers_Juju_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16731",
+    "increase": "4.99%",
+    "actor": "Rotcrusted_Voodoo_Doll_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16730",
+    "increase": "4.99%",
+    "actor": "Gilded_Loa_Figurine_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16730",
+    "increase": "4.99%",
+    "actor": "Dread_Gladiators_Medallion_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16729",
+    "increase": "4.98%",
     "actor": "Balefire_Branch_360",
-    "profile": "dungeons",
-    "increase": "4.06%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15098",
-    "actor": "Berserkers_Juju_330",
     "profile": "dungeons",
-    "increase": "4.06%"
+    "DPS": "16728",
+    "increase": "4.98%",
+    "actor": "Dinobone_Charm_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15097",
-    "actor": "Lady_Waycrests_Music_Box_350",
     "profile": "dungeons",
-    "increase": "4.05%"
+    "DPS": "16727",
+    "increase": "4.97%",
+    "actor": "Emblem_of_Zandalar_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15096",
-    "actor": "Dread_Gladiators_Medallion_340",
     "profile": "dungeons",
-    "increase": "4.04%"
+    "DPS": "16726",
+    "increase": "4.96%",
+    "actor": "Ravasaur_Skull_Bijou_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15095",
-    "actor": "Snowpelt_Mangler_360",
     "profile": "dungeons",
-    "increase": "4.03%"
+    "DPS": "16724",
+    "increase": "4.95%",
+    "actor": "First_Mates_Spyglass_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15094",
-    "actor": "Kajafied_Banana_350",
     "profile": "dungeons",
-    "increase": "4.03%"
+    "DPS": "16724",
+    "increase": "4.95%",
+    "actor": "Vigilants_Bloodshaper_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15092",
-    "actor": "Gilded_Loa_Figurine_325",
     "profile": "dungeons",
-    "increase": "4.02%"
-  },
-  {
-    "": "",
-    "DPS": "15091",
-    "actor": "Living_Oil_Cannister_345",
-    "profile": "dungeons",
-    "increase": "4.00%"
-  },
-  {
-    "": "",
-    "DPS": "15090",
-    "actor": "Dread_Gladiators_Badge_360",
-    "profile": "dungeons",
-    "increase": "4.00%"
-  },
-  {
-    "": "",
-    "DPS": "15090",
-    "actor": "First_Mates_Spyglass_335",
-    "profile": "dungeons",
-    "increase": "4.00%"
-  },
-  {
-    "": "",
-    "DPS": "15088",
-    "actor": "Whirlwings_Plumage_355",
-    "profile": "dungeons",
-    "increase": "3.98%"
-  },
-  {
-    "": "",
-    "DPS": "15087",
-    "actor": "Vanquished_Tendril_of_Ghuun_375",
-    "profile": "dungeons",
-    "increase": "3.98%"
-  },
-  {
-    "": "",
-    "DPS": "15087",
-    "actor": "Vial_of_Storms_355",
-    "profile": "dungeons",
-    "increase": "3.98%"
-  },
-  {
-    "": "",
-    "DPS": "15087",
-    "actor": "Conch_of_Dark_Whispers_315",
-    "profile": "dungeons",
-    "increase": "3.98%"
-  },
-  {
-    "": "",
-    "DPS": "15085",
-    "actor": "Dinobone_Charm_315",
-    "profile": "dungeons",
-    "increase": "3.97%"
-  },
-  {
-    "": "",
-    "DPS": "15083",
-    "actor": "Whirlwings_Plumage_350",
-    "profile": "dungeons",
-    "increase": "3.95%"
-  },
-  {
-    "": "",
-    "DPS": "15082",
-    "actor": "Vigilants_Bloodshaper_345",
-    "profile": "dungeons",
-    "increase": "3.94%"
-  },
-  {
-    "": "",
-    "DPS": "15081",
-    "actor": "Hadals_Nautilus_350",
-    "profile": "dungeons",
-    "increase": "3.94%"
-  },
-  {
-    "": "",
-    "DPS": "15081",
-    "actor": "Rotcrusted_Voodoo_Doll_355",
-    "profile": "dungeons",
-    "increase": "3.94%"
-  },
-  {
-    "": "",
-    "DPS": "15081",
+    "DPS": "16721",
+    "increase": "4.93%",
     "actor": "Ignition_Mages_Fuse_340",
-    "profile": "dungeons",
-    "increase": "3.94%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15080",
-    "actor": "Pearl_Divers_Compass_330",
     "profile": "dungeons",
-    "increase": "3.93%"
+    "DPS": "16720",
+    "increase": "4.92%",
+    "actor": "Hadals_Nautilus_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15080",
-    "actor": "Dread_Gladiators_Badge_355",
     "profile": "dungeons",
-    "increase": "3.93%"
+    "DPS": "16719",
+    "increase": "4.92%",
+    "actor": "Lady_Waycrests_Music_Box_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15080",
-    "actor": "Incessantly_Ticking_Clock_310",
     "profile": "dungeons",
-    "increase": "3.93%"
-  },
-  {
-    "": "",
-    "DPS": "15079",
-    "actor": "First_Mates_Spyglass_330",
-    "profile": "dungeons",
-    "increase": "3.93%"
-  },
-  {
-    "": "",
-    "DPS": "15078",
-    "actor": "Emblem_of_Zandalar_315",
-    "profile": "dungeons",
-    "increase": "3.91%"
-  },
-  {
-    "": "",
-    "DPS": "15077",
-    "actor": "Plunderbeards_Flask_340",
-    "profile": "dungeons",
-    "increase": "3.91%"
-  },
-  {
-    "": "",
-    "DPS": "15077",
-    "actor": "Berserkers_Juju_325",
-    "profile": "dungeons",
-    "increase": "3.91%"
-  },
-  {
-    "": "",
-    "DPS": "15075",
-    "actor": "Doom_Shroom_335",
-    "profile": "dungeons",
-    "increase": "3.90%"
-  },
-  {
-    "": "",
-    "DPS": "15075",
-    "actor": "Gilded_Loa_Figurine_320",
-    "profile": "dungeons",
-    "increase": "3.90%"
-  },
-  {
-    "": "",
-    "DPS": "15073",
-    "actor": "Snowpelt_Mangler_355",
-    "profile": "dungeons",
-    "increase": "3.88%"
-  },
-  {
-    "": "",
-    "DPS": "15072",
-    "actor": "Ravasaur_Skull_Bijou_375",
-    "profile": "dungeons",
-    "increase": "3.87%"
-  },
-  {
-    "": "",
-    "DPS": "15072",
-    "actor": "Lady_Waycrests_Music_Box_345",
-    "profile": "dungeons",
-    "increase": "3.87%"
-  },
-  {
-    "": "",
-    "DPS": "15071",
-    "actor": "Galewind_Chimes_315",
-    "profile": "dungeons",
-    "increase": "3.87%"
-  },
-  {
-    "": "",
-    "DPS": "15070",
+    "DPS": "16718",
+    "increase": "4.91%",
     "actor": "Ignition_Mages_Fuse_335",
-    "profile": "dungeons",
-    "increase": "3.87%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15070",
-    "actor": "Vessel_of_Skittering_Shadows_345",
     "profile": "dungeons",
-    "increase": "3.86%"
+    "DPS": "16717",
+    "increase": "4.90%",
+    "actor": "Incessantly_Ticking_Clock_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15070",
+    "profile": "dungeons",
+    "DPS": "16715",
+    "increase": "4.89%",
+    "actor": "Pearl_Divers_Compass_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16715",
+    "increase": "4.89%",
+    "actor": "Snowpelt_Mangler_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16714",
+    "increase": "4.89%",
+    "actor": "Dread_Gladiators_Badge_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16714",
+    "increase": "4.89%",
+    "actor": "Galewind_Chimes_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16712",
+    "increase": "4.88%",
+    "actor": "Dread_Gladiators_Insignia_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16709",
+    "increase": "4.85%",
+    "actor": "Vial_of_Storms_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16708",
+    "increase": "4.85%",
+    "actor": "Living_Oil_Cannister_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16701",
+    "increase": "4.81%",
+    "actor": "First_Mates_Spyglass_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16701",
+    "increase": "4.81%",
+    "actor": "Whirlwings_Plumage_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16701",
+    "increase": "4.80%",
+    "actor": "Sea_Giants_Tidestone_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16701",
+    "increase": "4.80%",
     "actor": "Balefire_Branch_355",
-    "profile": "dungeons",
-    "increase": "3.86%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15070",
-    "actor": "Vanquished_Tendril_of_Ghuun_370",
     "profile": "dungeons",
-    "increase": "3.86%"
+    "DPS": "16700",
+    "increase": "4.80%",
+    "actor": "Plunderbeards_Flask_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15069",
-    "actor": "Kajafied_Banana_345",
     "profile": "dungeons",
-    "increase": "3.85%"
+    "DPS": "16700",
+    "increase": "4.80%",
+    "actor": "Dread_Gladiators_Medallion_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15065",
-    "actor": "Plunderbeards_Flask_335",
     "profile": "dungeons",
-    "increase": "3.83%"
+    "DPS": "16700",
+    "increase": "4.80%",
+    "actor": "Galewind_Chimes_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15063",
-    "actor": "Emblem_of_Zandalar_310",
     "profile": "dungeons",
-    "increase": "3.82%"
+    "DPS": "16700",
+    "increase": "4.80%",
+    "actor": "Conch_of_Dark_Whispers_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15063",
-    "actor": "Living_Oil_Cannister_340",
     "profile": "dungeons",
-    "increase": "3.81%"
+    "DPS": "16699",
+    "increase": "4.79%",
+    "actor": "Moonstone_of_Zin_Azshari_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15061",
-    "actor": "Berserkers_Juju_320",
     "profile": "dungeons",
-    "increase": "3.80%"
+    "DPS": "16696",
+    "increase": "4.78%",
+    "actor": "Rotcrusted_Voodoo_Doll_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15061",
-    "actor": "First_Mates_Spyglass_325",
     "profile": "dungeons",
-    "increase": "3.80%"
+    "DPS": "16696",
+    "increase": "4.78%",
+    "actor": "Kajafied_Banana_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15058",
-    "actor": "Galewind_Chimes_310",
     "profile": "dungeons",
-    "increase": "3.78%"
+    "DPS": "16694",
+    "increase": "4.76%",
+    "actor": "Dread_Gladiators_Badge_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15057",
-    "actor": "Dinobone_Charm_310",
     "profile": "dungeons",
-    "increase": "3.77%"
+    "DPS": "16693",
+    "increase": "4.76%",
+    "actor": "Doom_Shroom_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15057",
-    "actor": "Vigilants_Bloodshaper_340",
     "profile": "dungeons",
-    "increase": "3.77%"
+    "DPS": "16693",
+    "increase": "4.76%",
+    "actor": "Tidestorm_Codex_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15056",
-    "actor": "Dread_Gladiators_Badge_350",
     "profile": "dungeons",
-    "increase": "3.77%"
+    "DPS": "16692",
+    "increase": "4.75%",
+    "actor": "Dinobone_Charm_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15056",
-    "actor": "Pearl_Divers_Compass_325",
     "profile": "dungeons",
-    "increase": "3.77%"
+    "DPS": "16689",
+    "increase": "4.73%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15056",
+    "profile": "dungeons",
+    "DPS": "16689",
+    "increase": "4.73%",
+    "actor": "Incandescent_Sliver_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16689",
+    "increase": "4.73%",
+    "actor": "Snowpelt_Mangler_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16689",
+    "increase": "4.73%",
+    "actor": "Berserkers_Juju_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16688",
+    "increase": "4.72%",
+    "actor": "Kajafied_Banana_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16687",
+    "increase": "4.72%",
+    "actor": "Incessantly_Ticking_Clock_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16687",
+    "increase": "4.72%",
+    "actor": "Ravasaur_Skull_Bijou_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16686",
+    "increase": "4.71%",
+    "actor": "Gilded_Loa_Figurine_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16686",
+    "increase": "4.71%",
+    "actor": "Whirlwings_Plumage_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16685",
+    "increase": "4.70%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16683",
+    "increase": "4.69%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16682",
+    "increase": "4.68%",
+    "actor": "Dread_Gladiators_Insignia_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16681",
+    "increase": "4.68%",
+    "actor": "Living_Oil_Cannister_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16681",
+    "increase": "4.68%",
+    "actor": "Emblem_of_Zandalar_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16680",
+    "increase": "4.67%",
+    "actor": "Berserkers_Juju_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16678",
+    "increase": "4.66%",
+    "actor": "Plunderbeards_Flask_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16678",
+    "increase": "4.66%",
+    "actor": "First_Mates_Spyglass_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16675",
+    "increase": "4.65%",
     "actor": "Balefire_Branch_350",
-    "profile": "dungeons",
-    "increase": "3.77%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15056",
-    "actor": "Crawg_Gnawed_Femur_400",
     "profile": "dungeons",
-    "increase": "3.76%"
+    "DPS": "16675",
+    "increase": "4.64%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15055",
-    "actor": "Whirlwings_Plumage_345",
     "profile": "dungeons",
-    "increase": "3.76%"
+    "DPS": "16675",
+    "increase": "4.64%",
+    "actor": "Dread_Gladiators_Medallion_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15054",
-    "actor": "Conch_of_Dark_Whispers_310",
     "profile": "dungeons",
-    "increase": "3.75%"
+    "DPS": "16674",
+    "increase": "4.64%",
+    "actor": "Vanquished_Tendril_of_Ghuun_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15052",
-    "actor": "Rotcrusted_Voodoo_Doll_350",
     "profile": "dungeons",
-    "increase": "3.74%"
+    "DPS": "16674",
+    "increase": "4.63%",
+    "actor": "Sea_Giants_Tidestone_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15052",
-    "actor": "Doom_Shroom_330",
     "profile": "dungeons",
-    "increase": "3.74%"
+    "DPS": "16673",
+    "increase": "4.63%",
+    "actor": "Conch_of_Dark_Whispers_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15051",
-    "actor": "Hadals_Nautilus_345",
     "profile": "dungeons",
-    "increase": "3.73%"
+    "DPS": "16672",
+    "increase": "4.63%",
+    "actor": "Lady_Waycrests_Music_Box_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15049",
-    "actor": "Vial_of_Storms_350",
     "profile": "dungeons",
-    "increase": "3.72%"
+    "DPS": "16672",
+    "increase": "4.62%",
+    "actor": "Hadals_Nautilus_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15049",
-    "actor": "Living_Oil_Cannister_335",
     "profile": "dungeons",
-    "increase": "3.72%"
+    "DPS": "16668",
+    "increase": "4.60%",
+    "actor": "Moonstone_of_Zin_Azshari_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15048",
-    "actor": "Gilded_Loa_Figurine_315",
     "profile": "dungeons",
-    "increase": "3.71%"
-  },
-  {
-    "": "",
-    "DPS": "15047",
-    "actor": "Snowpelt_Mangler_350",
-    "profile": "dungeons",
-    "increase": "3.71%"
-  },
-  {
-    "": "",
-    "DPS": "15046",
-    "actor": "Ravasaur_Skull_Bijou_370",
-    "profile": "dungeons",
-    "increase": "3.70%"
-  },
-  {
-    "": "",
-    "DPS": "15046",
-    "actor": "Plunderbeards_Flask_330",
-    "profile": "dungeons",
-    "increase": "3.70%"
-  },
-  {
-    "": "",
-    "DPS": "15044",
-    "actor": "Kajafied_Banana_340",
-    "profile": "dungeons",
-    "increase": "3.68%"
-  },
-  {
-    "": "",
-    "DPS": "15041",
+    "DPS": "16666",
+    "increase": "4.59%",
     "actor": "Ignition_Mages_Fuse_330",
-    "profile": "dungeons",
-    "increase": "3.67%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15040",
-    "actor": "First_Mates_Spyglass_320",
     "profile": "dungeons",
-    "increase": "3.65%"
+    "DPS": "16666",
+    "increase": "4.59%",
+    "actor": "Rotcrusted_Voodoo_Doll_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15039",
-    "actor": "Lady_Waycrests_Music_Box_340",
     "profile": "dungeons",
-    "increase": "3.65%"
+    "DPS": "16666",
+    "increase": "4.58%",
+    "actor": "Pearl_Divers_Compass_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15039",
-    "actor": "Crawg_Gnawed_Femur_395",
     "profile": "dungeons",
-    "increase": "3.65%"
+    "DPS": "16664",
+    "increase": "4.57%",
+    "actor": "Tidestorm_Codex_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15038",
-    "actor": "Plunderbeards_Flask_325",
     "profile": "dungeons",
-    "increase": "3.64%"
+    "DPS": "16663",
+    "increase": "4.57%",
+    "actor": "Dinobone_Charm_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15036",
-    "actor": "Vial_of_Storms_345",
     "profile": "dungeons",
-    "increase": "3.63%"
+    "DPS": "16663",
+    "increase": "4.57%",
+    "actor": "Dread_Gladiators_Insignia_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15034",
-    "actor": "Whirlwings_Plumage_340",
     "profile": "dungeons",
-    "increase": "3.61%"
+    "DPS": "16663",
+    "increase": "4.57%",
+    "actor": "Dread_Gladiators_Badge_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15032",
-    "actor": "Vessel_of_Skittering_Shadows_340",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16660",
+    "increase": "4.55%",
+    "actor": "Darkmoon_Deck_Squalls_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15032",
-    "actor": "Dread_Gladiators_Badge_345",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16659",
+    "increase": "4.54%",
+    "actor": "Doom_Shroom_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15032",
-    "actor": "Doom_Shroom_325",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16658",
+    "increase": "4.54%",
+    "actor": "Incessantly_Ticking_Clock_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15032",
-    "actor": "Pearl_Divers_Compass_320",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16658",
+    "increase": "4.53%",
+    "actor": "Vial_of_Storms_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15031",
-    "actor": "Vanquished_Tendril_of_Ghuun_365",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16658",
+    "increase": "4.53%",
+    "actor": "Conch_of_Dark_Whispers_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15031",
-    "actor": "Hadals_Nautilus_340",
     "profile": "dungeons",
-    "increase": "3.60%"
+    "DPS": "16656",
+    "increase": "4.52%",
+    "actor": "Whirlwings_Plumage_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15031",
-    "actor": "Kajafied_Banana_335",
     "profile": "dungeons",
-    "increase": "3.59%"
+    "DPS": "16655",
+    "increase": "4.52%",
+    "actor": "Pearl_Divers_Compass_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15031",
+    "profile": "dungeons",
+    "DPS": "16654",
+    "increase": "4.51%",
+    "actor": "Incandescent_Sliver_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16654",
+    "increase": "4.51%",
+    "actor": "Gilded_Loa_Figurine_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16654",
+    "increase": "4.51%",
+    "actor": "Galewind_Chimes_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16654",
+    "increase": "4.51%",
+    "actor": "First_Mates_Spyglass_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16654",
+    "increase": "4.51%",
+    "actor": "Hadals_Nautilus_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16652",
+    "increase": "4.50%",
+    "actor": "Sea_Giants_Tidestone_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16652",
+    "increase": "4.50%",
+    "actor": "Plunderbeards_Flask_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16651",
+    "increase": "4.49%",
+    "actor": "Vial_of_Storms_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16647",
+    "increase": "4.47%",
+    "actor": "Ravasaur_Skull_Bijou_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16647",
+    "increase": "4.47%",
+    "actor": "Berserkers_Juju_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16647",
+    "increase": "4.46%",
+    "actor": "Kajafied_Banana_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16645",
+    "increase": "4.46%",
+    "actor": "Twitching_Tentacle_of_Xalzaix_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16644",
+    "increase": "4.44%",
+    "actor": "Emblem_of_Zandalar_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16643",
+    "increase": "4.44%",
     "actor": "Balefire_Branch_345",
-    "profile": "dungeons",
-    "increase": "3.59%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15030",
-    "actor": "Vanquished_Tendril_of_Ghuun_360",
     "profile": "dungeons",
-    "increase": "3.59%"
+    "DPS": "16639",
+    "increase": "4.41%",
+    "actor": "Living_Oil_Cannister_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15030",
-    "actor": "Berserkers_Juju_315",
     "profile": "dungeons",
-    "increase": "3.58%"
+    "DPS": "16638",
+    "increase": "4.41%",
+    "actor": "Dread_Gladiators_Medallion_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15029",
+    "profile": "dungeons",
+    "DPS": "16637",
+    "increase": "4.40%",
     "actor": "Ignition_Mages_Fuse_325",
-    "profile": "dungeons",
-    "increase": "3.58%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15027",
-    "actor": "Ravasaur_Skull_Bijou_365",
     "profile": "dungeons",
-    "increase": "3.57%"
+    "DPS": "16637",
+    "increase": "4.40%",
+    "actor": "Lady_Waycrests_Music_Box_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15025",
-    "actor": "First_Mates_Spyglass_315",
     "profile": "dungeons",
-    "increase": "3.55%"
+    "DPS": "16635",
+    "increase": "4.39%",
+    "actor": "Dread_Gladiators_Badge_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15025",
-    "actor": "Crawg_Gnawed_Femur_390",
     "profile": "dungeons",
-    "increase": "3.55%"
+    "DPS": "16634",
+    "increase": "4.39%",
+    "actor": "Vanquished_Tendril_of_Ghuun_395",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15023",
-    "actor": "Gilded_Loa_Figurine_310",
     "profile": "dungeons",
-    "increase": "3.54%"
+    "DPS": "16634",
+    "increase": "4.39%",
+    "actor": "Incessantly_Ticking_Clock_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15021",
-    "actor": "Rotcrusted_Voodoo_Doll_345",
     "profile": "dungeons",
-    "increase": "3.52%"
+    "DPS": "16633",
+    "increase": "4.38%",
+    "actor": "Snowpelt_Mangler_370",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15018",
-    "actor": "Vessel_of_Skittering_Shadows_335",
     "profile": "dungeons",
-    "increase": "3.50%"
+    "DPS": "16632",
+    "increase": "4.37%",
+    "actor": "Emblem_of_Zandalar_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15017",
-    "actor": "Snowpelt_Mangler_345",
     "profile": "dungeons",
-    "increase": "3.50%"
+    "DPS": "16632",
+    "increase": "4.37%",
+    "actor": "Hadals_Nautilus_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15014",
-    "actor": "Plunderbeards_Flask_320",
     "profile": "dungeons",
-    "increase": "3.48%"
+    "DPS": "16631",
+    "increase": "4.37%",
+    "actor": "Moonstone_of_Zin_Azshari_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15014",
-    "actor": "Ravasaur_Skull_Bijou_360",
     "profile": "dungeons",
-    "increase": "3.47%"
+    "DPS": "16630",
+    "increase": "4.36%",
+    "actor": "Tidestorm_Codex_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15013",
-    "actor": "Whirlwings_Plumage_335",
     "profile": "dungeons",
-    "increase": "3.47%"
+    "DPS": "16630",
+    "increase": "4.36%",
+    "actor": "Rotcrusted_Voodoo_Doll_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15012",
-    "actor": "Lady_Waycrests_Music_Box_335",
     "profile": "dungeons",
-    "increase": "3.47%"
+    "DPS": "16629",
+    "increase": "4.36%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15012",
-    "actor": "Doom_Shroom_320",
     "profile": "dungeons",
-    "increase": "3.46%"
+    "DPS": "16629",
+    "increase": "4.35%",
+    "actor": "Whirlwings_Plumage_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15011",
-    "actor": "Balefire_Branch_340",
     "profile": "dungeons",
-    "increase": "3.46%"
+    "DPS": "16629",
+    "increase": "4.35%",
+    "actor": "Pearl_Divers_Compass_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15009",
-    "actor": "Living_Oil_Cannister_330",
     "profile": "dungeons",
-    "increase": "3.44%"
+    "DPS": "16629",
+    "increase": "4.35%",
+    "actor": "Dinobone_Charm_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15008",
-    "actor": "Vanquished_Tendril_of_Ghuun_355",
     "profile": "dungeons",
-    "increase": "3.43%"
+    "DPS": "16628",
+    "increase": "4.35%",
+    "actor": "Plunderbeards_Flask_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15005",
-    "actor": "Balefire_Branch_335",
     "profile": "dungeons",
-    "increase": "3.42%"
+    "DPS": "16628",
+    "increase": "4.35%",
+    "actor": "Gilded_Loa_Figurine_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15004",
-    "actor": "Berserkers_Juju_310",
     "profile": "dungeons",
-    "increase": "3.41%"
+    "DPS": "16628",
+    "increase": "4.35%",
+    "actor": "Incandescent_Sliver_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15003",
-    "actor": "Whirlwings_Plumage_330",
     "profile": "dungeons",
-    "increase": "3.40%"
+    "DPS": "16628",
+    "increase": "4.35%",
+    "actor": "Kajafied_Banana_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15003",
-    "actor": "Crawg_Gnawed_Femur_385",
     "profile": "dungeons",
-    "increase": "3.40%"
+    "DPS": "16627",
+    "increase": "4.34%",
+    "actor": "Sea_Giants_Tidestone_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15003",
-    "actor": "Pearl_Divers_Compass_315",
     "profile": "dungeons",
-    "increase": "3.40%"
+    "DPS": "16625",
+    "increase": "4.33%",
+    "actor": "First_Mates_Spyglass_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15001",
+    "profile": "dungeons",
+    "DPS": "16625",
+    "increase": "4.33%",
+    "actor": "Ravasaur_Skull_Bijou_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16624",
+    "increase": "4.32%",
+    "actor": "Galewind_Chimes_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16624",
+    "increase": "4.32%",
+    "actor": "Lady_Waycrests_Music_Box_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16624",
+    "increase": "4.32%",
+    "actor": "Vigilants_Bloodshaper_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16621",
+    "increase": "4.30%",
+    "actor": "Doom_Shroom_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16621",
+    "increase": "4.30%",
+    "actor": "Vanquished_Tendril_of_Ghuun_390",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16620",
+    "increase": "4.30%",
+    "actor": "Conch_of_Dark_Whispers_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16620",
+    "increase": "4.29%",
+    "actor": "Berserkers_Juju_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16618",
+    "increase": "4.28%",
     "actor": "Ignition_Mages_Fuse_320",
-    "profile": "dungeons",
-    "increase": "3.39%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15001",
-    "actor": "Dread_Gladiators_Badge_340",
     "profile": "dungeons",
-    "increase": "3.39%"
+    "DPS": "16617",
+    "increase": "4.28%",
+    "actor": "Galewind_Chimes_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15000",
-    "actor": "First_Mates_Spyglass_310",
     "profile": "dungeons",
-    "increase": "3.38%"
+    "DPS": "16614",
+    "increase": "4.26%",
+    "actor": "Living_Oil_Cannister_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15000",
-    "actor": "Vial_of_Storms_340",
     "profile": "dungeons",
-    "increase": "3.38%"
+    "DPS": "16613",
+    "increase": "4.25%",
+    "actor": "Whirlwings_Plumage_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15000",
-    "actor": "Rotcrusted_Voodoo_Doll_340",
     "profile": "dungeons",
-    "increase": "3.38%"
+    "DPS": "16613",
+    "increase": "4.25%",
+    "actor": "Moonstone_of_Zin_Azshari_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "15000",
-    "actor": "Hadals_Nautilus_335",
     "profile": "dungeons",
-    "increase": "3.38%"
+    "DPS": "16610",
+    "increase": "4.23%",
+    "actor": "Dinobone_Charm_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14998",
-    "actor": "Kajafied_Banana_330",
     "profile": "dungeons",
-    "increase": "3.37%"
+    "DPS": "16608",
+    "increase": "4.22%",
+    "actor": "Snowpelt_Mangler_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14997",
-    "actor": "Crawg_Gnawed_Femur_380",
     "profile": "dungeons",
-    "increase": "3.36%"
+    "DPS": "16607",
+    "increase": "4.21%",
+    "actor": "Vigilants_Bloodshaper_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14993",
-    "actor": "Snowpelt_Mangler_340",
     "profile": "dungeons",
-    "increase": "3.34%"
+    "DPS": "16602",
+    "increase": "4.18%",
+    "actor": "Conch_of_Dark_Whispers_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14992",
-    "actor": "Hadals_Nautilus_330",
     "profile": "dungeons",
-    "increase": "3.32%"
+    "DPS": "16600",
+    "increase": "4.17%",
+    "actor": "Incessantly_Ticking_Clock_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14990",
-    "actor": "Lady_Waycrests_Music_Box_330",
     "profile": "dungeons",
-    "increase": "3.31%"
+    "DPS": "16600",
+    "increase": "4.17%",
+    "actor": "Dread_Gladiators_Badge_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14990",
-    "actor": "Plunderbeards_Flask_315",
     "profile": "dungeons",
-    "increase": "3.31%"
+    "DPS": "16598",
+    "increase": "4.16%",
+    "actor": "First_Mates_Spyglass_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14988",
-    "actor": "Living_Oil_Cannister_325",
     "profile": "dungeons",
-    "increase": "3.30%"
+    "DPS": "16598",
+    "increase": "4.16%",
+    "actor": "Moonstone_of_Zin_Azshari_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14987",
-    "actor": "Vanquished_Tendril_of_Ghuun_350",
     "profile": "dungeons",
-    "increase": "3.29%"
+    "DPS": "16597",
+    "increase": "4.15%",
+    "actor": "Pearl_Divers_Compass_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14984",
-    "actor": "Whirlwings_Plumage_325",
     "profile": "dungeons",
-    "increase": "3.27%"
+    "DPS": "16597",
+    "increase": "4.15%",
+    "actor": "Balefire_Branch_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14982",
-    "actor": "Balefire_Branch_325",
     "profile": "dungeons",
-    "increase": "3.25%"
+    "DPS": "16596",
+    "increase": "4.15%",
+    "actor": "Sea_Giants_Tidestone_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14981",
-    "actor": "Vial_of_Storms_335",
     "profile": "dungeons",
-    "increase": "3.25%"
+    "DPS": "16595",
+    "increase": "4.14%",
+    "actor": "Rotcrusted_Voodoo_Doll_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14980",
-    "actor": "Vessel_of_Skittering_Shadows_330",
     "profile": "dungeons",
-    "increase": "3.25%"
+    "DPS": "16595",
+    "increase": "4.14%",
+    "actor": "Gilded_Loa_Figurine_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14980",
-    "actor": "Pearl_Divers_Compass_310",
     "profile": "dungeons",
-    "increase": "3.25%"
+    "DPS": "16595",
+    "increase": "4.14%",
+    "actor": "Kajafied_Banana_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14980",
-    "actor": "Rotcrusted_Voodoo_Doll_335",
     "profile": "dungeons",
-    "increase": "3.24%"
+    "DPS": "16595",
+    "increase": "4.14%",
+    "actor": "Emblem_of_Zandalar_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14980",
-    "actor": "Crawg_Gnawed_Femur_375",
     "profile": "dungeons",
-    "increase": "3.24%"
+    "DPS": "16594",
+    "increase": "4.13%",
+    "actor": "Balefire_Branch_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14979",
-    "actor": "Doom_Shroom_315",
     "profile": "dungeons",
-    "increase": "3.23%"
+    "DPS": "16593",
+    "increase": "4.13%",
+    "actor": "Doom_Shroom_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14977",
+    "profile": "dungeons",
+    "DPS": "16593",
+    "increase": "4.13%",
+    "actor": "Vial_of_Storms_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16593",
+    "increase": "4.13%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16591",
+    "increase": "4.12%",
+    "actor": "Lady_Waycrests_Music_Box_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16590",
+    "increase": "4.11%",
+    "actor": "Plunderbeards_Flask_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16588",
+    "increase": "4.09%",
+    "actor": "Snowpelt_Mangler_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16588",
+    "increase": "4.09%",
+    "actor": "Vanquished_Tendril_of_Ghuun_385",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16586",
+    "increase": "4.08%",
+    "actor": "Hadals_Nautilus_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16585",
+    "increase": "4.08%",
+    "actor": "Berserkers_Juju_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16582",
+    "increase": "4.06%",
+    "actor": "Ravasaur_Skull_Bijou_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16581",
+    "increase": "4.05%",
+    "actor": "Living_Oil_Cannister_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16580",
+    "increase": "4.04%",
+    "actor": "Dread_Gladiators_Badge_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16579",
+    "increase": "4.04%",
+    "actor": "Dinobone_Charm_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16579",
+    "increase": "4.04%",
+    "actor": "Gilded_Loa_Figurine_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16577",
+    "increase": "4.03%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16576",
+    "increase": "4.02%",
+    "actor": "Whirlwings_Plumage_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16574",
+    "increase": "4.01%",
     "actor": "Ignition_Mages_Fuse_315",
-    "profile": "dungeons",
-    "increase": "3.22%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14976",
-    "actor": "Lady_Waycrests_Music_Box_325",
     "profile": "dungeons",
-    "increase": "3.21%"
+    "DPS": "16574",
+    "increase": "4.01%",
+    "actor": "Ravasaur_Skull_Bijou_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14975",
-    "actor": "Ravasaur_Skull_Bijou_355",
     "profile": "dungeons",
-    "increase": "3.21%"
+    "DPS": "16572",
+    "increase": "4.00%",
+    "actor": "Berserkers_Juju_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14974",
-    "actor": "Kajafied_Banana_325",
     "profile": "dungeons",
-    "increase": "3.20%"
+    "DPS": "16571",
+    "increase": "3.99%",
+    "actor": "Sea_Giants_Tidestone_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14973",
-    "actor": "Snowpelt_Mangler_335",
     "profile": "dungeons",
-    "increase": "3.20%"
+    "DPS": "16571",
+    "increase": "3.99%",
+    "actor": "Galewind_Chimes_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14972",
+    "profile": "dungeons",
+    "DPS": "16570",
+    "increase": "3.98%",
+    "actor": "Plunderbeards_Flask_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16570",
+    "increase": "3.98%",
+    "actor": "Vanquished_Tendril_of_Ghuun_380",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16569",
+    "increase": "3.98%",
+    "actor": "Pearl_Divers_Compass_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16568",
+    "increase": "3.97%",
+    "actor": "Emblem_of_Zandalar_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16567",
+    "increase": "3.97%",
+    "actor": "Snowpelt_Mangler_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16566",
+    "increase": "3.96%",
+    "actor": "Rotcrusted_Voodoo_Doll_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16565",
+    "increase": "3.95%",
+    "actor": "Hadals_Nautilus_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16565",
+    "increase": "3.95%",
+    "actor": "Conch_of_Dark_Whispers_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16565",
+    "increase": "3.95%",
+    "actor": "Vigilants_Bloodshaper_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16564",
+    "increase": "3.94%",
+    "actor": "Whirlwings_Plumage_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16563",
+    "increase": "3.94%",
     "actor": "Balefire_Branch_330",
-    "profile": "dungeons",
-    "increase": "3.19%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14971",
-    "actor": "Whirlwings_Plumage_320",
     "profile": "dungeons",
-    "increase": "3.18%"
+    "DPS": "16562",
+    "increase": "3.93%",
+    "actor": "Vanquished_Tendril_of_Ghuun_375",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14970",
-    "actor": "Plunderbeards_Flask_310",
     "profile": "dungeons",
-    "increase": "3.17%"
+    "DPS": "16562",
+    "increase": "3.93%",
+    "actor": "Doom_Shroom_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14965",
-    "actor": "Living_Oil_Cannister_320",
     "profile": "dungeons",
-    "increase": "3.14%"
+    "DPS": "16561",
+    "increase": "3.93%",
+    "actor": "Moonstone_of_Zin_Azshari_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14964",
-    "actor": "Vial_of_Storms_330",
     "profile": "dungeons",
-    "increase": "3.13%"
+    "DPS": "16560",
+    "increase": "3.92%",
+    "actor": "Plunderbeards_Flask_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14962",
-    "actor": "Living_Oil_Cannister_315",
     "profile": "dungeons",
-    "increase": "3.12%"
+    "DPS": "16559",
+    "increase": "3.91%",
+    "actor": "Vial_of_Storms_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14961",
-    "actor": "Crawg_Gnawed_Femur_370",
     "profile": "dungeons",
-    "increase": "3.11%"
+    "DPS": "16559",
+    "increase": "3.91%",
+    "actor": "Dinobone_Charm_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14960",
-    "actor": "Rotcrusted_Voodoo_Doll_330",
     "profile": "dungeons",
-    "increase": "3.11%"
+    "DPS": "16554",
+    "increase": "3.88%",
+    "actor": "First_Mates_Spyglass_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14960",
-    "actor": "Kajafied_Banana_320",
     "profile": "dungeons",
-    "increase": "3.11%"
+    "DPS": "16553",
+    "increase": "3.88%",
+    "actor": "Dread_Gladiators_Badge_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14960",
+    "profile": "dungeons",
+    "DPS": "16553",
+    "increase": "3.88%",
+    "actor": "Balefire_Branch_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16552",
+    "increase": "3.87%",
+    "actor": "Lady_Waycrests_Music_Box_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16552",
+    "increase": "3.87%",
+    "actor": "Kajafied_Banana_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16550",
+    "increase": "3.86%",
+    "actor": "Gilded_Loa_Figurine_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16549",
+    "increase": "3.85%",
+    "actor": "Moonstone_of_Zin_Azshari_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16547",
+    "increase": "3.84%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16546",
+    "increase": "3.83%",
     "actor": "Ignition_Mages_Fuse_310",
-    "profile": "dungeons",
-    "increase": "3.11%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14959",
-    "actor": "Vessel_of_Skittering_Shadows_325",
     "profile": "dungeons",
-    "increase": "3.10%"
+    "DPS": "16546",
+    "increase": "3.83%",
+    "actor": "Galewind_Chimes_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14959",
-    "actor": "Vanquished_Tendril_of_Ghuun_345",
     "profile": "dungeons",
-    "increase": "3.10%"
+    "DPS": "16546",
+    "increase": "3.83%",
+    "actor": "Vigilants_Bloodshaper_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14958",
-    "actor": "Lady_Waycrests_Music_Box_320",
     "profile": "dungeons",
-    "increase": "3.09%"
+    "DPS": "16544",
+    "increase": "3.82%",
+    "actor": "First_Mates_Spyglass_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14958",
-    "actor": "Hadals_Nautilus_325",
     "profile": "dungeons",
-    "increase": "3.09%"
+    "DPS": "16544",
+    "increase": "3.82%",
+    "actor": "Crawg_Gnawed_Femur_400",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14957",
-    "actor": "Whirlwings_Plumage_315",
     "profile": "dungeons",
-    "increase": "3.08%"
+    "DPS": "16543",
+    "increase": "3.81%",
+    "actor": "Vial_of_Storms_350",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14956",
-    "actor": "Ravasaur_Skull_Bijou_350",
     "profile": "dungeons",
-    "increase": "3.07%"
+    "DPS": "16542",
+    "increase": "3.81%",
+    "actor": "Living_Oil_Cannister_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14955",
-    "actor": "Doom_Shroom_310",
     "profile": "dungeons",
-    "increase": "3.07%"
+    "DPS": "16540",
+    "increase": "3.79%",
+    "actor": "Pearl_Divers_Compass_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14946",
+    "profile": "dungeons",
+    "DPS": "16539",
+    "increase": "3.79%",
+    "actor": "Conch_of_Dark_Whispers_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16538",
+    "increase": "3.78%",
+    "actor": "Berserkers_Juju_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16534",
+    "increase": "3.76%",
+    "actor": "Pearl_Divers_Compass_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16534",
+    "increase": "3.76%",
+    "actor": "Ravasaur_Skull_Bijou_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16534",
+    "increase": "3.75%",
+    "actor": "Vanquished_Tendril_of_Ghuun_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16532",
+    "increase": "3.75%",
+    "actor": "Doom_Shroom_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16530",
+    "increase": "3.74%",
+    "actor": "Rotcrusted_Voodoo_Doll_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16528",
+    "increase": "3.72%",
+    "actor": "Whirlwings_Plumage_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16527",
+    "increase": "3.71%",
+    "actor": "Berserkers_Juju_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16524",
+    "increase": "3.69%",
+    "actor": "Snowpelt_Mangler_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16523",
+    "increase": "3.69%",
+    "actor": "Gilded_Loa_Figurine_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16521",
+    "increase": "3.68%",
+    "actor": "Lady_Waycrests_Music_Box_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16520",
+    "increase": "3.67%",
+    "actor": "Rotcrusted_Voodoo_Doll_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16519",
+    "increase": "3.67%",
+    "actor": "Crawg_Gnawed_Femur_395",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16519",
+    "increase": "3.67%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16519",
+    "increase": "3.66%",
+    "actor": "Kajafied_Banana_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16519",
+    "increase": "3.66%",
+    "actor": "Vanquished_Tendril_of_Ghuun_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16519",
+    "increase": "3.66%",
+    "actor": "Plunderbeards_Flask_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16517",
+    "increase": "3.65%",
+    "actor": "Living_Oil_Cannister_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16515",
+    "increase": "3.64%",
+    "actor": "Hadals_Nautilus_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16514",
+    "increase": "3.63%",
+    "actor": "Plunderbeards_Flask_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16511",
+    "increase": "3.61%",
     "actor": "Balefire_Branch_320",
-    "profile": "dungeons",
-    "increase": "3.01%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14946",
-    "actor": "Snowpelt_Mangler_330",
     "profile": "dungeons",
-    "increase": "3.01%"
+    "DPS": "16510",
+    "increase": "3.61%",
+    "actor": "Crawg_Gnawed_Femur_390",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14945",
-    "actor": "Vessel_of_Skittering_Shadows_320",
     "profile": "dungeons",
-    "increase": "3.00%"
+    "DPS": "16509",
+    "increase": "3.60%",
+    "actor": "Gilded_Loa_Figurine_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14943",
-    "actor": "Hadals_Nautilus_320",
     "profile": "dungeons",
-    "increase": "2.98%"
+    "DPS": "16506",
+    "increase": "3.58%",
+    "actor": "Whirlwings_Plumage_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14942",
-    "actor": "Crawg_Gnawed_Femur_365",
     "profile": "dungeons",
-    "increase": "2.98%"
+    "DPS": "16504",
+    "increase": "3.57%",
+    "actor": "Doom_Shroom_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14941",
-    "actor": "Whirlwings_Plumage_310",
     "profile": "dungeons",
-    "increase": "2.97%"
+    "DPS": "16504",
+    "increase": "3.57%",
+    "actor": "Vial_of_Storms_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14941",
-    "actor": "Rotcrusted_Voodoo_Doll_325",
     "profile": "dungeons",
-    "increase": "2.97%"
+    "DPS": "16502",
+    "increase": "3.56%",
+    "actor": "Kajafied_Banana_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14941",
-    "actor": "Lady_Waycrests_Music_Box_315",
     "profile": "dungeons",
-    "increase": "2.97%"
+    "DPS": "16500",
+    "increase": "3.54%",
+    "actor": "Hadals_Nautilus_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14939",
-    "actor": "Vial_of_Storms_325",
     "profile": "dungeons",
-    "increase": "2.96%"
+    "DPS": "16497",
+    "increase": "3.53%",
+    "actor": "Lady_Waycrests_Music_Box_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14939",
-    "actor": "Crawg_Gnawed_Femur_360",
     "profile": "dungeons",
-    "increase": "2.96%"
+    "DPS": "16494",
+    "increase": "3.51%",
+    "actor": "Vanquished_Tendril_of_Ghuun_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14938",
-    "actor": "Kajafied_Banana_315",
     "profile": "dungeons",
-    "increase": "2.95%"
+    "DPS": "16494",
+    "increase": "3.51%",
+    "actor": "Snowpelt_Mangler_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14938",
-    "actor": "Surging_Alchemist_Stone_300",
     "profile": "dungeons",
-    "increase": "2.95%"
+    "DPS": "16492",
+    "increase": "3.50%",
+    "actor": "Crawg_Gnawed_Femur_385",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14935",
-    "actor": "Vessel_of_Skittering_Shadows_315",
     "profile": "dungeons",
-    "increase": "2.93%"
+    "DPS": "16492",
+    "increase": "3.49%",
+    "actor": "Whirlwings_Plumage_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14934",
-    "actor": "Vanquished_Tendril_of_Ghuun_340",
     "profile": "dungeons",
-    "increase": "2.92%"
+    "DPS": "16490",
+    "increase": "3.48%",
+    "actor": "Vial_of_Storms_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14931",
-    "actor": "Ravasaur_Skull_Bijou_345",
     "profile": "dungeons",
-    "increase": "2.91%"
+    "DPS": "16490",
+    "increase": "3.48%",
+    "actor": "Ravasaur_Skull_Bijou_365",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14931",
+    "profile": "dungeons",
+    "DPS": "16486",
+    "increase": "3.46%",
+    "actor": "Berserkers_Juju_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16486",
+    "increase": "3.46%",
+    "actor": "Living_Oil_Cannister_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16485",
+    "increase": "3.45%",
     "actor": "Balefire_Branch_315",
-    "profile": "dungeons",
-    "increase": "2.90%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14931",
-    "actor": "Snowpelt_Mangler_325",
     "profile": "dungeons",
-    "increase": "2.90%"
+    "DPS": "16483",
+    "increase": "3.44%",
+    "actor": "Doom_Shroom_320",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14926",
-    "actor": "Living_Oil_Cannister_310",
     "profile": "dungeons",
-    "increase": "2.87%"
+    "DPS": "16482",
+    "increase": "3.43%",
+    "actor": "Kajafied_Banana_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14925",
-    "actor": "Crawg_Gnawed_Femur_355",
     "profile": "dungeons",
-    "increase": "2.86%"
+    "DPS": "16480",
+    "increase": "3.42%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14924",
-    "actor": "Ravasaur_Skull_Bijou_340",
     "profile": "dungeons",
-    "increase": "2.86%"
+    "DPS": "16478",
+    "increase": "3.40%",
+    "actor": "Ravasaur_Skull_Bijou_360",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14923",
-    "actor": "Rotcrusted_Voodoo_Doll_320",
     "profile": "dungeons",
-    "increase": "2.85%"
+    "DPS": "16475",
+    "increase": "3.39%",
+    "actor": "Lady_Waycrests_Music_Box_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14922",
-    "actor": "Hadals_Nautilus_315",
     "profile": "dungeons",
-    "increase": "2.84%"
+    "DPS": "16474",
+    "increase": "3.38%",
+    "actor": "Hadals_Nautilus_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14918",
-    "actor": "Vial_of_Storms_320",
     "profile": "dungeons",
-    "increase": "2.81%"
+    "DPS": "16473",
+    "increase": "3.38%",
+    "actor": "Crawg_Gnawed_Femur_380",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14913",
-    "actor": "Vessel_of_Skittering_Shadows_310",
     "profile": "dungeons",
-    "increase": "2.78%"
+    "DPS": "16473",
+    "increase": "3.37%",
+    "actor": "Rotcrusted_Voodoo_Doll_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14909",
-    "actor": "Lady_Waycrests_Music_Box_310",
     "profile": "dungeons",
-    "increase": "2.76%"
+    "DPS": "16470",
+    "increase": "3.35%",
+    "actor": "Whirlwings_Plumage_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14909",
-    "actor": "Kajafied_Banana_310",
     "profile": "dungeons",
-    "increase": "2.75%"
+    "DPS": "16469",
+    "increase": "3.35%",
+    "actor": "Snowpelt_Mangler_340",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14906",
-    "actor": "Snowpelt_Mangler_320",
     "profile": "dungeons",
-    "increase": "2.74%"
+    "DPS": "16463",
+    "increase": "3.31%",
+    "actor": "Vial_of_Storms_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14906",
-    "actor": "Vial_of_Storms_315",
     "profile": "dungeons",
-    "increase": "2.73%"
+    "DPS": "16463",
+    "increase": "3.31%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14901",
+    "profile": "dungeons",
+    "DPS": "16462",
+    "increase": "3.31%",
+    "actor": "Living_Oil_Cannister_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16460",
+    "increase": "3.29%",
     "actor": "Balefire_Branch_310",
-    "profile": "dungeons",
-    "increase": "2.70%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14899",
-    "actor": "Crawg_Gnawed_Femur_350",
     "profile": "dungeons",
-    "increase": "2.68%"
+    "DPS": "16458",
+    "increase": "3.28%",
+    "actor": "Vanquished_Tendril_of_Ghuun_355",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14899",
+    "profile": "dungeons",
+    "DPS": "16457",
+    "increase": "3.27%",
+    "actor": "Ravasaur_Skull_Bijou_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16456",
+    "increase": "3.27%",
+    "actor": "Doom_Shroom_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16456",
+    "increase": "3.27%",
+    "actor": "Rotcrusted_Voodoo_Doll_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16454",
+    "increase": "3.25%",
+    "actor": "Crawg_Gnawed_Femur_375",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16451",
+    "increase": "3.24%",
+    "actor": "Hadals_Nautilus_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16451",
+    "increase": "3.23%",
+    "actor": "Living_Oil_Cannister_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16446",
+    "increase": "3.20%",
+    "actor": "Surging_Alchemist_Stone_300",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16445",
+    "increase": "3.20%",
+    "actor": "Lady_Waycrests_Music_Box_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16442",
+    "increase": "3.18%",
+    "actor": "Crawg_Gnawed_Femur_365",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16442",
+    "increase": "3.18%",
+    "actor": "Crawg_Gnawed_Femur_370",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16441",
+    "increase": "3.18%",
+    "actor": "Vial_of_Storms_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16441",
+    "increase": "3.17%",
+    "actor": "Kajafied_Banana_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16441",
+    "increase": "3.17%",
+    "actor": "Lady_Waycrests_Music_Box_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16437",
+    "increase": "3.15%",
+    "actor": "Kajafied_Banana_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16436",
+    "increase": "3.14%",
+    "actor": "Snowpelt_Mangler_335",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16435",
+    "increase": "3.14%",
+    "actor": "Doom_Shroom_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16434",
+    "increase": "3.13%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16431",
+    "increase": "3.11%",
+    "actor": "Snowpelt_Mangler_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16430",
+    "increase": "3.10%",
+    "actor": "Ravasaur_Skull_Bijou_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16429",
+    "increase": "3.10%",
+    "actor": "Vanquished_Tendril_of_Ghuun_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16427",
+    "increase": "3.08%",
+    "actor": "Vial_of_Storms_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16426",
+    "increase": "3.08%",
+    "actor": "Hadals_Nautilus_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16424",
+    "increase": "3.06%",
+    "actor": "Living_Oil_Cannister_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16422",
+    "increase": "3.06%",
     "actor": "Rotcrusted_Voodoo_Doll_315",
-    "profile": "dungeons",
-    "increase": "2.68%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14898",
-    "actor": "Hadals_Nautilus_310",
     "profile": "dungeons",
-    "increase": "2.68%"
+    "DPS": "16419",
+    "increase": "3.04%",
+    "actor": "Vanquished_Tendril_of_Ghuun_345",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14894",
-    "actor": "Crawg_Gnawed_Femur_345",
     "profile": "dungeons",
-    "increase": "2.65%"
+    "DPS": "16418",
+    "increase": "3.03%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14891",
-    "actor": "Ravasaur_Skull_Bijou_330",
     "profile": "dungeons",
-    "increase": "2.63%"
-  },
-  {
-    "": "",
-    "DPS": "14891",
-    "actor": "Vial_of_Storms_310",
-    "profile": "dungeons",
-    "increase": "2.63%"
-  },
-  {
-    "": "",
-    "DPS": "14890",
-    "actor": "Ravasaur_Skull_Bijou_335",
-    "profile": "dungeons",
-    "increase": "2.62%"
-  },
-  {
-    "": "",
-    "DPS": "14890",
-    "actor": "Snowpelt_Mangler_315",
-    "profile": "dungeons",
-    "increase": "2.62%"
-  },
-  {
-    "": "",
-    "DPS": "14877",
+    "DPS": "16411",
+    "increase": "2.98%",
     "actor": "Rotcrusted_Voodoo_Doll_310",
-    "profile": "dungeons",
-    "increase": "2.53%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14874",
+    "profile": "dungeons",
+    "DPS": "16410",
+    "increase": "2.98%",
+    "actor": "Hadals_Nautilus_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16408",
+    "increase": "2.97%",
+    "actor": "Ravasaur_Skull_Bijou_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16404",
+    "increase": "2.94%",
+    "actor": "Snowpelt_Mangler_325",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16404",
+    "increase": "2.94%",
+    "actor": "Crawg_Gnawed_Femur_360",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16404",
+    "increase": "2.94%",
+    "actor": "Kajafied_Banana_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16404",
+    "increase": "2.94%",
+    "actor": "Hadals_Nautilus_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16403",
+    "increase": "2.94%",
+    "actor": "Vanquished_Tendril_of_Ghuun_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16401",
+    "increase": "2.92%",
+    "actor": "Crawg_Gnawed_Femur_355",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16401",
+    "increase": "2.92%",
+    "actor": "Vial_of_Storms_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16400",
+    "increase": "2.92%",
+    "actor": "Lady_Waycrests_Music_Box_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16388",
+    "increase": "2.84%",
+    "actor": "Living_Oil_Cannister_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16387",
+    "increase": "2.84%",
+    "actor": "Crawg_Gnawed_Femur_350",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16386",
+    "increase": "2.83%",
+    "actor": "Kajafied_Banana_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16386",
+    "increase": "2.83%",
+    "actor": "Ravasaur_Skull_Bijou_340",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16386",
+    "increase": "2.83%",
+    "actor": "Lady_Waycrests_Music_Box_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16384",
+    "increase": "2.81%",
+    "actor": "Chargestone_of_the_Thunder_Kings_Court_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16379",
+    "increase": "2.78%",
+    "actor": "Vial_of_Storms_315",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16378",
+    "increase": "2.78%",
+    "actor": "Snowpelt_Mangler_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16367",
+    "increase": "2.71%",
+    "actor": "Crawg_Gnawed_Femur_345",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16359",
+    "increase": "2.66%",
     "actor": "Crawg_Gnawed_Femur_340",
-    "profile": "dungeons",
-    "increase": "2.51%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14866",
-    "actor": "Snowpelt_Mangler_310",
     "profile": "dungeons",
-    "increase": "2.46%"
+    "DPS": "16358",
+    "increase": "2.65%",
+    "actor": "Snowpelt_Mangler_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14863",
-    "actor": "Crawg_Gnawed_Femur_330",
     "profile": "dungeons",
-    "increase": "2.44%"
+    "DPS": "16358",
+    "increase": "2.65%",
+    "actor": "Ravasaur_Skull_Bijou_335",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14859",
+    "profile": "dungeons",
+    "DPS": "16358",
+    "increase": "2.65%",
+    "actor": "Vial_of_Storms_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16356",
+    "increase": "2.64%",
     "actor": "Crawg_Gnawed_Femur_335",
-    "profile": "dungeons",
-    "increase": "2.41%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14859",
+    "profile": "dungeons",
+    "DPS": "16354",
+    "increase": "2.63%",
+    "actor": "Hadals_Nautilus_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16344",
+    "increase": "2.56%",
+    "actor": "Ravasaur_Skull_Bijou_330",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16338",
+    "increase": "2.53%",
     "actor": "Ravasaur_Skull_Bijou_325",
-    "profile": "dungeons",
-    "increase": "2.41%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14841",
-    "actor": "Crawg_Gnawed_Femur_325",
     "profile": "dungeons",
-    "increase": "2.28%"
+    "DPS": "16336",
+    "increase": "2.52%",
+    "actor": "Snowpelt_Mangler_310",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14839",
-    "actor": "Ravasaur_Skull_Bijou_320",
     "profile": "dungeons",
-    "increase": "2.27%"
+    "DPS": "16320",
+    "increase": "2.42%",
+    "actor": "Crawg_Gnawed_Femur_330",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14837",
+    "profile": "dungeons",
+    "DPS": "16306",
+    "increase": "2.33%",
     "actor": "Crawg_Gnawed_Femur_320",
-    "profile": "dungeons",
-    "increase": "2.26%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14828",
-    "actor": "Ravasaur_Skull_Bijou_315",
     "profile": "dungeons",
-    "increase": "2.20%"
+    "DPS": "16300",
+    "increase": "2.29%",
+    "actor": "Crawg_Gnawed_Femur_325",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14819",
+    "profile": "dungeons",
+    "DPS": "16296",
+    "increase": "2.26%",
+    "actor": "Ravasaur_Skull_Bijou_320",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16293",
+    "increase": "2.24%",
     "actor": "Crawg_Gnawed_Femur_315",
-    "profile": "dungeons",
-    "increase": "2.14%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14810",
-    "actor": "Ravasaur_Skull_Bijou_310",
     "profile": "dungeons",
-    "increase": "2.07%"
+    "DPS": "16280",
+    "increase": "2.17%",
+    "actor": "Ravasaur_Skull_Bijou_315",
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14807",
+    "profile": "dungeons",
+    "DPS": "16279",
+    "increase": "2.16%",
     "actor": "Crawg_Gnawed_Femur_310",
-    "profile": "dungeons",
-    "increase": "2.05%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14709",
+    "profile": "dungeons",
+    "DPS": "16271",
+    "increase": "2.11%",
+    "actor": "Ravasaur_Skull_Bijou_310",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "DPS": "16146",
+    "increase": "1.32%",
     "actor": "Endless_Tincture_of_Fractional_Power_300",
-    "profile": "dungeons",
-    "increase": "1.38%"
+    "": ""
   },
   {
-    "": "",
-    "DPS": "14510",
-    "actor": "Base",
     "profile": "dungeons",
-    "increase": "0.00%"
+    "DPS": "15935",
+    "increase": "0.00%",
+    "actor": "Base",
+    "": ""
   }
 ]
