@@ -4,73 +4,83 @@
 		},
 		"Leyshocks Grand Compilation": {
 		},
-		"Galewind Chimes": {
+		"Emblem of Zandalar": {
+		},
+		"Sea Giants Tidestone": {
 		},
 		"Dinobone Charm": {
 		},
-		"Emblem of Zandalar": {
+		"Galewind Chimes": {
+		},
+		"Ignition Mages Fuse": {
 		},
 		"Conch of Dark Whispers": {
 		},
+		"Azurethos Singed Plumage": {
+		},
+		"First Mates Spyglass": {
+		},
+		"Moonstone of Zin Azshari": {
+		},
+		"Tzanes Barkspines": {
+		},
+		"Berserkers Juju": {
+		},
+		"Twitching Tentacle of Xalzaix": {
+		},
 		"Doom Shroom": {
+		},
+		"Pearl Divers Compass": {
+		},
+		"Gilded Loa Figurine": {
 		},
 		"Dooms Hatred": {
 		},
 		"Lions Grace": {
 		},
-		"Berserkers Juju": {
-		},
-		"Gilded Loa Figurine": {
+		"Drust Runed Icicle": {
 		},
 		"Dread Gladiators Insignia": {
 		},
-		"Twitching Tentacle of Xalzaix": {
+		"Crest of Paku": {
 		},
-		"Tzanes Barkspines": {
+		"Dread Gladiators Medallion": {
 		},
 		"Vigilants Bloodshaper": {
 		},
-		"Drust Runed Icicle": {
+		"Rotcrusted Voodoo Doll": {
 		},
-		"Pearl Divers Compass": {
-		},
-		"First Mates Spyglass": {
-		},
-		"Ignition Mages Fuse": {
+		"Plunderbeards Flask": {
 		},
 		"Living Oil Cannister": {
+		},
+		"Chargestone of the Thunder Kings Court": {
+		},
+		"Balefire Branch": {
 		},
 		"Kajafied Banana": {
 		},
 		"Lady Waycrests Music Box": {
 		},
-		"Azurethos Singed Plumage": {
-		},
-		"Vessel of Skittering Shadows": {
+		"Whirlwings Plumage": {
 		},
 		"Hadals Nautilus": {
 		},
-		"Dread Gladiators Medallion": {
-		},
-		"Plunderbeards Flask": {
-		},
 		"Vial of Storms": {
-		},
-		"Snowpelt Mangler": {
-		},
-		"Rotcrusted Voodoo Doll": {
-		},
-		"Balefire Branch": {
-		},
-		"Whirlwings Plumage": {
 		},
 		"Dread Gladiators Badge": {
 		},
+		"Snowpelt Mangler": {
+		},
+		"Incandescent Sliver": {
+		},
+		"Tidestorm Codex": {
+		},
 		"Ravasaur Skull Bijou": {
 		},
-		"Vanquished Tendril of Ghuun": {
-		},
 		"Darkmoon Deck Squalls": {
+		},
+		"Vanquished Tendril of Ghuun": {
 		},
 		"Crawg Gnawed Femur": {
 		},
@@ -85,40 +95,45 @@
 	"item_ids" : {
 		"Incessantly_Ticking_Clock": 161113,
 		"Leyshocks_Grand_Compilation": 163937,
-		"Galewind_Chimes": 155568,
-		"Dinobone_Charm": 158155,
 		"Emblem_of_Zandalar": 158154,
+		"Sea_Giants_Tidestone": 165664,
+		"Dinobone_Charm": 158155,
+		"Galewind_Chimes": 155568,
+		"Ignition_Mages_Fuse": 159615,
 		"Conch_of_Dark_Whispers": 159620,
+		"Azurethos_Singed_Plumage": 161377,
+		"First_Mates_Spyglass": 158163,
+		"Moonstone_of_Zin_Azshari": 165666,
+		"Tzanes_Barkspines": 161411,
+		"Berserkers_Juju": 161117,
+		"Twitching_Tentacle_of_Xalzaix": 160656,
 		"Doom_Shroom": 158555,
+		"Pearl_Divers_Compass": 158162,
+		"Gilded_Loa_Figurine": 158153,
 		"Dooms_Hatred": 161461,
 		"Lions_Grace": 161472,
-		"Berserkers_Juju": 161117,
-		"Gilded_Loa_Figurine": 158153,
-		"Dread_Gladiators_Insignia": 161676,
-		"Twitching_Tentacle_of_Xalzaix": 160656,
-		"Tzanes_Barkspines": 161411,
-		"Vigilants_Bloodshaper": 160651,
 		"Drust_Runed_Icicle": 161380,
-		"Pearl_Divers_Compass": 158162,
-		"First_Mates_Spyglass": 158163,
-		"Ignition_Mages_Fuse": 159615,
+		"Dread_Gladiators_Insignia": 161676,
+		"Crest_of_Paku": 165581,
+		"Dread_Gladiators_Medallion": 161674,
+		"Vigilants_Bloodshaper": 160651,
+		"Rotcrusted_Voodoo_Doll": 159624,
+		"Plunderbeards_Flask": 158164,
 		"Living_Oil_Cannister": 158216,
+		"Chargestone_of_the_Thunder_Kings_Court": 165660,
+		"Balefire_Branch": 159630,
 		"Kajafied_Banana": 161125,
 		"Lady_Waycrests_Music_Box": 159631,
-		"Azurethos_Singed_Plumage": 161377,
-		"Vessel_of_Skittering_Shadows": 159610,
-		"Hadals_Nautilus": 159622,
-		"Dread_Gladiators_Medallion": 161674,
-		"Plunderbeards_Flask": 158164,
-		"Vial_of_Storms": 158224,
-		"Snowpelt_Mangler": 160263,
-		"Rotcrusted_Voodoo_Doll": 159624,
-		"Balefire_Branch": 159630,
 		"Whirlwings_Plumage": 158215,
+		"Hadals_Nautilus": 159622,
+		"Vial_of_Storms": 158224,
 		"Dread_Gladiators_Badge": 161902,
+		"Snowpelt_Mangler": 160263,
+		"Incandescent_Sliver": 165571,
+		"Tidestorm_Codex": 165576,
 		"Ravasaur_Skull_Bijou": 161119,
-		"Vanquished_Tendril_of_Ghuun": 160654,
 		"Darkmoon_Deck_Squalls": 159126,
+		"Vanquished_Tendril_of_Ghuun": 160654,
 		"Crawg_Gnawed_Femur": 163703,
 		"Surging_Alchemist_Stone": 152632,
 		"Endless_Tincture_of_Fractional_Power": 152636
