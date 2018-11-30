@@ -1,15 +1,15 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|16115|2.70%|
-|Weapon-Deadly-Navigation|16086|2.51%|
-|Weapon-Torrent-of-Elements|16031|2.16%|
-|Weapon-Masterful-Navigation|16025|2.13%|
-|Weapon-Versatile-Navigation|16023|2.11%|
-|Ring_Pact_of_Haste|15785|0.60%|
-|Ring_Pact_of_Critical_Strike|15769|0.49%|
-|Ring_Pact_of_Versatility|15756|0.41%|
-|Ring_Pact_of_Mastery|15756|0.41%|
-|Base|15691|0.00%|
+|Weapon-Quick-Navigation|17726|3.02%|
+|Weapon-Deadly-Navigation|17659|2.63%|
+|Weapon-Torrent-of-Elements|17605|2.32%|
+|Weapon-Masterful-Navigation|17589|2.22%|
+|Weapon-Versatile-Navigation|17580|2.17%|
+|Ring_Pact_of_Haste|17333|0.74%|
+|Ring_Pact_of_Critical_Strike|17298|0.53%|
+|Ring_Pact_of_Versatility|17295|0.52%|
+|Ring_Pact_of_Mastery|17280|0.43%|
+|Base|17206|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
