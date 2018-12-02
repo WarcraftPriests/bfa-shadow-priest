@@ -27,8 +27,6 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-# profileset."Base_AS"+=talents=1111121
-
 # Add X intellect
 profileset."Int_10"+=enchant_intellect=10
 profileset."Int_20"+=enchant_intellect=20
@@ -100,18 +98,6 @@ profileset."Spiteful_Apparitions_2"+=shoulder=amice_of_corrupting_horror,id=1607
 profileset."Spiteful_Apparitions_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
 profileset."Spiteful_Apparitions_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=403
 profileset."Spiteful_Apparitions_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=403
-# AS
-# profileset."Spiteful_Apparitions_1_AS"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_1_AS"+=talents=1111121
-#
-# profileset."Spiteful_Apparitions_2_AS"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_2_AS"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_2_AS"+=talents=1111121
-#
-# profileset."Spiteful_Apparitions_3_AS"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_3_AS"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_3_AS"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=403
-# profileset."Spiteful_Apparitions_3_AS"+=talents=1111121
 
 # Chorus of Insanity 405
 profileset."Chorus_of_Insanity_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=405
