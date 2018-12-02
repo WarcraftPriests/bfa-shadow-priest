@@ -10,8 +10,8 @@ def assure_path_exists(path):
 
 # Set Dungeon Talent Builds manually
 # SWV_DV_SC_MB_[DA/LotV]
-dungeonsLotV = 'talents=3131322'
-dungeonsDA = 'talents=3131321'
+dungeonsLotV = 'talents=3131312'
+dungeonsDA = 'talents=3131311'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
