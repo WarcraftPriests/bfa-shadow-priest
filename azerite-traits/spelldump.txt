@@ -239,6 +239,7 @@ Effects          :
                    Base Value: 0 | Scaled Value: 2332.5 (coefficient=30) | PvP Coefficient: 1.00000 | Trigger Spell: 270679 | Target: Self (1)
 #2 (id=720348)   : Dummy (3)
                    Base Value: 50 | Scaled Value: 50 | PvP Coefficient: 1.00000
+                   Hotfixed: Base Value (35 -> 50)
 Description      : Your heals on targets below $s2% health have a chance to heal for an additional $s1.
 
 Name             : Bracing Chill (id=267884) [Scaling Spell (-8), Passive] 
@@ -257,6 +258,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=714803)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 1283.113 (coefficient=16.50307) | PvP Coefficient: 1.00000 | Trigger Spell: 272275 | Target: Self (1)
+                   Hotfixed: Coefficient (15 -> 16.5031)
 Description      : Your heals have a chance to apply Bracing Chill. Healing a target with Bracing Chill will heal for an additional $s1 and move Bracing Chill to a nearby ally (up to $272276u times).
 
 Name             : Ephemeral Recovery (id=267886) [Scaling Spell (-7), Passive] 
@@ -275,8 +277,9 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=714807)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 0 (coefficient=22) | PvP Coefficient: 1.00000 | Trigger Spell: 272570 | Target: Self (1)
-Description      : When you go below $272570s1% mana, you gain $s1 mana. Can occur once every $289362d.
+                   Base Value: 0 | Scaled Value: 0 (coefficient=0.051257) | PvP Coefficient: 1.00000 | Trigger Spell: 272570 | Target: Self (1)
+                   Hotfixed: Coefficient (0.044571 -> 0.051257)
+Description      : Casting a healing spell restores ${$s1*($272572d/$272572t1)} mana over $272572d. Stacks up to $272572u times.
 
 Name             : Blessed Portents (id=267889) [Scaling Spell (-1), Passive] 
 Class            : Paladin, Priest, Shaman, Monk, Druid
@@ -315,7 +318,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=714818)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 (coefficient=0.72) | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Casting $?a137009[Wild Growth]?a137022[Essence Font]?a137030[Prayer of Healing or Power Word: Radiance]?a137026[Light of Dawn]?a137038[Chain Heal][your multi-target healing spell] grants you $s1 Mastery for $272090d. This cannot occur more than once every $272089proccooldown sec.
+Description      : Casting $?a137009[Wild Growth]?a137022[Essence Font]?a137030[Prayer of Healing or Power Word: Radiance]?a137026[Light of Dawn]?a137038[Chain Heal][your multi-target healing spell] grants you $s1 Mastery for $272090d sec. This cannot occur more than once every $272089proccooldown sec.
 
 Name             : Azerite Fortification (id=268435) [Scaling Spell (-8), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -377,6 +380,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=716157)   : Apply Aura (6) | Unknown(277)
                    Base Value: 0 | Scaled Value: 0 (coefficient=0.055714) | PvP Coefficient: 0.50000 | Trigger Spell: 270653 | Target: Self (1)
+                   Hotfixed: Sub Type (4 -> 277), Misc Value (8 -> 0)
 #2 (id=716158)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 (coefficient=0.016714) | PvP Coefficient: 0.50000 | Target: Self (1)
 Description      : Increases your movement speed by $s1% of your highest secondary rating, up to $s2%.
@@ -466,7 +470,7 @@ Effects          :
 #1 (id=716167)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 598.3412 (coefficient=7.695707) | PvP Coefficient: 0.50000 | Trigger Spell: 270660 | Target: Self (1)
 #2 (id=716168)   : Dummy (3)
-                   Base Value: 12 | Scaled Value: 12 | PvP Coefficient: 1.00000
+                   Base Value: 20 | Scaled Value: 20 | PvP Coefficient: 1.00000
 Description      : While no enemies are within $s2 yds, you heal for $s1 every $270661t1 sec.
 Tooltip          : While no enemies are within $s2 yds, you heal for $w1 every $270661t1 sec.
 
@@ -505,6 +509,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=723891)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 658.2516 (coefficient=8.466258) | PvP Coefficient: 1.00000 | Trigger Spell: 272782 | Target: Self (1)
+                   Hotfixed: Coefficient (7.36196 -> 8.46626)
 Description      : Flash Heal increases the healing of your Flash Heals on that ally by $s1 for $272783d.
 
 Name             : Searing Dialogue (id=272788) [Scaling Spell (-8), Spell Family (6), Passive] 
@@ -523,7 +528,8 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=723903)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 475.519 (coefficient=6.116) | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Mind Sear deals an additional $s1 damage to enemies suffering from your Shadow Word: Pain and snares all enemies hit by $288371s1%.
+                   Hotfixed: Coefficient (2.44785 -> 6.116)
+Description      : Mind Sear deals an additional $s1 damage to enemies suffering from your Shadow Word: Pain.
 
 Name             : Ruinous Bolt (id=273150) [Scaling Spell (-8), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -579,7 +585,27 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=724838)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 787.0398 (coefficient=10.1227) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Hotfixed: Coefficient (9.20245 -> 10.1227)
 Description      : Echo of Light from Holy Word: Sanctify heals for an additional ${$s1*2}.
+
+Name             : Thought Harvester (id=273319) [Scaling Spell (-8), Spell Family (6), Passive] 
+Class            : Priest
+School           : Shadow
+Spell Type       : None
+Azerite Power Id : 166
+Triggered by     : Harvested Thoughts (273321)
+Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
+                 : ........ ........ ........ ........   ........ ........ ........ ........ 
+                 : ........ ........ ........ ........   ........ ........ ........ ........ 
+                 : ........ ........ ........ ........   ........ ........ ........ ........ 
+                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
+                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
+                 : ........ ........ ........ ........   ........ ........ ........ ........ 
+                 : Passive (6), Scales with item level (354)
+Effects          :
+#1 (id=724849)   : Apply Aura (6) | Dummy (4)
+                   Base Value: 0 | Scaled Value: 2704.555 (coefficient=34.78528) | PvP Coefficient: 1.00000 | Trigger Spell: 273320 | Target: Self (1)
+Description      : Casting Vampiric Touch increases the damage of your next $?s205351[Shadow Word: Void][Mind Blast] by $s1.
 
 Name             : Meticulous Scheming (id=273682) [Scaling Spell (-7), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -721,13 +747,10 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : ........ ........ ........ ........   ........ ........ ........ ........ 
                  : Passive (6), Scales with item level (354)
 Effects          :
-#1 (id=728629)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 103.0306 (coefficient=1.325153) | PvP Coefficient: 1.00000 | Trigger Spell: 275542 | Target: Self (1)
-Description      : Each time $?s204197[Purge the Wicked][Shadow Word: Pain] deals damage, the healing of your next Shadow Mend is increased by $s1, up to a maximum of ${$s1*$275544u}.
-
-
-
-Atonement applied by Shadow Mend lasts an additional ${$275542s1/1000} sec.
+#1 (id=728629)   : Apply Aura (6) | Dummy (4)
+                   Base Value: 0 | Scaled Value: 51.51536 (coefficient=0.662577) | PvP Coefficient: 1.00000 | Trigger Spell: 275542 | Target: Self (1)
+                   Hotfixed: Coefficient (0.552147 -> 0.662577)
+Description      : Each time $?s204197[Purge the Wicked][Shadow Word: Pain] deals damage, the healing of your next Shadow Mend is increased by $s1, up to a maximum of ${$s1*30}.
 
 Name             : Prayerful Litany (id=275602) [Scaling Spell (-8), Spell Family (6), Passive] 
 Class            : Priest
@@ -752,6 +775,7 @@ Class            : Priest
 School           : Shadow
 Spell Type       : None
 Azerite Power Id : 236
+Triggered by     : Whispers of the Damned (275726)
 Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
                  : ........ ........ ........ ........   ........ ........ ........ ........ 
                  : ........ ........ ........ ........   ........ ........ ........ ........ 
@@ -762,12 +786,8 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=728943)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 0 | PvP Coefficient: 1.00000 | Trigger Spell: 275725 | Target: Self (1)
-#2 (id=751888)   : Apply Aura (6) | Add Flat Modifier (107): Spell Direct Amount (0)
-                   Base Value: 0 | Scaled Value: 572.3926 (coefficient=7.361963) | PvP Coefficient: 1.00000 | Target: Self (1)
-                   Affected Spells: Mind Blast (8092), Shadow Word: Void (205351)
-                   Family Flags: 13, 30
-Description      : $?s205351[Shadow Word: Void][Mind Blast] deals $s2 additional damage and generates ${$275726s1/100} additional Insanity on critical strikes.
+                   Base Value: 0 | Scaled Value: 375.3942 (coefficient=4.828221) | PvP Coefficient: 1.00000 | Trigger Spell: 275725 | Target: Self (1)
+Description      : Void Bolt increases the damage of $?s205351[Shadow Word: Void][Mind Blast] by $s1 for $275726d, stacking up to 6 times.
 
 Name             : Gift of Forgiveness (id=277680) [Scaling Spell (-8), Spell Family (6), Passive] 
 Class            : Priest
@@ -785,6 +805,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=732992)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 195.0905 (coefficient=2.509202) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Hotfixed: Coefficient (3.68098 -> 2.5092)
 #2 (id=734277)   : Dummy (3)
                    Base Value: 3 | Scaled Value: 3 | PvP Coefficient: 1.00000
 Description      : Smite deals an additional $s1 damage if you have at least $s2 Atonements active.
@@ -805,6 +826,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=732993)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 1144.785 (coefficient=14.72393) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Hotfixed: Coefficient (12.2699 -> 14.7239)
 Description      : Heal restores up to $s1 additional health, based on your missing mana.
 
 Name             : Spiteful Apparitions (id=277682) [Scaling Spell (-8), Spell Family (6), Passive] 
@@ -823,6 +845,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=732994)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 834.7393 (coefficient=10.7362) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Hotfixed: Coefficient (6.13497 -> 10.7362)
 Description      : Shadowy Apparitions deal an additional $s1 damage to enemies suffering from your Vampiric Touch.
 
 Name             : Contemptuous Homily (id=278629) [Scaling Spell (-8), Spell Family (6), Passive] 
@@ -842,7 +865,7 @@ Effects          :
 #1 (id=734461)   : Apply Aura (6) | Dummy (4)
                    Base Value: 1000 | Scaled Value: 1000 | PvP Coefficient: 1.00000 | Trigger Spell: 278902 | Target: Self (1)
 #2 (id=734462)   : Apply Aura (6) | Add Flat Modifier (107): Spell Direct Amount (0)
-                   Base Value: 0 | Scaled Value: 139.95 (coefficient=1.8) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Base Value: 0 | Scaled Value: 126.8804 (coefficient=1.631902) | PvP Coefficient: 1.00000 | Target: Self (1)
                    Affected Spells: Penance (47666)
                    Family Flags: 47
 Description      : Penance deals an additional $s2 damage and extends your $?s204197[Purge the Wicked][Shadow Word: Pain] by ${$s1/1000} sec per bolt.
@@ -934,7 +957,7 @@ Effects          :
                    Family Flags: 15, 100
 #2 (id=734500)   : Apply Aura (6) | Dummy (4)
                    Base Value: 500 | Scaled Value: 500 | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Shadow Word: Pain deals an additional ${$s1*($589d/$589t2)} damage over its duration. When an enemy dies while afflicted by your Shadow Word: Pain, you gain ${$s2/100} Insanity.
+Description      : Shadow Word: Pain deals an additional ${$s1*($589d/$589t2)} damage. When an enemy dies while afflicted by your Shadow Word: Pain, you gain ${$s2/100} Insanity.
 
 Name             : Chorus of Insanity (id=278661) [Scaling Spell (-7), Spell Family (6), Passive] 
 Class            : Priest
@@ -952,7 +975,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=734503)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 0 (coefficient=0.0836) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Base Value: 0 | Scaled Value: 0 (coefficient=0.139285) | PvP Coefficient: 1.00000 | Target: Self (1)
 Description      : When Voidform ends, gain $s1 Critical Strike for each stack of Voidform. This effect decays every $279572t3 sec.
 
 Name             : Unstable Flames (id=279899) [Scaling Spell (-7), Passive] 
@@ -990,15 +1013,14 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=736562)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 9.496074 (coefficient=0.030534) | PvP Coefficient: 1.00000 | Trigger Spell: 279927 | Target: Self (1)
-Description      : Azerite energy courses through you, reaching ${$s1*6} $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat] and then diminishing down to $s1 $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat], cycling every 12 sec.
+                   Base Value: 0 | Scaled Value: 11.39535 (coefficient=0.036641) | PvP Coefficient: 1.00000 | Trigger Spell: 279927 | Target: Self (1)
+Description      : Azerite energy courses through you, reaching ${$s1*6} $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat] and then diminishing down to $s1 $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat], cycling every 6 sec.
 
 Name             : Twist Magic (id=280018) [Scaling Spell (-8), Passive] 
 Class            : Priest
 School           : Physical
 Spell Type       : None
 Azerite Power Id : 472
-Triggered by     : Twist Magic (280198)
 Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
                  : ........ ........ ........ ........   ........ ........ ........ ........ 
                  : ........ ........ ........ ........   ........ ........ ........ ........ 
@@ -1009,10 +1031,10 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
                  : Passive (6), Scales with item level (354)
 Effects          :
 #1 (id=737275)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 1041.989 (coefficient=13.40179) | PvP Coefficient: 1.00000 | Target: Self (1)
+                   Base Value: 0 | Scaled Value: 4195.868 (coefficient=53.96614) | PvP Coefficient: 0.50000 | Target: Self (1)
 #2 (id=737276)   : Dummy (3)
                    Base Value: 4 | Scaled Value: 4 | PvP Coefficient: 1.00000
-Description      : When you successfully Dispel Magic, heal yourself and $s2 injured allies within $280198A1 yds for $s1.
+Description      : When you successfully Dispel Magic, heal yourself and $s2 injured allies for $s1.
 
 Name             : Barrage Of Many Bombs (id=280163) [Scaling Spell (-8), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -1241,6 +1263,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=737878)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 586.235 (coefficient=7.54) | PvP Coefficient: 1.00000 | Trigger Spell: 280383 | Target: Self (1)
+                   Hotfixed: Coefficient (11.5951 -> 7.54)
 #2 (id=738006)   : Dummy (3)
                    Base Value: 5 | Scaled Value: 5 | PvP Coefficient: 1.00000
 Description      : Dealing damage has a chance to call down a Thunderous Blast, dealing $s1 Nature damage to the enemy and increasing the damage of Thunderous Blast by $280385s1%. At ${$s2*$280385s1}% increased damage, Thunderous Blast will critically hit and reset this effect.
@@ -1343,6 +1366,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=738151)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 6.8109 (coefficient=0.0219) | PvP Coefficient: 1.00000 | Trigger Spell: 280708 | Target: Self (1)
+                   Hotfixed: Coefficient (0.018321 -> 0.0219)
 Description      : Your armor gathers and analyzes combat data every $280708t1 sec, increasing your primary stat by $s1, stacking up to $280709u times. The data decays while out of combat.
 
 
@@ -1365,6 +1389,7 @@ Attributes       : ......x. ........ ........ ........   ........ ........ .....
 Effects          :
 #1 (id=738156)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 3148.875 (coefficient=40.5) | PvP Coefficient: 1.00000 | Trigger Spell: 280702 | Target: Self (1)
+                   Hotfixed: Coefficient (57.9755 -> 40.5)
 #2 (id=738401)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 5634.728 (coefficient=72.47239) | PvP Coefficient: 1.00000 | Target: Self (1)
 Description      : Your spells and abilities have a chance to release a barrage of lasers, dealing $s1 Arcane damage split among all enemies and restoring $s2 health split among injured allies.
@@ -1460,7 +1485,7 @@ Effects          :
                    Base Value: 0 | Scaled Value: 144.8168 (coefficient=0.465649) | PvP Coefficient: 1.00000 | Trigger Spell: 280837 | Target: Self (1)
 #2 (id=738669)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 2848.855 (coefficient=9.160305) | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Your abilities have a chance to drop a Horde Banner for $280830d, increasing $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stats] by $s1 and maximum health by $s2 for yourself and up to 4 allies.
+Description      : Your abilities have a chance to drop a Horde Banner for $280830d, increasing $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat] by $s1 and maximum health by $s2 for yourself and up to 4 allies.
 
 Name             : Battlefield Focus (id=280582) [Scaling Spell (-8), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -1593,7 +1618,7 @@ Effects          :
                    Base Value: 0 | Scaled Value: 144.8168 (coefficient=0.465649) | PvP Coefficient: 1.00000 | Trigger Spell: 280856 | Target: Self (1)
 #2 (id=738712)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 2848.855 (coefficient=9.160305) | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Your abilities have a chance to drop an Alliance Banner for $280858d, increasing $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stats] by $s1 and maximum health by $s2 for yourself and up to 4 allies.
+Description      : Your abilities have a chance to drop an Alliance Banner for $280858d, increasing $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a162698[Strength]?a162699[Intellect]?a162701[Intellect][primary stat] by $s1 and maximum health by $s2 for yourself and up to 4 allies.
 
 Name             : Battlefield Precision (id=280627) [Scaling Spell (-8), Passive] 
 Class            : Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Monk, Druid, Demon Hunter
@@ -1695,170 +1720,5 @@ Effects          :
 #2 (id=741005)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 (coefficient=0.501426) | PvP Coefficient: 1.00000 | Target: Self (1)
 Description      : Your spells and abilities have a chance to grant you $s1 Mastery for $281843d. When this effect expires it jumps once to a nearby ally, granting them $s2 Mastery for $281844d.
-
-Name             : Promise of Deliverance (id=287336) [Scaling Spell (-8), Spell Family (6), Passive] 
-Class            : Priest
-School           : Holy
-Spell Type       : None
-Azerite Power Id : 534
-Triggered by     : Promise of Deliverance (287340)
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750248)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 524.6932 (coefficient=6.748466) | PvP Coefficient: 1.00000 | Trigger Spell: 287337 | Target: Self (1)
-#2 (id=750269)   : Dummy (3)
-                   Base Value: 1000 | Scaled Value: 1000 | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : For $287340d after you cast Holy Word: Serenity, Heal and Flash Heal heal for an additional $s1, and reduce the cooldown of Holy Word: Serenity by an additional $<duration> sec.
-Variables        : $duration=${$287336s2/1000}
-
-Name             : Sudden Revelation (id=287355) [Scaling Spell (-8), Spell Family (6), Passive] 
-Class            : Priest
-School           : Holy
-Spell Type       : None
-Azerite Power Id : 535
-Triggered by     : Sudden Revelation (287360)
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750284)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 2384.97 (coefficient=30.67485) | PvP Coefficient: 1.00000 | Trigger Spell: 287356 | Target: Self (1)
-Description      : Power Word: Radiance has a $287356h% chance to cause your next Holy Nova to deal $s1 additional damage and reduce the cooldown of Power Word: Radiance by ${$287356s2/1000} sec.
-
-Name             : Shadow of Elune (id=287467) [Scaling Spell (-7), Passive] 
-Class            : Priest, Mage, Warlock
-School           : Physical
-Spell Type       : None
-Azerite Power Id : 521
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750457)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 0 (coefficient=2.025204) | PvP Coefficient: 1.00000 | Trigger Spell: 287468 | Target: Self (1)
-Description      : Your spells and abilities have a chance to increase your Haste by $s1 for $287471d. At night, you also gain $287471s2% movement speed for the duration.
-
-Name             : Ancients' Bulwark (id=287604) [Scaling Spell (-1), Passive] 
-Class            : Priest, Mage, Warlock
-School           : Physical
-Spell Type       : None
-Azerite Power Id : 522
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750674)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 284.8856 (coefficient=0.916031) | PvP Coefficient: 1.00000 | Trigger Spell: 287605 | Target: Self (1)
-#2 (id=750675)   : Apply Aura (6) | Modify Rating (189)
-                   Base Value: 0 | Scaled Value: 242.5788 (coefficient=0.779996) | PvP Coefficient: 1.00000 | Target: Self (1)
-Description      : Standing still grants you Deep Roots, increasing your Versatility by $s2. Moving instead grants you Uprooted, healing you for $s1 every $287608t1 sec.
-
-Name             : Apothecary's Concoctions (id=287631) [Scaling Spell (-8), Passive] 
-Class            : Priest, Mage, Warlock
-School           : Physical
-Spell Type       : None
-Azerite Power Id : 523
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750714)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 467.454 (coefficient=6.01227) | PvP Coefficient: 1.00000 | Trigger Spell: 287633 | Target: Self (1)
-#2 (id=750715)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 894.3635 (coefficient=11.50307) | PvP Coefficient: 1.00000 | Target: Self (1)
-#3 (id=750716)   : Dummy (3)
-                   Base Value: 100 | Scaled Value: 100 | PvP Coefficient: 1.00000
-Description      : Your damaging abilities have a chance to deal $<dmg> Plague damage over $287638d, and your healing abilities have a chance to restore $<heal> health over $287639d. These effects are increased by up to $s3% based on the target's missing health.
-Variables        : $dmg=${$s1*3}
-
-$heal=${$s2*3}
-
-Name             : Endless Hunger (id=287662) [Scaling Spell (-1), Passive] 
-Class            : Priest, Mage, Warlock
-School           : Physical
-Spell Type       : None
-Azerite Power Id : 526
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750767)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 1994.198 (coefficient=6.412213) | PvP Coefficient: 1.00000 | Trigger Spell: 287664 | Target: Self (1)
-#2 (id=750768)   : Apply Aura (6) | Modify Rating (189)
-                   Base Value: 0 | Scaled Value: 242.6276 (coefficient=0.780153) | PvP Coefficient: 1.00000 | Misc Value: 1879048192 | Target: Self (1)
-Description      : Your Versatility is increased by $s2. Moving near an enemy's corpse consumes their essence, restoring $s1 health.
-
-Name             : Death Denied (id=287717) [Scaling Spell (-8), Spell Family (6), Passive] 
-Class            : Priest
-School           : Physical
-Spell Type       : None
-Azerite Power Id : 537
-Triggered by     : Death Denied (287722)
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=750865)   : Apply Aura (6) | Dummy (4)
-                   Base Value: 0 | Scaled Value: 11924.85 (coefficient=153.3742) | PvP Coefficient: 0.50000 | Trigger Spell: 287719 | Target: Self (1)
-Description      : Leap of Faith absorbs the next $s1 damage to the target within $287722d. While the shield holds, Leap of Faith cools down $287723s1% faster.
-
-Name             : Thought Harvester (id=288340) [Scaling Spell (-8), Spell Family (6), Passive] 
-Class            : Priest
-School           : Shadow
-Spell Type       : None
-Azerite Power Id : 166
-Attributes       : ......x. ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : ........ ....x... ........ ........   ........ ........ ........ ........ 
-                 : ........ ........ ........ ........   ..x..... ........ ........ ........ 
-                 : ........ ........ ........ ........   ........ ........ ........ ........ 
-                 : Passive (6), Scales with item level (354)
-Effects          :
-#1 (id=751893)   : Apply Aura (6) | Unknown(285)
-                   Base Value: 0 | Scaled Value: 0 | PvP Coefficient: 1.00000 | Trigger Spell: 288342 | Target: Self (1)
-#2 (id=751938)   : Apply Aura (6) | Add Flat Modifier (107): Spell Periodic Amount (22)
-                   Base Value: 0 | Scaled Value: 124.4954 (coefficient=1.601227) | PvP Coefficient: 1.00000 | Misc Value: 22 | Target: Self (1)
-                   Affected Spells: Vampiric Touch (34914)
-                   Family Flags: 42
-Description      : Vampiric Touch damage is increased by $s2, and each time Vampiric Touch deals damage you have a chance to increase the damage of your next Mind Sear within $288343d by $288343s1%.
 
 
