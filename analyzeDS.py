@@ -58,7 +58,7 @@ for value in data.iterrows():
     else:
         results[value[1].actor] = weightedDPS
 
-if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/" :
+if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/" or args.dir == "azerite-traits/" :
     baseDPS = results.get('Base') / 1
     results['Base'] = baseDPS
     # if args.dir == "azerite-gear/":
