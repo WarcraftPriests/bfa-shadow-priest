@@ -75,12 +75,7 @@ big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
 patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
-
-# dungeons
-if args.dungeons:
-    with open("dungeonsimming/herodamage.simc", 'r') as sim:
-        dungeons = sim.read()
-        sim.close()
+dungeons = 'fight_style="DungeonSlice"'
 
 # --composite [HC, MM]
 if args.composite:
