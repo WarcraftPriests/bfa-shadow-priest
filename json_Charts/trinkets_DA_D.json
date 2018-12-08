@@ -1,18 +1,16 @@
 {
 	"data": {
+		"Leyshocks Grand Compilation": {
+		},
 		"Incessantly Ticking Clock": {
 		},
-		"Leyshocks Grand Compilation": {
+		"Twitching Tentacle of Xalzaix": {
 		},
 		"Emblem of Zandalar": {
 		},
-		"Sea Giants Tidestone": {
-		},
-		"Tzanes Barkspines": {
-		},
-		"Ignition Mages Fuse": {
-		},
 		"Dinobone Charm": {
+		},
+		"Sea Giants Tidestone": {
 		},
 		"Galewind Chimes": {
 		},
@@ -20,61 +18,63 @@
 		},
 		"First Mates Spyglass": {
 		},
+		"Ignition Mages Fuse": {
+		},
+		"Tzanes Barkspines": {
+		},
 		"Azurethos Singed Plumage": {
 		},
-		"Pearl Divers Compass": {
+		"Berserkers Juju": {
 		},
 		"Dooms Hatred": {
 		},
-		"Moonstone of Zin Azshari": {
+		"Gilded Loa Figurine": {
 		},
-		"Twitching Tentacle of Xalzaix": {
+		"Pearl Divers Compass": {
 		},
 		"Lions Grace": {
 		},
-		"Doom Shroom": {
+		"Plunderbeards Flask": {
 		},
-		"Gilded Loa Figurine": {
+		"Crest of Paku": {
+		},
+		"Moonstone of Zin Azshari": {
+		},
+		"Dread Gladiators Insignia": {
 		},
 		"Drust Runed Icicle": {
 		},
 		"Dread Gladiators Medallion": {
 		},
-		"Dread Gladiators Insignia": {
-		},
-		"Crest of Paku": {
-		},
-		"Berserkers Juju": {
+		"Doom Shroom": {
 		},
 		"Vigilants Bloodshaper": {
 		},
+		"Whirlwings Plumage": {
+		},
 		"Rotcrusted Voodoo Doll": {
 		},
-		"Plunderbeards Flask": {
+		"Living Oil Cannister": {
 		},
 		"Balefire Branch": {
-		},
-		"Living Oil Cannister": {
 		},
 		"Lady Waycrests Music Box": {
 		},
 		"Kajafied Banana": {
 		},
-		"Whirlwings Plumage": {
+		"Dread Gladiators Badge": {
 		},
 		"Hadals Nautilus": {
 		},
 		"Vial of Storms": {
 		},
-		"Dread Gladiators Badge": {
-		},
 		"Snowpelt Mangler": {
 		},
-		"Ravasaur Skull Bijou": {
+		"Incandescent Sliver": {
 		},
 		"Tidestorm Codex": {
 		},
-		"Incandescent Sliver": {
+		"Ravasaur Skull Bijou": {
 		},
 		"Darkmoon Deck Squalls": {
 		},
@@ -93,44 +93,44 @@
 	},
 	"Data_type": "trinkets",
 	"item_ids" : {
-		"Incessantly_Ticking_Clock": 161113,
 		"Leyshocks_Grand_Compilation": 163937,
+		"Incessantly_Ticking_Clock": 161113,
+		"Twitching_Tentacle_of_Xalzaix": 160656,
 		"Emblem_of_Zandalar": 158154,
-		"Sea_Giants_Tidestone": 165664,
-		"Tzanes_Barkspines": 161411,
-		"Ignition_Mages_Fuse": 159615,
 		"Dinobone_Charm": 158155,
+		"Sea_Giants_Tidestone": 165664,
 		"Galewind_Chimes": 155568,
 		"Conch_of_Dark_Whispers": 159620,
 		"First_Mates_Spyglass": 158163,
+		"Ignition_Mages_Fuse": 159615,
+		"Tzanes_Barkspines": 161411,
 		"Azurethos_Singed_Plumage": 161377,
-		"Pearl_Divers_Compass": 158162,
+		"Berserkers_Juju": 161117,
 		"Dooms_Hatred": 161461,
-		"Moonstone_of_Zin_Azshari": 165666,
-		"Twitching_Tentacle_of_Xalzaix": 160656,
-		"Lions_Grace": 161472,
-		"Doom_Shroom": 158555,
 		"Gilded_Loa_Figurine": 158153,
+		"Pearl_Divers_Compass": 158162,
+		"Lions_Grace": 161472,
+		"Plunderbeards_Flask": 158164,
+		"Crest_of_Paku": 165581,
+		"Moonstone_of_Zin_Azshari": 165666,
+		"Dread_Gladiators_Insignia": 161676,
 		"Drust_Runed_Icicle": 161380,
 		"Dread_Gladiators_Medallion": 161674,
-		"Dread_Gladiators_Insignia": 161676,
-		"Crest_of_Paku": 165581,
-		"Berserkers_Juju": 161117,
+		"Doom_Shroom": 158555,
 		"Vigilants_Bloodshaper": 160651,
+		"Whirlwings_Plumage": 158215,
 		"Rotcrusted_Voodoo_Doll": 159624,
-		"Plunderbeards_Flask": 158164,
-		"Balefire_Branch": 159630,
 		"Living_Oil_Cannister": 158216,
+		"Balefire_Branch": 159630,
 		"Lady_Waycrests_Music_Box": 159631,
 		"Kajafied_Banana": 161125,
-		"Whirlwings_Plumage": 158215,
+		"Dread_Gladiators_Badge": 161902,
 		"Hadals_Nautilus": 159622,
 		"Vial_of_Storms": 158224,
-		"Dread_Gladiators_Badge": 161902,
 		"Snowpelt_Mangler": 160263,
-		"Ravasaur_Skull_Bijou": 161119,
-		"Tidestorm_Codex": 165576,
 		"Incandescent_Sliver": 165571,
+		"Tidestorm_Codex": 165576,
+		"Ravasaur_Skull_Bijou": 161119,
 		"Darkmoon_Deck_Squalls": 159126,
 		"Vanquished_Tendril_of_Ghuun": 160654,
 		"Crawg_Gnawed_Femur": 163703,
