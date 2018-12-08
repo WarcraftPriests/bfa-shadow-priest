@@ -44,17 +44,17 @@ Every sim is run with the top DA and LotV build:
 
 ### Azerite Traits
 - Head: [Visage of the Ascended Prophet](https://www.wowhead.com/item=160719/visage-of-the-ascended-prophet&bonus=4822:1477)
-    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    <!-- - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity) -->
     - [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix)
     - [Elemental Whirl](https://www.wowhead.com/spell=270667/elemental-whirl)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - Shoulders: [Amice of Corrupting Horror](https://www.wowhead.com/item=160726/amice-of-corrupting-horror&bonus=4822:1477)
-    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    <!-- - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity) -->
     - [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix)
     - [Earthlink](https://www.wowhead.com/spell=279926/earthlink)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - Chest: [Robes of the Unraveler](chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507)
-    - [Thought Harvester](https://ptr.wowhead.com/spell=288340/thought-harvester)
+    <!-- - [Thought Harvester](https://ptr.wowhead.com/spell=288340/thought-harvester) -->
     - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
     - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
