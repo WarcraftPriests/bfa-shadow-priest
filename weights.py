@@ -40,7 +40,7 @@ weightsUldir = {
     'hm_na_2': 0.00000000000,
 }
 
-weightsBfD = {
+weightsBoD = {
     'pw_ba_1': 0.10000000000,
     'pw_sa_1': 0.02222222222,
     'pw_na_1': 0.10000000000,
@@ -61,7 +61,7 @@ weightsBfD = {
     'hm_na_2': 0.00000000000,
 }
 
-weightsSingleBfD = {
+weightsSingleBoD = {
     'pw_na_1': 0.20000000000,
     'lm_na_1': 0.66666666667,
     'hm_na_1': 0.13333333333,
