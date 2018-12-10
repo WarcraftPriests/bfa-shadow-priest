@@ -13,20 +13,15 @@ apiKey = secrets.apiKey
 version = 'nightly'
 weights = '-s'
 weightsSingle = fightWeights.weightsSingle
-weightsUldir = fightWeights.weightsUldir
+weightsBoD = fightWeights.weightsBoD
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
 parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
-parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
-
-if args.composite and args.dungeons:
-    print("Error: cannot sim composite and dungeons at the same time")
-    exit()
 
 if args.weights:
     weights = ''
@@ -42,41 +37,26 @@ import reports
 print("Running sims on {0} in {1}".format(version, args.dir))
 
 if args.dir == "stats/":
-    RSreport = reports.reportsRSStats
     report = reports.reportsStats
     DSreport = reports.reportsDungeonsStats
 elif args.dir == "talents/":
-    RSreport = reports.reportsRSTalents
     report = reports.reportsTalents
     DSreport = reports.reportsDungeonsTalents
 elif args.dir == "trinkets/":
-    RSreport = reports.reportsRSTrinkets
     report = reports.reportsTrinkets
     DSreport = reports.reportsDungeonsTrinkets
 elif args.dir == "azerite-gear/":
-    RSreport = reports.reportsRSAzerite
     report = reports.reportsAzerite
     DSreport = reports.reportsDungeonsAzerite
-elif args.dir == "azerite-traits-ra/":
-    RSreport = reports.reportsRSRA
-    report = reports.reportsRA
-    DSreport = reports.reportsDungeonsRA
 elif args.dir == "azerite-traits/":
-    RSreport = reports.reportsRSAzeriteTraits
     report = reports.reportsAzeriteTraits
     DSreport = reports.reportsDungeonsAzeriteTraits
 else:
-    RSreport = reports.reportsRS
     DSreport = reports.reportsDungeons
     report = reports.reports
 
 # determine sim files
-if args.composite:
-    for value in RSreport:
-        profile = value.replace('results/_', 'profiles/%s_' % args.composite)
-        profile = profile.replace('json', 'simc')
-        profiles.append(profile)
-elif args.dungeons:
+if args.dungeons:
     for value in DSreport:
         profile = value.replace('results', 'profiles')
         profile = profile.replace('json', 'simc')
@@ -93,11 +73,11 @@ count = 0
 
 for value in profiles:
     count = count + 1
-    if not args.composite and not args.dungeons:
+    if not args.dungeons:
         lookup = value[9:-5]
-        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/" or args.dir == "azerite-traits/":
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/":
             lookup = lookup[lookup.index('_')+1:]
-        weight = weightsUldir.get(lookup)
+        weight = weightsBoD.get(lookup)
         weightST = weightsSingle.get(lookup)
         if weightST:
             weight = weight + weightST
@@ -120,9 +100,7 @@ results_dir = args.dir + "results/"
 subprocess.call(['python', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
 
 # analyze.py
-if args.composite:
-    script = "analyzeRS.py"
-elif args.dungeons:
+if args.dungeons:
     script = "analyzeDS.py"
 else:
     script = "analyze.py"
@@ -131,8 +109,6 @@ cmd = "python {0} {1}".format(script, args.dir)
 
 if args.weights:
     cmd += " --weights"
-if args.composite:
-    cmd += " --composite {0}".format(args.composite)
 if args.talents:
     cmd += " --talents {0}".format(args.talents)
 subprocess.call(cmd, shell=True)
