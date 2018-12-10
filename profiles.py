@@ -10,8 +10,8 @@ def assure_path_exists(path):
 
 # Set Dungeon Talent Builds manually
 # SWV_DV_SC_MB_[DA/LotV]
-dungeonsLotV = 'talents=3131322'
-dungeonsDA = 'talents=3131321'
+dungeonsLotV = 'talents=3131312'
+dungeonsDA = 'talents=3131311'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
@@ -46,7 +46,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir == "azerite-traits/" or args.dir == "azerite-trait-ilvls/":
+elif args.dir == "azerite-trait-ilvls/":
     if args.talents:
         simc = "{0}azerite_{1}.simc".format(args.dir, args.talents)
     else:
@@ -65,7 +65,7 @@ elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
 elif (args.dir == "trinkets/" or args.dir == "azerite-traits-ra/") and not args.talents:
     print("Error: must provide --talents [DA, LotV]")
     exit()
-elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits-ra/"):
+elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits-ra/", "azerite-traits/"):
     print("Error: provided directory does not match known directory.")
     exit()
 
@@ -75,12 +75,7 @@ big_add = 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20'
 patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
-
-# dungeons
-if args.dungeons:
-    with open("dungeonsimming/herodamage.simc", 'r') as sim:
-        dungeons = sim.read()
-        sim.close()
+dungeons = 'fight_style="DungeonSlice"'
 
 # --composite [HC, MM]
 if args.composite:
@@ -133,6 +128,10 @@ elif args.dir == "azerite-traits-ra/":
     RSreport = reports.reportsRSRA
     report = reports.reportsRA
     DSreport = reports.reportsDungeonsRA
+elif args.dir == "azerite-traits/":
+    RSreport = reports.reportsRSAzeriteTraits
+    report = reports.reportsAzeriteTraits
+    DSreport = reports.reportsDungeonsAzeriteTraits
 else:
     RSreport = reports.reportsRS
     DSreport = reports.reportsDungeons
@@ -196,6 +195,13 @@ for value in profiles:
             simc = "{0}azerite_five_{1}.simc".format(args.dir, args.talents)
         if "ten" in value:
             simc = "{0}azerite_ten_{1}.simc".format(args.dir, args.talents)
+    elif args.dir == "azerite-traits/":
+        if "other" in value:
+            simc = "{0}other_{1}.simc".format(args.dir, args.talents)
+        if "raid" in value:
+            simc = "{0}raid_{1}.simc".format(args.dir, args.talents)
+        if "shadow" in value:
+            simc = "{0}shadow_{1}.simc".format(args.dir, args.talents)
     with open(simc, 'r') as f:
         data = f.read()
         f.close()

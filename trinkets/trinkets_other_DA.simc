@@ -2,16 +2,17 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=1111122
+talents=1111112
 spec=shadow
 
 default_actions=1
+initial_resource=insanity=25
 
-head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
+head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=485/21/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=485/461/13
+shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=485/461/13
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=405/30/13
 wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
 hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
 waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
@@ -19,7 +20,7 @@ legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
 feet=volatile_walkers,id=160714,bonus_id=4800/1507
 finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
 finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=deadly_navigation
+main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
 # Questing Trinkets Base 280
@@ -363,7 +364,65 @@ profileset."Crawg_Gnawed_Femur_390"+=trinket1=Crawg_Gnawed_Femur,id=163703,bonus
 profileset."Crawg_Gnawed_Femur_395"+=trinket1=Crawg_Gnawed_Femur,id=163703,bonus_id=1587/4803
 profileset."Crawg_Gnawed_Femur_400"+=trinket1=Crawg_Gnawed_Femur,id=163703,bonus_id=1592/4803
 
+profileset."Chargestone_of_the_Thunder_Kings_Court_310"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1502/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_315"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1507/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_320"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1512/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_325"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1517/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_330"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1522/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_335"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1527/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_340"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1532/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_345"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1537/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_350"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1542/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_355"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1547/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_360"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1552/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_365"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1557/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_370"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1562/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_375"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1567/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_380"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1572/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_385"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1577/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_390"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1582/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_395"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1587/4803
+profileset."Chargestone_of_the_Thunder_Kings_Court_400"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,bonus_id=1592/4803
 
+profileset."Sea_Giants_Tidestone_310"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1502/4803
+profileset."Sea_Giants_Tidestone_315"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1507/4803
+profileset."Sea_Giants_Tidestone_320"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1512/4803
+profileset."Sea_Giants_Tidestone_325"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1517/4803
+profileset."Sea_Giants_Tidestone_330"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1522/4803
+profileset."Sea_Giants_Tidestone_335"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1527/4803
+profileset."Sea_Giants_Tidestone_340"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1532/4803
+profileset."Sea_Giants_Tidestone_345"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1537/4803
+profileset."Sea_Giants_Tidestone_350"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1542/4803
+profileset."Sea_Giants_Tidestone_355"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1547/4803
+profileset."Sea_Giants_Tidestone_360"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1552/4803
+profileset."Sea_Giants_Tidestone_365"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1557/4803
+profileset."Sea_Giants_Tidestone_370"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1562/4803
+profileset."Sea_Giants_Tidestone_375"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1567/4803
+profileset."Sea_Giants_Tidestone_380"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1572/4803
+profileset."Sea_Giants_Tidestone_385"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1577/4803
+profileset."Sea_Giants_Tidestone_390"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1582/4803
+profileset."Sea_Giants_Tidestone_395"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1587/4803
+profileset."Sea_Giants_Tidestone_400"+=trinket1=sea_giants_tidestone,id=165664,bonus_id=1592/4803
+
+profileset."Moonstone_of_Zin_Azshari_310"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1502/4803
+profileset."Moonstone_of_Zin_Azshari_315"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1507/4803
+profileset."Moonstone_of_Zin_Azshari_320"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1512/4803
+profileset."Moonstone_of_Zin_Azshari_325"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1517/4803
+profileset."Moonstone_of_Zin_Azshari_330"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1522/4803
+profileset."Moonstone_of_Zin_Azshari_335"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1527/4803
+profileset."Moonstone_of_Zin_Azshari_340"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1532/4803
+profileset."Moonstone_of_Zin_Azshari_345"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1537/4803
+profileset."Moonstone_of_Zin_Azshari_350"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1542/4803
+profileset."Moonstone_of_Zin_Azshari_355"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1547/4803
+profileset."Moonstone_of_Zin_Azshari_360"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1552/4803
+profileset."Moonstone_of_Zin_Azshari_365"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1557/4803
+profileset."Moonstone_of_Zin_Azshari_370"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1562/4803
+profileset."Moonstone_of_Zin_Azshari_375"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1567/4803
+profileset."Moonstone_of_Zin_Azshari_380"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1572/4803
+profileset."Moonstone_of_Zin_Azshari_385"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1577/4803
+profileset."Moonstone_of_Zin_Azshari_390"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1582/4803
+profileset."Moonstone_of_Zin_Azshari_395"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1587/4803
+profileset."Moonstone_of_Zin_Azshari_400"+=trinket1=moonstone_of_zin_azshari,id=165666,bonus_id=1592/4803
 
 # Misc Trinkets - Can't be increased?
 profileset."Darkmoon_Deck_Squalls_355"+=trinket1=darkmoon_deck_squalls,id=159126

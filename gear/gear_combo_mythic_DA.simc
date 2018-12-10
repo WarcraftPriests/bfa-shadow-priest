@@ -1,12 +1,12 @@
-
 priest="Priest_Shadow_T22M"
 level="120"
 spec="shadow"
 role="spell"
 position="back"
-talents="1111122"
+talents="1111112"
 name="Priest_Shadow_T22M"
 
+initial_resource=insanity="25"
 
 #Horrific Amalgam's Hood 385
 head=",id=160616,bonus_id=4824/1507,azerite_powers=483/22/13"
@@ -37,7 +37,7 @@ trinket1=",id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 trinket2=",id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-main_hand=",id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+main_hand=",id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 off_hand=",id=160696,bonus_id=4800/1507"
 
@@ -70,7 +70,7 @@ profileset."Combo 2"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 2"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 2"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 2"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 2"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -103,7 +103,7 @@ profileset."Combo 3"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 3"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 3"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 3"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 3"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -136,7 +136,7 @@ profileset."Combo 4"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 4"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 4"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 4"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 4"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -169,7 +169,7 @@ profileset."Combo 5"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 5"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 5"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 5"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 5"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -202,7 +202,7 @@ profileset."Combo 6"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 6"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 6"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 6"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 6"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -235,7 +235,7 @@ profileset."Combo 7"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 7"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 7"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 7"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 7"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -268,7 +268,7 @@ profileset."Combo 8"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 8"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 8"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 8"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 8"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -301,7 +301,7 @@ profileset."Combo 9"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 9"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 9"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 9"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 9"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -334,7 +334,7 @@ profileset."Combo 10"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 10"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 10"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 10"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 10"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -367,7 +367,7 @@ profileset."Combo 11"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 11"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 11"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 11"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 11"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -400,7 +400,7 @@ profileset."Combo 12"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 12"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 12"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 12"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 12"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -433,7 +433,7 @@ profileset."Combo 13"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 13"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 13"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 13"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 13"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -466,7 +466,7 @@ profileset."Combo 14"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 14"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 14"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 14"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 14"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -499,7 +499,7 @@ profileset."Combo 15"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 15"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 15"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 15"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 15"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -532,7 +532,7 @@ profileset."Combo 16"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 16"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 16"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 16"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 16"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -565,7 +565,7 @@ profileset."Combo 17"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 17"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 17"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 17"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 17"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -598,7 +598,7 @@ profileset."Combo 18"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 18"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 18"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 18"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 18"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -631,7 +631,7 @@ profileset."Combo 19"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 19"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 19"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 19"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 19"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -664,7 +664,7 @@ profileset."Combo 20"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 20"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 20"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 20"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 20"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -697,7 +697,7 @@ profileset."Combo 21"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 21"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 21"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 21"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 21"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -730,7 +730,7 @@ profileset."Combo 22"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 22"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 22"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 22"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 22"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -763,7 +763,7 @@ profileset."Combo 23"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 23"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 23"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 23"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 23"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -796,7 +796,7 @@ profileset."Combo 24"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 24"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 24"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 24"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 24"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -829,7 +829,7 @@ profileset."Combo 25"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 25"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 25"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 25"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 25"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -862,7 +862,7 @@ profileset."Combo 26"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 26"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 26"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 26"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 26"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -895,7 +895,7 @@ profileset."Combo 27"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 27"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 27"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 27"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 27"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -928,7 +928,7 @@ profileset."Combo 28"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 28"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 28"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 28"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 28"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -961,7 +961,7 @@ profileset."Combo 29"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 29"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 29"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 29"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 29"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -994,7 +994,7 @@ profileset."Combo 30"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 30"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 30"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 30"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 30"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1027,7 +1027,7 @@ profileset."Combo 31"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 31"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 31"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 31"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 31"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1060,7 +1060,7 @@ profileset."Combo 32"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 32"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 32"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 32"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 32"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1093,7 +1093,7 @@ profileset."Combo 33"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 33"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 33"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 33"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 33"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1126,7 +1126,7 @@ profileset."Combo 34"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 34"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 34"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 34"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 34"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1159,7 +1159,7 @@ profileset."Combo 35"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 35"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 35"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 35"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 35"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1192,7 +1192,7 @@ profileset."Combo 36"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 36"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 36"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 36"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 36"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1225,7 +1225,7 @@ profileset."Combo 37"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 37"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 37"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 37"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 37"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1258,7 +1258,7 @@ profileset."Combo 38"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 38"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 38"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 38"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 38"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1291,7 +1291,7 @@ profileset."Combo 39"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 39"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 39"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 39"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 39"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1324,7 +1324,7 @@ profileset."Combo 40"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 40"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 40"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 40"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 40"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1357,7 +1357,7 @@ profileset."Combo 41"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 41"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 41"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 41"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 41"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1390,7 +1390,7 @@ profileset."Combo 42"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 42"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 42"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 42"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 42"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1423,7 +1423,7 @@ profileset."Combo 43"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 43"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 43"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 43"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 43"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1456,7 +1456,7 @@ profileset."Combo 44"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 44"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 44"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 44"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 44"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1489,7 +1489,7 @@ profileset."Combo 45"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 45"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 45"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 45"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 45"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1522,7 +1522,7 @@ profileset."Combo 46"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 46"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 46"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 46"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 46"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1555,7 +1555,7 @@ profileset."Combo 47"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 47"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 47"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 47"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 47"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1588,7 +1588,7 @@ profileset."Combo 48"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 48"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 48"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 48"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 48"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1621,7 +1621,7 @@ profileset."Combo 49"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 49"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 49"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 49"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 49"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1654,7 +1654,7 @@ profileset."Combo 50"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 50"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 50"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 50"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 50"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1687,7 +1687,7 @@ profileset."Combo 51"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 51"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 51"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 51"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 51"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1720,7 +1720,7 @@ profileset."Combo 52"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 52"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 52"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 52"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 52"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1753,7 +1753,7 @@ profileset."Combo 53"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 53"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 53"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 53"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 53"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1786,7 +1786,7 @@ profileset."Combo 54"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 54"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 54"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 54"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 54"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1819,7 +1819,7 @@ profileset."Combo 55"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 55"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 55"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 55"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 55"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1852,7 +1852,7 @@ profileset."Combo 56"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 56"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 56"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 56"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 56"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1885,7 +1885,7 @@ profileset."Combo 57"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 57"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 57"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 57"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 57"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1918,7 +1918,7 @@ profileset."Combo 58"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 58"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 58"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 58"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 58"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1951,7 +1951,7 @@ profileset."Combo 59"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 59"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 59"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 59"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 59"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -1984,7 +1984,7 @@ profileset."Combo 60"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 60"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 60"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 60"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 60"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2017,7 +2017,7 @@ profileset."Combo 61"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 61"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 61"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 61"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 61"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2050,7 +2050,7 @@ profileset."Combo 62"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 62"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 62"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 62"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 62"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2083,7 +2083,7 @@ profileset."Combo 63"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 63"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 63"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 63"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 63"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2116,7 +2116,7 @@ profileset."Combo 64"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 64"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 64"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 64"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 64"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2149,7 +2149,7 @@ profileset."Combo 65"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 65"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 65"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 65"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 65"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2182,7 +2182,7 @@ profileset."Combo 66"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 66"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 66"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 66"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 66"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2215,7 +2215,7 @@ profileset."Combo 67"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 67"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 67"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 67"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 67"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2248,7 +2248,7 @@ profileset."Combo 68"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 68"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 68"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 68"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 68"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2281,7 +2281,7 @@ profileset."Combo 69"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 69"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 69"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 69"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 69"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2314,7 +2314,7 @@ profileset."Combo 70"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 70"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 70"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 70"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 70"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2347,7 +2347,7 @@ profileset."Combo 71"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 71"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 71"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 71"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 71"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2380,7 +2380,7 @@ profileset."Combo 72"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 72"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 72"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 72"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 72"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2413,7 +2413,7 @@ profileset."Combo 73"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 73"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 73"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 73"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 73"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2446,7 +2446,7 @@ profileset."Combo 74"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 74"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 74"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 74"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 74"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2479,7 +2479,7 @@ profileset."Combo 75"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 75"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 75"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 75"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 75"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2512,7 +2512,7 @@ profileset."Combo 76"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 76"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 76"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 76"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 76"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2545,7 +2545,7 @@ profileset."Combo 77"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 77"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 77"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 77"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 77"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2578,7 +2578,7 @@ profileset."Combo 78"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 78"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 78"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 78"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 78"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2611,7 +2611,7 @@ profileset."Combo 79"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 79"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 79"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 79"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 79"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2644,7 +2644,7 @@ profileset."Combo 80"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 80"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 80"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 80"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 80"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2677,7 +2677,7 @@ profileset."Combo 81"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 81"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 81"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 81"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 81"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2710,7 +2710,7 @@ profileset."Combo 82"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 82"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 82"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 82"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 82"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2743,7 +2743,7 @@ profileset."Combo 83"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 83"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 83"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 83"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 83"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2776,7 +2776,7 @@ profileset."Combo 84"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 84"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 84"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 84"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 84"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2809,7 +2809,7 @@ profileset."Combo 85"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 85"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 85"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 85"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 85"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2842,7 +2842,7 @@ profileset."Combo 86"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 86"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 86"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 86"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 86"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2875,7 +2875,7 @@ profileset."Combo 87"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 87"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 87"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 87"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 87"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2908,7 +2908,7 @@ profileset."Combo 88"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 88"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 88"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 88"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 88"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2941,7 +2941,7 @@ profileset."Combo 89"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 89"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 89"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 89"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 89"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -2974,7 +2974,7 @@ profileset."Combo 90"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 90"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 90"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 90"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 90"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3007,7 +3007,7 @@ profileset."Combo 91"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 91"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 91"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 91"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 91"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3040,7 +3040,7 @@ profileset."Combo 92"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 92"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 92"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 92"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 92"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3073,7 +3073,7 @@ profileset."Combo 93"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 93"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 93"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 93"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 93"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3106,7 +3106,7 @@ profileset."Combo 94"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 94"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 94"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 94"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 94"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3139,7 +3139,7 @@ profileset."Combo 95"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 95"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 95"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 95"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 95"+="off_hand=,id=160696,bonus_id=4800/1507"
 
@@ -3172,7 +3172,7 @@ profileset."Combo 96"+="trinket1=,id=160656,bonus_id=4800/1507"
 #Vigilant's Bloodshaper 385
 profileset."Combo 96"+="trinket2=,id=160651,bonus_id=4800/1507"
 #Tusk of the Reborn Prophet 385
-profileset."Combo 96"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=deadly_navigation,enchant_id=5963"
+profileset."Combo 96"+="main_hand=,id=160691,bonus_id=4800/1507,enchant=quick_navigation,enchant_id=5963"
 #Codex of Imminent Ruin 385
 profileset."Combo 96"+="off_hand=,id=160696,bonus_id=4800/1507"
 

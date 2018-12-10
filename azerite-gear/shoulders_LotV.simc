@@ -2,10 +2,11 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=1111121
+talents=1111111
 spec=shadow
 
 default_actions=1
+initial_resource=insanity=25
 
 # Head/Shoulders/Chest at 340 ilvl
 head=smartly_plumed_cap,id=155886,ilevel=340
@@ -25,121 +26,158 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-# profileset."Base_AS"+=talents=1111122
-
 # Mantle of Contained Corruption - 355, 370, 385
-# Spiteful Apparitions + Archive of the Titans / Unstable Flames
-profileset."S_355_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=403/459/13
-profileset."S_370_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=403/459/13
-profileset."S_385_mantle_of_contained_corruption_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=403/459/13
-profileset."S_355_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=483/459/13
-profileset."S_370_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=483/459/13
-profileset."S_385_mantle_of_contained_corruption_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=483/459/13
-# AS
-# profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=403/459/13
-# profileset."S_355_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
-# profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=403/459/13
-# profileset."S_370_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
-# profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=403/459/13
-# profileset."S_385_mantle_of_contained_corruption_SA_UF_AS"+=talents=1111122
+# Thought Harvester + Searing Dialogue / Spiteful Apparitions + Archive of the Titans / Unstable Flames
+profileset."S_355_mantle_of_contained_corruption_TH_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=166/403/459/13
+profileset."S_370_mantle_of_contained_corruption_TH_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=166/403/459/13
+profileset."S_385_mantle_of_contained_corruption_TH_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=166/403/459/13
+profileset."S_355_mantle_of_contained_corruption_TH_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=166/483/459/13
+profileset."S_370_mantle_of_contained_corruption_TH_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=166/483/459/13
+profileset."S_385_mantle_of_contained_corruption_TH_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=166/483/459/13
+profileset."S_355_mantle_of_contained_corruption_SD_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=115/403/459/13
+profileset."S_370_mantle_of_contained_corruption_SD_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=115/403/459/13
+profileset."S_385_mantle_of_contained_corruption_SD_SA_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=115/403/459/13
+profileset."S_355_mantle_of_contained_corruption_SD_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=355,azerite_powers=115/483/459/13
+profileset."S_370_mantle_of_contained_corruption_SD_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=370,azerite_powers=115/483/459/13
+profileset."S_385_mantle_of_contained_corruption_SD_AotT_UF"+=shoulder=mantle_of_contained_corruption,id=160613,ilevel=385,azerite_powers=115/483/459/13
 
 # Amice of Corrupting Horror - 355, 370, 385
-# Whispers of the Damned + Laser Matrix / Earthlink
-profileset."S_355_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=236/461/13
-profileset."S_370_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=236/461/13
-profileset."S_385_amice_of_corrupting_horror_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=236/461/13
-profileset."S_355_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=485/461/13
-profileset."S_370_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=485/461/13
-profileset."S_385_amice_of_corrupting_horror_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=485/461/13
+# Spiteful Apparitions + Death Throes / Whispers of the Damned + Laser Matrix / Earthlink
+profileset."S_355_amice_of_corrupting_horror_SA_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=403/236/461/13
+profileset."S_370_amice_of_corrupting_horror_SA_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=403/236/461/13
+profileset."S_385_amice_of_corrupting_horror_SA_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=403/236/461/13
+profileset."S_355_amice_of_corrupting_horror_SA_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=403/485/461/13
+profileset."S_370_amice_of_corrupting_horror_SA_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=403/485/461/13
+profileset."S_385_amice_of_corrupting_horror_SA_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=403/485/461/13
+profileset."S_355_amice_of_corrupting_horror_DT_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=404/236/461/13
+profileset."S_370_amice_of_corrupting_horror_DT_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=404/236/461/13
+profileset."S_385_amice_of_corrupting_horror_DT_WotD_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=404/236/461/13
+profileset."S_355_amice_of_corrupting_horror_DT_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=355,azerite_powers=404/485/461/13
+profileset."S_370_amice_of_corrupting_horror_DT_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=370,azerite_powers=404/485/461/13
+profileset."S_385_amice_of_corrupting_horror_DT_LM_EL"+=shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=404/485/461/13
 
 # Amice of the Rending Abyss - 355, 370, 385
-# Searing Dialogue + Tidal Surge / Heed My Call
-profileset."S_355_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=115/22/13
-profileset."S_370_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=115/22/13
-profileset."S_385_amice_of_the_rending_abyss_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=115/22/13
-profileset."S_355_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=478/22/13
-profileset."S_370_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=478/22/13
-profileset."S_385_amice_of_the_rending_abyss_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=478/22/13
+# Chorus of Insanity + Whispers of the Damned / Searing Dialogue + Tidal Surge / Heed My Call
+profileset."S_355_amice_of_the_rending_abyss_CoI_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=405/115/22/13
+profileset."S_370_amice_of_the_rending_abyss_CoI_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=405/115/22/13
+profileset."S_385_amice_of_the_rending_abyss_CoI_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=405/115/22/13
+profileset."S_355_amice_of_the_rending_abyss_CoI_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=405/478/22/13
+profileset."S_370_amice_of_the_rending_abyss_CoI_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=405/478/22/13
+profileset."S_385_amice_of_the_rending_abyss_CoI_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=405/478/22/13
+profileset."S_355_amice_of_the_rending_abyss_WotD_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=236/115/22/13
+profileset."S_370_amice_of_the_rending_abyss_WotD_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=236/115/22/13
+profileset."S_385_amice_of_the_rending_abyss_WotD_SD_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=236/115/22/13
+profileset."S_355_amice_of_the_rending_abyss_WotD_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=355,azerite_powers=236/478/22/13
+profileset."S_370_amice_of_the_rending_abyss_WotD_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=370,azerite_powers=236/478/22/13
+profileset."S_385_amice_of_the_rending_abyss_WotD_TS_HMC"+=shoulder=amice_of_the_rending_abyss,id=161349,ilevel=385,azerite_powers=236/478/22/13
 
-# Mantle of Ceremonial Ascension - 340, 355, 370, 385
-# Chorus of Insanity + Incite the Pack / Elemental Whirl
-profileset."S_340_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=340,azerite_powers=405/21/13
-profileset."S_370_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=405/21/13
-profileset."S_355_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=405/21/13
-profileset."S_385_mantle_of_ceremonial_ascension_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=405/21/13
-profileset."S_340_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=340,azerite_powers=481/21/13
-profileset."S_355_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=481/21/13
-profileset."S_370_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=481/21/13
-profileset."S_385_mantle_of_ceremonial_ascension_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=481/21/13
+# Mantle of Ceremonial Ascension - 355, 370, 385
+# Spiteful Apparitions + Searing Dialogue / Chorus of Insanity + Incite the Pack / Elemental Whirl
+profileset."S_370_mantle_of_ceremonial_ascension_SA_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=403/405/21/13
+profileset."S_355_mantle_of_ceremonial_ascension_SA_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=403/405/21/13
+profileset."S_385_mantle_of_ceremonial_ascension_SA_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=403/405/21/13
+profileset."S_355_mantle_of_ceremonial_ascension_SA_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=403/481/21/13
+profileset."S_370_mantle_of_ceremonial_ascension_SA_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=403/481/21/13
+profileset."S_385_mantle_of_ceremonial_ascension_SA_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=403/481/21/13
+profileset."S_370_mantle_of_ceremonial_ascension_SD_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=115/405/21/13
+profileset."S_355_mantle_of_ceremonial_ascension_SD_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=115/405/21/13
+profileset."S_385_mantle_of_ceremonial_ascension_SD_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=115/405/21/13
+profileset."S_355_mantle_of_ceremonial_ascension_SD_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=355,azerite_powers=115/481/21/13
+profileset."S_370_mantle_of_ceremonial_ascension_SD_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=370,azerite_powers=115/481/21/13
+profileset."S_385_mantle_of_ceremonial_ascension_SD_ItP_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=385,azerite_powers=115/481/21/13
 
-# Exquisitely Aerodynamic Shoulderpads - 340, 355, 370, 385
-# Searing Dialogue + Unstable Catalyst / Gutripper + On My Way
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=340,azerite_powers=115/31/13
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=115/31/13
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=115/31/13
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=115/31/13
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=340,azerite_powers=115/38/13
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=115/38/13
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=115/38/13
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=115/38/13
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=340,azerite_powers=504/31/13
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=504/31/13
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=504/31/13
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=504/31/13
-profileset."S_340_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=340,azerite_powers=504/38/13
-profileset."S_355_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=504/38/13
-profileset."S_370_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=504/38/13
-profileset."S_385_exquisitely_aerodynamic_shoulderpads_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=504/38/13
+# Exquisitely Aerodynamic Shoulderpads - 355, 370, 385
+# Chorus of Insanity + Whispers of the Damned / Searing Dialogue + Unstable Catalyst / Gutripper + On My Way
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_CoI_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=405/115/31/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_CoI_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=405/115/31/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_CoI_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=405/115/31/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_CoI_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=405/115/38/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_CoI_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=405/115/38/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_CoI_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=405/115/38/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_CoI_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=405/504/31/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_CoI_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=405/504/31/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_CoI_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=405/504/31/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_CoI_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=405/504/38/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_CoI_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=405/504/38/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_CoI_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=405/504/38/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_WotD_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=236/115/31/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_WotD_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=236/115/31/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_WotD_SD_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=236/115/31/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_WotD_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=236/115/38/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_WotD_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=236/115/38/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_WotD_SD_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=236/115/38/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_WotD_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=236/504/31/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_WotD_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=236/504/31/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_WotD_UC_GR"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=236/504/31/13
+profileset."S_355_exquisitely_aerodynamic_shoulderpads_WotD_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=355,azerite_powers=236/504/38/13
+profileset."S_370_exquisitely_aerodynamic_shoulderpads_WotD_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=370,azerite_powers=236/504/38/13
+profileset."S_385_exquisitely_aerodynamic_shoulderpads_WotD_UC_OMW"+=shoulder=exquisitely_aerodynamic_shoulderpads,id=159232,ilevel=385,azerite_powers=236/504/38/13
 
-# Mantle of Void-Touched Waters - 340, 355, 370, 385
-# Whispers of the Damned + Secrets of the Deep / Heed My Call
-profileset."S_340_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=340,azerite_powers=236/22/13
-profileset."S_355_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=236/22/13
-profileset."S_370_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=236/22/13
-profileset."S_385_mantle_of_void_touched_waters_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=236/22/13
-profileset."S_340_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=340,azerite_powers=195/22/13
-profileset."S_355_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=195/22/13
-profileset."S_370_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=195/22/13
-profileset."S_385_mantle_of_void_touched_waters_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=195/22/13
+# Mantle of Void-Touched Waters - 355, 370, 385
+# Death Throes + Thought Harvester / Whispers of the Damned + Secrets of the Deep / Heed My Call
+profileset."S_355_mantle_of_void_touched_waters_DT_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=404/236/22/13
+profileset."S_370_mantle_of_void_touched_waters_DT_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=404/236/22/13
+profileset."S_385_mantle_of_void_touched_waters_DT_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=404/236/22/13
+profileset."S_355_mantle_of_void_touched_waters_DT_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=404/195/22/13
+profileset."S_370_mantle_of_void_touched_waters_DT_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=404/195/22/13
+profileset."S_385_mantle_of_void_touched_waters_DT_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=404/195/22/13
+profileset."S_355_mantle_of_void_touched_waters_TH_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=166/236/22/13
+profileset."S_370_mantle_of_void_touched_waters_TH_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=166/236/22/13
+profileset."S_385_mantle_of_void_touched_waters_TH_WotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=166/236/22/13
+profileset."S_355_mantle_of_void_touched_waters_TH_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=355,azerite_powers=166/195/22/13
+profileset."S_370_mantle_of_void_touched_waters_TH_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=370,azerite_powers=166/195/22/13
+profileset."S_385_mantle_of_void_touched_waters_TH_SotD_HMC"+=shoulder=mantle_of_void_touched_waters,id=159238,ilevel=385,azerite_powers=166/195/22/13
 
-# Brood Cleanser's Amice - 340, 355, 370, 385
-# Searing Dialogue + Swirling Sands / Earthlink
-profileset."S_340_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=340,azerite_powers=115/461/13
-profileset."S_355_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=115/461/13
-profileset."S_370_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=115/461/13
-profileset."S_385_brood_cleansers_amice_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=115/461/13
-profileset."S_340_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=340,azerite_powers=196/461/13
-profileset."S_355_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=196/461/13
-profileset."S_370_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=196/461/13
-profileset."S_385_brood_cleansers_amice_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=196/461/13
+# Brood Cleanser's Amice - 355, 370, 385
+# Spiteful Apparitions + Thought Harvester / Searing Dialogue + Swirling Sands / Earthlink
+profileset."S_355_brood_cleansers_amice_SA_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=403/115/461/13
+profileset."S_370_brood_cleansers_amice_SA_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=403/115/461/13
+profileset."S_385_brood_cleansers_amice_SA_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=403/115/461/13
+profileset."S_355_brood_cleansers_amice_SA_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=403/196/461/13
+profileset."S_370_brood_cleansers_amice_SA_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=403/196/461/13
+profileset."S_385_brood_cleansers_amice_SA_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=403/196/461/13
+profileset."S_355_brood_cleansers_amice_TH_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=166/115/461/13
+profileset."S_370_brood_cleansers_amice_TH_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=166/115/461/13
+profileset."S_385_brood_cleansers_amice_TH_SD_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=166/115/461/13
+profileset."S_355_brood_cleansers_amice_TH_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=355,azerite_powers=166/196/461/13
+profileset."S_370_brood_cleansers_amice_TH_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=370,azerite_powers=166/196/461/13
+profileset."S_385_brood_cleansers_amice_TH_SS_EL"+=shoulder=brood_cleansers_amice,id=159254,ilevel=385,azerite_powers=166/196/461/13
 
-# Pauldrons of Vile Corruption - 340, 355, 370, 385
-# Spiteful Apparitions + Blood Rite / Unstable Flames
-profileset."S_340_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=340,azerite_powers=403/459/13
-profileset."S_355_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=403/459/13
-profileset."S_370_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=403/459/13
-profileset."S_385_pauldrons_of_vile_corruption_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=403/459/13
-profileset."S_340_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=340,azerite_powers=480/459/13
-profileset."S_355_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=480/459/13
-profileset."S_370_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=480/459/13
-profileset."S_385_pauldrons_of_vile_corruption_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=480/459/13
-# AS
-# profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=340,azerite_powers=403/459/13
-# profileset."S_340_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-# profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=403/459/13
-# profileset."S_355_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-# profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=403/459/13
-# profileset."S_370_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
-# profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=403/459/13
-# profileset."S_385_pauldrons_of_vile_corruption_SA_UF_AS"+=talents=1111122
+# Pauldrons of Vile Corruption - 355, 370, 385
+# Death Throes + Whispers of the Damned / Spiteful Apparitions + Blood Rite / Unstable Flames
+profileset."S_355_pauldrons_of_vile_corruption_DT_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=404/403/459/13
+profileset."S_370_pauldrons_of_vile_corruption_DT_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=404/403/459/13
+profileset."S_385_pauldrons_of_vile_corruption_DT_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=404/403/459/13
+profileset."S_355_pauldrons_of_vile_corruption_DT_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=404/480/459/13
+profileset."S_370_pauldrons_of_vile_corruption_DT_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=404/480/459/13
+profileset."S_385_pauldrons_of_vile_corruption_DT_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=404/480/459/13
+profileset."S_355_pauldrons_of_vile_corruption_WotD_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=236/403/459/13
+profileset."S_370_pauldrons_of_vile_corruption_WotD_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=236/403/459/13
+profileset."S_385_pauldrons_of_vile_corruption_WotD_SA_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=236/403/459/13
+profileset."S_355_pauldrons_of_vile_corruption_WotD_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=355,azerite_powers=236/480/459/13
+profileset."S_370_pauldrons_of_vile_corruption_WotD_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=370,azerite_powers=236/480/459/13
+profileset."S_385_pauldrons_of_vile_corruption_WotD_BR_UF"+=shoulder=pauldrons_of_vile_corruption,id=159267,ilevel=385,azerite_powers=236/480/459/13
 
-# Amice of the Returned - 340, 355, 370, 385
-# Death Throes + Ruinous Bolt / Unstable Flames
-profileset."S_340_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=340,azerite_powers=404/459/13
-profileset."S_355_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=404/459/13
-profileset."S_370_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=404/459/13
-profileset."S_385_amice_of_the_returned_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=404/459/13
-profileset."S_340_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=340,azerite_powers=156/459/13
-profileset."S_355_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=156/459/13
-profileset."S_370_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=156/459/13
-profileset."S_385_amice_of_the_returned_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=156/459/13
+# Amice of the Returned - 355, 370, 385
+# Chorus of Insanity + Searing Dialogue / Death Throes + Ruinous Bolt / Unstable Flames
+profileset."S_355_amice_of_the_returned_CoI_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=405/404/459/13
+profileset."S_370_amice_of_the_returned_CoI_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=405/404/459/13
+profileset."S_385_amice_of_the_returned_CoI_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=405/404/459/13
+profileset."S_355_amice_of_the_returned_CoI_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=405/156/459/13
+profileset."S_370_amice_of_the_returned_CoI_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=405/156/459/13
+profileset."S_385_amice_of_the_returned_CoI_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=405/156/459/13
+profileset."S_355_amice_of_the_returned_SD_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=115/404/459/13
+profileset."S_370_amice_of_the_returned_SD_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=115/404/459/13
+profileset."S_385_amice_of_the_returned_SD_DT_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=115/404/459/13
+profileset."S_355_amice_of_the_returned_SD_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=355,azerite_powers=115/156/459/13
+profileset."S_370_amice_of_the_returned_SD_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=370,azerite_powers=115/156/459/13
+profileset."S_385_amice_of_the_returned_SD_RB_UF"+=shoulder=amice_of_the_returned,id=159273,ilevel=385,azerite_powers=115/156/459/13
+
+# Bristling Fur-Lined Amice - 385, 400, 415
+# Searing Dialogue + Chorus of Insanity / Bonded Souls + Spiteful Apparitions / Azerite Globules
+
+# Mantle of the Skyterror - 385, 400, 415
+# Thought Harvester + Death Throes / Seductive Power + Chorus of Insanity / Blood Siphon + On My Way
+
+# Giga-Charged Shoulderpads - 385, 400, 415
+# Whispers of the Damned + Spiteful Apparitions / Treacherous Covenant + Searing Dialogue / Heed My Call

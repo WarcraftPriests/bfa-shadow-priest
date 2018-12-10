@@ -1,27 +1,27 @@
 # Uldir Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|16162|2.73%|
-|Weapon-Deadly-Navigation|16132|2.54%|
-|Weapon-Torrent-of-Elements|16072|2.15%|
-|Weapon-Versatile-Navigation|16063|2.10%|
-|Weapon-Masterful-Navigation|16040|1.96%|
-|Ring_Pact_of_Haste|15827|0.60%|
-|Ring_Pact_of_Critical_Strike|15813|0.51%|
-|Ring_Pact_of_Versatility|15797|0.41%|
-|Ring_Pact_of_Mastery|15794|0.39%|
-|Base|15733|0.00%|
+|Ring_Pact_of_Haste|17025|0.01%|
+|Weapon-Quick-Navigation|17024|0.00%|
+|Base|17023|0.00%|
+|Ring_Pact_of_Critical_Strike|17019|-0.02%|
+|Ring_Pact_of_Versatility|17000|-0.13%|
+|Ring_Pact_of_Mastery|16998|-0.14%|
+|Weapon-Deadly-Navigation|16993|-0.17%|
+|Weapon-Torrent-of-Elements|16932|-0.53%|
+|Weapon-Versatile-Navigation|16911|-0.66%|
+|Weapon-Masterful-Navigation|16906|-0.69%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|15449|2.76%|
-|Weapon-Deadly-Navigation|15401|2.44%|
-|Weapon-Torrent-of-Elements|15359|2.16%|
-|Weapon-Versatile-Navigation|15352|2.12%|
-|Weapon-Masterful-Navigation|15328|1.96%|
-|Ring_Pact_of_Haste|15125|0.61%|
-|Ring_Pact_of_Critical_Strike|15111|0.51%|
-|Ring_Pact_of_Versatility|15098|0.43%|
-|Ring_Pact_of_Mastery|15095|0.41%|
-|Base|15034|0.00%|
+|Weapon-Quick-Navigation|16252|0.01%|
+|Ring_Pact_of_Haste|16252|0.01%|
+|Base|16251|0.00%|
+|Ring_Pact_of_Critical_Strike|16247|-0.02%|
+|Ring_Pact_of_Mastery|16228|-0.14%|
+|Ring_Pact_of_Versatility|16228|-0.14%|
+|Weapon-Deadly-Navigation|16213|-0.23%|
+|Weapon-Torrent-of-Elements|16168|-0.51%|
+|Weapon-Versatile-Navigation|16147|-0.64%|
+|Weapon-Masterful-Navigation|16145|-0.65%|

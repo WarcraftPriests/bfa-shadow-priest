@@ -2,16 +2,17 @@ priest="Base"
 level=120
 role=spell
 position=back
-talents=1111121
+talents=1111111
 spec=shadow
 
 default_actions=1
+initial_resource=insanity=25
 
-head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
+head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=485/21/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=485/461/13
-back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=485/461/13
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=405/30/13
 wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
 hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
 waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
