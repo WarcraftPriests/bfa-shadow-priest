@@ -348,7 +348,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
-        sortedTraits = sortedTraits[:-1] #Remove Int_ since it will always be the last option.
+        if "Int_" in sortedTraits: sortedTraits.remove("Int_")
         ucntMax = len(sortedTraits)
         for s in sortedTraits:
             ucnt+=1
@@ -366,16 +366,16 @@ os.chdir("json_Charts/")
 
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_C.json", 'composite')
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_ST.json", 'single_target')
-buildTrinketJsonChart(trinketsDAJsonD, "trinkets_DA_D.json", 'dungeon')
+buildTrinketJsonChart(trinketsDAJsonD, "trinkets_DA_D.json", 'dungeons')
 buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_C.json", 'composite')
 buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_ST.json", 'single_target')
-buildTrinketJsonChart(trinketsLotVJsonD, "trinkets_LotV_D.json", 'dungeon')
+buildTrinketJsonChart(trinketsLotVJsonD, "trinkets_LotV_D.json", 'dungeons')
 buildTraitJsonChart(traitsDAJson, "traits_DA_C.json", 'composite')
 buildTraitJsonChart(traitsDAJson, "traits_DA_ST.json", 'single_target')
-buildTraitJsonChart(traitsDAJsonD, "traits_DA_D.json", 'dungeon')
+buildTraitJsonChart(traitsDAJsonD, "traits_DA_D.json", 'dungeons')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
-buildTraitJsonChart(traitsLotVJsonD, "traits_LotV_D.json", 'dungeon')
+buildTraitJsonChart(traitsLotVJsonD, "traits_LotV_D.json", 'dungeons')
 
 
 os.remove(trinketsDAJson)
