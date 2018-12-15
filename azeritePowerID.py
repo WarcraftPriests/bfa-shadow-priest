@@ -41,5 +41,13 @@ azeritePowerIDs = {
     "Tradewinds_1":505,
     "Unstable_Catalyst_1":504,
     "Unstable_Flames_1":459,
-    "Whispers_of_the_Damned_1":236
+    "Whispers_of_the_Damned_1":236,
+    # "Treacherous_Covenant_1":562,
+    # "Bonded_Souls_1":560,
+    # "Seductive_Power_1":561,
+    "Ancients_Bulwark_1":522,
+    "Apothecarys_Concoctions_1":523,
+    "Endless_Hunger_1":526,
+    "Fight_or_Flight_1":541,
+    "Shadow_of_Elune_1":521
 }
