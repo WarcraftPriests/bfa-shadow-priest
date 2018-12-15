@@ -348,7 +348,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
-        sortedTraits = sortedTraits[:-1] #Remove Int_ since it will always be the last option.
+        if "Int_" in sortedTraits: sortedTraits.remove("Int_")
         ucntMax = len(sortedTraits)
         for s in sortedTraits:
             ucnt+=1
