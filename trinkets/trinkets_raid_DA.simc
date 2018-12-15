@@ -82,6 +82,16 @@ profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4
 profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,bonus_id=1517/4798
 profileset."Crest_of_Paku_400"+=trinket1=crest_of_paku,id=165581,bonus_id=1522/4798
 
+profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,bonus_id=4798/1507
+profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4798
+profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,bonus_id=1517/4798
+profileset."Crest_of_Paku_400"+=trinket1=crest_of_paku,id=165581,bonus_id=1522/4798
+
+profileset."Ancient_Knot_of_Wisdom_385"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1502/5479
+profileset."Ancient_Knot_of_Wisdom_390"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1507/5479
+profileset."Ancient_Knot_of_Wisdom_395"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1512/5479
+profileset."Ancient_Knot_of_Wisdom_400"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1517/5479
+
 # Rare Elite Trinkets
 profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1477/4801
 profileset."Azurethos_Singed_Plumage_360"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1482/4801
