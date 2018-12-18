@@ -255,14 +255,14 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             m = re.search(r"\D*",x['actor'].rstrip()).group(0)
             namelist.append(m)
         uniqueList = make_unique(namelist)
-        #print(uniqueList)
+        if "Base" in uniqueList: uniqueList.remove("Base")
         j.write('\t"data": {\n')
         ucntMax = len(uniqueList)
         ucnt = 0
         for u in uniqueList:
             ucnt+=1
             traitSteps = ['1','2','3'] #Should always be 1-3 unless they add some random 4th azerite gear slot
-            if not u.replace('_',' ').rstrip() == 'Int': #Pull the int sims out
+            if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
                 j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
             maxCnt = 3
             cnt = 0
@@ -281,6 +281,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             else:
                 for x in data:
                     if x['profile'] == simType and x['actor'] == 'Base':
+                        j.write('\n\t\t"Base": \n')
                         j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                         j.write('\t\t\t"2_stack": 0,\n')
                         j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
@@ -304,6 +305,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Death Throes ":'+'"278659"'+',\n')
         j.write('\t\t"Earthlink ":'+'"279927"'+',\n')
         j.write('\t\t"Elemental Whirl ":'+'"270667"'+',\n')
+        j.write('\t\t"Endless Hunger ":'+'"287662"'+',\n')
         j.write('\t\t"Filthy Transfusion ":'+'"273836"'+',\n')
         j.write('\t\t"Glory in Battle ":'+'"280852"'+',\n')
         j.write('\t\t"Gutripper ":'+'"266937"'+',\n')
@@ -321,6 +323,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Ruinous Bolt ":'+'"280206"'+',\n')
         j.write('\t\t"Searing Dialogue ":'+'"272788"'+',\n')
         j.write('\t\t"Secrets of the Deep ":'+'"273829"'+',\n')
+        j.write('\t\t"Shadow of Elune ": ' + '"287471" ' + ',\n')
         j.write('\t\t"Spiteful Apparitions ":'+'"277682"'+',\n')
         j.write('\t\t"Swirling Sands ":'+'"280433"'+',\n')
         j.write('\t\t"Sylvanas Resolve ":'+'"280810"'+',\n')
@@ -344,7 +347,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         for u in uniqueList:
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+'1'):
-                    DPSSort.append(x['DPS'])
+                    DPSSort.append(x['DPS'])        
+        if "Int_" in uniqueList: uniqueList.remove("Int_")
+        
         sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
@@ -377,6 +382,7 @@ buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
 buildTraitJsonChart(traitsLotVJsonD, "traits_LotV_D.json", 'dungeons')
 
+#exit()
 
 os.remove(trinketsDAJson)
 os.remove(trinketsLotVJson)

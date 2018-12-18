@@ -235,8 +235,6 @@
 			"2_stack": 15590,
 			"3_stack": 15601
 		},
-		"Base": {
-		},
 		"Endless Hunger": {
 			"1_stack": 15596,
 			"2_stack": 15584,
@@ -246,6 +244,8 @@
 			"1_stack": 15601,
 			"2_stack": 15598,
 			"3_stack": 15587
+
+		"Base": 
 			"1_stack": 15603,
 			"2_stack": 0,
 			"3_stack": 0
@@ -347,9 +347,11 @@
 		"Blood Siphon ",
 		"Azerite Empowered ",
 		"Combined Might ",
-		"Retaliatory Fury ",
-		"Fight or Flight ",
+		"Ancients Bulwark ",
 		"Apothecarys Concoctions ",
-		"Ancients Bulwark "
+		"Shadow of Elune ",
+		"Endless Hunger ",
+		"Fight or Flight ",
+		"Retaliatory Fury "
 	]
 }

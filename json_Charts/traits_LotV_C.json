@@ -240,12 +240,12 @@
 			"2_stack": 14632,
 			"3_stack": 14634
 		},
-		"Base": {
-		},
 		"Retaliatory Fury": {
 			"1_stack": 14633,
 			"2_stack": 14632,
 			"3_stack": 14634
+
+		"Base": 
 			"1_stack": 14634,
 			"2_stack": 0,
 			"3_stack": 0
@@ -346,11 +346,12 @@
 		"Earthlink ",
 		"Azerite Empowered ",
 		"Combined Might ",
-		"Apothecarys Concoctions ",
-		"Ancients Bulwark ",
-		"Shadow of Elune ",
-		"Endless Hunger ",
 		"Searing Dialogue ",
-		"Fight or Flight "
+		"Shadow of Elune ",
+		"Ancients Bulwark ",
+		"Fight or Flight ",
+		"Apothecarys Concoctions ",
+		"Endless Hunger ",
+		"Retaliatory Fury "
 	]
 }

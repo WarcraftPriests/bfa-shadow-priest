@@ -225,8 +225,6 @@
 			"2_stack": 15466,
 			"3_stack": 15452
 		},
-		"Base": {
-		},
 		"Ancients Bulwark": {
 			"1_stack": 15461,
 			"2_stack": 15440,
@@ -246,6 +244,8 @@
 			"1_stack": 15452,
 			"2_stack": 15448,
 			"3_stack": 15451
+
+		"Base": 
 			"1_stack": 15462,
 			"2_stack": 0,
 			"3_stack": 0
@@ -347,9 +347,11 @@
 		"On My Way ",
 		"Azerite Empowered ",
 		"Combined Might ",
+		"Ancients Bulwark ",
 		"Apothecarys Concoctions ",
 		"Shadow of Elune ",
-		"Ancients Bulwark ",
-		"Fight or Flight ",
+		"Endless Hunger ",
+		"Retaliatory Fury ",
+		"Fight or Flight "
 	]
 }
