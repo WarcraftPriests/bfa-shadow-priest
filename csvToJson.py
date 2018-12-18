@@ -291,7 +291,10 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t},\n')
         j.write('\t"Data_type": "traits",\n\t"spell_ids" : {\n')
         #Manually write in spell id's for traits
+        j.write('\t\t"Ancients Bulwark ":'+'"287631"'+',\n')
+        j.write('\t\t"Apothecarys Concoctions ":'+'"287604"'+',\n')
         j.write('\t\t"Archive of the Titans ":'+'"280708"'+',\n')
+        j.write('\t\t"Azerite Empowered ":'+'"263978"'+',\n')
         j.write('\t\t"Azerite Globules ":'+'"279955"'+',\n')
         j.write('\t\t"Barrage Of Many Bombs ":'+'"280163"'+',\n')
         j.write('\t\t"Battlefield Focus ":'+'"280582"'+',\n')
@@ -308,6 +311,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Earthlink ":'+'"279927"'+',\n')
         j.write('\t\t"Elemental Whirl ":'+'"270667"'+',\n')
         j.write('\t\t"Endless Hunger ":'+'"287662"'+',\n')
+        j.write('\t\t"Fight or Flight ":'+'"287818"'+',\n')
         j.write('\t\t"Filthy Transfusion ":'+'"273836"'+',\n')
         j.write('\t\t"Glory in Battle ":'+'"280852"'+',\n')
         j.write('\t\t"Gutripper ":'+'"266937"'+',\n')

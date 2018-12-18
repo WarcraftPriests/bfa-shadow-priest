@@ -253,7 +253,10 @@
 	},
 	"Data_type": "traits",
 	"spell_ids" : {
+		"Ancients Bulwark ":"287631",
+		"Apothecarys Concoctions ":"287604",
 		"Archive of the Titans ":"280708",
+		"Azerite Empowered ":"263978",
 		"Azerite Globules ":"279955",
 		"Barrage Of Many Bombs ":"280163",
 		"Battlefield Focus ":"280582",
@@ -270,6 +273,7 @@
 		"Earthlink ":"279927",
 		"Elemental Whirl ":"270667",
 		"Endless Hunger ":"287662",
+		"Fight or Flight ":"287818",
 		"Filthy Transfusion ":"273836",
 		"Glory in Battle ":"280852",
 		"Gutripper ":"266937",
