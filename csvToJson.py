@@ -283,7 +283,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 j.write('\t\t},')
                 for x in data:
                     if x['profile'] == simType and x['actor'] == 'Base':
-                        j.write('\n\t\t"Base": \n')
+                        j.write('\n\t\t"Base": {\n')
                         j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                         j.write('\t\t\t"2_stack": 0,\n')
                         j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
