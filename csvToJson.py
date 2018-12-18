@@ -258,6 +258,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         if "Base" in uniqueList: uniqueList.remove("Base")
         j.write('\t"data": {\n')
         ucntMax = len(uniqueList)
+        #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
             ucnt+=1
@@ -279,6 +280,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
                     j.write('\t\t},\n')
             else:
+                j.write('\t\t},')
                 for x in data:
                     if x['profile'] == simType and x['actor'] == 'Base':
                         j.write('\n\t\t"Base": \n')
