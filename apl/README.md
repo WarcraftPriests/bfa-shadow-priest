@@ -1,11 +1,11 @@
 # Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Precombat|16166|0.01%|
-|Base|16165|0.00%|
+|Cleave_mods|16304|0.58%|
+|Base|16210|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Precombat|15350|0.03%|
-|Base|15345|0.00%|
+|Cleave_mods|15172|0.01%|
+|Base|15171|0.00%|
