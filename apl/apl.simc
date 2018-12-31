@@ -29,7 +29,6 @@ actions.precombat+=/snapshot_stats
 actions.precombat+=/potion
 actions.precombat+=/shadowform,if=!buff.shadowform.up
 actions.precombat+=/mind_blast,if=spell_targets.mind_sear<2|azerite.thought_harvester.rank=0
-actions.precombat+=/shadow_word_void,if=spell_targets.mind_sear<2|azerite.thought_harvester.rank=0
 actions.precombat+=/vampiric_touch
 
 # Executed every time the actor is available.
@@ -40,36 +39,38 @@ actions+=/run_action_list,name=single,if=active_enemies=1
 
 actions.cleave=void_eruption
 actions.cleave+=/dark_ascension,if=buff.voidform.down
+actions.cleave+=/vampiric_touch,if=!ticking&azerite.thought_harvester.rank>=1
 actions.cleave+=/mind_sear,if=buff.harvested_thoughts.up
 actions.cleave+=/void_bolt
 actions.cleave+=/shadow_word_death,target_if=target.time_to_die<3|buff.voidform.down
-actions.cleave+=/surrender_to_madness
-actions.cleave+=/dark_void,if=raid_event.adds.in>10
+actions.cleave+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
+actions.cleave+=/dark_void,if=raid_event.adds.in>10&(dot.shadow_word_pain.refreshable|target.time_to_die>30)
 actions.cleave+=/mindbender
-actions.cleave+=/mind_blast
+actions.cleave+=/mind_blast,target_if=spell_targets.mind_sear<floor((4.5+azerite.whispers_of_the_damned.rank)%(1+0.4*azerite.searing_dialogue.rank))
 actions.cleave+=/shadow_crash,if=(raid_event.adds.in>5&raid_event.adds.duration<2)|raid_event.adds.duration>2
-actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4,if=!talent.misery.enabled&!talent.dark_void.enabled
-actions.cleave+=/vampiric_touch,target_if=refreshable,if=(target.time_to_die>6)
-actions.cleave+=/vampiric_touch,target_if=dot.shadow_word_pain.refreshable,if=(talent.misery.enabled&target.time_to_die>4)
+actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>((-1.2+3.3*spell_targets.mind_sear)*(1-0.07*azerite.death_throes.rank+0.2*azerite.thought_harvester.rank)*(1-0.018*azerite.searing_dialogue.rank*spell_targets.mind_sear)*(1-0.14*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)),if=!talent.misery.enabled
+actions.cleave+=/vampiric_touch,target_if=refreshable,if=(target.time_to_die>((1+3.3*spell_targets.mind_sear)*(1-0.04*azerite.thought_harvester.rank-0.05*azerite.spiteful_apparitions.rank)*(1+0.15*azerite.searing_dialogue.rank*spell_targets.mind_sear)))
+actions.cleave+=/vampiric_touch,target_if=dot.shadow_word_pain.refreshable,if=(talent.misery.enabled&target.time_to_die>((1.0+2.0*spell_targets.mind_sear)*(1-0.07*azerite.death_throes.rank-0.03*azerite.thought_harvester.rank-0.055*azerite.spiteful_apparitions.rank)*(1-0.014*azerite.searing_dialogue.rank*spell_targets.mind_sear)*(1-0.04*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)))
 actions.cleave+=/void_torrent,if=buff.voidform.up
-actions.cleave+=/mind_sear,target_if=spell_targets.mind_sear>2&buff.harvested_thoughts.down,chain=1,interrupt=1
+actions.cleave+=/mind_sear,target_if=spell_targets.mind_sear>1,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.cleave+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.cleave+=/shadow_word_pain
 
 actions.single=void_eruption
 actions.single+=/dark_ascension,if=buff.voidform.down
 actions.single+=/void_bolt
+actions.single+=/mind_sear,if=buff.harvested_thoughts.up&cooldown.void_bolt.remains>=1.5&azerite.searing_dialogue.rank>=1
 actions.single+=/shadow_word_death,if=target.time_to_die<3|cooldown.shadow_word_death.charges=2|(cooldown.shadow_word_death.charges=1&cooldown.shadow_word_death.remains<gcd.max)
-actions.single+=/surrender_to_madness,if=target.time_to_die>200|target.time_to_die<75
+actions.single+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
 actions.single+=/dark_void,if=raid_event.adds.in>10
 actions.single+=/mindbender
 actions.single+=/shadow_word_death,if=!buff.voidform.up|(cooldown.shadow_word_death.charges=2&buff.voidform.stack<15)
 actions.single+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
 actions.single+=/mind_blast,if=variable.dots_up
-actions.single+=/mind_sear,if=buff.harvested_thoughts.up
 actions.single+=/void_torrent,if=dot.shadow_word_pain.remains>4&dot.vampiric_touch.remains>4&buff.voidform.up
 actions.single+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&!talent.dark_void.enabled
 actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)
+actions.single+=/mind_sear,if=azerite.searing_dialogue.rank>=3,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.single+=/shadow_word_pain
 
@@ -90,7 +91,7 @@ trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
 main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
 off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
 
-priest="Cleave_mods"
+priest="Condensed"
 level=120
 role=spell
 position=back
@@ -118,10 +119,15 @@ actions.precombat+=/food
 actions.precombat+=/augmentation
 # Snapshot raid buffed stats before combat begins and pre-potting is done.
 actions.precombat+=/snapshot_stats
+# Calculate these variables once to reduce sim time
+actions.precombat+=/variable,name=mind_blast_targets,op=set,value=floor((4.5+azerite.whispers_of_the_damned.rank)%(1+0.4*azerite.searing_dialogue.rank))
+actions.precombat+=/variable,name=swp_trait_ranks_check,op=set,value=(1-0.07*azerite.death_throes.rank+0.2*azerite.thought_harvester.rank)*(1-0.018*azerite.searing_dialogue.rank*spell_targets.mind_sear)*(1-0.14*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)
+actions.precombat+=/variable,name=vt_trait_ranks_check,op=set,value=(1-0.04*azerite.thought_harvester.rank-0.05*azerite.spiteful_apparitions.rank)*(1+0.15*azerite.searing_dialogue.rank*spell_targets.mind_sear)
+actions.precombat+=/variable,name=vt_mis_trait_ranks_check,op=set,value=(1-0.07*azerite.death_throes.rank-0.03*azerite.thought_harvester.rank-0.055*azerite.spiteful_apparitions.rank)*(1-0.04*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)
+actions.precombat+=/variable,name=vt_mis_sd_check,op=set,value=1-0.014*azerite.searing_dialogue.rank
 actions.precombat+=/potion
 actions.precombat+=/shadowform,if=!buff.shadowform.up
 actions.precombat+=/mind_blast,if=spell_targets.mind_sear<2|azerite.thought_harvester.rank=0
-actions.precombat+=/shadow_word_void,if=spell_targets.mind_sear<2|azerite.thought_harvester.rank=0
 actions.precombat+=/vampiric_touch
 
 # Executed every time the actor is available.
@@ -136,33 +142,34 @@ actions.cleave+=/vampiric_touch,if=!ticking&azerite.thought_harvester.rank>=1
 actions.cleave+=/mind_sear,if=buff.harvested_thoughts.up
 actions.cleave+=/void_bolt
 actions.cleave+=/shadow_word_death,target_if=target.time_to_die<3|buff.voidform.down
-actions.cleave+=/surrender_to_madness
+actions.cleave+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
 actions.cleave+=/dark_void,if=raid_event.adds.in>10&(dot.shadow_word_pain.refreshable|target.time_to_die>30)
 actions.cleave+=/mindbender
-actions.cleave+=/mind_blast,target_if=spell_targets.mind_sear<floor((4.5+azerite.whispers_of_the_damned.rank)%(1+0.4*azerite.searing_dialogue.rank))
+actions.cleave+=/mind_blast,target_if=spell_targets.mind_sear<variable.mind_blast_targets
 actions.cleave+=/shadow_crash,if=(raid_event.adds.in>5&raid_event.adds.duration<2)|raid_event.adds.duration>2
-actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>((-1.2+3.3*spell_targets.mind_sear)*(1-0.07*azerite.death_throes.rank+0.2*azerite.thought_harvester.rank)*(1-0.018*azerite.searing_dialogue.rank*spell_targets.mind_sear)*(1-0.14*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)),if=!talent.misery.enabled
-actions.cleave+=/vampiric_touch,target_if=refreshable,if=(target.time_to_die>((1+3.3*spell_targets.mind_sear)*(1-0.04*azerite.thought_harvester.rank-0.05*azerite.spiteful_apparitions.rank)*(1+0.15*azerite.searing_dialogue.rank*spell_targets.mind_sear)))
-actions.cleave+=/vampiric_touch,target_if=dot.shadow_word_pain.refreshable,if=(talent.misery.enabled&target.time_to_die>((1.0+2.0*spell_targets.mind_sear)*(1-0.07*azerite.death_throes.rank-0.03*azerite.thought_harvester.rank-0.055*azerite.spiteful_apparitions.rank)*(1-0.014*azerite.searing_dialogue.rank*spell_targets.mind_sear)*(1-0.04*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)))
+actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>((-1.2+3.3*spell_targets.mind_sear)*variable.swp_trait_ranks_check),if=!talent.misery.enabled
+actions.cleave+=/vampiric_touch,target_if=refreshable,if=target.time_to_die>((1+3.3*spell_targets.mind_sear)*variable.vt_trait_ranks_check)
+actions.cleave+=/vampiric_touch,target_if=dot.shadow_word_pain.refreshable,if=(talent.misery.enabled&target.time_to_die>((1.0+2.0*spell_targets.mind_sear)*variable.vt_mis_trait_ranks_check*(variable.vt_mis_sd_check*spell_targets.mind_sear)))
 actions.cleave+=/void_torrent,if=buff.voidform.up
-actions.cleave+=/mind_sear,target_if=spell_targets.mind_sear>2&buff.harvested_thoughts.down,chain=1,interrupt=1
+actions.cleave+=/mind_sear,target_if=spell_targets.mind_sear>1,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.cleave+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.cleave+=/shadow_word_pain
 
 actions.single=void_eruption
 actions.single+=/dark_ascension,if=buff.voidform.down
 actions.single+=/void_bolt
+actions.single+=/mind_sear,if=buff.harvested_thoughts.up&cooldown.void_bolt.remains>=1.5&azerite.searing_dialogue.rank>=1
 actions.single+=/shadow_word_death,if=target.time_to_die<3|cooldown.shadow_word_death.charges=2|(cooldown.shadow_word_death.charges=1&cooldown.shadow_word_death.remains<gcd.max)
-actions.single+=/surrender_to_madness,if=target.time_to_die>200|target.time_to_die<75
+actions.single+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
 actions.single+=/dark_void,if=raid_event.adds.in>10
 actions.single+=/mindbender
 actions.single+=/shadow_word_death,if=!buff.voidform.up|(cooldown.shadow_word_death.charges=2&buff.voidform.stack<15)
 actions.single+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
 actions.single+=/mind_blast,if=variable.dots_up
-actions.single+=/mind_sear,if=buff.harvested_thoughts.up
 actions.single+=/void_torrent,if=dot.shadow_word_pain.remains>4&dot.vampiric_touch.remains>4&buff.voidform.up
 actions.single+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&!talent.dark_void.enabled
 actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)
+actions.single+=/mind_sear,if=azerite.searing_dialogue.rank>=3,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.single+=/shadow_word_pain
 
