@@ -1,19 +1,11 @@
-# Uldir Composite
+# Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|16221|0.00%|
-|VF_10|16161|-0.37%|
-|VF_15|16157|-0.39%|
-|No_VF_Check|16144|-0.47%|
-|VF_20|16023|-1.22%|
-|VF_25|15622|-3.69%|
+|Precombat|16166|0.01%|
+|Base|16165|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|15553|0.00%|
-|VF_10|15481|-0.46%|
-|VF_15|15480|-0.47%|
-|No_VF_Check|15465|-0.56%|
-|VF_20|15351|-1.30%|
-|VF_25|14946|-3.90%|
+|Precombat|15350|0.03%|
+|Base|15345|0.00%|
