@@ -1,27 +1,27 @@
 # Uldir Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Rising_Death|16984|2.32%|
-|Potion_of_Intellect|16943|2.07%|
-|Bountiful_Captains_Feast|16810|1.27%|
-|Swamp_Fish_n_Chips|16767|1.01%|
-|Galley Banquet|16757|0.95%|
-|Honey-Glazed_Haunches|16756|0.95%|
-|Sailors_Pie|16732|0.80%|
-|Spiced_Snapper|16731|0.80%|
-|Battle-Scarred Augment Rune|16728|0.78%|
-|Base|16599|0.00%|
+|Potion_of_Rising_Death|16458|2.39%|
+|Potion_of_Intellect|16412|2.10%|
+|Bountiful_Captains_Feast|16281|1.29%|
+|Swamp_Fish_n_Chips|16246|1.07%|
+|Honey-Glazed_Haunches|16233|0.99%|
+|Galley Banquet|16230|0.97%|
+|Spiced_Snapper|16204|0.80%|
+|Sailors_Pie|16203|0.80%|
+|Battle-Scarred Augment Rune|16198|0.77%|
+|Base|16075|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Rising_Death|16177|2.45%|
-|Potion_of_Intellect|16123|2.11%|
-|Bountiful_Captains_Feast|15994|1.30%|
-|Swamp_Fish_n_Chips|15951|1.02%|
-|Galley Banquet|15941|0.96%|
-|Honey-Glazed_Haunches|15937|0.94%|
-|Sailors_Pie|15916|0.81%|
-|Spiced_Snapper|15915|0.80%|
-|Battle-Scarred Augment Rune|15913|0.79%|
-|Base|15789|0.00%|
+|Potion_of_Rising_Death|15711|2.49%|
+|Potion_of_Intellect|15655|2.13%|
+|Bountiful_Captains_Feast|15528|1.30%|
+|Swamp_Fish_n_Chips|15493|1.07%|
+|Honey-Glazed_Haunches|15477|0.97%|
+|Galley Banquet|15476|0.96%|
+|Sailors_Pie|15451|0.80%|
+|Spiced_Snapper|15450|0.79%|
+|Battle-Scarred Augment Rune|15441|0.73%|
+|Base|15329|0.00%|
