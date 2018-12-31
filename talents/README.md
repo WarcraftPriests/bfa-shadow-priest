@@ -1,4 +1,4 @@
-# Uldir Composite
+# Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
 |FotM_ToF_AS_LI_DA|16837|28.08%|

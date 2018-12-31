@@ -15,14 +15,9 @@ dungeonsDA = 'talents=3131311'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
-parser.add_argument('--composite', help='Run a raidsimming batch of sims. Value can be either HH or MM.', choices=['HC','MM'])
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
 args = parser.parse_args()
-
-if args.composite and args.dungeons:
-    print("Error: cannot sim composite and dungeons at the same time")
-    exit()
 
 # clear out results
 assure_path_exists('%sresults/' % args.dir)
@@ -62,10 +57,10 @@ elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
     else:
         print("Error: must provide --talents [DA, LotV]")
         exit()
-elif (args.dir == "trinkets/" or args.dir == "azerite-traits-ra/") and not args.talents:
+elif (args.dir == "trinkets/" or args.dir == "azerite-traits/") and not args.talents:
     print("Error: must provide --talents [DA, LotV]")
     exit()
-elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits-ra/", "azerite-traits/"):
+elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits/"):
     print("Error: provided directory does not match known directory.")
     exit()
 
@@ -77,72 +72,27 @@ light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
 dungeons = 'fight_style="DungeonSlice"'
 
-# --composite [HC, MM]
-if args.composite:
-    with open("raidsimming/{0}/{1}_Taloc.simc".format(args.composite,args.composite), 'r') as sim:
-        taloc = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Mother_Early.simc".format(args.composite,args.composite), 'r') as sim:
-        mother_early = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Mother_Late.simc".format(args.composite,args.composite), 'r') as sim:
-        mother_late = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_FetidDevourer.simc".format(args.composite,args.composite), 'r') as sim:
-        fetid = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Zekvoz.simc".format(args.composite,args.composite), 'r') as sim:
-        zekvoz = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Vectis.simc".format(args.composite,args.composite), 'r') as sim:
-        vectis = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Zul.simc".format(args.composite,args.composite), 'r') as sim:
-        zul = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Mythrax.simc".format(args.composite,args.composite), 'r') as sim:
-        mythrax = sim.read()
-        sim.close()
-    with open("raidsimming/{0}/{1}_Ghuun.simc".format(args.composite,args.composite), 'r') as sim:
-        ghuun = sim.read()
-        sim.close()
-
 profiles = []
 if args.dir == "stats/":
-    RSreport = reports.reportsRSStats
     report = reports.reportsStats
     DSreport = reports.reportsDungeonsStats
 elif args.dir == "talents/":
-    RSreport = reports.reportsRSTalents
     report = reports.reportsTalents
     DSreport = reports.reportsDungeonsTalents
 elif args.dir == "trinkets/":
-    RSreport = reports.reportsRSTrinkets
     report = reports.reportsTrinkets
     DSreport = reports.reportsDungeonsTrinkets
 elif args.dir == "azerite-gear/":
-    RSreport = reports.reportsRSAzerite
     report = reports.reportsAzerite
     DSreport = reports.reportsDungeonsAzerite
-elif args.dir == "azerite-traits-ra/":
-    RSreport = reports.reportsRSRA
-    report = reports.reportsRA
-    DSreport = reports.reportsDungeonsRA
 elif args.dir == "azerite-traits/":
-    RSreport = reports.reportsRSAzeriteTraits
     report = reports.reportsAzeriteTraits
     DSreport = reports.reportsDungeonsAzeriteTraits
 else:
-    RSreport = reports.reportsRS
     DSreport = reports.reportsDungeons
     report = reports.reports
 
-if args.composite:
-    for value in RSreport:
-        profile = value.replace('results/_', 'profiles/%s_' % args.composite)
-        profile = profile.replace('json', 'simc')
-        profiles.append(profile)
-elif args.dungeons:
+if args.dungeons:
     for value in DSreport:
         profile = value.replace('results', 'profiles')
         profile = profile.replace('json', 'simc')
@@ -188,13 +138,6 @@ for value in profiles:
             simc = "{0}head_{1}.simc".format(args.dir, args.talents)
         if "shoulders" in value:
             simc = "{0}shoulders_{1}.simc".format(args.dir, args.talents)
-    elif args.dir == "azerite-traits-ra/":
-        if "zero" in value:
-            simc = "{0}azerite_zero_{1}.simc".format(args.dir, args.talents)
-        if "five" in value:
-            simc = "{0}azerite_five_{1}.simc".format(args.dir, args.talents)
-        if "ten" in value:
-            simc = "{0}azerite_ten_{1}.simc".format(args.dir, args.talents)
     elif args.dir == "azerite-traits/":
         if "other" in value:
             simc = "{0}other_{1}.simc".format(args.dir, args.talents)
@@ -206,26 +149,7 @@ for value in profiles:
         data = f.read()
         f.close()
     settings = '\n'
-    if args.composite:
-        if "Taloc" in value:
-            settings = settings + taloc + "\n"
-        if "Mother_Early" in value:
-            settings = settings + mother_early + "\n"
-        if "Mother_Late" in value:
-            settings = settings + mother_late + "\n"
-        if "Fetid" in value:
-            settings = settings + fetid + "\n"
-        if "Zekvoz" in value:
-            settings = settings + zekvoz + "\n"
-        if "Vectis" in value:
-            settings = settings + vectis + "\n"
-        if "Zul" in value:
-            settings = settings + zul + "\n"
-        if "Mythrax" in value:
-            settings = settings + mythrax + "\n"
-        if "Ghuun" in value:
-            settings = settings + ghuun + "\n"
-    elif args.dungeons:
+    if args.dungeons:
         settings = settings + dungeons + "\n"
         if args.talents and not args.dir == "talents/":
             if args.talents == "LotV":

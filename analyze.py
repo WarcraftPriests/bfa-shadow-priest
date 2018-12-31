@@ -7,7 +7,7 @@ import os
 
 azeritePowerIDs = azeritePowerID.azeritePowerIDs
 weightsSingle = weights.weightsSingle
-weightsUldir = weights.weightsUldir
+weightsBoD = weights.weightsBoD
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -50,7 +50,7 @@ resultsSingle = {}
 for value in data.iterrows():
     if args.weights:
         profile = value[1].profile
-        weight = weightsUldir.get(profile[profile.index('_')+1:])
+        weight = weightsBoD.get(profile[profile.index('_')+1:])
         weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
@@ -64,12 +64,12 @@ for value in data.iterrows():
             versSingle = (value[1].vers / value[1].int) * weightSingle
             wdpsSingle = (1 / value[1].int) * weightSingle
     else:
-        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/" or args.dir == "azerite-traits/" :
+        if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/" :
             profile = value[1].profile
-            weight = weightsUldir.get(profile[profile.index('_')+1:])
+            weight = weightsBoD.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         else:
-            weight = weightsUldir.get(value[1].profile)
+            weight = weightsBoD.get(value[1].profile)
             weightSingle = weightsSingle.get(value[1].profile)
     if not weightSingle:
         weightSingle = 0
@@ -104,7 +104,7 @@ for value in data.iterrows():
         else:
             resultsSingle[value[1].actor] = weightedDPSSingle
 
-if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits-ra/" or args.dir == "azerite-traits/":
+if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/":
     baseDPS = results.get('Base') / 3
     results['Base'] = baseDPS
     baseDPSSingle = resultsSingle.get('Base') / 3
@@ -131,13 +131,13 @@ else:
 
 # README.md output
 with open(outputMarkdown, 'w') as resultsMD:
-    # Uldir Composite
+    # Battle for Dazar'alor Composite
     if args.weights:
-        resultsMD.write('# Uldir Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        resultsMD.write('# Battle for Dazar\'alor Composite\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
         for key, value in results.items():
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
-        resultsMD.write('# Uldir Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
+        resultsMD.write('# Battle for Dazar\'alor Composite\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
@@ -152,7 +152,7 @@ with open(outputMarkdown, 'w') as resultsMD:
 
 # results.csv output
 with open(outputCSV, 'w') as resultsCSV:
-    # Uldir Composite
+    # Battle for Dazar'alor Composite
     if args.weights:
         resultsCSV.write('profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
         for key, value in results.items():
@@ -172,8 +172,8 @@ with open(outputCSV, 'w') as resultsCSV:
 # AzeritePowerWeights Export
 if args.dir == "azerite-traits/":
     with open(outputAPW, 'w') as resultsAPW:
-        # Uldir Composite
-        resultsAPW.write("# Uldir Composite\n```\n( AzeritePowerWeights:1:\"Priest - Uldir Composite {0}\":5:258:".format(args.talents))
+        # Battle for Dazar'alor Composite
+        resultsAPW.write("# Battle for Dazar\'alor Composite\n```\n( AzeritePowerWeights:1:\"Priest - Battle for Dazaralor Composite {0}\":5:258:".format(args.talents))
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             traitID = azeritePowerIDs.get(key)
             if traitID:
