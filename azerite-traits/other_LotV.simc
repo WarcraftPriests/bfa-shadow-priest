@@ -129,13 +129,6 @@ profileset."Blood_Siphon_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azer
 # Champion of Azeroth 82
 profileset."Champion_of_Azeroth_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=82
 
-profileset."Champion_of_Azeroth_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=82
-profileset."Champion_of_Azeroth_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=82
-
-profileset."Champion_of_Azeroth_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=82
-profileset."Champion_of_Azeroth_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=82
-profileset."Champion_of_Azeroth_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=82
-
 # On My Way 38
 profileset."On_My_Way_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=38
 
