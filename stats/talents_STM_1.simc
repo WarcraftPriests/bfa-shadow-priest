@@ -8,7 +8,7 @@ default_actions=1
 initial_resource=insanity=25
 
 head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=485/21/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
 shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=485/461/13
 back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
 chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=405/30/13

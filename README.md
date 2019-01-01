@@ -58,7 +58,7 @@ Every sim is run with the top DA and LotV build:
     - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
     - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33`
+- `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48`
 
 ### Stats - Mythic (Percent Stat - Gear Amount) - DA
 - 20.13% Crit - 1089
