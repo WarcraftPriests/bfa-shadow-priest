@@ -1,6 +1,5 @@
 priest="Priest_Shadow_T23M"
 level=120
-#race=troll
 role=spell
 position=back
 talents=1111111
@@ -9,60 +8,71 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-# Head - Death Throes/Archive of the Titans, Heed My Call, Azerite Empowered
-# head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404/22/13
-# Head - Thought Harvester/Laser Matrix, Elemental Whirl, Azerite Empowered
-head=visage_of_the_ascended_prophet,id=160719,bonus_id=4824/1507,azerite_powers=485/21/13
+# Head - WotD/SD - DT/TC - GR
+head=blazewing_hood,id=165500,bonus_id=4824/1537
+# Head - SA/TH - CoI/SP - BS
+# head=crown_of_the_seducer,id=165818,bonus_id=4824/1537
+# Head - TH/WotD - SD/BS - OP
+# head=cowl_of_tideborne_omens,id=165822,bonus_id=4824/1537
 
 # Neck
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
 
-# Shoulders - Whispers of the Damned, Earthlink, Azerite Empowered
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=485/461/13
-# Shoulders - Spiteful Apparitions/Archive of the Titans, Unstable Flames, Azerite Empowered
-# shoulder=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507,azerite_powers=483/459/13
+# Shoulders - CoI/SD - SA/BS - AG
+shoulder=bristling_fur_lined_amice,id=165922,bonus_id=4824/1537
+# Shoulders - DT/TH - CoI/SP - BS/OMW
+# shoulder=mantle_of_the_skyterror,id=165507,bonus_id=4824/1537
+# Shoulders - WotD/SA - SD/TC - HMC
+# shoulder=giga_charged_shoulderpads,id=165497,bonus_id=4824/1537
 
 # Back
-back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
-#back=plasma_spattered_greatcloak,id=160644,bonus_id=4800/1507
-# back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
+# back=silverback_cloak,id=165513,bonus_id=4800/1537
+back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
+# back=high_tinkers_cape,id=165924,bonus_id=4800/1537
 
-# Chest - Chorus of Insanity/Archive of the Titans, Overwhelming Power, Azerite Empowered
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405/30/13
+# Chest - SD/CoI - WotD/TC - OMW/EL
+chest=divine_fury_raiment,id=165834,bonus_id=4824/1537
+# Chest - DT/SA - TH/BS - EW
+# chest=vestments_of_the_afterlife,id=165498,bonus_id=4824/1537
+# Chest - CoI/DT - SA/SP - UF
+# chest=robes_of_biting_cold,id=165505,bonus_id=4824/1537
 
 # Wrists
-wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
+# wrists=bracers_of_zealous_calling,id=165501,bonus_id=4800/1537
+wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
 
 # Hands
-hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
+hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
 
 # Waist
-waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
-#waist=cord_of_animated_contagion,id=160734,bonus_id=4800/1507
+waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
 
 # Legs
-legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
+# legs=leggings_of_dire_research,id=165499,bonus_id=4800/1537
+legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
 
 # Feet
-feet=volatile_walkers,id=160714,bonus_id=4800/1507
+feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
 
 # Rings
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
-# finger1=ring_of_the_infinite_void,id=160647,bonus_id=4800/1507,enchant=pact_of_haste
-finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
+# finger1=band_of_multi_sided_strikes,id=165565,bonus_id=4800/1537
+finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537
+finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537
 
 # Trinkets
-trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
-# trinket2=vanquished_tendril_of_ghuun,id=160654,bonus_id=4800/1507
-trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
+trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
+# trinket2=tidestorm_codex,id=165576,bonus_id=1537/4798
+trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
 
-# # 2h
-# main_hand=heptavium__staff_of_torturous_knowledge,id=160690,bonus_id=4800/1507
-# main_hand=regurgitated_purifiers_flamestaff,id=160689,bonus_id=4800/1507
+# 2h
+main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537
+# main_hand=deathspeaker_spire,id=165597,bonus_id=4800/1537
 
-# # 1h
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
+# 1h
+# main_hand=desecrated_blade_of_the_disciples,id=165919,bonus_id=4800/1537
+# main_hand=goblet_of_glittering_favor,id=165592,bonus_id=4800/1537
+# main_hand=sirens_song,id=165603,bonus_id=4800/1537
 
-# # Off-Hand
-off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
-# off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507
+# Off-Hand
+# off_hand=cursed_monkey_palm,id=165582,bonus_id=4800/1537
+# off_hand=fogbreaker__light_of_the_sea,id=165583,bonus_id=4800/1537

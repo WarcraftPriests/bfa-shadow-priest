@@ -8,79 +8,78 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507
+head=blazewing_hood,id=165500,ilevel=415
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
-shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507
-back=cloak_of_rippling_whispers,id=160642,bonus_id=4800/1507
-chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507
-wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
-hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
-waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
-legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
-feet=volatile_walkers,id=160714,bonus_id=4800/1507
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
-finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
-trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4800/1507
-trinket2=vigilants_bloodshaper,id=160651,bonus_id=4800/1507
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
-off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+shoulder=bristling_fur_lined_amice,id=165922,ilevel=415
+back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
+chest=divine_fury_raiment,id=165834,ilevel=415
+wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
+hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
+waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
+legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
+feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
+finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
+finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
+trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
+trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
+main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
 # Death Throes 404
-profileset."Death_Throes_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404
+profileset."Death_Throes_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404
 
-profileset."Death_Throes_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404
-profileset."Death_Throes_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=404
+profileset."Death_Throes_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404
+profileset."Death_Throes_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=404
 
-profileset."Death_Throes_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=404
-profileset."Death_Throes_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=404
-profileset."Death_Throes_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=404
+profileset."Death_Throes_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404
+profileset."Death_Throes_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=404
+profileset."Death_Throes_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=404
 
 # Whispers of the Damned 236
-profileset."Whispers_of_the_Damned_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=236
+profileset."Whispers_of_the_Damned_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236
 
-profileset."Whispers_of_the_Damned_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=236
-profileset."Whispers_of_the_Damned_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236
+profileset."Whispers_of_the_Damned_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236
+profileset."Whispers_of_the_Damned_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=236
 
-profileset."Whispers_of_the_Damned_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=236
-profileset."Whispers_of_the_Damned_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=236
-profileset."Whispers_of_the_Damned_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=236
+profileset."Whispers_of_the_Damned_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236
+profileset."Whispers_of_the_Damned_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=236
+profileset."Whispers_of_the_Damned_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=236
 
 # Harvested Thoughts - Thought Harvester 166
-profileset."Thought_Harvester_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166
 
-profileset."Thought_Harvester_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
-profileset."Thought_Harvester_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166
+profileset."Thought_Harvester_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=166
 
-profileset."Thought_Harvester_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=166
-profileset."Thought_Harvester_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=166
-profileset."Thought_Harvester_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=166
+profileset."Thought_Harvester_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166
+profileset."Thought_Harvester_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=166
+profileset."Thought_Harvester_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=166
 
 # Searing Dialogue 115
-profileset."Searing_Dialogue_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=115
+profileset."Searing_Dialogue_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115
 
-profileset."Searing_Dialogue_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=115
-profileset."Searing_Dialogue_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=115
+profileset."Searing_Dialogue_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115
+profileset."Searing_Dialogue_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=115
 
-profileset."Searing_Dialogue_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=115
-profileset."Searing_Dialogue_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=115
-profileset."Searing_Dialogue_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=115
+profileset."Searing_Dialogue_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115
+profileset."Searing_Dialogue_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=115
+profileset."Searing_Dialogue_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=115
 
 # Spiteful Apparitions 403
-profileset."Spiteful_Apparitions_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
+profileset."Spiteful_Apparitions_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=403
 
-profileset."Spiteful_Apparitions_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
-profileset."Spiteful_Apparitions_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=403
+profileset."Spiteful_Apparitions_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=403
+profileset."Spiteful_Apparitions_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=403
 
-profileset."Spiteful_Apparitions_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=403
-profileset."Spiteful_Apparitions_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=403
-profileset."Spiteful_Apparitions_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=403
+profileset."Spiteful_Apparitions_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=403
+profileset."Spiteful_Apparitions_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=403
+profileset."Spiteful_Apparitions_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=403
 
 # Chorus of Insanity 405
-profileset."Chorus_of_Insanity_1"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=405
+profileset."Chorus_of_Insanity_1"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=405
 
-profileset."Chorus_of_Insanity_2"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=405
-profileset."Chorus_of_Insanity_2"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=405
+profileset."Chorus_of_Insanity_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=405
+profileset."Chorus_of_Insanity_2"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=405
 
-profileset."Chorus_of_Insanity_3"+=head=horrific_amalgams_hood,id=160616,bonus_id=4824/1507,azerite_powers=405
-profileset."Chorus_of_Insanity_3"+=shoulder=amice_of_corrupting_horror,id=160726,bonus_id=4824/1507,azerite_powers=405
-profileset."Chorus_of_Insanity_3"+=chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507,azerite_powers=405
+profileset."Chorus_of_Insanity_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=405
+profileset."Chorus_of_Insanity_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=405
+profileset."Chorus_of_Insanity_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405
