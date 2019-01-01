@@ -37,6 +37,11 @@ profileset."Vigilants_Bloodshaper_385"+=trinket1=vigilants_bloodshaper,id=160651
 profileset."Vigilants_Bloodshaper_390"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1517/4798
 profileset."Vigilants_Bloodshaper_395"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1522/4798
 profileset."Vigilants_Bloodshaper_400"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1527/4798
+profileset."Vigilants_Bloodshaper_405"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1532/4798
+profileset."Vigilants_Bloodshaper_410"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1537/4798
+profileset."Vigilants_Bloodshaper_415"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1542/4798
+profileset."Vigilants_Bloodshaper_420"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1547/4798
+profileset."Vigilants_Bloodshaper_425"+=trinket1=vigilants_bloodshaper,id=160651,bonus_id=1552/4798
 
 profileset."Twitching_Tentacle_of_Xalzaix_340"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=4801/1462
 profileset."Twitching_Tentacle_of_Xalzaix_345"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1467/4801
@@ -51,6 +56,11 @@ profileset."Twitching_Tentacle_of_Xalzaix_385"+=trinket1=twitching_tentacle_of_x
 profileset."Twitching_Tentacle_of_Xalzaix_390"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1517/4798
 profileset."Twitching_Tentacle_of_Xalzaix_395"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1522/4798
 profileset."Twitching_Tentacle_of_Xalzaix_400"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1527/4798
+profileset."Twitching_Tentacle_of_Xalzaix_405"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1532/4798
+profileset."Twitching_Tentacle_of_Xalzaix_410"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1537/4798
+profileset."Twitching_Tentacle_of_Xalzaix_415"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1542/4798
+profileset."Twitching_Tentacle_of_Xalzaix_420"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1547/4798
+profileset."Twitching_Tentacle_of_Xalzaix_425"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,bonus_id=1552/4798
 
 profileset."Vanquished_Tendril_of_Ghuun_340"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=4801/1462
 profileset."Vanquished_Tendril_of_Ghuun_345"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1467/4801
@@ -65,32 +75,51 @@ profileset."Vanquished_Tendril_of_Ghuun_385"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_390"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1517/4798
 profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1522/4798
 profileset."Vanquished_Tendril_of_Ghuun_400"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1527/4798
+profileset."Vanquished_Tendril_of_Ghuun_405"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1532/4798
+profileset."Vanquished_Tendril_of_Ghuun_410"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1537/4798
+profileset."Vanquished_Tendril_of_Ghuun_415"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1542/4798
+profileset."Vanquished_Tendril_of_Ghuun_420"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1547/4798
+profileset."Vanquished_Tendril_of_Ghuun_425"+=trinket1=vanquished_tendril_of_ghuun,id=160654,bonus_id=1552/4798
 
 # Battle of Dazar'alor Trinkets
+profileset."Incandescent_Sliver_370"+=trinket1=incandescent_sliver,id=165571,bonus_id=4801/1492
+profileset."Incandescent_Sliver_375"+=trinket1=incandescent_sliver,id=165571,bonus_id=1497/4801
+profileset."Incandescent_Sliver_380"+=trinket1=incandescent_sliver,id=165571,bonus_id=1502/4801
 profileset."Incandescent_Sliver_385"+=trinket1=incandescent_sliver,id=165571,bonus_id=4798/1507
 profileset."Incandescent_Sliver_390"+=trinket1=incandescent_sliver,id=165571,bonus_id=1512/4798
 profileset."Incandescent_Sliver_395"+=trinket1=incandescent_sliver,id=165571,bonus_id=1517/4798
 profileset."Incandescent_Sliver_400"+=trinket1=incandescent_sliver,id=165571,bonus_id=1522/4798
+profileset."Incandescent_Sliver_405"+=trinket1=incandescent_sliver,id=165571,bonus_id=1527/4798
+profileset."Incandescent_Sliver_410"+=trinket1=incandescent_sliver,id=165571,bonus_id=1532/4798
+profileset."Incandescent_Sliver_415"+=trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
+profileset."Incandescent_Sliver_420"+=trinket1=incandescent_sliver,id=165571,bonus_id=1542/4798
+profileset."Incandescent_Sliver_425"+=trinket1=incandescent_sliver,id=165571,bonus_id=1547/4798
 
+profileset."Tidestorm_Codex_370"+=trinket1=tidestorm_codex,id=165576,bonus_id=4801/1492
+profileset."Tidestorm_Codex_375"+=trinket1=tidestorm_codex,id=165576,bonus_id=1497/4801
+profileset."Tidestorm_Codex_380"+=trinket1=tidestorm_codex,id=165576,bonus_id=1502/4801
 profileset."Tidestorm_Codex_385"+=trinket1=tidestorm_codex,id=165576,bonus_id=4798/1507
 profileset."Tidestorm_Codex_390"+=trinket1=tidestorm_codex,id=165576,bonus_id=1512/4798
 profileset."Tidestorm_Codex_395"+=trinket1=tidestorm_codex,id=165576,bonus_id=1517/4798
 profileset."Tidestorm_Codex_400"+=trinket1=tidestorm_codex,id=165576,bonus_id=1522/4798
+profileset."Tidestorm_Codex_405"+=trinket1=tidestorm_codex,id=165576,bonus_id=1527/4798
+profileset."Tidestorm_Codex_410"+=trinket1=tidestorm_codex,id=165576,bonus_id=1532/4798
+profileset."Tidestorm_Codex_415"+=trinket1=tidestorm_codex,id=165576,bonus_id=1537/4798
+profileset."Tidestorm_Codex_420"+=trinket1=tidestorm_codex,id=165576,bonus_id=1542/4798
+profileset."Tidestorm_Codex_425"+=trinket1=tidestorm_codex,id=165576,bonus_id=1547/4798
 
+profileset."Crest_of_Paku_370"+=trinket1=crest_of_paku,id=165581,bonus_id=4801/1492
+profileset."Crest_of_Paku_375"+=trinket1=crest_of_paku,id=165581,bonus_id=1497/4801
+profileset."Crest_of_Paku_380"+=trinket1=crest_of_paku,id=165581,bonus_id=1502/4801
 profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,bonus_id=4798/1507
 profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4798
 profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,bonus_id=1517/4798
 profileset."Crest_of_Paku_400"+=trinket1=crest_of_paku,id=165581,bonus_id=1522/4798
-
-profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,bonus_id=4798/1507
-profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,bonus_id=1512/4798
-profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,bonus_id=1517/4798
-profileset."Crest_of_Paku_400"+=trinket1=crest_of_paku,id=165581,bonus_id=1522/4798
-
-profileset."Ancient_Knot_of_Wisdom_385"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1502/5479
-profileset."Ancient_Knot_of_Wisdom_390"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1507/5479
-profileset."Ancient_Knot_of_Wisdom_395"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1512/5479
-profileset."Ancient_Knot_of_Wisdom_400"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1517/5479
+profileset."Crest_of_Paku_405"+=trinket1=crest_of_paku,id=165581,bonus_id=1527/4798
+profileset."Crest_of_Paku_410"+=trinket1=crest_of_paku,id=165581,bonus_id=1532/4798
+profileset."Crest_of_Paku_415"+=trinket1=crest_of_paku,id=165581,bonus_id=1537/4798
+profileset."Crest_of_Paku_420"+=trinket1=crest_of_paku,id=165581,bonus_id=1542/4798
+profileset."Crest_of_Paku_425"+=trinket1=crest_of_paku,id=165581,bonus_id=1547/4798
 
 # Rare Elite Trinkets
 profileset."Azurethos_Singed_Plumage_355"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1477/4801
@@ -103,6 +132,11 @@ profileset."Azurethos_Singed_Plumage_385"+=trinket1=azurethos_singed_plumage,id=
 profileset."Azurethos_Singed_Plumage_390"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1512/4801
 profileset."Azurethos_Singed_Plumage_395"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1517/4801
 profileset."Azurethos_Singed_Plumage_400"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1522/4801
+profileset."Azurethos_Singed_Plumage_405"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1527/4801
+profileset."Azurethos_Singed_Plumage_410"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1532/4801
+profileset."Azurethos_Singed_Plumage_415"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1537/4801
+profileset."Azurethos_Singed_Plumage_420"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1542/4801
+profileset."Azurethos_Singed_Plumage_425"+=trinket1=azurethos_singed_plumage,id=161377,bonus_id=1547/4801
 
 profileset."Tzanes_Barkspines_355"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1477/4801
 profileset."Tzanes_Barkspines_360"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1482/4801
@@ -114,6 +148,11 @@ profileset."Tzanes_Barkspines_385"+=trinket1=tzanes_barkspines,id=161411,bonus_i
 profileset."Tzanes_Barkspines_390"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1512/4801
 profileset."Tzanes_Barkspines_395"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1517/4801
 profileset."Tzanes_Barkspines_400"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1522/4801
+profileset."Tzanes_Barkspines_405"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1527/4801
+profileset."Tzanes_Barkspines_410"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1532/4801
+profileset."Tzanes_Barkspines_415"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1537/4801
+profileset."Tzanes_Barkspines_420"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1542/4801
+profileset."Tzanes_Barkspines_425"+=trinket1=tzanes_barkspines,id=161411,bonus_id=1547/4801
 
 profileset."Drust_Runed_Icicle_355"+=trinket1=drust_runed_icicle,id=161380,bonus_id=4798/1477
 profileset."Drust_Runed_Icicle_360"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1482/4798
@@ -125,6 +164,21 @@ profileset."Drust_Runed_Icicle_385"+=trinket1=drust_runed_icicle,id=161380,bonus
 profileset."Drust_Runed_Icicle_390"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1512/4798
 profileset."Drust_Runed_Icicle_395"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1517/4798
 profileset."Drust_Runed_Icicle_400"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1522/4798
+profileset."Drust_Runed_Icicle_405"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1527/4798
+profileset."Drust_Runed_Icicle_410"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1532/4798
+profileset."Drust_Runed_Icicle_415"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1537/4798
+profileset."Drust_Runed_Icicle_420"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1542/4798
+profileset."Drust_Runed_Icicle_425"+=trinket1=drust_runed_icicle,id=161380,bonus_id=1547/4798
+
+profileset."Ancient_Knot_of_Wisdom_385"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1502/5479
+profileset."Ancient_Knot_of_Wisdom_390"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1507/5479
+profileset."Ancient_Knot_of_Wisdom_395"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1512/5479
+profileset."Ancient_Knot_of_Wisdom_400"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1517/5479
+profileset."Ancient_Knot_of_Wisdom_405"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1522/5479
+profileset."Ancient_Knot_of_Wisdom_410"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1527/5479
+profileset."Ancient_Knot_of_Wisdom_415"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1532/5479
+profileset."Ancient_Knot_of_Wisdom_420"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1537/5479
+profileset."Ancient_Knot_of_Wisdom_425"+=trinket1=ancient_knot_of_wisdom,id=166793,bonus_id=1542/5479
 
 # PvP World Boss Trinket
 profileset."Dooms_Hatred_370"+=trinket1=dooms_hatred,id=161461,bonus_id=5119/1492
@@ -134,6 +188,11 @@ profileset."Dooms_Hatred_385"+=trinket1=dooms_hatred,id=161461,bonus_id=1507/511
 profileset."Dooms_Hatred_390"+=trinket1=dooms_hatred,id=161461,bonus_id=1512/5119
 profileset."Dooms_Hatred_395"+=trinket1=dooms_hatred,id=161461,bonus_id=1517/5119
 profileset."Dooms_Hatred_400"+=trinket1=dooms_hatred,id=161461,bonus_id=1522/5119
+profileset."Dooms_Hatred_405"+=trinket1=dooms_hatred,id=161461,bonus_id=1527/5119
+profileset."Dooms_Hatred_410"+=trinket1=dooms_hatred,id=161461,bonus_id=1532/5119
+profileset."Dooms_Hatred_415"+=trinket1=dooms_hatred,id=161461,bonus_id=1537/5119
+profileset."Dooms_Hatred_420"+=trinket1=dooms_hatred,id=161461,bonus_id=1542/5119
+profileset."Dooms_Hatred_425"+=trinket1=dooms_hatred,id=161461,bonus_id=1547/5119
 
 profileset."Lions_Grace_370"+=trinket1=lions_grace,id=161472,bonus_id=5119/1492
 profileset."Lions_Grace_375"+=trinket1=lions_grace,id=161472,bonus_id=1497/5119
@@ -142,3 +201,8 @@ profileset."Lions_Grace_385"+=trinket1=lions_grace,id=161472,bonus_id=1507/5119
 profileset."Lions_Grace_390"+=trinket1=lions_grace,id=161472,bonus_id=1512/5119
 profileset."Lions_Grace_395"+=trinket1=lions_grace,id=161472,bonus_id=1517/5119
 profileset."Lions_Grace_400"+=trinket1=lions_grace,id=161472,bonus_id=1522/5119
+profileset."Lions_Grace_405"+=trinket1=lions_grace,id=161472,bonus_id=1527/5119
+profileset."Lions_Grace_410"+=trinket1=lions_grace,id=161472,bonus_id=1532/5119
+profileset."Lions_Grace_415"+=trinket1=lions_grace,id=161472,bonus_id=1537/5119
+profileset."Lions_Grace_420"+=trinket1=lions_grace,id=161472,bonus_id=1542/5119
+profileset."Lions_Grace_425"+=trinket1=lions_grace,id=161472,bonus_id=1547/5119
