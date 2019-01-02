@@ -43,35 +43,28 @@ Every sim is run with the top DA and LotV build:
 - LotV: SWV_DV_SC_LI_LotV
 
 ### Azerite Traits
-- Head: [Visage of the Ascended Prophet](https://www.wowhead.com/item=160719/visage-of-the-ascended-prophet&bonus=4822:1477)
-    <!-- - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity) -->
-    - [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix)
-    - [Elemental Whirl](https://www.wowhead.com/spell=270667/elemental-whirl)
-    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Shoulders: [Amice of Corrupting Horror](https://www.wowhead.com/item=160726/amice-of-corrupting-horror&bonus=4822:1477)
-    <!-- - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity) -->
-    - [Laser Matrix](https://www.wowhead.com/spell=280707/laser-matrix)
-    - [Earthlink](https://www.wowhead.com/spell=279926/earthlink)
-    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Chest: [Robes of the Unraveler](chest=robes_of_the_unraveler,id=160614,bonus_id=4824/1507)
-    <!-- - [Thought Harvester](https://ptr.wowhead.com/spell=288340/thought-harvester) -->
-    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+- Head: [Cowl of Tideborne Omens](https://www.wowhead.com/item=165822/cowl-of-tideborne-omens&bonus=4822:1507)
+    - [Thought Harvester](https://bfa.wowhead.com/spell=288340/thought-harvester)
+    - [Searing Dialogue](https://www.wowhead.com/spell=272788/searing-dialogue)
     - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
+    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- Shoulders: [Bristling Fur-Lined Amice](https://www.wowhead.com/item=165922/bristling-fur-lined-amice&bonus=4822:1507)
+    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    - [Spiteful Apparitions](https://www.wowhead.com/spell=277682/spiteful-apparitions)
+    - [Azerite Globules](https://www.wowhead.com/spell=266936/azerite-globules)
+    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
+- Chest: [Robes of Biting Cold](https://www.wowhead.com/item=165505/robes-of-biting-cold&bonus=1542:4824&azerite-powers=5)
+    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    - [Spiteful Apparitions](https://www.wowhead.com/spell=277682/spiteful-apparitions)
+    - [Unstable Flames](https://www.wowhead.com/spell=279899/unstable-flames)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48`
 
-### Stats - Mythic (Percent Stat - Gear Amount) - DA
+### Stats - Mythic (Percent Stat - Gear Amount)
 - 20.13% Crit - 1089
 - 17.90% Haste - 1217
 - 1.52% Versatility - 129
 - 21.97% Mastery - 742
-- 7169 Intellect - 5123
-
-### Stats - Mythic (Percent Stat - Gear Amount) - LotV
-- 20.28% Crit - 1172
-- 16.54% Haste - 1125
-- 2.15% Versatility - 183
-- 21.22% Mastery - 697
 - 7169 Intellect - 5123
 
 ### Enchants

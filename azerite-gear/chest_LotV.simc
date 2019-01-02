@@ -242,14 +242,14 @@ profileset."C_415_vestments_of_the_afterlife_DT_TH_EW"+=chest=vestments_of_the_a
 # Robes of Biting Cold - 385, 400, 415
 # Chorus of Insanity + Death Throes / Spiteful Apparitions + Seductive Power / Unstable Flame
 profileset."C_385_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=405/403/459/13
-profileset."C_385_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/403/459/13
-profileset."C_385_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/403/459/13
+profileset."C_400_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/403/459/13
+profileset."C_415_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/403/459/13
 profileset."C_385_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=404/403/459/13
-profileset."C_385_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/403/459/13
-profileset."C_385_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/403/459/13
+profileset."C_400_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/403/459/13
+profileset."C_415_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/403/459/13
 profileset."C_385_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=405/561/459/13
-profileset."C_385_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/561/459/13
-profileset."C_385_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/561/459/13
+profileset."C_400_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/561/459/13
+profileset."C_415_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/561/459/13
 profileset."C_385_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=404/561/459/13
-profileset."C_385_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/561/459/13
-profileset."C_385_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/561/459/13
+profileset."C_400_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/561/459/13
+profileset."C_415_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/561/459/13
