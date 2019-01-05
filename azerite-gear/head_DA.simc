@@ -212,3 +212,36 @@ profileset."H_415_cowl_of_tideborne_omens_WotD_BS_OP"+=head=cowl_of_tideborne_om
 profileset."H_385_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=385,azerite_powers=166/560/30/13
 profileset."H_400_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=400,azerite_powers=166/560/30/13
 profileset."H_415_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=415,azerite_powers=166/560/30/13
+
+# Charged SP1-R1-73D Synthetic Specs - 415
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_SSC_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/500/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_BoMB_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/498/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_RIP_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/499/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_RNG_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/501/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_SSC_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/500/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_BoMB_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/498/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_RIP_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/499/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_RNG_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/501/30/13
+
+# SP1-R1-73D Synthetic Specs - 400
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_SSC_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/500/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_BoMB_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/498/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_RIP_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/499/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_RNG_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/501/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_SSC_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/500/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_BoMB_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/498/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_RIP_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/499/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_RNG_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/501/30/13
+
+# Surging Synthetic Specs - 385
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_385_surging_synthetic_specs_TH_SSC_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/500/30/13
+profileset."H_385_surging_synthetic_specs_TH_BoMB_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/498/30/13
+profileset."H_385_surging_synthetic_specs_TH_RIP_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/499/30/13
+profileset."H_385_surging_synthetic_specs_TH_RNG_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/501/30/13
+profileset."H_385_surging_synthetic_specs_SD_SSC_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/500/30/13
+profileset."H_385_surging_synthetic_specs_SD_BoMB_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/498/30/13
+profileset."H_385_surging_synthetic_specs_SD_RIP_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/499/30/13
+profileset."H_385_surging_synthetic_specs_SD_RNG_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/501/30/13

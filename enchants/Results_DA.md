@@ -1,27 +1,27 @@
-# Uldir Composite
+# Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Ring_Pact_of_Haste|17025|0.01%|
-|Weapon-Quick-Navigation|17024|0.00%|
-|Base|17023|0.00%|
-|Ring_Pact_of_Critical_Strike|17019|-0.02%|
-|Ring_Pact_of_Versatility|17000|-0.13%|
-|Ring_Pact_of_Mastery|16998|-0.14%|
-|Weapon-Deadly-Navigation|16993|-0.17%|
-|Weapon-Torrent-of-Elements|16932|-0.53%|
-|Weapon-Versatile-Navigation|16911|-0.66%|
-|Weapon-Masterful-Navigation|16906|-0.69%|
+|Weapon-Deadly-Navigation|26613|3.08%|
+|Weapon-Quick-Navigation|26593|3.00%|
+|Weapon-Torrent-of-Elements|26411|2.30%|
+|Weapon-Versatile-Navigation|26368|2.13%|
+|Weapon-Masterful-Navigation|26332|1.99%|
+|Ring_Pact_of_Critical_Strike|25975|0.61%|
+|Ring_Pact_of_Haste|25973|0.60%|
+|Ring_Pact_of_Versatility|25931|0.44%|
+|Ring_Pact_of_Mastery|25918|0.39%|
+|Base|25818|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|16252|0.01%|
-|Ring_Pact_of_Haste|16252|0.01%|
-|Base|16251|0.00%|
-|Ring_Pact_of_Critical_Strike|16247|-0.02%|
-|Ring_Pact_of_Mastery|16228|-0.14%|
-|Ring_Pact_of_Versatility|16228|-0.14%|
-|Weapon-Deadly-Navigation|16213|-0.23%|
-|Weapon-Torrent-of-Elements|16168|-0.51%|
-|Weapon-Versatile-Navigation|16147|-0.64%|
-|Weapon-Masterful-Navigation|16145|-0.65%|
+|Weapon-Deadly-Navigation|23823|2.98%|
+|Weapon-Quick-Navigation|23815|2.94%|
+|Weapon-Torrent-of-Elements|23662|2.28%|
+|Weapon-Versatile-Navigation|23622|2.11%|
+|Weapon-Masterful-Navigation|23589|1.96%|
+|Ring_Pact_of_Haste|23271|0.59%|
+|Ring_Pact_of_Critical_Strike|23270|0.59%|
+|Ring_Pact_of_Versatility|23233|0.43%|
+|Ring_Pact_of_Mastery|23225|0.39%|
+|Base|23134|0.00%|
