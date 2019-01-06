@@ -272,14 +272,15 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 for x in data:
                     if x['profile'] == simType:
                         if x['actor'] == str(u+y):
-                            if x['actor'].replace('_', ' ').rstrip() == "Champion of Azeroth":
+                            if x['actor']== ("Champion_of_Azeroth_" + y):
                                 j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                                 j.write('\t\t\t"2_stack": 0,\n')
                                 j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
-                            if cnt < maxCnt:
-                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')
                             else:
-                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
+                                if cnt < maxCnt:
+                                    j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')
+                                else:
+                                    j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
                     j.write('\t\t},\n')
