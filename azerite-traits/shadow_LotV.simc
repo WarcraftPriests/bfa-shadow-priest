@@ -83,3 +83,35 @@ profileset."Chorus_of_Insanity_2"+=shoulder=bristling_fur_lined_amice,id=165922,
 profileset."Chorus_of_Insanity_3"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=405
 profileset."Chorus_of_Insanity_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=415,azerite_powers=405
 profileset."Chorus_of_Insanity_3"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405
+
+# Trait Combo - 2 traits
+# DT + WotD
+profileset."Death_Throes_Whispers_of_the_Damned_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404/236
+# DT + TH
+profileset."Death_Throes_Thought_Harvester_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404/166
+# DT + SD
+profileset."Death_Throes_Searing_Dialogue_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404/115
+# DT + SA
+profileset."Death_Throes_Spiteful_Apparitions_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404/403
+# DT + CoI
+profileset."Death_Throes_Chorus_of_Insanity_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=404/405
+# WotD + TH
+profileset."Whispers_of_the_Damned_Thought_Harvester_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/166
+# WotD + SD
+profileset."Whispers_of_the_Damned_Searing_Dialogue_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/115
+# WotD + SA
+profileset."Whispers_of_the_Damned_Spiteful_Apparitions_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/403
+# WotD + CoI
+profileset."Whispers_of_the_Damned_Chorus_of_Insanity_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/405
+# TH + SD
+profileset."Thought_Harvester_Searing_Dialogue_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166/115
+# TH + SA
+profileset."Thought_Harvester_Spiteful_Apparitions_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166/403
+# TH + CoI
+profileset."Thought_Harvester_Chorus_of_Insanity_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=166/405
+# SD + SA
+profileset."Searing_Dialogue_Spiteful_Apparitions_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115/403
+# SD + CoI
+profileset."Searing_Dialogue_Chorus_of_Insanity_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115/405
+# SA + CoI
+profileset."Spiteful_Apparitions_Chorus_of_Insanity_combo_2"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=403/405
