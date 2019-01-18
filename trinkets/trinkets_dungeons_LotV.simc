@@ -8,28 +8,21 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=485/21/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1536,azerite_level=33
-shoulder=amice_of_corrupting_horror,id=160726,ilevel=385,azerite_powers=485/461/13
-back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1507
-chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=405/30/13
-wrists=voidlashed_wristband,id=160617,bonus_id=4800/1507
-hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1507
-waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507
-legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1507
-feet=volatile_walkers,id=160714,bonus_id=4800/1507
-finger1=band_of_certain_annihilation,id=160646,bonus_id=4800/1507,enchant=pact_of_haste
-finger2=rotscour_ring,id=160645,bonus_id=4800/1507,enchant=pact_of_haste
-main_hand=tusk_of_the_reborn_prophet,id=160691,bonus_id=4800/1507,enchant=quick_navigation
-off_hand=codex_of_imminent_ruin,id=160696,bonus_id=4800/1507
+head=cowl_of_tideborne_omens,id=165822,bonus_id=1542/4824,azerite_powers=166/115/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
+shoulder=bristling_fur_lined_amice,id=165922,bonus_id=1542/4824,azerite_powers=405/403/462/13
+back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
+chest=robes_of_biting_cold,id=165505,bonus_id=1542/4824,azerite_powers=405/403/459/13
+wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
+hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
+waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
+legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
+feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
+finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
+finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
+main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
 # Dungeon trinkets
-profileset."Vessel_of_Skittering_Shadows_310"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=4777/1482
-profileset."Vessel_of_Skittering_Shadows_315"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1487/4777
-profileset."Vessel_of_Skittering_Shadows_320"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1492/4777
-profileset."Vessel_of_Skittering_Shadows_325"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1497/4777
-profileset."Vessel_of_Skittering_Shadows_330"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1502/4777
-profileset."Vessel_of_Skittering_Shadows_335"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1507/4777
 profileset."Vessel_of_Skittering_Shadows_340"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1512/4777
 profileset."Vessel_of_Skittering_Shadows_345"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1517/4777
 profileset."Vessel_of_Skittering_Shadows_350"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1522/4777
@@ -43,13 +36,12 @@ profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_sha
 profileset."Vessel_of_Skittering_Shadows_390"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1562/4777
 profileset."Vessel_of_Skittering_Shadows_395"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1567/4777
 profileset."Vessel_of_Skittering_Shadows_400"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1572/4777
+profileset."Vessel_of_Skittering_Shadows_405"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1577/4777
+profileset."Vessel_of_Skittering_Shadows_410"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1582/4777
+profileset."Vessel_of_Skittering_Shadows_415"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1587/4777
+profileset."Vessel_of_Skittering_Shadows_420"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1592/4777
+profileset."Vessel_of_Skittering_Shadows_425"+=trinket1=vessel_of_skittering_shadows,id=159610,bonus_id=1597/4777
 
-profileset."Ignition_Mages_Fuse_310"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=4777/1482
-profileset."Ignition_Mages_Fuse_315"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1487/4777
-profileset."Ignition_Mages_Fuse_320"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1492/4777
-profileset."Ignition_Mages_Fuse_325"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1497/4777
-profileset."Ignition_Mages_Fuse_330"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1502/4777
-profileset."Ignition_Mages_Fuse_335"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1507/4777
 profileset."Ignition_Mages_Fuse_340"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1512/4777
 profileset."Ignition_Mages_Fuse_345"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1517/4777
 profileset."Ignition_Mages_Fuse_350"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1522/4777
@@ -63,13 +55,12 @@ profileset."Ignition_Mages_Fuse_385"+=trinket1=ignition_mages_fuse,id=159615,bon
 profileset."Ignition_Mages_Fuse_390"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1562/4777
 profileset."Ignition_Mages_Fuse_395"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1567/4777
 profileset."Ignition_Mages_Fuse_400"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1572/4777
+profileset."Ignition_Mages_Fuse_405"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1577/4777
+profileset."Ignition_Mages_Fuse_410"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1582/4777
+profileset."Ignition_Mages_Fuse_415"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1587/4777
+profileset."Ignition_Mages_Fuse_420"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1592/4777
+profileset."Ignition_Mages_Fuse_425"+=trinket1=ignition_mages_fuse,id=159615,bonus_id=1597/4777
 
-profileset."Conch_of_Dark_Whispers_310"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=4777/1482
-profileset."Conch_of_Dark_Whispers_315"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1487/4777
-profileset."Conch_of_Dark_Whispers_320"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1492/4777
-profileset."Conch_of_Dark_Whispers_325"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1497/4777
-profileset."Conch_of_Dark_Whispers_330"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1502/4777
-profileset."Conch_of_Dark_Whispers_335"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1507/4777
 profileset."Conch_of_Dark_Whispers_340"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1512/4777
 profileset."Conch_of_Dark_Whispers_345"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1517/4777
 profileset."Conch_of_Dark_Whispers_350"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1522/4777
@@ -83,13 +74,12 @@ profileset."Conch_of_Dark_Whispers_385"+=trinket1=conch_of_dark_whispers,id=1596
 profileset."Conch_of_Dark_Whispers_390"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1562/4777
 profileset."Conch_of_Dark_Whispers_395"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1567/4777
 profileset."Conch_of_Dark_Whispers_400"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1572/4777
+profileset."Conch_of_Dark_Whispers_405"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1577/4777
+profileset."Conch_of_Dark_Whispers_410"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1582/4777
+profileset."Conch_of_Dark_Whispers_415"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1587/4777
+profileset."Conch_of_Dark_Whispers_420"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1592/4777
+profileset."Conch_of_Dark_Whispers_425"+=trinket1=conch_of_dark_whispers,id=159620,bonus_id=1597/4777
 
-profileset."Hadals_Nautilus_310"+=trinket1=hadals_nautilus,id=159622,bonus_id=4777/1482
-profileset."Hadals_Nautilus_315"+=trinket1=hadals_nautilus,id=159622,bonus_id=1487/4777
-profileset."Hadals_Nautilus_320"+=trinket1=hadals_nautilus,id=159622,bonus_id=1492/4777
-profileset."Hadals_Nautilus_325"+=trinket1=hadals_nautilus,id=159622,bonus_id=1497/4777
-profileset."Hadals_Nautilus_330"+=trinket1=hadals_nautilus,id=159622,bonus_id=1502/4777
-profileset."Hadals_Nautilus_335"+=trinket1=hadals_nautilus,id=159622,bonus_id=1507/4777
 profileset."Hadals_Nautilus_340"+=trinket1=hadals_nautilus,id=159622,bonus_id=1512/4777
 profileset."Hadals_Nautilus_345"+=trinket1=hadals_nautilus,id=159622,bonus_id=1517/4777
 profileset."Hadals_Nautilus_350"+=trinket1=hadals_nautilus,id=159622,bonus_id=1522/4777
@@ -103,13 +93,12 @@ profileset."Hadals_Nautilus_385"+=trinket1=hadals_nautilus,id=159622,bonus_id=15
 profileset."Hadals_Nautilus_390"+=trinket1=hadals_nautilus,id=159622,bonus_id=1562/4777
 profileset."Hadals_Nautilus_395"+=trinket1=hadals_nautilus,id=159622,bonus_id=1567/4777
 profileset."Hadals_Nautilus_400"+=trinket1=hadals_nautilus,id=159622,bonus_id=1572/4777
+profileset."Hadals_Nautilus_405"+=trinket1=hadals_nautilus,id=159622,bonus_id=1577/4777
+profileset."Hadals_Nautilus_410"+=trinket1=hadals_nautilus,id=159622,bonus_id=1582/4777
+profileset."Hadals_Nautilus_415"+=trinket1=hadals_nautilus,id=159622,bonus_id=1587/4777
+profileset."Hadals_Nautilus_420"+=trinket1=hadals_nautilus,id=159622,bonus_id=1592/4777
+profileset."Hadals_Nautilus_425"+=trinket1=hadals_nautilus,id=159622,bonus_id=1597/4777
 
-profileset."Rotcrusted_Voodoo_Doll_310"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=4777/1482
-profileset."Rotcrusted_Voodoo_Doll_315"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1487/4777
-profileset."Rotcrusted_Voodoo_Doll_320"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1492/4777
-profileset."Rotcrusted_Voodoo_Doll_325"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1497/4777
-profileset."Rotcrusted_Voodoo_Doll_330"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1502/4777
-profileset."Rotcrusted_Voodoo_Doll_335"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1507/4777
 profileset."Rotcrusted_Voodoo_Doll_340"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1512/4777
 profileset."Rotcrusted_Voodoo_Doll_345"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1517/4777
 profileset."Rotcrusted_Voodoo_Doll_350"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1522/4777
@@ -123,13 +112,12 @@ profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=1596
 profileset."Rotcrusted_Voodoo_Doll_390"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1562/4777
 profileset."Rotcrusted_Voodoo_Doll_395"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1567/4777
 profileset."Rotcrusted_Voodoo_Doll_400"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1572/4777
+profileset."Rotcrusted_Voodoo_Doll_405"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1577/4777
+profileset."Rotcrusted_Voodoo_Doll_410"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1582/4777
+profileset."Rotcrusted_Voodoo_Doll_415"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1587/4777
+profileset."Rotcrusted_Voodoo_Doll_420"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1592/4777
+profileset."Rotcrusted_Voodoo_Doll_425"+=trinket1=rotcrusted_voodoo_doll,id=159624,bonus_id=1597/4777
 
-profileset."Balefire_Branch_310"+=trinket1=balefire_branch,id=159630,bonus_id=4777/1482
-profileset."Balefire_Branch_315"+=trinket1=balefire_branch,id=159630,bonus_id=1487/4777
-profileset."Balefire_Branch_320"+=trinket1=balefire_branch,id=159630,bonus_id=1492/4777
-profileset."Balefire_Branch_325"+=trinket1=balefire_branch,id=159630,bonus_id=1497/4777
-profileset."Balefire_Branch_330"+=trinket1=balefire_branch,id=159630,bonus_id=1502/4777
-profileset."Balefire_Branch_335"+=trinket1=balefire_branch,id=159630,bonus_id=1507/4777
 profileset."Balefire_Branch_340"+=trinket1=balefire_branch,id=159630,bonus_id=1512/4777
 profileset."Balefire_Branch_345"+=trinket1=balefire_branch,id=159630,bonus_id=1517/4777
 profileset."Balefire_Branch_350"+=trinket1=balefire_branch,id=159630,bonus_id=1522/4777
@@ -143,13 +131,12 @@ profileset."Balefire_Branch_385"+=trinket1=balefire_branch,id=159630,bonus_id=15
 profileset."Balefire_Branch_390"+=trinket1=balefire_branch,id=159630,bonus_id=1562/4777
 profileset."Balefire_Branch_395"+=trinket1=balefire_branch,id=159630,bonus_id=1567/4777
 profileset."Balefire_Branch_400"+=trinket1=balefire_branch,id=159630,bonus_id=1572/4777
+profileset."Balefire_Branch_405"+=trinket1=balefire_branch,id=159630,bonus_id=1577/4777
+profileset."Balefire_Branch_410"+=trinket1=balefire_branch,id=159630,bonus_id=1582/4777
+profileset."Balefire_Branch_415"+=trinket1=balefire_branch,id=159630,bonus_id=1587/4777
+profileset."Balefire_Branch_420"+=trinket1=balefire_branch,id=159630,bonus_id=1592/4777
+profileset."Balefire_Branch_425"+=trinket1=balefire_branch,id=159630,bonus_id=1597/4777
 
-profileset."Lady_Waycrests_Music_Box_310"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=4777/1482
-profileset."Lady_Waycrests_Music_Box_315"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1487/4777
-profileset."Lady_Waycrests_Music_Box_320"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1492/4777
-profileset."Lady_Waycrests_Music_Box_325"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1497/4777
-profileset."Lady_Waycrests_Music_Box_330"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1502/4777
-profileset."Lady_Waycrests_Music_Box_335"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1507/4777
 profileset."Lady_Waycrests_Music_Box_340"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1512/4777
 profileset."Lady_Waycrests_Music_Box_345"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1517/4777
 profileset."Lady_Waycrests_Music_Box_350"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1522/4777
@@ -163,3 +150,8 @@ profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=
 profileset."Lady_Waycrests_Music_Box_390"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1562/4777
 profileset."Lady_Waycrests_Music_Box_395"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1567/4777
 profileset."Lady_Waycrests_Music_Box_400"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1572/4777
+profileset."Lady_Waycrests_Music_Box_405"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1577/4777
+profileset."Lady_Waycrests_Music_Box_410"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1582/4777
+profileset."Lady_Waycrests_Music_Box_415"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1587/4777
+profileset."Lady_Waycrests_Music_Box_420"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1592/4777
+profileset."Lady_Waycrests_Music_Box_425"+=trinket1=lady_waycrests_music_box,id=159631,bonus_id=1597/4777

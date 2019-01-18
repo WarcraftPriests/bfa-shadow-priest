@@ -272,10 +272,15 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 for x in data:
                     if x['profile'] == simType:
                         if x['actor'] == str(u+y):
-                            if cnt < maxCnt:
-                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')
+                            if x['actor']== ("Champion_of_Azeroth_" + y):
+                                j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
+                                j.write('\t\t\t"2_stack": 0,\n')
+                                j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
                             else:
-                                j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
+                                if cnt < maxCnt:
+                                    j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')
+                                else:
+                                    j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
                     j.write('\t\t},\n')
@@ -353,9 +358,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         for u in uniqueList:
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+'1'):
-                    DPSSort.append(x['DPS'])        
+                    DPSSort.append(x['DPS'])
         if "Int_" in uniqueList: uniqueList.remove("Int_")
-        
+
         sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
