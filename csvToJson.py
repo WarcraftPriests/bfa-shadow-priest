@@ -276,6 +276,10 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                                 j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                                 j.write('\t\t\t"2_stack": 0,\n')
                                 j.write('\t\t\t"3_stack": 0\n') #Have to add empty stacks here because highcharts is dumb.
+                            elif 'combo' in x['actor']:
+                                j.write('\t\t\t"1_stack": 0,\n')
+                                j.write('\t\t\t"2_stack": ' + x['DPS']+',\n')
+                                j.write('\t\t\t"3_stack": 0' + '\n')
                             else:
                                 if cnt < maxCnt:
                                     j.write('\t\t\t"'+y+'_stack": '+x['DPS']+',\n')

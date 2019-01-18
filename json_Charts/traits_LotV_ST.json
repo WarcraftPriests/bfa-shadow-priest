@@ -126,7 +126,9 @@
 			"3_stack": 19631
 		},
 		"Spiteful Apparitions Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 19534,
+			"3_stack": 0
 		},
 		"Sylvanas Resolve": {
 			"1_stack": 18620,
@@ -144,7 +146,9 @@
 			"3_stack": 19596
 		},
 		"Thought Harvester Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 18929,
+			"3_stack": 0
 		},
 		"Barrage Of Many Bombs": {
 			"1_stack": 18534,
@@ -157,7 +161,9 @@
 			"3_stack": 19690
 		},
 		"Whispers of the Damned Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 19612,
+			"3_stack": 0
 		},
 		"Shadow of Elune": {
 			"1_stack": 18624,
@@ -180,25 +186,39 @@
 			"3_stack": 19668
 		},
 		"Death Throes Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 19389,
+			"3_stack": 0
 		},
 		"Thought Harvester Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 19074,
+			"3_stack": 0
 		},
 		"Searing Dialogue Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 18839,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 19333,
+			"3_stack": 0
 		},
 		"Death Throes Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 19226,
+			"3_stack": 0
 		},
 		"Death Throes Whispers of the Damned combo": {
+			"1_stack": 0,
 			"2_stack": 19278,
+			"3_stack": 0
 		},
 		"Thought Harvester Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 18928,
+			"3_stack": 0
 		},
 		"Synaptic Spark Capacitor": {
 			"1_stack": 18426,
@@ -206,19 +226,29 @@
 			"3_stack": 19055
 		},
 		"Searing Dialogue Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 18698,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Thought Harvester combo": {
+			"1_stack": 0,
 			"2_stack": 18979,
+			"3_stack": 0
 		},
 		"Death Throes Thought Harvester combo": {
+			"1_stack": 0,
 			"2_stack": 18881,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 18752,
+			"3_stack": 0
 		},
 		"Death Throes Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 18654,
+			"3_stack": 0
 		},
 		"Ruinous Bolt": {
 			"1_stack": 18462,

@@ -86,7 +86,9 @@
 			"3_stack": 21071
 		},
 		"Spiteful Apparitions Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 20971,
+			"3_stack": 0
 		},
 		"Laser Matrix": {
 			"1_stack": 19806,
@@ -124,7 +126,9 @@
 			"3_stack": 20833
 		},
 		"Whispers of the Damned Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 20828,
+			"3_stack": 0
 		},
 		"Sylvanas Resolve": {
 			"1_stack": 19762,
@@ -147,7 +151,9 @@
 			"3_stack": 20808
 		},
 		"Death Throes Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 20790,
+			"3_stack": 0
 		},
 		"Blood Rite": {
 			"1_stack": 19749,
@@ -160,7 +166,9 @@
 			"3_stack": 20771
 		},
 		"Thought Harvester Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 20758,
+			"3_stack": 0
 		},
 		"Seductive Power": {
 			"1_stack": 19738,
@@ -183,16 +191,24 @@
 			"3_stack": 20714
 		},
 		"Thought Harvester Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 20694,
+			"3_stack": 0
 		},
 		"Searing Dialogue Chorus of Insanity combo": {
+			"1_stack": 0,
 			"2_stack": 20673,
+			"3_stack": 0
 		},
 		"Death Throes Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 20502,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 20474,
+			"3_stack": 0
 		},
 		"Synaptic Spark Capacitor": {
 			"1_stack": 19629,
@@ -200,25 +216,39 @@
 			"3_stack": 20432
 		},
 		"Death Throes Whispers of the Damned combo": {
+			"1_stack": 0,
 			"2_stack": 20415,
+			"3_stack": 0
 		},
 		"Thought Harvester Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 20413,
+			"3_stack": 0
 		},
 		"Searing Dialogue Spiteful Apparitions combo": {
+			"1_stack": 0,
 			"2_stack": 20393,
+			"3_stack": 0
 		},
 		"Death Throes Thought Harvester combo": {
+			"1_stack": 0,
 			"2_stack": 20356,
+			"3_stack": 0
 		},
 		"Death Throes Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 20333,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Thought Harvester combo": {
+			"1_stack": 0,
 			"2_stack": 20329,
+			"3_stack": 0
 		},
 		"Whispers of the Damned Searing Dialogue combo": {
+			"1_stack": 0,
 			"2_stack": 20312,
+			"3_stack": 0
 		},
 		"Ruinous Bolt": {
 			"1_stack": 19569,
