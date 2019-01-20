@@ -1,24 +1,24 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Gnome|31339|1.44%|
-|Night_Elf_Haste|31325|1.39%|
-|Lightforged_Draenei|31286|1.26%|
-|Human|31283|1.25%|
-|Goblin|31258|1.17%|
-|Nightborne|31242|1.12%|
-|Night_Elf_Crit|31238|1.11%|
-|Blood_Elf|31232|1.09%|
-|Dwarf|31223|1.06%|
-|Worgen|31209|1.01%|
-|Panda|31201|0.99%|
-|Troll|31201|0.99%|
-|Void_Elf|31194|0.97%|
-|Tauren|31191|0.95%|
-|Draenei|31153|0.83%|
-|Undead|31143|0.80%|
-|Maghar_Orc|31134|0.77%|
-|Dark_Iron_Dwarf|31031|0.44%|
-|Base|30896|0.00%|
+|Human|30952|1.30%|
+|Night_Elf_Haste|30946|1.28%|
+|Lightforged_Draenei|30938|1.26%|
+|Goblin|30931|1.23%|
+|Gnome|30915|1.18%|
+|Blood_Elf|30896|1.12%|
+|Nightborne|30852|0.98%|
+|Worgen|30850|0.97%|
+|Night_Elf_Crit|30834|0.91%|
+|Tauren|30821|0.87%|
+|Troll|30817|0.86%|
+|Panda|30813|0.85%|
+|Dwarf|30812|0.84%|
+|Void_Elf|30802|0.81%|
+|Undead|30802|0.81%|
+|Maghar_Orc|30783|0.75%|
+|Draenei|30770|0.71%|
+|Dark_Iron_Dwarf|30669|0.38%|
+|Base|30554|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
