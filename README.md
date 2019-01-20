@@ -53,10 +53,10 @@ Every sim is run with the top DA and LotV build:
     - [Spiteful Apparitions](https://www.wowhead.com/spell=277682/spiteful-apparitions)
     - [Azerite Globules](https://www.wowhead.com/spell=266936/azerite-globules)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Chest: [Robes of Biting Cold](https://www.wowhead.com/item=165505/robes-of-biting-cold&bonus=1542:4824&azerite-powers=5)
+- Chest: [Divine Fury Raiment](https://www.wowhead.com/item=165834/divine-fury-raiment&bonus=4822:1507&azerite-powers=5)
     - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
-    - [Spiteful Apparitions](https://www.wowhead.com/spell=277682/spiteful-apparitions)
-    - [Unstable Flames](https://www.wowhead.com/spell=279899/unstable-flames)
+    - [Treacherous Covenant](https://www.wowhead.com/spell=289014/treacherous-covenant)
+    - [On My Way](https://www.wowhead.com/spell=267879/on-my-way)
     - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
 - `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48`
 
