@@ -9,9 +9,9 @@ def assure_path_exists(path):
         os.makedirs(dir)
 
 # Set Dungeon Talent Builds manually
-# SWV_DV_SC_MB_[DA/LotV]
-dungeonsLotV = 'talents=3131312'
-dungeonsDA = 'talents=3131311'
+# SWV_DV_AS_MB_[DA/LotV]
+dungeonsLotV = 'talents=3131112'
+dungeonsDA = 'talents=3131111'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')

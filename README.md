@@ -36,11 +36,11 @@ All sims are run with the following as a base (unless specified otherwise)
 ### Talent Combos
 Every sim is run with the top DA and LotV build:
 ### Raids
-- DA: FotM_ToF_AS_LI_DA
-- LotV: FotM_ToF_AS_LI_LotV
+- DA: SWV_ToF_AS_LI_DA
+- LotV: SWV_ToF_AS_LI_LotV
 ### Dungeons
-- DA: SWV_DV_SC_LI_DA
-- LotV: SWV_DV_SC_LI_LotV
+- DA: SWV_DV_AS_LI_DA
+- LotV: SWV_DV_AS_LI_LotV
 
 ### Azerite Traits
 - Head: [Cowl of Tideborne Omens](https://www.wowhead.com/item=165822/cowl-of-tideborne-omens&bonus=4822:1507)

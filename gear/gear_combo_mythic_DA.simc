@@ -75,7 +75,7 @@ profileset."Combo 2"+="trinket2=,id=165581,bonus_id=1537/4798"
 profileset."Combo 2"+="main_hand=,id=165592,bonus_id=4800/1537"
 # Fogbreaker, Light of the Sea 415
 profileset."Combo 2"+="off_hand=,id=165583,bonus_id=4800/1537"
-profileset."Combo 2"+="talents=1111111"
+profileset."Combo 2"+="talents=3111112"
 
 ### Combo 3
 # Blazewing Hood 415
@@ -110,7 +110,7 @@ profileset."Combo 3"+="trinket2=,id=165581,bonus_id=1537/4798"
 profileset."Combo 3"+="main_hand=,id=165603,bonus_id=4800/1537"
 # Fogbreaker, Light of the Sea 415
 profileset."Combo 3"+="off_hand=,id=165583,bonus_id=4800/1537"
-profileset."Combo 3"+="talents=1111111"
+profileset."Combo 3"+="talents=3111112"
 
 ### Combo 4
 # Blazewing Hood 415
@@ -145,7 +145,7 @@ profileset."Combo 4"+="trinket2=,id=165581,bonus_id=1537/4798"
 profileset."Combo 4"+="main_hand=,id=165919,bonus_id=4800/1537"
 # Cursed Monkey Palm 415
 profileset."Combo 4"+="off_hand=,id=165582,bonus_id=4800/1537"
-profileset."Combo 4"+="talents=1111111"
+profileset."Combo 4"+="talents=3111112"
 
 ### Combo 5
 # Blazewing Hood 415
@@ -180,7 +180,7 @@ profileset."Combo 5"+="trinket2=,id=165581,bonus_id=1537/4798"
 profileset."Combo 5"+="main_hand=,id=165592,bonus_id=4800/1537"
 # Cursed Monkey Palm 415
 profileset."Combo 5"+="off_hand=,id=165582,bonus_id=4800/1537"
-profileset."Combo 5"+="talents=1111111"
+profileset."Combo 5"+="talents=3111112"
 
 ### Combo 6
 # Blazewing Hood 415
@@ -215,7 +215,7 @@ profileset."Combo 6"+="trinket2=,id=165581,bonus_id=1537/4798"
 profileset."Combo 6"+="main_hand=,id=165603,bonus_id=4800/1537"
 # Cursed Monkey Palm 415
 profileset."Combo 6"+="off_hand=,id=165582,bonus_id=4800/1537"
-profileset."Combo 6"+="talents=1111111"
+profileset."Combo 6"+="talents=3111112"
 
 ### Combo 7
 # Blazewing Hood 415
@@ -249,7 +249,7 @@ profileset."Combo 7"+="trinket2=,id=165581,bonus_id=1537/4798"
 # Phoenixfire Staff 415
 profileset."Combo 7"+="main_hand=,id=165587,bonus_id=4800/1537"
 profileset."Combo 7"+="off_hand=,"
-profileset."Combo 7"+="talents=1111111"
+profileset."Combo 7"+="talents=3111112"
 
 ### Combo 8
 # Blazewing Hood 415
@@ -283,7 +283,7 @@ profileset."Combo 8"+="trinket2=,id=165581,bonus_id=1537/4798"
 # Deathspeaker Spire 415
 profileset."Combo 8"+="main_hand=,id=165597,bonus_id=4800/1537"
 profileset."Combo 8"+="off_hand=,"
-profileset."Combo 8"+="talents=1111111"
+profileset."Combo 8"+="talents=3111112"
 
 # Simulation Configs
 iterations="10000"
