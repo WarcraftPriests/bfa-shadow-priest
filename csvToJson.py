@@ -347,6 +347,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Thunderous Blast ":'+'"280384"'+',\n')
         j.write('\t\t"Tidal Surge ":'+'"280404"'+',\n')
         j.write('\t\t"Tradewinds ":'+'"281843"'+',\n')
+        j.write('\t\t"Treacherous Covenant ":'+'"288989"'+',\n')
         j.write('\t\t"Unstable Catalyst ":'+'"281516"'+',\n')
         j.write('\t\t"Unstable Flames ":'+'"279902"'+',\n')
         j.write('\t\t"Whispers of the Damned ":'+'"275726"'+'\n')
