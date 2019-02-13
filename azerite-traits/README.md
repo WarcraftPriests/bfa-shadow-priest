@@ -2,8 +2,8 @@
 
 ## Raids
 ### DA + LotV
-- [FotM_ToF_AS_LI_DA](Results_DA.md)
-- [FotM_ToF_AS_LI_LotV](Results_LotV.md)
+- [SWV_ToF_AS_LI_DA](Results_DA.md)
+- [SWV_ToF_AS_LI_LotV](Results_LotV.md)
 
 ### AzeritePowerWeights Strings
 - [AzeritePowerWeights_DA](AzeritePowerWeights_DA.md)
