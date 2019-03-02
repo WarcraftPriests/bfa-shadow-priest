@@ -47,7 +47,7 @@ elif args.dir == "azerite-trait-ilvls/":
     else:
         print("Error: must provide --talents [DA, LotV]")
         exit()
-elif args.dir in ("consumables/", "enchants/", "racials/", "gear/"):
+elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/"):
     if args.dir == "gear/":
         category = "gear_combo_mythic"
     else:
