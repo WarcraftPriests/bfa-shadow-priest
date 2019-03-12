@@ -62,6 +62,22 @@ profileset."Dark_Iron_Dwarf"+=race=dark_iron_dwarf
 
 profileset."Maghar_Orc"+=race=maghar_orc
 
-profileset."Zandalari_Troll"+=race=zandalari_troll
-
 profileset."Kul_Tiran"+=race=kul_tiran
+
+profileset."Zandalari_Troll_Akunda"+=race=zandalari_troll
+profileset."Zandalari_Troll_Akunda"+=zandalari_loa=akunda
+
+profileset."Zandalari_Troll_Gonk"+=race=zandalari_troll
+profileset."Zandalari_Troll_Gonk"+=zandalari_loa=gonk
+
+profileset."Zandalari_Troll_Kimbul"+=race=zandalari_troll
+profileset."Zandalari_Troll_Kimbul"+=zandalari_loa=kimbul
+
+profileset."Zandalari_Troll_Kragwa"+=race=zandalari_troll
+profileset."Zandalari_Troll_Kragwa"+=zandalari_loa=kragwa
+
+profileset."Zandalari_Troll_Paku"+=race=zandalari_troll
+profileset."Zandalari_Troll_Paku"+=zandalari_loa=paku
+
+profileset."Zandalari_Troll_Bwonsamdi"+=race=zandalari_troll
+profileset."Zandalari_Troll_Bwonsamdi"+=zandalari_loa=bwonsamdi
