@@ -1,25 +1,28 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Human|29826|1.27%|
-|Gnome|29825|1.27%|
-|Night_Elf_Haste|29802|1.19%|
-|Goblin|29794|1.16%|
-|Troll|29781|1.12%|
-|Lightforged_Draenei|29774|1.09%|
-|Nightborne|29754|1.02%|
-|Blood_Elf|29745|0.99%|
-|Panda|29726|0.93%|
-|Worgen|29726|0.93%|
-|Night_Elf_Crit|29719|0.90%|
-|Kul_Tiran|29713|0.88%|
-|Dwarf|29700|0.84%|
-|Tauren|29692|0.81%|
-|Undead|29672|0.74%|
-|Void_Elf|29666|0.72%|
-|Draenei|29649|0.67%|
-|Maghar_Orc|29614|0.55%|
-|Dark_Iron_Dwarf|29559|0.36%|
-|Base|29453|0.00%|
+|Human|29863|1.53%|
+|Goblin|29840|1.46%|
+|Night_Elf_Haste|29812|1.36%|
+|Gnome|29808|1.35%|
+|Troll|29774|1.23%|
+|Zandalari_Troll_Paku|29754|1.16%|
+|Night_Elf_Crit|29754|1.16%|
+|Worgen|29749|1.15%|
+|Panda|29742|1.12%|
+|Blood_Elf|29740|1.12%|
+|Tauren|29731|1.09%|
+|Lightforged_Draenei|29715|1.03%|
+|Zandalari_Troll_Bwonsamdi|29704|1.00%|
+|Dwarf|29700|0.98%|
+|Nightborne|29699|0.98%|
+|Kul_Tiran|29698|0.98%|
+|Undead|29674|0.89%|
+|Zandalari_Troll_Kimbul|29669|0.88%|
+|Void_Elf|29645|0.79%|
+|Draenei|29633|0.75%|
+|Maghar_Orc|29623|0.72%|
+|Dark_Iron_Dwarf|29542|0.44%|
+|Base|29412|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
