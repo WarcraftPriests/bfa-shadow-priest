@@ -40,6 +40,61 @@ trinketsRaidDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/tri
 #CSV Field names
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
 
+# Trait List (hack fix for the moment)
+traitList = ['Apothecarys_Concoctions_',
+'Archive_of_the_Titans_',
+'Barrage_Of_Many_Bombs_',
+'Battlefield_Focus_',
+'Blightborne_Infusion_',
+'Blood_Rite_',
+'Bonded_Souls_',
+'Champion_of_Azeroth_',
+'Chorus_of_Insanity_',
+'Collective_Will_',
+'Combined_Might_',
+'Dagger_in_the_Back_Behind_',
+'Dagger_in_the_Back_Front_',
+'Death_Throes_',
+'Fight_or_Flight_',
+'Filthy_Transfusion_',
+'Glory_in_Battle_',
+'Incite_the_Pack_',
+'Laser_Matrix_',
+'Meticulous_Scheming_',
+'Relational_Normalization_Gizmo_',
+'Retaliatory_Fury_',
+'Rezans_Fury_',
+'Ricocheting_Inflatable_Pyrosaw_',
+'Ruinous_Bolt_',
+'Searing_Dialogue_',
+'Secrets_of_the_Deep_',
+'Seductive_Power_',
+'Shadow_of_Elune_',
+'Spiteful_Apparitions_',
+'Swirling_Sands_',
+'Sylvanas_Resolve_',
+'Synaptic_Spark_Capacitor_',
+'Thought_Harvester_',
+'Thunderous_Blast_',
+'Tidal_Surge_',
+'Tradewinds_',
+'Treacherous_Covenant_',
+'Unstable_Catalyst_',
+'Whispers_of_the_Damned_',
+
+#Secondary Traits
+'Azerite_Globules_',
+'Blood_Siphon_',
+'Earthlink_',
+'Elemental_Whirl_',
+'Gutripper_',
+'Heed_My_Call_',
+'On_My_Way_',
+'Overwhelming_Power_',
+'Unstable_Flames_']
+
+
+
 def parseCSV(file, json_file):
     csv_rows = []
     with open(file) as csvfile:
@@ -360,13 +415,12 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"3_stack"\n')
         j.write('\t],\n')
         DPSSort = list()
-        for u in uniqueList:
+        for u in traitList:
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+'1'):
                     DPSSort.append(x['DPS'])
-        if "Int_" in uniqueList: uniqueList.remove("Int_")
-
-        sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
+        #if "Int_" in uniqueList: uniqueList.remove("Int_")
+        sortedTraits = [x for _,x in sorted(zip(DPSSort, traitList),reverse=True)]
         ucnt = 0
         j.write('\t"sorted_data_keys": [\n')
         if "Int_" in sortedTraits: sortedTraits.remove("Int_")
