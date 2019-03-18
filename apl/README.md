@@ -1,15 +1,15 @@
 # Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Mindbender|23948|0.00%|
-|Mind_Blast|23948|0.00%|
-|Base|23947|0.00%|
-|Both|23946|0.00%|
+|Both|25058|1.48%|
+|Mindbender|24973|1.13%|
+|Mind_Blast|24775|0.33%|
+|Base|24694|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Mindbender|22965|0.01%|
-|Mind_Blast|22965|0.00%|
-|Base|22964|0.00%|
-|Both|22960|-0.01%|
+|Both|23969|1.78%|
+|Mindbender|23848|1.27%|
+|Mind_Blast|23657|0.46%|
+|Base|23549|0.00%|
