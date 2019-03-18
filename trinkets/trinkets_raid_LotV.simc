@@ -8,7 +8,7 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=cowl_of_tideborne_omens,id=165822,bonus_id=4824/1537,azerite_powers=166/115/30/13
+head=crown_of_the_seducer,id=165818,bonus_id=4824/1537,azerite_powers=403/405/18/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
 shoulder=bristling_fur_lined_amice,id=165922,bonus_id=4824/1537,azerite_powers=405/403/462/13
 back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
@@ -178,6 +178,15 @@ profileset."Ancient_Knot_of_Wisdom_410"+=trinket1=ancient_knot_of_wisdom,id=1667
 profileset."Ancient_Knot_of_Wisdom_415"+=trinket1=ancient_knot_of_wisdom,id=166793,ilevel=415
 profileset."Ancient_Knot_of_Wisdom_420"+=trinket1=ancient_knot_of_wisdom,id=166793,ilevel=420
 profileset."Ancient_Knot_of_Wisdom_425"+=trinket1=ancient_knot_of_wisdom,id=166793,ilevel=425
+
+# Crucible of Storms
+profileset."Harbingers_Inscrutable_Will_395"+=trinket1=harbingers_inscrutable_will,id=167867
+profileset."Harbingers_Inscrutable_Will_400"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=1522
+profileset."Harbingers_Inscrutable_Will_405"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=1527
+profileset."Harbingers_Inscrutable_Will_410"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=4799/1532
+profileset."Harbingers_Inscrutable_Will_415"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=1537/4799
+profileset."Harbingers_Inscrutable_Will_420"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=1542/4799
+profileset."Harbingers_Inscrutable_Will_425"+=trinket1=harbingers_inscrutable_will,id=167867,bonus_id=4800/1547
 
 # PvP World Boss Trinket
 profileset."Dooms_Hatred_370"+=trinket1=dooms_hatred,id=161461,ilevel=370
