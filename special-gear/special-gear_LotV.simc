@@ -8,7 +8,7 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=cowl_of_tideborne_omens,id=165822,bonus_id=4824/1537,azerite_powers=166/115/30/13
+head=crown_of_the_seducer,id=165818,bonus_id=4824/1537,azerite_powers=403/405/18/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
 shoulder=bristling_fur_lined_amice,id=165922,bonus_id=4824/1537,azerite_powers=405/403/462/13
 back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
@@ -26,8 +26,4 @@ main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigatio
 
 profileset."Seabreeze_415"+=main_hand=seabreeze,id=158371,bonus_id=1587/4777,enchant=quick_navigation
 
-profileset."Zaxasjs_Deepstriders_420"+=feet=zaxasjs_deepstriders,id=167218,bonus_id=4800/1542
-
-profileset."Fathom_Dredgers_420"+=hands=fathom_dredgers,id=167833,bonus_id=4800/1542
-
-profileset."Malformed_Heralds_Legwraps_420"+=legs=malformed_heralds_legwraps,id=167835,bonus_id=4800/1542
+profileset."Malformed_Heralds_Legwraps_425"+=legs=malformed_heralds_legwraps,id=167835,bonus_id=4800/1547
