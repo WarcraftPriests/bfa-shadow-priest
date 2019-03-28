@@ -438,7 +438,79 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\n}')
     j.close()
 
+
+def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            if "combo" in m:
+                namelist.append(m)
+        uniqueList = make_unique(namelist)
+        if "Base" in uniqueList: uniqueList.remove("Base")
+        j.write('\t"data": {\n')
+        ucntMax = len(uniqueList)
+        #print(ucntMax)
+        ucnt = 0
+        for u in uniqueList:
+            ucnt+=1
+            traitSteps = ['2']
+            if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
+                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            maxCnt = 3
+            cnt = 0
+            for y in traitSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == str(u+y):
+                            if cnt < maxCnt:
+                                j.write('\t\t\t"'+'1_stack": '+x['DPS']+',\n')
+                            else:
+                                j.write('\t\t\t"'+'1_stack": '+x['DPS']+'\n')
+            if ucnt < ucntMax:
+                if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
+                    j.write('\t\t},\n')
+            else:
+                j.write('\t\t},')
+                for x in data:
+                    if x['profile'] == simType and x['actor'] == 'Base':
+                        j.write('\n\t\t"Base": {\n')
+                        j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
+                j.write('\t\t}\n')
+        j.write('\t},\n')
+        DPSSort = list()
+        for u in uniqueList:
+            for x in data:
+                if x['profile'] == simType and x['actor'] == str(u+'2'):
+                    DPSSort.append(x['DPS'])
+        #if "Int_" in uniqueList: uniqueList.remove("Int_")
+        sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]   
+        j.write('\t"sorted_data_keys": [\n')
+        ucntMax = len(sortedTraits)
+        ucnt = 0
+        for s in sortedTraits:
+            ucnt+=1
+            if not s == 'Base':
+                s = s.replace('_',' ')
+                s = s.replace(" combo", ' ')
+                s = s.rstrip()
+                if ucnt < ucntMax:
+                    j.write('\t\t"'+s+'",\n')
+                else:
+                    j.write('\t\t"'+s+'"\n')
+        j.write('\t]')
+        #j.write('\n\t},')
+        j.write('\n}')
+    j.close()
+
 os.chdir("json_Charts/")
+
+
+
 
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_C.json", 'composite')
 buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_ST.json", 'single_target')
@@ -452,6 +524,13 @@ buildTraitJsonChart(traitsDAJsonD, "traits_DA_D.json", 'dungeons')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
 buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
 buildTraitJsonChart(traitsLotVJsonD, "traits_LotV_D.json", 'dungeons')
+
+buildTraitJsonComboChart(traitsDAJson, "traits_DA_C_Combo.json", 'composite')
+buildTraitJsonComboChart(traitsDAJson, "traits_DA_ST_Combo.json", 'single_target')
+buildTraitJsonComboChart(traitsDAJsonD, "traits_DA_D_Combo.json", 'dungeons')
+buildTraitJsonComboChart(traitsLotVJson, "traits_LotV_C_Combo.json", 'composite')
+buildTraitJsonComboChart(traitsLotVJson, "traits_LotV_ST_Combo.json", 'single_target')
+buildTraitJsonComboChart(traitsLotVJsonD, "traits_LotV_D_Combo.json", 'dungeons')
 
 #exit()
 
