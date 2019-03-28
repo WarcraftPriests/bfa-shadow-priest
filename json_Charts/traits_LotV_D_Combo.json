@@ -1,66 +1,274 @@
 {
 	"data": {
-		"Thought Harvester Searing Dialogue combo": {
-			"1_stack": 23568,
+		"Searing Dialogue 3 Chorus of Insanity 2 Thought Harvester 1": {
+			"1_stack": 28796
 		},
-		"Searing Dialogue Chorus of Insanity combo": {
-			"1_stack": 23541,
+		"Searing Dialogue 3 Chorus of Insanity 1 Thought Harvester 1 Spiteful Apparitions 1": {
+			"1_stack": 28381
 		},
-		"Death Throes Searing Dialogue combo": {
-			"1_stack": 23192,
+		"Searing Dialogue 3 Chorus of Insanity 1 Thought Harvester 1 Whispers of the Damned 1": {
+			"1_stack": 28231
 		},
-		"Thought Harvester Chorus of Insanity combo": {
-			"1_stack": 23179,
+		"Searing Dialogue 3 Chorus of Insanity 3": {
+			"1_stack": 28212
 		},
-		"Whispers of the Damned Chorus of Insanity combo": {
-			"1_stack": 23008,
+		"Searing Dialogue 3 Death Throes 1 Thought Harvester 1 Barrage of Many Bombs 1": {
+			"1_stack": 28209
 		},
-		"Death Throes Chorus of Insanity combo": {
-			"1_stack": 22999,
+		"Searing Dialogue 3 Death Throes 2 Thought Harvester 1": {
+			"1_stack": 28054
 		},
-		"Whispers of the Damned Searing Dialogue combo": {
-			"1_stack": 22973,
+		"Searing Dialogue 3 Spiteful Apparitions 1 Thought Harvester 1 Whispers of the Damned 1": {
+			"1_stack": 27681
 		},
-		"Searing Dialogue Spiteful Apparitions combo": {
-			"1_stack": 22870,
+		"Death Throes 3 Searing Dialogue 3": {
+			"1_stack": 27332
 		},
-		"Spiteful Apparitions Chorus of Insanity combo": {
-			"1_stack": 22810,
+		"Chorus of Insanity 3 Spiteful Apparitions 2 Whispers of the Damned 1": {
+			"1_stack": 27292
 		},
-		"Death Throes Thought Harvester combo": {
-			"1_stack": 22727,
+		"Death Throes 3 Chorus of Insanity 3": {
+			"1_stack": 26968
 		},
-		"Whispers of the Damned Thought Harvester combo": {
-			"1_stack": 22706,
+		"Spiteful Apparitions 3 Chorus of Insanity 3": {
+			"1_stack": 26953
 		},
-		"Thought Harvester Spiteful Apparitions combo": {
-			"1_stack": 22623,
+		"Thought Harvester 3 Searing Dialogue 3": {
+			"1_stack": 26700
 		},
-		"Death Throes Whispers of the Damned combo": {
-			"1_stack": 22531,
+		"Whispers of the Damned 3 Chorus of Insanity 3": {
+			"1_stack": 26617
 		},
-		"Death Throes Spiteful Apparitions combo": {
-			"1_stack": 22313,
+		"Searing Dialogue 3 Spiteful Apparitions 3": {
+			"1_stack": 26315
 		},
-		"Whispers of the Damned Spiteful Apparitions combo": {
-			"1_stack": 22248,
+		"Whispers of the Damned 3 Searing Dialogue 3": {
+			"1_stack": 26095
+		},
+		"Thought Harvester 3 Chorus of Insanity 3": {
+			"1_stack": 25863
+		},
+		"Thought Harvester 1 Searing Dialogue 2": {
+			"1_stack": 25201
+		},
+		"Death Throes 3 Whispers of the Damned 3": {
+			"1_stack": 24966
+		},
+		"Chorus of Insanity 1 Searing Dialogue 2": {
+			"1_stack": 24834
+		},
+		"Death Throes 3 Spiteful Apparitions 3": {
+			"1_stack": 24784
+		},
+		"Searing Dialogue 1 Chorus of Insanity 2": {
+			"1_stack": 24689
+		},
+		"Death Throes 3 Thought Harvester 3": {
+			"1_stack": 24532
+		},
+		"Death Throes 1 Searing Dialogue 2": {
+			"1_stack": 24524
+		},
+		"Whispers of the Damned 1 Chorus of Insanity 2": {
+			"1_stack": 24303
+		},
+		"Thought Harvester 1 Chorus of Insanity 2": {
+			"1_stack": 24268
+		},
+		"Whispers of the Damned 1 Searing Dialogue 2": {
+			"1_stack": 24234
+		},
+		"Spiteful Apparitions 1 Searing Dialogue 2": {
+			"1_stack": 24233
+		},
+		"Death Throes 1 Chorus of Insanity 2": {
+			"1_stack": 24153
+		},
+		"Thought Harvester 3 Spiteful Apparitions 3": {
+			"1_stack": 24145
+		},
+		"Whispers of the Damned 3 Thought Harvester 3": {
+			"1_stack": 24054
+		},
+		"Whispers of the Damned 3 Spiteful Apparitions 3": {
+			"1_stack": 24040
+		},
+		"Spiteful Apparitions 1 Chorus of Insanity 2": {
+			"1_stack": 24035
+		},
+		"Searing Dialogue 1 Death Throes 2": {
+			"1_stack": 23939
+		},
+		"Searing Dialogue 1 Thought Harvester 2": {
+			"1_stack": 23796
+		},
+		"Chorus of Insanity 1 Death Throes 2": {
+			"1_stack": 23783
+		},
+		"Thought Harvester Searing Dialogue": {
+			"1_stack": 23568
+		},
+		"Searing Dialogue Chorus of Insanity": {
+			"1_stack": 23541
+		},
+		"Chorus of Insanity 1 Whispers of the Damned 2": {
+			"1_stack": 23436
+		},
+		"Thought Harvester 1 Death Throes 2": {
+			"1_stack": 23401
+		},
+		"Chorus of Insanity 1 Thought Harvester 2": {
+			"1_stack": 23401
+		},
+		"Searing Dialogue 1 Whispers of the Damned 2": {
+			"1_stack": 23398
+		},
+		"Chorus of Insanity 1 Spiteful Apparitions 2": {
+			"1_stack": 23388
+		},
+		"Searing Dialogue 1 Spiteful Apparitions 2": {
+			"1_stack": 23338
+		},
+		"Whispers of the Damned 1 Death Throes 2": {
+			"1_stack": 23300
+		},
+		"Death Throes Searing Dialogue": {
+			"1_stack": 23192
+		},
+		"Thought Harvester Chorus of Insanity": {
+			"1_stack": 23179
+		},
+		"Thought Harvester 1 Spiteful Apparitions 2": {
+			"1_stack": 23139
+		},
+		"Thought Harvester 1 Whispers of the Damned 2": {
+			"1_stack": 23120
+		},
+		"Spiteful Apparitions 1 Death Throes 2": {
+			"1_stack": 23100
+		},
+		"Whispers of the Damned Chorus of Insanity": {
+			"1_stack": 23008
+		},
+		"Death Throes Chorus of Insanity": {
+			"1_stack": 22999
+		},
+		"Whispers of the Damned Searing Dialogue": {
+			"1_stack": 22973
+		},
+		"Death Throes 1 Thought Harvester 2": {
+			"1_stack": 22968
+		},
+		"Whispers of the Damned 1 Thought Harvester 2": {
+			"1_stack": 22936
+		},
+		"Death Throes 1 Whispers of the Damned 2": {
+			"1_stack": 22933
+		},
+		"Searing Dialogue Spiteful Apparitions": {
+			"1_stack": 22870
+		},
+		"Spiteful Apparitions 1 Thought Harvester 2": {
+			"1_stack": 22852
+		},
+		"Death Throes 1 Spiteful Apparitions 2": {
+			"1_stack": 22811
+		},
+		"Spiteful Apparitions Chorus of Insanity": {
+			"1_stack": 22810
+		},
+		"Death Throes Thought Harvester": {
+			"1_stack": 22727
+		},
+		"Whispers of the Damned Thought Harvester": {
+			"1_stack": 22706
+		},
+		"Whispers of the Damned 1 Spiteful Apparitions 2": {
+			"1_stack": 22703
+		},
+		"Spiteful Apparitions 1 Whispers of the Damned 2": {
+			"1_stack": 22636
+		},
+		"Thought Harvester Spiteful Apparitions": {
+			"1_stack": 22623
+		},
+		"Death Throes Whispers of the Damned": {
+			"1_stack": 22531
+		},
+		"Death Throes Spiteful Apparitions": {
+			"1_stack": 22313
+		},
+		"Whispers of the Damned Spiteful Apparitions": {
+			"1_stack": 22248
 		},
 		"Base": {
 			"1_stack": 21159,
 		}
 	},
 	"sorted_data_keys": [
+		"Searing Dialogue 3 Chorus of Insanity 2 Thought Harvester 1",
+		"Searing Dialogue 3 Chorus of Insanity 1 Thought Harvester 1 Spiteful Apparitions 1",
+		"Searing Dialogue 3 Chorus of Insanity 1 Thought Harvester 1 Whispers of the Damned 1",
+		"Searing Dialogue 3 Chorus of Insanity 3",
+		"Searing Dialogue 3 Death Throes 1 Thought Harvester 1 Barrage of Many Bombs 1",
+		"Searing Dialogue 3 Death Throes 2 Thought Harvester 1",
+		"Searing Dialogue 3 Spiteful Apparitions 1 Thought Harvester 1 Whispers of the Damned 1",
+		"Death Throes 3 Searing Dialogue 3",
+		"Chorus of Insanity 3 Spiteful Apparitions 2 Whispers of the Damned 1",
+		"Death Throes 3 Chorus of Insanity 3",
+		"Spiteful Apparitions 3 Chorus of Insanity 3",
+		"Thought Harvester 3 Searing Dialogue 3",
+		"Whispers of the Damned 3 Chorus of Insanity 3",
+		"Searing Dialogue 3 Spiteful Apparitions 3",
+		"Whispers of the Damned 3 Searing Dialogue 3",
+		"Thought Harvester 3 Chorus of Insanity 3",
+		"Thought Harvester 1 Searing Dialogue 2",
+		"Death Throes 3 Whispers of the Damned 3",
+		"Chorus of Insanity 1 Searing Dialogue 2",
+		"Death Throes 3 Spiteful Apparitions 3",
+		"Searing Dialogue 1 Chorus of Insanity 2",
+		"Death Throes 3 Thought Harvester 3",
+		"Death Throes 1 Searing Dialogue 2",
+		"Whispers of the Damned 1 Chorus of Insanity 2",
+		"Thought Harvester 1 Chorus of Insanity 2",
+		"Whispers of the Damned 1 Searing Dialogue 2",
+		"Spiteful Apparitions 1 Searing Dialogue 2",
+		"Death Throes 1 Chorus of Insanity 2",
+		"Thought Harvester 3 Spiteful Apparitions 3",
+		"Whispers of the Damned 3 Thought Harvester 3",
+		"Whispers of the Damned 3 Spiteful Apparitions 3",
+		"Spiteful Apparitions 1 Chorus of Insanity 2",
+		"Searing Dialogue 1 Death Throes 2",
+		"Searing Dialogue 1 Thought Harvester 2",
+		"Chorus of Insanity 1 Death Throes 2",
 		"Thought Harvester Searing Dialogue",
 		"Searing Dialogue Chorus of Insanity",
+		"Chorus of Insanity 1 Whispers of the Damned 2",
+		"Thought Harvester 1 Death Throes 2",
+		"Chorus of Insanity 1 Thought Harvester 2",
+		"Searing Dialogue 1 Whispers of the Damned 2",
+		"Chorus of Insanity 1 Spiteful Apparitions 2",
+		"Searing Dialogue 1 Spiteful Apparitions 2",
+		"Whispers of the Damned 1 Death Throes 2",
 		"Death Throes Searing Dialogue",
 		"Thought Harvester Chorus of Insanity",
+		"Thought Harvester 1 Spiteful Apparitions 2",
+		"Thought Harvester 1 Whispers of the Damned 2",
+		"Spiteful Apparitions 1 Death Throes 2",
 		"Whispers of the Damned Chorus of Insanity",
 		"Death Throes Chorus of Insanity",
 		"Whispers of the Damned Searing Dialogue",
+		"Death Throes 1 Thought Harvester 2",
+		"Whispers of the Damned 1 Thought Harvester 2",
+		"Death Throes 1 Whispers of the Damned 2",
 		"Searing Dialogue Spiteful Apparitions",
+		"Spiteful Apparitions 1 Thought Harvester 2",
+		"Death Throes 1 Spiteful Apparitions 2",
 		"Spiteful Apparitions Chorus of Insanity",
 		"Death Throes Thought Harvester",
 		"Whispers of the Damned Thought Harvester",
+		"Whispers of the Damned 1 Spiteful Apparitions 2",
+		"Spiteful Apparitions 1 Whispers of the Damned 2",
 		"Thought Harvester Spiteful Apparitions",
 		"Death Throes Whispers of the Damned",
 		"Death Throes Spiteful Apparitions",

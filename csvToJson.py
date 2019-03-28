@@ -446,7 +446,7 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
     with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
         data = json.load(f)
         for x in data: #Easier to parse the originally converted JSON to organize the data
-            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            m = re.search(r"\w*",x['actor'].rstrip()).group(0)
             if "combo" in m:
                 namelist.append(m)
         uniqueList = make_unique(namelist)
@@ -457,18 +457,18 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
         ucnt = 0
         for u in uniqueList:
             ucnt+=1
-            traitSteps = ['2']
+            traitSteps = ['1']
             if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
-                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+                j.write('\t\t"' + u.replace('_',' ').replace('combo 6', ' ').replace('combo 5', ' ').replace('combo 4', ' ').replace('combo 3', ' ').replace('combo 2', ' ').rstrip() +'": {\n')
             maxCnt = 3
             cnt = 0
             for y in traitSteps:
                 cnt+=1
                 for x in data:
                     if x['profile'] == simType:
-                        if x['actor'] == str(u+y):
+                        if x['actor'] == str(u):
                             if cnt < maxCnt:
-                                j.write('\t\t\t"'+'1_stack": '+x['DPS']+',\n')
+                                j.write('\t\t\t"'+'1_stack": '+x['DPS']+'\n')
                             else:
                                 j.write('\t\t\t"'+'1_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
@@ -485,7 +485,7 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
         DPSSort = list()
         for u in uniqueList:
             for x in data:
-                if x['profile'] == simType and x['actor'] == str(u+'2'):
+                if x['profile'] == simType and x['actor'] == str(u):
                     DPSSort.append(x['DPS'])
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]   
@@ -496,7 +496,11 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
             ucnt+=1
             if not s == 'Base':
                 s = s.replace('_',' ')
-                s = s.replace(" combo", ' ')
+                s = s.replace(" combo 6", ' ')
+                s = s.replace(" combo 5", ' ')
+                s = s.replace(" combo 4", ' ')
+                s = s.replace(" combo 3", ' ')
+                s = s.replace(" combo 2", ' ')
                 s = s.rstrip()
                 if ucnt < ucntMax:
                     j.write('\t\t"'+s+'",\n')
