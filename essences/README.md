@@ -1,4 +1,4 @@
-# Azerite Trait Ilvl Results
+# Azerite Essences Results
 
 ## Raids
 - [SWV_ToF_AS_LI_DA](Results_DA.md)

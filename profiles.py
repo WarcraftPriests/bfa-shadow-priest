@@ -41,13 +41,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir == "azerite-trait-ilvls/":
-    if args.talents:
-        simc = "{0}azerite_{1}.simc".format(args.dir, args.talents)
-    else:
-        print("Error: must provide --talents [DA, LotV]")
-        exit()
-elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/"):
+elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/", "essences/"):
     if args.dir == "gear/":
         category = "gear_combo_mythic"
     else:
