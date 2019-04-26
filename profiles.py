@@ -9,14 +9,14 @@ def assure_path_exists(path):
         os.makedirs(dir)
 
 # Set Dungeon Talent Builds manually
-# SWV_DV_AS_MB_[DA/LotV]
-dungeonsLotV = 'talents=3131112'
-dungeonsDA = 'talents=3131111'
+# SWV_DV_[AS|SC]_MB_LotV
+dungeonsAS = 'talents=3131111'
+dungeonsSC = 'talents=3131311'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
+parser.add_argument('--talents', help='indicate talent build for output.', choices=['AS','SC'])
 args = parser.parse_args()
 
 # clear out results
@@ -49,10 +49,10 @@ elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gea
     if args.talents:
         simc = "{0}{1}_{2}.simc".format(args.dir, category, args.talents)
     else:
-        print("Error: must provide --talents [DA, LotV]")
+        print("Error: must provide --talents [AS, SC]")
         exit()
 elif (args.dir == "trinkets/" or args.dir == "azerite-traits/") and not args.talents:
-    print("Error: must provide --talents [DA, LotV]")
+    print("Error: must provide --talents [AS, SC]")
     exit()
 elif args.dir not in ("stats/", "talents/", "trinkets/", "azerite-gear/", "azerite-traits/"):
     print("Error: provided directory does not match known directory.")
@@ -146,10 +146,10 @@ for value in profiles:
     if args.dungeons:
         settings = settings + dungeons + "\n"
         if args.talents and not args.dir == "talents/":
-            if args.talents == "LotV":
-                settings = settings + dungeonsLotV
+            if args.talents == "AS":
+                settings = settings + dungeonsAS
             else:
-                settings = settings + dungeonsDA
+                settings = settings + dungeonsSC
     else:
         if "pw" in value:
             settings = settings + patchwerk + "\n"

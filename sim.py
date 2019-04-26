@@ -20,7 +20,7 @@ parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talen
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.', action='store_true')
 parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
+parser.add_argument('--talents', help='indicate talent build for output.', choices=['AS','SC'])
 args = parser.parse_args()
 
 if args.weights:

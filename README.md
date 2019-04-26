@@ -18,10 +18,10 @@ All scripts are run with python3. If you are using Windows you will likely need 
 
 1. Run `pip install -r requirements.txt` in order for `analyze.py` to work
 2. Validate the default lists of reports in `reports.py` are what you want to sim.
-3. Run `python profiles.py dir/ --talents [DA, LotV]` for the directory you want to sim.
+3. Run `python profiles.py dir/ --talents [AS, SC]` for the directory you want to sim.
 4. After profiles are generated create `secrets.py` inside the root directory. Set `apiKey = XXX`
 5. By default if a file already exists in `results/` or if the weight in `weights.py` is 0, sim.py will skip it
-6. To run the sims use `python sim.py dir/ [--iterations X, --weights, --talents [DA, LotV]]` where `dir/` is the sim directory you want to sim
+6. To run the sims use `python sim.py dir/ [--iterations X, --weights, --talents [AS, SC]]` where `dir/` is the sim directory you want to sim
 
 **IF YOU WANT TO STOP THE SCRIPT USE CTRL+Z**
 
@@ -34,13 +34,13 @@ All scripts are run with python3. If you are using Windows you will likely need 
 All sims are run with the following as a base (unless specified otherwise)
 
 ### Talent Combos
-Every sim is run with the top DA and LotV build:
+Every sim is run with the top AS and SC build:
 ### Raids
-- DA: SWV_ToF_AS_LI_DA
-- LotV: SWV_ToF_AS_LI_LotV
+- AS: SWV_ToF_AS_LI_LotV
+- SC: SWV_ToF_SC_LI_LotV
 ### Dungeons
-- DA: SWV_DV_AS_LI_DA
-- LotV: SWV_DV_AS_LI_LotV
+- AS: SWV_DV_AS_LI_LotV
+- SC: SWV_DV_SC_LI_LotV
 
 ### Azerite Traits
 - Head: [Cowl of Tideborne Omens](https://www.wowhead.com/item=165822/cowl-of-tideborne-omens&bonus=4822:1507)

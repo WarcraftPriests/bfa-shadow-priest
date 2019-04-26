@@ -1,0 +1,247 @@
+priest="Base"
+level=120
+role=spell
+position=back
+talents=3111311
+spec=shadow
+
+default_actions=1
+initial_resource=insanity=25
+
+# Head/Shoulders/Chest at 385 ilvl
+head=blazewing_hood,id=165500,ilevel=385
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
+shoulder=bristling_fur_lined_amice,id=165922,ilevel=385
+back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
+chest=divine_fury_raiment,id=165834,ilevel=385
+wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
+hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
+waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
+legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
+feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
+finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
+finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
+trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
+trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
+main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
+
+# Horrific Amalgams Hood - 385, 400, 415
+# Searing Dialogue + Whispers of the Damned / Death Throes + Archive of the Titans / Heed My Call
+profileset."H_385_horrific_amalgams_hood_SD_DT_HMC"+=head=horrific_amalgams_hood,id=160616,ilevel=385,azerite_powers=115/404/22/13
+profileset."H_385_horrific_amalgams_hood_SD_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,ilevel=385,azerite_powers=115/483/22/13
+profileset."H_385_horrific_amalgams_hood_WotD_DT_HMC"+=head=horrific_amalgams_hood,id=160616,ilevel=385,azerite_powers=236/404/22/13
+profileset."H_385_horrific_amalgams_hood_WotD_AotT_HMC"+=head=horrific_amalgams_hood,id=160616,ilevel=385,azerite_powers=236/483/22/13
+
+# Visage of the Ascended Prophet - 385, 400, 415
+# Chorus of Insanity + Spiteful Apparitions / Thought Harvester + Laser Matrix / Elemental Whirl
+profileset."H_385_visage_of_the_ascended_prophet_CoI_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=405/166/21/13
+profileset."H_385_visage_of_the_ascended_prophet_CoI_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=405/485/21/13
+profileset."H_385_visage_of_the_ascended_prophet_SA_TH_EW"+=head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=403/166/21/13
+profileset."H_385_visage_of_the_ascended_prophet_SA_LM_EW"+=head=visage_of_the_ascended_prophet,id=160719,ilevel=385,azerite_powers=403/485/21/13
+
+# Matriarch's Shadowveil - 385, 400, 415
+# Spiteful Apparitions + Whispers of the Damned / Thought Harvester + Rezan's Fury / Blood Siphon
+profileset."H_385_matriarchs_shadowveil_SA_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=385,azerite_powers=403/166/18/13
+profileset."H_400_matriarchs_shadowveil_SA_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=400,azerite_powers=403/166/18/13
+profileset."H_415_matriarchs_shadowveil_SA_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=415,azerite_powers=403/166/18/13
+profileset."H_385_matriarchs_shadowveil_SA_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=385,azerite_powers=403/157/18/13
+profileset."H_400_matriarchs_shadowveil_SA_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=400,azerite_powers=403/157/18/13
+profileset."H_415_matriarchs_shadowveil_SA_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=415,azerite_powers=403/157/18/13
+profileset."H_385_matriarchs_shadowveil_WotD_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=385,azerite_powers=236/166/18/13
+profileset."H_400_matriarchs_shadowveil_WotD_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=400,azerite_powers=236/166/18/13
+profileset."H_415_matriarchs_shadowveil_WotD_TH_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=415,azerite_powers=236/166/18/13
+profileset."H_385_matriarchs_shadowveil_WotD_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=385,azerite_powers=236/157/18/13
+profileset."H_400_matriarchs_shadowveil_WotD_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=400,azerite_powers=236/157/18/13
+profileset."H_415_matriarchs_shadowveil_WotD_RF_BS"+=head=matriarchs_shadowveil,id=161401,ilevel=415,azerite_powers=236/157/18/13
+
+# Smartly Plumed Cap - 385, 400, 415
+# Death Throes + Spiteful Apparitions / Searing Dialogue + Meticulous Scheming / Azerite Globules
+profileset."H_385_smartly_plumed_cap_DT_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=385,azerite_powers=404/115/462/13
+profileset."H_400_smartly_plumed_cap_DT_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=400,azerite_powers=404/115/462/13
+profileset."H_415_smartly_plumed_cap_DT_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=415,azerite_powers=404/115/462/13
+profileset."H_385_smartly_plumed_cap_DT_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=385,azerite_powers=404/192/462/13
+profileset."H_400_smartly_plumed_cap_DT_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=400,azerite_powers=404/192/462/13
+profileset."H_415_smartly_plumed_cap_DT_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=415,azerite_powers=404/192/462/13
+profileset."H_385_smartly_plumed_cap_SA_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=385,azerite_powers=403/115/462/13
+profileset."H_400_smartly_plumed_cap_SA_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=400,azerite_powers=403/115/462/13
+profileset."H_415_smartly_plumed_cap_SA_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=415,azerite_powers=403/115/462/13
+profileset."H_385_smartly_plumed_cap_SA_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=385,azerite_powers=403/192/462/13
+profileset."H_400_smartly_plumed_cap_SA_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=400,azerite_powers=403/192/462/13
+profileset."H_415_smartly_plumed_cap_SA_MS_AG"+=head=smartly_plumed_cap,id=155886,ilevel=415,azerite_powers=403/192/462/13
+
+# Secret Spinner's Miter - 385, 400, 415
+# Chorus of Insanity + Whispers of the Damned / Thought Harvester + Incite the Pack / Overwhelming Power
+profileset."H_385_secret_spinners_miter_CoI_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=385,azerite_powers=405/166/30/13
+profileset."H_400_secret_spinners_miter_CoI_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=400,azerite_powers=405/166/30/13
+profileset."H_415_secret_spinners_miter_CoI_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=415,azerite_powers=405/166/30/13
+profileset."H_385_secret_spinners_miter_CoI_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=385,azerite_powers=405/481/30/13
+profileset."H_400_secret_spinners_miter_CoI_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=400,azerite_powers=405/481/30/13
+profileset."H_415_secret_spinners_miter_CoI_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=415,azerite_powers=405/481/30/13
+profileset."H_385_secret_spinners_miter_WotD_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=385,azerite_powers=236/166/30/13
+profileset."H_400_secret_spinners_miter_WotD_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=400,azerite_powers=236/166/30/13
+profileset."H_415_secret_spinners_miter_WotD_TH_OP"+=head=secret_spinners_miter,id=158315,ilevel=415,azerite_powers=236/166/30/13
+profileset."H_385_secret_spinners_miter_WotD_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=385,azerite_powers=236/481/30/13
+profileset."H_400_secret_spinners_miter_WotD_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=400,azerite_powers=236/481/30/13
+profileset."H_415_secret_spinners_miter_WotD_ItP_OP"+=head=secret_spinners_miter,id=158315,ilevel=415,azerite_powers=236/481/30/13
+
+# Headdress of the First Empire - 385, 400, 415
+# Death Throes + Searing Dialogue / Thought Harvester + Rezan's Fury / Earthlink
+profileset."H_385_headdress_of_the_first_empire_DT_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=385,azerite_powers=404/166/461/13
+profileset."H_400_headdress_of_the_first_empire_DT_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=400,azerite_powers=404/166/461/13
+profileset."H_415_headdress_of_the_first_empire_DT_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=415,azerite_powers=404/166/461/13
+profileset."H_385_headdress_of_the_first_empire_DT_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=385,azerite_powers=404/157/461/13
+profileset."H_400_headdress_of_the_first_empire_DT_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=400,azerite_powers=404/157/461/13
+profileset."H_415_headdress_of_the_first_empire_DT_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=415,azerite_powers=404/157/461/13
+profileset."H_385_headdress_of_the_first_empire_SD_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=385,azerite_powers=115/166/461/13
+profileset."H_400_headdress_of_the_first_empire_SD_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=400,azerite_powers=115/166/461/13
+profileset."H_415_headdress_of_the_first_empire_SD_TH_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=415,azerite_powers=115/166/461/13
+profileset."H_385_headdress_of_the_first_empire_SD_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=385,azerite_powers=115/157/461/13
+profileset."H_400_headdress_of_the_first_empire_SD_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=400,azerite_powers=115/157/461/13
+profileset."H_415_headdress_of_the_first_empire_SD_RF_EL"+=head=headdress_of_the_first_empire,id=159236,ilevel=415,azerite_powers=115/157/461/13
+
+# Stormlurker's Cowl - 385, 400, 415
+# Chorus of Insanity + Searing Dialogue / Thought Harvester + Tidal Surge / Overwhelming Power + On My Way
+profileset."H_385_stormlurkers_cowl_CoI_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=405/166/30/13
+profileset."H_400_stormlurkers_cowl_CoI_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=405/166/30/13
+profileset."H_415_stormlurkers_cowl_CoI_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=405/166/30/13
+profileset."H_385_stormlurkers_cowl_CoI_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=405/166/38/13
+profileset."H_400_stormlurkers_cowl_CoI_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=405/166/38/13
+profileset."H_415_stormlurkers_cowl_CoI_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=405/166/38/13
+profileset."H_385_stormlurkers_cowl_CoI_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=405/478/30/13
+profileset."H_400_stormlurkers_cowl_CoI_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=405/478/30/13
+profileset."H_415_stormlurkers_cowl_CoI_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=405/478/30/13
+profileset."H_385_stormlurkers_cowl_CoI_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=405/478/38/13
+profileset."H_400_stormlurkers_cowl_CoI_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=405/478/38/13
+profileset."H_415_stormlurkers_cowl_CoI_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=405/478/38/13
+profileset."H_385_stormlurkers_cowl_SD_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=115/166/30/13
+profileset."H_400_stormlurkers_cowl_SD_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=115/166/30/13
+profileset."H_415_stormlurkers_cowl_SD_TH_OP"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=115/166/30/13
+profileset."H_385_stormlurkers_cowl_SD_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=115/166/38/13
+profileset."H_400_stormlurkers_cowl_SD_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=115/166/38/13
+profileset."H_415_stormlurkers_cowl_SD_TH_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=115/166/38/13
+profileset."H_385_stormlurkers_cowl_SD_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=115/478/30/13
+profileset."H_400_stormlurkers_cowl_SD_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=115/478/30/13
+profileset."H_415_stormlurkers_cowl_SD_TS_OP"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=115/478/30/13
+profileset."H_385_stormlurkers_cowl_SD_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=385,azerite_powers=115/478/38/13
+profileset."H_400_stormlurkers_cowl_SD_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=400,azerite_powers=115/478/38/13
+profileset."H_415_stormlurkers_cowl_SD_TS_OMW"+=head=stormlurkers_cowl,id=159244,ilevel=415,azerite_powers=115/478/38/13
+
+# Grasping Crown of the Deep - 385, 400, 415
+# Spiteful Apparitions + Thought Harvester / Death Throes + Dagger in the Back / Blood Siphon
+profileset."H_385_grasping_crown_of_the_deep_SA_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=403/404/18/13
+profileset."H_400_grasping_crown_of_the_deep_SA_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=403/404/18/13
+profileset."H_415_grasping_crown_of_the_deep_SA_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=403/404/18/13
+profileset."H_385_grasping_crown_of_the_deep_SA_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=403/479/18/13
+profileset."H_400_grasping_crown_of_the_deep_SA_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=403/479/18/13
+profileset."H_415_grasping_crown_of_the_deep_SA_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=403/479/18/13
+profileset."H_385_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=403/479/18/13
+profileset."H_385_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=position=ranged_front
+profileset."H_400_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=403/479/18/13
+profileset."H_400_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=position=ranged_front
+profileset."H_415_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=403/479/18/13
+profileset."H_415_grasping_crown_of_the_deep_SA_DitB_BS_Front"+=position=ranged_front
+profileset."H_385_grasping_crown_of_the_deep_TH_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=166/404/18/13
+profileset."H_400_grasping_crown_of_the_deep_TH_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=166/404/18/13
+profileset."H_415_grasping_crown_of_the_deep_TH_DT_BS"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=166/404/18/13
+profileset."H_385_grasping_crown_of_the_deep_TH_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=166/479/18/13
+profileset."H_400_grasping_crown_of_the_deep_TH_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=166/479/18/13
+profileset."H_415_grasping_crown_of_the_deep_TH_DitB_BS_Behind"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=166/479/18/13
+profileset."H_385_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=385,azerite_powers=166/479/18/13
+profileset."H_385_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=position=ranged_front
+profileset."H_400_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=400,azerite_powers=166/479/18/13
+profileset."H_400_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=position=ranged_front
+profileset."H_415_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=head=grasping_crown_of_the_deep,id=159252,ilevel=415,azerite_powers=166/479/18/13
+profileset."H_415_grasping_crown_of_the_deep_TH_DitB_BS_Front"+=position=ranged_front
+
+# Soulfuel Headdress - 385, 400, 415
+# Whispers of the Damned + Thought Harvester / Chorus of Insanity + Blightborne Infusion / Azerite Globules
+profileset."H_385_soulfuel_headdress_TH_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=385,azerite_powers=166/405/462/13
+profileset."H_400_soulfuel_headdress_TH_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=400,azerite_powers=166/405/462/13
+profileset."H_415_soulfuel_headdress_TH_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=415,azerite_powers=166/405/462/13
+profileset."H_385_soulfuel_headdress_TH_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=385,azerite_powers=166/193/462/13
+profileset."H_400_soulfuel_headdress_TH_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=400,azerite_powers=166/193/462/13
+profileset."H_415_soulfuel_headdress_TH_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=415,azerite_powers=166/193/462/13
+profileset."H_385_soulfuel_headdress_WotD_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=385,azerite_powers=236/405/462/13
+profileset."H_400_soulfuel_headdress_WotD_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=400,azerite_powers=236/405/462/13
+profileset."H_415_soulfuel_headdress_WotD_CoI_AG"+=head=soulfuel_headdress,id=159279,ilevel=415,azerite_powers=236/405/462/13
+profileset."H_385_soulfuel_headdress_WotD_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=385,azerite_powers=236/193/462/13
+profileset."H_400_soulfuel_headdress_WotD_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=400,azerite_powers=236/193/462/13
+profileset."H_415_soulfuel_headdress_WotD_BI_AG"+=head=soulfuel_headdress,id=159279,ilevel=415,azerite_powers=236/193/462/13
+
+# Blazewing Hood - 385, 400, 415
+# Searing Dialogue + Whispers of the Damned / Treacharous Covenant + Death Throes / Gutripper
+profileset."H_385_blazewing_hood_SD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=385,azerite_powers=115/562/31/13
+profileset."H_400_blazewing_hood_SD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=400,azerite_powers=115/562/31/13
+profileset."H_415_blazewing_hood_SD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115/562/31/13
+profileset."H_385_blazewing_hood_WotD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=385,azerite_powers=236/562/31/13
+profileset."H_400_blazewing_hood_WotD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=400,azerite_powers=236/562/31/13
+profileset."H_415_blazewing_hood_WotD_TC_GR"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/562/31/13
+profileset."H_385_blazewing_hood_SD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=385,azerite_powers=115/404/31/13
+profileset."H_400_blazewing_hood_SD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=400,azerite_powers=115/404/31/13
+profileset."H_415_blazewing_hood_SD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=115/404/31/13
+profileset."H_385_blazewing_hood_WotD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=385,azerite_powers=236/404/31/13
+profileset."H_400_blazewing_hood_WotD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=400,azerite_powers=236/404/31/13
+profileset."H_415_blazewing_hood_WotD_DT_GR"+=head=blazewing_hood,id=165500,ilevel=415,azerite_powers=236/404/31/13
+
+# Crown of the Seducer - 385, 400, 415
+# Thought Harvester + Spiteful Apparitions / Chorus of Insanity + Seductive Power / Blood Siphon
+profileset."H_385_crown_of_the_seducer_TH_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=385,azerite_powers=166/405/18/13
+profileset."H_400_crown_of_the_seducer_TH_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=400,azerite_powers=166/405/18/13
+profileset."H_415_crown_of_the_seducer_TH_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=415,azerite_powers=166/405/18/13
+profileset."H_385_crown_of_the_seducer_SA_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=385,azerite_powers=403/405/18/13
+profileset."H_400_crown_of_the_seducer_SA_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=400,azerite_powers=403/405/18/13
+profileset."H_415_crown_of_the_seducer_SA_CoI_BS"+=head=crown_of_the_seducer,id=165818,ilevel=415,azerite_powers=403/405/18/13
+profileset."H_385_crown_of_the_seducer_TH_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=385,azerite_powers=166/561/18/13
+profileset."H_400_crown_of_the_seducer_TH_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=400,azerite_powers=166/561/18/13
+profileset."H_415_crown_of_the_seducer_TH_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=415,azerite_powers=166/561/18/13
+profileset."H_385_crown_of_the_seducer_SA_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=385,azerite_powers=403/561/18/13
+profileset."H_400_crown_of_the_seducer_SA_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=400,azerite_powers=403/561/18/13
+profileset."H_415_crown_of_the_seducer_SA_SP_BS"+=head=crown_of_the_seducer,id=165818,ilevel=415,azerite_powers=403/561/18/13
+
+# Cowl of Tideborne Omens - 385, 400, 415
+# Whispers of the Damned + Thought Harvester / Searing Dialogue + Bonded Souls / Overwhelming Power
+profileset."H_385_cowl_of_tideborne_omens_WotD_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=385,azerite_powers=236/115/30/13
+profileset."H_400_cowl_of_tideborne_omens_WotD_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=400,azerite_powers=236/115/30/13
+profileset."H_415_cowl_of_tideborne_omens_WotD_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=415,azerite_powers=236/115/30/13
+profileset."H_385_cowl_of_tideborne_omens_TH_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=385,azerite_powers=166/115/30/13
+profileset."H_400_cowl_of_tideborne_omens_TH_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=400,azerite_powers=166/115/30/13
+profileset."H_415_cowl_of_tideborne_omens_TH_SD_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=415,azerite_powers=166/115/30/13
+profileset."H_385_cowl_of_tideborne_omens_WotD_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=385,azerite_powers=236/560/30/13
+profileset."H_400_cowl_of_tideborne_omens_WotD_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=400,azerite_powers=236/560/30/13
+profileset."H_415_cowl_of_tideborne_omens_WotD_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=415,azerite_powers=236/560/30/13
+profileset."H_385_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=385,azerite_powers=166/560/30/13
+profileset."H_400_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=400,azerite_powers=166/560/30/13
+profileset."H_415_cowl_of_tideborne_omens_TH_BS_OP"+=head=cowl_of_tideborne_omens,id=165822,ilevel=415,azerite_powers=166/560/30/13
+
+# Charged SP1-R1-73D Synthetic Specs - 415
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_SSC_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/500/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_BoMB_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/498/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_RIP_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/499/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_TH_RNG_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=166/501/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_SSC_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/500/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_BoMB_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/498/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_RIP_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/499/30/13
+profileset."H_415_charged_sp1_r1_73d_synthetic_specs_SD_RNG_OP"+=head=charged_sp1_r1_73d_synthetic_specs,id=165895,azerite_powers=115/501/30/13
+
+# SP1-R1-73D Synthetic Specs - 400
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_SSC_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/500/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_BoMB_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/498/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_RIP_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/499/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_TH_RNG_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=166/501/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_SSC_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/500/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_BoMB_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/498/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_RIP_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/499/30/13
+profileset."H_400_sp1_r1_73d_synthetic_specs_SD_RNG_OP"+=head=sp1_r1_73d_synthetic_specs,id=165890,azerite_powers=115/501/30/13
+
+# Surging Synthetic Specs - 385
+# Thought Harvester + Searing Dialogue / Synaptic Spark Capacitor + Barrage of Many Bombs + Ricocheting Inflatable Pyrosaw + Relational Normalization Gizmo / Overwhelming Power
+profileset."H_385_surging_synthetic_specs_TH_SSC_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/500/30/13
+profileset."H_385_surging_synthetic_specs_TH_BoMB_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/498/30/13
+profileset."H_385_surging_synthetic_specs_TH_RIP_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/499/30/13
+profileset."H_385_surging_synthetic_specs_TH_RNG_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=166/501/30/13
+profileset."H_385_surging_synthetic_specs_SD_SSC_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/500/30/13
+profileset."H_385_surging_synthetic_specs_SD_BoMB_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/498/30/13
+profileset."H_385_surging_synthetic_specs_SD_RIP_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/499/30/13
+profileset."H_385_surging_synthetic_specs_SD_RNG_OP"+=head=surging_synthetic_specs,id=165885,azerite_powers=115/501/30/13

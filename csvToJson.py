@@ -8,34 +8,34 @@ starttime = time.time()
 
 #Define all file paths
 #Trinkets
-trinketsDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_DA.csv'))
-trinketsLotV = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_LotV.csv'))
-trinketsDAD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_Dungeons_DA.csv'))
-trinketsLotVD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_Dungeons_LotV.csv'))
+trinketsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.csv'))
+trinketsAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_AS.csv'))
+trinketsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_Dungeons_SC.csv'))
+trinketsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_Dungeons_AS.csv'))
 
 #Triats
-traitsDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_DA.csv'))
-traitsLotV = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_LotV.csv'))
-traitsDAD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_DA.csv'))
-traitsLotVD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_LotV.csv'))
+traitsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC.csv'))
+traitsAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS.csv'))
+traitsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_SC.csv'))
+traitsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_AS.csv'))
 
 
 #JSON Files
 #Trinkets
-trinketsDAJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_DA.json'))
-trinketsLotVJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_LotV.json'))
-trinketsDAJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_DA_D.json'))
-trinketsLotVJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_LotV_D.json'))
+trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
+trinketsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_AS.json'))
+trinketsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC_D.json'))
+trinketsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_AS_D.json'))
 #Traits
-traitsDAJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_DA.json'))
-traitsLotVJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_LotV.json'))
-traitsDAJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_DA_D.json'))
-traitsLotVJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_LotV_D.json'))
+traitsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC.json'))
+traitsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS.json'))
+traitsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC_D.json'))
+traitsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS_D.json'))
 
 # SimC files
-trinketsDungeonsDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_DA.simc'))
-trinketsOtherDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_other_DA.simc'))
-trinketsRaidDA = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_raid_DA.simc'))
+trinketsDungeonsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_SC.simc'))
+trinketsOtherSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_other_SC.simc'))
+trinketsRaidSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_raid_SC.simc'))
 
 #CSV Field names
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
@@ -109,19 +109,19 @@ def csvToJson(data, json_file):
         f.write(json.dumps(data, sort_keys=False, indent=2, separators=(',', ': ')))
 
 
-parseCSV(trinketsDA,trinketsDAJson)
-parseCSV(trinketsLotV,trinketsLotVJson)
-parseCSV(trinketsDAD,trinketsDAJsonD)
-parseCSV(trinketsLotVD,trinketsLotVJsonD)
-parseCSV(traitsDA,traitsDAJson)
-parseCSV(traitsLotV,traitsLotVJson)
-parseCSV(traitsDAD,traitsDAJsonD)
-parseCSV(traitsLotVD,traitsLotVJsonD)
+parseCSV(trinketsSC,trinketsSCJson)
+parseCSV(trinketsAS,trinketsASJson)
+parseCSV(trinketsSCD,trinketsSCJsonD)
+parseCSV(trinketsASD,trinketsASJsonD)
+parseCSV(traitsSC,traitsSCJson)
+parseCSV(traitsAS,traitsASJson)
+parseCSV(traitsSCD,traitsSCJsonD)
+parseCSV(traitsASD,traitsASJsonD)
 
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
-    with open(trinketsDungeonsDA, 'r') as f:
+    with open(trinketsDungeonsSC, 'r') as f:
         lines = f.readlines()
         for line in lines:
             try:
@@ -130,7 +130,7 @@ def getItemId(itemname):
                     return itemID
             except:
                 continue
-    with open(trinketsOtherDA, 'r') as f:
+    with open(trinketsOtherSC, 'r') as f:
         lines = f.readlines()
         for line in lines:
             try:
@@ -139,7 +139,7 @@ def getItemId(itemname):
                     return itemID
             except:
                 continue
-    with open(trinketsRaidDA, 'r') as f:
+    with open(trinketsRaidSC, 'r') as f:
         lines = f.readlines()
         for line in lines:
             try:
@@ -183,7 +183,7 @@ def addNamesToJson(jsonFile):
 		f.write(json.dumps(names, sort_keys=False, indent =2))
 
 def ilvlPerItem(itemName):
-    with open(trinketsDAJson) as f:
+    with open(trinketsSCJson) as f:
         ilvlList = list()
         data = json.load(f)
         for x in data:
@@ -196,8 +196,8 @@ def ilvlPerItem(itemName):
     return uniqueList
 
 
-trinketnames = getNames(trinketsDAJson)
-trinketilvl = getIlvl(trinketsDAJson)
+trinketnames = getNames(trinketsSCJson)
+trinketilvl = getIlvl(trinketsSCJson)
 
 def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
     '''
@@ -365,7 +365,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Blightborne Infusion ":'+'"273823"'+',\n')
         j.write('\t\t"Blood Rite ":'+'"280409"'+',\n')
         j.write('\t\t"Blood Siphon ":'+'"264108"'+',\n')
-        j.write('\t\t"Bonded Souls ":'+'"288841"'+',\n')   
+        j.write('\t\t"Bonded Souls ":'+'"288841"'+',\n')
         j.write('\t\t"Champion of Azeroth ":'+'"270583"'+',\n')
         j.write('\t\t"Chorus of Insanity ":'+'"278661"'+',\n')
         j.write('\t\t"Collective Will ":'+'"280837"'+',\n')
@@ -488,7 +488,7 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
                 if x['profile'] == simType and x['actor'] == str(u):
                     DPSSort.append(x['DPS'])
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
-        sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]   
+        sortedTraits = [x for _,x in sorted(zip(DPSSort, uniqueList),reverse=True)]
         j.write('\t"sorted_data_keys": [\n')
         ucntMax = len(sortedTraits)
         ucnt = 0
@@ -516,36 +516,36 @@ os.chdir("json_Charts/")
 
 
 
-buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_C.json", 'composite')
-buildTrinketJsonChart(trinketsDAJson, "trinkets_DA_ST.json", 'single_target')
-buildTrinketJsonChart(trinketsDAJsonD, "trinkets_DA_D.json", 'dungeons')
-buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_C.json", 'composite')
-buildTrinketJsonChart(trinketsLotVJson, "trinkets_LotV_ST.json", 'single_target')
-buildTrinketJsonChart(trinketsLotVJsonD, "trinkets_LotV_D.json", 'dungeons')
-buildTraitJsonChart(traitsDAJson, "traits_DA_C.json", 'composite')
-buildTraitJsonChart(traitsDAJson, "traits_DA_ST.json", 'single_target')
-buildTraitJsonChart(traitsDAJsonD, "traits_DA_D.json", 'dungeons')
-buildTraitJsonChart(traitsLotVJson, "traits_LotV_C.json", 'composite')
-buildTraitJsonChart(traitsLotVJson, "traits_LotV_ST.json", 'single_target')
-buildTraitJsonChart(traitsLotVJsonD, "traits_LotV_D.json", 'dungeons')
+buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_C.json", 'composite')
+buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_ST.json", 'single_target')
+buildTrinketJsonChart(trinketsSCJsonD, "trinkets_SC_D.json", 'dungeons')
+buildTrinketJsonChart(trinketsASJson, "trinkets_AS_C.json", 'composite')
+buildTrinketJsonChart(trinketsASJson, "trinkets_AS_ST.json", 'single_target')
+buildTrinketJsonChart(trinketsASJsonD, "trinkets_AS_D.json", 'dungeons')
+buildTraitJsonChart(traitsSCJson, "traits_SC_C.json", 'composite')
+buildTraitJsonChart(traitsSCJson, "traits_SC_ST.json", 'single_target')
+buildTraitJsonChart(traitsSCJsonD, "traits_SC_D.json", 'dungeons')
+buildTraitJsonChart(traitsASJson, "traits_AS_C.json", 'composite')
+buildTraitJsonChart(traitsASJson, "traits_AS_ST.json", 'single_target')
+buildTraitJsonChart(traitsASJsonD, "traits_AS_D.json", 'dungeons')
 
-buildTraitJsonComboChart(traitsDAJson, "traits_DA_C_Combo.json", 'composite')
-buildTraitJsonComboChart(traitsDAJson, "traits_DA_ST_Combo.json", 'single_target')
-buildTraitJsonComboChart(traitsDAJsonD, "traits_DA_D_Combo.json", 'dungeons')
-buildTraitJsonComboChart(traitsLotVJson, "traits_LotV_C_Combo.json", 'composite')
-buildTraitJsonComboChart(traitsLotVJson, "traits_LotV_ST_Combo.json", 'single_target')
-buildTraitJsonComboChart(traitsLotVJsonD, "traits_LotV_D_Combo.json", 'dungeons')
+buildTraitJsonComboChart(traitsSCJson, "traits_SC_C_Combo.json", 'composite')
+buildTraitJsonComboChart(traitsSCJson, "traits_SC_ST_Combo.json", 'single_target')
+buildTraitJsonComboChart(traitsSCJsonD, "traits_SC_D_Combo.json", 'dungeons')
+buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
+buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
+buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
 
 #exit()
 
-os.remove(trinketsDAJson)
-os.remove(trinketsLotVJson)
-os.remove(traitsDAJson)
-os.remove(traitsLotVJson)
-os.remove(trinketsDAJsonD)
-os.remove(trinketsLotVJsonD)
-os.remove(traitsDAJsonD)
-os.remove(traitsLotVJsonD)
+os.remove(trinketsSCJson)
+os.remove(trinketsASJson)
+os.remove(traitsSCJson)
+os.remove(traitsASJson)
+os.remove(trinketsSCJsonD)
+os.remove(trinketsASJsonD)
+os.remove(traitsSCJsonD)
+os.remove(traitsASJsonD)
 
 
 

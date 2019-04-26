@@ -1,19 +1,19 @@
 # Azerite Trait Results
 
 ## Raids
-### DA + LotV
-- [SWV_ToF_AS_LI_DA](Results_DA.md)
-- [SWV_ToF_AS_LI_LotV](Results_LotV.md)
+### AS + SC
+- [SWV_ToF_AS_LI_LotV](Results_AS.md)
+- [SWV_ToF_SC_LI_LotV](Results_SC.md)
 
 ### AzeritePowerWeights Strings
-- [AzeritePowerWeights_DA](AzeritePowerWeights_DA.md)
-- [AzeritePowerWeights_LotV](AzeritePowerWeights_LotV.md)
+- [AzeritePowerWeights_AS](AzeritePowerWeights_AS.md)
+- [AzeritePowerWeights_SC](AzeritePowerWeights_SC.md)
 
 ## Dungeons
-### DA + LotV
-- [SWV_DV_SC_LI_DA](Results_Dungeons_DA.md)
-- [SWV_DV_SC_LI_LotV](Results_Dungeons_LotV.md)
+### AS + SC
+- [SWV_DV_AS_LI_LotV](Results_Dungeons_AS.md)
+- [SWV_DV_SC_LI_LotV](Results_Dungeons_SC.md)
 
 ### AzeritePowerWeights Strings
-- [AzeritePowerWeights_DA](AzeritePowerWeights_Dungeons_DA.md)
-- [AzeritePowerWeights_LotV](AzeritePowerWeights_Dungeons_LotV.md)
+- [AzeritePowerWeights_AS](AzeritePowerWeights_Dungeons_AS.md)
+- [AzeritePowerWeights_SC](AzeritePowerWeights_Dungeons_SC.md)

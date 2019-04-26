@@ -12,7 +12,7 @@ weightsBoD = weights.weightsBoD
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
 parser.add_argument('--weights', help='For sims ran with weights this flag will change how analzye is ran.', action='store_true')
-parser.add_argument('--talents', help='indicate talent build for output.', choices=['LotV','DA'])
+parser.add_argument('--talents', help='indicate talent build for output.', choices=['AS','SC'])
 args = parser.parse_args()
 
 csv = "%sresults/statweights.txt" % args.dir
