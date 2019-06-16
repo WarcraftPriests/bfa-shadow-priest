@@ -23,12 +23,6 @@ finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
 main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
 # Questing Trinkets
-profileset."Whirlwings_Plumage_340"+=trinket1=whirlwings_plumage,id=158215,ilevel=340
-profileset."Whirlwings_Plumage_345"+=trinket1=whirlwings_plumage,id=158215,ilevel=345
-profileset."Whirlwings_Plumage_350"+=trinket1=whirlwings_plumage,id=158215,ilevel=350
-profileset."Whirlwings_Plumage_355"+=trinket1=whirlwings_plumage,id=158215,ilevel=355
-profileset."Whirlwings_Plumage_360"+=trinket1=whirlwings_plumage,id=158215,ilevel=360
-profileset."Whirlwings_Plumage_365"+=trinket1=whirlwings_plumage,id=158215,ilevel=365
 profileset."Whirlwings_Plumage_370"+=trinket1=whirlwings_plumage,id=158215,ilevel=370
 profileset."Whirlwings_Plumage_375"+=trinket1=whirlwings_plumage,id=158215,ilevel=375
 profileset."Whirlwings_Plumage_380"+=trinket1=whirlwings_plumage,id=158215,ilevel=380
@@ -41,13 +35,13 @@ profileset."Whirlwings_Plumage_410"+=trinket1=whirlwings_plumage,id=158215,ileve
 profileset."Whirlwings_Plumage_415"+=trinket1=whirlwings_plumage,id=158215,ilevel=415
 profileset."Whirlwings_Plumage_420"+=trinket1=whirlwings_plumage,id=158215,ilevel=420
 profileset."Whirlwings_Plumage_425"+=trinket1=whirlwings_plumage,id=158215,ilevel=425
+profileset."Whirlwings_Plumage_430"+=trinket1=whirlwings_plumage,id=158215,ilevel=430
+profileset."Whirlwings_Plumage_435"+=trinket1=whirlwings_plumage,id=158215,ilevel=435
+profileset."Whirlwings_Plumage_440"+=trinket1=whirlwings_plumage,id=158215,ilevel=440
+profileset."Whirlwings_Plumage_445"+=trinket1=whirlwings_plumage,id=158215,ilevel=445
+profileset."Whirlwings_Plumage_450"+=trinket1=whirlwings_plumage,id=158215,ilevel=450
+profileset."Whirlwings_Plumage_455"+=trinket1=whirlwings_plumage,id=158215,ilevel=455
 
-profileset."Plunderbeards_Flask_340"+=trinket1=plunderbeards_flask,id=158164,ilevel=340
-profileset."Plunderbeards_Flask_345"+=trinket1=plunderbeards_flask,id=158164,ilevel=345
-profileset."Plunderbeards_Flask_350"+=trinket1=plunderbeards_flask,id=158164,ilevel=350
-profileset."Plunderbeards_Flask_355"+=trinket1=plunderbeards_flask,id=158164,ilevel=355
-profileset."Plunderbeards_Flask_360"+=trinket1=plunderbeards_flask,id=158164,ilevel=360
-profileset."Plunderbeards_Flask_365"+=trinket1=plunderbeards_flask,id=158164,ilevel=365
 profileset."Plunderbeards_Flask_370"+=trinket1=plunderbeards_flask,id=158164,ilevel=370
 profileset."Plunderbeards_Flask_375"+=trinket1=plunderbeards_flask,id=158164,ilevel=375
 profileset."Plunderbeards_Flask_380"+=trinket1=plunderbeards_flask,id=158164,ilevel=380
@@ -60,13 +54,13 @@ profileset."Plunderbeards_Flask_410"+=trinket1=plunderbeards_flask,id=158164,ile
 profileset."Plunderbeards_Flask_415"+=trinket1=plunderbeards_flask,id=158164,ilevel=415
 profileset."Plunderbeards_Flask_420"+=trinket1=plunderbeards_flask,id=158164,ilevel=420
 profileset."Plunderbeards_Flask_425"+=trinket1=plunderbeards_flask,id=158164,ilevel=425
+profileset."Plunderbeards_Flask_430"+=trinket1=plunderbeards_flask,id=158164,ilevel=430
+profileset."Plunderbeards_Flask_435"+=trinket1=plunderbeards_flask,id=158164,ilevel=435
+profileset."Plunderbeards_Flask_440"+=trinket1=plunderbeards_flask,id=158164,ilevel=440
+profileset."Plunderbeards_Flask_445"+=trinket1=plunderbeards_flask,id=158164,ilevel=445
+profileset."Plunderbeards_Flask_450"+=trinket1=plunderbeards_flask,id=158164,ilevel=450
+profileset."Plunderbeards_Flask_455"+=trinket1=plunderbeards_flask,id=158164,ilevel=455
 
-profileset."Gilded_Loa_Figurine_340"+=trinket1=gilded_loa_figurine,id=158153,ilevel=340
-profileset."Gilded_Loa_Figurine_345"+=trinket1=gilded_loa_figurine,id=158153,ilevel=345
-profileset."Gilded_Loa_Figurine_350"+=trinket1=gilded_loa_figurine,id=158153,ilevel=350
-profileset."Gilded_Loa_Figurine_355"+=trinket1=gilded_loa_figurine,id=158153,ilevel=355
-profileset."Gilded_Loa_Figurine_360"+=trinket1=gilded_loa_figurine,id=158153,ilevel=360
-profileset."Gilded_Loa_Figurine_365"+=trinket1=gilded_loa_figurine,id=158153,ilevel=365
 profileset."Gilded_Loa_Figurine_370"+=trinket1=gilded_loa_figurine,id=158153,ilevel=370
 profileset."Gilded_Loa_Figurine_375"+=trinket1=gilded_loa_figurine,id=158153,ilevel=375
 profileset."Gilded_Loa_Figurine_380"+=trinket1=gilded_loa_figurine,id=158153,ilevel=380
@@ -79,13 +73,13 @@ profileset."Gilded_Loa_Figurine_410"+=trinket1=gilded_loa_figurine,id=158153,ile
 profileset."Gilded_Loa_Figurine_415"+=trinket1=gilded_loa_figurine,id=158153,ilevel=415
 profileset."Gilded_Loa_Figurine_420"+=trinket1=gilded_loa_figurine,id=158153,ilevel=420
 profileset."Gilded_Loa_Figurine_425"+=trinket1=gilded_loa_figurine,id=158153,ilevel=425
+profileset."Gilded_Loa_Figurine_430"+=trinket1=gilded_loa_figurine,id=158153,ilevel=430
+profileset."Gilded_Loa_Figurine_435"+=trinket1=gilded_loa_figurine,id=158153,ilevel=435
+profileset."Gilded_Loa_Figurine_440"+=trinket1=gilded_loa_figurine,id=158153,ilevel=440
+profileset."Gilded_Loa_Figurine_445"+=trinket1=gilded_loa_figurine,id=158153,ilevel=445
+profileset."Gilded_Loa_Figurine_450"+=trinket1=gilded_loa_figurine,id=158153,ilevel=450
+profileset."Gilded_Loa_Figurine_455"+=trinket1=gilded_loa_figurine,id=158153,ilevel=455
 
-profileset."Dinobone_Charm_340"+=trinket1=dinobone_charm,id=158155,ilevel=340
-profileset."Dinobone_Charm_345"+=trinket1=dinobone_charm,id=158155,ilevel=345
-profileset."Dinobone_Charm_350"+=trinket1=dinobone_charm,id=158155,ilevel=350
-profileset."Dinobone_Charm_355"+=trinket1=dinobone_charm,id=158155,ilevel=355
-profileset."Dinobone_Charm_360"+=trinket1=dinobone_charm,id=158155,ilevel=360
-profileset."Dinobone_Charm_365"+=trinket1=dinobone_charm,id=158155,ilevel=365
 profileset."Dinobone_Charm_370"+=trinket1=dinobone_charm,id=158155,ilevel=370
 profileset."Dinobone_Charm_375"+=trinket1=dinobone_charm,id=158155,ilevel=375
 profileset."Dinobone_Charm_380"+=trinket1=dinobone_charm,id=158155,ilevel=380
@@ -98,13 +92,13 @@ profileset."Dinobone_Charm_410"+=trinket1=dinobone_charm,id=158155,ilevel=410
 profileset."Dinobone_Charm_415"+=trinket1=dinobone_charm,id=158155,ilevel=415
 profileset."Dinobone_Charm_420"+=trinket1=dinobone_charm,id=158155,ilevel=420
 profileset."Dinobone_Charm_425"+=trinket1=dinobone_charm,id=158155,ilevel=425
+profileset."Dinobone_Charm_430"+=trinket1=dinobone_charm,id=158155,ilevel=430
+profileset."Dinobone_Charm_435"+=trinket1=dinobone_charm,id=158155,ilevel=435
+profileset."Dinobone_Charm_440"+=trinket1=dinobone_charm,id=158155,ilevel=440
+profileset."Dinobone_Charm_445"+=trinket1=dinobone_charm,id=158155,ilevel=445
+profileset."Dinobone_Charm_450"+=trinket1=dinobone_charm,id=158155,ilevel=450
+profileset."Dinobone_Charm_455"+=trinket1=dinobone_charm,id=158155,ilevel=455
 
-profileset."Galewind_Chimes_340"+=trinket1=galewind_chimes,id=155568,ilevel=340
-profileset."Galewind_Chimes_345"+=trinket1=galewind_chimes,id=155568,ilevel=345
-profileset."Galewind_Chimes_350"+=trinket1=galewind_chimes,id=155568,ilevel=350
-profileset."Galewind_Chimes_355"+=trinket1=galewind_chimes,id=155568,ilevel=355
-profileset."Galewind_Chimes_360"+=trinket1=galewind_chimes,id=155568,ilevel=360
-profileset."Galewind_Chimes_365"+=trinket1=galewind_chimes,id=155568,ilevel=365
 profileset."Galewind_Chimes_370"+=trinket1=galewind_chimes,id=155568,ilevel=370
 profileset."Galewind_Chimes_375"+=trinket1=galewind_chimes,id=155568,ilevel=375
 profileset."Galewind_Chimes_380"+=trinket1=galewind_chimes,id=155568,ilevel=380
@@ -117,13 +111,13 @@ profileset."Galewind_Chimes_410"+=trinket1=galewind_chimes,id=155568,ilevel=410
 profileset."Galewind_Chimes_415"+=trinket1=galewind_chimes,id=155568,ilevel=415
 profileset."Galewind_Chimes_420"+=trinket1=galewind_chimes,id=155568,ilevel=420
 profileset."Galewind_Chimes_425"+=trinket1=galewind_chimes,id=155568,ilevel=425
+profileset."Galewind_Chimes_430"+=trinket1=galewind_chimes,id=155568,ilevel=430
+profileset."Galewind_Chimes_435"+=trinket1=galewind_chimes,id=155568,ilevel=435
+profileset."Galewind_Chimes_440"+=trinket1=galewind_chimes,id=155568,ilevel=440
+profileset."Galewind_Chimes_445"+=trinket1=galewind_chimes,id=155568,ilevel=445
+profileset."Galewind_Chimes_450"+=trinket1=galewind_chimes,id=155568,ilevel=450
+profileset."Galewind_Chimes_455"+=trinket1=galewind_chimes,id=155568,ilevel=455
 
-profileset."Emblem_of_Zandalar_340"+=trinket1=emblem_of_zandalar,id=158154,ilevel=340
-profileset."Emblem_of_Zandalar_345"+=trinket1=emblem_of_zandalar,id=158154,ilevel=345
-profileset."Emblem_of_Zandalar_350"+=trinket1=emblem_of_zandalar,id=158154,ilevel=350
-profileset."Emblem_of_Zandalar_355"+=trinket1=emblem_of_zandalar,id=158154,ilevel=355
-profileset."Emblem_of_Zandalar_360"+=trinket1=emblem_of_zandalar,id=158154,ilevel=360
-profileset."Emblem_of_Zandalar_365"+=trinket1=emblem_of_zandalar,id=158154,ilevel=365
 profileset."Emblem_of_Zandalar_370"+=trinket1=emblem_of_zandalar,id=158154,ilevel=370
 profileset."Emblem_of_Zandalar_375"+=trinket1=emblem_of_zandalar,id=158154,ilevel=375
 profileset."Emblem_of_Zandalar_380"+=trinket1=emblem_of_zandalar,id=158154,ilevel=380
@@ -136,13 +130,13 @@ profileset."Emblem_of_Zandalar_410"+=trinket1=emblem_of_zandalar,id=158154,ileve
 profileset."Emblem_of_Zandalar_415"+=trinket1=emblem_of_zandalar,id=158154,ilevel=415
 profileset."Emblem_of_Zandalar_420"+=trinket1=emblem_of_zandalar,id=158154,ilevel=420
 profileset."Emblem_of_Zandalar_425"+=trinket1=emblem_of_zandalar,id=158154,ilevel=425
+profileset."Emblem_of_Zandalar_430"+=trinket1=emblem_of_zandalar,id=158154,ilevel=430
+profileset."Emblem_of_Zandalar_435"+=trinket1=emblem_of_zandalar,id=158154,ilevel=435
+profileset."Emblem_of_Zandalar_440"+=trinket1=emblem_of_zandalar,id=158154,ilevel=440
+profileset."Emblem_of_Zandalar_445"+=trinket1=emblem_of_zandalar,id=158154,ilevel=445
+profileset."Emblem_of_Zandalar_450"+=trinket1=emblem_of_zandalar,id=158154,ilevel=450
+profileset."Emblem_of_Zandalar_455"+=trinket1=emblem_of_zandalar,id=158154,ilevel=455
 
-profileset."Pearl_Divers_Compass_340"+=trinket1=pearl_divers_compass,id=158162,ilevel=340
-profileset."Pearl_Divers_Compass_345"+=trinket1=pearl_divers_compass,id=158162,ilevel=345
-profileset."Pearl_Divers_Compass_350"+=trinket1=pearl_divers_compass,id=158162,ilevel=350
-profileset."Pearl_Divers_Compass_355"+=trinket1=pearl_divers_compass,id=158162,ilevel=355
-profileset."Pearl_Divers_Compass_360"+=trinket1=pearl_divers_compass,id=158162,ilevel=360
-profileset."Pearl_Divers_Compass_365"+=trinket1=pearl_divers_compass,id=158162,ilevel=365
 profileset."Pearl_Divers_Compass_370"+=trinket1=pearl_divers_compass,id=158162,ilevel=370
 profileset."Pearl_Divers_Compass_375"+=trinket1=pearl_divers_compass,id=158162,ilevel=375
 profileset."Pearl_Divers_Compass_380"+=trinket1=pearl_divers_compass,id=158162,ilevel=380
@@ -155,13 +149,13 @@ profileset."Pearl_Divers_Compass_410"+=trinket1=pearl_divers_compass,id=158162,i
 profileset."Pearl_Divers_Compass_415"+=trinket1=pearl_divers_compass,id=158162,ilevel=415
 profileset."Pearl_Divers_Compass_420"+=trinket1=pearl_divers_compass,id=158162,ilevel=420
 profileset."Pearl_Divers_Compass_425"+=trinket1=pearl_divers_compass,id=158162,ilevel=425
+profileset."Pearl_Divers_Compass_430"+=trinket1=pearl_divers_compass,id=158162,ilevel=430
+profileset."Pearl_Divers_Compass_435"+=trinket1=pearl_divers_compass,id=158162,ilevel=435
+profileset."Pearl_Divers_Compass_440"+=trinket1=pearl_divers_compass,id=158162,ilevel=440
+profileset."Pearl_Divers_Compass_445"+=trinket1=pearl_divers_compass,id=158162,ilevel=445
+profileset."Pearl_Divers_Compass_450"+=trinket1=pearl_divers_compass,id=158162,ilevel=450
+profileset."Pearl_Divers_Compass_455"+=trinket1=pearl_divers_compass,id=158162,ilevel=455
 
-profileset."First_Mates_Spyglass_340"+=trinket1=first_mates_spyglass,id=158163,ilevel=340
-profileset."First_Mates_Spyglass_345"+=trinket1=first_mates_spyglass,id=158163,ilevel=345
-profileset."First_Mates_Spyglass_350"+=trinket1=first_mates_spyglass,id=158163,ilevel=350
-profileset."First_Mates_Spyglass_355"+=trinket1=first_mates_spyglass,id=158163,ilevel=355
-profileset."First_Mates_Spyglass_360"+=trinket1=first_mates_spyglass,id=158163,ilevel=360
-profileset."First_Mates_Spyglass_365"+=trinket1=first_mates_spyglass,id=158163,ilevel=365
 profileset."First_Mates_Spyglass_370"+=trinket1=first_mates_spyglass,id=158163,ilevel=370
 profileset."First_Mates_Spyglass_375"+=trinket1=first_mates_spyglass,id=158163,ilevel=375
 profileset."First_Mates_Spyglass_380"+=trinket1=first_mates_spyglass,id=158163,ilevel=380
@@ -174,13 +168,13 @@ profileset."First_Mates_Spyglass_410"+=trinket1=first_mates_spyglass,id=158163,i
 profileset."First_Mates_Spyglass_415"+=trinket1=first_mates_spyglass,id=158163,ilevel=415
 profileset."First_Mates_Spyglass_420"+=trinket1=first_mates_spyglass,id=158163,ilevel=420
 profileset."First_Mates_Spyglass_425"+=trinket1=first_mates_spyglass,id=158163,ilevel=425
+profileset."First_Mates_Spyglass_430"+=trinket1=first_mates_spyglass,id=158163,ilevel=430
+profileset."First_Mates_Spyglass_435"+=trinket1=first_mates_spyglass,id=158163,ilevel=435
+profileset."First_Mates_Spyglass_440"+=trinket1=first_mates_spyglass,id=158163,ilevel=440
+profileset."First_Mates_Spyglass_445"+=trinket1=first_mates_spyglass,id=158163,ilevel=445
+profileset."First_Mates_Spyglass_450"+=trinket1=first_mates_spyglass,id=158163,ilevel=450
+profileset."First_Mates_Spyglass_455"+=trinket1=first_mates_spyglass,id=158163,ilevel=455
 
-profileset."Living_Oil_Cannister_340"+=trinket1=living_oil_cannister,id=158216,ilevel=340
-profileset."Living_Oil_Cannister_345"+=trinket1=living_oil_cannister,id=158216,ilevel=345
-profileset."Living_Oil_Cannister_350"+=trinket1=living_oil_cannister,id=158216,ilevel=350
-profileset."Living_Oil_Cannister_355"+=trinket1=living_oil_cannister,id=158216,ilevel=355
-profileset."Living_Oil_Cannister_360"+=trinket1=living_oil_cannister,id=158216,ilevel=360
-profileset."Living_Oil_Cannister_365"+=trinket1=living_oil_cannister,id=158216,ilevel=365
 profileset."Living_Oil_Cannister_370"+=trinket1=living_oil_cannister,id=158216,ilevel=370
 profileset."Living_Oil_Cannister_375"+=trinket1=living_oil_cannister,id=158216,ilevel=375
 profileset."Living_Oil_Cannister_380"+=trinket1=living_oil_cannister,id=158216,ilevel=380
@@ -193,13 +187,13 @@ profileset."Living_Oil_Cannister_410"+=trinket1=living_oil_cannister,id=158216,i
 profileset."Living_Oil_Cannister_415"+=trinket1=living_oil_cannister,id=158216,ilevel=415
 profileset."Living_Oil_Cannister_420"+=trinket1=living_oil_cannister,id=158216,ilevel=420
 profileset."Living_Oil_Cannister_425"+=trinket1=living_oil_cannister,id=158216,ilevel=425
+profileset."Living_Oil_Cannister_430"+=trinket1=living_oil_cannister,id=158216,ilevel=430
+profileset."Living_Oil_Cannister_435"+=trinket1=living_oil_cannister,id=158216,ilevel=435
+profileset."Living_Oil_Cannister_440"+=trinket1=living_oil_cannister,id=158216,ilevel=440
+profileset."Living_Oil_Cannister_445"+=trinket1=living_oil_cannister,id=158216,ilevel=445
+profileset."Living_Oil_Cannister_450"+=trinket1=living_oil_cannister,id=158216,ilevel=450
+profileset."Living_Oil_Cannister_455"+=trinket1=living_oil_cannister,id=158216,ilevel=455
 
-profileset."Vial_of_Storms_340"+=trinket1=vial_of_storms,id=158224,ilevel=340
-profileset."Vial_of_Storms_345"+=trinket1=vial_of_storms,id=158224,ilevel=345
-profileset."Vial_of_Storms_350"+=trinket1=vial_of_storms,id=158224,ilevel=350
-profileset."Vial_of_Storms_355"+=trinket1=vial_of_storms,id=158224,ilevel=355
-profileset."Vial_of_Storms_360"+=trinket1=vial_of_storms,id=158224,ilevel=360
-profileset."Vial_of_Storms_365"+=trinket1=vial_of_storms,id=158224,ilevel=365
 profileset."Vial_of_Storms_370"+=trinket1=vial_of_storms,id=158224,ilevel=370
 profileset."Vial_of_Storms_375"+=trinket1=vial_of_storms,id=158224,ilevel=375
 profileset."Vial_of_Storms_380"+=trinket1=vial_of_storms,id=158224,ilevel=380
@@ -212,13 +206,13 @@ profileset."Vial_of_Storms_410"+=trinket1=vial_of_storms,id=158224,ilevel=410
 profileset."Vial_of_Storms_415"+=trinket1=vial_of_storms,id=158224,ilevel=415
 profileset."Vial_of_Storms_420"+=trinket1=vial_of_storms,id=158224,ilevel=420
 profileset."Vial_of_Storms_425"+=trinket1=vial_of_storms,id=158224,ilevel=425
+profileset."Vial_of_Storms_430"+=trinket1=vial_of_storms,id=158224,ilevel=430
+profileset."Vial_of_Storms_435"+=trinket1=vial_of_storms,id=158224,ilevel=435
+profileset."Vial_of_Storms_440"+=trinket1=vial_of_storms,id=158224,ilevel=440
+profileset."Vial_of_Storms_445"+=trinket1=vial_of_storms,id=158224,ilevel=445
+profileset."Vial_of_Storms_450"+=trinket1=vial_of_storms,id=158224,ilevel=450
+profileset."Vial_of_Storms_455"+=trinket1=vial_of_storms,id=158224,ilevel=455
 
-profileset."Doom_Shroom_340"+=trinket1=doom_shroom,id=158555,ilevel=340
-profileset."Doom_Shroom_345"+=trinket1=doom_shroom,id=158555,ilevel=345
-profileset."Doom_Shroom_350"+=trinket1=doom_shroom,id=158555,ilevel=350
-profileset."Doom_Shroom_355"+=trinket1=doom_shroom,id=158555,ilevel=355
-profileset."Doom_Shroom_360"+=trinket1=doom_shroom,id=158555,ilevel=360
-profileset."Doom_Shroom_365"+=trinket1=doom_shroom,id=158555,ilevel=365
 profileset."Doom_Shroom_370"+=trinket1=doom_shroom,id=158555,ilevel=370
 profileset."Doom_Shroom_375"+=trinket1=doom_shroom,id=158555,ilevel=375
 profileset."Doom_Shroom_380"+=trinket1=doom_shroom,id=158555,ilevel=380
@@ -231,13 +225,13 @@ profileset."Doom_Shroom_410"+=trinket1=doom_shroom,id=158555,ilevel=410
 profileset."Doom_Shroom_415"+=trinket1=doom_shroom,id=158555,ilevel=415
 profileset."Doom_Shroom_420"+=trinket1=doom_shroom,id=158555,ilevel=420
 profileset."Doom_Shroom_425"+=trinket1=doom_shroom,id=158555,ilevel=425
+profileset."Doom_Shroom_430"+=trinket1=doom_shroom,id=158555,ilevel=430
+profileset."Doom_Shroom_435"+=trinket1=doom_shroom,id=158555,ilevel=435
+profileset."Doom_Shroom_440"+=trinket1=doom_shroom,id=158555,ilevel=440
+profileset."Doom_Shroom_445"+=trinket1=doom_shroom,id=158555,ilevel=445
+profileset."Doom_Shroom_450"+=trinket1=doom_shroom,id=158555,ilevel=450
+profileset."Doom_Shroom_455"+=trinket1=doom_shroom,id=158555,ilevel=455
 
-profileset."Snowpelt_Mangler_340"+=trinket1=snowpelt_mangler,id=160263,ilevel=340
-profileset."Snowpelt_Mangler_345"+=trinket1=snowpelt_mangler,id=160263,ilevel=345
-profileset."Snowpelt_Mangler_350"+=trinket1=snowpelt_mangler,id=160263,ilevel=350
-profileset."Snowpelt_Mangler_355"+=trinket1=snowpelt_mangler,id=160263,ilevel=355
-profileset."Snowpelt_Mangler_360"+=trinket1=snowpelt_mangler,id=160263,ilevel=360
-profileset."Snowpelt_Mangler_365"+=trinket1=snowpelt_mangler,id=160263,ilevel=365
 profileset."Snowpelt_Mangler_370"+=trinket1=snowpelt_mangler,id=160263,ilevel=370
 profileset."Snowpelt_Mangler_375"+=trinket1=snowpelt_mangler,id=160263,ilevel=375
 profileset."Snowpelt_Mangler_380"+=trinket1=snowpelt_mangler,id=160263,ilevel=380
@@ -250,13 +244,13 @@ profileset."Snowpelt_Mangler_410"+=trinket1=snowpelt_mangler,id=160263,ilevel=41
 profileset."Snowpelt_Mangler_415"+=trinket1=snowpelt_mangler,id=160263,ilevel=415
 profileset."Snowpelt_Mangler_420"+=trinket1=snowpelt_mangler,id=160263,ilevel=420
 profileset."Snowpelt_Mangler_425"+=trinket1=snowpelt_mangler,id=160263,ilevel=425
+profileset."Snowpelt_Mangler_430"+=trinket1=snowpelt_mangler,id=160263,ilevel=430
+profileset."Snowpelt_Mangler_435"+=trinket1=snowpelt_mangler,id=160263,ilevel=435
+profileset."Snowpelt_Mangler_440"+=trinket1=snowpelt_mangler,id=160263,ilevel=440
+profileset."Snowpelt_Mangler_445"+=trinket1=snowpelt_mangler,id=160263,ilevel=445
+profileset."Snowpelt_Mangler_450"+=trinket1=snowpelt_mangler,id=160263,ilevel=450
+profileset."Snowpelt_Mangler_455"+=trinket1=snowpelt_mangler,id=160263,ilevel=455
 
-profileset."Incessantly_Ticking_Clock_340"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=340
-profileset."Incessantly_Ticking_Clock_345"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=345
-profileset."Incessantly_Ticking_Clock_350"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=350
-profileset."Incessantly_Ticking_Clock_355"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=355
-profileset."Incessantly_Ticking_Clock_360"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=360
-profileset."Incessantly_Ticking_Clock_365"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=365
 profileset."Incessantly_Ticking_Clock_370"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=370
 profileset."Incessantly_Ticking_Clock_375"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=375
 profileset."Incessantly_Ticking_Clock_380"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=380
@@ -269,13 +263,13 @@ profileset."Incessantly_Ticking_Clock_410"+=trinket1=incessantly_ticking_clock,i
 profileset."Incessantly_Ticking_Clock_415"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=415
 profileset."Incessantly_Ticking_Clock_420"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=420
 profileset."Incessantly_Ticking_Clock_425"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=425
+profileset."Incessantly_Ticking_Clock_430"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=430
+profileset."Incessantly_Ticking_Clock_435"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=435
+profileset."Incessantly_Ticking_Clock_440"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=440
+profileset."Incessantly_Ticking_Clock_445"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=445
+profileset."Incessantly_Ticking_Clock_450"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=450
+profileset."Incessantly_Ticking_Clock_455"+=trinket1=incessantly_ticking_clock,id=161113,ilevel=455
 
-profileset."Berserkers_Juju_340"+=trinket1=berserkers_juju,id=161117,ilevel=340
-profileset."Berserkers_Juju_345"+=trinket1=berserkers_juju,id=161117,ilevel=345
-profileset."Berserkers_Juju_350"+=trinket1=berserkers_juju,id=161117,ilevel=350
-profileset."Berserkers_Juju_355"+=trinket1=berserkers_juju,id=161117,ilevel=355
-profileset."Berserkers_Juju_360"+=trinket1=berserkers_juju,id=161117,ilevel=360
-profileset."Berserkers_Juju_365"+=trinket1=berserkers_juju,id=161117,ilevel=365
 profileset."Berserkers_Juju_370"+=trinket1=berserkers_juju,id=161117,ilevel=370
 profileset."Berserkers_Juju_375"+=trinket1=berserkers_juju,id=161117,ilevel=375
 profileset."Berserkers_Juju_380"+=trinket1=berserkers_juju,id=161117,ilevel=380
@@ -288,13 +282,13 @@ profileset."Berserkers_Juju_410"+=trinket1=berserkers_juju,id=161117,ilevel=410
 profileset."Berserkers_Juju_415"+=trinket1=berserkers_juju,id=161117,ilevel=415
 profileset."Berserkers_Juju_420"+=trinket1=berserkers_juju,id=161117,ilevel=420
 profileset."Berserkers_Juju_425"+=trinket1=berserkers_juju,id=161117,ilevel=425
+profileset."Berserkers_Juju_430"+=trinket1=berserkers_juju,id=161117,ilevel=430
+profileset."Berserkers_Juju_435"+=trinket1=berserkers_juju,id=161117,ilevel=435
+profileset."Berserkers_Juju_440"+=trinket1=berserkers_juju,id=161117,ilevel=440
+profileset."Berserkers_Juju_445"+=trinket1=berserkers_juju,id=161117,ilevel=445
+profileset."Berserkers_Juju_450"+=trinket1=berserkers_juju,id=161117,ilevel=450
+profileset."Berserkers_Juju_455"+=trinket1=berserkers_juju,id=161117,ilevel=455
 
-profileset."Ravasaur_Skull_Bijou_340"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=340
-profileset."Ravasaur_Skull_Bijou_345"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=345
-profileset."Ravasaur_Skull_Bijou_350"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=350
-profileset."Ravasaur_Skull_Bijou_355"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=355
-profileset."Ravasaur_Skull_Bijou_360"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=360
-profileset."Ravasaur_Skull_Bijou_365"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=365
 profileset."Ravasaur_Skull_Bijou_370"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=370
 profileset."Ravasaur_Skull_Bijou_375"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=375
 profileset."Ravasaur_Skull_Bijou_380"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=380
@@ -307,13 +301,13 @@ profileset."Ravasaur_Skull_Bijou_410"+=trinket1=ravasaur_skull_bijou,id=161119,i
 profileset."Ravasaur_Skull_Bijou_415"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=415
 profileset."Ravasaur_Skull_Bijou_420"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=420
 profileset."Ravasaur_Skull_Bijou_425"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=425
+profileset."Ravasaur_Skull_Bijou_430"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=430
+profileset."Ravasaur_Skull_Bijou_435"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=435
+profileset."Ravasaur_Skull_Bijou_440"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=440
+profileset."Ravasaur_Skull_Bijou_445"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=445
+profileset."Ravasaur_Skull_Bijou_450"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=450
+profileset."Ravasaur_Skull_Bijou_455"+=trinket1=ravasaur_skull_bijou,id=161119,ilevel=455
 
-profileset."Kajafied_Banana_340"+=trinket1=kajafied_banana,id=161125,ilevel=340
-profileset."Kajafied_Banana_345"+=trinket1=kajafied_banana,id=161125,ilevel=345
-profileset."Kajafied_Banana_350"+=trinket1=kajafied_banana,id=161125,ilevel=350
-profileset."Kajafied_Banana_355"+=trinket1=kajafied_banana,id=161125,ilevel=355
-profileset."Kajafied_Banana_360"+=trinket1=kajafied_banana,id=161125,ilevel=360
-profileset."Kajafied_Banana_365"+=trinket1=kajafied_banana,id=161125,ilevel=365
 profileset."Kajafied_Banana_370"+=trinket1=kajafied_banana,id=161125,ilevel=370
 profileset."Kajafied_Banana_375"+=trinket1=kajafied_banana,id=161125,ilevel=375
 profileset."Kajafied_Banana_380"+=trinket1=kajafied_banana,id=161125,ilevel=380
@@ -326,13 +320,13 @@ profileset."Kajafied_Banana_410"+=trinket1=kajafied_banana,id=161125,ilevel=410
 profileset."Kajafied_Banana_415"+=trinket1=kajafied_banana,id=161125,ilevel=415
 profileset."Kajafied_Banana_420"+=trinket1=kajafied_banana,id=161125,ilevel=420
 profileset."Kajafied_Banana_425"+=trinket1=kajafied_banana,id=161125,ilevel=425
+profileset."Kajafied_Banana_430"+=trinket1=kajafied_banana,id=161125,ilevel=430
+profileset."Kajafied_Banana_435"+=trinket1=kajafied_banana,id=161125,ilevel=435
+profileset."Kajafied_Banana_440"+=trinket1=kajafied_banana,id=161125,ilevel=440
+profileset."Kajafied_Banana_445"+=trinket1=kajafied_banana,id=161125,ilevel=445
+profileset."Kajafied_Banana_450"+=trinket1=kajafied_banana,id=161125,ilevel=450
+profileset."Kajafied_Banana_455"+=trinket1=kajafied_banana,id=161125,ilevel=455
 
-profileset."Crawg_Gnawed_Femur_340"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=340
-profileset."Crawg_Gnawed_Femur_345"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=345
-profileset."Crawg_Gnawed_Femur_350"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=350
-profileset."Crawg_Gnawed_Femur_355"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=355
-profileset."Crawg_Gnawed_Femur_360"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=360
-profileset."Crawg_Gnawed_Femur_365"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=365
 profileset."Crawg_Gnawed_Femur_370"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=370
 profileset."Crawg_Gnawed_Femur_375"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=375
 profileset."Crawg_Gnawed_Femur_380"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=380
@@ -345,13 +339,13 @@ profileset."Crawg_Gnawed_Femur_410"+=trinket1=Crawg_Gnawed_Femur,id=163703,ileve
 profileset."Crawg_Gnawed_Femur_415"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=415
 profileset."Crawg_Gnawed_Femur_420"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=420
 profileset."Crawg_Gnawed_Femur_425"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=425
+profileset."Crawg_Gnawed_Femur_430"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=430
+profileset."Crawg_Gnawed_Femur_435"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=435
+profileset."Crawg_Gnawed_Femur_440"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=440
+profileset."Crawg_Gnawed_Femur_445"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=445
+profileset."Crawg_Gnawed_Femur_450"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=450
+profileset."Crawg_Gnawed_Femur_455"+=trinket1=Crawg_Gnawed_Femur,id=163703,ilevel=455
 
-profileset."Chargestone_of_the_Thunder_Kings_Court_340"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=340
-profileset."Chargestone_of_the_Thunder_Kings_Court_345"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=345
-profileset."Chargestone_of_the_Thunder_Kings_Court_350"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=350
-profileset."Chargestone_of_the_Thunder_Kings_Court_355"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=355
-profileset."Chargestone_of_the_Thunder_Kings_Court_360"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=360
-profileset."Chargestone_of_the_Thunder_Kings_Court_365"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=365
 profileset."Chargestone_of_the_Thunder_Kings_Court_370"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=370
 profileset."Chargestone_of_the_Thunder_Kings_Court_375"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=375
 profileset."Chargestone_of_the_Thunder_Kings_Court_380"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=380
@@ -364,13 +358,13 @@ profileset."Chargestone_of_the_Thunder_Kings_Court_410"+=trinket1=chargestone_of
 profileset."Chargestone_of_the_Thunder_Kings_Court_415"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=415
 profileset."Chargestone_of_the_Thunder_Kings_Court_420"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=420
 profileset."Chargestone_of_the_Thunder_Kings_Court_425"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=425
+profileset."Chargestone_of_the_Thunder_Kings_Court_430"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=430
+profileset."Chargestone_of_the_Thunder_Kings_Court_435"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=435
+profileset."Chargestone_of_the_Thunder_Kings_Court_440"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=440
+profileset."Chargestone_of_the_Thunder_Kings_Court_445"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=445
+profileset."Chargestone_of_the_Thunder_Kings_Court_450"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=450
+profileset."Chargestone_of_the_Thunder_Kings_Court_455"+=trinket1=chargestone_of_the_thunder_kings_court,id=165660,ilevel=455
 
-profileset."Sea_Giants_Tidestone_340"+=trinket1=sea_giants_tidestone,id=165664,ilevel=340
-profileset."Sea_Giants_Tidestone_345"+=trinket1=sea_giants_tidestone,id=165664,ilevel=345
-profileset."Sea_Giants_Tidestone_350"+=trinket1=sea_giants_tidestone,id=165664,ilevel=350
-profileset."Sea_Giants_Tidestone_355"+=trinket1=sea_giants_tidestone,id=165664,ilevel=355
-profileset."Sea_Giants_Tidestone_360"+=trinket1=sea_giants_tidestone,id=165664,ilevel=360
-profileset."Sea_Giants_Tidestone_365"+=trinket1=sea_giants_tidestone,id=165664,ilevel=365
 profileset."Sea_Giants_Tidestone_370"+=trinket1=sea_giants_tidestone,id=165664,ilevel=370
 profileset."Sea_Giants_Tidestone_375"+=trinket1=sea_giants_tidestone,id=165664,ilevel=375
 profileset."Sea_Giants_Tidestone_380"+=trinket1=sea_giants_tidestone,id=165664,ilevel=380
@@ -383,13 +377,13 @@ profileset."Sea_Giants_Tidestone_410"+=trinket1=sea_giants_tidestone,id=165664,i
 profileset."Sea_Giants_Tidestone_415"+=trinket1=sea_giants_tidestone,id=165664,ilevel=415
 profileset."Sea_Giants_Tidestone_420"+=trinket1=sea_giants_tidestone,id=165664,ilevel=420
 profileset."Sea_Giants_Tidestone_425"+=trinket1=sea_giants_tidestone,id=165664,ilevel=425
+profileset."Sea_Giants_Tidestone_430"+=trinket1=sea_giants_tidestone,id=165664,ilevel=430
+profileset."Sea_Giants_Tidestone_435"+=trinket1=sea_giants_tidestone,id=165664,ilevel=435
+profileset."Sea_Giants_Tidestone_440"+=trinket1=sea_giants_tidestone,id=165664,ilevel=440
+profileset."Sea_Giants_Tidestone_445"+=trinket1=sea_giants_tidestone,id=165664,ilevel=445
+profileset."Sea_Giants_Tidestone_450"+=trinket1=sea_giants_tidestone,id=165664,ilevel=450
+profileset."Sea_Giants_Tidestone_455"+=trinket1=sea_giants_tidestone,id=165664,ilevel=455
 
-profileset."Moonstone_of_Zin_Azshari_340"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=340
-profileset."Moonstone_of_Zin_Azshari_345"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=345
-profileset."Moonstone_of_Zin_Azshari_350"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=350
-profileset."Moonstone_of_Zin_Azshari_355"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=355
-profileset."Moonstone_of_Zin_Azshari_360"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=360
-profileset."Moonstone_of_Zin_Azshari_365"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=365
 profileset."Moonstone_of_Zin_Azshari_370"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=370
 profileset."Moonstone_of_Zin_Azshari_375"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=375
 profileset."Moonstone_of_Zin_Azshari_380"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=380
@@ -402,6 +396,12 @@ profileset."Moonstone_of_Zin_Azshari_410"+=trinket1=moonstone_of_zin_azshari,id=
 profileset."Moonstone_of_Zin_Azshari_415"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=415
 profileset."Moonstone_of_Zin_Azshari_420"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=420
 profileset."Moonstone_of_Zin_Azshari_425"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=425
+profileset."Moonstone_of_Zin_Azshari_430"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=430
+profileset."Moonstone_of_Zin_Azshari_435"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=435
+profileset."Moonstone_of_Zin_Azshari_440"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=440
+profileset."Moonstone_of_Zin_Azshari_445"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=445
+profileset."Moonstone_of_Zin_Azshari_450"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=450
+profileset."Moonstone_of_Zin_Azshari_455"+=trinket1=moonstone_of_zin_azshari,id=165666,ilevel=455
 
 # Misc Trinkets - Can't be increased?
 profileset."Darkmoon_Deck_Squalls_355"+=trinket1=darkmoon_deck_squalls,id=159126
@@ -410,10 +410,6 @@ profileset."Spirited_Alchemist_Stone_400"+=trinket1=spirited_alchemist_stone,id=
 profileset."Eternal_Alchemist_Stone_415"+=trinket1=eternal_alchemist_stone,id=165928
 
 # Leyshock's Grand Compilation
-profileset."Leyshocks_Grand_Compilation_350"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=350
-profileset."Leyshocks_Grand_Compilation_355"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=355
-profileset."Leyshocks_Grand_Compilation_360"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=360
-profileset."Leyshocks_Grand_Compilation_365"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=365
 profileset."Leyshocks_Grand_Compilation_370"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=370
 profileset."Leyshocks_Grand_Compilation_375"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=375
 profileset."Leyshocks_Grand_Compilation_380"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=380
@@ -426,14 +422,14 @@ profileset."Leyshocks_Grand_Compilation_410"+=trinket1=leyshocks_grand_compilati
 profileset."Leyshocks_Grand_Compilation_415"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=415
 profileset."Leyshocks_Grand_Compilation_420"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=420
 profileset."Leyshocks_Grand_Compilation_425"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=425
+profileset."Leyshocks_Grand_Compilation_430"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=430
+profileset."Leyshocks_Grand_Compilation_435"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=435
+profileset."Leyshocks_Grand_Compilation_440"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=440
+profileset."Leyshocks_Grand_Compilation_445"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=445
+profileset."Leyshocks_Grand_Compilation_450"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=450
+profileset."Leyshocks_Grand_Compilation_455"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=455
 
 # PvP Trinkets
-profileset."Dread_Gladiators_Medallion_340"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=340
-profileset."Dread_Gladiators_Medallion_345"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=345
-profileset."Dread_Gladiators_Medallion_350"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=350
-profileset."Dread_Gladiators_Medallion_355"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=355
-profileset."Dread_Gladiators_Medallion_360"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=360
-profileset."Dread_Gladiators_Medallion_365"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=365
 profileset."Dread_Gladiators_Medallion_370"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=370
 profileset."Dread_Gladiators_Medallion_375"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=375
 profileset."Dread_Gladiators_Medallion_380"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=380
@@ -446,13 +442,13 @@ profileset."Dread_Gladiators_Medallion_410"+=trinket1=dread_gladiators_medallion
 profileset."Dread_Gladiators_Medallion_415"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=415
 profileset."Dread_Gladiators_Medallion_420"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=420
 profileset."Dread_Gladiators_Medallion_425"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=425
+profileset."Dread_Gladiators_Medallion_430"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=430
+profileset."Dread_Gladiators_Medallion_435"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=435
+profileset."Dread_Gladiators_Medallion_440"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=440
+profileset."Dread_Gladiators_Medallion_445"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=445
+profileset."Dread_Gladiators_Medallion_450"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=450
+profileset."Dread_Gladiators_Medallion_455"+=trinket1=dread_gladiators_medallion,id=161674,ilevel=455
 
-profileset."Dread_Gladiators_Insignia_340"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=340
-profileset."Dread_Gladiators_Insignia_345"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=345
-profileset."Dread_Gladiators_Insignia_350"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=350
-profileset."Dread_Gladiators_Insignia_355"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=355
-profileset."Dread_Gladiators_Insignia_360"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=360
-profileset."Dread_Gladiators_Insignia_365"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=365
 profileset."Dread_Gladiators_Insignia_370"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=370
 profileset."Dread_Gladiators_Insignia_375"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=375
 profileset."Dread_Gladiators_Insignia_380"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=380
@@ -465,13 +461,13 @@ profileset."Dread_Gladiators_Insignia_410"+=trinket1=dread_gladiators_insignia,i
 profileset."Dread_Gladiators_Insignia_415"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=415
 profileset."Dread_Gladiators_Insignia_420"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=420
 profileset."Dread_Gladiators_Insignia_425"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=425
+profileset."Dread_Gladiators_Insignia_430"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=430
+profileset."Dread_Gladiators_Insignia_435"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=435
+profileset."Dread_Gladiators_Insignia_440"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=440
+profileset."Dread_Gladiators_Insignia_445"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=445
+profileset."Dread_Gladiators_Insignia_450"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=450
+profileset."Dread_Gladiators_Insignia_455"+=trinket1=dread_gladiators_insignia,id=161676,ilevel=455
 
-profileset."Dread_Gladiators_Badge_340"+=trinket1=dread_gladiators_badge,id=161902,ilevel=340
-profileset."Dread_Gladiators_Badge_345"+=trinket1=dread_gladiators_badge,id=161902,ilevel=345
-profileset."Dread_Gladiators_Badge_350"+=trinket1=dread_gladiators_badge,id=161902,ilevel=350
-profileset."Dread_Gladiators_Badge_355"+=trinket1=dread_gladiators_badge,id=161902,ilevel=355
-profileset."Dread_Gladiators_Badge_360"+=trinket1=dread_gladiators_badge,id=161902,ilevel=360
-profileset."Dread_Gladiators_Badge_365"+=trinket1=dread_gladiators_badge,id=161902,ilevel=365
 profileset."Dread_Gladiators_Badge_370"+=trinket1=dread_gladiators_badge,id=161902,ilevel=370
 profileset."Dread_Gladiators_Badge_375"+=trinket1=dread_gladiators_badge,id=161902,ilevel=375
 profileset."Dread_Gladiators_Badge_380"+=trinket1=dread_gladiators_badge,id=161902,ilevel=380
@@ -484,3 +480,9 @@ profileset."Dread_Gladiators_Badge_410"+=trinket1=dread_gladiators_badge,id=1619
 profileset."Dread_Gladiators_Badge_415"+=trinket1=dread_gladiators_badge,id=161902,ilevel=415
 profileset."Dread_Gladiators_Badge_420"+=trinket1=dread_gladiators_badge,id=161902,ilevel=420
 profileset."Dread_Gladiators_Badge_425"+=trinket1=dread_gladiators_badge,id=161902,ilevel=425
+profileset."Dread_Gladiators_Badge_430"+=trinket1=dread_gladiators_badge,id=161902,ilevel=430
+profileset."Dread_Gladiators_Badge_435"+=trinket1=dread_gladiators_badge,id=161902,ilevel=435
+profileset."Dread_Gladiators_Badge_440"+=trinket1=dread_gladiators_badge,id=161902,ilevel=440
+profileset."Dread_Gladiators_Badge_445"+=trinket1=dread_gladiators_badge,id=161902,ilevel=445
+profileset."Dread_Gladiators_Badge_450"+=trinket1=dread_gladiators_badge,id=161902,ilevel=450
+profileset."Dread_Gladiators_Badge_455"+=trinket1=dread_gladiators_badge,id=161902,ilevel=455

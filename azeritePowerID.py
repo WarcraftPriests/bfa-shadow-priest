@@ -1,6 +1,7 @@
 azeritePowerIDs = {
     "Ancients_Bulwark_1":522,
     "Apothecarys_Concoctions_1":523,
+    "Arcane_Heart_1":577,
     "Archive_of_the_Titans_1":483,
     "Azerite_Empowered_1":13,
     "Azerite_Globules_1":462,
@@ -26,6 +27,7 @@ azeritePowerIDs = {
     "Heed_My_Call_1":22,
     "Incite_the_Pack_1":481,
     "Laser_Matrix_1":485,
+    "Loyal_to_the_End_1":576,
     "Meticulous_Scheming_1":192,
     "On_My_Way_1":38,
     "Overwhelming_Power_1":30,
@@ -47,6 +49,7 @@ azeritePowerIDs = {
     "Tidal_Surge_1":478,
     "Tradewinds_1":505,
     "Treacherous_Covenant_1":562,
+    "Undulating_Tides_1":575,
     "Unstable_Catalyst_1":504,
     "Unstable_Flames_1":459,
     "Whispers_of_the_Damned_1":236

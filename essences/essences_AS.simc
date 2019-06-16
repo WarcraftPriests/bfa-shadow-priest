@@ -24,26 +24,67 @@ trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
 trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
 main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
-# Essence of the Focusing Iris
-profileset.""+=
+Blood_of_the_Enemy_2-Ancient_Flame_2 or
+Memory_of_Lucid_Dreams_3-Ancient_Flame_1-Lifeblood_1
 
-# Guardian of Azeroth
-profileset.""+=
+# RANK 1: 1 Major + 1 Minor
+## Blood of the Enemy + Blood-Soaked
+profileset."Blood_of_the_Enemy_1"+=
 
-# Blood of the Enemy
-profileset.""+=
+## Guardian of Azeroth + Condensed Life-Force
+profileset."Guardian_of_Azeroth_1"+=
 
-# Purification Protocol
-profileset.""+=
+## Focused Azerite Beam + Focused Energy
+profileset."Focused_Azerite_Beam_1"+=
 
-# The Unbound Force
-profileset.""+=
+## Purifying Blast + Purification Protocol
+profileset."Purifying_Blast_1"+=
 
-# Vision of Protection
-profileset.""+=
+## The Unbound Force + Reckless Force
+profileset."The_Unbound_Force_1"+=
+
+## Memory of Lucid Dreams + Lucid Dreams
+profileset."Memory_of_Lucid_Dreams_1"+=
+
+## Vision of Perfection + Strive for Perfection
+profileset."Vision_of_Perfection_1"+=
+
+## Conflict (Void Origins) + Strife
+profileset."Conflict_1"+=
+
+## Concentrated Flame + Ancient Flame
+profileset."Concentrated_Flame_1"+=
+
+## Ripple in Space + Reality Shift
+profileset."Ripple_in_Space_1"+=
+
+## Worldvein Resonance + Lifeblood
+profileset."Worldvein_Resonance_1"+=
+
+# Rank 1: Minors
+# Blood-Soaked
+profileset."Blood_Soaked_1"+=
 
 # Condensed Life-Force
-profileset.""+=
+profileset."Condensed_Life_Force_1"+=
 
-# Memory of Lucid Dreams
-profileset.""+=
+# Focused Energy
+profileset."Focused_Energy_1"+=
+
+# Purification Protocol
+profileset."Purification_Protocol_1"+=
+
+# Reckless Force
+profileset."Reckless_Force_1"+=
+
+# Lucid Dreams
+profileset."Lucid_Dreams_1"+=
+
+# Strive for Perfection
+profileset."Strive_for_Perfection_1"+=
+
+# Ancient Flame
+profileset."Ancient_Flame_1"+=
+
+# Lifeblood
+profileset."Lifeblood_1"+=
