@@ -23,9 +23,6 @@ finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
 main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
 # Dungeon trinkets
-profileset."Vessel_of_Skittering_Shadows_370"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=370
-profileset."Vessel_of_Skittering_Shadows_375"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=375
-profileset."Vessel_of_Skittering_Shadows_380"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=380
 profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=385
 profileset."Vessel_of_Skittering_Shadows_390"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=390
 profileset."Vessel_of_Skittering_Shadows_395"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=395
@@ -42,9 +39,6 @@ profileset."Vessel_of_Skittering_Shadows_445"+=trinket1=vessel_of_skittering_sha
 profileset."Vessel_of_Skittering_Shadows_450"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=450
 profileset."Vessel_of_Skittering_Shadows_455"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=455
 
-profileset."Ignition_Mages_Fuse_370"+=trinket1=ignition_mages_fuse,id=159615,ilevel=370
-profileset."Ignition_Mages_Fuse_375"+=trinket1=ignition_mages_fuse,id=159615,ilevel=375
-profileset."Ignition_Mages_Fuse_380"+=trinket1=ignition_mages_fuse,id=159615,ilevel=380
 profileset."Ignition_Mages_Fuse_385"+=trinket1=ignition_mages_fuse,id=159615,ilevel=385
 profileset."Ignition_Mages_Fuse_390"+=trinket1=ignition_mages_fuse,id=159615,ilevel=390
 profileset."Ignition_Mages_Fuse_395"+=trinket1=ignition_mages_fuse,id=159615,ilevel=395
@@ -61,9 +55,6 @@ profileset."Ignition_Mages_Fuse_445"+=trinket1=ignition_mages_fuse,id=159615,ile
 profileset."Ignition_Mages_Fuse_450"+=trinket1=ignition_mages_fuse,id=159615,ilevel=450
 profileset."Ignition_Mages_Fuse_455"+=trinket1=ignition_mages_fuse,id=159615,ilevel=455
 
-profileset."Conch_of_Dark_Whispers_370"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=370
-profileset."Conch_of_Dark_Whispers_375"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=375
-profileset."Conch_of_Dark_Whispers_380"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=380
 profileset."Conch_of_Dark_Whispers_385"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=385
 profileset."Conch_of_Dark_Whispers_390"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=390
 profileset."Conch_of_Dark_Whispers_395"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=395
@@ -80,9 +71,6 @@ profileset."Conch_of_Dark_Whispers_445"+=trinket1=conch_of_dark_whispers,id=1596
 profileset."Conch_of_Dark_Whispers_450"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=450
 profileset."Conch_of_Dark_Whispers_455"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=455
 
-profileset."Hadals_Nautilus_370"+=trinket1=hadals_nautilus,id=159622,ilevel=370
-profileset."Hadals_Nautilus_375"+=trinket1=hadals_nautilus,id=159622,ilevel=375
-profileset."Hadals_Nautilus_380"+=trinket1=hadals_nautilus,id=159622,ilevel=380
 profileset."Hadals_Nautilus_385"+=trinket1=hadals_nautilus,id=159622,ilevel=385
 profileset."Hadals_Nautilus_390"+=trinket1=hadals_nautilus,id=159622,ilevel=390
 profileset."Hadals_Nautilus_395"+=trinket1=hadals_nautilus,id=159622,ilevel=395
@@ -99,9 +87,6 @@ profileset."Hadals_Nautilus_445"+=trinket1=hadals_nautilus,id=159622,ilevel=445
 profileset."Hadals_Nautilus_450"+=trinket1=hadals_nautilus,id=159622,ilevel=450
 profileset."Hadals_Nautilus_455"+=trinket1=hadals_nautilus,id=159622,ilevel=455
 
-profileset."Rotcrusted_Voodoo_Doll_370"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=370
-profileset."Rotcrusted_Voodoo_Doll_375"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=375
-profileset."Rotcrusted_Voodoo_Doll_380"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=380
 profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=385
 profileset."Rotcrusted_Voodoo_Doll_390"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=390
 profileset."Rotcrusted_Voodoo_Doll_395"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=395
@@ -118,9 +103,6 @@ profileset."Rotcrusted_Voodoo_Doll_445"+=trinket1=rotcrusted_voodoo_doll,id=1596
 profileset."Rotcrusted_Voodoo_Doll_450"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=450
 profileset."Rotcrusted_Voodoo_Doll_455"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=455
 
-profileset."Balefire_Branch_370"+=trinket1=balefire_branch,id=159630,ilevel=370
-profileset."Balefire_Branch_375"+=trinket1=balefire_branch,id=159630,ilevel=375
-profileset."Balefire_Branch_380"+=trinket1=balefire_branch,id=159630,ilevel=380
 profileset."Balefire_Branch_385"+=trinket1=balefire_branch,id=159630,ilevel=385
 profileset."Balefire_Branch_390"+=trinket1=balefire_branch,id=159630,ilevel=390
 profileset."Balefire_Branch_395"+=trinket1=balefire_branch,id=159630,ilevel=395
@@ -137,9 +119,6 @@ profileset."Balefire_Branch_445"+=trinket1=balefire_branch,id=159630,ilevel=445
 profileset."Balefire_Branch_450"+=trinket1=balefire_branch,id=159630,ilevel=450
 profileset."Balefire_Branch_455"+=trinket1=balefire_branch,id=159630,ilevel=455
 
-profileset."Lady_Waycrests_Music_Box_370"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=370
-profileset."Lady_Waycrests_Music_Box_375"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=375
-profileset."Lady_Waycrests_Music_Box_380"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=380
 profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=385
 profileset."Lady_Waycrests_Music_Box_390"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=390
 profileset."Lady_Waycrests_Music_Box_395"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=395
@@ -156,7 +135,8 @@ profileset."Lady_Waycrests_Music_Box_445"+=trinket1=lady_waycrests_music_box,id=
 profileset."Lady_Waycrests_Music_Box_450"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=450
 profileset."Lady_Waycrests_Music_Box_455"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=455
 
-# Pocket-Sized Computational Device
+# Pocket-Sized Computation Device
+# https://ptr.wowhead.com/news=291786/pocket-sized-computation-device-customizable-punchcard-trinket-from-mechagon
 # Yellow
 ## Omnipurpose Logic Board - 415 - +311 Vers, +93 random - 170507
 ## Optimized Logic Board - 415 - +311 Mastery, +93 random - 170508
@@ -166,3 +146,18 @@ profileset."Lady_Waycrests_Music_Box_455"+=trinket1=lady_waycrests_music_box,id=
 # Red
 ## Harmonic Dematerializer - 415 - 167677
 ## Subroutine: Overclock - 415 - 167556
+
+# TODO: add in variations of red when implemented
+# TODO: remove hardcoded stats when implemented
+profileset."PSCD_Omnipurpose-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93mastery
+profileset."PSCD_Omnipurpose-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93crit
+profileset."PSCD_Omnipurpose-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93haste
+profileset."PSCD_Optimized-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93vers
+profileset."PSCD_Optimized-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93haste
+profileset."PSCD_Optimized-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93crit
+profileset."PSCD_Performant-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93vers
+profileset."PSCD_Performant-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93mastery
+profileset."PSCD_Performant-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93crit
+profileset."PSCD_Forceful-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93vers
+profileset."PSCD_Forceful-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93mastery
+profileset."PSCD_Forceful-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93haste

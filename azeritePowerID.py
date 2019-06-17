@@ -13,6 +13,7 @@ azeritePowerIDs = {
     "Bonded_Souls_1":560,
     "Champion_of_Azeroth_1":82,
     "Chorus_of_Insanity_1":405,
+    "Clockwork_Heart_1":569,
     "Collective_Will_1":491,
     "Combined_Might_1":490,
     "Dagger_in_the_Back_Behind_1":479,

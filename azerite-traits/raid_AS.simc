@@ -94,3 +94,6 @@ profileset."Clockwork_Heart_2"+=shoulder=bristling_fur_lined_amice,id=165922,ile
 profileset."Clockwork_Heart_3"+=head=blazewing_hood,id=165500,ilevel=445,azerite_powers=569
 profileset."Clockwork_Heart_3"+=shoulder=bristling_fur_lined_amice,id=165922,ilevel=445,azerite_powers=569
 profileset."Clockwork_Heart_3"+=chest=divine_fury_raiment,id=165834,ilevel=445,azerite_powers=569
+
+# Person-Computer Interface 568
+# not sure how to test this, will leave for now

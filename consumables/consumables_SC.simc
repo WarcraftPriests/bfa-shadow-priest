@@ -27,21 +27,45 @@ main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigatio
 food=disabled
 augmentation=disabled
 potion=disabled
+flask=disabled
 
-profileset."Potion_of_Intellect"+=potion=battle_potion_of_intellect
-
-profileset."Potion_of_Rising_Death"+=potion=rising_death
-
+# Runes
 profileset."Battle-Scarred Augment Rune"+=augmentation=battle_scarred
 
+# Gems
+profileset."80_Intellect"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=153709
+profileset."40_Haste"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154127
+profileset."40_Critical_Strike"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154126
+profileset."40_Mastery"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154129
+profileset."40_Versatility"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154128
+profileset."120_Intellect"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168638
+profileset."60_Haste"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168641
+profileset."60_Critical_Strike"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168639
+profileset."60_Mastery"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168640
+profileset."60_Versatility"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168642
+
+# Flasks
+profileset."Flask_of_Endless_Fathoms"+=flask=endless_fathoms
+profileset."Greater_Flask_of_Endless_Fathoms"+=flask=greater_endless_fathoms
+
+# Potions
+profileset."Superior_Battle_Potion_of_Intellect"+=potion=superior_battle_potion_of_intellect
+# TODO: Add target differences if its an option
+profileset."Potion_of_Empowered_Proximity"+=potion=empowered_proximity
+profileset."Potion_of_Focused_Resolve"+=potion=focused_resolve
+profileset."Battle_Potion_of_Intellect"+=potion=battle_potion_of_intellect
+profileset."Potion_of_Rising_Death"+=potion=rising_death
+profileset."Potion_of_Unbridled_Fury"+=potion=unbridled_fury
+
+# Food
 profileset."Honey-Glazed_Haunches"+=food=honeyglazed_haunches
-
 profileset."Swamp_Fish_n_Chips"+=food=swamp_fish_n_chips
-
 profileset."Spiced_Snapper"+=food=spiced_snapper
-
 profileset."Sailors_Pie"+=food=sailors_pie
-
 profileset."Galley Banquet"+=food=galley_banquet
-
 profileset."Bountiful_Captains_Feast"+=food=bountiful_captains_feast
+profileset."Baked_Port_Tato"+=food=baked_port_tato
+profileset."Mech-Dowels_Big_Mech"+=food=mech_dowls_big_mech
+profileset."Abyssal-Fried_Rissole"+=food=abyssalfried_rissole
+profileset."Bil_Tong"+=food=biltong
+profileset."Famine_Evaluator_and_Snack_Table"+=famine_evaluator_and_snack_table

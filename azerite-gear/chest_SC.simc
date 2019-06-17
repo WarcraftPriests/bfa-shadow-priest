@@ -244,18 +244,26 @@ profileset."C_445_siren_mystics_vestments_DT_SD_OMW"+=chest=siren_mystics_vestme
 profileset."C_415_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/115/38/13
 profileset."C_430_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/115/38/13
 profileset."C_445_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/115/38/13
-profileset."C_415_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/575/38/18
-profileset."C_430_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/575/38/18
-profileset."C_445_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/575/38/18
-profileset."C_415_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/575/38/18
-profileset."C_430_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/575/38/18
-profileset."C_445_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/575/38/18
-profileset."C_415_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/115/38/18
-profileset."C_430_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/115/38/18
-profileset."C_445_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/115/38/18
-profileset."C_415_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/115/38/18
-profileset."C_430_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/115/38/18
-profileset."C_445_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/115/38/18
+profileset."C_415_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/575/18/13
+profileset."C_430_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/575/18/13
+profileset."C_445_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/575/18/13
+profileset."C_415_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/575/18/13
+profileset."C_430_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/575/18/13
+profileset."C_445_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/575/18/13
+profileset."C_415_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/115/18/13
+profileset."C_430_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/115/18/13
+profileset."C_445_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/115/18/13
+profileset."C_415_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/115/18/13
+profileset."C_430_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/115/18/13
+profileset."C_445_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/115/18/13
 
 # Volatile Arming Doublet - 415
 # Chorus of Insanity + Thought Harvester / Spiteful Apparitions + Clockwork Heart / Elemental Whirl + On My Way
+profileset."C_415_volatile_arming_doublet_CoI_SA_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/403/21/13
+profileset."C_415_volatile_arming_doublet_TH_SA_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/403/21/13
+profileset."C_415_volatile_arming_doublet_CoI_CH_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/569/21/13
+profileset."C_415_volatile_arming_doublet_TH_CH_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/569/21/13
+profileset."C_415_volatile_arming_doublet_CoI_SA_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/403/38/13
+profileset."C_415_volatile_arming_doublet_TH_SA_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/403/38/13
+profileset."C_415_volatile_arming_doublet_CoI_CH_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/569/38/13
+profileset."C_415_volatile_arming_doublet_TH_CH_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/569/38/13

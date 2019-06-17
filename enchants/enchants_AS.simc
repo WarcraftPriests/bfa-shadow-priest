@@ -26,20 +26,18 @@ main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537
 
 # Ring Enchants
 profileset."Ring_Pact_of_Versatility"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_versatility
-
 profileset."Ring_Pact_of_Mastery"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_mastery
-
 profileset."Ring_Pact_of_Critical_Strike"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_critical_strike
-
 profileset."Ring_Pact_of_Haste"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
+profileset."Ring_Accord_of_Versatility"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=accord_of_versatility
+profileset."Ring_Accord_of_Mastery"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=accord_of_mastery
+profileset."Ring_Accord_of_Critical_Strike"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=accord_of_critical_strike
+profileset."Ring_Accord_of_Haste"+=finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=accord_of_haste
 
 # Weapon Enchants
 profileset."Weapon-Torrent-of-Elements"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=torrent_of_elements
-
 profileset."Weapon-Deadly-Navigation"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=deadly_navigation
-
 profileset."Weapon-Quick-Navigation"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
-
 profileset."Weapon-Masterful-Navigation"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=masterful_navigation
-
 profileset."Weapon-Versatile-Navigation"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=versatile_navigation
+profileset."Weapon-Oceanic-Restoration"+=main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=oceanic_restoration

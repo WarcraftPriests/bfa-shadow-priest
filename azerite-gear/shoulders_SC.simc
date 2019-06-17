@@ -193,3 +193,10 @@ profileset."S_445_amice_of_the_reef_witch_WotD_TH_BS"+=shoulder=amice_of_the_ree
 profileset."S_415_amice_of_the_reef_witch_CoI_TH_BS"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=415,azerite_powers=405/166/18/13
 profileset."S_430_amice_of_the_reef_witch_CoI_TH_BS"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=430,azerite_powers=405/166/18/13
 profileset."S_445_amice_of_the_reef_witch_CoI_TH_BS"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=405/166/18/13
+
+# Shoulderguards of Fraying Sanity - 415
+# Death Throes + Thought Harvester / Clockwork Heart + Whispers of the Damned / Heed My Call
+profileset."S_415_shouldersguards_of_fraying_sanity_DT_CH_HMC"+=shoulder=shoulderguards_of_fraying_sanity,id=168987,ilevel=415,azerite_powers=404/569/22/13
+profileset."S_415_shouldersguards_of_fraying_sanity_TH_CH_HMC"+=shoulder=shoulderguards_of_fraying_sanity,id=168987,ilevel=415,azerite_powers=166/569/22/13
+profileset."S_415_shouldersguards_of_fraying_sanity_DT_WotD_HMC"+=shoulder=shoulderguards_of_fraying_sanity,id=168987,ilevel=415,azerite_powers=404/236/22/13
+profileset."S_415_shouldersguards_of_fraying_sanity_TH_WotD_HMC"+=shoulder=shoulderguards_of_fraying_sanity,id=168987,ilevel=415,azerite_powers=166/236/22/13

@@ -7,7 +7,7 @@ import os
 
 azeritePowerIDs = azeritePowerID.azeritePowerIDs
 weightsSingle = weights.weightsSingle
-weightsBoD = weights.weightsBoD
+weightsEP = weights.weightsEP
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -50,7 +50,7 @@ resultsSingle = {}
 for value in data.iterrows():
     if args.weights:
         profile = value[1].profile
-        weight = weightsBoD.get(profile[profile.index('_')+1:])
+        weight = weightsEP.get(profile[profile.index('_')+1:])
         weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
@@ -66,10 +66,10 @@ for value in data.iterrows():
     else:
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/" :
             profile = value[1].profile
-            weight = weightsBoD.get(profile[profile.index('_')+1:])
+            weight = weightsEP.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         else:
-            weight = weightsBoD.get(value[1].profile)
+            weight = weightsEP.get(value[1].profile)
             weightSingle = weightsSingle.get(value[1].profile)
     if not weightSingle:
         weightSingle = 0

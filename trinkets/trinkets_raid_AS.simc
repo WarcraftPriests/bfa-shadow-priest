@@ -23,9 +23,6 @@ finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
 main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
 
 # Uldir Trinkets
-profileset."Vigilants_Bloodshaper_370"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=370
-profileset."Vigilants_Bloodshaper_375"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=375
-profileset."Vigilants_Bloodshaper_380"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=380
 profileset."Vigilants_Bloodshaper_385"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=385
 profileset."Vigilants_Bloodshaper_390"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=390
 profileset."Vigilants_Bloodshaper_395"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=395
@@ -42,9 +39,6 @@ profileset."Vigilants_Bloodshaper_445"+=trinket1=vigilants_bloodshaper,id=160651
 profileset."Vigilants_Bloodshaper_450"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=450
 profileset."Vigilants_Bloodshaper_455"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=455
 
-profileset."Twitching_Tentacle_of_Xalzaix_370"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=370
-profileset."Twitching_Tentacle_of_Xalzaix_375"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=375
-profileset."Twitching_Tentacle_of_Xalzaix_380"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=380
 profileset."Twitching_Tentacle_of_Xalzaix_385"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=385
 profileset."Twitching_Tentacle_of_Xalzaix_390"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=390
 profileset."Twitching_Tentacle_of_Xalzaix_395"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=395
@@ -61,9 +55,6 @@ profileset."Twitching_Tentacle_of_Xalzaix_445"+=trinket1=twitching_tentacle_of_x
 profileset."Twitching_Tentacle_of_Xalzaix_450"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=450
 profileset."Twitching_Tentacle_of_Xalzaix_455"+=trinket1=twitching_tentacle_of_xalzaix,id=160656,ilevel=455
 
-profileset."Vanquished_Tendril_of_Ghuun_370"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=370
-profileset."Vanquished_Tendril_of_Ghuun_375"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=375
-profileset."Vanquished_Tendril_of_Ghuun_380"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=380
 profileset."Vanquished_Tendril_of_Ghuun_385"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=385
 profileset."Vanquished_Tendril_of_Ghuun_390"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=390
 profileset."Vanquished_Tendril_of_Ghuun_395"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=395
@@ -81,9 +72,6 @@ profileset."Vanquished_Tendril_of_Ghuun_450"+=trinket1=vanquished_tendril_of_ghu
 profileset."Vanquished_Tendril_of_Ghuun_455"+=trinket1=vanquished_tendril_of_ghuun,id=160654,ilevel=455
 
 # Battle of Dazar'alor Trinkets
-profileset."Incandescent_Sliver_370"+=trinket1=incandescent_sliver,id=165571,ilevel=370
-profileset."Incandescent_Sliver_375"+=trinket1=incandescent_sliver,id=165571,ilevel=375
-profileset."Incandescent_Sliver_380"+=trinket1=incandescent_sliver,id=165571,ilevel=380
 profileset."Incandescent_Sliver_385"+=trinket1=incandescent_sliver,id=165571,ilevel=385
 profileset."Incandescent_Sliver_390"+=trinket1=incandescent_sliver,id=165571,ilevel=390
 profileset."Incandescent_Sliver_395"+=trinket1=incandescent_sliver,id=165571,ilevel=395
@@ -100,9 +88,6 @@ profileset."Incandescent_Sliver_445"+=trinket1=incandescent_sliver,id=165571,ile
 profileset."Incandescent_Sliver_450"+=trinket1=incandescent_sliver,id=165571,ilevel=450
 profileset."Incandescent_Sliver_455"+=trinket1=incandescent_sliver,id=165571,ilevel=455
 
-profileset."Tidestorm_Codex_370"+=trinket1=tidestorm_codex,id=165576,ilevel=370
-profileset."Tidestorm_Codex_375"+=trinket1=tidestorm_codex,id=165576,ilevel=375
-profileset."Tidestorm_Codex_380"+=trinket1=tidestorm_codex,id=165576,ilevel=380
 profileset."Tidestorm_Codex_385"+=trinket1=tidestorm_codex,id=165576,ilevel=385
 profileset."Tidestorm_Codex_390"+=trinket1=tidestorm_codex,id=165576,ilevel=390
 profileset."Tidestorm_Codex_395"+=trinket1=tidestorm_codex,id=165576,ilevel=395
@@ -119,9 +104,6 @@ profileset."Tidestorm_Codex_445"+=trinket1=tidestorm_codex,id=165576,ilevel=445
 profileset."Tidestorm_Codex_450"+=trinket1=tidestorm_codex,id=165576,ilevel=450
 profileset."Tidestorm_Codex_455"+=trinket1=tidestorm_codex,id=165576,ilevel=455
 
-profileset."Crest_of_Paku_370"+=trinket1=crest_of_paku,id=165581,ilevel=370
-profileset."Crest_of_Paku_375"+=trinket1=crest_of_paku,id=165581,ilevel=375
-profileset."Crest_of_Paku_380"+=trinket1=crest_of_paku,id=165581,ilevel=380
 profileset."Crest_of_Paku_385"+=trinket1=crest_of_paku,id=165581,ilevel=385
 profileset."Crest_of_Paku_390"+=trinket1=crest_of_paku,id=165581,ilevel=390
 profileset."Crest_of_Paku_395"+=trinket1=crest_of_paku,id=165581,ilevel=395
@@ -220,9 +202,6 @@ profileset."Azsharas_Font_of_Power_450"+=trinket1=azsharas_font_of_power,id=1693
 profileset."Azsharas_Font_of_Power_455"+=trinket1=azsharas_font_of_power,id=169314,ilevel=455
 
 # Rare Elite Trinkets
-profileset."Azurethos_Singed_Plumage_370"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=370
-profileset."Azurethos_Singed_Plumage_375"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=375
-profileset."Azurethos_Singed_Plumage_380"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=380
 profileset."Azurethos_Singed_Plumage_385"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=385
 profileset."Azurethos_Singed_Plumage_390"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=390
 profileset."Azurethos_Singed_Plumage_395"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=395
@@ -239,9 +218,6 @@ profileset."Azurethos_Singed_Plumage_445"+=trinket1=azurethos_singed_plumage,id=
 profileset."Azurethos_Singed_Plumage_450"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=450
 profileset."Azurethos_Singed_Plumage_455"+=trinket1=azurethos_singed_plumage,id=161377,ilevel=455
 
-profileset."Tzanes_Barkspines_370"+=trinket1=tzanes_barkspines,id=161411,ilevel=370
-profileset."Tzanes_Barkspines_375"+=trinket1=tzanes_barkspines,id=161411,ilevel=375
-profileset."Tzanes_Barkspines_380"+=trinket1=tzanes_barkspines,id=161411,ilevel=380
 profileset."Tzanes_Barkspines_385"+=trinket1=tzanes_barkspines,id=161411,ilevel=385
 profileset."Tzanes_Barkspines_390"+=trinket1=tzanes_barkspines,id=161411,ilevel=390
 profileset."Tzanes_Barkspines_395"+=trinket1=tzanes_barkspines,id=161411,ilevel=395
@@ -258,9 +234,6 @@ profileset."Tzanes_Barkspines_445"+=trinket1=tzanes_barkspines,id=161411,ilevel=
 profileset."Tzanes_Barkspines_450"+=trinket1=tzanes_barkspines,id=161411,ilevel=450
 profileset."Tzanes_Barkspines_455"+=trinket1=tzanes_barkspines,id=161411,ilevel=455
 
-profileset."Drust_Runed_Icicle_370"+=trinket1=drust_runed_icicle,id=161380,ilevel=370
-profileset."Drust_Runed_Icicle_375"+=trinket1=drust_runed_icicle,id=161380,ilevel=375
-profileset."Drust_Runed_Icicle_380"+=trinket1=drust_runed_icicle,id=161380,ilevel=380
 profileset."Drust_Runed_Icicle_385"+=trinket1=drust_runed_icicle,id=161380,ilevel=385
 profileset."Drust_Runed_Icicle_390"+=trinket1=drust_runed_icicle,id=161380,ilevel=390
 profileset."Drust_Runed_Icicle_395"+=trinket1=drust_runed_icicle,id=161380,ilevel=395
@@ -293,10 +266,27 @@ profileset."Ancient_Knot_of_Wisdom_445"+=trinket1=ancient_knot_of_wisdom,id=1667
 profileset."Ancient_Knot_of_Wisdom_450"+=trinket1=ancient_knot_of_wisdom,id=166793,ilevel=450
 profileset."Ancient_Knot_of_Wisdom_455"+=trinket1=ancient_knot_of_wisdom,id=166793,ilevel=455
 
+profileset."Shockbiters_Fang_415"+=trinket1=shockbiters_fang,id=169318,ilevel=415
+profileset."Shockbiters_Fang_420"+=trinket1=shockbiters_fang,id=169318,ilevel=420
+profileset."Shockbiters_Fang_425"+=trinket1=shockbiters_fang,id=169318,ilevel=425
+profileset."Shockbiters_Fang_430"+=trinket1=shockbiters_fang,id=169318,ilevel=430
+profileset."Shockbiters_Fang_435"+=trinket1=shockbiters_fang,id=169318,ilevel=435
+profileset."Shockbiters_Fang_440"+=trinket1=shockbiters_fang,id=169318,ilevel=440
+profileset."Shockbiters_Fang_445"+=trinket1=shockbiters_fang,id=169318,ilevel=445
+profileset."Shockbiters_Fang_450"+=trinket1=shockbiters_fang,id=169318,ilevel=450
+profileset."Shockbiters_Fang_455"+=trinket1=shockbiters_fang,id=169318,ilevel=455
+
+profileset."Enthrallers_Bindstone_415"+=trinket1=enthrallers_bindstone,id=169317,ilevel=415
+profileset."Enthrallers_Bindstone_420"+=trinket1=enthrallers_bindstone,id=169317,ilevel=420
+profileset."Enthrallers_Bindstone_425"+=trinket1=enthrallers_bindstone,id=169317,ilevel=425
+profileset."Enthrallers_Bindstone_430"+=trinket1=enthrallers_bindstone,id=169317,ilevel=430
+profileset."Enthrallers_Bindstone_435"+=trinket1=enthrallers_bindstone,id=169317,ilevel=435
+profileset."Enthrallers_Bindstone_440"+=trinket1=enthrallers_bindstone,id=169317,ilevel=440
+profileset."Enthrallers_Bindstone_445"+=trinket1=enthrallers_bindstone,id=169317,ilevel=445
+profileset."Enthrallers_Bindstone_450"+=trinket1=enthrallers_bindstone,id=169317,ilevel=450
+profileset."Enthrallers_Bindstone_455"+=trinket1=enthrallers_bindstone,id=169317,ilevel=455
+
 # PvP World Boss Trinket
-profileset."Dooms_Hatred_370"+=trinket1=dooms_hatred,id=161461,ilevel=370
-profileset."Dooms_Hatred_375"+=trinket1=dooms_hatred,id=161461,ilevel=375
-profileset."Dooms_Hatred_380"+=trinket1=dooms_hatred,id=161461,ilevel=380
 profileset."Dooms_Hatred_385"+=trinket1=dooms_hatred,id=161461,ilevel=385
 profileset."Dooms_Hatred_390"+=trinket1=dooms_hatred,id=161461,ilevel=390
 profileset."Dooms_Hatred_395"+=trinket1=dooms_hatred,id=161461,ilevel=395
@@ -313,9 +303,6 @@ profileset."Dooms_Hatred_445"+=trinket1=dooms_hatred,id=161461,ilevel=445
 profileset."Dooms_Hatred_450"+=trinket1=dooms_hatred,id=161461,ilevel=450
 profileset."Dooms_Hatred_455"+=trinket1=dooms_hatred,id=161461,ilevel=455
 
-profileset."Lions_Grace_370"+=trinket1=lions_grace,id=161472,ilevel=370
-profileset."Lions_Grace_375"+=trinket1=lions_grace,id=161472,ilevel=375
-profileset."Lions_Grace_380"+=trinket1=lions_grace,id=161472,ilevel=380
 profileset."Lions_Grace_385"+=trinket1=lions_grace,id=161472,ilevel=385
 profileset."Lions_Grace_390"+=trinket1=lions_grace,id=161472,ilevel=390
 profileset."Lions_Grace_395"+=trinket1=lions_grace,id=161472,ilevel=395
