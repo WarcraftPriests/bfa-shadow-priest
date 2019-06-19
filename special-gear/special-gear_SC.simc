@@ -20,8 +20,8 @@ hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
 waist=cephalopods_sash,id=168872,ilevel=445
 legs=seawrath_legwraps,id=168371,ilevel=445
 feet=eelskin_flippers,id=168373,ilevel=445
-finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_haste
-finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=pact_of_haste
+finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
 main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
@@ -37,20 +37,20 @@ profileset."Slippers_of_the_Sorceress_Queen_445"+=feet=slippers_of_the_sorceress
 
 # Mechagon Rings
 # Logic Loop of Recursion + Shorting Bit Band
-profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_415"+=finger1=logic_loop_of_recursion,id=169158,ilevel=415,enchant=pact_of_haste
-profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_415"+=finger2=shorting_bit_band,id=169160,ilevel=415,enchant=pact_of_haste
+profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_415"+=finger1=logic_loop_of_recursion,id=169158,ilevel=415,enchant=accord_of_haste
+profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_415"+=finger2=shorting_bit_band,id=169160,ilevel=415,enchant=accord_of_haste
 
 # Logic Loop of Division + Shorting Bit Band
-profileset."Logic_Loop_of_Division_Shorting_Bit_Band_415"+=finger1=logic_loop_of_division,id=169157,ilevel=415,enchant=pact_of_haste
-profileset."Logic_Loop_of_Division_Shorting_Bit_Band_415"+=finger2=shorting_bit_band,id=169160,ilevel=415,enchant=pact_of_haste
+profileset."Logic_Loop_of_Division_Shorting_Bit_Band_415"+=finger1=logic_loop_of_division,id=169157,ilevel=415,enchant=accord_of_haste
+profileset."Logic_Loop_of_Division_Shorting_Bit_Band_415"+=finger2=shorting_bit_band,id=169160,ilevel=415,enchant=accord_of_haste
 
 # Logic Loop of Recursion + Overclocking Bit Band
-profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_415"+=finger1=logic_loop_of_recursion,id=169158,ilevel=415,enchant=pact_of_haste
-profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_415"+=finger2=overclocking_bit_band,id=169159,ilevel=415,enchant=pact_of_haste
+profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_415"+=finger1=logic_loop_of_recursion,id=169158,ilevel=415,enchant=accord_of_haste
+profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_415"+=finger2=overclocking_bit_band,id=169159,ilevel=415,enchant=accord_of_haste
 
 # Logic Loop of Division + Overclocking Bit Band
-profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger1=logic_loop_of_division,id=169157,ilevel=415,enchant=pact_of_haste
-profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger2=overclocking_bit_band,id=169159,ilevel=415,enchant=pact_of_haste
+profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger1=logic_loop_of_division,id=169157,ilevel=415,enchant=accord_of_haste
+profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger2=overclocking_bit_band,id=169159,ilevel=415,enchant=accord_of_haste
 
 profileset."Neural_Synapse_Enhancer_415"+=main_hand=neural_synapse_enhancer,id=168973,ilevel=415,enchant=quick_navigation
 

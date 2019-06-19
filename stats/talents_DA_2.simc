@@ -19,8 +19,8 @@ hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
 waist=cephalopods_sash,id=168872,ilevel=445
 legs=seawrath_legwraps,id=168371,ilevel=445
 feet=eelskin_flippers,id=168373,ilevel=445
-finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_haste
-finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=pact_of_haste
+finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
 main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
