@@ -1,27 +1,37 @@
 # Battle for Dazar'alor Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|24847|3.27%|
-|Weapon-Deadly-Navigation|24693|2.63%|
-|Weapon-Torrent-of-Elements|24613|2.29%|
-|Weapon-Versatile-Navigation|24577|2.15%|
-|Weapon-Masterful-Navigation|24530|1.95%|
-|Ring_Pact_of_Haste|24211|0.63%|
-|Ring_Pact_of_Critical_Strike|24190|0.54%|
-|Ring_Pact_of_Versatility|24166|0.44%|
-|Ring_Pact_of_Mastery|24155|0.39%|
-|Base|24060|0.00%|
+|Weapon-Quick-Navigation|23202|3.33%|
+|Weapon-Deadly-Navigation|23046|2.63%|
+|Weapon-Torrent-of-Elements|22971|2.30%|
+|Weapon-Versatile-Navigation|22940|2.16%|
+|Weapon-Masterful-Navigation|22895|1.96%|
+|Weapon-Oceanic-Restoration|22787|1.48%|
+|Ring_Accord_of_Haste|22706|1.12%|
+|Ring_Accord_of_Critical_Strike|22644|0.84%|
+|Ring_Pact_of_Haste|22619|0.73%|
+|Ring_Accord_of_Versatility|22608|0.68%|
+|Ring_Accord_of_Mastery|22598|0.63%|
+|Ring_Pact_of_Critical_Strike|22588|0.59%|
+|Ring_Pact_of_Versatility|22563|0.48%|
+|Ring_Pact_of_Mastery|22550|0.42%|
+|Base|22455|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick-Navigation|23636|3.34%|
-|Weapon-Deadly-Navigation|23463|2.58%|
-|Weapon-Torrent-of-Elements|23397|2.30%|
-|Weapon-Versatile-Navigation|23365|2.15%|
-|Weapon-Masterful-Navigation|23324|1.97%|
-|Ring_Pact_of_Haste|23019|0.64%|
-|Ring_Pact_of_Critical_Strike|22998|0.55%|
-|Ring_Pact_of_Versatility|22977|0.46%|
-|Ring_Pact_of_Mastery|22963|0.40%|
-|Base|22872|0.00%|
+|Weapon-Quick-Navigation|23202|3.33%|
+|Weapon-Deadly-Navigation|23046|2.63%|
+|Weapon-Torrent-of-Elements|22971|2.30%|
+|Weapon-Versatile-Navigation|22940|2.16%|
+|Weapon-Masterful-Navigation|22895|1.96%|
+|Weapon-Oceanic-Restoration|22787|1.48%|
+|Ring_Accord_of_Haste|22706|1.12%|
+|Ring_Accord_of_Critical_Strike|22644|0.84%|
+|Ring_Pact_of_Haste|22619|0.73%|
+|Ring_Accord_of_Versatility|22608|0.68%|
+|Ring_Accord_of_Mastery|22598|0.63%|
+|Ring_Pact_of_Critical_Strike|22588|0.59%|
+|Ring_Pact_of_Versatility|22563|0.48%|
+|Ring_Pact_of_Mastery|22550|0.42%|
+|Base|22455|0.00%|

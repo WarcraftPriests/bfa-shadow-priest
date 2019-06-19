@@ -9,21 +9,22 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=crown_of_the_seducer,id=165818,bonus_id=4824/1537,azerite_powers=403/405/18/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
-shoulder=bristling_fur_lined_amice,id=165922,bonus_id=4824/1537,azerite_powers=405/403/462/13
-back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
-chest=divine_fury_raiment,id=165834,bonus_id=4824/1537,azerite_powers=405/562/38/13
-wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
-hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
-waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
-legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
-feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
-finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
-finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
-trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
-trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
-main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
+head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
+shoulder=amice_of_the_reef_witch,id=168338,ilevel=450,azerite_powers=405/577/18/13
+back=drape_of_the_hatcher,id=168604,ilevel=445
+chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
+wrists=bindings_of_the_herald,id=168884,ilevel=445
+hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
+waist=cephalopods_sash,id=168872,ilevel=445
+legs=seawrath_legwraps,id=168371,ilevel=445
+feet=eelskin_flippers,id=168373,ilevel=445
+finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_haste
+finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=pact_of_haste
+trinket1=leviathans_lure,id=169304,ilevel=445
+trinket2=shiver_venom_relic,id=168905,ilevel=445
+main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
+off_hand=stormtamers_orb,id=168896,ilevel=445
 # STM
 # LI
 # AS
