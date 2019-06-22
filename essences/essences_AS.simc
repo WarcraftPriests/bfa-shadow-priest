@@ -28,63 +28,187 @@ main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
 # RANK 1: 1 Major + 1 Minor
-## Blood of the Enemy + Blood-Soaked
-profileset."Blood_of_the_Enemy_1"+=
+## Blood of the Enemy (23) + Blood-Soaked
+profileset."Blood_of_the_Enemy_1"+=azerite_essences=23:1:1
 
-## Guardian of Azeroth + Condensed Life-Force
-profileset."Guardian_of_Azeroth_1"+=
+## Guardian of Azeroth (14) + Condensed Life-Force
+profileset."Guardian_of_Azeroth_1"+=azerite_essences=14:1:1
 
-## Focused Azerite Beam + Focused Energy
-profileset."Focused_Azerite_Beam_1"+=
+## Focused Azerite Beam (5) + Focused Energy
+profileset."Focused_Azerite_Beam_1"+=azerite_essences=5:1:1
 
-## Purifying Blast + Purification Protocol
-profileset."Purifying_Blast_1"+=
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_1"+=azerite_essences=6:1:1
 
-## The Unbound Force + Reckless Force
-profileset."The_Unbound_Force_1"+=
+## The Unbound Force (28) + Reckless Force
+profileset."The_Unbound_Force_1"+=azerite_essences=28:1:1
 
-## Memory of Lucid Dreams + Lucid Dreams
-profileset."Memory_of_Lucid_Dreams_1"+=
+## Memory of Lucid Dreams (27) + Lucid Dreams
+profileset."Memory_of_Lucid_Dreams_1"+=azerite_essences=27:1:1
 
-## Vision of Perfection + Strive for Perfection
-profileset."Vision_of_Perfection_1"+=
+## Vision of Perfection (22) + Strive for Perfection
+profileset."Vision_of_Perfection_1"+=azerite_essences=22:1:1
 
-## Conflict (Void Origins) + Strife
-profileset."Conflict_1"+=
+## Conflict (Void Origins) (32) + Strife
+profileset."Conflict_1"+=azerite_essences=32:1:1
 
-## Concentrated Flame + Ancient Flame
-profileset."Concentrated_Flame_1"+=
+## Concentrated Flame (12) + Ancient Flame
+profileset."Concentrated_Flame_1"+=azerite_essences=12:1:1
 
-## Ripple in Space + Reality Shift
-profileset."Ripple_in_Space_1"+=
+## Ripple in Space (15) + Reality Shift
+profileset."Ripple_in_Space_1"+=azerite_essences=15:1:1
 
-## Worldvein Resonance + Lifeblood
-profileset."Worldvein_Resonance_1"+=
+## Worldvein Resonance (4) + Lifeblood
+profileset."Worldvein_Resonance_1"+=azerite_essences=4:1:1
 
 # Rank 1: Minors
-# Blood-Soaked
-profileset."Blood_Soaked_1"+=
+# Blood-Soaked (23)
+profileset."Blood_Soaked_1"+=azerite_essences=23:1:0
 
 # Condensed Life-Force
-profileset."Condensed_Life_Force_1"+=
+profileset."Condensed_Life_Force_1"+=azerite_essences=14:1:0
 
 # Focused Energy
-profileset."Focused_Energy_1"+=
+profileset."Focused_Energy_1"+=azerite_essences=5:1:0
 
 # Purification Protocol
-profileset."Purification_Protocol_1"+=
+profileset."Purification_Protocol_1"+=azerite_essences=6:1:0
 
 # Reckless Force
-profileset."Reckless_Force_1"+=
+profileset."Reckless_Force_1"+=azerite_essences=28:1:0
 
 # Lucid Dreams
-profileset."Lucid_Dreams_1"+=
+profileset."Lucid_Dreams_1"+=azerite_essences=27:1:0
 
 # Strive for Perfection
-profileset."Strive_for_Perfection_1"+=
+profileset."Strive_for_Perfection_1"+=azerite_essences=22:1:0
 
 # Ancient Flame
-profileset."Ancient_Flame_1"+=
+profileset."Ancient_Flame_1"+=azerite_essences=12:1:0
 
 # Lifeblood
-profileset."Lifeblood_1"+=
+profileset."Lifeblood_1"+=azerite_essences=4:1:0
+
+# RANK 2: 1 Major + 1 Minor
+## Blood of the Enemy (23) + Blood-Soaked
+profileset."Blood_of_the_Enemy_2"+=azerite_essences=23:2:1
+
+## Guardian of Azeroth (14) + Condensed Life-Force
+profileset."Guardian_of_Azeroth_2"+=azerite_essences=14:2:1
+
+## Focused Azerite Beam (5) + Focused Energy
+profileset."Focused_Azerite_Beam_2"+=azerite_essences=5:2:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_2"+=azerite_essences=6:2:1
+
+## The Unbound Force (28) + Reckless Force
+profileset."The_Unbound_Force_2"+=azerite_essences=28:2:1
+
+## Memory of Lucid Dreams (27) + Lucid Dreams
+profileset."Memory_of_Lucid_Dreams_2"+=azerite_essences=27:2:1
+
+## Vision of Perfection (22) + Strive for Perfection
+profileset."Vision_of_Perfection_2"+=azerite_essences=22:2:1
+
+## Conflict (Void Origins) (32) + Strife
+profileset."Conflict_2"+=azerite_essences=32:2:1
+
+## Concentrated Flame (12) + Ancient Flame
+profileset."Concentrated_Flame_2"+=azerite_essences=12:2:1
+
+## Ripple in Space (15) + Reality Shift
+profileset."Ripple_in_Space_2"+=azerite_essences=15:2:1
+
+## Worldvein Resonance (4) + Lifeblood
+profileset."Worldvein_Resonance_2"+=azerite_essences=4:2:1
+
+# Rank 2: Minors
+# Blood-Soaked (23)
+profileset."Blood_Soaked_2"+=azerite_essences=23:2:0
+
+# Condensed Life-Force
+profileset."Condensed_Life_Force_2"+=azerite_essences=14:2:0
+
+# Focused Energy
+profileset."Focused_Energy_2"+=azerite_essences=5:2:0
+
+# Purification Protocol
+profileset."Purification_Protocol_2"+=azerite_essences=6:2:0
+
+# Reckless Force
+profileset."Reckless_Force_2"+=azerite_essences=28:2:0
+
+# Lucid Dreams
+profileset."Lucid_Dreams_2"+=azerite_essences=27:2:0
+
+# Strive for Perfection
+profileset."Strive_for_Perfection_2"+=azerite_essences=22:2:0
+
+# Ancient Flame
+profileset."Ancient_Flame_2"+=azerite_essences=12:2:0
+
+# Lifeblood
+profileset."Lifeblood_2"+=azerite_essences=4:2:0
+
+# RANK 3: 1 Major + 1 Minor
+## Blood of the Enemy (23) + Blood-Soaked
+profileset."Blood_of_the_Enemy_3"+=azerite_essences=23:3:1
+
+## Guardian of Azeroth (14) + Condensed Life-Force
+profileset."Guardian_of_Azeroth_3"+=azerite_essences=14:3:1
+
+## Focused Azerite Beam (5) + Focused Energy
+profileset."Focused_Azerite_Beam_3"+=azerite_essences=5:3:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_3"+=azerite_essences=6:3:1
+
+## The Unbound Force (28) + Reckless Force
+profileset."The_Unbound_Force_3"+=azerite_essences=28:3:1
+
+## Memory of Lucid Dreams (27) + Lucid Dreams
+profileset."Memory_of_Lucid_Dreams_3"+=azerite_essences=27:3:1
+
+## Vision of Perfection (22) + Strive for Perfection
+profileset."Vision_of_Perfection_3"+=azerite_essences=22:3:1
+
+## Conflict (Void Origins) (32) + Strife
+profileset."Conflict_3"+=azerite_essences=32:3:1
+
+## Concentrated Flame (12) + Ancient Flame
+profileset."Concentrated_Flame_3"+=azerite_essences=12:3:1
+
+## Ripple in Space (15) + Reality Shift
+profileset."Ripple_in_Space_3"+=azerite_essences=15:3:1
+
+## Worldvein Resonance (4) + Lifeblood
+profileset."Worldvein_Resonance_3"+=azerite_essences=4:3:1
+
+# Rank 3: Minors
+# Blood-Soaked (23)
+profileset."Blood_Soaked_3"+=azerite_essences=23:3:0
+
+# Condensed Life-Force
+profileset."Condensed_Life_Force_3"+=azerite_essences=14:3:0
+
+# Focused Energy
+profileset."Focused_Energy_3"+=azerite_essences=5:3:0
+
+# Purification Protocol
+profileset."Purification_Protocol_3"+=azerite_essences=6:3:0
+
+# Reckless Force
+profileset."Reckless_Force_3"+=azerite_essences=28:3:0
+
+# Lucid Dreams
+profileset."Lucid_Dreams_3"+=azerite_essences=27:3:0
+
+# Strive for Perfection
+profileset."Strive_for_Perfection_3"+=azerite_essences=22:3:0
+
+# Ancient Flame
+profileset."Ancient_Flame_3"+=azerite_essences=12:3:0
+
+# Lifeblood
+profileset."Lifeblood_3"+=azerite_essences=4:3:0
