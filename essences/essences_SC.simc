@@ -11,7 +11,7 @@ default_actions=1
 initial_resource=insanity=25
 
 head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
+neck=heart_of_azeroth,id=158075,bonus_id=4936/4929/5814/1580,azerite_level=75
 shoulder=amice_of_the_reef_witch,id=168338,ilevel=450,azerite_powers=405/577/18/13
 back=drape_of_the_hatcher,id=168604,ilevel=445
 chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
@@ -24,7 +24,7 @@ finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_ha
 finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
+main_hand=currentweavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
 # RANK 1: 1 Major + 1 Minor
