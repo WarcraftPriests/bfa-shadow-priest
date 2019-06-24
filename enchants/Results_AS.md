@@ -1,39 +1,39 @@
-# Battle for Dazar'alor Composite
+# Eternal Palace
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick_Navigation|37654|3.30%|
-|Weapon-Deadly_Navigation|37461|2.78%|
-|Weapon-Torrent_of_Elements|37330|2.42%|
-|Weapon-Versatile_Navigation|37272|2.26%|
-|Weapon-Masterful_Navigation|37138|1.89%|
-|Weapon-Machinists_Brilliance|36868|1.15%|
-|Weapon-Oceanic_Restoration|36867|1.15%|
-|Ring_Accord_of_Haste|36841|1.07%|
-|Ring_Accord_of_Critical_Strike|36783|0.91%|
-|Ring_Pact_of_Haste|36719|0.74%|
-|Ring_Accord_of_Versatility|36707|0.71%|
-|Ring_Accord_of_Mastery|36678|0.63%|
-|Ring_Pact_of_Critical_Strike|36673|0.61%|
-|Ring_Pact_of_Versatility|36628|0.49%|
-|Ring_Pact_of_Mastery|36602|0.42%|
-|Base|36449|0.00%|
+|Weapon-Machinists_Brilliance|35652|3.66%|
+|Weapon-Quick_Navigation|35541|3.34%|
+|Weapon-Deadly_Navigation|35356|2.80%|
+|Weapon-Torrent_of_Elements|35209|2.37%|
+|Weapon-Versatile_Navigation|35160|2.23%|
+|Weapon-Masterful_Navigation|35075|1.98%|
+|Weapon-Oceanic_Restoration|34799|1.18%|
+|Ring_Accord_of_Haste|34750|1.04%|
+|Ring_Accord_of_Critical_Strike|34699|0.89%|
+|Ring_Accord_of_Versatility|34638|0.71%|
+|Ring_Pact_of_Haste|34637|0.71%|
+|Ring_Accord_of_Mastery|34613|0.64%|
+|Ring_Pact_of_Critical_Strike|34598|0.59%|
+|Ring_Pact_of_Versatility|34555|0.47%|
+|Ring_Pact_of_Mastery|34539|0.42%|
+|Base|34394|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Quick_Navigation|33120|3.31%|
-|Weapon-Deadly_Navigation|32913|2.67%|
-|Weapon-Torrent_of_Elements|32826|2.40%|
-|Weapon-Versatile_Navigation|32784|2.27%|
-|Weapon-Masterful_Navigation|32661|1.88%|
-|Weapon-Oceanic_Restoration|32431|1.16%|
-|Weapon-Machinists_Brilliance|32422|1.14%|
-|Ring_Accord_of_Haste|32398|1.06%|
-|Ring_Accord_of_Critical_Strike|32351|0.91%|
-|Ring_Pact_of_Haste|32302|0.76%|
-|Ring_Accord_of_Versatility|32290|0.72%|
-|Ring_Accord_of_Mastery|32264|0.64%|
-|Ring_Pact_of_Critical_Strike|32255|0.62%|
-|Ring_Pact_of_Versatility|32219|0.50%|
-|Ring_Pact_of_Mastery|32201|0.45%|
-|Base|32058|0.00%|
+|Weapon-Machinists_Brilliance|31241|3.60%|
+|Weapon-Quick_Navigation|31168|3.36%|
+|Weapon-Deadly_Navigation|30959|2.67%|
+|Weapon-Torrent_of_Elements|30856|2.33%|
+|Weapon-Versatile_Navigation|30812|2.18%|
+|Weapon-Masterful_Navigation|30744|1.96%|
+|Weapon-Oceanic_Restoration|30513|1.19%|
+|Ring_Accord_of_Haste|30464|1.03%|
+|Ring_Accord_of_Critical_Strike|30408|0.84%|
+|Ring_Accord_of_Versatility|30371|0.72%|
+|Ring_Pact_of_Haste|30361|0.68%|
+|Ring_Accord_of_Mastery|30345|0.63%|
+|Ring_Pact_of_Critical_Strike|30331|0.59%|
+|Ring_Pact_of_Versatility|30296|0.47%|
+|Ring_Pact_of_Mastery|30275|0.40%|
+|Base|30155|0.00%|
