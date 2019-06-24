@@ -36,20 +36,20 @@ flask=disabled
 profileset."Battle-Scarred Augment Rune"+=augmentation=battle_scarred
 
 # Gems
-profileset."80_Intellect"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=153709
-profileset."40_Haste"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154127
-profileset."40_Critical_Strike"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154126
-profileset."40_Mastery"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154129
-profileset."40_Versatility"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=154128
-profileset."120_Intellect"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168638
-profileset."60_Haste"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168641
-profileset."60_Critical_Strike"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168639
-profileset."60_Mastery"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168640
-profileset."60_Versatility"+=trinket2=crest_of_paku,id=165581,bonus_id=1537/4798,gem_id=168642
+profileset."80_Intellect"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=153709
+profileset."40_Haste"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154127
+profileset."40_Critical_Strike"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154126
+profileset."40_Mastery"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154129
+profileset."40_Versatility"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154128
+profileset."120_Intellect"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168638
+profileset."60_Haste"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168641
+profileset."60_Critical_Strike"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168639
+profileset."60_Mastery"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168640
+profileset."60_Versatility"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168642
 
 # Flasks
 profileset."Flask_of_Endless_Fathoms"+=flask=endless_fathoms
-profileset."Greater_Flask_of_Endless_Fathoms"+=flask=greater_endless_fathoms
+profileset."Greater_Flask_of_Endless_Fathoms"+=flask=greater_flask_of_endless_fathoms
 
 # Potions
 profileset."Superior_Battle_Potion_of_Intellect"+=potion=superior_battle_potion_of_intellect
@@ -68,8 +68,8 @@ profileset."Sailors_Pie"+=food=sailors_pie
 profileset."Galley_Banquet"+=food=galley_banquet
 profileset."Bountiful_Captains_Feast"+=food=bountiful_captains_feast
 profileset."Baked_Port_Tato"+=food=baked_port_tato
-profileset."Mech-Dowels_Big_Mech"+=food=mech_dowls_big_mech
+profileset."Mech-Dowels_Big_Mech"+=food=mechdowels_big_mech
 profileset."Abyssal-Fried_Rissole"+=food=abyssalfried_rissole
 profileset."Bil_Tong"+=food=biltong
-profileset."Famine_Evaluator_and_Snack_Table"+=famine_evaluator_and_snack_table
+profileset."Famine_Evaluator_and_Snack_Table"+=food=famine_evaluator_and_snack_table
 profileset."Fancy_Darkmoon_Feast"+=food=fancy_darkmoon_feast
