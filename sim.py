@@ -13,7 +13,7 @@ apiKey = secrets.apiKey
 version = 'nightly'
 weights = '-s'
 weightsSingle = fightWeights.weightsSingle
-weightsBoD = fightWeights.weightsBoD
+weightsEP = fightWeights.weightsEP
 
 parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
 parser.add_argument('dir', help='Directory you wish to sim. Options are 1. talents/ 2. racials/ 3. gear/ 4. enchants/ 5. consumables/ 6. azerite-traits/')
@@ -77,7 +77,7 @@ for value in profiles:
         lookup = value[9:-5]
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "stats/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/":
             lookup = lookup[lookup.index('_')+1:]
-        weight = weightsBoD.get(lookup)
+        weight = weightsEP.get(lookup)
         weightST = weightsSingle.get(lookup)
         if weightST:
             weight = weight + weightST

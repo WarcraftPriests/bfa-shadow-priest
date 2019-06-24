@@ -1,3 +1,5 @@
+ptr=1
+
 priest="Base"
 level=120
 role=spell
@@ -8,248 +10,263 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-# Head/Shoulders/Chest at 385 ilvl
-head=blazewing_hood,id=165500,ilevel=385
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
-shoulder=bristling_fur_lined_amice,id=165922,ilevel=385
-back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
-chest=divine_fury_raiment,id=165834,ilevel=385
-wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
-hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
-waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
-legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
-feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
-finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
-finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
-trinket1=incandescent_sliver,id=165571,bonus_id=1537/4798
-trinket2=crest_of_paku,id=165581,bonus_id=1537/4798
-main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
+# Head/Shoulders/Chest at 415 ilvl
+head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=415
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
+shoulder=amice_of_the_reef_witch,id=168338,ilevel=415
+back=drape_of_the_hatcher,id=168604,ilevel=445
+chest=vestments_of_creeping_terror,id=168337,ilevel=415
+wrists=bindings_of_the_herald,id=168884,ilevel=445
+hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
+waist=cephalopods_sash,id=168872,ilevel=445
+legs=seawrath_legwraps,id=168371,ilevel=445
+feet=eelskin_flippers,id=168373,ilevel=445
+finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
+trinket1=leviathans_lure,id=169304,ilevel=445
+trinket2=shiver_venom_relic,id=168905,ilevel=445
+main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
+off_hand=stormtamers_orb,id=168896,ilevel=445
 
-# Robes of the Unraveler - 385, 400, 415
-# Whispers of the Damned + Thought Harvester / Chorus of Insanity + Archive of the Titans / Overwhelming Power
-profileset."C_385_robes_of_the_unraveler_WotD_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=236/405/30/13
-profileset."C_385_robes_of_the_unraveler_WotD_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=236/483/30/13
-profileset."C_385_robes_of_the_unraveler_TH_CoI_OP"+=chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=166/405/30/13
-profileset."C_385_robes_of_the_unraveler_TH_AotT_OP"+=chest=robes_of_the_unraveler,id=160614,ilevel=385,azerite_powers=166/483/30/13
-
-# Raider's Shrouding Thobe - 385, 400, 415
-# Thought Harvester + Searing Dialogue / Spiteful Apparitions + Swirling Sands / Gutripper
-profileset."C_385_raiders_shrouding_thobe_TH_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=166/403/31/13
-profileset."C_400_raiders_shrouding_thobe_TH_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=400,azerite_powers=166/403/31/13
-profileset."C_415_raiders_shrouding_thobe_TH_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=415,azerite_powers=166/403/31/13
-profileset."C_385_raiders_shrouding_thobe_TH_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=166/196/31/13
-profileset."C_400_raiders_shrouding_thobe_TH_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=400,azerite_powers=166/196/31/13
-profileset."C_415_raiders_shrouding_thobe_TH_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=415,azerite_powers=166/196/31/13
-profileset."C_385_raiders_shrouding_thobe_SD_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=115/403/31/13
-profileset."C_400_raiders_shrouding_thobe_SD_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=400,azerite_powers=115/403/31/13
-profileset."C_415_raiders_shrouding_thobe_SD_SA_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=415,azerite_powers=115/403/31/13
-profileset."C_385_raiders_shrouding_thobe_SD_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=385,azerite_powers=115/196/31/13
-profileset."C_400_raiders_shrouding_thobe_SD_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=400,azerite_powers=115/196/31/13
-profileset."C_415_raiders_shrouding_thobe_SD_SS_GR"+=chest=raiders_shrouding_thobe,id=161400,ilevel=415,azerite_powers=115/196/31/13
-
-# Ruffled Poet Blouse - 385, 400, 415
+# Ruffled Poet Blouse - 415, 430, 445
 # Chorus of Insanity + Thought Harvester / Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
-profileset."C_385_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=405/403/21/13
-profileset."C_400_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=405/403/21/13
 profileset."C_415_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=405/403/21/13
-profileset."C_385_ruffled_poet_blouse_CoI_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=405/403/38/13
-profileset."C_400_ruffled_poet_blouse_CoI_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=405/403/38/13
+profileset."C_430_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=405/403/21/13
+profileset."C_445_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=405/403/21/13
 profileset."C_415_ruffled_poet_blouse_CoI_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=405/403/38/13
-profileset."C_385_ruffled_poet_blouse_CoI_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=405/505/21/13
-profileset."C_400_ruffled_poet_blouse_CoI_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=405/505/21/13
+profileset."C_430_ruffled_poet_blouse_CoI_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=405/403/38/13
+profileset."C_445_ruffled_poet_blouse_CoI_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=405/403/38/13
 profileset."C_415_ruffled_poet_blouse_CoI_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=405/505/21/13
-profileset."C_385_ruffled_poet_blouse_CoI_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=405/505/38/13
-profileset."C_400_ruffled_poet_blouse_CoI_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=405/505/38/13
+profileset."C_430_ruffled_poet_blouse_CoI_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=405/505/21/13
+profileset."C_445_ruffled_poet_blouse_CoI_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=405/505/21/13
 profileset."C_415_ruffled_poet_blouse_CoI_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=405/505/38/13
-profileset."C_385_ruffled_poet_blouse_TH_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=166/403/21/13
-profileset."C_400_ruffled_poet_blouse_TH_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=166/403/21/13
+profileset."C_430_ruffled_poet_blouse_CoI_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=405/505/38/13
+profileset."C_445_ruffled_poet_blouse_CoI_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=405/505/38/13
 profileset."C_415_ruffled_poet_blouse_TH_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=166/403/21/13
-profileset."C_385_ruffled_poet_blouse_TH_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=166/403/38/13
-profileset."C_400_ruffled_poet_blouse_TH_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=166/403/38/13
+profileset."C_430_ruffled_poet_blouse_TH_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=166/403/21/13
+profileset."C_445_ruffled_poet_blouse_TH_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=166/403/21/13
 profileset."C_415_ruffled_poet_blouse_TH_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=166/403/38/13
-profileset."C_385_ruffled_poet_blouse_TH_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=166/505/21/13
-profileset."C_400_ruffled_poet_blouse_TH_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=166/505/21/13
+profileset."C_430_ruffled_poet_blouse_TH_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=166/403/38/13
+profileset."C_445_ruffled_poet_blouse_TH_SA_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=166/403/38/13
 profileset."C_415_ruffled_poet_blouse_TH_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=166/505/21/13
-profileset."C_385_ruffled_poet_blouse_TH_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=385,azerite_powers=166/505/38/13
-profileset."C_400_ruffled_poet_blouse_TH_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=400,azerite_powers=166/505/38/13
+profileset."C_430_ruffled_poet_blouse_TH_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=166/505/21/13
+profileset."C_445_ruffled_poet_blouse_TH_TW_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=166/505/21/13
 profileset."C_415_ruffled_poet_blouse_TH_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=415,azerite_powers=166/505/38/13
+profileset."C_430_ruffled_poet_blouse_TH_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=430,azerite_powers=166/505/38/13
+profileset."C_445_ruffled_poet_blouse_TH_TW_OMW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=166/505/38/13
 
-# Petticoat of the Self-Stylized Azerite Baron - 385, 400, 415
+# Petticoat of the Self-Stylized Azerite Baron - 415, 430, 445
 # Death Throes + Whispers of the Damned / Spiteful Apparitions + Unstable Catalyst / Unstable Flames
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_DT_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=404/403/459/13
-profileset."C_400_petticoat_of_the_self_stylized_azerite_baron_DT_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=400,azerite_powers=404/403/459/13
 profileset."C_415_petticoat_of_the_self_stylized_azerite_baron_DT_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=415,azerite_powers=404/403/459/13
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_DT_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=404/504/459/13
-profileset."C_400_petticoat_of_the_self_stylized_azerite_baron_DT_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=400,azerite_powers=404/504/459/13
+profileset."C_430_petticoat_of_the_self_stylized_azerite_baron_DT_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=430,azerite_powers=404/403/459/13
+profileset."C_445_petticoat_of_the_self_stylized_azerite_baron_DT_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=445,azerite_powers=404/403/459/13
 profileset."C_415_petticoat_of_the_self_stylized_azerite_baron_DT_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=415,azerite_powers=404/504/459/13
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_WotD_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=236/403/459/13
-profileset."C_400_petticoat_of_the_self_stylized_azerite_baron_WotD_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=400,azerite_powers=236/403/459/13
+profileset."C_430_petticoat_of_the_self_stylized_azerite_baron_DT_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=430,azerite_powers=404/504/459/13
+profileset."C_445_petticoat_of_the_self_stylized_azerite_baron_DT_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=445,azerite_powers=404/504/459/13
 profileset."C_415_petticoat_of_the_self_stylized_azerite_baron_WotD_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=415,azerite_powers=236/403/459/13
-profileset."C_385_petticoat_of_the_self_stylized_azerite_baron_WotD_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=385,azerite_powers=236/504/459/13
-profileset."C_400_petticoat_of_the_self_stylized_azerite_baron_WotD_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=400,azerite_powers=236/504/459/13
+profileset."C_430_petticoat_of_the_self_stylized_azerite_baron_WotD_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=430,azerite_powers=236/403/459/13
+profileset."C_445_petticoat_of_the_self_stylized_azerite_baron_WotD_SA_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=445,azerite_powers=236/403/459/13
 profileset."C_415_petticoat_of_the_self_stylized_azerite_baron_WotD_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=415,azerite_powers=236/504/459/13
+profileset."C_430_petticoat_of_the_self_stylized_azerite_baron_WotD_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=430,azerite_powers=236/504/459/13
+profileset."C_445_petticoat_of_the_self_stylized_azerite_baron_WotD_UC_UF"+=chest=petticoat_of_the_self_stylized_azerite_baron,id=158349,ilevel=445,azerite_powers=236/504/459/13
 
-# Loa Betrayer's Vestments - 385, 400, 415
+# Loa Betrayer's Vestments - 415, 430, 445
 # Spiteful Apparitions + Whispers of the Damned / Chorus of Insanity + Rezan's Fury / Heed My Call + On My Way
-profileset."C_385_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=403/405/22/13
-profileset."C_400_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=403/405/22/13
 profileset."C_415_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=403/405/22/13
-profileset."C_385_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=403/405/38/13
-profileset."C_400_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=403/405/38/13
+profileset."C_430_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=403/405/22/13
+profileset."C_445_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=403/405/22/13
 profileset."C_415_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=403/405/38/13
-profileset."C_385_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=403/157/22/13
-profileset."C_400_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=403/157/22/13
+profileset."C_430_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=403/405/38/13
+profileset."C_445_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=403/405/38/13
 profileset."C_415_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=403/157/22/13
-profileset."C_385_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=403/157/38/13
-profileset."C_400_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=403/157/38/13
+profileset."C_430_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=403/157/22/13
+profileset."C_445_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=403/157/22/13
 profileset."C_415_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=403/157/38/13
-profileset."C_385_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=236/405/22/13
-profileset."C_400_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=236/405/22/13
+profileset."C_430_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=403/157/38/13
+profileset."C_445_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=403/157/38/13
 profileset."C_415_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=236/405/22/13
-profileset."C_385_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=236/405/38/13
-profileset."C_400_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=236/405/38/13
+profileset."C_430_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=236/405/22/13
+profileset."C_445_loa_betrayers_vestments_SA_CoI_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=236/405/22/13
 profileset."C_415_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=236/405/38/13
-profileset."C_385_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=236/157/22/13
-profileset."C_400_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=236/157/22/13
+profileset."C_430_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=236/405/38/13
+profileset."C_445_loa_betrayers_vestments_SA_CoI_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=236/405/38/13
 profileset."C_415_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=236/157/22/13
-profileset."C_385_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=385,azerite_powers=236/157/38/13
-profileset."C_400_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=400,azerite_powers=236/157/38/13
+profileset."C_430_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=236/157/22/13
+profileset."C_445_loa_betrayers_vestments_SA_RF_HMC"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=236/157/22/13
 profileset."C_415_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=415,azerite_powers=236/157/38/13
+profileset."C_430_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=430,azerite_powers=236/157/38/13
+profileset."C_445_loa_betrayers_vestments_SA_RF_OMW"+=chest=loa_betrayers_vestments,id=159233,ilevel=445,azerite_powers=236/157/38/13
 
-# Blood-Drenched Robes - 385, 400, 415
+# Blood-Drenched Robes - 415, 430, 445
 # Chorus of Insanity + Searing Dialogue / Death Throes + Filthy Transfusion / Gutripper
-profileset."C_385_blood_drenched_robes_CoI_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=385,azerite_powers=405/404/31/13
-profileset."C_400_blood_drenched_robes_CoI_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=400,azerite_powers=405/404/31/13
 profileset."C_415_blood_drenched_robes_CoI_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=415,azerite_powers=405/404/31/13
-profileset."C_385_blood_drenched_robes_CoI_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=385,azerite_powers=405/194/31/13
-profileset."C_400_blood_drenched_robes_CoI_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=400,azerite_powers=405/194/31/13
+profileset."C_430_blood_drenched_robes_CoI_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=430,azerite_powers=405/404/31/13
+profileset."C_445_blood_drenched_robes_CoI_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=445,azerite_powers=405/404/31/13
 profileset."C_415_blood_drenched_robes_CoI_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=415,azerite_powers=405/194/31/13
-profileset."C_385_blood_drenched_robes_SD_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=385,azerite_powers=115/404/31/13
-profileset."C_400_blood_drenched_robes_SD_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=400,azerite_powers=115/404/31/13
+profileset."C_430_blood_drenched_robes_CoI_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=430,azerite_powers=405/194/31/13
+profileset."C_445_blood_drenched_robes_CoI_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=445,azerite_powers=405/194/31/13
 profileset."C_415_blood_drenched_robes_SD_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=415,azerite_powers=115/404/31/13
-profileset."C_385_blood_drenched_robes_SD_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=385,azerite_powers=115/194/31/13
-profileset."C_400_blood_drenched_robes_SD_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=400,azerite_powers=115/194/31/13
+profileset."C_430_blood_drenched_robes_SD_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=430,azerite_powers=115/404/31/13
+profileset."C_445_blood_drenched_robes_SD_DT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=445,azerite_powers=115/404/31/13
 profileset."C_415_blood_drenched_robes_SD_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=415,azerite_powers=115/194/31/13
+profileset."C_430_blood_drenched_robes_SD_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=430,azerite_powers=115/194/31/13
+profileset."C_445_blood_drenched_robes_SD_FT_GR"+=chest=blood_drenched_robes,id=159241,ilevel=445,azerite_powers=115/194/31/13
 
-# Robes of the Reborn Serpent - 385, 400, 415
+# Robes of the Reborn Serpent - 415, 430, 445
 # Death Throes + Searing Dialogue / Whispers of the Damned + Thunderous Blast / Blood Siphon
-profileset."C_385_robes_of_the_reborn_serpent_DT_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=385,azerite_powers=404/236/18/13
-profileset."C_400_robes_of_the_reborn_serpent_DT_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=400,azerite_powers=404/236/18/13
 profileset."C_415_robes_of_the_reborn_serpent_DT_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=415,azerite_powers=404/236/18/13
-profileset."C_385_robes_of_the_reborn_serpent_DT_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=385,azerite_powers=404/482/18/13
-profileset."C_400_robes_of_the_reborn_serpent_DT_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=400,azerite_powers=404/482/18/13
+profileset."C_430_robes_of_the_reborn_serpent_DT_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=430,azerite_powers=404/236/18/13
+profileset."C_445_robes_of_the_reborn_serpent_DT_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=445,azerite_powers=404/236/18/13
 profileset."C_415_robes_of_the_reborn_serpent_DT_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=415,azerite_powers=404/482/18/13
-profileset."C_385_robes_of_the_reborn_serpent_SD_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=385,azerite_powers=115/236/18/13
-profileset."C_400_robes_of_the_reborn_serpent_SD_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=400,azerite_powers=115/236/18/13
+profileset."C_430_robes_of_the_reborn_serpent_DT_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=430,azerite_powers=404/482/18/13
+profileset."C_445_robes_of_the_reborn_serpent_DT_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=445,azerite_powers=404/482/18/13
 profileset."C_415_robes_of_the_reborn_serpent_SD_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=415,azerite_powers=115/236/18/13
-profileset."C_385_robes_of_the_reborn_serpent_SD_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=385,azerite_powers=115/482/18/13
-profileset."C_400_robes_of_the_reborn_serpent_SD_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=400,azerite_powers=115/482/18/13
+profileset."C_430_robes_of_the_reborn_serpent_SD_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=430,azerite_powers=115/236/18/13
+profileset."C_445_robes_of_the_reborn_serpent_SD_WotD_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=445,azerite_powers=115/236/18/13
 profileset."C_415_robes_of_the_reborn_serpent_SD_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=415,azerite_powers=115/482/18/13
+profileset."C_430_robes_of_the_reborn_serpent_SD_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=430,azerite_powers=115/482/18/13
+profileset."C_445_robes_of_the_reborn_serpent_SD_TB_BS"+=chest=robes_of_the_reborn_serpent,id=159257,ilevel=445,azerite_powers=115/482/18/13
 
-# Inmate's Straight Robe - 385, 400, 415
+# Inmate's Straight Robe - 415, 430, 445
 # Spiteful Apparitions + Thought Harvester / Whispers of the Damned + Dagger in the Back / Heed My Call + On My Way
-profileset."C_385_inmates_straight_robe_SA_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/236/22/13
-profileset."C_400_inmates_straight_robe_SA_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/236/22/13
 profileset."C_415_inmates_straight_robe_SA_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/236/22/13
-profileset."C_385_inmates_straight_robe_SA_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/236/38/13
-profileset."C_400_inmates_straight_robe_SA_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/236/38/13
+profileset."C_430_inmates_straight_robe_SA_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/236/22/13
+profileset."C_445_inmates_straight_robe_SA_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/236/22/13
 profileset."C_415_inmates_straight_robe_SA_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/236/38/13
-profileset."C_385_inmates_straight_robe_SA_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/479/22/13
-profileset."C_400_inmates_straight_robe_SA_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/479/22/13
+profileset."C_430_inmates_straight_robe_SA_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/236/38/13
+profileset."C_445_inmates_straight_robe_SA_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/236/38/13
 profileset."C_415_inmates_straight_robe_SA_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/479/22/13
-profileset."C_385_inmates_straight_robe_SA_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/479/38/13
-profileset."C_400_inmates_straight_robe_SA_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/479/38/13
+profileset."C_430_inmates_straight_robe_SA_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/479/22/13
+profileset."C_445_inmates_straight_robe_SA_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/479/22/13
 profileset."C_415_inmates_straight_robe_SA_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/479/38/13
-profileset."C_385_inmates_straight_robe_SA_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/479/22/13
-profileset."C_385_inmates_straight_robe_SA_DitB_HMC_Front"+=position=ranged_front
-profileset."C_400_inmates_straight_robe_SA_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/479/22/13
-profileset."C_400_inmates_straight_robe_SA_DitB_HMC_Front"+=position=ranged_front
+profileset."C_430_inmates_straight_robe_SA_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/479/38/13
+profileset."C_445_inmates_straight_robe_SA_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/479/38/13
 profileset."C_415_inmates_straight_robe_SA_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/479/22/13
 profileset."C_415_inmates_straight_robe_SA_DitB_HMC_Front"+=position=ranged_front
-profileset."C_385_inmates_straight_robe_SA_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=403/479/38/13
-profileset."C_385_inmates_straight_robe_SA_DitB_OMW_Front"+=position=ranged_front
-profileset."C_400_inmates_straight_robe_SA_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=403/479/38/13
-profileset."C_400_inmates_straight_robe_SA_DitB_OMW_Front"+=position=ranged_front
+profileset."C_430_inmates_straight_robe_SA_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/479/22/13
+profileset."C_430_inmates_straight_robe_SA_DitB_HMC_Front"+=position=ranged_front
+profileset."C_445_inmates_straight_robe_SA_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/479/22/13
+profileset."C_445_inmates_straight_robe_SA_DitB_HMC_Front"+=position=ranged_front
 profileset."C_415_inmates_straight_robe_SA_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=403/479/38/13
 profileset."C_415_inmates_straight_robe_SA_DitB_OMW_Front"+=position=ranged_front
-profileset."C_385_inmates_straight_robe_TH_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/236/22/13
-profileset."C_400_inmates_straight_robe_TH_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/236/22/13
+profileset."C_430_inmates_straight_robe_SA_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=403/479/38/13
+profileset."C_430_inmates_straight_robe_SA_DitB_OMW_Front"+=position=ranged_front
+profileset."C_445_inmates_straight_robe_SA_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=403/479/38/13
+profileset."C_445_inmates_straight_robe_SA_DitB_OMW_Front"+=position=ranged_front
 profileset."C_415_inmates_straight_robe_TH_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/236/22/13
-profileset."C_385_inmates_straight_robe_TH_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/236/38/13
-profileset."C_400_inmates_straight_robe_TH_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/236/38/13
+profileset."C_430_inmates_straight_robe_TH_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/236/22/13
+profileset."C_445_inmates_straight_robe_TH_WotD_HMC"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/236/22/13
 profileset."C_415_inmates_straight_robe_TH_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/236/38/13
-profileset."C_385_inmates_straight_robe_TH_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/479/22/13
-profileset."C_400_inmates_straight_robe_TH_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/479/22/13
+profileset."C_430_inmates_straight_robe_TH_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/236/38/13
+profileset."C_445_inmates_straight_robe_TH_WotD_OMW"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/236/38/13
 profileset."C_415_inmates_straight_robe_TH_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/479/22/13
-profileset."C_385_inmates_straight_robe_TH_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/479/38/13
-profileset."C_400_inmates_straight_robe_TH_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/479/38/13
+profileset."C_430_inmates_straight_robe_TH_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/479/22/13
+profileset."C_445_inmates_straight_robe_TH_DitB_HMC_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/479/22/13
 profileset."C_415_inmates_straight_robe_TH_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/479/38/13
-profileset."C_385_inmates_straight_robe_TH_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/479/22/13
-profileset."C_385_inmates_straight_robe_TH_DitB_HMC_Front"+=position=ranged_front
-profileset."C_400_inmates_straight_robe_TH_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/479/22/13
-profileset."C_400_inmates_straight_robe_TH_DitB_HMC_Front"+=position=ranged_front
+profileset."C_430_inmates_straight_robe_TH_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/479/38/13
+profileset."C_445_inmates_straight_robe_TH_DitB_OMW_Behind"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/479/38/13
 profileset."C_415_inmates_straight_robe_TH_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/479/22/13
 profileset."C_415_inmates_straight_robe_TH_DitB_HMC_Front"+=position=ranged_front
-profileset."C_385_inmates_straight_robe_TH_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=385,azerite_powers=166/479/38/13
-profileset."C_385_inmates_straight_robe_TH_DitB_OMW_Front"+=position=ranged_front
-profileset."C_400_inmates_straight_robe_TH_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=400,azerite_powers=166/479/38/13
-profileset."C_400_inmates_straight_robe_TH_DitB_OMW_Front"+=position=ranged_front
+profileset."C_430_inmates_straight_robe_TH_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/479/22/13
+profileset."C_430_inmates_straight_robe_TH_DitB_HMC_Front"+=position=ranged_front
+profileset."C_445_inmates_straight_robe_TH_DitB_HMC_Front"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/479/22/13
+profileset."C_445_inmates_straight_robe_TH_DitB_HMC_Front"+=position=ranged_front
 profileset."C_415_inmates_straight_robe_TH_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=415,azerite_powers=166/479/38/13
 profileset."C_415_inmates_straight_robe_TH_DitB_OMW_Front"+=position=ranged_front
+profileset."C_430_inmates_straight_robe_TH_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=430,azerite_powers=166/479/38/13
+profileset."C_430_inmates_straight_robe_TH_DitB_OMW_Front"+=position=ranged_front
+profileset."C_445_inmates_straight_robe_TH_DitB_OMW_Front"+=chest=inmates_straight_robe,id=159268,ilevel=445,azerite_powers=166/479/38/13
+profileset."C_445_inmates_straight_robe_TH_DitB_OMW_Front"+=position=ranged_front
 
-# Divine Fury Rainment - 385, 400, 415
+# Divine Fury Rainment - 415, 430, 445
 # Chorus of Insanity + Searing Dialogue / Whispers of the Damned + Treacherous Covenant / Earthlink + On My Way
-profileset."C_385_divine_fury_raiment_CoI_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=405/236/461/13
-profileset."C_400_divine_fury_raiment_CoI_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=405/236/461/13
 profileset."C_415_divine_fury_raiment_CoI_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405/236/461/13
-profileset."C_385_divine_fury_raiment_SD_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=115/236/461/13
-profileset."C_400_divine_fury_raiment_SD_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=115/236/461/13
 profileset."C_415_divine_fury_raiment_SD_WotD_EL"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=115/236/461/13
-profileset."C_385_divine_fury_raiment_CoI_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=405/562/461/13
-profileset."C_400_divine_fury_raiment_CoI_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=405/562/461/13
 profileset."C_415_divine_fury_raiment_CoI_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405/562/461/13
-profileset."C_385_divine_fury_raiment_SD_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=115/562/461/13
-profileset."C_400_divine_fury_raiment_SD_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=115/562/461/13
 profileset."C_415_divine_fury_raiment_SD_TC_EL"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=115/562/461/13
-profileset."C_385_divine_fury_raiment_CoI_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=405/236/38/13
-profileset."C_400_divine_fury_raiment_CoI_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=405/236/38/13
 profileset."C_415_divine_fury_raiment_CoI_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405/236/38/13
-profileset."C_385_divine_fury_raiment_SD_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=115/236/38/13
-profileset."C_400_divine_fury_raiment_SD_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=115/236/38/13
 profileset."C_415_divine_fury_raiment_SD_WotD_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=115/236/38/13
-profileset."C_385_divine_fury_raiment_CoI_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=405/562/38/13
-profileset."C_400_divine_fury_raiment_CoI_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=405/562/38/13
 profileset."C_415_divine_fury_raiment_CoI_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=405/562/38/13
-profileset."C_385_divine_fury_raiment_SD_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=385,azerite_powers=115/562/38/13
-profileset."C_400_divine_fury_raiment_SD_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=400,azerite_powers=115/562/38/13
 profileset."C_415_divine_fury_raiment_SD_TC_OMW"+=chest=divine_fury_raiment,id=165834,ilevel=415,azerite_powers=115/562/38/13
 
-# Vestments of the Afterlife - 385, 400, 415
+# Vestments of the Afterlife - 415, 430, 445
 # Death Throes + Spiteful Apparitions / Thought Harvester + Bonded Souls / Elemental Whirl
-profileset."C_385_vestments_of_the_afterlife_SA_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=385,azerite_powers=403/560/21/13
-profileset."C_400_vestments_of_the_afterlife_SA_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=400,azerite_powers=403/560/21/13
 profileset."C_415_vestments_of_the_afterlife_SA_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=415,azerite_powers=403/560/21/13
-profileset."C_385_vestments_of_the_afterlife_DT_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=385,azerite_powers=404/560/21/13
-profileset."C_400_vestments_of_the_afterlife_DT_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=400,azerite_powers=404/560/21/13
 profileset."C_415_vestments_of_the_afterlife_DT_BS_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=415,azerite_powers=404/560/21/13
-profileset."C_385_vestments_of_the_afterlife_SA_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=385,azerite_powers=403/166/21/13
-profileset."C_400_vestments_of_the_afterlife_SA_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=400,azerite_powers=403/166/21/13
 profileset."C_415_vestments_of_the_afterlife_SA_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=415,azerite_powers=403/166/21/13
-profileset."C_385_vestments_of_the_afterlife_DT_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=385,azerite_powers=404/166/21/13
-profileset."C_400_vestments_of_the_afterlife_DT_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=400,azerite_powers=404/166/21/13
 profileset."C_415_vestments_of_the_afterlife_DT_TH_EW"+=chest=vestments_of_the_afterlife,id=165498,ilevel=415,azerite_powers=404/166/21/13
 
-# Robes of Biting Cold - 385, 400, 415
+# Robes of Biting Cold - 415, 430, 445
 # Chorus of Insanity + Death Throes / Spiteful Apparitions + Seductive Power / Unstable Flame
-profileset."C_385_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=405/403/459/13
-profileset."C_400_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/403/459/13
 profileset."C_415_robes_of_biting_cold_CoI_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/403/459/13
-profileset."C_385_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=404/403/459/13
-profileset."C_400_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/403/459/13
 profileset."C_415_robes_of_biting_cold_DT_SA_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/403/459/13
-profileset."C_385_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=405/561/459/13
-profileset."C_400_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=405/561/459/13
 profileset."C_415_robes_of_biting_cold_CoI_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=405/561/459/13
-profileset."C_385_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=385,azerite_powers=404/561/459/13
-profileset."C_400_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=400,azerite_powers=404/561/459/13
 profileset."C_415_robes_of_biting_cold_DT_SP_UF"+=chest=robes_of_biting_cold,id=165505,ilevel=415,azerite_powers=404/561/459/13
+
+# Vestments of Creeping Terror - 415, 430, 445
+# Chorus of Insanity + Searing Dialogue / Loyal to the End + Whispers of the Damned / Overwhelming Power
+profileset."C_415_vestments_of_creeping_terror_CoI_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=415,azerite_powers=405/576/30/13
+profileset."C_430_vestments_of_creeping_terror_CoI_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=430,azerite_powers=405/576/30/13
+profileset."C_445_vestments_of_creeping_terror_CoI_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=405/576/30/13
+profileset."C_415_vestments_of_creeping_terror_SD_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=415,azerite_powers=115/576/30/13
+profileset."C_430_vestments_of_creeping_terror_SD_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=430,azerite_powers=115/576/30/13
+profileset."C_445_vestments_of_creeping_terror_SD_LttE_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=115/576/30/13
+profileset."C_415_vestments_of_creeping_terror_CoI_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=415,azerite_powers=405/236/30/13
+profileset."C_430_vestments_of_creeping_terror_CoI_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=430,azerite_powers=405/236/30/13
+profileset."C_445_vestments_of_creeping_terror_CoI_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=405/236/30/13
+profileset."C_415_vestments_of_creeping_terror_SD_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=415,azerite_powers=115/236/30/13
+profileset."C_430_vestments_of_creeping_terror_SD_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=430,azerite_powers=115/236/30/13
+profileset."C_445_vestments_of_creeping_terror_SD_WotD_OP"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=115/236/30/13
+
+# Robes of Sunken Nobility - 415, 430, 445
+# Whispers of the Damned + Spiteful Apparitions / Arcane Heart + Death Throes / Elemental Whirl
+profileset."C_415_robes_of_sunken_nobility_WotD_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=415,azerite_powers=236/577/21/13
+profileset."C_430_robes_of_sunken_nobility_WotD_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=430,azerite_powers=236/577/21/13
+profileset."C_445_robes_of_sunken_nobility_WotD_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=445,azerite_powers=236/577/21/13
+profileset."C_415_robes_of_sunken_nobility_SA_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=415,azerite_powers=403/577/21/13
+profileset."C_430_robes_of_sunken_nobility_SA_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=430,azerite_powers=403/577/21/13
+profileset."C_445_robes_of_sunken_nobility_SA_AH_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=445,azerite_powers=403/577/21/13
+profileset."C_415_robes_of_sunken_nobility_WotD_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=415,azerite_powers=236/404/21/13
+profileset."C_430_robes_of_sunken_nobility_WotD_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=430,azerite_powers=236/404/21/13
+profileset."C_445_robes_of_sunken_nobility_WotD_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=445,azerite_powers=236/404/21/13
+profileset."C_415_robes_of_sunken_nobility_SA_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=415,azerite_powers=403/404/21/13
+profileset."C_430_robes_of_sunken_nobility_SA_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=430,azerite_powers=403/404/21/13
+profileset."C_445_robes_of_sunken_nobility_SA_DT_EW"+=chest=robes_of_sunken_nobility,id=168335,ilevel=445,azerite_powers=403/404/21/13
+
+# Siren Mystic's Vestments - 415, 430, 445
+# Death Throes + Thought Harvester / Undulating Tides + Searing Dialogue / On My Way + Blood Siphon
+profileset."C_415_siren_mystics_vestments_DT_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/575/38/13
+profileset."C_430_siren_mystics_vestments_DT_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/575/38/13
+profileset."C_445_siren_mystics_vestments_DT_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/575/38/13
+profileset."C_415_siren_mystics_vestments_TH_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/575/38/13
+profileset."C_430_siren_mystics_vestments_TH_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/575/38/13
+profileset."C_445_siren_mystics_vestments_TH_UT_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/575/38/13
+profileset."C_415_siren_mystics_vestments_DT_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/115/38/13
+profileset."C_430_siren_mystics_vestments_DT_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/115/38/13
+profileset."C_445_siren_mystics_vestments_DT_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/115/38/13
+profileset."C_415_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/115/38/13
+profileset."C_430_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/115/38/13
+profileset."C_445_siren_mystics_vestments_TH_SD_OMW"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/115/38/13
+profileset."C_415_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/575/18/13
+profileset."C_430_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/575/18/13
+profileset."C_445_siren_mystics_vestments_DT_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/575/18/13
+profileset."C_415_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/575/18/13
+profileset."C_430_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/575/18/13
+profileset."C_445_siren_mystics_vestments_TH_UT_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/575/18/13
+profileset."C_415_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=404/115/18/13
+profileset."C_430_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=404/115/18/13
+profileset."C_445_siren_mystics_vestments_DT_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=404/115/18/13
+profileset."C_415_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=415,azerite_powers=166/115/18/13
+profileset."C_430_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=430,azerite_powers=166/115/18/13
+profileset."C_445_siren_mystics_vestments_TH_SD_BS"+=chest=siren_mystics_vestments,id=168341,ilevel=445,azerite_powers=166/115/18/13
+
+# Volatile Arming Doublet - 415
+# Chorus of Insanity + Thought Harvester / Spiteful Apparitions + Clockwork Heart / Elemental Whirl + On My Way
+profileset."C_415_volatile_arming_doublet_CoI_SA_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/403/21/13
+profileset."C_415_volatile_arming_doublet_TH_SA_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/403/21/13
+profileset."C_415_volatile_arming_doublet_CoI_CH_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/569/21/13
+profileset."C_415_volatile_arming_doublet_TH_CH_EW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/569/21/13
+profileset."C_415_volatile_arming_doublet_CoI_SA_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/403/38/13
+profileset."C_415_volatile_arming_doublet_TH_SA_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/403/38/13
+profileset."C_415_volatile_arming_doublet_CoI_CH_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=405/569/38/13
+profileset."C_415_volatile_arming_doublet_TH_CH_OMW"+=chest=volatile_arming_doublet,id=169072,ilevel=415,azerite_powers=166/569/38/13

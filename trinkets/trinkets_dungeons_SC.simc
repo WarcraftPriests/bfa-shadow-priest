@@ -1,3 +1,5 @@
+ptr=1
+
 priest="Base"
 level=120
 role=spell
@@ -8,30 +10,22 @@ spec=shadow
 default_actions=1
 initial_resource=insanity=25
 
-head=crown_of_the_seducer,id=165818,bonus_id=4824/1537,azerite_powers=403/405/18/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48
-shoulder=bristling_fur_lined_amice,id=165922,bonus_id=4824/1537,azerite_powers=405/403/462/13
-back=loa_exultants_shroud,id=165512,bonus_id=4800/1537
-chest=divine_fury_raiment,id=165834,bonus_id=4824/1537,azerite_powers=405/562/38/13
-wrists=lever_stabilizing_wristwraps,id=165508,bonus_id=4800/1537
-hands=manceroys_flamefists,id=165503,bonus_id=4800/1537
-waist=waistcord_of_flowing_silk,id=165504,bonus_id=4800/1537
-legs=wavecaller_leggings,id=165506,bonus_id=4800/1537
-feet=lightfeather_footpads,id=165502,bonus_id=4800/1537
-finger1=seal_of_the_zandalari_empire,id=165567,bonus_id=4800/1537,enchant=pact_of_haste
-finger2=lord_admirals_signet,id=165566,bonus_id=4800/1537,enchant=pact_of_haste
-main_hand=phoenixfire_staff,id=165587,bonus_id=4800/1537,enchant=quick_navigation
+head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
+shoulder=amice_of_the_reef_witch,id=168338,ilevel=450,azerite_powers=405/577/18/13
+back=drape_of_the_hatcher,id=168604,ilevel=445
+chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
+wrists=bindings_of_the_herald,id=168884,ilevel=445
+hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
+waist=cephalopods_sash,id=168872,ilevel=445
+legs=seawrath_legwraps,id=168371,ilevel=445
+feet=eelskin_flippers,id=168373,ilevel=445
+finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
+main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
+off_hand=stormtamers_orb,id=168896,ilevel=445
 
 # Dungeon trinkets
-profileset."Vessel_of_Skittering_Shadows_340"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=340
-profileset."Vessel_of_Skittering_Shadows_345"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=345
-profileset."Vessel_of_Skittering_Shadows_350"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=350
-profileset."Vessel_of_Skittering_Shadows_355"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=355
-profileset."Vessel_of_Skittering_Shadows_360"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=360
-profileset."Vessel_of_Skittering_Shadows_365"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=365
-profileset."Vessel_of_Skittering_Shadows_370"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=370
-profileset."Vessel_of_Skittering_Shadows_375"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=375
-profileset."Vessel_of_Skittering_Shadows_380"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=380
 profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=385
 profileset."Vessel_of_Skittering_Shadows_390"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=390
 profileset."Vessel_of_Skittering_Shadows_395"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=395
@@ -41,16 +35,13 @@ profileset."Vessel_of_Skittering_Shadows_410"+=trinket1=vessel_of_skittering_sha
 profileset."Vessel_of_Skittering_Shadows_415"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=415
 profileset."Vessel_of_Skittering_Shadows_420"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=420
 profileset."Vessel_of_Skittering_Shadows_425"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=425
+profileset."Vessel_of_Skittering_Shadows_430"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=430
+profileset."Vessel_of_Skittering_Shadows_435"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=435
+profileset."Vessel_of_Skittering_Shadows_440"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=440
+profileset."Vessel_of_Skittering_Shadows_445"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=445
+profileset."Vessel_of_Skittering_Shadows_450"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=450
+profileset."Vessel_of_Skittering_Shadows_455"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=455
 
-profileset."Ignition_Mages_Fuse_340"+=trinket1=ignition_mages_fuse,id=159615,ilevel=340
-profileset."Ignition_Mages_Fuse_345"+=trinket1=ignition_mages_fuse,id=159615,ilevel=345
-profileset."Ignition_Mages_Fuse_350"+=trinket1=ignition_mages_fuse,id=159615,ilevel=350
-profileset."Ignition_Mages_Fuse_355"+=trinket1=ignition_mages_fuse,id=159615,ilevel=355
-profileset."Ignition_Mages_Fuse_360"+=trinket1=ignition_mages_fuse,id=159615,ilevel=360
-profileset."Ignition_Mages_Fuse_365"+=trinket1=ignition_mages_fuse,id=159615,ilevel=365
-profileset."Ignition_Mages_Fuse_370"+=trinket1=ignition_mages_fuse,id=159615,ilevel=370
-profileset."Ignition_Mages_Fuse_375"+=trinket1=ignition_mages_fuse,id=159615,ilevel=375
-profileset."Ignition_Mages_Fuse_380"+=trinket1=ignition_mages_fuse,id=159615,ilevel=380
 profileset."Ignition_Mages_Fuse_385"+=trinket1=ignition_mages_fuse,id=159615,ilevel=385
 profileset."Ignition_Mages_Fuse_390"+=trinket1=ignition_mages_fuse,id=159615,ilevel=390
 profileset."Ignition_Mages_Fuse_395"+=trinket1=ignition_mages_fuse,id=159615,ilevel=395
@@ -60,16 +51,13 @@ profileset."Ignition_Mages_Fuse_410"+=trinket1=ignition_mages_fuse,id=159615,ile
 profileset."Ignition_Mages_Fuse_415"+=trinket1=ignition_mages_fuse,id=159615,ilevel=415
 profileset."Ignition_Mages_Fuse_420"+=trinket1=ignition_mages_fuse,id=159615,ilevel=420
 profileset."Ignition_Mages_Fuse_425"+=trinket1=ignition_mages_fuse,id=159615,ilevel=425
+profileset."Ignition_Mages_Fuse_430"+=trinket1=ignition_mages_fuse,id=159615,ilevel=430
+profileset."Ignition_Mages_Fuse_435"+=trinket1=ignition_mages_fuse,id=159615,ilevel=435
+profileset."Ignition_Mages_Fuse_440"+=trinket1=ignition_mages_fuse,id=159615,ilevel=440
+profileset."Ignition_Mages_Fuse_445"+=trinket1=ignition_mages_fuse,id=159615,ilevel=445
+profileset."Ignition_Mages_Fuse_450"+=trinket1=ignition_mages_fuse,id=159615,ilevel=450
+profileset."Ignition_Mages_Fuse_455"+=trinket1=ignition_mages_fuse,id=159615,ilevel=455
 
-profileset."Conch_of_Dark_Whispers_340"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=340
-profileset."Conch_of_Dark_Whispers_345"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=345
-profileset."Conch_of_Dark_Whispers_350"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=350
-profileset."Conch_of_Dark_Whispers_355"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=355
-profileset."Conch_of_Dark_Whispers_360"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=360
-profileset."Conch_of_Dark_Whispers_365"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=365
-profileset."Conch_of_Dark_Whispers_370"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=370
-profileset."Conch_of_Dark_Whispers_375"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=375
-profileset."Conch_of_Dark_Whispers_380"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=380
 profileset."Conch_of_Dark_Whispers_385"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=385
 profileset."Conch_of_Dark_Whispers_390"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=390
 profileset."Conch_of_Dark_Whispers_395"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=395
@@ -79,16 +67,13 @@ profileset."Conch_of_Dark_Whispers_410"+=trinket1=conch_of_dark_whispers,id=1596
 profileset."Conch_of_Dark_Whispers_415"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=415
 profileset."Conch_of_Dark_Whispers_420"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=420
 profileset."Conch_of_Dark_Whispers_425"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=425
+profileset."Conch_of_Dark_Whispers_430"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=430
+profileset."Conch_of_Dark_Whispers_435"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=435
+profileset."Conch_of_Dark_Whispers_440"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=440
+profileset."Conch_of_Dark_Whispers_445"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=445
+profileset."Conch_of_Dark_Whispers_450"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=450
+profileset."Conch_of_Dark_Whispers_455"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=455
 
-profileset."Hadals_Nautilus_340"+=trinket1=hadals_nautilus,id=159622,ilevel=340
-profileset."Hadals_Nautilus_345"+=trinket1=hadals_nautilus,id=159622,ilevel=345
-profileset."Hadals_Nautilus_350"+=trinket1=hadals_nautilus,id=159622,ilevel=350
-profileset."Hadals_Nautilus_355"+=trinket1=hadals_nautilus,id=159622,ilevel=355
-profileset."Hadals_Nautilus_360"+=trinket1=hadals_nautilus,id=159622,ilevel=360
-profileset."Hadals_Nautilus_365"+=trinket1=hadals_nautilus,id=159622,ilevel=365
-profileset."Hadals_Nautilus_370"+=trinket1=hadals_nautilus,id=159622,ilevel=370
-profileset."Hadals_Nautilus_375"+=trinket1=hadals_nautilus,id=159622,ilevel=375
-profileset."Hadals_Nautilus_380"+=trinket1=hadals_nautilus,id=159622,ilevel=380
 profileset."Hadals_Nautilus_385"+=trinket1=hadals_nautilus,id=159622,ilevel=385
 profileset."Hadals_Nautilus_390"+=trinket1=hadals_nautilus,id=159622,ilevel=390
 profileset."Hadals_Nautilus_395"+=trinket1=hadals_nautilus,id=159622,ilevel=395
@@ -98,16 +83,13 @@ profileset."Hadals_Nautilus_410"+=trinket1=hadals_nautilus,id=159622,ilevel=410
 profileset."Hadals_Nautilus_415"+=trinket1=hadals_nautilus,id=159622,ilevel=415
 profileset."Hadals_Nautilus_420"+=trinket1=hadals_nautilus,id=159622,ilevel=420
 profileset."Hadals_Nautilus_425"+=trinket1=hadals_nautilus,id=159622,ilevel=425
+profileset."Hadals_Nautilus_430"+=trinket1=hadals_nautilus,id=159622,ilevel=430
+profileset."Hadals_Nautilus_435"+=trinket1=hadals_nautilus,id=159622,ilevel=435
+profileset."Hadals_Nautilus_440"+=trinket1=hadals_nautilus,id=159622,ilevel=440
+profileset."Hadals_Nautilus_445"+=trinket1=hadals_nautilus,id=159622,ilevel=445
+profileset."Hadals_Nautilus_450"+=trinket1=hadals_nautilus,id=159622,ilevel=450
+profileset."Hadals_Nautilus_455"+=trinket1=hadals_nautilus,id=159622,ilevel=455
 
-profileset."Rotcrusted_Voodoo_Doll_340"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=340
-profileset."Rotcrusted_Voodoo_Doll_345"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=345
-profileset."Rotcrusted_Voodoo_Doll_350"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=350
-profileset."Rotcrusted_Voodoo_Doll_355"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=355
-profileset."Rotcrusted_Voodoo_Doll_360"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=360
-profileset."Rotcrusted_Voodoo_Doll_365"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=365
-profileset."Rotcrusted_Voodoo_Doll_370"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=370
-profileset."Rotcrusted_Voodoo_Doll_375"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=375
-profileset."Rotcrusted_Voodoo_Doll_380"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=380
 profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=385
 profileset."Rotcrusted_Voodoo_Doll_390"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=390
 profileset."Rotcrusted_Voodoo_Doll_395"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=395
@@ -117,16 +99,13 @@ profileset."Rotcrusted_Voodoo_Doll_410"+=trinket1=rotcrusted_voodoo_doll,id=1596
 profileset."Rotcrusted_Voodoo_Doll_415"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=415
 profileset."Rotcrusted_Voodoo_Doll_420"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=420
 profileset."Rotcrusted_Voodoo_Doll_425"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=425
+profileset."Rotcrusted_Voodoo_Doll_430"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=430
+profileset."Rotcrusted_Voodoo_Doll_435"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=435
+profileset."Rotcrusted_Voodoo_Doll_440"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=440
+profileset."Rotcrusted_Voodoo_Doll_445"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=445
+profileset."Rotcrusted_Voodoo_Doll_450"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=450
+profileset."Rotcrusted_Voodoo_Doll_455"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=455
 
-profileset."Balefire_Branch_340"+=trinket1=balefire_branch,id=159630,ilevel=340
-profileset."Balefire_Branch_345"+=trinket1=balefire_branch,id=159630,ilevel=345
-profileset."Balefire_Branch_350"+=trinket1=balefire_branch,id=159630,ilevel=350
-profileset."Balefire_Branch_355"+=trinket1=balefire_branch,id=159630,ilevel=355
-profileset."Balefire_Branch_360"+=trinket1=balefire_branch,id=159630,ilevel=360
-profileset."Balefire_Branch_365"+=trinket1=balefire_branch,id=159630,ilevel=365
-profileset."Balefire_Branch_370"+=trinket1=balefire_branch,id=159630,ilevel=370
-profileset."Balefire_Branch_375"+=trinket1=balefire_branch,id=159630,ilevel=375
-profileset."Balefire_Branch_380"+=trinket1=balefire_branch,id=159630,ilevel=380
 profileset."Balefire_Branch_385"+=trinket1=balefire_branch,id=159630,ilevel=385
 profileset."Balefire_Branch_390"+=trinket1=balefire_branch,id=159630,ilevel=390
 profileset."Balefire_Branch_395"+=trinket1=balefire_branch,id=159630,ilevel=395
@@ -136,16 +115,13 @@ profileset."Balefire_Branch_410"+=trinket1=balefire_branch,id=159630,ilevel=410
 profileset."Balefire_Branch_415"+=trinket1=balefire_branch,id=159630,ilevel=415
 profileset."Balefire_Branch_420"+=trinket1=balefire_branch,id=159630,ilevel=420
 profileset."Balefire_Branch_425"+=trinket1=balefire_branch,id=159630,ilevel=425
+profileset."Balefire_Branch_430"+=trinket1=balefire_branch,id=159630,ilevel=430
+profileset."Balefire_Branch_435"+=trinket1=balefire_branch,id=159630,ilevel=435
+profileset."Balefire_Branch_440"+=trinket1=balefire_branch,id=159630,ilevel=440
+profileset."Balefire_Branch_445"+=trinket1=balefire_branch,id=159630,ilevel=445
+profileset."Balefire_Branch_450"+=trinket1=balefire_branch,id=159630,ilevel=450
+profileset."Balefire_Branch_455"+=trinket1=balefire_branch,id=159630,ilevel=455
 
-profileset."Lady_Waycrests_Music_Box_340"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=340
-profileset."Lady_Waycrests_Music_Box_345"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=345
-profileset."Lady_Waycrests_Music_Box_350"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=350
-profileset."Lady_Waycrests_Music_Box_355"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=355
-profileset."Lady_Waycrests_Music_Box_360"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=360
-profileset."Lady_Waycrests_Music_Box_365"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=365
-profileset."Lady_Waycrests_Music_Box_370"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=370
-profileset."Lady_Waycrests_Music_Box_375"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=375
-profileset."Lady_Waycrests_Music_Box_380"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=380
 profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=385
 profileset."Lady_Waycrests_Music_Box_390"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=390
 profileset."Lady_Waycrests_Music_Box_395"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=395
@@ -155,3 +131,36 @@ profileset."Lady_Waycrests_Music_Box_410"+=trinket1=lady_waycrests_music_box,id=
 profileset."Lady_Waycrests_Music_Box_415"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=415
 profileset."Lady_Waycrests_Music_Box_420"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=420
 profileset."Lady_Waycrests_Music_Box_425"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=425
+profileset."Lady_Waycrests_Music_Box_430"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=430
+profileset."Lady_Waycrests_Music_Box_435"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=435
+profileset."Lady_Waycrests_Music_Box_440"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=440
+profileset."Lady_Waycrests_Music_Box_445"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=445
+profileset."Lady_Waycrests_Music_Box_450"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=450
+profileset."Lady_Waycrests_Music_Box_455"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=455
+
+# Pocket-Sized Computation Device
+# https://ptr.wowhead.com/news=291786/pocket-sized-computation-device-customizable-punchcard-trinket-from-mechagon
+# Yellow
+## Omnipurpose Logic Board - 415 - +311 Vers, +93 random - 170507
+## Optimized Logic Board - 415 - +311 Mastery, +93 random - 170508
+## Performant Logic Board - 415 - +311 Haste, +93 random - 170509
+## Forceful Logic Board - 415 - +311 Crit, +93 random - 170510
+
+# Red
+## Harmonic Dematerializer - 415 - 167677
+## Subroutine: Overclock - 415 - 167556
+
+# TODO: add in variations of red when implemented
+# TODO: remove hardcoded stats when implemented
+profileset."PSCD_Omnipurpose-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93mastery
+profileset."PSCD_Omnipurpose-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93crit
+profileset."PSCD_Omnipurpose-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311vers_93haste
+profileset."PSCD_Optimized-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93vers
+profileset."PSCD_Optimized-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93haste
+profileset."PSCD_Optimized-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311mastery_93crit
+profileset."PSCD_Performant-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93vers
+profileset."PSCD_Performant-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93mastery
+profileset."PSCD_Performant-Crit_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311haste_93crit
+profileset."PSCD_Forceful-Vers_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93vers
+profileset."PSCD_Forceful-Mastery_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93mastery
+profileset."PSCD_Forceful-Haste_Harmonic_Dematerializer_415"+=trinket1=pocket_sized_computation_device,id=167555,ilevel=415,enchant=311crit_93haste
