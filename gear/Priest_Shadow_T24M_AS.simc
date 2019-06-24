@@ -24,8 +24,8 @@ neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
 shoulder=amice_of_the_reef_witch,id=168338,bonus_id=4824/1517,azerite_powers=405/577/18/13
 
 # Back
-back=drape_of_the_hatcher,id=168604,bonus_id=4800/1517
-# back=cloak_of_ill_tidings,id=168391,bonus_id=4800/1517
+back=drape_of_the_hatcher,id=168604,bonus_id=4800/1517 # crit/haste
+# back=cloak_of_ill_tidings,id=168391,bonus_id=4800/1517 # crit/mastery
 
 # Chest - TH/DT - UT/SD - OMW/BS
 # chest=siren_mystics_vestments,id=168341,bonus_id=4824/1517

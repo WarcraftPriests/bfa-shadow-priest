@@ -340,16 +340,16 @@
 			"2_stack": 27500,
 			"3_stack": 27610
 		},
-		"Clockwork Heart": {
-			"1_stack": 27306,
-			"2_stack": 27305,
-			"3_stack": 27306
 		},
 		"Base": {
 			"1_stack": 27308,
 			"2_stack": 0,
 			"3_stack": 0
 		}
+		"Clockwork Heart": {
+			"1_stack": 27306,
+			"2_stack": 27305,
+			"3_stack": 27306
 	},
 	"Data_type": "traits",
 	"spell_ids" : {
@@ -412,21 +412,24 @@
 		"3_stack"
 	],
 	"sorted_data_keys": [
+		"Tradewinds ",
 		"Battlefield Focus ",
 		"Tidal Surge ",
 		"Champion of Azeroth ",
 		"Bonded Souls ",
+		"Ancients Bulwark ",
 		"Shadow of Elune ",
 		"Sylvanas Resolve ",
-		"Treacherous Covenant ",
-		"Incite the Pack ",
+		"Undulating Tides ",
 		"Laser Matrix ",
+		"Loyal to the End ",
+		"Incite the Pack ",
 		"Seductive Power ",
 		"Dagger in the Back Front ",
 		"Combined Might ",
 		"Relational Normalization Gizmo ",
 		"Blightborne Infusion ",
-		"Tradewinds ",
+		"Treacherous Covenant ",
 		"Secrets of the Deep ",
 		"Archive of the Titans ",
 		"Thought Harvester ",
@@ -443,6 +446,7 @@
 		"Barrage Of Many Bombs ",
 		"Swirling Sands ",
 		"Ricocheting Inflatable Pyrosaw ",
+		"Arcane Heart ",
 		"Dagger in the Back Behind ",
 		"Retaliatory Fury ",
 		"Rezans Fury ",
@@ -456,8 +460,9 @@
 		"Unstable Catalyst ",
 		"Gutripper ",
 		"Whispers of the Damned ",
-		"Chorus of Insanity ",
+		"Clockwork Heart ",
 		"Collective Will ",
-		"Azerite Globules "
+		"Azerite Globules ",
+		"Chorus of Insanity "
 	]
 }

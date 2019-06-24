@@ -340,16 +340,16 @@
 			"2_stack": 24163,
 			"3_stack": 24266
 		},
-		"Clockwork Heart": {
-			"1_stack": 23997,
-			"2_stack": 23990,
-			"3_stack": 23998
 		},
 		"Base": {
 			"1_stack": 23995,
 			"2_stack": 0,
 			"3_stack": 0
 		}
+		"Clockwork Heart": {
+			"1_stack": 23997,
+			"2_stack": 23990,
+			"3_stack": 23998
 	},
 	"Data_type": "traits",
 	"spell_ids" : {
@@ -412,19 +412,22 @@
 		"3_stack"
 	],
 	"sorted_data_keys": [
-		"Treacherous Covenant ",
+		"Tradewinds ",
+		"Undulating Tides ",
 		"Battlefield Focus ",
 		"Champion of Azeroth ",
 		"Bonded Souls ",
 		"Shadow of Elune ",
 		"Tidal Surge ",
-		"Incite the Pack ",
+		"Ancients Bulwark ",
 		"Laser Matrix ",
+		"Incite the Pack ",
+		"Loyal to the End ",
 		"Combined Might ",
 		"Barrage Of Many Bombs ",
 		"Relational Normalization Gizmo ",
 		"Thought Harvester ",
-		"Tradewinds ",
+		"Treacherous Covenant ",
 		"Secrets of the Deep ",
 		"Blightborne Infusion ",
 		"Fight or Flight ",
@@ -441,6 +444,7 @@
 		"Dagger in the Back Behind ",
 		"Searing Dialogue ",
 		"Archive of the Titans ",
+		"Arcane Heart ",
 		"Rezans Fury ",
 		"Swirling Sands ",
 		"Earthlink ",
@@ -455,9 +459,10 @@
 		"Whispers of the Damned ",
 		"Unstable Catalyst ",
 		"Death Throes ",
-		"Chorus of Insanity ",
+		"Clockwork Heart ",
 		"Collective Will ",
 		"Azerite Globules ",
+		"Chorus of Insanity ",
 		"Ricocheting Inflatable Pyrosaw "
 	]
 }

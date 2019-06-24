@@ -41,7 +41,9 @@ trinketsRaidSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/tri
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
 
 # Trait List (hack fix for the moment)
-traitList = ['Apothecarys_Concoctions_',
+traitList = ['Ancients_Bulwark_',
+'Apothecarys_Concoctions_',
+'Arcane_Heart_',
 'Archive_of_the_Titans_',
 'Barrage_Of_Many_Bombs_',
 'Battlefield_Focus_',
@@ -50,6 +52,7 @@ traitList = ['Apothecarys_Concoctions_',
 'Bonded_Souls_',
 'Champion_of_Azeroth_',
 'Chorus_of_Insanity_',
+'Clockwork_Heart_',
 'Collective_Will_',
 'Combined_Might_',
 'Dagger_in_the_Back_Behind_',
@@ -60,6 +63,7 @@ traitList = ['Apothecarys_Concoctions_',
 'Glory_in_Battle_',
 'Incite_the_Pack_',
 'Laser_Matrix_',
+'Loyal_to_the_End_',
 'Meticulous_Scheming_',
 'Relational_Normalization_Gizmo_',
 'Retaliatory_Fury_',
@@ -79,6 +83,7 @@ traitList = ['Apothecarys_Concoctions_',
 'Tidal_Surge_',
 'Tradewinds_',
 'Treacherous_Covenant_',
+'Undulating_Tides_',
 'Unstable_Catalyst_',
 'Whispers_of_the_Damned_',
 
@@ -345,7 +350,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                                     j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
-                    j.write('\t\t},\n')      
+                    j.write('\t\t},\n')
             if ucnt == ucntMax:
                 j.write('\t\t},')
                 for x in data:

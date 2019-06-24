@@ -115,7 +115,7 @@
 			"2_stack": 28754,
 			"3_stack": 29538
 		},
-		"Death Throes Chorus of Insanity combo": {
+		"Whispers of the Damned Chorus of Insanity combo": {
 			"1_stack": 0,
 			"2_stack": 29519,
 			"3_stack": 0
@@ -129,11 +129,6 @@
 			"1_stack": 0,
 			"2_stack": 29500,
 			"3_stack": 0
-		},
-		"Sylvanas Resolve": {
-			"1_stack": 22011,
-			"2_stack": 22606,
-			"3_stack": 23208
 		},
 		"Tradewinds": {
 			"1_stack": 27908,
@@ -345,16 +340,16 @@
 			"2_stack": 27349,
 			"3_stack": 27449
 		},
-		"Clockwork Heart": {
-			"1_stack": 27134,
-			"2_stack": 27132,
-			"3_stack": 27125
 		},
 		"Base": {
 			"1_stack": 27111,
 			"2_stack": 0,
 			"3_stack": 0
 		}
+		"Clockwork Heart": {
+			"1_stack": 27134,
+			"2_stack": 27132,
+			"3_stack": 27125
 	},
 	"Data_type": "traits",
 	"spell_ids" : {
@@ -419,6 +414,7 @@
 	"sorted_data_keys": [
 		"Sylvanas Resolve ",
 		"Ricocheting Inflatable Pyrosaw ",
+		"Tradewinds ",
 		"Champion of Azeroth ",
 		"Battlefield Focus ",
 		"Blightborne Infusion ",
@@ -426,11 +422,13 @@
 		"Bonded Souls ",
 		"Archive of the Titans ",
 		"Shadow of Elune ",
-		"Laser Matrix ",
+		"Ancients Bulwark ",
 		"Incite the Pack ",
+		"Loyal to the End ",
+		"Laser Matrix ",
 		"Dagger in the Back Front ",
+		"Undulating Tides ",
 		"Treacherous Covenant ",
-		"Tradewinds ",
 		"Secrets of the Deep ",
 		"Ruinous Bolt ",
 		"Heed My Call ",
@@ -446,6 +444,7 @@
 		"Combined Might ",
 		"Fight or Flight ",
 		"Retaliatory Fury ",
+		"Arcane Heart ",
 		"Apothecarys Concoctions ",
 		"Seductive Power ",
 		"Elemental Whirl ",
@@ -462,7 +461,8 @@
 		"Whispers of the Damned ",
 		"Azerite Globules ",
 		"Collective Will ",
-		"Chorus of Insanity ",
-		"Unstable Catalyst "
+		"Clockwork Heart ",
+		"Unstable Catalyst ",
+		"Chorus of Insanity "
 	]
 }
