@@ -7,7 +7,7 @@ position=back
 talents=3111111
 spec=shadow
 
-default_actions=1
+default_actions=0
 initial_resource=insanity=25
 
 head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
@@ -27,9 +27,98 @@ trinket2=shiver_venom_relic,id=168905,ilevel=445
 main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
+# Default consumables
+potion=rising_death
+flask=endless_fathoms
+food=honeyglazed_haunches
+augmentation=battle_scarred
+
+initial_resource=insanity=25
+
+# This default action priority list is automatically created based on your character.
+# It is a attempt to provide you with a action list that is both simple and practicable,
+# while resulting in a meaningful and good simulation. It may not result in the absolutely highest possible dps.
+# Feel free to edit, adapt and improve it to your own needs.
+# SimulationCraft is always looking for updates and improvements to the default action lists.
+
+# Executed before combat begins. Accepts non-harmful actions only.
+actions.precombat=flask
+actions.precombat+=/food
+actions.precombat+=/augmentation
+# Snapshot raid buffed stats before combat begins and pre-potting is done.
+actions.precombat+=/snapshot_stats
+actions.precombat+=/potion
+actions.precombat+=/variable,name=mind_blast_targets,op=set,value=floor((4.5+azerite.whispers_of_the_damned.rank)%(1+0.27*azerite.searing_dialogue.rank))
+actions.precombat+=/variable,name=swp_trait_ranks_check,op=set,value=(1-0.07*azerite.death_throes.rank+0.2*azerite.thought_harvester.rank)*(1-0.09*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)
+actions.precombat+=/variable,name=vt_trait_ranks_check,op=set,value=(1-0.04*azerite.thought_harvester.rank-0.05*azerite.spiteful_apparitions.rank)
+actions.precombat+=/variable,name=vt_mis_trait_ranks_check,op=set,value=(1-0.07*azerite.death_throes.rank-0.03*azerite.thought_harvester.rank-0.055*azerite.spiteful_apparitions.rank)*(1-0.027*azerite.thought_harvester.rank*azerite.searing_dialogue.rank)
+actions.precombat+=/variable,name=vt_mis_sd_check,op=set,value=1-0.014*azerite.searing_dialogue.rank
+actions.precombat+=/shadowform,if=!buff.shadowform.up
+actions.precombat+=/mind_blast,if=spell_targets.mind_sear<2|azerite.thought_harvester.rank=0
+actions.precombat+=/vampiric_touch
+
+# Executed every time the actor is available.
+actions=potion,if=buff.bloodlust.react|target.time_to_die<=80|target.health.pct<35
+actions+=/blood_of_the_enemy
+actions+=/guardian_of_azeroth
+actions+=/focused_azerite_beam
+actions+=/purifying_blast
+actions+=/the_unbound_force
+actions+=/memory_of_lucid_dreams
+# actions+=/vision_of_perfection
+# actions+=/concentrated_flame
+actions+=/ripple_in_space
+actions+=/worldvein_resonance
+actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking
+actions+=/run_action_list,name=cleave,if=active_enemies>1
+actions+=/run_action_list,name=single,if=active_enemies=1
+
+actions.cleave=void_eruption
+actions.cleave+=/dark_ascension,if=buff.voidform.down
+actions.cleave+=/vampiric_touch,if=!ticking&azerite.thought_harvester.rank>=1
+actions.cleave+=/mind_sear,if=buff.harvested_thoughts.up
+actions.cleave+=/void_bolt
+actions.cleave+=/shadow_word_death,target_if=target.time_to_die<3|buff.voidform.down
+actions.cleave+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
+actions.cleave+=/dark_void,if=raid_event.adds.in>10&(dot.shadow_word_pain.refreshable|target.time_to_die>30)
+actions.cleave+=/mindbender
+actions.cleave+=/mind_blast,target_if=spell_targets.mind_sear<variable.mind_blast_targets
+actions.cleave+=/shadow_crash,if=(raid_event.adds.in>5&raid_event.adds.duration<2)|raid_event.adds.duration>2
+actions.cleave+=/shadow_word_pain,target_if=refreshable&target.time_to_die>((-1.2+3.3*spell_targets.mind_sear)*variable.swp_trait_ranks_check*(1-0.012*azerite.searing_dialogue.rank*spell_targets.mind_sear)),if=!talent.misery.enabled
+actions.cleave+=/vampiric_touch,target_if=refreshable,if=target.time_to_die>((1+3.3*spell_targets.mind_sear)*variable.vt_trait_ranks_check*(1+0.10*azerite.searing_dialogue.rank*spell_targets.mind_sear))
+actions.cleave+=/vampiric_touch,target_if=dot.shadow_word_pain.refreshable,if=(talent.misery.enabled&target.time_to_die>((1.0+2.0*spell_targets.mind_sear)*variable.vt_mis_trait_ranks_check*(variable.vt_mis_sd_check*spell_targets.mind_sear)))
+actions.cleave+=/void_torrent,if=buff.voidform.up
+actions.cleave+=/mind_sear,target_if=spell_targets.mind_sear>1,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+actions.cleave+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
+actions.cleave+=/shadow_word_pain
+
+actions.single=void_eruption
+actions.single+=/dark_ascension,if=buff.voidform.down
+actions.single+=/void_bolt
+actions.single+=/mind_sear,if=buff.harvested_thoughts.up&cooldown.void_bolt.remains>=1.5&azerite.searing_dialogue.rank>=1
+actions.single+=/shadow_word_death,if=target.time_to_die<3|cooldown.shadow_word_death.charges=2|(cooldown.shadow_word_death.charges=1&cooldown.shadow_word_death.remains<gcd.max)
+actions.single+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
+actions.single+=/dark_void,if=raid_event.adds.in>10
+actions.single+=/mindbender,if=talent.mindbender.enabled|(buff.voidform.stack>18|target.time_to_die<15)
+actions.single+=/shadow_word_death,if=!buff.voidform.up|(cooldown.shadow_word_death.charges=2&buff.voidform.stack<15)
+actions.single+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
+actions.single+=/mind_blast,if=variable.dots_up&((raid_event.movement.in>cast_time+0.5&raid_event.movement.in<4)|!talent.shadow_word_void.enabled|buff.voidform.down|buff.voidform.stack>14&(insanity<70|charges_fractional>1.33)|buff.voidform.stack<=14&(insanity<60|charges_fractional>1.33))
+actions.single+=/void_torrent,if=dot.shadow_word_pain.remains>4&dot.vampiric_touch.remains>4&buff.voidform.up
+actions.single+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&!talent.dark_void.enabled
+actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)
+actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
+actions.single+=/shadow_word_pain
+
 # RANK 1: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
-profileset."Blood_of_the_Enemy_1"+=azerite_essences=23:1:1
+profileset."Blood_of_the_Enemy_100_Uptime_1"+=azerite_essences=23:1:1
+profileset."Blood_of_the_Enemy_100_Uptime_1"+=bfa.blood_of_the_enemy_in_range=1
+
+profileset."Blood_of_the_Enemy_75_Uptime_1"+=azerite_essences=23:1:1
+profileset."Blood_of_the_Enemy_75_Uptime_1"+=bfa.blood_of_the_enemy_in_range=.75
+
+profileset."Blood_of_the_Enemy_50_Uptime_1"+=azerite_essences=23:1:1
+profileset."Blood_of_the_Enemy_50_Uptime_1"+=bfa.blood_of_the_enemy_in_range=.5
 
 ## Guardian of Azeroth (14) + Condensed Life-Force
 profileset."Guardian_of_Azeroth_1"+=azerite_essences=14:1:1
@@ -59,7 +148,20 @@ profileset."Concentrated_Flame_1"+=azerite_essences=12:1:1
 profileset."Ripple_in_Space_1"+=azerite_essences=15:1:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_0_Allies_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_0_Allies_1"+=bfa.worldvein_allies=0
+
+profileset."Worldvein_Resonance_1_Allies_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_1_Allies_1"+=bfa.worldvein_allies=1
+
+profileset."Worldvein_Resonance_2_Allies_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_2_Allies_1"+=bfa.worldvein_allies=2
+
+profileset."Worldvein_Resonance_3_Allies_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_3_Allies_1"+=bfa.worldvein_allies=3
+
+profileset."Worldvein_Resonance_4_Allies_1"+=azerite_essences=4:1:1
+profileset."Worldvein_Resonance_4_Allies_1"+=bfa.worldvein_allies=4
 
 # Rank 1: Minors
 # Blood-Soaked (23)
@@ -83,15 +185,38 @@ profileset."Lucid_Dreams_1"+=azerite_essences=27:1:0
 # Strive for Perfection
 profileset."Strive_for_Perfection_1"+=azerite_essences=22:1:0
 
+## Strife
+profileset."Strife_1"+=azerite_essences=32:1:0
+
 # Ancient Flame
 profileset."Ancient_Flame_1"+=azerite_essences=12:1:0
 
 # Lifeblood
-profileset."Lifeblood_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_0_Allies_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_0_Allies_1"+=bfa.worldvein_allies=0
+
+profileset."Lifeblood_1_Allies_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_1_Allies_1"+=bfa.worldvein_allies=1
+
+profileset."Lifeblood_2_Allies_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_2_Allies_1"+=bfa.worldvein_allies=2
+
+profileset."Lifeblood_3_Allies_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_3_Allies_1"+=bfa.worldvein_allies=3
+
+profileset."Lifeblood_4_Allies_1"+=azerite_essences=4:1:0
+profileset."Lifeblood_4_Allies_1"+=bfa.worldvein_allies=4
 
 # RANK 2: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
-profileset."Blood_of_the_Enemy_2"+=azerite_essences=23:2:1
+profileset."Blood_of_the_Enemy_100_Uptime_2"+=azerite_essences=23:2:1
+profileset."Blood_of_the_Enemy_100_Uptime_2"+=bfa.blood_of_the_enemy_in_range=1
+
+profileset."Blood_of_the_Enemy_75_Uptime_2"+=azerite_essences=23:2:1
+profileset."Blood_of_the_Enemy_75_Uptime_2"+=bfa.blood_of_the_enemy_in_range=.75
+
+profileset."Blood_of_the_Enemy_50_Uptime_2"+=azerite_essences=23:2:1
+profileset."Blood_of_the_Enemy_50_Uptime_2"+=bfa.blood_of_the_enemy_in_range=.5
 
 ## Guardian of Azeroth (14) + Condensed Life-Force
 profileset."Guardian_of_Azeroth_2"+=azerite_essences=14:2:1
@@ -121,7 +246,20 @@ profileset."Concentrated_Flame_2"+=azerite_essences=12:2:1
 profileset."Ripple_in_Space_2"+=azerite_essences=15:2:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_0_Allies_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_0_Allies_2"+=bfa.worldvein_allies=0
+
+profileset."Worldvein_Resonance_1_Allies_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_1_Allies_2"+=bfa.worldvein_allies=1
+
+profileset."Worldvein_Resonance_2_Allies_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_2_Allies_2"+=bfa.worldvein_allies=2
+
+profileset."Worldvein_Resonance_3_Allies_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_3_Allies_2"+=bfa.worldvein_allies=3
+
+profileset."Worldvein_Resonance_4_Allies_2"+=azerite_essences=4:2:1
+profileset."Worldvein_Resonance_4_Allies_2"+=bfa.worldvein_allies=4
 
 # Rank 2: Minors
 # Blood-Soaked (23)
@@ -145,15 +283,38 @@ profileset."Lucid_Dreams_2"+=azerite_essences=27:2:0
 # Strive for Perfection
 profileset."Strive_for_Perfection_2"+=azerite_essences=22:2:0
 
+## Strife
+profileset."Strife_2"+=azerite_essences=32:2:0
+
 # Ancient Flame
 profileset."Ancient_Flame_2"+=azerite_essences=12:2:0
 
 # Lifeblood
-profileset."Lifeblood_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_0_Allies_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_0_Allies_2"+=bfa.worldvein_allies=0
+
+profileset."Lifeblood_1_Allies_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_1_Allies_2"+=bfa.worldvein_allies=1
+
+profileset."Lifeblood_2_Allies_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_2_Allies_2"+=bfa.worldvein_allies=2
+
+profileset."Lifeblood_3_Allies_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_3_Allies_2"+=bfa.worldvein_allies=3
+
+profileset."Lifeblood_4_Allies_2"+=azerite_essences=4:2:0
+profileset."Lifeblood_4_Allies_2"+=bfa.worldvein_allies=4
 
 # RANK 3: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
-profileset."Blood_of_the_Enemy_3"+=azerite_essences=23:3:1
+profileset."Blood_of_the_Enemy_100_Uptime_3"+=azerite_essences=23:3:1
+profileset."Blood_of_the_Enemy_100_Uptime_3"+=bfa.blood_of_the_enemy_in_range=1
+
+profileset."Blood_of_the_Enemy_75_Uptime_3"+=azerite_essences=23:3:1
+profileset."Blood_of_the_Enemy_75_Uptime_3"+=bfa.blood_of_the_enemy_in_range=.75
+
+profileset."Blood_of_the_Enemy_50_Uptime_3"+=azerite_essences=23:3:1
+profileset."Blood_of_the_Enemy_50_Uptime_3"+=bfa.blood_of_the_enemy_in_range=.5
 
 ## Guardian of Azeroth (14) + Condensed Life-Force
 profileset."Guardian_of_Azeroth_3"+=azerite_essences=14:3:1
@@ -183,7 +344,20 @@ profileset."Concentrated_Flame_3"+=azerite_essences=12:3:1
 profileset."Ripple_in_Space_3"+=azerite_essences=15:3:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_0_Allies_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_0_Allies_3"+=bfa.worldvein_allies=0
+
+profileset."Worldvein_Resonance_1_Allies_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_1_Allies_3"+=bfa.worldvein_allies=1
+
+profileset."Worldvein_Resonance_2_Allies_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_2_Allies_3"+=bfa.worldvein_allies=2
+
+profileset."Worldvein_Resonance_3_Allies_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_3_Allies_3"+=bfa.worldvein_allies=3
+
+profileset."Worldvein_Resonance_4_Allies_3"+=azerite_essences=4:3:1
+profileset."Worldvein_Resonance_4_Allies_3"+=bfa.worldvein_allies=4
 
 # Rank 3: Minors
 # Blood-Soaked (23)
@@ -207,8 +381,24 @@ profileset."Lucid_Dreams_3"+=azerite_essences=27:3:0
 # Strive for Perfection
 profileset."Strive_for_Perfection_3"+=azerite_essences=22:3:0
 
+## Strife
+profileset."Strife_3"+=azerite_essences=32:3:0
+
 # Ancient Flame
 profileset."Ancient_Flame_3"+=azerite_essences=12:3:0
 
 # Lifeblood
-profileset."Lifeblood_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_0_Allies_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_0_Allies_3"+=bfa.worldvein_allies=0
+
+profileset."Lifeblood_1_Allies_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_1_Allies_3"+=bfa.worldvein_allies=1
+
+profileset."Lifeblood_2_Allies_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_2_Allies_3"+=bfa.worldvein_allies=2
+
+profileset."Lifeblood_3_Allies_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_3_Allies_3"+=bfa.worldvein_allies=3
+
+profileset."Lifeblood_4_Allies_3"+=azerite_essences=4:3:0
+profileset."Lifeblood_4_Allies_3"+=bfa.worldvein_allies=4
