@@ -315,7 +315,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         uniqueList = make_unique(namelist)
         if "Base" in uniqueList: uniqueList.remove("Base")
         j.write('\t"data": {\n')
-        ucntMax = len(uniqueList)
+        ucntMax = len(uniqueList) -1
         #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
@@ -329,7 +329,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 cnt+=1
                 for x in data:
                     if x['profile'] == simType:
-                        if x['actor'] == str(u+y):
+                        if x['actor'] == str(u+y) and 'Base' not in x['actor']:
                             if x['actor']== ("Champion_of_Azeroth_" + y):
                                 j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                                 j.write('\t\t\t"2_stack": 0,\n')
@@ -345,8 +345,8 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                                     j.write('\t\t\t"'+y+'_stack": '+x['DPS']+'\n')
             if ucnt < ucntMax:
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
-                    j.write('\t\t},\n')
-            else:
+                    j.write('\t\t},\n')      
+            if ucnt == ucntMax:
                 j.write('\t\t},')
                 for x in data:
                     if x['profile'] == simType and x['actor'] == 'Base':

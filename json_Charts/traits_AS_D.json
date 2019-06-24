@@ -115,7 +115,7 @@
 			"2_stack": 28754,
 			"3_stack": 29538
 		},
-		"Whispers of the Damned Chorus of Insanity combo": {
+		"Death Throes Chorus of Insanity combo": {
 			"1_stack": 0,
 			"2_stack": 29519,
 			"3_stack": 0
@@ -129,6 +129,11 @@
 			"1_stack": 0,
 			"2_stack": 29500,
 			"3_stack": 0
+		},
+		"Sylvanas Resolve": {
+			"1_stack": 22011,
+			"2_stack": 22606,
+			"3_stack": 23208
 		},
 		"Tradewinds": {
 			"1_stack": 27908,
