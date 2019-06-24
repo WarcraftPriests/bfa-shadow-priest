@@ -59,14 +59,53 @@ profileset."Seductive_Power_3"+=chest=vestments_of_creeping_terror,id=168337,ile
 
 
 # Loyal to the End 576
-profileset."Loyal_to_the_End_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_1"+=bfa.loyal_to_the_end_allies=0
+profileset."Loyal_to_the_End_1_Allies_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_1"+=bfa.loyal_to_the_end_allies=1
+profileset."Loyal_to_the_End_2_Allies_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_1"+=bfa.loyal_to_the_end_allies=2
+profileset."Loyal_to_the_End_3_Allies_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_1"+=bfa.loyal_to_the_end_allies=3
+profileset."Loyal_to_the_End_4_Allies_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_1"+=bfa.loyal_to_the_end_allies=4
 
-profileset."Loyal_to_the_End_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
-profileset."Loyal_to_the_End_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_2"+=bfa.loyal_to_the_end_allies=0
+profileset."Loyal_to_the_End_1_Allies_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_2"+=bfa.loyal_to_the_end_allies=1
+profileset."Loyal_to_the_End_2_Allies_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_2"+=bfa.loyal_to_the_end_allies=2
+profileset."Loyal_to_the_End_3_Allies_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_2"+=bfa.loyal_to_the_end_allies=3
+profileset."Loyal_to_the_End_4_Allies_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_2"+=bfa.loyal_to_the_end_allies=4
 
-profileset."Loyal_to_the_End_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
-profileset."Loyal_to_the_End_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
-profileset."Loyal_to_the_End_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_0_Allies_3"+=bfa.loyal_to_the_end_allies=0
+profileset."Loyal_to_the_End_1_Allies_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_1_Allies_3"+=bfa.loyal_to_the_end_allies=1
+profileset."Loyal_to_the_End_2_Allies_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_2_Allies_3"+=bfa.loyal_to_the_end_allies=2
+profileset."Loyal_to_the_End_3_Allies_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_3_Allies_3"+=bfa.loyal_to_the_end_allies=3
+profileset."Loyal_to_the_End_4_Allies_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=576
+profileset."Loyal_to_the_End_4_Allies_3"+=bfa.loyal_to_the_end_allies=4
 
 # Arcane Heart 577
 profileset."Arcane_Heart_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=577
