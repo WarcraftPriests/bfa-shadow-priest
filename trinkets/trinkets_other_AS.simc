@@ -20,9 +20,9 @@ hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
 waist=belt_of_blind_devotion,id=168374,ilevel=445
 legs=priscillas_fishnets,id=168876,ilevel=445
 feet=eelskin_flippers,id=168373,ilevel=445
-finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_haste
 finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
-main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
+main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=quick_navigation
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
 # Questing Trinkets
@@ -354,21 +354,9 @@ profileset."Highborne_Compendium_of_Storms_400"+=trinket1=highborne_compendium_o
 profileset."Tidal_Alchemist_Stone_385"+=trinket1=tidal_alchemist_stone,id=165926
 profileset."Spirited_Alchemist_Stone_400"+=trinket1=spirited_alchemist_stone,id=165927
 profileset."Eternal_Alchemist_Stone_415"+=trinket1=eternal_alchemist_stone,id=165928
-profileset."Abyssal_Alchemist_Stone_60Crit_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168639
-profileset."Abyssal_Alchemist_Stone_60Haste_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168641
-profileset."Abyssal_Alchemist_Stone_60Vers_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168642
-profileset."Abyssal_Alchemist_Stone_60Mastery_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168640
-profileset."Abyssal_Alchemist_Stone_120Intellect_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168638
-profileset."Crushing_Alchemist_Stone_60Crit_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168639
-profileset."Crushing_Alchemist_Stone_60Haste_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168641
-profileset."Crushing_Alchemist_Stone_60Vers_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168642
-profileset."Crushing_Alchemist_Stone_60Mastery_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168640
-profileset."Crushing_Alchemist_Stone_120Intellect_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168638
-profileset."Ascended_Alchemist_Stone_60Crit_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168639
-profileset."Ascended_Alchemist_Stone_60Haste_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168641
-profileset."Ascended_Alchemist_Stone_60Vers_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168642
-profileset."Ascended_Alchemist_Stone_60Mastery_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168640
-profileset."Ascended_Alchemist_Stone_120Intellect_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168638
+profileset."Abyssal_Alchemist_Stone_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168641
+profileset."Crushing_Alchemist_Stone_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168641
+profileset."Ascended_Alchemist_Stone_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168641
 
 # Leyshock's Grand Compilation
 profileset."Leyshocks_Grand_Compilation_385"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=415
