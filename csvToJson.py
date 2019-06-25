@@ -19,6 +19,12 @@ traitsAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Res
 traitsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_SC.csv'))
 traitsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_Dungeons_AS.csv'))
 
+#Essences
+essencesSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC.csv'))
+essencesAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.csv'))
+essencesSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_Dungeons_SC.csv'))
+essencesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_Dungeons_AS.csv'))
+
 
 #JSON Files
 #Trinkets
@@ -31,6 +37,11 @@ traitsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits
 traitsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS.json'))
 traitsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC_D.json'))
 traitsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS_D.json'))
+#Essences
+essencesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC.json'))
+essencesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.json'))
+essencesSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC_D.json'))
+essencesASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS_D.json'))
 
 # SimC files
 trinketsDungeonsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_SC.simc'))
@@ -41,7 +52,8 @@ trinketsRaidSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/tri
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
 
 # Trait List (hack fix for the moment)
-traitList = ['Ancients_Bulwark_',
+traitList = [
+'Ancients_Bulwark_',
 'Apothecarys_Concoctions_',
 'Arcane_Heart_',
 'Barrage_Of_Many_Bombs_',
@@ -96,6 +108,35 @@ traitList = ['Ancients_Bulwark_',
 'Overwhelming_Power_',
 'Unstable_Flames_']
 
+essences = {
+    #Majors
+    'Blood of the Enemy' : 'Blood of the Enemy',
+    'Guardian of Azeroth' : 'Condensed Life-Force',
+    'Focused Azerite Beam' : 'Essence of the Focusing Iris',
+    'Purifying Blast' : 'Purification Protocol',
+    'The Unbound Force' : 'The Unbound Force',
+    'Memory of Lucid Dreams' : 'Memory of Lucid Dreams',
+    'Vision of Perfection' : 'Vision of Perfection',
+    'Conflict' : 'Conflict and Strife',
+    'Concentrated Flame' : 'The Crucible of Flame',
+    'Rippled in Space' : 'Rippled in Space',
+    'Worldvein Resonance' : 'Worldvein Resonance',
+
+
+    #Minors
+    'Blood-Soaked' : 'Blood of the Enemy',
+    'Condensed Life-Force' : 'Condensed Life-Force',
+    'Focused Energy' : 'Essence of the Focusing Iris',
+    'Purification Protocol' : 'Purification Protocol',
+    'Reckless Force' : 'The Unbound Force',
+    'Lucid Dreams' : 'Memory of Lucid Dreams',
+    'Strive for Perfection' : 'Vision of Perfection',
+    'Strife' : 'Conflict and Strife',
+    'Lifeblood' : 'Worldvein Resonance',
+    'Ancient Flame' : 'The Crucible of Flame',
+    'Reality Shift' : 'Rippled in Space'
+}
+
 
 
 def parseCSV(file, json_file):
@@ -120,6 +161,10 @@ parseCSV(traitsSC,traitsSCJson)
 parseCSV(traitsAS,traitsASJson)
 parseCSV(traitsSCD,traitsSCJsonD)
 parseCSV(traitsASD,traitsASJsonD)
+parseCSV(essencesAS,essencesASJson)
+parseCSV(essencesSC,essencesSCJson)
+parseCSV(essencesASD,essencesASJsonD)
+parseCSV(essencesSCD,essencesSCJsonD)
 
 
 def getItemId(itemname):
@@ -522,11 +567,177 @@ def buildTraitJsonComboChart(injsonFile, outjsonFile, simType):
         j.write('\n}')
     j.close()
 
+def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        if "Base" in uniqueList: uniqueList.remove("Base")
+        if "Blood_of_the_Enemy_" in uniqueList: uniqueList.remove("Blood_of_the_Enemy_")
+        if "Lifeblood_" in uniqueList: uniqueList.remove("Lifeblood_")
+        if "Worldvein_Resonance_" in uniqueList: uniqueList.remove("Worldvein_Resonance_")
+        j.write('\t"data": {\n')
+        ucntMax = len(uniqueList)
+        ucnt = 0
+        for u in uniqueList:
+            j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            ucnt+=1
+            essenceSteps = ['3', '2','1']
+            maxCnt = 3
+            cnt = 0
+            for y in essenceSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == str(u) + y:
+                            if cnt < maxCnt:
+                                j.write('\t\t\t"'+'rank_'+ y + '": '+x['DPS']+',\n')
+                            else:
+                                j.write('\t\t\t"'+'rank_1": '+x['DPS']+'\n')
+            if ucnt < ucntMax:
+                if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
+                    j.write('\t\t},\n')
+            else:
+                j.write('\t\t},')                     
+                
+                for x in data:
+                    if x['profile'] == simType and x['actor'] == 'Base':
+                        j.write('\n\t\t"Base": {\n')
+                        j.write('\t\t\t"rank_1": '+x['DPS']+'\n')
+                j.write('\t\t},\n')
+        # Special Handling for Blood of the Enemy
+        essenceSteps = ['3', '2','1']
+        maxCnt = 3
+        boteList = list()
+        for x in data:
+            if 'Blood_of_the_Enemy_' in x['actor']:
+                temp = x['actor'].replace('_Uptime','')
+                temp = temp[:-2]
+                boteList.append(temp)
+        boteList = make_unique(boteList)
+        ucnt = 0
+        ucntMax = len(boteList)
+        for b in boteList:
+            ucnt+=1
+            cnt = 0
+            j.write('\t\t"' + b.replace("_"," ") +'": {\n')
+            for e in essenceSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'].replace('_Uptime','') == b + '_' + e:
+                               if cnt < maxCnt:
+                                    j.write('\t\t\t"' + 'rank_' + e + '": '+ x['DPS']+',\n')
+                               else:
+                                    j.write('\t\t\t"'+'rank_1": '+x['DPS']+'\n')
+            j.write('\t\t},\n')
+        #Special Handling for WorldVein
+        worldVeinList = list()
+        for x in data:
+            if "Worldvein" in x['actor']:
+                temp = x['actor'].replace('Allies','')
+                temp = temp[:-3]
+                worldVeinList.append(temp)
+        worldVeinList = make_unique(worldVeinList)
+        allySteps = ['4','3','2','1','0']
+        ucnt=0
+        ucntMax = len(worldVeinList)
+        for l in worldVeinList:
+            ucnt+=1
+            cnt = 0
+            j.write('\t\t"' + l.replace('_',' ') + ' Allies' + '":{\n')
+            for e in essenceSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == l + '_Allies_' + e:
+                            if cnt < maxCnt:
+                                j.write('\t\t\t"' + 'rank_' + e + '": '+ x['DPS']+',\n')
+                            else:
+                                 j.write('\t\t\t"'+'rank_1": '+x['DPS']+'\n')
+            j.write('\t\t},\n')
+
+        #Special Handling for Lifeblood
+        lifeBloodList = list()
+        for x in data:
+            if "Lifeblood" in x['actor']:
+                temp = x['actor'].replace('Allies','')
+                temp = temp[:-3]
+                lifeBloodList.append(temp)
+        lifeBloodList = make_unique(lifeBloodList)
+        allySteps = ['4','3','2','1','0']
+        ucnt=0
+        ucntMax = len(lifeBloodList)
+        for l in lifeBloodList:
+            ucnt+=1
+            cnt = 0
+            j.write('\t\t"' + l.replace('_',' ') + ' Allies' + '":{\n')
+            for e in essenceSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == l + '_Allies_' + e:
+                            if cnt < maxCnt:
+                                j.write('\t\t\t"' + 'rank_' + e + '": '+ x['DPS']+',\n')
+                            else:
+                                 j.write('\t\t\t"'+'rank_1": '+x['DPS']+'\n')
+            if ucnt < ucntMax:
+                j.write('\t\t},\n')
+            else:
+                j.write('\t\t}\n')
+        j.write('\t},\n')
+        j.write('\t"sorted_data_keys" : {\n')
+        DPSDict = dict()
+        for u in uniqueList:
+            for x in data:
+                if x['profile'] == simType and x['actor'] == u+'1':
+                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']})
+
+        for b in boteList:
+            for x in data:
+                if x['actor'] == b+'_Uptime_1' and x['profile'] == simType:
+                    DPSDict.update({b.replace('_',' ').rstrip() : x['DPS']})
+
+        for l in lifeBloodList:
+            for x in data:
+                if x['actor'] == l + "_Allies_1" and x['profile'] == simType:
+                    name = l.replace('_',' ').rstrip() + ' Allies'
+                    DPSDict.update({ name : x['DPS']})
+
+        for w in worldVeinList:
+            for x in data:
+                if x['actor'] == w + "_Allies_1" and x['profile'] == simType:
+                    name = w.replace('_',' ').rstrip() + ' Allies'
+                    DPSDict.update({ name : x['DPS']})
+
+
+        cnt=0
+        maxCnt = len(DPSDict)
+
+        import operator
+        sorted_x = sorted(DPSDict.items(), key=operator.itemgetter(1))
+
+        for (key,value) in DPSDict.items():
+            cnt+=1
+            if cnt < maxCnt:
+                j.write('\t\t "' + key + '" : ' + value + ',\n')
+            else:
+                j.write('\t\t "' + key + '" : ' + value + '\n')
+        j.write('\t}\n')    
+        j.write('}')
+
+
+
 os.chdir("json_Charts/")
 
 
 
-
+'''
 buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_C.json", 'composite')
 buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_ST.json", 'single_target')
 buildTrinketJsonChart(trinketsSCJsonD, "trinkets_SC_D.json", 'dungeons')
@@ -558,7 +769,9 @@ os.remove(trinketsSCJsonD)
 os.remove(trinketsASJsonD)
 os.remove(traitsSCJsonD)
 os.remove(traitsASJsonD)
+'''
 
+buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
 
 
 endtime = time.time()
