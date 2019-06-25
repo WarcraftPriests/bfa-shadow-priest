@@ -161,14 +161,14 @@ def make_unique(original_list):
     return unique_list
 
 def getNames(jsonFile):
-	with open(jsonFile,'r') as f:
-		nameList = list()
-		data = json.load(f)
-		for x in data:
-			m = re.search(r"\D*",x['actor']).group(0).replace('_',' ').rstrip()
-			nameList.append(m)
-		uniqueList = make_unique(nameList)
-	return uniqueList
+    with open(jsonFile,'r') as f:
+        nameList = list()
+        data = json.load(f)
+        for x in data:
+            m = re.search(r"\D*",x['actor']).group(0).replace('_',' ').rstrip()
+            nameList.append(m)
+        uniqueList = make_unique(nameList)
+    return uniqueList
 
 def getIlvl(jsonFile):
     with open(jsonFile,'r') as f:
@@ -181,11 +181,11 @@ def getIlvl(jsonFile):
     return uniqueList
 
 def addNamesToJson(jsonFile):
-	names = getNames(jsonFile)
-	with open(jsonFile, 'r+') as f:
-		data = json.load(f)
-		data.append(names)
-		f.write(json.dumps(names, sort_keys=False, indent =2))
+    names = getNames(jsonFile)
+    with open(jsonFile, 'r+') as f:
+        data = json.load(f)
+        data.append(names)
+        f.write(json.dumps(names, sort_keys=False, indent =2))
 
 def ilvlPerItem(itemName):
     with open(trinketsSCJson) as f:
@@ -319,8 +319,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             namelist.append(m)
         uniqueList = make_unique(namelist)
         if "Base" in uniqueList: uniqueList.remove("Base")
+        if "Int_" in uniqueList: uniqueList.remove("Int_")
         j.write('\t"data": {\n')
-        ucntMax = len(uniqueList) -1
+        ucntMax = len(uniqueList) 
         #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
@@ -334,7 +335,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
                 cnt+=1
                 for x in data:
                     if x['profile'] == simType:
-                        if x['actor'] == str(u+y) and 'Base' not in x['actor']:
+                        if x['actor'] == str(u+y) and 'base' not in x['actor'].lower():
                             if x['actor']== ("Champion_of_Azeroth_" + y):
                                 j.write('\t\t\t"1_stack": '+x['DPS']+',\n')
                                 j.write('\t\t\t"2_stack": 0,\n')
@@ -365,6 +366,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         #Manually write in spell id's for traits
         j.write('\t\t"Ancients Bulwark ":'+'"287631"'+',\n')
         j.write('\t\t"Apothecarys Concoctions ":'+'"287604"'+',\n')
+        j.write('\t\t"Arcane Heart ":'+'"303006"'+',\n')
         j.write('\t\t"Archive of the Titans ":'+'"280708"'+',\n')
         j.write('\t\t"Azerite Empowered ":'+'"263978"'+',\n')
         j.write('\t\t"Azerite Globules ":'+'"279955"'+',\n')
@@ -391,6 +393,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Heed My Call ":'+'"271681"'+',\n')
         j.write('\t\t"Incite the Pack ":'+'"280410"'+',\n')
         j.write('\t\t"Laser Matrix ":'+'"280702"'+',\n')
+        j.write('\t\t"Loyal to the End ":'+'"303007"'+',\n')
         j.write('\t\t"Lifespeed":'+'"267665"'+',\n')
         j.write('\t\t"Meticulous Scheming ":'+'"273684"'+',\n')
         j.write('\t\t"On My Way ":'+'"267879"'+',\n')
@@ -412,6 +415,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Tidal Surge ":'+'"280404"'+',\n')
         j.write('\t\t"Tradewinds ":'+'"281843"'+',\n')
         j.write('\t\t"Treacherous Covenant ":'+'"288989"'+',\n')
+        j.write('\t\t"Undulating Tides ":'+'"303008"'+',\n')
         j.write('\t\t"Unstable Catalyst ":'+'"281516"'+',\n')
         j.write('\t\t"Unstable Flames ":'+'"279902"'+',\n')
         j.write('\t\t"Whispers of the Damned ":'+'"275726"'+'\n')
@@ -537,13 +541,14 @@ buildTraitJsonChart(traitsASJson, "traits_AS_C.json", 'composite')
 buildTraitJsonChart(traitsASJson, "traits_AS_ST.json", 'single_target')
 buildTraitJsonChart(traitsASJsonD, "traits_AS_D.json", 'dungeons')
 
+'''
 buildTraitJsonComboChart(traitsSCJson, "traits_SC_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsSCJson, "traits_SC_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsSCJsonD, "traits_SC_D_Combo.json", 'dungeons')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
-
+'''
 #exit()
 
 os.remove(trinketsSCJson)
