@@ -20,28 +20,28 @@ hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
 waist=belt_of_blind_devotion,id=168374,ilevel=445
 legs=priscillas_fishnets,id=168876,ilevel=445
 feet=eelskin_flippers,id=168373,ilevel=445
-finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445
+finger1=cursed_lovers_ring,id=168891,ilevel=445
 finger2=boralus_nobles_seal,id=168889,ilevel=445
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=current_weavers_gavel,id=168904,ilevel=445
+main_hand=scepter_of_the_azshari,id=168903,ilevel=445
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
 # Ring Enchants
-profileset."Ring_Pact_of_Versatility"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_versatility
-profileset."Ring_Pact_of_Mastery"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_mastery
-profileset."Ring_Pact_of_Critical_Strike"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_critical_strike
-profileset."Ring_Pact_of_Haste"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=pact_of_haste
-profileset."Ring_Accord_of_Versatility"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_versatility
-profileset."Ring_Accord_of_Mastery"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_mastery
-profileset."Ring_Accord_of_Critical_Strike"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_critical_strike
-profileset."Ring_Accord_of_Haste"+=finger1=ring_of_the_highborne_courtier,id=168890,ilevel=445,enchant=accord_of_haste
+profileset."Ring_Pact_of_Versatility"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=pact_of_versatility
+profileset."Ring_Pact_of_Mastery"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=pact_of_mastery
+profileset."Ring_Pact_of_Critical_Strike"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=pact_of_critical_strike
+profileset."Ring_Pact_of_Haste"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=pact_of_haste
+profileset."Ring_Accord_of_Versatility"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_versatility
+profileset."Ring_Accord_of_Mastery"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_mastery
+profileset."Ring_Accord_of_Critical_Strike"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_critical_strike
+profileset."Ring_Accord_of_Haste"+=finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_haste
 
 # Weapon Enchants
-profileset."Weapon-Torrent_of_Elements"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=torrent_of_elements
-profileset."Weapon-Deadly_Navigation"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=deadly_navigation
-profileset."Weapon-Quick_Navigation"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=quick_navigation
-profileset."Weapon-Masterful_Navigation"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=masterful_navigation
-profileset."Weapon-Versatile_Navigation"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=versatile_navigation
-profileset."Weapon-Oceanic_Restoration"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=oceanic_restoration
-profileset."Weapon-Machinists_Brilliance"+=main_hand=current_weavers_gavel,id=168904,ilevel=445,enchant=machinists_brilliance
+profileset."Weapon-Torrent_of_Elements"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=torrent_of_elements
+profileset."Weapon-Deadly_Navigation"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=deadly_navigation
+profileset."Weapon-Quick_Navigation"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=quick_navigation
+profileset."Weapon-Masterful_Navigation"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=masterful_navigation
+profileset."Weapon-Versatile_Navigation"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=versatile_navigation
+profileset."Weapon-Oceanic_Restoration"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=oceanic_restoration
+profileset."Weapon-Machinists_Brilliance"+=main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=machinists_brilliance
