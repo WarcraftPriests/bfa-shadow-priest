@@ -193,9 +193,6 @@ profileset."Strife_1"+=azerite_essences=32:1:0
 profileset."Ancient_Flame_1"+=azerite_essences=12:1:0
 
 # Lifeblood
-profileset."Lifeblood_0_Allies_1"+=azerite_essences=4:1:0
-profileset."Lifeblood_0_Allies_1"+=bfa.worldvein_allies=0
-
 profileset."Lifeblood_1_Allies_1"+=azerite_essences=4:1:0
 profileset."Lifeblood_1_Allies_1"+=bfa.worldvein_allies=1
 
@@ -291,9 +288,6 @@ profileset."Strife_2"+=azerite_essences=32:2:0
 profileset."Ancient_Flame_2"+=azerite_essences=12:2:0
 
 # Lifeblood
-profileset."Lifeblood_0_Allies_2"+=azerite_essences=4:2:0
-profileset."Lifeblood_0_Allies_2"+=bfa.worldvein_allies=0
-
 profileset."Lifeblood_1_Allies_2"+=azerite_essences=4:2:0
 profileset."Lifeblood_1_Allies_2"+=bfa.worldvein_allies=1
 
@@ -389,9 +383,6 @@ profileset."Strife_3"+=azerite_essences=32:3:0
 profileset."Ancient_Flame_3"+=azerite_essences=12:3:0
 
 # Lifeblood
-profileset."Lifeblood_0_Allies_3"+=azerite_essences=4:3:0
-profileset."Lifeblood_0_Allies_3"+=bfa.worldvein_allies=0
-
 profileset."Lifeblood_1_Allies_3"+=azerite_essences=4:3:0
 profileset."Lifeblood_1_Allies_3"+=bfa.worldvein_allies=1
 
