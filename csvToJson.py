@@ -376,6 +376,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Bonded Souls ":'+'"288841"'+',\n')
         j.write('\t\t"Champion of Azeroth ":'+'"270583"'+',\n')
         j.write('\t\t"Chorus of Insanity ":'+'"278661"'+',\n')
+        j.write('\t\t"Clockwork Heart ":'+'"300210"'+',\n')
         j.write('\t\t"Collective Will ":'+'"280837"'+',\n')
         j.write('\t\t"Combined Might ":'+'"280848"'+',\n')
         j.write('\t\t"Dagger in the Back Behind ":'+'"280285"'+',\n')
