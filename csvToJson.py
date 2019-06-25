@@ -44,7 +44,6 @@ fieldnames = ('profile', 'actor', 'DPS', 'increase')
 traitList = ['Ancients_Bulwark_',
 'Apothecarys_Concoctions_',
 'Arcane_Heart_',
-'Archive_of_the_Titans_',
 'Barrage_Of_Many_Bombs_',
 'Battlefield_Focus_',
 'Blightborne_Infusion_',
@@ -541,14 +540,14 @@ buildTraitJsonChart(traitsASJson, "traits_AS_C.json", 'composite')
 buildTraitJsonChart(traitsASJson, "traits_AS_ST.json", 'single_target')
 buildTraitJsonChart(traitsASJsonD, "traits_AS_D.json", 'dungeons')
 
-'''
+
 buildTraitJsonComboChart(traitsSCJson, "traits_SC_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsSCJson, "traits_SC_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsSCJsonD, "traits_SC_D_Combo.json", 'dungeons')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
-'''
+
 #exit()
 
 os.remove(trinketsSCJson)
