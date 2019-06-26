@@ -1,1276 +1,1276 @@
 [
   {
-    "": "",
+    "profile": "composite",
+    "increase": "10.61%",
+    "DPS": "42415",
     "actor": "Memory_of_Lucid_Dreams_3",
-    "profile": "composite",
-    "increase": "10.60%",
-    "DPS": "42411"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "8.76%",
+    "DPS": "41709",
     "actor": "Guardian_of_Azeroth_3",
-    "profile": "composite",
-    "increase": "8.54%",
-    "DPS": "41623"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Memory_of_Lucid_Dreams_2",
     "profile": "composite",
     "increase": "8.15%",
-    "DPS": "41473"
+    "DPS": "41472",
+    "actor": "Memory_of_Lucid_Dreams_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "7.71%",
+    "DPS": "41303",
     "actor": "Focused_Azerite_Beam_3",
-    "profile": "composite",
-    "increase": "7.67%",
-    "DPS": "41288"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "7.48%",
+    "DPS": "41216",
     "actor": "Focused_Azerite_Beam_2",
-    "profile": "composite",
-    "increase": "7.43%",
-    "DPS": "41197"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "7.15%",
+    "DPS": "41091",
     "actor": "Memory_of_Lucid_Dreams_1",
-    "profile": "composite",
-    "increase": "7.16%",
-    "DPS": "41091"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "5.98%",
+    "DPS": "40642",
     "actor": "Blood_of_the_Enemy_100_Uptime_3",
-    "profile": "composite",
-    "increase": "6.25%",
-    "DPS": "40742"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_75_Uptime_3",
     "profile": "composite",
-    "increase": "5.65%",
-    "DPS": "40514"
-  },
-  {
-    "": "",
+    "increase": "5.39%",
+    "DPS": "40416",
     "actor": "Focused_Azerite_Beam_1",
-    "profile": "composite",
-    "increase": "5.37%",
-    "DPS": "40407"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "5.39%",
+    "DPS": "40415",
+    "actor": "Blood_of_the_Enemy_75_Uptime_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "5.12%",
+    "DPS": "40313",
     "actor": "Lucid_Dreams_3",
-    "profile": "composite",
-    "increase": "5.15%",
-    "DPS": "40323"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "4.82%",
+    "DPS": "40196",
     "actor": "Blood_of_the_Enemy_100_Uptime_2",
-    "profile": "composite",
-    "increase": "5.06%",
-    "DPS": "40288"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "4.71%",
+    "DPS": "40154",
     "actor": "Blood_of_the_Enemy_50_Uptime_3",
-    "profile": "composite",
-    "increase": "4.95%",
-    "DPS": "40245"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Focused_Energy_3",
-    "profile": "composite",
-    "increase": "4.64%",
-    "DPS": "40126"
-  },
-  {
-    "": "",
-    "actor": "Lifeblood_4_Allies_3",
     "profile": "composite",
     "increase": "4.57%",
-    "DPS": "40099"
+    "DPS": "40101",
+    "actor": "Lifeblood_4_Allies_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "4.55%",
+    "DPS": "40093",
+    "actor": "Focused_Energy_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "4.46%",
+    "DPS": "40057",
     "actor": "Focused_Energy_2",
-    "profile": "composite",
-    "increase": "4.56%",
-    "DPS": "40094"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_75_Uptime_2",
     "profile": "composite",
-    "increase": "4.53%",
-    "DPS": "40085"
-  },
-  {
-    "": "",
+    "increase": "4.44%",
+    "DPS": "40052",
     "actor": "Lifeblood_3_Allies_3",
-    "profile": "composite",
-    "increase": "4.48%",
-    "DPS": "40064"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_4_Allies_2",
+    "profile": "composite",
+    "increase": "4.34%",
+    "DPS": "40014",
+    "actor": "Concentrated_Flame_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "4.32%",
+    "DPS": "40005",
+    "actor": "Ancient_Flame_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "4.32%",
+    "DPS": "40005",
+    "actor": "Blood_of_the_Enemy_75_Uptime_2",
+    "": ""
+  },
+  {
     "profile": "composite",
     "increase": "4.20%",
-    "DPS": "39957"
+    "DPS": "39958",
+    "actor": "Lifeblood_4_Allies_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "4.10%",
+    "DPS": "39920",
     "actor": "Lifeblood_2_Allies_3",
-    "profile": "composite",
-    "increase": "4.11%",
-    "DPS": "39924"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_50_Uptime_2",
     "profile": "composite",
-    "increase": "3.92%",
-    "DPS": "39849"
-  },
-  {
-    "": "",
+    "increase": "3.78%",
+    "DPS": "39799",
     "actor": "Lifeblood_3_Allies_2",
-    "profile": "composite",
-    "increase": "3.80%",
-    "DPS": "39803"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_100_Uptime_1",
     "profile": "composite",
-    "increase": "3.76%",
-    "DPS": "39789"
-  },
-  {
-    "": "",
+    "increase": "3.74%",
+    "DPS": "39784",
     "actor": "Guardian_of_Azeroth_2",
-    "profile": "composite",
-    "increase": "3.76%",
-    "DPS": "39787"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Conflict_3",
+    "profile": "composite",
+    "increase": "3.70%",
+    "DPS": "39768",
+    "actor": "Blood_of_the_Enemy_50_Uptime_2",
+    "": ""
+  },
+  {
     "profile": "composite",
     "increase": "3.65%",
-    "DPS": "39746"
+    "DPS": "39747",
+    "actor": "Conflict_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.63%",
+    "DPS": "39741",
     "actor": "Strife_3",
-    "profile": "composite",
-    "increase": "3.64%",
-    "DPS": "39742"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.48%",
+    "DPS": "39683",
+    "actor": "Blood_of_the_Enemy_100_Uptime_1",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "3.34%",
+    "DPS": "39631",
     "actor": "Blood_Soaked_3",
-    "profile": "composite",
-    "increase": "3.55%",
-    "DPS": "39709"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_Soaked_2",
-    "profile": "composite",
-    "increase": "3.35%",
-    "DPS": "39632"
-  },
-  {
-    "": "",
-    "actor": "Ancient_Flame_3",
-    "profile": "composite",
-    "increase": "3.22%",
-    "DPS": "39581"
-  },
-  {
-    "": "",
-    "actor": "Concentrated_Flame_3",
-    "profile": "composite",
-    "increase": "3.22%",
-    "DPS": "39580"
-  },
-  {
-    "": "",
-    "actor": "Reckless_Force_3",
     "profile": "composite",
     "increase": "3.16%",
-    "DPS": "39557"
+    "DPS": "39561",
+    "actor": "Condensed_Life_Force_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Condensed_Life_Force_3",
     "profile": "composite",
     "increase": "3.15%",
-    "DPS": "39555"
+    "DPS": "39558",
+    "actor": "Blood_Soaked_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.15%",
+    "DPS": "39556",
+    "actor": "Reckless_Force_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "3.12%",
+    "DPS": "39545",
     "actor": "Worldvein_Resonance_4_Allies_3",
-    "profile": "composite",
-    "increase": "3.13%",
-    "DPS": "39547"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.10%",
+    "DPS": "39536",
     "actor": "Lifeblood_1_Allies_3",
-    "profile": "composite",
-    "increase": "3.13%",
-    "DPS": "39545"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.07%",
+    "DPS": "39527",
     "actor": "Lifeblood_4_Allies_1",
-    "profile": "composite",
-    "increase": "3.11%",
-    "DPS": "39538"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "3.07%",
+    "DPS": "39524",
     "actor": "Worldvein_Resonance_3_Allies_3",
-    "profile": "composite",
-    "increase": "3.09%",
-    "DPS": "39532"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purifying_Blast_3",
-    "profile": "composite",
-    "increase": "3.08%",
-    "DPS": "39529"
-  },
-  {
-    "": "",
-    "actor": "Focused_Energy_1",
     "profile": "composite",
     "increase": "3.06%",
-    "DPS": "39519"
+    "DPS": "39523",
+    "actor": "Purifying_Blast_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_75_Uptime_1",
     "profile": "composite",
-    "increase": "3.03%",
-    "DPS": "39509"
+    "increase": "3.00%",
+    "DPS": "39497",
+    "actor": "Focused_Energy_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "The_Unbound_Force_3",
     "profile": "composite",
-    "increase": "2.91%",
-    "DPS": "39461"
-  },
-  {
-    "": "",
+    "increase": "2.92%",
+    "DPS": "39466",
     "actor": "Worldvein_Resonance_4_Allies_2",
-    "profile": "composite",
-    "increase": "2.90%",
-    "DPS": "39458"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.88%",
+    "DPS": "39453",
+    "actor": "The_Unbound_Force_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "2.88%",
+    "DPS": "39452",
     "actor": "Lucid_Dreams_1",
-    "profile": "composite",
-    "increase": "2.89%",
-    "DPS": "39455"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.87%",
+    "DPS": "39450",
     "actor": "Lucid_Dreams_2",
-    "profile": "composite",
-    "increase": "2.86%",
-    "DPS": "39444"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_2_Allies_2",
     "profile": "composite",
     "increase": "2.85%",
-    "DPS": "39440"
+    "DPS": "39440",
+    "actor": "Lifeblood_2_Allies_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.81%",
+    "DPS": "39425",
     "actor": "Worldvein_Resonance_2_Allies_3",
-    "profile": "composite",
-    "increase": "2.83%",
-    "DPS": "39431"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_3_Allies_2",
     "profile": "composite",
-    "increase": "2.62%",
-    "DPS": "39350"
+    "increase": "2.78%",
+    "DPS": "39415",
+    "actor": "Blood_of_the_Enemy_75_Uptime_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purifying_Blast_2",
-    "profile": "composite",
-    "increase": "2.62%",
-    "DPS": "39350"
-  },
-  {
-    "": "",
-    "actor": "Purifying_Blast_1",
     "profile": "composite",
     "increase": "2.61%",
-    "DPS": "39348"
+    "DPS": "39350",
+    "actor": "Purifying_Blast_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_3_Allies_1",
+    "profile": "composite",
+    "increase": "2.61%",
+    "DPS": "39349",
+    "actor": "Purifying_Blast_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "2.60%",
+    "DPS": "39345",
+    "actor": "Worldvein_Resonance_3_Allies_2",
+    "": ""
+  },
+  {
     "profile": "composite",
     "increase": "2.57%",
-    "DPS": "39334"
+    "DPS": "39332",
+    "actor": "Lifeblood_3_Allies_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.52%",
+    "DPS": "39316",
     "actor": "Guardian_of_Azeroth_1",
-    "profile": "composite",
-    "increase": "2.54%",
-    "DPS": "39320"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.49%",
+    "DPS": "39303",
+    "actor": "Concentrated_Flame_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "2.48%",
+    "DPS": "39297",
+    "actor": "Ancient_Flame_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "2.43%",
+    "DPS": "39279",
     "actor": "Strife_2",
-    "profile": "composite",
-    "increase": "2.42%",
-    "DPS": "39276"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Reckless_Force_2",
     "profile": "composite",
     "increase": "2.42%",
-    "DPS": "39273"
-  },
-  {
-    "": "",
+    "DPS": "39277",
     "actor": "Conflict_2",
-    "profile": "composite",
-    "increase": "2.41%",
-    "DPS": "39272"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "2.39%",
+    "DPS": "39263",
+    "actor": "Reckless_Force_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "2.34%",
+    "DPS": "39246",
     "actor": "Purification_Protocol_3",
-    "profile": "composite",
-    "increase": "2.33%",
-    "DPS": "39238"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_50_Uptime_1",
     "profile": "composite",
-    "increase": "2.28%",
-    "DPS": "39223"
-  },
-  {
-    "": "",
+    "increase": "2.12%",
+    "DPS": "39161",
     "actor": "Worldvein_Resonance_1_Allies_3",
-    "profile": "composite",
-    "increase": "2.13%",
-    "DPS": "39163"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_2_Allies_1",
     "profile": "composite",
-    "increase": "1.95%",
-    "DPS": "39093"
+    "increase": "2.05%",
+    "DPS": "39136",
+    "actor": "Blood_of_the_Enemy_50_Uptime_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "1.93%",
+    "DPS": "39087",
     "actor": "Worldvein_Resonance_2_Allies_2",
-    "profile": "composite",
-    "increase": "1.94%",
-    "DPS": "39090"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_1_Allies_2",
     "profile": "composite",
     "increase": "1.92%",
-    "DPS": "39082"
+    "DPS": "39084",
+    "actor": "Lifeblood_2_Allies_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purification_Protocol_2",
     "profile": "composite",
     "increase": "1.89%",
-    "DPS": "39071"
+    "DPS": "39074",
+    "actor": "Lifeblood_1_Allies_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_4_Allies_1",
-    "profile": "composite",
-    "increase": "1.88%",
-    "DPS": "39069"
-  },
-  {
-    "": "",
-    "actor": "Reckless_Force_1",
-    "profile": "composite",
-    "increase": "1.88%",
-    "DPS": "39067"
-  },
-  {
-    "": "",
-    "actor": "Condensed_Life_Force_2",
     "profile": "composite",
     "increase": "1.87%",
-    "DPS": "39063"
+    "DPS": "39064",
+    "actor": "Reckless_Force_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "1.85%",
+    "DPS": "39058",
+    "actor": "Purification_Protocol_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.85%",
+    "DPS": "39058",
+    "actor": "Condensed_Life_Force_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.85%",
+    "DPS": "39058",
     "actor": "Purification_Protocol_1",
-    "profile": "composite",
-    "increase": "1.85%",
-    "DPS": "39058"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Concentrated_Flame_2",
     "profile": "composite",
     "increase": "1.85%",
-    "DPS": "39056"
+    "DPS": "39056",
+    "actor": "Concentrated_Flame_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Ancient_Flame_2",
     "profile": "composite",
     "increase": "1.84%",
-    "DPS": "39051"
+    "DPS": "39055",
+    "actor": "Worldvein_Resonance_4_Allies_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "The_Unbound_Force_2",
     "profile": "composite",
-    "increase": "1.52%",
-    "DPS": "38931"
+    "increase": "1.83%",
+    "DPS": "39050",
+    "actor": "Ancient_Flame_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_Soaked_1",
     "profile": "composite",
     "increase": "1.51%",
-    "DPS": "38924"
-  },
-  {
-    "": "",
-    "actor": "Conflict_1",
-    "profile": "composite",
-    "increase": "1.50%",
-    "DPS": "38923"
-  },
-  {
-    "": "",
+    "DPS": "38927",
     "actor": "Strife_1",
-    "profile": "composite",
-    "increase": "1.50%",
-    "DPS": "38920"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Condensed_Life_Force_1",
+    "profile": "composite",
+    "increase": "1.50%",
+    "DPS": "38923",
+    "actor": "The_Unbound_Force_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.49%",
+    "DPS": "38920",
+    "actor": "Conflict_1",
+    "": ""
+  },
+  {
     "profile": "composite",
     "increase": "1.48%",
-    "DPS": "38916"
+    "DPS": "38917",
+    "actor": "Condensed_Life_Force_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "1.41%",
+    "DPS": "38890",
     "actor": "Worldvein_Resonance_3_Allies_1",
-    "profile": "composite",
-    "increase": "1.42%",
-    "DPS": "38893"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Ancient_Flame_1",
     "profile": "composite",
-    "increase": "1.37%",
-    "DPS": "38872"
-  },
-  {
-    "": "",
-    "actor": "Concentrated_Flame_1",
-    "profile": "composite",
-    "increase": "1.37%",
-    "DPS": "38871"
-  },
-  {
-    "": "",
-    "actor": "The_Unbound_Force_1",
-    "profile": "composite",
-    "increase": "1.32%",
-    "DPS": "38852"
-  },
-  {
-    "": "",
+    "increase": "1.29%",
+    "DPS": "38843",
     "actor": "Lifeblood_1_Allies_1",
-    "profile": "composite",
-    "increase": "1.28%",
-    "DPS": "38836"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_1_Allies_2",
+    "profile": "composite",
+    "increase": "1.29%",
+    "DPS": "38842",
+    "actor": "The_Unbound_Force_1",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.25%",
+    "DPS": "38828",
+    "actor": "Ripple_in_Space_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.25%",
+    "DPS": "38825",
+    "actor": "Ripple_in_Space_3",
+    "": ""
+  },
+  {
     "profile": "composite",
     "increase": "1.24%",
-    "DPS": "38823"
+    "DPS": "38825",
+    "actor": "Blood_Soaked_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "1.22%",
+    "DPS": "38816",
+    "actor": "Worldvein_Resonance_1_Allies_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "1.13%",
+    "DPS": "38780",
     "actor": "Vision_of_Perfection_3",
-    "profile": "composite",
-    "increase": "1.14%",
-    "DPS": "38785"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "1.00%",
+    "DPS": "38731",
     "actor": "Worldvein_Resonance_0_Allies_3",
-    "profile": "composite",
-    "increase": "1.02%",
-    "DPS": "38739"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Ripple_in_Space_3",
     "profile": "composite",
-    "increase": "0.97%",
-    "DPS": "38720"
-  },
-  {
-    "": "",
-    "actor": "Ripple_in_Space_2",
-    "profile": "composite",
-    "increase": "0.97%",
-    "DPS": "38718"
-  },
-  {
-    "": "",
-    "actor": "Strive_for_Perfection_3",
-    "profile": "composite",
-    "increase": "0.92%",
-    "DPS": "38698"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_2_Allies_1",
-    "profile": "composite",
-    "increase": "0.86%",
-    "DPS": "38677"
-  },
-  {
-    "": "",
+    "increase": "0.91%",
+    "DPS": "38698",
     "actor": "Ripple_in_Space_1",
-    "profile": "composite",
-    "increase": "0.62%",
-    "DPS": "38585"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "0.89%",
+    "DPS": "38691",
+    "actor": "Strive_for_Perfection_3",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "0.84%",
+    "DPS": "38671",
+    "actor": "Worldvein_Resonance_2_Allies_1",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "0.50%",
+    "DPS": "38540",
     "actor": "Worldvein_Resonance_0_Allies_2",
-    "profile": "composite",
-    "increase": "0.51%",
-    "DPS": "38541"
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "0.27%",
+    "DPS": "38451",
     "actor": "Worldvein_Resonance_1_Allies_1",
-    "profile": "composite",
-    "increase": "0.24%",
-    "DPS": "38440"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Vision_of_Perfection_2",
-    "profile": "composite",
-    "increase": "0.02%",
-    "DPS": "38352"
-  },
-  {
-    "": "",
-    "actor": "Vision_of_Perfection_1",
-    "profile": "composite",
-    "increase": "0.01%",
-    "DPS": "38352"
-  },
-  {
-    "": "",
-    "actor": "Strive_for_Perfection_2",
-    "profile": "composite",
-    "increase": "0.01%",
-    "DPS": "38351"
-  },
-  {
-    "": "",
-    "actor": "Strive_for_Perfection_1",
-    "profile": "composite",
-    "increase": "0.01%",
-    "DPS": "38351"
-  },
-  {
-    "": "",
-    "actor": "Base",
     "profile": "composite",
     "increase": "0.00%",
-    "DPS": "38347"
+    "DPS": "38349",
+    "actor": "Vision_of_Perfection_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_0_Allies_1",
     "profile": "composite",
-    "increase": "-0.38%",
-    "DPS": "38202"
+    "increase": "0.00%",
+    "DPS": "38348",
+    "actor": "Base",
+    "": ""
   },
   {
-    "": "",
+    "profile": "composite",
+    "increase": "-0.01%",
+    "DPS": "38344",
+    "actor": "Strive_for_Perfection_1",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "-0.01%",
+    "DPS": "38343",
+    "actor": "Strive_for_Perfection_2",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "-0.02%",
+    "DPS": "38341",
+    "actor": "Vision_of_Perfection_1",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "increase": "-0.39%",
+    "DPS": "38199",
+    "actor": "Worldvein_Resonance_0_Allies_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "10.24%",
+    "DPS": "37293",
     "actor": "Memory_of_Lucid_Dreams_3",
-    "profile": "single_target",
-    "increase": "10.27%",
-    "DPS": "37287"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "9.54%",
+    "DPS": "37055",
     "actor": "Guardian_of_Azeroth_3",
-    "profile": "single_target",
-    "increase": "9.33%",
-    "DPS": "36970"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "7.74%",
+    "DPS": "36446",
     "actor": "Memory_of_Lucid_Dreams_2",
-    "profile": "single_target",
-    "increase": "7.82%",
-    "DPS": "36460"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "6.63%",
+    "DPS": "36072",
     "actor": "Memory_of_Lucid_Dreams_1",
-    "profile": "single_target",
-    "increase": "6.66%",
-    "DPS": "36068"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "5.60%",
+    "DPS": "35723",
     "actor": "Blood_of_the_Enemy_100_Uptime_3",
-    "profile": "single_target",
-    "increase": "5.92%",
-    "DPS": "35816"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "5.17%",
+    "DPS": "35576",
     "actor": "Blood_of_the_Enemy_75_Uptime_3",
-    "profile": "single_target",
-    "increase": "5.47%",
-    "DPS": "35664"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Focused_Azerite_Beam_3",
     "profile": "single_target",
-    "increase": "5.14%",
-    "DPS": "35552"
+    "increase": "5.08%",
+    "DPS": "35547",
+    "actor": "Concentrated_Flame_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "5.05%",
+    "DPS": "35536",
     "actor": "Lucid_Dreams_3",
-    "profile": "single_target",
-    "increase": "5.12%",
-    "DPS": "35548"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_50_Uptime_3",
     "profile": "single_target",
-    "increase": "4.82%",
-    "DPS": "35446"
+    "increase": "5.04%",
+    "DPS": "35535",
+    "actor": "Focused_Azerite_Beam_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Focused_Energy_2",
     "profile": "single_target",
-    "increase": "4.79%",
-    "DPS": "35434"
+    "increase": "5.04%",
+    "DPS": "35534",
+    "actor": "Ancient_Flame_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_100_Uptime_2",
     "profile": "single_target",
-    "increase": "4.78%",
-    "DPS": "35431"
-  },
-  {
-    "": "",
-    "actor": "Focused_Energy_3",
-    "profile": "single_target",
-    "increase": "4.78%",
-    "DPS": "35430"
-  },
-  {
-    "": "",
+    "increase": "4.72%",
+    "DPS": "35427",
     "actor": "Focused_Azerite_Beam_2",
-    "profile": "single_target",
-    "increase": "4.75%",
-    "DPS": "35422"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_4_Allies_3",
+    "profile": "single_target",
+    "increase": "4.72%",
+    "DPS": "35424",
+    "actor": "Focused_Energy_3",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "4.68%",
+    "DPS": "35412",
+    "actor": "Focused_Energy_2",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "4.53%",
-    "DPS": "35347"
+    "DPS": "35360",
+    "actor": "Blood_of_the_Enemy_50_Uptime_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_3_Allies_3",
+    "profile": "single_target",
+    "increase": "4.46%",
+    "DPS": "35338",
+    "actor": "Lifeblood_4_Allies_3",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "4.41%",
-    "DPS": "35307"
+    "DPS": "35320",
+    "actor": "Blood_of_the_Enemy_100_Uptime_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_75_Uptime_2",
     "profile": "single_target",
-    "increase": "4.38%",
-    "DPS": "35295"
+    "increase": "4.35%",
+    "DPS": "35299",
+    "actor": "Lifeblood_3_Allies_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "4.20%",
+    "DPS": "35248",
     "actor": "Guardian_of_Azeroth_2",
-    "profile": "single_target",
-    "increase": "4.27%",
-    "DPS": "35258"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "4.13%",
+    "DPS": "35226",
     "actor": "Lifeblood_4_Allies_2",
-    "profile": "single_target",
-    "increase": "4.15%",
-    "DPS": "35219"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "4.09%",
+    "DPS": "35212",
+    "actor": "Blood_of_the_Enemy_75_Uptime_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "4.03%",
+    "DPS": "35193",
     "actor": "Lifeblood_2_Allies_3",
-    "profile": "single_target",
-    "increase": "4.04%",
-    "DPS": "35181"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_100_Uptime_1",
     "profile": "single_target",
-    "increase": "3.83%",
-    "DPS": "35108"
-  },
-  {
-    "": "",
-    "actor": "Blood_of_the_Enemy_50_Uptime_2",
-    "profile": "single_target",
-    "increase": "3.82%",
-    "DPS": "35106"
-  },
-  {
-    "": "",
-    "actor": "Concentrated_Flame_3",
-    "profile": "single_target",
-    "increase": "3.78%",
-    "DPS": "35092"
-  },
-  {
-    "": "",
-    "actor": "Ancient_Flame_3",
-    "profile": "single_target",
-    "increase": "3.76%",
-    "DPS": "35087"
-  },
-  {
-    "": "",
-    "actor": "Lifeblood_3_Allies_2",
-    "profile": "single_target",
-    "increase": "3.76%",
-    "DPS": "35086"
-  },
-  {
-    "": "",
+    "increase": "3.72%",
+    "DPS": "35088",
     "actor": "Condensed_Life_Force_3",
-    "profile": "single_target",
-    "increase": "3.69%",
-    "DPS": "35063"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Strife_3",
     "profile": "single_target",
-    "increase": "3.62%",
-    "DPS": "35038"
+    "increase": "3.72%",
+    "DPS": "35086",
+    "actor": "Lifeblood_3_Allies_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "3.60%",
+    "DPS": "35046",
     "actor": "Conflict_3",
-    "profile": "single_target",
-    "increase": "3.62%",
-    "DPS": "35038"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_Soaked_3",
     "profile": "single_target",
-    "increase": "3.43%",
-    "DPS": "34976"
+    "increase": "3.59%",
+    "DPS": "35042",
+    "actor": "Strife_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_Soaked_2",
     "profile": "single_target",
-    "increase": "3.28%",
-    "DPS": "34925"
+    "increase": "3.51%",
+    "DPS": "35015",
+    "actor": "Blood_of_the_Enemy_50_Uptime_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "The_Unbound_Force_3",
+    "profile": "single_target",
+    "increase": "3.51%",
+    "DPS": "35015",
+    "actor": "Blood_of_the_Enemy_100_Uptime_1",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "3.18%",
-    "DPS": "34889"
+    "DPS": "34905",
+    "actor": "Blood_Soaked_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "3.11%",
+    "DPS": "34882",
     "actor": "Focused_Energy_1",
-    "profile": "single_target",
-    "increase": "3.17%",
-    "DPS": "34885"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_1_Allies_3",
     "profile": "single_target",
-    "increase": "3.10%",
-    "DPS": "34863"
+    "increase": "3.09%",
+    "DPS": "34875",
+    "actor": "The_Unbound_Force_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "3.05%",
+    "DPS": "34862",
     "actor": "Worldvein_Resonance_4_Allies_3",
-    "profile": "single_target",
-    "increase": "3.08%",
-    "DPS": "34857"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_4_Allies_1",
-    "profile": "single_target",
-    "increase": "3.06%",
-    "DPS": "34851"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_3_Allies_3",
-    "profile": "single_target",
-    "increase": "3.06%",
-    "DPS": "34848"
-  },
-  {
-    "": "",
-    "actor": "Reckless_Force_3",
     "profile": "single_target",
     "increase": "3.03%",
-    "DPS": "34841"
+    "DPS": "34854",
+    "actor": "Lifeblood_1_Allies_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_of_the_Enemy_75_Uptime_1",
     "profile": "single_target",
-    "increase": "3.01%",
-    "DPS": "34832"
+    "increase": "3.02%",
+    "DPS": "34851",
+    "actor": "Blood_Soaked_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "3.00%",
+    "DPS": "34842",
+    "actor": "Worldvein_Resonance_3_Allies_3",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.98%",
+    "DPS": "34837",
+    "actor": "Lifeblood_4_Allies_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.96%",
+    "DPS": "34832",
+    "actor": "Reckless_Force_3",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.94%",
+    "DPS": "34825",
     "actor": "Guardian_of_Azeroth_1",
-    "profile": "single_target",
-    "increase": "2.97%",
-    "DPS": "34820"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_4_Allies_2",
     "profile": "single_target",
     "increase": "2.86%",
-    "DPS": "34782"
+    "DPS": "34795",
+    "actor": "Worldvein_Resonance_4_Allies_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_2_Allies_2",
-    "profile": "single_target",
-    "increase": "2.81%",
-    "DPS": "34765"
-  },
-  {
-    "": "",
-    "actor": "Focused_Azerite_Beam_1",
-    "profile": "single_target",
-    "increase": "2.81%",
-    "DPS": "34765"
-  },
-  {
-    "": "",
-    "actor": "Lucid_Dreams_1",
-    "profile": "single_target",
-    "increase": "2.80%",
-    "DPS": "34761"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_2_Allies_3",
     "profile": "single_target",
     "increase": "2.77%",
-    "DPS": "34750"
+    "DPS": "34767",
+    "actor": "Lifeblood_2_Allies_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lucid_Dreams_2",
     "profile": "single_target",
     "increase": "2.76%",
-    "DPS": "34746"
+    "DPS": "34763",
+    "actor": "Lucid_Dreams_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_3_Allies_2",
     "profile": "single_target",
-    "increase": "2.59%",
-    "DPS": "34691"
+    "increase": "2.75%",
+    "DPS": "34758",
+    "actor": "Worldvein_Resonance_2_Allies_3",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_3_Allies_1",
     "profile": "single_target",
-    "increase": "2.55%",
-    "DPS": "34675"
+    "increase": "2.74%",
+    "DPS": "34755",
+    "actor": "Focused_Azerite_Beam_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Strife_2",
     "profile": "single_target",
-    "increase": "2.42%",
-    "DPS": "34631"
+    "increase": "2.73%",
+    "DPS": "34752",
+    "actor": "Lucid_Dreams_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Conflict_2",
     "profile": "single_target",
-    "increase": "2.40%",
-    "DPS": "34626"
+    "increase": "2.69%",
+    "DPS": "34737",
+    "actor": "Blood_of_the_Enemy_75_Uptime_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Reckless_Force_2",
     "profile": "single_target",
-    "increase": "2.32%",
-    "DPS": "34600"
-  },
-  {
-    "": "",
-    "actor": "Blood_of_the_Enemy_50_Uptime_1",
-    "profile": "single_target",
-    "increase": "2.21%",
-    "DPS": "34563"
-  },
-  {
-    "": "",
-    "actor": "Purifying_Blast_3",
-    "profile": "single_target",
-    "increase": "2.19%",
-    "DPS": "34556"
-  },
-  {
-    "": "",
-    "actor": "Condensed_Life_Force_2",
-    "profile": "single_target",
-    "increase": "2.14%",
-    "DPS": "34538"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_1_Allies_3",
-    "profile": "single_target",
-    "increase": "2.10%",
-    "DPS": "34523"
-  },
-  {
-    "": "",
+    "increase": "2.67%",
+    "DPS": "34731",
     "actor": "Concentrated_Flame_2",
-    "profile": "single_target",
-    "increase": "2.00%",
-    "DPS": "34491"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "2.63%",
+    "DPS": "34718",
     "actor": "Ancient_Flame_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.54%",
+    "DPS": "34688",
+    "actor": "Worldvein_Resonance_3_Allies_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.51%",
+    "DPS": "34677",
+    "actor": "Lifeblood_3_Allies_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.39%",
+    "DPS": "34636",
+    "actor": "Conflict_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.35%",
+    "DPS": "34625",
+    "actor": "Strife_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.22%",
+    "DPS": "34580",
+    "actor": "Reckless_Force_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.12%",
+    "DPS": "34547",
+    "actor": "Purifying_Blast_3",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.07%",
+    "DPS": "34527",
+    "actor": "Condensed_Life_Force_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "2.06%",
+    "DPS": "34525",
+    "actor": "Worldvein_Resonance_1_Allies_3",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "1.97%",
-    "DPS": "34481"
+    "DPS": "34494",
+    "actor": "Concentrated_Flame_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_2_Allies_1",
     "profile": "single_target",
-    "increase": "1.94%",
-    "DPS": "34470"
+    "increase": "1.93%",
+    "DPS": "34481",
+    "actor": "Ancient_Flame_1",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.93%",
+    "DPS": "34481",
+    "actor": "Blood_of_the_Enemy_50_Uptime_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "1.87%",
+    "DPS": "34461",
     "actor": "Worldvein_Resonance_2_Allies_2",
-    "profile": "single_target",
-    "increase": "1.92%",
-    "DPS": "34464"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Lifeblood_1_Allies_2",
-    "profile": "single_target",
-    "increase": "1.91%",
-    "DPS": "34461"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_4_Allies_1",
     "profile": "single_target",
     "increase": "1.86%",
-    "DPS": "34444"
+    "DPS": "34458",
+    "actor": "Lifeblood_2_Allies_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purification_Protocol_3",
-    "profile": "single_target",
-    "increase": "1.84%",
-    "DPS": "34436"
-  },
-  {
-    "": "",
-    "actor": "Purifying_Blast_2",
     "profile": "single_target",
     "increase": "1.83%",
-    "DPS": "34434"
+    "DPS": "34448",
+    "actor": "Lifeblood_1_Allies_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.80%",
+    "DPS": "34436",
+    "actor": "Purifying_Blast_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "1.79%",
+    "DPS": "34434",
     "actor": "Purifying_Blast_1",
-    "profile": "single_target",
-    "increase": "1.81%",
-    "DPS": "34426"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Reckless_Force_1",
     "profile": "single_target",
-    "increase": "1.76%",
-    "DPS": "34409"
+    "increase": "1.78%",
+    "DPS": "34431",
+    "actor": "Worldvein_Resonance_4_Allies_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "The_Unbound_Force_2",
+    "profile": "single_target",
+    "increase": "1.75%",
+    "DPS": "34422",
+    "actor": "Purification_Protocol_3",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "1.72%",
-    "DPS": "34398"
+    "DPS": "34409",
+    "actor": "Reckless_Force_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Condensed_Life_Force_1",
     "profile": "single_target",
     "increase": "1.69%",
-    "DPS": "34386"
+    "DPS": "34402",
+    "actor": "Condensed_Life_Force_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Strife_1",
     "profile": "single_target",
-    "increase": "1.53%",
-    "DPS": "34332"
+    "increase": "1.66%",
+    "DPS": "34390",
+    "actor": "The_Unbound_Force_2",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purification_Protocol_2",
-    "profile": "single_target",
-    "increase": "1.50%",
-    "DPS": "34321"
-  },
-  {
-    "": "",
-    "actor": "Conflict_1",
-    "profile": "single_target",
-    "increase": "1.49%",
-    "DPS": "34318"
-  },
-  {
-    "": "",
-    "actor": "Concentrated_Flame_1",
-    "profile": "single_target",
-    "increase": "1.48%",
-    "DPS": "34316"
-  },
-  {
-    "": "",
-    "actor": "Ancient_Flame_1",
     "profile": "single_target",
     "increase": "1.47%",
-    "DPS": "34313"
+    "DPS": "34327",
+    "actor": "Strife_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Blood_Soaked_1",
     "profile": "single_target",
-    "increase": "1.43%",
-    "DPS": "34299"
+    "increase": "1.45%",
+    "DPS": "34321",
+    "actor": "Conflict_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Purification_Protocol_1",
-    "profile": "single_target",
-    "increase": "1.43%",
-    "DPS": "34297"
-  },
-  {
-    "": "",
-    "actor": "The_Unbound_Force_1",
     "profile": "single_target",
     "increase": "1.42%",
-    "DPS": "34293"
+    "DPS": "34310",
+    "actor": "Purification_Protocol_2",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.42%",
+    "DPS": "34308",
+    "actor": "Purification_Protocol_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "1.38%",
+    "DPS": "34297",
     "actor": "Worldvein_Resonance_3_Allies_1",
-    "profile": "single_target",
-    "increase": "1.40%",
-    "DPS": "34289"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.33%",
+    "DPS": "34279",
+    "actor": "The_Unbound_Force_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "1.26%",
+    "DPS": "34256",
     "actor": "Lifeblood_1_Allies_1",
-    "profile": "single_target",
-    "increase": "1.28%",
-    "DPS": "34247"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.18%",
+    "DPS": "34227",
     "actor": "Worldvein_Resonance_1_Allies_2",
-    "profile": "single_target",
-    "increase": "1.24%",
-    "DPS": "34234"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.11%",
+    "DPS": "34204",
+    "actor": "Blood_Soaked_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "1.10%",
+    "DPS": "34202",
     "actor": "Vision_of_Perfection_3",
-    "profile": "single_target",
-    "increase": "1.16%",
-    "DPS": "34206"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_0_Allies_3",
     "profile": "single_target",
-    "increase": "1.03%",
-    "DPS": "34161"
-  },
-  {
-    "": "",
-    "actor": "Strive_for_Perfection_3",
-    "profile": "single_target",
-    "increase": "0.94%",
-    "DPS": "34132"
-  },
-  {
-    "": "",
-    "actor": "Worldvein_Resonance_2_Allies_1",
-    "profile": "single_target",
-    "increase": "0.83%",
-    "DPS": "34097"
-  },
-  {
-    "": "",
+    "increase": "1.00%",
+    "DPS": "34169",
     "actor": "Ripple_in_Space_2",
-    "profile": "single_target",
-    "increase": "0.79%",
-    "DPS": "34083"
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "1.00%",
+    "DPS": "34166",
     "actor": "Ripple_in_Space_3",
-    "profile": "single_target",
-    "increase": "0.77%",
-    "DPS": "34076"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_0_Allies_2",
     "profile": "single_target",
-    "increase": "0.50%",
-    "DPS": "33983"
+    "increase": "0.98%",
+    "DPS": "34160",
+    "actor": "Worldvein_Resonance_0_Allies_3",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "0.88%",
+    "DPS": "34125",
+    "actor": "Strive_for_Perfection_3",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "0.82%",
+    "DPS": "34107",
+    "actor": "Worldvein_Resonance_2_Allies_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "0.64%",
+    "DPS": "34047",
     "actor": "Ripple_in_Space_1",
-    "profile": "single_target",
-    "increase": "0.47%",
-    "DPS": "33972"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_1_Allies_1",
+    "profile": "single_target",
+    "increase": "0.48%",
+    "DPS": "33992",
+    "actor": "Worldvein_Resonance_0_Allies_2",
+    "": ""
+  },
+  {
     "profile": "single_target",
     "increase": "0.24%",
-    "DPS": "33897"
+    "DPS": "33911",
+    "actor": "Worldvein_Resonance_1_Allies_1",
+    "": ""
   },
   {
-    "": "",
-    "actor": "Vision_of_Perfection_2",
-    "profile": "single_target",
-    "increase": "0.06%",
-    "DPS": "33837"
-  },
-  {
-    "": "",
-    "actor": "Vision_of_Perfection_1",
-    "profile": "single_target",
-    "increase": "0.05%",
-    "DPS": "33831"
-  },
-  {
-    "": "",
-    "actor": "Strive_for_Perfection_2",
-    "profile": "single_target",
-    "increase": "0.02%",
-    "DPS": "33823"
-  },
-  {
-    "": "",
-    "actor": "Base",
     "profile": "single_target",
     "increase": "0.00%",
-    "DPS": "33815"
+    "DPS": "33829",
+    "actor": "Base",
+    "": ""
   },
   {
-    "": "",
+    "profile": "single_target",
+    "increase": "-0.02%",
+    "DPS": "33821",
+    "actor": "Vision_of_Perfection_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "-0.04%",
+    "DPS": "33816",
+    "actor": "Strive_for_Perfection_2",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "-0.04%",
+    "DPS": "33816",
     "actor": "Strive_for_Perfection_1",
-    "profile": "single_target",
-    "increase": "-0.01%",
-    "DPS": "33811"
+    "": ""
   },
   {
-    "": "",
-    "actor": "Worldvein_Resonance_0_Allies_1",
     "profile": "single_target",
-    "increase": "-0.35%",
-    "DPS": "33698"
+    "increase": "-0.05%",
+    "DPS": "33813",
+    "actor": "Vision_of_Perfection_1",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "increase": "-0.41%",
+    "DPS": "33690",
+    "actor": "Worldvein_Resonance_0_Allies_1",
+    "": ""
   }
 ]
