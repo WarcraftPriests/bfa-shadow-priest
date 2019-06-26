@@ -221,6 +221,8 @@ def getIlvl(jsonFile):
             m = re.search(r"\d*",x['actor'].lstrip().split('_')[-1]).group(0)
             nameList.append(m)
         uniqueList = make_unique(nameList)
+        uniqueList.sort(reverse=True)
+        print(uniqueList)
     return uniqueList
 
 def addNamesToJson(jsonFile):
@@ -364,7 +366,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         if "Base" in uniqueList: uniqueList.remove("Base")
         if "Int_" in uniqueList: uniqueList.remove("Int_")
         j.write('\t"data": {\n')
-        ucntMax = len(uniqueList) 
+        ucntMax = len(uniqueList)
         #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
@@ -603,8 +605,8 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
                 if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
                     j.write('\t\t},\n')
             else:
-                j.write('\t\t},')                     
-                
+                j.write('\t\t},')
+
                 for x in data:
                     if x['profile'] == simType and x['actor'] == 'Base':
                         j.write('\n\t\t"Base": {\n')
@@ -728,7 +730,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
                 j.write('\t\t "' + key + '" : ' + value + ',\n')
             else:
                 j.write('\t\t "' + key + '" : ' + value + '\n')
-        j.write('\t}\n')    
+        j.write('\t}\n')
         j.write('}')
 
 
@@ -737,7 +739,7 @@ os.chdir("json_Charts/")
 
 
 
-'''
+
 buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_C.json", 'composite')
 buildTrinketJsonChart(trinketsSCJson, "trinkets_SC_ST.json", 'single_target')
 buildTrinketJsonChart(trinketsSCJsonD, "trinkets_SC_D.json", 'dungeons')
@@ -769,7 +771,7 @@ os.remove(trinketsSCJsonD)
 os.remove(trinketsASJsonD)
 os.remove(traitsSCJsonD)
 os.remove(traitsASJsonD)
-'''
+
 
 buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
 
