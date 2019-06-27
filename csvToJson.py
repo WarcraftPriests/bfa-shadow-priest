@@ -473,24 +473,27 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"2_stack",\n')
         j.write('\t\t"3_stack"\n')
         j.write('\t],\n')
-        DPSSort = list()
+        DPSSort = dict()
         for u in traitList:
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+'1'):
-                    DPSSort.append(x['DPS'])
+                    u = u.replace('_'," ").rstrip()
+                    DPSSort.update({u : x['DPS']})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
-        sortedTraits = [x for _,x in sorted(zip(DPSSort, traitList),reverse=True)]
-        ucnt = 0
+        import operator
+        sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
+
+        
         j.write('\t"sorted_data_keys": [\n')
-        if "Int_" in sortedTraits: sortedTraits.remove("Int_")
-        ucntMax = len(sortedTraits)
-        for s in sortedTraits:
-            ucnt+=1
-            if not s == 'Base':
-                if ucnt < ucntMax:
-                    j.write('\t\t"'+s.replace('_',' ')+'",\n')
+        
+        ucntMax = len(sorted_x)
+        for key in sorted_x:
+            cnt+=1
+            if 'Int' not in key[0]:
+                if cnt < maxCnt:
+                    j.write('\t\t "' + key[0] + '",\n')
                 else:
-                    j.write('\t\t"'+s.replace('_',' ')+'"\n')
+                    j.write('\t\t "' + key[0] + '"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
