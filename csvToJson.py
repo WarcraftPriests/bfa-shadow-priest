@@ -485,12 +485,12 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
 
         
         j.write('\t"sorted_data_keys": [\n')
-        
+        cnt=0
         ucntMax = len(sorted_x)
         for key in sorted_x:
             cnt+=1
             if 'Int' not in key[0]:
-                if cnt < maxCnt:
+                if cnt < ucntMax:
                     j.write('\t\t "' + key[0] + '",\n')
                 else:
                     j.write('\t\t "' + key[0] + '"\n')
