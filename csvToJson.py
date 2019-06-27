@@ -483,7 +483,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
 
-        
+
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
         ucntMax = len(sorted_x)
@@ -719,7 +719,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Worldvein Resonance 0 Allies" : 295186,\n')
 
         #Minors
-        j.write('\t\t"Blood-Soaked" : 297147,\n')
+        j.write('\t\t"Blood Soaked" : 297147,\n')
         j.write('\t\t"Condensed Life-Force" : 295834,\n')
         j.write('\t\t"Focused Energy" : 295246,\n')
         j.write('\t\t"Purification Protocol" : 295293,\n')
@@ -782,7 +782,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
             else:
                 j.write('\t\t "' + key[0] + '"\n')
 
-            
+
         j.write('\t]\n')
         j.write('}')
 
