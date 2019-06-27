@@ -309,7 +309,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     print('Error: ' + u + ' Trinket was not included in the item ID list.')
 
         j.write('\t},\n')
-        j.write('\t"simulated_steps": {\n')
+        j.write('\t"simulated_steps": [\n')
         ilvls = getIlvl(injsonFile)
         ilvls = ilvls[:-1]
         cnt = 0
