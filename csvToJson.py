@@ -309,7 +309,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     print('Error: ' + u + ' Trinket was not included in the item ID list.')
 
         j.write('\t},\n')
-        j.write('\t"simulated_steps": [\n')
+        j.write('\t"simulated_steps": {\n')
         ilvls = getIlvl(injsonFile)
         ilvls = ilvls[:-1]
         cnt = 0
@@ -693,7 +693,55 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
             else:
                 j.write('\t\t}\n')
         j.write('\t},\n')
-        j.write('\t"sorted_data_keys" : {\n')
+        j.write('\t"spell_ids" : {\n')
+        #Majors
+        j.write('\t\t"Focused Azerite Beam" : 295258,\n')
+        j.write('\t\t"Guardian of Azeroth" : 295840,\n')
+        j.write('\t\t"Purifying Blast" : 295337,\n')
+        j.write('\t\t"The Unbound Force" : 298452,\n')
+        j.write('\t\t"Memory of Lucid Dreams" : 298357,\n')
+        j.write('\t\t"Vision of Perfection" : 296325,\n')
+        j.write('\t\t"Conflict" : 303823,\n')
+        j.write('\t\t"Concentrated Flame" : 295373,\n')
+        j.write('\t\t"Ripple in Space" : 302731,\n')
+
+        #Special Majors
+        j.write('\t\t"Blood of the Enemy 100" : 297108,\n')
+        j.write('\t\t"Blood of the Enemy 75" : 297108,\n')
+        j.write('\t\t"Blood of the Enemy 50" : 297108,\n')
+        j.write('\t\t"Worldvein Resonance 4 Allies" : 295186,\n')
+        j.write('\t\t"Worldvein Resonance 3 Allies" : 295186,\n')
+        j.write('\t\t"Worldvein Resonance 2 Allies" : 295186,\n')
+        j.write('\t\t"Worldvein Resonance 1 Allies" : 295186,\n')
+        j.write('\t\t"Worldvein Resonance 0 Allies" : 295186,\n')
+
+        #Minors
+        j.write('\t\t"Blood-Soaked" : 297147,\n')
+        j.write('\t\t"Condensed Life-Force" : 295834,\n')
+        j.write('\t\t"Focused Energy" : 295246,\n')
+        j.write('\t\t"Purification Protocol" : 295293,\n')
+        j.write('\t\t"Reckless Force" : 298452,\n')
+        j.write('\t\t"Lucid Dreams" : 298268,\n')
+        j.write('\t\t"Strive for Perfection" : 296320,\n')
+        j.write('\t\t"Strife" : 304081,\n')
+        j.write('\t\t"Ancient Flame" : 295365,\n')
+        j.write('\t\t"Reality Shift" : 302916,\n')
+
+        #Special Minors
+        j.write('\t\t"Lifeblood 4 Allies" : 295078,\n')
+        j.write('\t\t"Lifeblood 3 Allies" : 295078,\n')
+        j.write('\t\t"Lifeblood 2 Allies" : 295078,\n')
+        j.write('\t\t"Lifeblood 1 Allies" : 295078,\n')
+        j.write('\t\t"Lifeblood 0 Allies" : 295078\n')
+        j.write('\t},\n')
+
+        j.write('\t"simulated_steps" :[\n')
+        j.write('\t\t"rank_1",\n')
+        j.write('\t\t"rank_2",\n')
+        j.write('\t\t"rank_3"\n')
+        j.write('\t],\n')
+
+        j.write('\t"sorted_data_keys" : [\n')
         DPSDict = dict()
         for u in uniqueList:
             for x in data:
@@ -722,15 +770,17 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         maxCnt = len(DPSDict)
 
         import operator
-        sorted_x = sorted(DPSDict.items(), key=operator.itemgetter(1))
+        sorted_x = sorted(DPSDict.items(), key=operator.itemgetter(1), reverse=True)
 
-        for (key,value) in DPSDict.items():
+        for key in sorted_x:
             cnt+=1
             if cnt < maxCnt:
-                j.write('\t\t "' + key + '" : ' + value + ',\n')
+                j.write('\t\t "' + key[0] + '",\n')
             else:
-                j.write('\t\t "' + key + '" : ' + value + '\n')
-        j.write('\t}\n')
+                j.write('\t\t "' + key[0] + '"\n')
+
+            
+        j.write('\t]\n')
         j.write('}')
 
 
@@ -763,6 +813,13 @@ buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
 
 #exit()
 
+buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
+buildEssenceJsonChart(essencesSCJson, "essences_SC_C.json", 'composite')
+buildEssenceJsonChart(essencesASJson, "essences_AS_ST.json", 'single_target')
+buildEssenceJsonChart(essencesSCJson, "essences_SC_ST.json", 'single_target')
+buildEssenceJsonChart(essencesASJsonD, "essences_AS_D.json", 'dungeons')
+buildEssenceJsonChart(essencesSCJsonD, "essences_SC_D.json", 'dungeons')
+
 os.remove(trinketsSCJson)
 os.remove(trinketsASJson)
 os.remove(traitsSCJson)
@@ -771,9 +828,13 @@ os.remove(trinketsSCJsonD)
 os.remove(trinketsASJsonD)
 os.remove(traitsSCJsonD)
 os.remove(traitsASJsonD)
+os.remove(essencesASJson)
+os.remove(essencesSCJson)
+os.remove(essencesASJsonD)
+os.remove(essencesSCJsonD)
 
 
-buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
+
 
 
 endtime = time.time()
