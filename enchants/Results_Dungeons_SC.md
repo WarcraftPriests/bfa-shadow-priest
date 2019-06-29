@@ -1,21 +1,21 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon-Machinists_Brilliance|36751|3.56%|
-|Weapon-Quick_Navigation|36661|3.31%|
-|Weapon-Deadly_Navigation|36346|2.42%|
-|Weapon-Torrent_of_Elements|36332|2.38%|
-|Weapon-Versatile_Navigation|36281|2.24%|
-|Weapon-Masterful_Navigation|36183|1.96%|
-|Weapon-Oceanic_Restoration|35920|1.22%|
-|Ring_Accord_of_Haste|35839|0.99%|
-|Ring_Accord_of_Critical_Strike|35765|0.78%|
-|Ring_Pact_of_Haste|35742|0.72%|
-|Ring_Accord_of_Versatility|35730|0.69%|
-|Ring_Accord_of_Mastery|35685|0.56%|
-|Ring_Pact_of_Versatility|35685|0.56%|
-|Ring_Pact_of_Critical_Strike|35654|0.47%|
-|Ring_Pact_of_Mastery|35633|0.41%|
-|Base|35487|0.00%|
+|Weapon-Quick_Navigation|38388|2.77%|
+|Weapon-Machinists_Brilliance|38380|2.75%|
+|Weapon-Deadly_Navigation|38347|2.66%|
+|Weapon-Torrent_of_Elements|38282|2.49%|
+|Weapon-Versatile_Navigation|38162|2.17%|
+|Weapon-Masterful_Navigation|38132|2.09%|
+|Weapon-Oceanic_Restoration|37812|1.23%|
+|Ring_Accord_of_Haste|37693|0.91%|
+|Ring_Accord_of_Critical_Strike|37688|0.90%|
+|Ring_Pact_of_Haste|37602|0.67%|
+|Ring_Accord_of_Versatility|37597|0.65%|
+|Ring_Accord_of_Mastery|37595|0.65%|
+|Ring_Pact_of_Critical_Strike|37579|0.61%|
+|Ring_Pact_of_Versatility|37541|0.50%|
+|Ring_Pact_of_Mastery|37513|0.43%|
+|Base|37352|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
