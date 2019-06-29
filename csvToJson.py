@@ -493,7 +493,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
 
-        
+
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
         ucntMax = len(sorted_x)
@@ -659,7 +659,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
                 temp = temp[:-3]
                 worldVeinList.append(temp)
         worldVeinList = make_unique(worldVeinList)
-        allySteps = ['4','3','2','1','0']
+        allySteps = ['4','3','2','1']
         ucnt=0
         ucntMax = len(worldVeinList)
         for l in worldVeinList:
@@ -685,7 +685,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
                 temp = temp[:-3]
                 lifeBloodList.append(temp)
         lifeBloodList = make_unique(lifeBloodList)
-        allySteps = ['4','3','2','1','0']
+        allySteps = ['4','3','2','1']
         ucnt=0
         ucntMax = len(lifeBloodList)
         for l in lifeBloodList:
@@ -726,7 +726,6 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Worldvein Resonance 3 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 2 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 1 Allies" : 295186,\n')
-        j.write('\t\t"Worldvein Resonance 0 Allies" : 295186,\n')
 
         #Minors
         j.write('\t\t"Blood-Soaked" : 297147,\n')
@@ -745,7 +744,6 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Lifeblood 3 Allies" : 295078,\n')
         j.write('\t\t"Lifeblood 2 Allies" : 295078,\n')
         j.write('\t\t"Lifeblood 1 Allies" : 295078,\n')
-        j.write('\t\t"Lifeblood 0 Allies" : 295078\n')
         j.write('\t},\n')
 
         j.write('\t"simulated_steps" :[\n')
@@ -792,7 +790,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
             else:
                 j.write('\t\t "' + key[0] + '"\n')
 
-            
+
         j.write('\t]\n')
         j.write('}')
 
@@ -859,7 +857,7 @@ def buildTalentJsonChart(injsonFile, outjsonFile, simType):
         for u in uniqueList:
             for x in data:
                 if x['profile'] == simType and x['actor'] == u:
-                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']}) 
+                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']})
 
         import operator
         sorted_x = sorted(DPSDict.items(), key=lambda kv: kv[1], reverse=True)
@@ -874,8 +872,8 @@ def buildTalentJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t]')
 
         j.write('}')
-            
-            
+
+
 
 
 
