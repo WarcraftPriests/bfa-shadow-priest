@@ -824,29 +824,30 @@ def buildTalentJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t],\n')
         j.write('\t"spell_ids" : {\n')
         # T15
-        j.write('\t\tFotM : 193195,\n')
-        j.write('\t\tSI : 162452,\n')
-        j.write('\t\tSWV : 205351,\n')
+        j.write('\t\t"FotM" : 193195,\n')
+        j.write('\t\t"SI" : 162452,\n')
+        j.write('\t\t"SWV" : 205351,\n')
 
         # T45
-        j.write('\t\tToF : 109142,\n')
-        j.write('\t\tMis : 238558,\n')
-        j.write('\t\tDV : 263346,\n')
+        j.write('\t\t"ToF" : 109142,\n')
+        j.write('\t\t"Mis" : 238558,\n')
+        j.write('\t\t"DV" : 263346,\n')
 
         # T75
-        j.write('\t\tAS : 155271,\n')
-        j.write('\t\tSWD : 32379,\n')
-        j.write('\t\tSC : 205385,\n')
+        j.write('\t\t"AS" : 155271,\n')
+        j.write('\t\t"SWD" : 32379,\n')
+        j.write('\t\t"SC" : 205385,\n')
 
         # T90
-        j.write('\t\tLI : 199849,\n')
-        j.write('\t\tMB : 200174,\n')
-        j.write('\t\tVT : 263165,\n')
+        j.write('\t\t"LI" : 199849,\n')
+        j.write('\t\t"MB" : 200174,\n')
+        j.write('\t\t"VT" : 263165,\n')
 
         # T100
-        j.write('\t\tLotV : 193225,\n')
-        j.write('\t\tDA : 280711,\n')
-        j.write('\t\tSTM : 193223\n')
+        j.write('\t\t"LotV" : 193225,\n')
+        j.write('\t\t"DA" : 280711,\n')
+        j.write('\t\t"STM" : 193223\n')
+
 
         j.write('\t},\n')
 
