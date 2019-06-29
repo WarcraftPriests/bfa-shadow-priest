@@ -25,6 +25,9 @@ essencesAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results
 essencesSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_Dungeons_SC.csv'))
 essencesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_Dungeons_AS.csv'))
 
+#Talents
+talents = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results.csv'))
+talentsD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/results_Dungeons.csv'))
 
 #JSON Files
 #Trinkets
@@ -42,6 +45,9 @@ essencesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Res
 essencesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.json'))
 essencesSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC_D.json'))
 essencesASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS_D.json'))
+#Talents
+talentsJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results.json'))
+talentsJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results_D.json'))
 
 # SimC files
 trinketsDungeonsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_SC.simc'))
@@ -157,15 +163,19 @@ parseCSV(trinketsSC,trinketsSCJson)
 parseCSV(trinketsAS,trinketsASJson)
 parseCSV(trinketsSCD,trinketsSCJsonD)
 parseCSV(trinketsASD,trinketsASJsonD)
+
 parseCSV(traitsSC,traitsSCJson)
 parseCSV(traitsAS,traitsASJson)
 parseCSV(traitsSCD,traitsSCJsonD)
 parseCSV(traitsASD,traitsASJsonD)
+
 parseCSV(essencesAS,essencesASJson)
 parseCSV(essencesSC,essencesSCJson)
 parseCSV(essencesASD,essencesASJsonD)
 parseCSV(essencesSCD,essencesSCJsonD)
 
+parseCSV(talents, talentsJson)
+parseCSV(talentsD, talentsJsonD)
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
@@ -483,7 +493,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
 
-
+        
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
         ucntMax = len(sorted_x)
@@ -719,7 +729,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Worldvein Resonance 0 Allies" : 295186,\n')
 
         #Minors
-        j.write('\t\t"Blood Soaked" : 297147,\n')
+        j.write('\t\t"Blood-Soaked" : 297147,\n')
         j.write('\t\t"Condensed Life-Force" : 295834,\n')
         j.write('\t\t"Focused Energy" : 295246,\n')
         j.write('\t\t"Purification Protocol" : 295293,\n')
@@ -773,7 +783,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         maxCnt = len(DPSDict)
 
         import operator
-        sorted_x = sorted(DPSDict.items(), key=operator.itemgetter(1), reverse=True)
+        sorted_x = sorted(DPSDict.items(), key=lambda kv: kv[1], reverse=True)
 
         for key in sorted_x:
             cnt+=1
@@ -782,9 +792,90 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
             else:
                 j.write('\t\t "' + key[0] + '"\n')
 
-
+            
         j.write('\t]\n')
         j.write('}')
+
+def buildTalentJsonChart(injsonFile, outjsonFile, simType):
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        j.write('\t"data": {\n')
+        ucntMax = len(uniqueList)
+
+        ucnt = 0
+        for u in uniqueList:
+            j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            ucnt+=1
+            for x in data:
+                if x['actor'] == u and x['profile'] == simType:
+                    j.write('\t\t\t"DPS" : ' + x['DPS'] + '\n')
+                    if ucnt < ucntMax:
+                        j.write('\t\t},\n')
+                    else:
+                        j.write('\t\t}\n')
+        j.write('\t},\n')
+        j.write('\t"simulated_steps" : [\n')
+        j.write('\t\t"DPS"\n')
+        j.write('\t],\n')
+        j.write('\t"spell_ids" : {\n')
+        # T15
+        j.write('\t\tFotM : 193195,\n')
+        j.write('\t\tSI : 162452,\n')
+        j.write('\t\tSWV : 205351,\n')
+
+        # T45
+        j.write('\t\tToF : 109142,\n')
+        j.write('\t\tMis : 238558,\n')
+        j.write('\t\tDV : 263346,\n')
+
+        # T75
+        j.write('\t\tAS : 155271,\n')
+        j.write('\t\tSWD : 32379,\n')
+        j.write('\t\tSC : 205385,\n')
+
+        # T90
+        j.write('\t\tLI : 199849,\n')
+        j.write('\t\tMB : 200174,\n')
+        j.write('\t\tVT : 263165,\n')
+
+        # T100
+        j.write('\t\tLotV : 193225,\n')
+        j.write('\t\tDA : 280711,\n')
+        j.write('\t\tSTM : 193223\n')
+
+        j.write('\t},\n')
+
+        if "Base" in uniqueList: uniqueList.remove("Base")
+        j.write('\t"sorted_data_keys":[\n')
+
+        DPSDict = dict()
+        for u in uniqueList:
+            for x in data:
+                if x['profile'] == simType and x['actor'] == u:
+                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']}) 
+
+        import operator
+        sorted_x = sorted(DPSDict.items(), key=lambda kv: kv[1], reverse=True)
+        cnt = 0
+        maxCnt = len(sorted_x)
+        for key in sorted_x:
+            cnt+=1
+            if cnt < maxCnt:
+                j.write('\t\t "' + key[0] + '",\n')
+            else:
+                j.write('\t\t "' + key[0] + '"\n')
+        j.write('\t]')
+
+        j.write('}')
+            
+            
 
 
 
@@ -823,6 +914,10 @@ buildEssenceJsonChart(essencesSCJson, "essences_SC_ST.json", 'single_target')
 buildEssenceJsonChart(essencesASJsonD, "essences_AS_D.json", 'dungeons')
 buildEssenceJsonChart(essencesSCJsonD, "essences_SC_D.json", 'dungeons')
 
+buildTalentJsonChart(talentsJson, "talents_C.json", 'composite')
+buildTalentJsonChart(talentsJson, "talents_ST.json", 'sinlge_target')
+buildTalentJsonChart(talentsJsonD, "talents_D.json", 'dungeons')
+
 os.remove(trinketsSCJson)
 os.remove(trinketsASJson)
 os.remove(traitsSCJson)
@@ -835,7 +930,8 @@ os.remove(essencesASJson)
 os.remove(essencesSCJson)
 os.remove(essencesASJsonD)
 os.remove(essencesSCJsonD)
-
+os.remove(talentsJson)
+os.remove(talentsJsonD)
 
 
 
