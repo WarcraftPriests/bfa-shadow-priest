@@ -743,7 +743,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Lifeblood 4 Allies" : 295078,\n')
         j.write('\t\t"Lifeblood 3 Allies" : 295078,\n')
         j.write('\t\t"Lifeblood 2 Allies" : 295078,\n')
-        j.write('\t\t"Lifeblood 1 Allies" : 295078,\n')
+        j.write('\t\t"Lifeblood 1 Allies" : 295078\n')
         j.write('\t},\n')
 
         j.write('\t"simulated_steps" :[\n')
