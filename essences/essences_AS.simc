@@ -64,9 +64,6 @@ profileset."Concentrated_Flame_1"+=azerite_essences=12:1:1
 profileset."Ripple_in_Space_1"+=azerite_essences=15:1:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_0_Allies_1"+=azerite_essences=4:1:1
-profileset."Worldvein_Resonance_0_Allies_1"+=bfa.worldvein_allies=0
-
 profileset."Worldvein_Resonance_1_Allies_1"+=azerite_essences=4:1:1
 profileset."Worldvein_Resonance_1_Allies_1"+=bfa.worldvein_allies=1
 
@@ -159,9 +156,6 @@ profileset."Concentrated_Flame_2"+=azerite_essences=12:2:1
 profileset."Ripple_in_Space_2"+=azerite_essences=15:2:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_0_Allies_2"+=azerite_essences=4:2:1
-profileset."Worldvein_Resonance_0_Allies_2"+=bfa.worldvein_allies=0
-
 profileset."Worldvein_Resonance_1_Allies_2"+=azerite_essences=4:2:1
 profileset."Worldvein_Resonance_1_Allies_2"+=bfa.worldvein_allies=1
 
@@ -254,9 +248,6 @@ profileset."Concentrated_Flame_3"+=azerite_essences=12:3:1
 profileset."Ripple_in_Space_3"+=azerite_essences=15:3:1
 
 ## Worldvein Resonance (4) + Lifeblood
-profileset."Worldvein_Resonance_0_Allies_3"+=azerite_essences=4:3:1
-profileset."Worldvein_Resonance_0_Allies_3"+=bfa.worldvein_allies=0
-
 profileset."Worldvein_Resonance_1_Allies_3"+=azerite_essences=4:3:1
 profileset."Worldvein_Resonance_1_Allies_3"+=bfa.worldvein_allies=1
 

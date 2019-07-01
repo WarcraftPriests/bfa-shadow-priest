@@ -1,0 +1,1000 @@
+{
+	"data": {
+		"SWV ToF SC LI DA": {
+			"DPS" : 38768
+		},
+		"SWV ToF AS LI DA": {
+			"DPS" : 38722
+		},
+		"SWV ToF SC LI LotV": {
+			"DPS" : 38643
+		},
+		"SWV ToF AS LI LotV": {
+			"DPS" : 38436
+		},
+		"SWV ToF SC LI STM": {
+			"DPS" : 38247
+		},
+		"SI ToF AS LI DA": {
+			"DPS" : 38126
+		},
+		"SWV DV SC LI LotV": {
+			"DPS" : 38100
+		},
+		"SI ToF SC LI DA": {
+			"DPS" : 38092
+		},
+		"SWV ToF SWD LI DA": {
+			"DPS" : 38088
+		},
+		"SWV ToF SWD LI LotV": {
+			"DPS" : 38063
+		},
+		"SWV DV SC LI DA": {
+			"DPS" : 38015
+		},
+		"SWV ToF AS LI STM": {
+			"DPS" : 37966
+		},
+		"FotM ToF SC LI LotV": {
+			"DPS" : 37956
+		},
+		"FotM ToF AS LI DA": {
+			"DPS" : 37941
+		},
+		"SWV DV AS LI LotV": {
+			"DPS" : 37938
+		},
+		"SWV DV AS LI DA": {
+			"DPS" : 37931
+		},
+		"SI ToF SC LI LotV": {
+			"DPS" : 37919
+		},
+		"FotM ToF SC LI DA": {
+			"DPS" : 37916
+		},
+		"FotM ToF AS LI LotV": {
+			"DPS" : 37854
+		},
+		"SI ToF AS LI LotV": {
+			"DPS" : 37809
+		},
+		"FotM ToF SC LI STM": {
+			"DPS" : 37808
+		},
+		"SI ToF SC LI STM": {
+			"DPS" : 37742
+		},
+		"FotM ToF AS LI STM": {
+			"DPS" : 37690
+		},
+		"SWV DV SC LI STM": {
+			"DPS" : 37662
+		},
+		"SWV Mis SC LI DA": {
+			"DPS" : 37661
+		},
+		"SWV ToF SWD LI STM": {
+			"DPS" : 37640
+		},
+		"SWV Mis AS LI DA": {
+			"DPS" : 37585
+		},
+		"SWV Mis SC LI LotV": {
+			"DPS" : 37582
+		},
+		"SI ToF AS LI STM": {
+			"DPS" : 37540
+		},
+		"SWV DV AS LI STM": {
+			"DPS" : 37528
+		},
+		"SWV DV SWD LI LotV": {
+			"DPS" : 37502
+		},
+		"SI DV SC LI LotV": {
+			"DPS" : 37461
+		},
+		"SI ToF SWD LI DA": {
+			"DPS" : 37416
+		},
+		"FotM ToF SWD LI LotV": {
+			"DPS" : 37394
+		},
+		"FotM DV AS LI LotV": {
+			"DPS" : 37393
+		},
+		"FotM DV SC LI LotV": {
+			"DPS" : 37388
+		},
+		"SI DV AS LI LotV": {
+			"DPS" : 37372
+		},
+		"SWV Mis AS LI LotV": {
+			"DPS" : 37363
+		},
+		"FotM ToF SWD LI STM": {
+			"DPS" : 37347
+		},
+		"SWV DV SWD LI DA": {
+			"DPS" : 37339
+		},
+		"SI DV SC LI DA": {
+			"DPS" : 37338
+		},
+		"SI DV AS LI DA": {
+			"DPS" : 37337
+		},
+		"SI ToF SWD LI LotV": {
+			"DPS" : 37334
+		},
+		"SWV Mis SC LI STM": {
+			"DPS" : 37280
+		},
+		"FotM DV SC LI STM": {
+			"DPS" : 37260
+		},
+		"FotM ToF SWD LI DA": {
+			"DPS" : 37237
+		},
+		"FotM DV SC LI DA": {
+			"DPS" : 37202
+		},
+		"FotM DV AS LI DA": {
+			"DPS" : 37181
+		},
+		"SI DV SC LI STM": {
+			"DPS" : 37177
+		},
+		"SWV DV SWD LI STM": {
+			"DPS" : 37156
+		},
+		"SI ToF SWD LI STM": {
+			"DPS" : 37145
+		},
+		"FotM DV AS LI STM": {
+			"DPS" : 37078
+		},
+		"SI Mis SC LI DA": {
+			"DPS" : 37052
+		},
+		"SI Mis AS LI DA": {
+			"DPS" : 37032
+		},
+		"SWV Mis AS LI STM": {
+			"DPS" : 37015
+		},
+		"SWV Mis SWD LI LotV": {
+			"DPS" : 37006
+		},
+		"SWV ToF SC VT LotV": {
+			"DPS" : 37005
+		},
+		"SI DV AS LI STM": {
+			"DPS" : 36995
+		},
+		"SWV Mis SWD LI DA": {
+			"DPS" : 36990
+		},
+		"FotM Mis SC LI STM": {
+			"DPS" : 36952
+		},
+		"FotM Mis SC LI LotV": {
+			"DPS" : 36944
+		},
+		"SI Mis SC LI LotV": {
+			"DPS" : 36917
+		},
+		"FotM Mis SC LI DA": {
+			"DPS" : 36885
+		},
+		"FotM Mis AS LI DA": {
+			"DPS" : 36884
+		},
+		"SWV ToF SC VT DA": {
+			"DPS" : 36865
+		},
+		"FotM Mis AS LI LotV": {
+			"DPS" : 36854
+		},
+		"SI Mis SC LI STM": {
+			"DPS" : 36828
+		},
+		"FotM DV SWD LI LotV": {
+			"DPS" : 36819
+		},
+		"SI DV SWD LI LotV": {
+			"DPS" : 36808
+		},
+		"SI Mis AS LI LotV": {
+			"DPS" : 36795
+		},
+		"SWV ToF AS VT LotV": {
+			"DPS" : 36791
+		},
+		"FotM Mis AS LI STM": {
+			"DPS" : 36731
+		},
+		"SI DV SWD LI DA": {
+			"DPS" : 36709
+		},
+		"SWV ToF SC MB LotV": {
+			"DPS" : 36699
+		},
+		"SWV Mis SWD LI STM": {
+			"DPS" : 36693
+		},
+		"FotM DV SWD LI STM": {
+			"DPS" : 36690
+		},
+		"SWV ToF AS VT DA": {
+			"DPS" : 36662
+		},
+		"SI Mis AS LI STM": {
+			"DPS" : 36601
+		},
+		"FotM DV SWD LI DA": {
+			"DPS" : 36559
+		},
+		"SI DV SWD LI STM": {
+			"DPS" : 36548
+		},
+		"SWV ToF SWD VT LotV": {
+			"DPS" : 36533
+		},
+		"SWV DV SC VT LotV": {
+			"DPS" : 36494
+		},
+		"SWV ToF AS MB LotV": {
+			"DPS" : 36491
+		},
+		"SI ToF SC VT LotV": {
+			"DPS" : 36445
+		},
+		"SWV ToF SC MB DA": {
+			"DPS" : 36432
+		},
+		"FotM ToF SC VT LotV": {
+			"DPS" : 36410
+		},
+		"FotM Mis SWD LI LotV": {
+			"DPS" : 36404
+		},
+		"FotM Mis SWD LI STM": {
+			"DPS" : 36402
+		},
+		"SWV ToF SWD VT DA": {
+			"DPS" : 36395
+		},
+		"SI ToF SC VT DA": {
+			"DPS" : 36364
+		},
+		"SI Mis SWD LI DA": {
+			"DPS" : 36363
+		},
+		"SI ToF AS VT LotV": {
+			"DPS" : 36353
+		},
+		"FotM ToF AS VT LotV": {
+			"DPS" : 36350
+		},
+		"SWV DV SC VT DA": {
+			"DPS" : 36350
+		},
+		"SI Mis SWD LI LotV": {
+			"DPS" : 36331
+		},
+		"SWV DV AS VT LotV": {
+			"DPS" : 36313
+		},
+		"SI ToF AS VT DA": {
+			"DPS" : 36312
+		},
+		"SWV ToF SWD MB LotV": {
+			"DPS" : 36295
+		},
+		"SWV ToF SC MB STM": {
+			"DPS" : 36267
+		},
+		"FotM ToF SC VT DA": {
+			"DPS" : 36263
+		},
+		"SWV ToF AS MB DA": {
+			"DPS" : 36229
+		},
+		"SI ToF SC MB LotV": {
+			"DPS" : 36225
+		},
+		"FotM Mis SWD LI DA": {
+			"DPS" : 36225
+		},
+		"SI Mis SWD LI STM": {
+			"DPS" : 36224
+		},
+		"FotM ToF SC MB LotV": {
+			"DPS" : 36216
+		},
+		"FotM ToF AS VT DA": {
+			"DPS" : 36197
+		},
+		"SWV DV AS VT DA": {
+			"DPS" : 36143
+		},
+		"FotM ToF AS MB LotV": {
+			"DPS" : 36116
+		},
+		"SI ToF AS MB LotV": {
+			"DPS" : 36114
+		},
+		"SWV Mis SC VT LotV": {
+			"DPS" : 36091
+		},
+		"FotM ToF SC MB STM": {
+			"DPS" : 36068
+		},
+		"SWV DV SWD VT LotV": {
+			"DPS" : 36050
+		},
+		"SI DV SC VT LotV": {
+			"DPS" : 36049
+		},
+		"SI ToF SC MB DA": {
+			"DPS" : 36039
+		},
+		"SWV DV SC MB LotV": {
+			"DPS" : 36025
+		},
+		"FotM ToF SWD VT LotV": {
+			"DPS" : 36016
+		},
+		"SI ToF SWD VT LotV": {
+			"DPS" : 36008
+		},
+		"FotM DV SC VT LotV": {
+			"DPS" : 35969
+		},
+		"SWV ToF AS MB STM": {
+			"DPS" : 35963
+		},
+		"SWV ToF SWD MB DA": {
+			"DPS" : 35953
+		},
+		"SI ToF SC MB STM": {
+			"DPS" : 35943
+		},
+		"FotM ToF SC MB DA": {
+			"DPS" : 35930
+		},
+		"SI DV AS VT LotV": {
+			"DPS" : 35915
+		},
+		"SWV Mis SC VT DA": {
+			"DPS" : 35910
+		},
+		"SI ToF SWD VT DA": {
+			"DPS" : 35898
+		},
+		"SWV DV SWD VT DA": {
+			"DPS" : 35886
+		},
+		"SI ToF AS MB DA": {
+			"DPS" : 35883
+		},
+		"SI DV SC VT DA": {
+			"DPS" : 35880
+		},
+		"FotM DV AS VT LotV": {
+			"DPS" : 35861
+		},
+		"FotM ToF SWD MB LotV": {
+			"DPS" : 35840
+		},
+		"SI ToF SWD MB LotV": {
+			"DPS" : 35834
+		},
+		"SWV DV SC MB DA": {
+			"DPS" : 35832
+		},
+		"SWV Mis AS VT LotV": {
+			"DPS" : 35824
+		},
+		"FotM ToF SWD VT DA": {
+			"DPS" : 35819
+		},
+		"SWV Mis SC MB LotV": {
+			"DPS" : 35817
+		},
+		"FotM ToF AS MB DA": {
+			"DPS" : 35791
+		},
+		"SI DV AS VT DA": {
+			"DPS" : 35770
+		},
+		"FotM DV SC VT DA": {
+			"DPS" : 35768
+		},
+		"SWV DV AS MB LotV": {
+			"DPS" : 35752
+		},
+		"SWV ToF SWD MB STM": {
+			"DPS" : 35726
+		},
+		"FotM ToF AS MB STM": {
+			"DPS" : 35688
+		},
+		"SWV Mis AS VT DA": {
+			"DPS" : 35655
+		},
+		"FotM DV AS VT DA": {
+			"DPS" : 35646
+		},
+		"SI ToF AS MB STM": {
+			"DPS" : 35617
+		},
+		"SWV DV SC MB STM": {
+			"DPS" : 35600
+		},
+		"SWV Mis SWD VT LotV": {
+			"DPS" : 35583
+		},
+		"SI DV SWD VT LotV": {
+			"DPS" : 35580
+		},
+		"SWV DV AS MB DA": {
+			"DPS" : 35578
+		},
+		"SI DV SC MB LotV": {
+			"DPS" : 35573
+		},
+		"SWV ToF SC VT STM": {
+			"DPS" : 35567
+		},
+		"SI Mis SC VT LotV": {
+			"DPS" : 35561
+		},
+		"SWV Mis AS MB LotV": {
+			"DPS" : 35555
+		},
+		"SI ToF SWD MB DA": {
+			"DPS" : 35543
+		},
+		"SWV Mis SC MB DA": {
+			"DPS" : 35539
+		},
+		"FotM DV SWD VT LotV": {
+			"DPS" : 35534
+		},
+		"FotM Mis SC VT LotV": {
+			"DPS" : 35506
+		},
+		"FotM DV SC MB LotV": {
+			"DPS" : 35505
+		},
+		"SWV DV SWD MB LotV": {
+			"DPS" : 35504
+		},
+		"SI Mis SC VT DA": {
+			"DPS" : 35492
+		},
+		"SWV Mis SC MB STM": {
+			"DPS" : 35491
+		},
+		"FotM ToF SWD MB DA": {
+			"DPS" : 35457
+		},
+		"SI DV SC MB DA": {
+			"DPS" : 35444
+		},
+		"SI Mis AS VT LotV": {
+			"DPS" : 35439
+		},
+		"FotM Mis AS VT LotV": {
+			"DPS" : 35427
+		},
+		"FotM ToF SWD MB STM": {
+			"DPS" : 35418
+		},
+		"SWV Mis SWD VT DA": {
+			"DPS" : 35389
+		},
+		"FotM DV SC MB STM": {
+			"DPS" : 35388
+		},
+		"SWV DV AS MB STM": {
+			"DPS" : 35374
+		},
+		"SI DV SWD VT DA": {
+			"DPS" : 35368
+		},
+		"SI Mis SC MB LotV": {
+			"DPS" : 35363
+		},
+		"FotM Mis SC MB LotV": {
+			"DPS" : 35361
+		},
+		"SI DV AS MB LotV": {
+			"DPS" : 35357
+		},
+		"SWV Mis SWD MB LotV": {
+			"DPS" : 35347
+		},
+		"FotM Mis SC VT DA": {
+			"DPS" : 35347
+		},
+		"SI ToF SWD MB STM": {
+			"DPS" : 35344
+		},
+		"FotM DV SC MB DA": {
+			"DPS" : 35342
+		},
+		"FotM Mis SC MB STM": {
+			"DPS" : 35321
+		},
+		"SI Mis AS VT DA": {
+			"DPS" : 35315
+		},
+		"FotM DV AS MB LotV": {
+			"DPS" : 35310
+		},
+		"SWV Mis AS MB DA": {
+			"DPS" : 35304
+		},
+		"SWV DV SWD MB DA": {
+			"DPS" : 35303
+		},
+		"SWV Mis AS MB STM": {
+			"DPS" : 35288
+		},
+		"SI DV SC MB STM": {
+			"DPS" : 35273
+		},
+		"FotM DV SWD VT DA": {
+			"DPS" : 35259
+		},
+		"FotM Mis AS MB LotV": {
+			"DPS" : 35253
+		},
+		"SI Mis AS MB LotV": {
+			"DPS" : 35235
+		},
+		"SWV ToF AS VT STM": {
+			"DPS" : 35232
+		},
+		"SI Mis SC MB STM": {
+			"DPS" : 35215
+		},
+		"SI DV AS MB DA": {
+			"DPS" : 35214
+		},
+		"FotM DV AS MB STM": {
+			"DPS" : 35204
+		},
+		"FotM ToF SC VT STM": {
+			"DPS" : 35172
+		},
+		"SI Mis SC MB DA": {
+			"DPS" : 35171
+		},
+		"FotM Mis AS VT DA": {
+			"DPS" : 35135
+		},
+		"SI ToF SC VT STM": {
+			"DPS" : 35123
+		},
+		"SWV DV SWD MB STM": {
+			"DPS" : 35115
+		},
+		"FotM Mis SWD VT LotV": {
+			"DPS" : 35106
+		},
+		"SWV DV SC VT STM": {
+			"DPS" : 35106
+		},
+		"SI Mis SWD VT LotV": {
+			"DPS" : 35102
+		},
+		"FotM DV AS MB DA": {
+			"DPS" : 35090
+		},
+		"FotM Mis SC MB DA": {
+			"DPS" : 35079
+		},
+		"SI DV AS MB STM": {
+			"DPS" : 35062
+		},
+		"SWV Mis SWD MB STM": {
+			"DPS" : 35058
+		},
+		"SWV ToF SWD VT STM": {
+			"DPS" : 35048
+		},
+		"SI DV SWD MB LotV": {
+			"DPS" : 35042
+		},
+		"SWV Mis SWD MB DA": {
+			"DPS" : 35041
+		},
+		"SI Mis AS MB DA": {
+			"DPS" : 35008
+		},
+		"FotM Mis AS MB STM": {
+			"DPS" : 34993
+		},
+		"FotM DV SWD MB LotV": {
+			"DPS" : 34983
+		},
+		"FotM Mis SWD MB LotV": {
+			"DPS" : 34972
+		},
+		"FotM ToF AS VT STM": {
+			"DPS" : 34963
+		},
+		"SI Mis SWD MB LotV": {
+			"DPS" : 34955
+		},
+		"SI DV SWD MB DA": {
+			"DPS" : 34908
+		},
+		"SI Mis SWD VT DA": {
+			"DPS" : 34908
+		},
+		"FotM Mis AS MB DA": {
+			"DPS" : 34893
+		},
+		"FotM DV SWD MB STM": {
+			"DPS" : 34866
+		},
+		"SI Mis AS MB STM": {
+			"DPS" : 34862
+		},
+		"SWV DV AS VT STM": {
+			"DPS" : 34858
+		},
+		"SI ToF AS VT STM": {
+			"DPS" : 34833
+		},
+		"FotM DV SWD MB DA": {
+			"DPS" : 34815
+		},
+		"SWV Mis SC VT STM": {
+			"DPS" : 34802
+		},
+		"FotM Mis SWD VT DA": {
+			"DPS" : 34751
+		},
+		"SI DV SWD MB STM": {
+			"DPS" : 34730
+		},
+		"FotM DV SC VT STM": {
+			"DPS" : 34728
+		},
+		"FotM ToF SWD VT STM": {
+			"DPS" : 34715
+		},
+		"FotM Mis SWD MB STM": {
+			"DPS" : 34715
+		},
+		"SI Mis SWD MB DA": {
+			"DPS" : 34670
+		},
+		"SI DV SC VT STM": {
+			"DPS" : 34644
+		},
+		"SWV DV SWD VT STM": {
+			"DPS" : 34615
+		},
+		"SI ToF SWD VT STM": {
+			"DPS" : 34613
+		},
+		"FotM Mis SWD MB DA": {
+			"DPS" : 34586
+		},
+		"SI Mis SWD MB STM": {
+			"DPS" : 34578
+		},
+		"FotM DV AS VT STM": {
+			"DPS" : 34516
+		},
+		"FotM Mis SC VT STM": {
+			"DPS" : 34480
+		},
+		"SWV Mis AS VT STM": {
+			"DPS" : 34453
+		},
+		"SI Mis SC VT STM": {
+			"DPS" : 34366
+		},
+		"SI DV AS VT STM": {
+			"DPS" : 34363
+		},
+		"SWV Mis SWD VT STM": {
+			"DPS" : 34238
+		},
+		"FotM Mis AS VT STM": {
+			"DPS" : 34221
+		},
+		"FotM DV SWD VT STM": {
+			"DPS" : 34204
+		},
+		"SI DV SWD VT STM": {
+			"DPS" : 34085
+		},
+		"SI Mis AS VT STM": {
+			"DPS" : 34072
+		},
+		"FotM Mis SWD VT STM": {
+			"DPS" : 33973
+		},
+		"SI Mis SWD VT STM": {
+			"DPS" : 33834
+		},
+		"Base": {
+			"DPS" : 29113
+		}
+	},
+	"simulated_steps" : [
+		"DPS"
+	],
+	"spell_ids" : {
+		"FotM" : 193195,
+		"SI" : 162452,
+		"SWV" : 205351,
+		"ToF" : 109142,
+		"Mis" : 238558,
+		"DV" : 263346,
+		"AS" : 155271,
+		"SWD" : 32379,
+		"SC" : 205385,
+		"LI" : 199849,
+		"MB" : 200174,
+		"VT" : 263165,
+		"LotV" : 193225,
+		"DA" : 280711,
+		"STM" : 193223
+	},
+	"sorted_data_keys":[
+		 "SWV ToF SC LI DA",
+		 "SWV ToF AS LI DA",
+		 "SWV ToF SC LI LotV",
+		 "SWV ToF AS LI LotV",
+		 "SWV ToF SC LI STM",
+		 "SI ToF AS LI DA",
+		 "SWV DV SC LI LotV",
+		 "SI ToF SC LI DA",
+		 "SWV ToF SWD LI DA",
+		 "SWV ToF SWD LI LotV",
+		 "SWV DV SC LI DA",
+		 "SWV ToF AS LI STM",
+		 "FotM ToF SC LI LotV",
+		 "FotM ToF AS LI DA",
+		 "SWV DV AS LI LotV",
+		 "SWV DV AS LI DA",
+		 "SI ToF SC LI LotV",
+		 "FotM ToF SC LI DA",
+		 "FotM ToF AS LI LotV",
+		 "SI ToF AS LI LotV",
+		 "FotM ToF SC LI STM",
+		 "SI ToF SC LI STM",
+		 "FotM ToF AS LI STM",
+		 "SWV DV SC LI STM",
+		 "SWV Mis SC LI DA",
+		 "SWV ToF SWD LI STM",
+		 "SWV Mis AS LI DA",
+		 "SWV Mis SC LI LotV",
+		 "SI ToF AS LI STM",
+		 "SWV DV AS LI STM",
+		 "SWV DV SWD LI LotV",
+		 "SI DV SC LI LotV",
+		 "SI ToF SWD LI DA",
+		 "FotM ToF SWD LI LotV",
+		 "FotM DV AS LI LotV",
+		 "FotM DV SC LI LotV",
+		 "SI DV AS LI LotV",
+		 "SWV Mis AS LI LotV",
+		 "FotM ToF SWD LI STM",
+		 "SWV DV SWD LI DA",
+		 "SI DV SC LI DA",
+		 "SI DV AS LI DA",
+		 "SI ToF SWD LI LotV",
+		 "SWV Mis SC LI STM",
+		 "FotM DV SC LI STM",
+		 "FotM ToF SWD LI DA",
+		 "FotM DV SC LI DA",
+		 "FotM DV AS LI DA",
+		 "SI DV SC LI STM",
+		 "SWV DV SWD LI STM",
+		 "SI ToF SWD LI STM",
+		 "FotM DV AS LI STM",
+		 "SI Mis SC LI DA",
+		 "SI Mis AS LI DA",
+		 "SWV Mis AS LI STM",
+		 "SWV Mis SWD LI LotV",
+		 "SWV ToF SC VT LotV",
+		 "SI DV AS LI STM",
+		 "SWV Mis SWD LI DA",
+		 "FotM Mis SC LI STM",
+		 "FotM Mis SC LI LotV",
+		 "SI Mis SC LI LotV",
+		 "FotM Mis SC LI DA",
+		 "FotM Mis AS LI DA",
+		 "SWV ToF SC VT DA",
+		 "FotM Mis AS LI LotV",
+		 "SI Mis SC LI STM",
+		 "FotM DV SWD LI LotV",
+		 "SI DV SWD LI LotV",
+		 "SI Mis AS LI LotV",
+		 "SWV ToF AS VT LotV",
+		 "FotM Mis AS LI STM",
+		 "SI DV SWD LI DA",
+		 "SWV ToF SC MB LotV",
+		 "SWV Mis SWD LI STM",
+		 "FotM DV SWD LI STM",
+		 "SWV ToF AS VT DA",
+		 "SI Mis AS LI STM",
+		 "FotM DV SWD LI DA",
+		 "SI DV SWD LI STM",
+		 "SWV ToF SWD VT LotV",
+		 "SWV DV SC VT LotV",
+		 "SWV ToF AS MB LotV",
+		 "SI ToF SC VT LotV",
+		 "SWV ToF SC MB DA",
+		 "FotM ToF SC VT LotV",
+		 "FotM Mis SWD LI LotV",
+		 "FotM Mis SWD LI STM",
+		 "SWV ToF SWD VT DA",
+		 "SI ToF SC VT DA",
+		 "SI Mis SWD LI DA",
+		 "SI ToF AS VT LotV",
+		 "SWV DV SC VT DA",
+		 "FotM ToF AS VT LotV",
+		 "SI Mis SWD LI LotV",
+		 "SWV DV AS VT LotV",
+		 "SI ToF AS VT DA",
+		 "SWV ToF SWD MB LotV",
+		 "SWV ToF SC MB STM",
+		 "FotM ToF SC VT DA",
+		 "SWV ToF AS MB DA",
+		 "SI ToF SC MB LotV",
+		 "FotM Mis SWD LI DA",
+		 "SI Mis SWD LI STM",
+		 "FotM ToF SC MB LotV",
+		 "FotM ToF AS VT DA",
+		 "SWV DV AS VT DA",
+		 "FotM ToF AS MB LotV",
+		 "SI ToF AS MB LotV",
+		 "SWV Mis SC VT LotV",
+		 "FotM ToF SC MB STM",
+		 "SWV DV SWD VT LotV",
+		 "SI DV SC VT LotV",
+		 "SI ToF SC MB DA",
+		 "SWV DV SC MB LotV",
+		 "FotM ToF SWD VT LotV",
+		 "SI ToF SWD VT LotV",
+		 "FotM DV SC VT LotV",
+		 "SWV ToF AS MB STM",
+		 "SWV ToF SWD MB DA",
+		 "SI ToF SC MB STM",
+		 "FotM ToF SC MB DA",
+		 "SI DV AS VT LotV",
+		 "SWV Mis SC VT DA",
+		 "SI ToF SWD VT DA",
+		 "SWV DV SWD VT DA",
+		 "SI ToF AS MB DA",
+		 "SI DV SC VT DA",
+		 "FotM DV AS VT LotV",
+		 "FotM ToF SWD MB LotV",
+		 "SI ToF SWD MB LotV",
+		 "SWV DV SC MB DA",
+		 "SWV Mis AS VT LotV",
+		 "FotM ToF SWD VT DA",
+		 "SWV Mis SC MB LotV",
+		 "FotM ToF AS MB DA",
+		 "SI DV AS VT DA",
+		 "FotM DV SC VT DA",
+		 "SWV DV AS MB LotV",
+		 "SWV ToF SWD MB STM",
+		 "FotM ToF AS MB STM",
+		 "SWV Mis AS VT DA",
+		 "FotM DV AS VT DA",
+		 "SI ToF AS MB STM",
+		 "SWV DV SC MB STM",
+		 "SWV Mis SWD VT LotV",
+		 "SI DV SWD VT LotV",
+		 "SWV DV AS MB DA",
+		 "SI DV SC MB LotV",
+		 "SWV ToF SC VT STM",
+		 "SI Mis SC VT LotV",
+		 "SWV Mis AS MB LotV",
+		 "SI ToF SWD MB DA",
+		 "SWV Mis SC MB DA",
+		 "FotM DV SWD VT LotV",
+		 "FotM Mis SC VT LotV",
+		 "FotM DV SC MB LotV",
+		 "SWV DV SWD MB LotV",
+		 "SI Mis SC VT DA",
+		 "SWV Mis SC MB STM",
+		 "FotM ToF SWD MB DA",
+		 "SI DV SC MB DA",
+		 "SI Mis AS VT LotV",
+		 "FotM Mis AS VT LotV",
+		 "FotM ToF SWD MB STM",
+		 "SWV Mis SWD VT DA",
+		 "FotM DV SC MB STM",
+		 "SWV DV AS MB STM",
+		 "SI DV SWD VT DA",
+		 "SI Mis SC MB LotV",
+		 "FotM Mis SC MB LotV",
+		 "SI DV AS MB LotV",
+		 "SWV Mis SWD MB LotV",
+		 "FotM Mis SC VT DA",
+		 "SI ToF SWD MB STM",
+		 "FotM DV SC MB DA",
+		 "FotM Mis SC MB STM",
+		 "SI Mis AS VT DA",
+		 "FotM DV AS MB LotV",
+		 "SWV Mis AS MB DA",
+		 "SWV DV SWD MB DA",
+		 "SWV Mis AS MB STM",
+		 "SI DV SC MB STM",
+		 "FotM DV SWD VT DA",
+		 "FotM Mis AS MB LotV",
+		 "SI Mis AS MB LotV",
+		 "SWV ToF AS VT STM",
+		 "SI Mis SC MB STM",
+		 "SI DV AS MB DA",
+		 "FotM DV AS MB STM",
+		 "FotM ToF SC VT STM",
+		 "SI Mis SC MB DA",
+		 "FotM Mis AS VT DA",
+		 "SI ToF SC VT STM",
+		 "SWV DV SWD MB STM",
+		 "SWV DV SC VT STM",
+		 "FotM Mis SWD VT LotV",
+		 "SI Mis SWD VT LotV",
+		 "FotM DV AS MB DA",
+		 "FotM Mis SC MB DA",
+		 "SI DV AS MB STM",
+		 "SWV Mis SWD MB STM",
+		 "SWV ToF SWD VT STM",
+		 "SI DV SWD MB LotV",
+		 "SWV Mis SWD MB DA",
+		 "SI Mis AS MB DA",
+		 "FotM Mis AS MB STM",
+		 "FotM DV SWD MB LotV",
+		 "FotM Mis SWD MB LotV",
+		 "FotM ToF AS VT STM",
+		 "SI Mis SWD MB LotV",
+		 "SI DV SWD MB DA",
+		 "SI Mis SWD VT DA",
+		 "FotM Mis AS MB DA",
+		 "FotM DV SWD MB STM",
+		 "SI Mis AS MB STM",
+		 "SWV DV AS VT STM",
+		 "SI ToF AS VT STM",
+		 "FotM DV SWD MB DA",
+		 "SWV Mis SC VT STM",
+		 "FotM Mis SWD VT DA",
+		 "SI DV SWD MB STM",
+		 "FotM DV SC VT STM",
+		 "FotM Mis SWD MB STM",
+		 "FotM ToF SWD VT STM",
+		 "SI Mis SWD MB DA",
+		 "SI DV SC VT STM",
+		 "SWV DV SWD VT STM",
+		 "SI ToF SWD VT STM",
+		 "FotM Mis SWD MB DA",
+		 "SI Mis SWD MB STM",
+		 "FotM DV AS VT STM",
+		 "FotM Mis SC VT STM",
+		 "SWV Mis AS VT STM",
+		 "SI Mis SC VT STM",
+		 "SI DV AS VT STM",
+		 "SWV Mis SWD VT STM",
+		 "FotM Mis AS VT STM",
+		 "FotM DV SWD VT STM",
+		 "SI DV SWD VT STM",
+		 "SI Mis AS VT STM",
+		 "FotM Mis SWD VT STM",
+		 "SI Mis SWD VT STM"
+	]}
