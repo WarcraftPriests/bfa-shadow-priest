@@ -914,7 +914,7 @@ buildEssenceJsonChart(essencesASJsonD, "essences_AS_D.json", 'dungeons')
 buildEssenceJsonChart(essencesSCJsonD, "essences_SC_D.json", 'dungeons')
 
 buildTalentJsonChart(talentsJson, "talents_C.json", 'composite')
-buildTalentJsonChart(talentsJson, "talents_ST.json", 'sinlge_target')
+buildTalentJsonChart(talentsJson, "talents_ST.json", 'single_target')
 buildTalentJsonChart(talentsJsonD, "talents_D.json", 'dungeons')
 
 os.remove(trinketsSCJson)
