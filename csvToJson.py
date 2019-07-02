@@ -3,6 +3,7 @@ import json
 import re
 import time
 import os
+import datetime
 
 starttime = time.time()
 
@@ -56,6 +57,10 @@ trinketsRaidSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/tri
 
 #CSV Field names
 fieldnames = ('profile', 'actor', 'DPS', 'increase')
+
+now = datetime.datetime.now()
+now = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
+
 
 # Trait List (hack fix for the moment)
 traitList = [
@@ -352,8 +357,11 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     j.write('\t\t"'+s.replace('_',' ').strip()+'",\n')
                 else:
                     j.write('\t\t"'+s.replace('_',' ').strip()+'"\n')
-        j.write('\t]')
+        j.write('\t],\n')
         #j.write('\n\t},')
+        j.write('\t"LastUpdated": [\n')
+        j.write('\t\t"' + now + '"\n')
+        j.write('\t]')
         j.write('\n}')
     j.close()
 
