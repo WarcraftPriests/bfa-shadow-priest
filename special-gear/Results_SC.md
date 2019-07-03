@@ -1,13 +1,61 @@
-# Battle for Dazar'alor Composite
+# Eternal Palace
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Malformed_Heralds_Legwraps_425|25477|1.25%|
-|Seabreeze_415|25185|0.09%|
-|Base|25163|0.00%|
+|Anu-Azshara_Staff_of_the_Eternal_445|43603|8.98%|
+|Seabreeze_445|43283|8.18%|
+|Neural_Synapse_Enhancer_415|41198|2.97%|
+|Poens_Deepsea_Gloves_Active_425|40791|1.96%|
+|Shirakess_Wristwraps_Active_425|40521|1.28%|
+|Malformed_Heralds_Legwraps_445|40362|0.88%|
+|Waveblade_Farseers_Bindings_Active_425|40360|0.88%|
+|Akanas_Reefstrider_Soles_Active_425|40209|0.50%|
+|Logic_Loop_of_Division_Shorting_Bit_Band_415|40167|0.39%|
+|Logic_Loop_of_Division_Overclocking_Bit_Band_415|40165|0.39%|
+|Logic_Loop_of_Recursion_Overclocking_Bit_Band_415|40161|0.38%|
+|Logic_Loop_of_Recursion_Shorting_Bit_Band_415|40159|0.37%|
+|Vims_Scalecrusher_Belt_Active_425|40147|0.35%|
+|Neris_Wavebreaker_Cuffs_Active_425|40123|0.29%|
+|Base|40009|0.00%|
+|Poens_Deepsea_Gloves_Inactive_425|39888|-0.30%|
+|Slippers_of_the_Sorceress_Queen_445|39838|-0.43%|
+|Shirakess_Wristwraps_Inactive_425|39780|-0.57%|
+|Shirakess_Bracelets_Active_425|39753|-0.64%|
+|Neris_Wavebreaker_Cuffs_Inactive_425|39753|-0.64%|
+|Waveblade_Farseers_Bindings_Inactive_425|39751|-0.64%|
+|Shirakess_Bracelets_Inactive_425|39750|-0.65%|
+|Akanas_Reefstrider_Soles_Inactive_425|39666|-0.86%|
+|Vims_Scalecrusher_Belt_Inactive_425|39613|-0.99%|
+|Shirakess_Cinch_Active_425|39609|-1.00%|
+|Shirakess_Cinch_Inactive_425|39606|-1.01%|
+|Hyperthread_Wristwraps_415|38834|-2.94%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Malformed_Heralds_Legwraps_425|24239|1.25%|
-|Seabreeze_415|23965|0.11%|
-|Base|23939|0.00%|
+|Anu-Azshara_Staff_of_the_Eternal_445|38472|8.90%|
+|Seabreeze_445|38197|8.12%|
+|Neural_Synapse_Enhancer_415|36332|2.84%|
+|Poens_Deepsea_Gloves_Active_425|35825|1.41%|
+|Waveblade_Farseers_Bindings_Active_425|35716|1.10%|
+|Shirakess_Wristwraps_Active_425|35644|0.90%|
+|Malformed_Heralds_Legwraps_445|35599|0.77%|
+|Akanas_Reefstrider_Soles_Active_425|35528|0.57%|
+|Logic_Loop_of_Division_Overclocking_Bit_Band_415|35424|0.27%|
+|Logic_Loop_of_Recursion_Overclocking_Bit_Band_415|35423|0.27%|
+|Logic_Loop_of_Division_Shorting_Bit_Band_415|35422|0.27%|
+|Logic_Loop_of_Recursion_Shorting_Bit_Band_415|35415|0.25%|
+|Neris_Wavebreaker_Cuffs_Active_425|35362|0.10%|
+|Vims_Scalecrusher_Belt_Active_425|35354|0.08%|
+|Base|35327|0.00%|
+|Poens_Deepsea_Gloves_Inactive_425|35213|-0.32%|
+|Slippers_of_the_Sorceress_Queen_445|35187|-0.40%|
+|Shirakess_Wristwraps_Inactive_425|35135|-0.54%|
+|Shirakess_Bracelets_Active_425|35112|-0.61%|
+|Neris_Wavebreaker_Cuffs_Inactive_425|35108|-0.62%|
+|Waveblade_Farseers_Bindings_Inactive_425|35107|-0.62%|
+|Shirakess_Bracelets_Inactive_425|35102|-0.64%|
+|Akanas_Reefstrider_Soles_Inactive_425|35063|-0.75%|
+|Vims_Scalecrusher_Belt_Inactive_425|34977|-0.99%|
+|Shirakess_Cinch_Active_425|34972|-1.00%|
+|Shirakess_Cinch_Inactive_425|34966|-1.02%|
+|Hyperthread_Wristwraps_415|34297|-2.92%|
