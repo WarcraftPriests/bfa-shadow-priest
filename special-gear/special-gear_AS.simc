@@ -78,11 +78,6 @@ profileset."Neris_Wavebreaker_Cuffs_Inactive_425"+=bfa.nazjatar=0
 profileset."Neris_Wavebreaker_Cuffs_Active_425"+=wrists=neris_wavebreaker_cuffs,id=170331,bonus_id=1512
 profileset."Neris_Wavebreaker_Cuffs_Active_425"+=bfa.nazjatar=1
 
-profileset."Shirakess_Bracelets_Inactive_425"+=wrists=shirakess_bracelets,id=170123,bonus_id=1512
-profileset."Shirakess_Bracelets_Inactive_425"+=bfa.nazjatar=0
-profileset."Shirakess_Bracelets_Active_425"+=wrists=shirakess_bracelets,id=170123,bonus_id=1512
-profileset."Shirakess_Bracelets_Active_425"+=bfa.nazjatar=1
-
 profileset."Waveblade_Farseers_Bindings_Inactive_425"+=wrists=waveblade_farseers_bindings,id=170306,bonus_id=1512
 profileset."Waveblade_Farseers_Bindings_Inactive_425"+=bfa.nazjatar=0
 profileset."Waveblade_Farseers_Bindings_Active_425"+=wrists=waveblade_farseers_bindings,id=170306,bonus_id=1512
