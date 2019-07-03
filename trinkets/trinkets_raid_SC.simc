@@ -7,6 +7,8 @@ spec=shadow
 
 default_actions=1
 initial_resource=insanity=25
+# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
+azerite_essences=27:3:1/5:3:0/12:3:0
 
 head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75

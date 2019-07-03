@@ -7,6 +7,8 @@ spec=shadow
 
 default_actions=1
 initial_resource=insanity=25
+# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
+azerite_essences=27:3:1/5:3:0/12:3:0
 
 head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
@@ -40,10 +42,10 @@ profileset."40_Critical_Strike"+=trinket2=shiver_venom_relic,id=168905,ilevel=44
 profileset."40_Mastery"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154129
 profileset."40_Versatility"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=154128
 profileset."120_Intellect"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168638
-profileset."60_Haste"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168641
-profileset."60_Critical_Strike"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168639
-profileset."60_Mastery"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168640
-profileset."60_Versatility"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168642
+profileset."50_Haste"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168641
+profileset."50_Critical_Strike"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168639
+profileset."50_Mastery"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168640
+profileset."50_Versatility"+=trinket2=shiver_venom_relic,id=168905,ilevel=445,gem_id=168642
 
 # Flasks
 profileset."Flask_of_Endless_Fathoms"+=flask=endless_fathoms

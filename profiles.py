@@ -12,6 +12,9 @@ def assure_path_exists(path):
 # SWV_DV_[AS|SC]_MB_LotV
 dungeonsAS = 'talents=3131111'
 dungeonsSC = 'talents=3131311'
+# Set Dungeon Essences manually
+# Mythic+: Major: Focused Azerite Beam, Minors: Lucid Dreams & Purification Protocol
+dungeonsEssences = 'azerite_essences=5:3:1/27:3:0/6:3:0'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
@@ -145,6 +148,8 @@ for value in profiles:
     settings = '\n'
     if args.dungeons:
         settings = settings + dungeons + "\n"
+        if args.talents and not args.dir == "essences/":
+            settings = settings + dungeonsEssences
         if args.talents and not args.dir == "talents/":
             if args.talents == "AS":
                 settings = settings + dungeonsAS
