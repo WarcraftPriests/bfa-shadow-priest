@@ -1,13 +1,15 @@
 # Eternal Palace
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Stacks_greater_than_20_5_bloodlust|40120|3.86%|
-|Stacks_greater_than_20|40112|3.84%|
-|Base|38627|0.00%|
+|Check_3_GCDs_or_30_Lucid|43897|0.55%|
+|Check_3_GCDs_or_30_VBplus_Lucid|43886|0.53%|
+|Check_3_GCDs_or_30_VB_Lucid|43858|0.46%|
+|Base|43656|0.00%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Stacks_greater_than_20_5_bloodlust|34947|3.53%|
-|Stacks_greater_than_20|34926|3.46%|
-|Base|33757|0.00%|
+|Check_3_GCDs_or_30_Lucid|38722|0.84%|
+|Check_3_GCDs_or_30_VBplus_Lucid|38704|0.79%|
+|Check_3_GCDs_or_30_VB_Lucid|38661|0.68%|
+|Base|38401|0.00%|
