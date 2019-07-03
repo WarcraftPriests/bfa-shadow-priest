@@ -26,10 +26,12 @@ main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=quick_navigation
 off_hand=stormtamers_orb,id=168896,ilevel=445
 
 profileset."Seabreeze_445"+=main_hand=seabreeze,id=158371,ilevel=445,enchant=quick_navigation
+profileset."Seabreeze_445"+=off_hand=
 
 profileset."Malformed_Heralds_Legwraps_445"+=legs=malformed_heralds_legwraps,id=167835,ilevel=445
 
 profileset."Anu-Azshara_Staff_of_the_Eternal_445"+=main_hand=anu_azshara__staff_of_the_eternal,id=168275,bonus_id=4800/1517,enchant=quick_navigation
+profileset."Anu-Azshara_Staff_of_the_Eternal_445"+=off_hand=
 
 profileset."Slippers_of_the_Sorceress_Queen_445"+=feet=slippers_of_the_sorceress_queen,id=168880,bonus_id=4800/1517
 
@@ -51,6 +53,7 @@ profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger1=logic_loo
 profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_415"+=finger2=overclocking_bit_band,id=169159,ilevel=415,enchant=accord_of_haste
 
 profileset."Neural_Synapse_Enhancer_415"+=main_hand=neural_synapse_enhancer,id=168973,ilevel=415,enchant=quick_navigation
+profileset."Neural_Synapse_Enhancer_415"+=off_hand=
 
 profileset."Hyperthread_Wristwraps_415"+=wrists=hyperthread_wristwraps,id=168989,ilevel=415
 
