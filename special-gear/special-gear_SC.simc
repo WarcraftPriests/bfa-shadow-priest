@@ -94,3 +94,8 @@ profileset."Poens_Deepsea_Gloves_Inactive_425"+=hands=poens_deepsea_gloves,id=17
 profileset."Poens_Deepsea_Gloves_Inactive_425"+=bfa.nazjatar=0
 profileset."Poens_Deepsea_Gloves_Active_425"+=hands=poens_deepsea_gloves,id=170333,bonus_id=1512
 profileset."Poens_Deepsea_Gloves_Active_425"+=bfa.nazjatar=1
+
+profileset."Shirakess_Sandals_Inactive_425"+=feet=shirakess_sandals,id=169894,bonus_id=1512
+profileset."Shirakess_Sandals_Inactive_425"+=bfa.nazjatar=0
+profileset."Shirakess_Sandals_Active_425"+=feet=shirakess_sandals,id=169894,bonus_id=1512
+profileset."Shirakess_Sandals_Active_425"+=bfa.nazjatar=1
