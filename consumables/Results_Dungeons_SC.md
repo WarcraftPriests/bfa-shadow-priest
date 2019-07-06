@@ -1,37 +1,37 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Greater_Flask_of_Endless_Fathoms|37266|3.13%|
-|Potion_of_Unbridled_Fury|37228|3.02%|
-|Potion_of_Focused_Resolve|37139|2.77%|
-|Flask_of_Endless_Fathoms|36854|1.99%|
-|Baked_Port_Tato|36609|1.31%|
-|Mech-Dowels_Big_Mech|36607|1.30%|
-|Superior_Battle_Potion_of_Intellect|36559|1.17%|
-|Potion_of_Rising_Death|36546|1.14%|
-|Famine_Evaluator_and_Snack_Table|36532|1.09%|
-|Bil_Tong|36508|1.03%|
-|120_Intellect|36506|1.02%|
-|Swamp_Fish_n_Chips|36496|1.00%|
-|Fancy_Darkmoon_Feast|36477|0.94%|
-|Honey-Glazed_Haunches|36460|0.90%|
-|Abyssal-Fried_Rissole|36459|0.89%|
-|60_Critical_Strike|36431|0.82%|
-|Sailors_Pie|36429|0.81%|
-|Battle_Potion_of_Intellect|36420|0.79%|
-|Spiced_Snapper|36412|0.76%|
-|60_Haste|36407|0.75%|
-|Bountiful_Captains_Feast|36405|0.74%|
-|60_Versatility|36398|0.73%|
-|Potion_of_Empowered_Proximity|36367|0.64%|
-|Galley_Banquet|36354|0.60%|
-|40_Critical_Strike|36349|0.59%|
-|60_Mastery|36348|0.59%|
-|80_Intellect|36345|0.58%|
-|40_Haste|36330|0.54%|
-|40_Mastery|36298|0.45%|
-|Battle-Scarred Augment Rune|36294|0.44%|
-|40_Versatility|36293|0.43%|
-|Base|36136|0.00%|
+|Potion_of_Unbridled_Fury|47390|2.70%|
+|Potion_of_Focused_Resolve|47357|2.62%|
+|Greater_Flask_of_Endless_Fathoms|47306|2.51%|
+|Flask_of_Endless_Fathoms|46953|1.75%|
+|Mech-Dowels_Big_Mech|46751|1.31%|
+|Baked_Port_Tato|46710|1.22%|
+|Bil_Tong|46640|1.07%|
+|Fancy_Darkmoon_Feast|46572|0.92%|
+|Famine_Evaluator_and_Snack_Table|46568|0.91%|
+|Swamp_Fish_n_Chips|46566|0.91%|
+|Honey-Glazed_Haunches|46558|0.89%|
+|Potion_of_Rising_Death|46556|0.89%|
+|Superior_Battle_Potion_of_Intellect|46553|0.88%|
+|120_Intellect|46544|0.86%|
+|Abyssal-Fried_Rissole|46519|0.81%|
+|Spiced_Snapper|46466|0.69%|
+|Battle_Potion_of_Intellect|46460|0.68%|
+|Bountiful_Captains_Feast|46460|0.68%|
+|50_Critical_Strike|46451|0.66%|
+|Sailors_Pie|46420|0.59%|
+|50_Haste|46419|0.59%|
+|Galley_Banquet|46409|0.57%|
+|Potion_of_Empowered_Proximity|46382|0.51%|
+|80_Intellect|46372|0.49%|
+|50_Mastery|46364|0.47%|
+|50_Versatility|46362|0.47%|
+|40_Critical_Strike|46350|0.44%|
+|40_Haste|46349|0.44%|
+|40_Versatility|46338|0.42%|
+|Battle-Scarred Augment Rune|46329|0.40%|
+|40_Mastery|46328|0.39%|
+|Base|46146|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
