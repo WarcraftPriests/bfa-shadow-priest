@@ -927,7 +927,7 @@ def buildSingleChart(injsonFile, outjsonFile, simType, sim):
 
             # Ring Enchantments
             j.write('\t\t"Ring Accord of Haste" : 297989,\n')
-            j.write('\t\t"Ring Accord of Critical Strike" : 289009,\n')
+            j.write('\t\t"Ring Accord of Critical Strike" : 298009,\n')
             j.write('\t\t"Ring Accord of Versatility" : 297993,\n')
             j.write('\t\t"Ring Pact of Haste" : 255076,\n')
             j.write('\t\t"Ring Pact of Critical Strike" : 255075,\n')
