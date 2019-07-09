@@ -868,10 +868,13 @@ def buildSingleChart(injsonFile, outjsonFile, simType, sim):
         ucntMax = len(uniqueList)
         ucnt = 0
         for u in uniqueList:
-            j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            if u == "Weapon-Machinist\'s Brilliance":
+                j.write('\t\t"Weapon-Machinists Brilliance": {\n')
+            else:
+                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
             ucnt+=1
             for x in data:
-                if x['actor'] == u and x['profile'] == simType and u != "":
+                if x['actor'] == u and x['profile'] == simType:
                     j.write('\t\t\t"DPS" : ' + x['DPS'] + '\n')
                     if ucnt < ucntMax:
                         j.write('\t\t},\n')
@@ -912,7 +915,7 @@ def buildSingleChart(injsonFile, outjsonFile, simType, sim):
         if sim == 'enchants':
             j.write('\t"spell_ids" : {\n')
             # Weapon Enchants
-            j.write('\t\t"Weapon-Machinist\'s Brilliance" : 298433,\n')
+            j.write('\t\t"Weapon-Machinists Brilliance" : 298433,\n')
             j.write('\t\t"Weapon-Force Multiplier" : 298440,\n')
             j.write('\t\t"Weapon-Naga Hide" : 298442,\n')
             j.write('\t\t"Weapon-Oceanic Restoration" : 298437,\n')
