@@ -1,0 +1,90 @@
+{
+	"data": {
+		"Weapon-Quick Navigation": {
+			"DPS" : 48236
+		},
+		"Weapon-Deadly Navigation": {
+			"DPS" : 48137
+		},
+		"Weapon-Machinists Brilliance": {
+			"DPS" : 48012
+		},
+		"Weapon-Torrent of Elements": {
+			"DPS" : 47854
+		},
+		"Weapon-Versatile Navigation": {
+			"DPS" : 47759
+		},
+		"Weapon-Masterful Navigation": {
+			"DPS" : 47663
+		},
+		"Weapon-Oceanic Restoration": {
+			"DPS" : 47268
+		},
+		"Ring Accord of Haste": {
+			"DPS" : 47249
+		},
+		"Ring Accord of Critical Strike": {
+			"DPS" : 47202
+		},
+		"Ring Accord of Versatility": {
+			"DPS" : 47084
+		},
+		"Ring Pact of Haste": {
+			"DPS" : 47081
+		},
+		"Ring Pact of Critical Strike": {
+			"DPS" : 47066
+		},
+		"Ring Accord of Mastery": {
+			"DPS" : 47040
+		},
+		"Ring Pact of Versatility": {
+			"DPS" : 46984
+		},
+		"Ring Pact of Mastery": {
+			"DPS" : 46957
+		},
+		"Base": {
+			"DPS" : 46768
+		}
+	},
+	"simulated_steps" : [
+		"DPS"
+	],
+	"spell_ids" : {
+		"Weapon-Machinist's Brilliance" : 298433,
+		"Weapon-Force Multiplier" : 298440,
+		"Weapon-Naga Hide" : 298442,
+		"Weapon-Oceanic Restoration" : 298437,
+		"Weapon-Torrent of Elements" : 255129,
+		"Weapon-Deadly Navigation" : 268907,
+		"Weapon-Masterful Navigation" : 268901,
+		"Weapon-Quick Navigation" : 268894,
+		"Weapon-Versatile Navigation" : 268852,
+		"Ring Accord of Haste" : 297989,
+		"Ring Accord of Critical Strike" : 289009,
+		"Ring Accorrd of Versatility" : 297993,
+		"Ring Pact of Haste" : 255076,
+		"Ring Pact of Critical Strike" : 255075,
+		"Ring Accord of Mastery" : 297995,
+		"Ring Pact of Versatility" : 255078,
+		"Ring Pact of Mastery" : 255077
+	},
+	"sorted_data_keys":[
+		 "Weapon-Quick Navigation",
+		 "Weapon-Deadly Navigation",
+		 "Weapon-Machinists Brilliance",
+		 "Weapon-Torrent of Elements",
+		 "Weapon-Versatile Navigation",
+		 "Weapon-Masterful Navigation",
+		 "Weapon-Oceanic Restoration",
+		 "Ring Accord of Haste",
+		 "Ring Accord of Critical Strike",
+		 "Ring Accord of Versatility",
+		 "Ring Pact of Haste",
+		 "Ring Pact of Critical Strike",
+		 "Ring Accord of Mastery",
+		 "Ring Pact of Versatility",
+		 "Ring Pact of Mastery"
+	]}

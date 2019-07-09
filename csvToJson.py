@@ -36,6 +36,18 @@ racialsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_
 racialsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_SC.csv'))
 racialsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_Dungeons_SC.csv'))
 
+#Enchants
+enchantsAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_AS.csv'))
+enchantsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_Dungeons_AS.csv'))
+enchantsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_SC.csv'))
+enchantsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_Dungeons_SC.csv'))
+
+#Consumables
+consumablesAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_AS.csv'))
+consumablesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_Dungeons_AS.csv'))
+consumablesSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_SC.csv'))
+consumablesSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_Dungeons_SC.csv'))
+
 #JSON Files
 #Trinkets
 trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
@@ -61,6 +73,18 @@ racialsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Resul
 racialsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Racials_AS_D.json'))
 racialsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_SC.json'))
 racialsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Racials_SC_D.json'))
+
+#Enchants
+enchantsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_AS.json'))
+enchantsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/enchants_AS_D.json'))
+enchantsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/Results_SC.json'))
+enchantsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'enchants/enchants_SC_D.json'))
+
+#Consumables
+consumablesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_AS.json'))
+consumablesASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/consumables_AS_D.json'))
+consumablesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_SC.json'))
+consumablesSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/consumables_SC_D.json'))
 
 # SimC files
 trinketsDungeonsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_SC.simc'))
@@ -199,6 +223,15 @@ parseCSV(racialsASD, racialsASJsonD)
 parseCSV(racialsSC, racialsSCJson)
 parseCSV(racialsSCD, racialsSCJsonD)
 
+parseCSV(enchantsAS, enchantsASJson)
+parseCSV(enchantsASD, enchantsASJsonD)
+parseCSV(enchantsSC, enchantsSCJson)
+parseCSV(enchantsSCD, enchantsSCJsonD)
+
+parseCSV(consumablesAS, consumablesASJson)
+parseCSV(consumablesASD, consumablesASJsonD)
+parseCSV(consumablesSC, consumablesSCJson)
+parseCSV(consumablesSCD, consumablesSCJsonD)
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
@@ -820,7 +853,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t]\n')
         j.write('}')
 
-def buildTalentJsonChart(injsonFile, outjsonFile, simType):
+def buildSingleChart(injsonFile, outjsonFile, simType, sim):
     namelist = list()
     j = open(outjsonFile,'w') #Start writing our JSON file
     j.write('{\n') #JSON formatting
@@ -831,14 +864,14 @@ def buildTalentJsonChart(injsonFile, outjsonFile, simType):
             namelist.append(m)
         uniqueList = make_unique(namelist)
         j.write('\t"data": {\n')
+        if '' in uniqueList: uniqueList.remove(''); #Remove random blank sims
         ucntMax = len(uniqueList)
-
         ucnt = 0
         for u in uniqueList:
             j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
             ucnt+=1
             for x in data:
-                if x['actor'] == u and x['profile'] == simType:
+                if x['actor'] == u and x['profile'] == simType and u != "":
                     j.write('\t\t\t"DPS" : ' + x['DPS'] + '\n')
                     if ucnt < ucntMax:
                         j.write('\t\t},\n')
@@ -848,34 +881,88 @@ def buildTalentJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t"simulated_steps" : [\n')
         j.write('\t\t"DPS"\n')
         j.write('\t],\n')
-        j.write('\t"spell_ids" : {\n')
-        # T15
-        j.write('\t\t"FotM" : 193195,\n')
-        j.write('\t\t"SI" : 162452,\n')
-        j.write('\t\t"SWV" : 205351,\n')
+        if sim == 'talents':
+            j.write('\t"spell_ids" : {\n')
+            # T15
+            j.write('\t\t"FotM" : 193195,\n')
+            j.write('\t\t"SI" : 162452,\n')
+            j.write('\t\t"SWV" : 205351,\n')
 
-        # T45
-        j.write('\t\t"ToF" : 109142,\n')
-        j.write('\t\t"Mis" : 238558,\n')
-        j.write('\t\t"DV" : 263346,\n')
+            # T45
+            j.write('\t\t"ToF" : 109142,\n')
+            j.write('\t\t"Mis" : 238558,\n')
+            j.write('\t\t"DV" : 263346,\n')
 
-        # T75
-        j.write('\t\t"AS" : 155271,\n')
-        j.write('\t\t"SWD" : 32379,\n')
-        j.write('\t\t"SC" : 205385,\n')
+            # T75
+            j.write('\t\t"AS" : 155271,\n')
+            j.write('\t\t"SWD" : 32379,\n')
+            j.write('\t\t"SC" : 205385,\n')
 
-        # T90
-        j.write('\t\t"LI" : 199849,\n')
-        j.write('\t\t"MB" : 200174,\n')
-        j.write('\t\t"VT" : 263165,\n')
+            # T90
+            j.write('\t\t"LI" : 199849,\n')
+            j.write('\t\t"MB" : 200174,\n')
+            j.write('\t\t"VT" : 263165,\n')
 
-        # T100
-        j.write('\t\t"LotV" : 193225,\n')
-        j.write('\t\t"DA" : 280711,\n')
-        j.write('\t\t"STM" : 193223\n')
+            # T100
+            j.write('\t\t"LotV" : 193225,\n')
+            j.write('\t\t"DA" : 280711,\n')
+            j.write('\t\t"STM" : 193223\n')
 
+            j.write('\t},\n')
+        if sim == 'enchants':
+            j.write('\t"spell_ids" : {\n')
+            # Weapon Enchants
+            j.write('\t\t"Weapon-Machinist\'s Brilliance" : 298433,\n')
+            j.write('\t\t"Weapon-Force Multiplier" : 298440,\n')
+            j.write('\t\t"Weapon-Naga Hide" : 298442,\n')
+            j.write('\t\t"Weapon-Oceanic Restoration" : 298437,\n')
+            j.write('\t\t"Weapon-Torrent of Elements" : 255129,\n')
+            j.write('\t\t"Weapon-Deadly Navigation" : 268907,\n')
+            j.write('\t\t"Weapon-Masterful Navigation" : 268901,\n')
+            j.write('\t\t"Weapon-Quick Navigation" : 268894,\n')
+            j.write('\t\t"Weapon-Versatile Navigation" : 268852,\n')
 
-        j.write('\t},\n')
+            # Ring Enchantments
+            j.write('\t\t"Ring Accord of Haste" : 297989,\n')
+            j.write('\t\t"Ring Accord of Critical Strike" : 289009,\n')
+            j.write('\t\t"Ring Accorrd of Versatility" : 297993,\n')
+            j.write('\t\t"Ring Pact of Haste" : 255076,\n')
+            j.write('\t\t"Ring Pact of Critical Strike" : 255075,\n')
+            j.write('\t\t"Ring Accord of Mastery" : 297995,\n')
+            j.write('\t\t"Ring Pact of Versatility" : 255078,\n')
+            j.write('\t\t"Ring Pact of Mastery" : 255077\n')
+
+            j.write('\t},\n')
+        if sim == 'consumables':
+            j.write('\t"spell_ids" : {\n')
+            # Potions/Flasks
+            j.write('\t\t"Potion of Unbridled Fury" : 300749,\n')
+            j.write('\t\t"Potion of Focused Resolve" : 298744,\n')
+            j.write('\t\t"Potion of Rising Death" : 252344,\n')
+            j.write('\t\t"Potion of Empowered Proximity" : 298726,\n')
+            j.write('\t\t"Superior Battle Potion of Intellect" : 298741,\n')
+            j.write('\t\t"Battle Potion of Intellect" : 279162,\n')
+            j.write('\t\t"Greater Flask of Endless Fathoms " : 298846,\n')
+            j.write('\t\t"Flask of Endless Fathoms " : 252351,\n')
+
+            # Food
+            j.write('\t\t"Baked Port Tato " : 168313,\n')
+            j.write('\t\t"Mech-Dowels Big Mech " : 168310,\n')
+            j.write('\t\t"Swamp Fish n Chips " : 259427,\n')
+            j.write('\t\t"Honey-Glazed Haunches " : 259414,\n')
+            j.write('\t\t"Bil Tong " : 168314,\n')
+            j.write('\t\t"Famine Evaluator and Snack Table " : 297105,\n')
+            j.write('\t\t"Abyssal-Fried Rissole " : 168311,\n')
+            j.write('\t\t"Fancy Darkmoon Feast " : 185705,\n')
+            j.write('\t\t"Spiced Snapper " : 259445,\n')
+            j.write('\t\t"Bountiful Captains Feast " : 259421,\n')
+            j.write('\t\t"Sailors Pie" : 259439,\n')
+            j.write('\t\t"Galley Banquet" : 259418,\n')
+
+            # Rune
+            j.write('\t\t"Battle-Scarred Augment Rune" : 270058\n')
+            j.write('\t},\n')
+
 
         if "Base" in uniqueList: uniqueList.remove("Base")
         j.write('\t"sorted_data_keys":[\n')
@@ -939,16 +1026,31 @@ buildEssenceJsonChart(essencesSCJson, "essences_SC_ST.json", 'single_target')
 buildEssenceJsonChart(essencesASJsonD, "essences_AS_D.json", 'dungeons')
 buildEssenceJsonChart(essencesSCJsonD, "essences_SC_D.json", 'dungeons')
 
-buildTalentJsonChart(talentsJson, "talents_C.json", 'composite')
-buildTalentJsonChart(talentsJson, "talents_ST.json", 'single_target')
-buildTalentJsonChart(talentsJsonD, "talents_D.json", 'dungeons')
+buildSingleChart(talentsJson, "talents_C.json", 'composite','talents')
+buildSingleChart(talentsJson, "talents_ST.json", 'single_target','talents')
+buildSingleChart(talentsJsonD, "talents_D.json", 'dungeons','talents')
 
-buildTalentJsonChart(racialsASJson, "racials_AS_C.json", 'composite')
-buildTalentJsonChart(racialsASJson, "racials_AS_ST.json", 'single_target')
-buildTalentJsonChart(racialsASJsonD, "racials_AS_D.json", 'dungeons')
-buildTalentJsonChart(racialsSCJson, "racials_SC_C.json", 'composite')
-buildTalentJsonChart(racialsSCJson, "racials_SC_ST.json", 'single_target')
-buildTalentJsonChart(racialsSCJsonD, "racials_SC_D.json", 'dungeons')
+buildSingleChart(racialsASJson, "racials_AS_C.json", 'composite','racials')
+buildSingleChart(racialsASJson, "racials_AS_ST.json", 'single_target','racials')
+buildSingleChart(racialsASJsonD, "racials_AS_D.json", 'dungeons','racials')
+buildSingleChart(racialsSCJson, "racials_SC_C.json", 'composite','racials')
+buildSingleChart(racialsSCJson, "racials_SC_ST.json", 'single_target','racials')
+buildSingleChart(racialsSCJsonD, "racials_SC_D.json", 'dungeons', 'racials')
+
+buildSingleChart(enchantsASJson, "enchants_AS_C.json", 'composite','enchants')
+buildSingleChart(enchantsASJson, "enchants_AS_ST.json", 'single_target','enchants')
+buildSingleChart(enchantsASJsonD, "enchants_AS_D.json", 'dungeons','enchants')
+buildSingleChart(enchantsSCJson, "enchants_SC_C.json", 'composite','enchants')
+buildSingleChart(enchantsSCJson, "enchants_SC_ST.json", 'single_target','enchants')
+buildSingleChart(enchantsSCJsonD, "enchants_SC_D.json", 'dungeons','enchants')
+
+buildSingleChart(consumablesASJson, "consumables_AS_C.json", 'composite','consumables')
+buildSingleChart(consumablesASJson, "consumables_AS_ST.json", 'single_target','consumables')
+buildSingleChart(consumablesASJsonD, "consumables_AS_D.json", 'dungeons','consumables')
+buildSingleChart(consumablesSCJson, "consumables_SC_C.json", 'composite','consumables')
+buildSingleChart(consumablesSCJson, "consumables_SC_ST.json", 'single_target','consumables')
+buildSingleChart(consumablesSCJsonD, "consumables_SC_D.json", 'dungeons','consumables')
+
 
 
 os.remove(trinketsSCJson)
@@ -969,6 +1071,14 @@ os.remove(racialsASJson)
 os.remove(racialsASJsonD)
 os.remove(racialsSCJson)
 os.remove(racialsSCJsonD)
+os.remove(enchantsASJson)
+os.remove(enchantsASJsonD)
+os.remove(enchantsSCJson)
+os.remove(enchantsSCJsonD)
+os.remove(consumablesASJson)
+os.remove(consumablesASJsonD)
+os.remove(consumablesSCJson)
+os.remove(consumablesSCJsonD)
 
 
 
