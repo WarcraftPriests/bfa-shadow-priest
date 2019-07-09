@@ -1,0 +1,116 @@
+{
+	"data": {
+		"Human": {
+			"DPS" : 50160
+		},
+		"Night Elf Haste": {
+			"DPS" : 49957
+		},
+		"Gnome": {
+			"DPS" : 49938
+		},
+		"Goblin": {
+			"DPS" : 49921
+		},
+		"Panda": {
+			"DPS" : 49887
+		},
+		"Zandalari Troll Paku": {
+			"DPS" : 49869
+		},
+		"Night Elf Crit": {
+			"DPS" : 49775
+		},
+		"Blood Elf": {
+			"DPS" : 49729
+		},
+		"Dwarf": {
+			"DPS" : 49713
+		},
+		"Tauren": {
+			"DPS" : 49710
+		},
+		"Worgen": {
+			"DPS" : 49710
+		},
+		"Void Elf": {
+			"DPS" : 49678
+		},
+		"Nightborne": {
+			"DPS" : 49666
+		},
+		"Kul Tiran": {
+			"DPS" : 49645
+		},
+		"Troll": {
+			"DPS" : 49612
+		},
+		"Zandalari Troll Kimbul": {
+			"DPS" : 49559
+		},
+		"Undead": {
+			"DPS" : 49523
+		},
+		"Zandalari Troll Bwonsamdi": {
+			"DPS" : 49505
+		},
+		"Maghar Orc": {
+			"DPS" : 49485
+		},
+		"Draenei": {
+			"DPS" : 49445
+		},
+		"Lightforged Draenei": {
+			"DPS" : 49415
+		},
+		"Dark Iron Dwarf": {
+			"DPS" : 49317
+		},
+		"Base": {
+			"DPS" : 49181
+		}
+	},
+	"simulated_steps" : [
+		"DPS"
+	],
+	"spell_ids" : {
+		"FotM" : 193195,
+		"SI" : 162452,
+		"SWV" : 205351,
+		"ToF" : 109142,
+		"Mis" : 238558,
+		"DV" : 263346,
+		"AS" : 155271,
+		"SWD" : 32379,
+		"SC" : 205385,
+		"LI" : 199849,
+		"MB" : 200174,
+		"VT" : 263165,
+		"LotV" : 193225,
+		"DA" : 280711,
+		"STM" : 193223
+	},
+	"sorted_data_keys":[
+		 "Human",
+		 "Night Elf Haste",
+		 "Gnome",
+		 "Goblin",
+		 "Panda",
+		 "Zandalari Troll Paku",
+		 "Night Elf Crit",
+		 "Blood Elf",
+		 "Dwarf",
+		 "Tauren",
+		 "Worgen",
+		 "Void Elf",
+		 "Nightborne",
+		 "Kul Tiran",
+		 "Troll",
+		 "Zandalari Troll Kimbul",
+		 "Undead",
+		 "Zandalari Troll Bwonsamdi",
+		 "Maghar Orc",
+		 "Draenei",
+		 "Lightforged Draenei",
+		 "Dark Iron Dwarf"
+	]}

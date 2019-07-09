@@ -30,6 +30,12 @@ essencesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Result
 talents = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results.csv'))
 talentsD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/results_Dungeons.csv'))
 
+#Racials
+racialsAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_AS.csv'))
+racialsASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_Dungeons_AS.csv'))
+racialsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_SC.csv'))
+racialsSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_Dungeons_SC.csv'))
+
 #JSON Files
 #Trinkets
 trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
@@ -49,6 +55,12 @@ essencesASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Re
 #Talents
 talentsJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results.json'))
 talentsJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'talents/Results_D.json'))
+
+#Racials
+racialsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_AS.json'))
+racialsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Racials_AS_D.json'))
+racialsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Results_SC.json'))
+racialsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'racials/Racials_SC_D.json'))
 
 # SimC files
 trinketsDungeonsSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/trinkets_dungeons_SC.simc'))
@@ -181,6 +193,12 @@ parseCSV(essencesSCD,essencesSCJsonD)
 
 parseCSV(talents, talentsJson)
 parseCSV(talentsD, talentsJsonD)
+
+parseCSV(racialsAS, racialsASJson)
+parseCSV(racialsASD, racialsASJsonD)
+parseCSV(racialsSC, racialsSCJson)
+parseCSV(racialsSCD, racialsSCJsonD)
+
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
@@ -925,6 +943,14 @@ buildTalentJsonChart(talentsJson, "talents_C.json", 'composite')
 buildTalentJsonChart(talentsJson, "talents_ST.json", 'single_target')
 buildTalentJsonChart(talentsJsonD, "talents_D.json", 'dungeons')
 
+buildTalentJsonChart(racialsASJson, "racials_AS_C.json", 'composite')
+buildTalentJsonChart(racialsASJson, "racials_AS_ST.json", 'single_target')
+buildTalentJsonChart(racialsASJsonD, "racials_AS_D.json", 'dungeons')
+buildTalentJsonChart(racialsSCJson, "racials_SC_C.json", 'composite')
+buildTalentJsonChart(racialsSCJson, "racials_SC_ST.json", 'single_target')
+buildTalentJsonChart(racialsSCJsonD, "racials_SC_D.json", 'dungeons')
+
+
 os.remove(trinketsSCJson)
 os.remove(trinketsASJson)
 os.remove(traitsSCJson)
@@ -939,6 +965,10 @@ os.remove(essencesASJsonD)
 os.remove(essencesSCJsonD)
 os.remove(talentsJson)
 os.remove(talentsJsonD)
+os.remove(racialsASJson)
+os.remove(racialsASJsonD)
+os.remove(racialsSCJson)
+os.remove(racialsSCJsonD)
 
 
 
