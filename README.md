@@ -43,38 +43,35 @@ Every sim is run with the top AS and SC build:
 - SC: SWV_DV_SC_LI_LotV
 
 ### Azerite Traits
-- Head: [Cowl of Tideborne Omens](https://www.wowhead.com/item=165822/cowl-of-tideborne-omens&bonus=4822:1507)
-    - [Thought Harvester](https://bfa.wowhead.com/spell=288340/thought-harvester)
-    - [Searing Dialogue](https://www.wowhead.com/spell=272788/searing-dialogue)
-    - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
-    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Shoulders: [Bristling Fur-Lined Amice](https://www.wowhead.com/item=165922/bristling-fur-lined-amice&bonus=4822:1507)
-    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+- Head: [Handmaiden's Cowl of Sacrifice](https://www.wowhead.com/item=168336?bonus=4775&azerite-powers=5:403:405:30:13&ilvl=450)
     - [Spiteful Apparitions](https://www.wowhead.com/spell=277682/spiteful-apparitions)
-    - [Azerite Globules](https://www.wowhead.com/spell=266936/azerite-globules)
-    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- Chest: [Divine Fury Raiment](https://www.wowhead.com/item=165834/divine-fury-raiment&bonus=4822:1507&azerite-powers=5)
     - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
-    - [Treacherous Covenant](https://www.wowhead.com/spell=289014/treacherous-covenant)
-    - [On My Way](https://www.wowhead.com/spell=267879/on-my-way)
-    - [Azerite Empowered](https://bfa.wowhead.com/spell=263978/azerite-empowered)
-- `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=48`
+    - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
+- Shoulders: [Amice of the Reef Witch](https://www.wowhead.com/item=168338?bonus=4775&azerite-powers=5:405:577:18:13&ilvl=450)
+    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    - [Arcane Heart](https://www.wowhead.com/spell=303209/arcane-heart)
+    - [Blood Siphon](https://www.wowhead.com/spell=264108/blood-siphon)
+- Chest: [Vestments of Creeping Terror](https://www.wowhead.com/item=168337?bonus=4775&azerite-powers=5:405:236:30:13&ilvl=450)
+    - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
+    - [Whispers of the Damned](https://www.wowhead.com/spell=275722/whispers-of-the-damned)
+    - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
+- `neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75`
 
 ### Stats - Mythic (Percent Stat - Gear Amount)
-- 20.13% Crit - 1089
-- 17.90% Haste - 1217
-- 1.52% Versatility - 129
-- 21.97% Mastery - 742
-- 7169 Intellect - 5123
+- 15.04% Crit - 723
+- 25.78% Haste - 1660
+- 6.81% Versatility - 579
+- 26.60% Mastery - 1020
+- 12591 Intellect - 9015
 
 ### Enchants
 - Weapon: [Quick Navigation](https://www.wowhead.com/spell=268894/weapon-enchant-quick-navigation)
-- Ring: [Pact of Haste](https://www.wowhead.com/item=153443/enchant-ring-pact-of-haste)
+- Ring: [Accord of Haste](https://www.wowhead.com/item=168447/enchant-ring-accord-of-haste)
 
 ### Consumables
-- Food: [Bountiful Captains Feast](https://bfa.wowhead.com/item=156526/bountiful-captains-feast)
-- Potion: [Potion of Rising Death](https://www.wowhead.com/item=152559/potion-of-rising-death)
-- Flask: [Flask of Endless Fathoms](https://www.wowhead.com/item=152639/flask-of-endless-fathoms)
+- Food: [Baked Port Tato](https://www.wowhead.com/item=168313/baked-port-tato)
+- Potion: [Potion of Unbridled Fury](https://www.wowhead.com/item=169299/potion-of-unbridled-fury)
+- Flask: [Greater Flask of Endless Fathoms](https://www.wowhead.com/item=168652/greater-flask-of-endless-fathoms)
 - Augment Rune: [Battle-Scarred Augment Rune](https://www.wowhead.com/item=160053/battle-scarred-augment-rune)
 
 ## Results
