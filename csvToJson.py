@@ -120,7 +120,7 @@ traitList = [
 'Filthy_Transfusion_',
 'Glory_in_Battle_',
 'Incite_the_Pack_',
-'Loyal_to_the_End_',
+#'Loyal_to_the_End_',
 'Meticulous_Scheming_',
 'Relational_Normalization_Gizmo_',
 'Retaliatory_Fury_',
@@ -143,6 +143,11 @@ traitList = [
 'Undulating_Tides_',
 'Unstable_Catalyst_',
 'Whispers_of_the_Damned_',
+'Loyal_to_the_End_4_Allies_',
+'Loyal_to_the_End_3_Allies_',
+'Loyal_to_the_End_2_Allies_',
+'Loyal_to_the_End_1_Allies_',
+'Loyal_to_the_End_0_Allies_',
 
 #Secondary Traits
 'Azerite_Globules_',
@@ -432,10 +437,12 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             m = re.search(r"\D*",x['actor'].rstrip()).group(0)
             namelist.append(m)
         uniqueList = make_unique(namelist)
+        uniqueList = traitList
         if "Base" in uniqueList: uniqueList.remove("Base")
         if "Int_" in uniqueList: uniqueList.remove("Int_")
         j.write('\t"data": {\n')
         ucntMax = len(uniqueList)
+        
         #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
@@ -508,7 +515,11 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Heed My Call ":'+'"271681"'+',\n')
         j.write('\t\t"Incite the Pack ":'+'"280410"'+',\n')
         j.write('\t\t"Laser Matrix ":'+'"280702"'+',\n')
-        j.write('\t\t"Loyal to the End ":'+'"303007"'+',\n')
+        j.write('\t\t"Loyal to the End 4 Allies ":'+'"303007"'+',\n')
+        j.write('\t\t"Loyal to the End 3 Allies ":'+'"303007"'+',\n')
+        j.write('\t\t"Loyal to the End 2 Allies ":'+'"303007"'+',\n')
+        j.write('\t\t"Loyal to the End 1 Allies ":'+'"303007"'+',\n')
+        j.write('\t\t"Loyal to the End 0 Allies ":'+'"303007"'+',\n')
         j.write('\t\t"Lifespeed":'+'"267665"'+',\n')
         j.write('\t\t"Meticulous Scheming ":'+'"273684"'+',\n')
         j.write('\t\t"On My Way ":'+'"267879"'+',\n')
