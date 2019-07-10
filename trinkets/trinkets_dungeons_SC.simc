@@ -194,3 +194,199 @@ profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_420"+=trinket1=pocketsized
 profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_420"+=trinket1=pocketsized_computation_device,id=167555,ilevel=420,gem_id=167677/168743/168435
 profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_420"+=trinket1=pocketsized_computation_device,id=167555,ilevel=420,gem_id=168800/168743/168435
 profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_420"+=trinket1=pocketsized_computation_device,id=167555,ilevel=420,gem_id=168912/168743/168435
+
+# Red 425 Yellow 425 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167556/168749/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Effective_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168912/168749/168435
+
+# Red 425 Yellow 425 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167556/168747/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168912/168747/168435
+
+# Red 425 Yellow 425 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167556/168748/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Refined_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168912/168748/168435
+
+# Red 425 Yellow 425 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167556/168743/168435
+profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_425"+=trinket1=pocketsized_computation_device,id=167555,ilevel=425,gem_id=168912/168743/168435
+
+# Red 425 Yellow 435 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167556/168749/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Effective_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168912/168749/168435
+
+# Red 425 Yellow 435 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167556/168747/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168912/168747/168435
+
+# Red 425 Yellow 435 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167556/168748/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Refined_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168912/168748/168435
+
+# Red 425 Yellow 435 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167556/168743/168435
+profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_430"+=trinket1=pocketsized_computation_device,id=167555,ilevel=430,gem_id=168912/168743/168435
+
+# Red 435 Yellow 435 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167556/168749/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Effective_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168912/168749/168435
+
+# Red 435 Yellow 435 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167556/168747/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168912/168747/168435
+
+# Red 435 Yellow 435 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167556/168748/168435
+profileset."PSCD_Cyclotronic_Blast_Performant_Refined_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168912/168748/168435
+
+# Red 435 Yellow 435 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167556/168743/168435
+profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_435"+=trinket1=pocketsized_computation_device,id=167555,ilevel=435,gem_id=168912/168743/168435
+
+# Red 435 Yellow 445 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168749/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168749/168435
+
+# Red 435 Yellow 445 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168747/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168747/168435
+
+# Red 435 Yellow 445 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168748/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168748/168435
+
+# Red 435 Yellow 445 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168743/168435
+# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168743/168435
+
+# Red 445 Yellow 445 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168749/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168749/168435
+
+# Red 445 Yellow 445 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168747/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168747/168435
+
+# Red 445 Yellow 445 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168748/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168748/168435
+
+# Red 445 Yellow 445 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168743/168435
+# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168743/168435
+
+# Red 445 Yellow 455 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168749/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168749/168435
+
+# Red 445 Yellow 455 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168747/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168747/168435
+
+# Red 445 Yellow 455 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168748/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168748/168435
+
+# Red 445 Yellow 455 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168743/168435
+# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168743/168435
+
+# Red 455 Yellow 455 - Performant Effective - 168749
+profileset."PSCD_Subroutine_Overclock_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168749/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168749/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168749/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168749/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168749/168435
+
+# Red 455 Yellow 455 - Performant Adaptable - 168747
+profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168747/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168747/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168747/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168747/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168747/168435
+
+# Red 455 Yellow 455 - Performant Refined - 168748
+profileset."PSCD_Subroutine_Overclock_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168748/168435
+# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168748/168435
+profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168748/168435
+profileset."PSCD_Subroutine_Recalibration_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168748/168435
+profileset."PSCD_Subroutine_Optimization_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168748/168435
+
+# Red 455 Yellow 455 - Forceful Efficient - 168743
+profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168743/168435
+# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168747/168743
+profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168743/168435
+profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168743/168435
+profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168743/168435
