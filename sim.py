@@ -4,9 +4,16 @@ import sys
 import secrets
 import weights as fightWeights
 import subprocess
+import platform
 
 from os import listdir
 from subprocess import PIPE, STDOUT
+
+# Check if Mac or PC
+if platform.system() == 'Darwin':
+    pyVar = 'python3'
+else:
+    pyVar = 'python'
 
 profiles = []
 apiKey = secrets.apiKey
@@ -90,14 +97,14 @@ for value in profiles:
         reportName = args.dir + name[8:-5]
         name = args.dir + name
         value = args.dir + value
-        subprocess.call(['python3', 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
+        subprocess.call([pyVar, 'api.py', apiKey, value, '--simc_version', version, name, reportName, '--iterations', iterations], shell=False)
     elif weight == 0:
         print("{0} has a weight of 0. Skipping file.".format(name[8:]))
     else:
         print("{0} already exists. Skipping file.".format(name[8:]))
 
 results_dir = args.dir + "results/"
-subprocess.call(['python3', 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
+subprocess.call([pyVar, 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
 
 # analyze.py
 if args.dungeons:
@@ -105,7 +112,7 @@ if args.dungeons:
 else:
     script = "analyze.py"
 
-cmd = "python3 {0} {1}".format(script, args.dir)
+cmd = "{0} {1} {2}".format(pyVar, script, args.dir)
 
 if args.weights:
     cmd += " --weights"
