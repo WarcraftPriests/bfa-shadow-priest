@@ -244,7 +244,8 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(trinket1=)\D*',line).group(0).replace('trinket1=','').replace(',id=','').lower() == itemname:
+                if re.search(r'(profileset.)\D*',line).group(0).replace('profileset.','').lower() == itemname:
+                    itemName = itemName[:-1]
                     itemID = re.search(r'(id=)\d*',line.strip('\n')).group(0).strip('id=')
                     return itemID
             except:
@@ -442,7 +443,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         if "Int_" in uniqueList: uniqueList.remove("Int_")
         j.write('\t"data": {\n')
         ucntMax = len(uniqueList)
-        
+
         #print(ucntMax)
         ucnt = 0
         for u in uniqueList:
