@@ -376,6 +376,11 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     j.write('\t\t"'+u+'": '+str(itemID)+',\n')
                 else:
                     j.write('\t\t"'+u+'": '+str(itemID)+'\n')
+            elif 'PSCD' in u:
+                if cnt < maxCnt-1:
+                    j.write('\t\t"'+u+'": '+str(167555)+',\n')
+                else:
+                    j.write('\t\t"'+u+'": '+str(167555)+'\n')
             else:
                 if not u == 'Base':
                     print('Error: ' + u + ' Trinket was not included in the item ID list.')
@@ -398,7 +403,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
             try:
                 maxIlvl = ilvlPerItem(u)[0]
             except:
-                print('Error: ' + u + ' Trinket was not included in the item ID list.')
+                print('Error (Try Statement): ' + u + ' Trinket was not included in the item ID list.')
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+maxIlvl):
                     DPSSort.append(x['DPS'])
