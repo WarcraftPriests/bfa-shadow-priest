@@ -301,8 +301,8 @@
 			"430": 44077,
 			"425": 43977,
 			"420": 43851,
-			"385": 43765,
 			"415": 43762,
+			"385": 43765,
 			"410": 43713,
 			"405": 43654,
 			"400": 43531,
@@ -695,19 +695,15 @@
 			"385": 42794
 		},
 		"PSCD Forceful-Haste Harmonic Dematerializer": {
-			"415": 43678
 		},
 		"Abyssal Alchemist Stone": {
 			"410": 43625
 		},
 		"PSCD Forceful-Vers Harmonic Dematerializer": {
-			"415": 43594
 		},
 		"PSCD Performant-Crit Harmonic Dematerializer": {
-			"415": 43547
 		},
 		"PSCD Forceful-Mastery Harmonic Dematerializer": {
-			"415": 43527
 		},
 		"Balefire Branch": {
 			"455": 43443,
@@ -747,16 +743,12 @@
 			"385": 42543
 		},
 		"PSCD Performant-Vers Harmonic Dematerializer": {
-			"415": 43350
 		},
 		"PSCD Performant-Mastery Harmonic Dematerializer": {
-			"415": 43346
 		},
 		"PSCD Omnipurpose-Crit Harmonic Dematerializer": {
-			"415": 43198
 		},
 		"PSCD Omnipurpose-Haste Harmonic Dematerializer": {
-			"415": 43157
 		},
 		"Spirited Alchemist Stone": {
 			"400": 43145
@@ -779,7 +771,6 @@
 			"385": 42189
 		},
 		"PSCD Optimized-Crit Harmonic Dematerializer": {
-			"415": 43111
 		},
 		"Vanquished Tendril of Ghuun": {
 			"455": 43056,
@@ -799,16 +790,13 @@
 			"385": 42464
 		},
 		"PSCD Optimized-Haste Harmonic Dematerializer": {
-			"415": 43048
 		},
 		"PSCD Omnipurpose-Mastery Harmonic Dematerializer": {
-			"415": 43042
 		},
 		"Tidal Alchemist Stone": {
 			"385": 42989
 		},
 		"PSCD Optimized-Vers Harmonic Dematerializer": {
-			"415": 42984
 		},
 		"Crawg Gnawed Femur": {
 			"455": 42829,
@@ -856,12 +844,9 @@
 		"Harbingers_Inscrutable_Will": 167867,
 		"Leviathans_Lure": 169304,
 		"Incandescent_Sliver": 165571,
-		"Vessel_of_Skittering_Shadows": 159610,
 		"Kajafied_Banana": 161125,
-		"Hadals_Nautilus": 159622,
 		"Tidestorm_Codex": 165576,
 		"Shiver_Venom_Relic": 168905,
-		"Lady_Waycrests_Music_Box": 159631,
 		"Doom_Shroom": 158555,
 		"Vigilants_Bloodshaper": 160651,
 		"Azsharas_Font_of_Power": 169314,
@@ -874,7 +859,6 @@
 		"Galewind_Chimes": 155568,
 		"Leyshocks_Grand_Compilation": 163937,
 		"Incessantly_Ticking_Clock": 161113,
-		"Conch_of_Dark_Whispers": 159620,
 		"Emblem_of_Zandalar": 158154,
 		"Vial_of_Storms": 158224,
 		"First_Mates_Spyglass": 158163,
@@ -884,11 +868,9 @@
 		"Snowpelt_Mangler": 160263,
 		"Lions_Grace": 161472,
 		"Gilded_Loa_Figurine": 158153,
-		"Rotcrusted_Voodoo_Doll": 159624,
 		"Drust_Runed_Icicle": 161380,
 		"Ascended_Alchemist_Stone": 168676,
 		"Moonstone_of_Zin_Azshari": 165666,
-		"Ignition_Mages_Fuse": 159615,
 		"Enthrallers_Bindstone": 169317,
 		"Shockbiters_Fang": 169318,
 		"Berserkers_Juju": 161117,
@@ -898,14 +880,25 @@
 		"Azurethos_Singed_Plumage": 161377,
 		"Crushing_Alchemist_Stone": 168675,
 		"Plunderbeards_Flask": 158164,
+		"PSCD_Forceful-Haste_Harmonic_Dematerializer": 167555,
 		"Abyssal_Alchemist_Stone": 168674,
-		"Balefire_Branch": 159630,
+		"PSCD_Forceful-Vers_Harmonic_Dematerializer": 167555,
+		"PSCD_Performant-Crit_Harmonic_Dematerializer": 167555,
+		"PSCD_Forceful-Mastery_Harmonic_Dematerializer": 167555,
 		"Eternal_Alchemist_Stone": 165928,
 		"Ancient_Knot_of_Wisdom": 166793,
+		"PSCD_Performant-Vers_Harmonic_Dematerializer": 167555,
+		"PSCD_Performant-Mastery_Harmonic_Dematerializer": 167555,
+		"PSCD_Omnipurpose-Crit_Harmonic_Dematerializer": 167555,
+		"PSCD_Omnipurpose-Haste_Harmonic_Dematerializer": 167555,
 		"Spirited_Alchemist_Stone": 165927,
 		"Ravasaur_Skull_Bijou": 161119,
+		"PSCD_Optimized-Crit_Harmonic_Dematerializer": 167555,
 		"Vanquished_Tendril_of_Ghuun": 160654,
+		"PSCD_Optimized-Haste_Harmonic_Dematerializer": 167555,
+		"PSCD_Omnipurpose-Mastery_Harmonic_Dematerializer": 167555,
 		"Tidal_Alchemist_Stone": 165926,
+		"PSCD_Optimized-Vers_Harmonic_Dematerializer": 167555,
 		"Crawg_Gnawed_Femur": 163703,
 		"Chargestone_of_the_Thunder_Kings_Court": 165660,
 		"Darkmoon_Deck_Squalls": 159126
@@ -984,21 +977,9 @@
 		"Ancient Knot of Wisdom",
 		"PSCD Performant-Vers Harmonic Dematerializer",
 		"PSCD Performant-Mastery Harmonic Dematerializer",
-		"PSCD Omnipurpose-Crit Harmonic Dematerializer",
-		"PSCD Omnipurpose-Haste Harmonic Dematerializer",
-		"Spirited Alchemist Stone",
-		"Ravasaur Skull Bijou",
-		"PSCD Optimized-Crit Harmonic Dematerializer",
-		"Vanquished Tendril of Ghuun",
-		"PSCD Optimized-Haste Harmonic Dematerializer",
-		"PSCD Omnipurpose-Mastery Harmonic Dematerializer",
-		"Tidal Alchemist Stone",
-		"PSCD Optimized-Vers Harmonic Dematerializer",
-		"Crawg Gnawed Femur",
-		"Chargestone of the Thunder Kings Court",
-		"Darkmoon Deck Squalls"
+		"PSCD Omnipurpose-Crit Harmonic Dematerializer"
 	],
 	"LastUpdated": [
-		"2019/7/8"
+		"2019/7/11"
 	]
 }
