@@ -12,21 +12,20 @@ azerite_essences=27:3:1/5:3:0/12:3:0
 
 # Head/Shoulders/Chest at 415 ilvl
 head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=415
-neck=heart_of_azeroth,id=158075,bonus_id=4929/4930/4936/1566,azerite_level=75
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
 shoulder=amice_of_the_reef_witch,id=168338,ilevel=415
 back=drape_of_the_hatcher,id=168604,ilevel=445
 chest=vestments_of_creeping_terror,id=168337,ilevel=415
-wrists=bindings_of_the_herald,id=168884,ilevel=445
-hands=gloves_of_unshackled_arcana,id=168375,ilevel=445
-waist=belt_of_blind_devotion,id=168374,ilevel=445
-legs=priscillas_fishnets,id=168876,ilevel=445
-feet=eelskin_flippers,id=168373,ilevel=445
-finger1=cursed_lovers_ring,id=168891,ilevel=445,enchant=accord_of_haste
-finger2=boralus_nobles_seal,id=168889,ilevel=445,enchant=accord_of_haste
+wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
+hands=shirakess_handwraps,id=167753,ilevel=445
+waist=cephalopods_sash,id=168872,ilevel=445
+legs=shirakess_pants,id=170107,ilevel=445
+feet=supplicants_soiled_slippers,id=169049,ilevel=445
+finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
+finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=scepter_of_the_azshari,id=168903,ilevel=445,enchant=quick_navigation
-off_hand=stormtamers_orb,id=168896,ilevel=445
+main_hand=reclaimed_shock_coil,id=169035,ilevel=445,enchant=quick_navigation
 
 # Smartly Plumed Cap - 415, 430, 445
 # Death Throes + Spiteful Apparitions / Searing Dialogue + Meticulous Scheming / Azerite Globules
