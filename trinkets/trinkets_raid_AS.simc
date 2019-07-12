@@ -22,7 +22,7 @@ legs=shirakess_pants,id=170107,ilevel=445
 feet=supplicants_soiled_slippers,id=169049,ilevel=445
 finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
 finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-main_hand=reclaimed_shock_coil,id=169035,bonus_id=1502/4779
+main_hand=reclaimed_shock_coil,id=169035,bonus_id=1502/4779,enchant=quick_navigation
 
 # Uldir Trinkets
 profileset."Vigilants_Bloodshaper_385"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=385
