@@ -886,29 +886,17 @@
 		"Azurethos_Singed_Plumage": 161377,
 		"Crushing_Alchemist_Stone": 168675,
 		"Plunderbeards_Flask": 158164,
-		"PSCD_Forceful-Haste_Harmonic_Dematerializer": 167555,
 		"Abyssal_Alchemist_Stone": 168674,
-		"PSCD_Forceful-Vers_Harmonic_Dematerializer": 167555,
-		"PSCD_Performant-Crit_Harmonic_Dematerializer": 167555,
-		"PSCD_Forceful-Mastery_Harmonic_Dematerializer": 167555,
 		"Balefire_Branch": 159630,
 		"Eternal_Alchemist_Stone": 165928,
 		"Ancient_Knot_of_Wisdom": 166793,
-		"PSCD_Performant-Vers_Harmonic_Dematerializer": 167555,
-		"PSCD_Performant-Mastery_Harmonic_Dematerializer": 167555,
-		"PSCD_Omnipurpose-Crit_Harmonic_Dematerializer": 167555,
-		"PSCD_Omnipurpose-Haste_Harmonic_Dematerializer": 167555,
 		"Spirited_Alchemist_Stone": 165927,
 		"Ravasaur_Skull_Bijou": 161119,
-		"PSCD_Optimized-Crit_Harmonic_Dematerializer": 167555,
 		"Vanquished_Tendril_of_Ghuun": 160654,
-		"PSCD_Optimized-Haste_Harmonic_Dematerializer": 167555,
-		"PSCD_Omnipurpose-Mastery_Harmonic_Dematerializer": 167555,
 		"Tidal_Alchemist_Stone": 165926,
-		"PSCD_Optimized-Vers_Harmonic_Dematerializer": 167555,
 		"Crawg_Gnawed_Femur": 163703,
 		"Chargestone_of_the_Thunder_Kings_Court": 165660,
-		"Darkmoon_Deck_Squalls": 159126
+		"Darkmoon_Deck_Squalls": 159126,
 	},
 	"simulated_steps": [
 		455,
@@ -987,6 +975,6 @@
 		"PSCD Omnipurpose-Crit Harmonic Dematerializer"
 	],
 	"LastUpdated": [
-		"2019/7/12"
+		"2019/7/13"
 	]
 }
