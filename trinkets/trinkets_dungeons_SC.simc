@@ -22,7 +22,8 @@ legs=shirakess_pants,id=170107,ilevel=445
 feet=supplicants_soiled_slippers,id=169049,ilevel=445
 finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
 finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-main_hand=reclaimed_shock_coil,id=169035,ilevel=445,enchant=quick_navigation
+main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
+off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
 
 # Dungeon trinkets
 profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=385

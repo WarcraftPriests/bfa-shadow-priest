@@ -58,11 +58,11 @@ Every sim is run with the top AS and SC build:
 - `neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65`
 
 ### Stats - Mythic (Percent Stat - Gear Amount)
-- 27.31% Crit - 1606
-- 29.03% Haste - 1881
+- 27.79% Crit - 1641
+- 28.49% Haste - 1881
 - 0.00% Versatility - 0
 - 15.02% Mastery - 325
-- 10422 Intellect - 7137
+- 13371 Intellect - 9690
 
 ### Enchants
 - Weapon: [Quick Navigation](https://www.wowhead.com/spell=268894/weapon-enchant-quick-navigation)

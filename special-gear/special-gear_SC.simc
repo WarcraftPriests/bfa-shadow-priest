@@ -24,7 +24,8 @@ finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_ha
 finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
 trinket1=leviathans_lure,id=169304,ilevel=445
 trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=reclaimed_shock_coil,id=169035,ilevel=445,enchant=quick_navigation
+main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
+off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
 
 profileset."Seabreeze_445"+=main_hand=seabreeze,id=158371,ilevel=445,enchant=quick_navigation
 profileset."Seabreeze_445"+=off_hand=
