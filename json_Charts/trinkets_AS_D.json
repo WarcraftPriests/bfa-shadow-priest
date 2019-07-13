@@ -301,8 +301,8 @@
 			"430": 44077,
 			"425": 43977,
 			"420": 43851,
-			"415": 43762,
 			"385": 43765,
+			"415": 43762,
 			"410": 43713,
 			"405": 43654,
 			"400": 43531,
@@ -844,9 +844,12 @@
 		"Harbingers_Inscrutable_Will": 167867,
 		"Leviathans_Lure": 169304,
 		"Incandescent_Sliver": 165571,
+		"Vessel_of_Skittering_Shadows": 159610,
 		"Kajafied_Banana": 161125,
+		"Hadals_Nautilus": 159622,
 		"Tidestorm_Codex": 165576,
 		"Shiver_Venom_Relic": 168905,
+		"Lady_Waycrests_Music_Box": 159631,
 		"Doom_Shroom": 158555,
 		"Vigilants_Bloodshaper": 160651,
 		"Azsharas_Font_of_Power": 169314,
@@ -859,6 +862,7 @@
 		"Galewind_Chimes": 155568,
 		"Leyshocks_Grand_Compilation": 163937,
 		"Incessantly_Ticking_Clock": 161113,
+		"Conch_of_Dark_Whispers": 159620,
 		"Emblem_of_Zandalar": 158154,
 		"Vial_of_Storms": 158224,
 		"First_Mates_Spyglass": 158163,
@@ -868,9 +872,11 @@
 		"Snowpelt_Mangler": 160263,
 		"Lions_Grace": 161472,
 		"Gilded_Loa_Figurine": 158153,
+		"Rotcrusted_Voodoo_Doll": 159624,
 		"Drust_Runed_Icicle": 161380,
 		"Ascended_Alchemist_Stone": 168676,
 		"Moonstone_of_Zin_Azshari": 165666,
+		"Ignition_Mages_Fuse": 159615,
 		"Enthrallers_Bindstone": 169317,
 		"Shockbiters_Fang": 169318,
 		"Berserkers_Juju": 161117,
@@ -885,6 +891,7 @@
 		"PSCD_Forceful-Vers_Harmonic_Dematerializer": 167555,
 		"PSCD_Performant-Crit_Harmonic_Dematerializer": 167555,
 		"PSCD_Forceful-Mastery_Harmonic_Dematerializer": 167555,
+		"Balefire_Branch": 159630,
 		"Eternal_Alchemist_Stone": 165928,
 		"Ancient_Knot_of_Wisdom": 166793,
 		"PSCD_Performant-Vers_Harmonic_Dematerializer": 167555,
@@ -980,6 +987,6 @@
 		"PSCD Omnipurpose-Crit Harmonic Dematerializer"
 	],
 	"LastUpdated": [
-		"2019/7/11"
+		"2019/7/12"
 	]
 }

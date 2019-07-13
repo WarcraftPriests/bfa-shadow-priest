@@ -244,8 +244,8 @@ def getItemId(itemname):
         lines = f.readlines()
         for line in lines:
             try:
-                if re.search(r'(profileset.)\D*',line).group(0).replace('profileset.','').lower() == itemname:
-                    itemName = itemName[:-1]
+
+                if re.search(r'(profileset.)\D*',line).group(0).replace('profileset."','').lower() == itemname + '_':
                     itemID = re.search(r'(id=)\d*',line.strip('\n')).group(0).strip('id=')
                     return itemID
             except:
@@ -294,7 +294,7 @@ def getIlvl(jsonFile):
             nameList.append(m)
         uniqueList = make_unique(nameList)
         uniqueList.sort(reverse=True)
-        print(uniqueList)
+        #print(uniqueList)
     return uniqueList
 
 def addNamesToJson(jsonFile):
@@ -364,6 +364,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t},\n')
         j.write('\t"Data_type": "trinkets",\n\t"item_ids" : {\n')
         maxCnt = len(uniqueList)
+        #print(uniqueList)
         cnt = 0
         for u in uniqueList:
             cnt+=1
@@ -383,6 +384,8 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                     j.write('\t\t"'+u+'": '+str(167555)+'\n')
             else:
                 if not u == 'Base':
+                    #print(u)
+                    #print(itemID)
                     print('Error: ' + u + ' Trinket was not included in the item ID list.')
 
         j.write('\t},\n')
@@ -403,7 +406,7 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
             try:
                 maxIlvl = ilvlPerItem(u)[0]
             except:
-                print('Error (Try Statement): ' + u + ' Trinket was not included in the item ID list.')
+                print('Error (Try Statement): ' + u + ' Trinket was not included in the sorted DPS list.')
             for x in data:
                 if x['profile'] == simType and x['actor'] == str(u+maxIlvl):
                     DPSSort.append(x['DPS'])
