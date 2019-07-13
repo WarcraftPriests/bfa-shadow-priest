@@ -240,6 +240,8 @@ parseCSV(consumablesSCD, consumablesSCJsonD)
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
+    if 'PSCD' in itemname:
+        return 167555
     with open(trinketsDungeonsSC, 'r') as f:
         lines = f.readlines()
         for line in lines:
@@ -364,7 +366,6 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t},\n')
         j.write('\t"Data_type": "trinkets",\n\t"item_ids" : {\n')
         maxCnt = len(uniqueList)
-        #print(uniqueList)
         cnt = 0
         for u in uniqueList:
             cnt+=1
@@ -373,20 +374,13 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                 u = u[:-1]
             itemID = getItemId(u)
             if not str(itemID) == 'None':
-                if cnt < maxCnt-1:
+                if cnt < maxCnt:
                     j.write('\t\t"'+u+'": '+str(itemID)+',\n')
                 else:
                     j.write('\t\t"'+u+'": '+str(itemID)+'\n')
-            elif 'PSCD' in u:
-                if cnt < maxCnt-1:
-                    j.write('\t\t"'+u+'": '+str(167555)+',\n')
-                else:
-                    j.write('\t\t"'+u+'": '+str(167555)+'\n')
             else:
                 if not u == 'Base':
-                    #print(u)
-                    #print(itemID)
-                    print('Error: ' + u + ' Trinket was not included in the item ID list.')
+                    print('Error: ' + u + ' Trinket was not included in the item ID list. Error occured in {} sim'.format(outjsonFile))
 
         j.write('\t},\n')
         j.write('\t"simulated_steps": [\n')
