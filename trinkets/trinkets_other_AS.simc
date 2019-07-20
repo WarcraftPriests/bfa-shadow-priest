@@ -359,7 +359,7 @@ profileset."Crushing_Alchemist_Stone_425"+=trinket1=crushing_alchemist_stone,id=
 profileset."Ascended_Alchemist_Stone_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168641
 
 # Leyshock's Grand Compilation
-profileset."Leyshocks_Grand_Compilation_385"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=415
+profileset."Leyshocks_Grand_Compilation_385"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=385
 profileset."Leyshocks_Grand_Compilation_390"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=390
 profileset."Leyshocks_Grand_Compilation_395"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=395
 profileset."Leyshocks_Grand_Compilation_400"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=400
@@ -374,3 +374,46 @@ profileset."Leyshocks_Grand_Compilation_440"+=trinket1=leyshocks_grand_compilati
 profileset."Leyshocks_Grand_Compilation_445"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=445
 profileset."Leyshocks_Grand_Compilation_450"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=450
 profileset."Leyshocks_Grand_Compilation_455"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=455
+
+# Augment Blueprints 395+
+profileset."Self_Accelerating_Drive_Shaft_395"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=395
+profileset."Self_Accelerating_Drive_Shaft_400"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=400
+profileset."Self_Accelerating_Drive_Shaft_405"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=405
+profileset."Self_Accelerating_Drive_Shaft_410"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=410
+profileset."Self_Accelerating_Drive_Shaft_415"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=415
+profileset."Self_Accelerating_Drive_Shaft_420"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=420
+profileset."Self_Accelerating_Drive_Shaft_425"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=425
+profileset."Self_Accelerating_Drive_Shaft_430"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=430
+profileset."Self_Accelerating_Drive_Shaft_435"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=435
+profileset."Self_Accelerating_Drive_Shaft_440"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=440
+profileset."Self_Accelerating_Drive_Shaft_445"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=445
+profileset."Self_Accelerating_Drive_Shaft_450"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=450
+profileset."Self_Accelerating_Drive_Shaft_455"+=trinket1=selfaccelerating_drive_shaft,id=161414,ilevel=455
+
+profileset."Ruthless_Protocol_Augment_395"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=395
+profileset."Ruthless_Protocol_Augment_400"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=400
+profileset."Ruthless_Protocol_Augment_405"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=405
+profileset."Ruthless_Protocol_Augment_410"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=410
+profileset."Ruthless_Protocol_Augment_415"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=415
+profileset."Ruthless_Protocol_Augment_420"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=420
+profileset."Ruthless_Protocol_Augment_425"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=425
+profileset."Ruthless_Protocol_Augment_430"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=430
+profileset."Ruthless_Protocol_Augment_435"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=435
+profileset."Ruthless_Protocol_Augment_440"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=440
+profileset."Ruthless_Protocol_Augment_445"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=445
+profileset."Ruthless_Protocol_Augment_450"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=450
+profileset."Ruthless_Protocol_Augment_455"+=trinket1=ruthlessness_protocol_augment,id=161374,ilevel=455
+
+profileset."Oxidized_Refuse_Power_395"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=395
+profileset."Oxidized_Refuse_Power_400"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=400
+profileset."Oxidized_Refuse_Power_405"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=405
+profileset."Oxidized_Refuse_Power_410"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=410
+profileset."Oxidized_Refuse_Power_415"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=415
+profileset."Oxidized_Refuse_Power_420"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=420
+profileset."Oxidized_Refuse_Power_425"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=425
+profileset."Oxidized_Refuse_Power_430"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=430
+profileset."Oxidized_Refuse_Power_435"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=435
+profileset."Oxidized_Refuse_Power_440"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=440
+profileset."Oxidized_Refuse_Power_445"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=445
+profileset."Oxidized_Refuse_Power_450"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=450
+profileset."Oxidized_Refuse_Power_455"+=trinket1=oxidized_refuse_remover,id=170273,ilevel=455
