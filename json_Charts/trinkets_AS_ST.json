@@ -211,6 +211,19 @@
 			"415": 42992
 		},
 		"Oxidized Refuse Power": {
+			"455": 43520,
+			"450": 43371,
+			"445": 43271,
+			"440": 43140,
+			"435": 43032,
+			"430": 42937,
+			"425": 42830,
+			"420": 42725,
+			"415": 42623,
+			"410": 42530,
+			"405": 42462,
+			"400": 42371,
+			"395": 42279
 		},
 		"Rotcrusted Voodoo Doll": {
 			"455": 43497,
@@ -386,13 +399,13 @@
 			"430": 42598,
 			"425": 42477,
 			"420": 42405,
-			"385": 41894,
 			"415": 42326,
 			"410": 42247,
 			"405": 42185,
 			"400": 42105,
 			"395": 42051,
-			"390": 41971
+			"390": 41971,
+			"385": 41894
 		},
 		"PSCD Subroutine Recalibration Performant Refined": {
 			"455": 43089,
@@ -423,6 +436,19 @@
 			"385": 41852
 		},
 		"Ruthless Protocol Augment": {
+			"455": 42991,
+			"450": 42873,
+			"445": 42781,
+			"440": 42686,
+			"435": 42606,
+			"430": 42505,
+			"425": 42448,
+			"420": 42342,
+			"415": 42270,
+			"410": 42191,
+			"405": 42134,
+			"400": 42046,
+			"395": 41982
 		},
 		"PSCD Harmonic Dematerializer Performant Adaptable": {
 			"455": 43212,
@@ -856,6 +882,19 @@
 			"385": 41618
 		},
 		"Self Accelerating Drive Shaft": {
+			"455": 42490,
+			"450": 42374,
+			"445": 42306,
+			"440": 42224,
+			"435": 42135,
+			"430": 42044,
+			"425": 41971,
+			"420": 41893,
+			"415": 41823,
+			"410": 41763,
+			"405": 41690,
+			"400": 41622,
+			"395": 41572
 		},
 		"Crushing Alchemist Stone": {
 			"425": 42481
@@ -1136,6 +1175,7 @@
 		"Hadals Nautilus",
 		"Vigilants Bloodshaper",
 		"PSCD Cyclotronic Blast Forceful Efficient",
+		"Oxidized Refuse Power",
 		"PSCD Cyclotronic Blast Performant Effective",
 		"Rotcrusted Voodoo Doll",
 		"PSCD Cyclotronic Blast Performant Adaptable",
@@ -1154,7 +1194,6 @@
 		"Leyshocks Grand Compilation",
 		"Dinobone Charm",
 		"Twitching Tentacle of Xalzaix",
-		"Oxidized Refuse Power",
 		"Living Oil Cannister",
 		"Vial of Storms",
 		"Galewind Chimes",
@@ -1203,6 +1242,6 @@
 		"PSCD Subroutine Optimization Performant Adaptable"
 	],
 	"LastUpdated": [
-		"2019/7/20"
+		"2019/7/21"
 	]
 }
