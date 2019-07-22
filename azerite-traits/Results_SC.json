@@ -1,0 +1,3544 @@
+[
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_3_Spiteful_Apparitions_2_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "48976",
+    "increase": "39.19%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "48477",
+    "increase": "37.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_3_Chorus_of_Insanity_2_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "47768",
+    "increase": "35.76%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "46006",
+    "increase": "30.75%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "44888",
+    "increase": "27.57%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_3_Searing_Dialogue_1_Thought_Harvester_1_Chorus_of_Insanity_1_combo_6",
+    "DPS": "44711",
+    "increase": "27.07%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_2_Thought_Harvester_1_combo_6",
+    "DPS": "44519",
+    "increase": "26.53%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "44161",
+    "increase": "25.51%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Spiteful_Apparitions_1_combo_6",
+    "DPS": "44069",
+    "increase": "25.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "44021",
+    "increase": "25.11%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "43540",
+    "increase": "23.74%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Spiteful_Apparitions_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "42908",
+    "increase": "21.95%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_3_Searing_Dialogue_2_Thought_Harvester_1_combo_6",
+    "DPS": "42762",
+    "increase": "21.53%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "42468",
+    "increase": "20.70%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Death_Throes_2_Thought_Harvester_1_combo_6",
+    "DPS": "42431",
+    "increase": "20.59%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "42427",
+    "increase": "20.58%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Death_Throes_1_Thought_Harvester_1_Barrage_of_Many_Bombs_1_combo_6",
+    "DPS": "42346",
+    "increase": "20.35%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "42027",
+    "increase": "19.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "41338",
+    "increase": "17.48%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_3",
+    "DPS": "41328",
+    "increase": "17.46%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "41325",
+    "increase": "17.45%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3_Whispers_of_the_Damned_3_combo_6",
+    "DPS": "41321",
+    "increase": "17.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "41304",
+    "increase": "17.39%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_3_Searing_Dialogue_3_combo_6",
+    "DPS": "41170",
+    "increase": "17.01%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3_Searing_Dialogue_3_combo_6",
+    "DPS": "41037",
+    "increase": "16.63%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_3_Searing_Dialogue_3_combo_6",
+    "DPS": "40686",
+    "increase": "15.63%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "40684",
+    "increase": "15.63%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "40460",
+    "increase": "14.99%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "40419",
+    "increase": "14.87%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3_Thought_Harvester_3_combo_6",
+    "DPS": "40226",
+    "increase": "14.32%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "40201",
+    "increase": "14.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_3_Thought_Harvester_3_combo_6",
+    "DPS": "40184",
+    "increase": "14.21%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Undulating_Tides_3",
+    "DPS": "40176",
+    "increase": "14.18%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "39760",
+    "increase": "13.00%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blightborne_Infusion_3",
+    "DPS": "39542",
+    "increase": "12.38%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1_Death_Throes_2_combo_3",
+    "DPS": "39402",
+    "increase": "11.98%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_3",
+    "DPS": "39373",
+    "increase": "11.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Endless_Hunger_3",
+    "DPS": "39321",
+    "increase": "11.75%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ancients_Bulwark_3",
+    "DPS": "39319",
+    "increase": "11.75%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_2",
+    "DPS": "39289",
+    "increase": "11.66%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "39237",
+    "increase": "11.51%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Swirling_Sands_3",
+    "DPS": "39099",
+    "increase": "11.12%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Treacherous_Covenant_3",
+    "DPS": "39068",
+    "increase": "11.03%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "39057",
+    "increase": "11.00%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_4_Allies_3",
+    "DPS": "39009",
+    "increase": "10.86%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "39009",
+    "increase": "10.86%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_Chorus_of_Insanity_combo_2",
+    "DPS": "38958",
+    "increase": "10.72%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_Chorus_of_Insanity_combo_2",
+    "DPS": "38832",
+    "increase": "10.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1_Thought_Harvester_2_combo_3",
+    "DPS": "38828",
+    "increase": "10.35%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "38805",
+    "increase": "10.29%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Clockwork_Heart_3",
+    "DPS": "38775",
+    "increase": "10.20%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "38703",
+    "increase": "10.00%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1_Searing_Dialogue_2_combo_3",
+    "DPS": "38692",
+    "increase": "9.96%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1_Searing_Dialogue_2_combo_3",
+    "DPS": "38646",
+    "increase": "9.83%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1_Death_Throes_2_combo_3",
+    "DPS": "38638",
+    "increase": "9.81%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_3_Allies_3",
+    "DPS": "38535",
+    "increase": "9.52%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Undulating_Tides_2",
+    "DPS": "38512",
+    "increase": "9.45%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1_Death_Throes_2_combo_3",
+    "DPS": "38499",
+    "increase": "9.42%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Behind_3",
+    "DPS": "38439",
+    "increase": "9.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "38421",
+    "increase": "9.19%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_Chorus_of_Insanity_combo_2",
+    "DPS": "38373",
+    "increase": "9.06%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "38338",
+    "increase": "8.96%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1_Death_Throes_2_combo_3",
+    "DPS": "38336",
+    "increase": "8.95%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_Chorus_of_Insanity_combo_2",
+    "DPS": "38317",
+    "increase": "8.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_3",
+    "DPS": "38277",
+    "increase": "8.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Rezans_Fury_3",
+    "DPS": "38277",
+    "increase": "8.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_3",
+    "DPS": "38192",
+    "increase": "8.54%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1_Searing_Dialogue_2_combo_3",
+    "DPS": "38191",
+    "increase": "8.54%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Meticulous_Scheming_3",
+    "DPS": "38132",
+    "increase": "8.37%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Barrage_Of_Many_Bombs_3",
+    "DPS": "38120",
+    "increase": "8.34%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_Chorus_of_Insanity_combo_2",
+    "DPS": "38112",
+    "increase": "8.32%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1_Thought_Harvester_2_combo_3",
+    "DPS": "38111",
+    "increase": "8.31%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Arcane_Heart_3",
+    "DPS": "38097",
+    "increase": "8.27%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blightborne_Infusion_2",
+    "DPS": "38094",
+    "increase": "8.26%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "38089",
+    "increase": "8.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1_Searing_Dialogue_2_combo_3",
+    "DPS": "38088",
+    "increase": "8.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1_Death_Throes_2_combo_3",
+    "DPS": "38087",
+    "increase": "8.24%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Catalyst_3",
+    "DPS": "38079",
+    "increase": "8.22%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Relational_Normalization_Gizmo_3",
+    "DPS": "38058",
+    "increase": "8.16%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tradewinds_3",
+    "DPS": "38055",
+    "increase": "8.15%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_2_Allies_3",
+    "DPS": "38054",
+    "increase": "8.15%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Overwhelming_Power_3",
+    "DPS": "38050",
+    "increase": "8.14%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1_Thought_Harvester_2_combo_3",
+    "DPS": "37985",
+    "increase": "7.96%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_2",
+    "DPS": "37975",
+    "increase": "7.93%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1_Thought_Harvester_2_combo_3",
+    "DPS": "37964",
+    "increase": "7.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Endless_Hunger_2",
+    "DPS": "37946",
+    "increase": "7.84%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ancients_Bulwark_2",
+    "DPS": "37943",
+    "increase": "7.84%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_3",
+    "DPS": "37924",
+    "increase": "7.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Glory_in_Battle_3",
+    "DPS": "37860",
+    "increase": "7.60%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Incite_the_Pack_3",
+    "DPS": "37850",
+    "increase": "7.57%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_Spiteful_Apparitions_combo_2",
+    "DPS": "37821",
+    "increase": "7.49%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thunderous_Blast_3",
+    "DPS": "37805",
+    "increase": "7.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Swirling_Sands_2",
+    "DPS": "37793",
+    "increase": "7.41%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Treacherous_Covenant_2",
+    "DPS": "37775",
+    "increase": "7.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Secrets_of_the_Deep_3",
+    "DPS": "37766",
+    "increase": "7.33%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Filthy_Transfusion_3",
+    "DPS": "37763",
+    "increase": "7.32%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1_Thought_Harvester_2_combo_3",
+    "DPS": "37752",
+    "increase": "7.29%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Apothecarys_Concoctions_3",
+    "DPS": "37747",
+    "increase": "7.28%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_4_Allies_2",
+    "DPS": "37739",
+    "increase": "7.26%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1_Searing_Dialogue_2_combo_3",
+    "DPS": "37738",
+    "increase": "7.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Seductive_Power_3",
+    "DPS": "37700",
+    "increase": "7.15%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Battlefield_Focus_3",
+    "DPS": "37692",
+    "increase": "7.12%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_Spiteful_Apparitions_combo_2",
+    "DPS": "37671",
+    "increase": "7.06%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Sylvanas_Resolve_3",
+    "DPS": "37670",
+    "increase": "7.06%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Rite_3",
+    "DPS": "37643",
+    "increase": "6.98%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_Spiteful_Apparitions_combo_2",
+    "DPS": "37608",
+    "increase": "6.88%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tidal_Surge_3",
+    "DPS": "37602",
+    "increase": "6.87%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_1_Allies_3",
+    "DPS": "37573",
+    "increase": "6.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_Thought_Harvester_combo_2",
+    "DPS": "37547",
+    "increase": "6.71%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Shadow_of_Elune_3",
+    "DPS": "37535",
+    "increase": "6.68%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_Searing_Dialogue_combo_2",
+    "DPS": "37529",
+    "increase": "6.66%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_Whispers_of_the_Damned_combo_2",
+    "DPS": "37454",
+    "increase": "6.45%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Clockwork_Heart_2",
+    "DPS": "37449",
+    "increase": "6.43%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_3_Allies_2",
+    "DPS": "37417",
+    "increase": "6.34%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_Spiteful_Apparitions_combo_2",
+    "DPS": "37415",
+    "increase": "6.33%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Meticulous_Scheming_2",
+    "DPS": "37365",
+    "increase": "6.19%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Behind_2",
+    "DPS": "37351",
+    "increase": "6.15%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Front_3",
+    "DPS": "37328",
+    "increase": "6.09%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_Thought_Harvester_combo_2",
+    "DPS": "37315",
+    "increase": "6.05%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_Searing_Dialogue_combo_2",
+    "DPS": "37300",
+    "increase": "6.01%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_2",
+    "DPS": "37296",
+    "increase": "6.00%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Relational_Normalization_Gizmo_2",
+    "DPS": "37264",
+    "increase": "5.91%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Rezans_Fury_2",
+    "DPS": "37253",
+    "increase": "5.87%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_2",
+    "DPS": "37244",
+    "increase": "5.85%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Chorus_of_Insanity_1",
+    "DPS": "37234",
+    "increase": "5.82%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Arcane_Heart_2",
+    "DPS": "37163",
+    "increase": "5.62%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_3",
+    "DPS": "37159",
+    "increase": "5.61%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Barrage_Of_Many_Bombs_2",
+    "DPS": "37141",
+    "increase": "5.56%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Synaptic_Spark_Capacitor_3",
+    "DPS": "37129",
+    "increase": "5.52%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Overwhelming_Power_2",
+    "DPS": "37121",
+    "increase": "5.50%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Catalyst_2",
+    "DPS": "37112",
+    "increase": "5.47%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tradewinds_2",
+    "DPS": "37099",
+    "increase": "5.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_0_Allies_3",
+    "DPS": "37096",
+    "increase": "5.43%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_2_Allies_2",
+    "DPS": "37095",
+    "increase": "5.43%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_Searing_Dialogue_combo_2",
+    "DPS": "37058",
+    "increase": "5.32%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Rite_2",
+    "DPS": "36976",
+    "increase": "5.09%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Incite_the_Pack_2",
+    "DPS": "36957",
+    "increase": "5.03%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_3",
+    "DPS": "36954",
+    "increase": "5.02%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Glory_in_Battle_2",
+    "DPS": "36949",
+    "increase": "5.01%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thunderous_Blast_2",
+    "DPS": "36930",
+    "increase": "4.96%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Filthy_Transfusion_2",
+    "DPS": "36911",
+    "increase": "4.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Secrets_of_the_Deep_2",
+    "DPS": "36903",
+    "increase": "4.88%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Apothecarys_Concoctions_2",
+    "DPS": "36892",
+    "increase": "4.85%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Shadow_of_Elune_2",
+    "DPS": "36889",
+    "increase": "4.84%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Seductive_Power_2",
+    "DPS": "36865",
+    "increase": "4.77%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Battlefield_Focus_2",
+    "DPS": "36859",
+    "increase": "4.76%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Undulating_Tides_1",
+    "DPS": "36845",
+    "increase": "4.71%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Sylvanas_Resolve_2",
+    "DPS": "36835",
+    "increase": "4.69%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tidal_Surge_2",
+    "DPS": "36796",
+    "increase": "4.58%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_1_Allies_2",
+    "DPS": "36770",
+    "increase": "4.50%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Bonded_Souls_3",
+    "DPS": "36766",
+    "increase": "4.49%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Retaliatory_Fury_3",
+    "DPS": "36725",
+    "increase": "4.37%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_2",
+    "DPS": "36724",
+    "increase": "4.37%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_2",
+    "DPS": "36721",
+    "increase": "4.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Gutripper_3",
+    "DPS": "36720",
+    "increase": "4.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Heed_My_Call_3",
+    "DPS": "36716",
+    "increase": "4.35%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Flames_3",
+    "DPS": "36686",
+    "increase": "4.26%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blightborne_Infusion_1",
+    "DPS": "36638",
+    "increase": "4.13%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ruinous_Bolt_3",
+    "DPS": "36619",
+    "increase": "4.07%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Front_2",
+    "DPS": "36616",
+    "increase": "4.06%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Spiteful_Apparitions_1",
+    "DPS": "36575",
+    "increase": "3.95%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Elemental_Whirl_3",
+    "DPS": "36565",
+    "increase": "3.92%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Endless_Hunger_1",
+    "DPS": "36565",
+    "increase": "3.92%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ancients_Bulwark_1",
+    "DPS": "36561",
+    "increase": "3.91%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Champion_of_Azeroth_1",
+    "DPS": "36551",
+    "increase": "3.88%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Swirling_Sands_1",
+    "DPS": "36494",
+    "increase": "3.72%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Fight_or_Flight_3",
+    "DPS": "36487",
+    "increase": "3.70%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Synaptic_Spark_Capacitor_2",
+    "DPS": "36482",
+    "increase": "3.68%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Globules_3",
+    "DPS": "36476",
+    "increase": "3.67%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Treacherous_Covenant_1",
+    "DPS": "36475",
+    "increase": "3.66%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_4_Allies_1",
+    "DPS": "36460",
+    "increase": "3.62%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_0_Allies_2",
+    "DPS": "36452",
+    "increase": "3.60%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Whispers_of_the_Damned_1",
+    "DPS": "36417",
+    "increase": "3.50%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "On_My_Way_3",
+    "DPS": "36378",
+    "increase": "3.39%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_2",
+    "DPS": "36357",
+    "increase": "3.33%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Meticulous_Scheming_1",
+    "DPS": "36309",
+    "increase": "3.19%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_3_Allies_1",
+    "DPS": "36301",
+    "increase": "3.17%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thought_Harvester_1",
+    "DPS": "36294",
+    "increase": "3.15%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Collective_Will_3",
+    "DPS": "36288",
+    "increase": "3.13%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Relational_Normalization_Gizmo_1",
+    "DPS": "36285",
+    "increase": "3.12%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Behind_1",
+    "DPS": "36273",
+    "increase": "3.09%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Clockwork_Heart_1",
+    "DPS": "36253",
+    "increase": "3.03%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Siphon_3",
+    "DPS": "36252",
+    "increase": "3.03%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Bonded_Souls_2",
+    "DPS": "36241",
+    "increase": "3.00%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Rezans_Fury_1",
+    "DPS": "36220",
+    "increase": "2.94%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Death_Throes_1",
+    "DPS": "36215",
+    "increase": "2.92%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Heed_My_Call_2",
+    "DPS": "36207",
+    "increase": "2.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Gutripper_2",
+    "DPS": "36205",
+    "increase": "2.90%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Retaliatory_Fury_2",
+    "DPS": "36200",
+    "increase": "2.88%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Flames_2",
+    "DPS": "36186",
+    "increase": "2.84%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Arcane_Heart_1",
+    "DPS": "36175",
+    "increase": "2.81%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Barrage_Of_Many_Bombs_1",
+    "DPS": "36163",
+    "increase": "2.78%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Overwhelming_Power_1",
+    "DPS": "36157",
+    "increase": "2.76%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Catalyst_1",
+    "DPS": "36148",
+    "increase": "2.74%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_2_Allies_1",
+    "DPS": "36142",
+    "increase": "2.72%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ruinous_Bolt_2",
+    "DPS": "36140",
+    "increase": "2.71%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tradewinds_1",
+    "DPS": "36139",
+    "increase": "2.71%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Rite_1",
+    "DPS": "36107",
+    "increase": "2.62%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Elemental_Whirl_2",
+    "DPS": "36100",
+    "increase": "2.60%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Combined_Might_3",
+    "DPS": "36082",
+    "increase": "2.55%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Incite_the_Pack_1",
+    "DPS": "36070",
+    "increase": "2.51%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Shadow_of_Elune_1",
+    "DPS": "36069",
+    "increase": "2.51%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Thunderous_Blast_1",
+    "DPS": "36060",
+    "increase": "2.48%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Glory_in_Battle_1",
+    "DPS": "36056",
+    "increase": "2.47%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Secrets_of_the_Deep_1",
+    "DPS": "36052",
+    "increase": "2.46%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Fight_or_Flight_2",
+    "DPS": "36051",
+    "increase": "2.46%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Filthy_Transfusion_1",
+    "DPS": "36045",
+    "increase": "2.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Globules_2",
+    "DPS": "36039",
+    "increase": "2.43%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Earthlink_3",
+    "DPS": "36036",
+    "increase": "2.41%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Apothecarys_Concoctions_1",
+    "DPS": "36035",
+    "increase": "2.41%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Searing_Dialogue_1",
+    "DPS": "36028",
+    "increase": "2.39%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Seductive_Power_1",
+    "DPS": "36026",
+    "increase": "2.39%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Battlefield_Focus_1",
+    "DPS": "36016",
+    "increase": "2.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Sylvanas_Resolve_1",
+    "DPS": "36010",
+    "increase": "2.34%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Tidal_Surge_1",
+    "DPS": "35991",
+    "increase": "2.29%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "On_My_Way_2",
+    "DPS": "35984",
+    "increase": "2.27%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_1_Allies_1",
+    "DPS": "35978",
+    "increase": "2.25%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Collective_Will_2",
+    "DPS": "35923",
+    "increase": "2.10%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Dagger_in_the_Back_Front_1",
+    "DPS": "35904",
+    "increase": "2.04%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Siphon_2",
+    "DPS": "35897",
+    "increase": "2.02%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Synaptic_Spark_Capacitor_1",
+    "DPS": "35834",
+    "increase": "1.84%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Loyal_to_the_End_0_Allies_1",
+    "DPS": "35821",
+    "increase": "1.81%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Combined_Might_2",
+    "DPS": "35789",
+    "increase": "1.71%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_1",
+    "DPS": "35773",
+    "increase": "1.67%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Earthlink_2",
+    "DPS": "35756",
+    "increase": "1.62%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Bonded_Souls_1",
+    "DPS": "35712",
+    "increase": "1.50%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Heed_My_Call_1",
+    "DPS": "35699",
+    "increase": "1.46%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Retaliatory_Fury_1",
+    "DPS": "35694",
+    "increase": "1.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Gutripper_1",
+    "DPS": "35693",
+    "increase": "1.44%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Unstable_Flames_1",
+    "DPS": "35682",
+    "increase": "1.41%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Ruinous_Bolt_1",
+    "DPS": "35659",
+    "increase": "1.35%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Elemental_Whirl_1",
+    "DPS": "35642",
+    "increase": "1.29%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Fight_or_Flight_1",
+    "DPS": "35618",
+    "increase": "1.23%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Globules_1",
+    "DPS": "35617",
+    "increase": "1.23%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "On_My_Way_1",
+    "DPS": "35583",
+    "increase": "1.13%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Collective_Will_1",
+    "DPS": "35558",
+    "increase": "1.06%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Empowered_3",
+    "DPS": "35543",
+    "increase": "1.01%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Blood_Siphon_1",
+    "DPS": "35542",
+    "increase": "1.01%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Combined_Might_1",
+    "DPS": "35493",
+    "increase": "0.87%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Earthlink_1",
+    "DPS": "35468",
+    "increase": "0.80%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_100",
+    "DPS": "35429",
+    "increase": "0.69%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Empowered_2",
+    "DPS": "35412",
+    "increase": "0.64%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_90",
+    "DPS": "35409",
+    "increase": "0.63%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_80",
+    "DPS": "35379",
+    "increase": "0.55%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_70",
+    "DPS": "35355",
+    "increase": "0.48%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_60",
+    "DPS": "35329",
+    "increase": "0.41%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Azerite_Empowered_1",
+    "DPS": "35312",
+    "increase": "0.36%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_50",
+    "DPS": "35302",
+    "increase": "0.33%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_40",
+    "DPS": "35285",
+    "increase": "0.28%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_30",
+    "DPS": "35261",
+    "increase": "0.21%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_20",
+    "DPS": "35234",
+    "increase": "0.14%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Int_10",
+    "DPS": "35205",
+    "increase": "0.05%",
+    "": ""
+  },
+  {
+    "profile": "composite",
+    "actor": "Base",
+    "DPS": "35186",
+    "increase": "0.00%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_3_Spiteful_Apparitions_2_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "43592",
+    "increase": "37.77%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "42525",
+    "increase": "34.40%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_3_Chorus_of_Insanity_2_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "42321",
+    "increase": "33.75%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "41769",
+    "increase": "32.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "39694",
+    "increase": "25.45%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_3_Searing_Dialogue_1_Thought_Harvester_1_Chorus_of_Insanity_1_combo_6",
+    "DPS": "38170",
+    "increase": "20.63%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "38164",
+    "increase": "20.61%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "37972",
+    "increase": "20.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "37349",
+    "increase": "18.04%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "37146",
+    "increase": "17.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_2_Thought_Harvester_1_combo_6",
+    "DPS": "37121",
+    "increase": "17.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3_Whispers_of_the_Damned_3_combo_6",
+    "DPS": "37089",
+    "increase": "17.22%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_3",
+    "DPS": "37022",
+    "increase": "17.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_3_combo_6",
+    "DPS": "37013",
+    "increase": "16.98%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "36935",
+    "increase": "16.73%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "36809",
+    "increase": "16.33%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Undulating_Tides_3",
+    "DPS": "36655",
+    "increase": "15.85%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Spiteful_Apparitions_1_combo_6",
+    "DPS": "36588",
+    "increase": "15.63%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_3_Searing_Dialogue_2_Thought_Harvester_1_combo_6",
+    "DPS": "36152",
+    "increase": "14.25%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "36081",
+    "increase": "14.03%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "36079",
+    "increase": "14.02%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "36064",
+    "increase": "13.98%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "35826",
+    "increase": "13.22%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Spiteful_Apparitions_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6",
+    "DPS": "35825",
+    "increase": "13.22%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_3_Thought_Harvester_3_combo_6",
+    "DPS": "35755",
+    "increase": "13.00%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "35596",
+    "increase": "12.50%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blightborne_Infusion_3",
+    "DPS": "35481",
+    "increase": "12.14%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Endless_Hunger_3",
+    "DPS": "35362",
+    "increase": "11.76%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ancients_Bulwark_3",
+    "DPS": "35349",
+    "increase": "11.72%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_2",
+    "DPS": "35234",
+    "increase": "11.35%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1_Chorus_of_Insanity_2_combo_3",
+    "DPS": "35227",
+    "increase": "11.33%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_Chorus_of_Insanity_combo_2",
+    "DPS": "35126",
+    "increase": "11.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "35111",
+    "increase": "10.96%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Swirling_Sands_3",
+    "DPS": "35082",
+    "increase": "10.87%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1_Death_Throes_2_combo_3",
+    "DPS": "35068",
+    "increase": "10.83%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Treacherous_Covenant_3",
+    "DPS": "35060",
+    "increase": "10.80%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_4_Allies_3",
+    "DPS": "35028",
+    "increase": "10.70%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Death_Throes_2_Thought_Harvester_1_combo_6",
+    "DPS": "35009",
+    "increase": "10.64%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Undulating_Tides_2",
+    "DPS": "34979",
+    "increase": "10.55%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3_Thought_Harvester_3_combo_6",
+    "DPS": "34950",
+    "increase": "10.46%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "34933",
+    "increase": "10.40%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Death_Throes_1_Thought_Harvester_1_Barrage_of_Many_Bombs_1_combo_6",
+    "DPS": "34917",
+    "increase": "10.35%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Behind_3",
+    "DPS": "34880",
+    "increase": "10.23%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Battlefield_Focus_3",
+    "DPS": "34857",
+    "increase": "10.16%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Clockwork_Heart_3",
+    "DPS": "34853",
+    "increase": "10.15%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_3",
+    "DPS": "34833",
+    "increase": "10.09%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3_Spiteful_Apparitions_3_combo_6",
+    "DPS": "34821",
+    "increase": "10.05%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_Chorus_of_Insanity_combo_2",
+    "DPS": "34759",
+    "increase": "9.85%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_3_Searing_Dialogue_3_combo_6",
+    "DPS": "34752",
+    "increase": "9.83%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_3",
+    "DPS": "34749",
+    "increase": "9.82%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Rezans_Fury_3",
+    "DPS": "34677",
+    "increase": "9.59%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "34642",
+    "increase": "9.48%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_3_Allies_3",
+    "DPS": "34623",
+    "increase": "9.42%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "34542",
+    "increase": "9.17%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1_Death_Throes_2_combo_3",
+    "DPS": "34525",
+    "increase": "9.11%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Meticulous_Scheming_3",
+    "DPS": "34293",
+    "increase": "8.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thunderous_Blast_3",
+    "DPS": "34273",
+    "increase": "8.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1_Death_Throes_2_combo_3",
+    "DPS": "34240",
+    "increase": "8.21%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_Chorus_of_Insanity_combo_2",
+    "DPS": "34236",
+    "increase": "8.20%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Overwhelming_Power_3",
+    "DPS": "34213",
+    "increase": "8.13%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blightborne_Infusion_2",
+    "DPS": "34209",
+    "increase": "8.11%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Filthy_Transfusion_3",
+    "DPS": "34200",
+    "increase": "8.09%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "34199",
+    "increase": "8.08%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_2_Allies_3",
+    "DPS": "34190",
+    "increase": "8.06%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Relational_Normalization_Gizmo_3",
+    "DPS": "34190",
+    "increase": "8.05%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Apothecarys_Concoctions_3",
+    "DPS": "34187",
+    "increase": "8.04%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tradewinds_3",
+    "DPS": "34184",
+    "increase": "8.04%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Catalyst_3",
+    "DPS": "34183",
+    "increase": "8.03%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_3_Searing_Dialogue_3_combo_6",
+    "DPS": "34147",
+    "increase": "7.92%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Endless_Hunger_2",
+    "DPS": "34128",
+    "increase": "7.86%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1_Thought_Harvester_2_combo_3",
+    "DPS": "34127",
+    "increase": "7.86%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ancients_Bulwark_2",
+    "DPS": "34125",
+    "increase": "7.85%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "34108",
+    "increase": "7.80%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tidal_Surge_3",
+    "DPS": "34058",
+    "increase": "7.64%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_Spiteful_Apparitions_combo_2",
+    "DPS": "34036",
+    "increase": "7.57%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Glory_in_Battle_3",
+    "DPS": "34018",
+    "increase": "7.51%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Incite_the_Pack_3",
+    "DPS": "34004",
+    "increase": "7.47%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3_Searing_Dialogue_3_combo_6",
+    "DPS": "33958",
+    "increase": "7.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_3",
+    "DPS": "33951",
+    "increase": "7.30%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Swirling_Sands_2",
+    "DPS": "33939",
+    "increase": "7.26%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Treacherous_Covenant_2",
+    "DPS": "33918",
+    "increase": "7.19%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_4_Allies_2",
+    "DPS": "33906",
+    "increase": "7.16%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Arcane_Heart_3",
+    "DPS": "33906",
+    "increase": "7.16%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Secrets_of_the_Deep_3",
+    "DPS": "33901",
+    "increase": "7.14%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Front_3",
+    "DPS": "33900",
+    "increase": "7.14%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1_Whispers_of_the_Damned_2_combo_3",
+    "DPS": "33867",
+    "increase": "7.03%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_2",
+    "DPS": "33854",
+    "increase": "6.99%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Seductive_Power_3",
+    "DPS": "33841",
+    "increase": "6.95%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Sylvanas_Resolve_3",
+    "DPS": "33824",
+    "increase": "6.90%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Behind_2",
+    "DPS": "33794",
+    "increase": "6.80%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Battlefield_Focus_2",
+    "DPS": "33788",
+    "increase": "6.78%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_Chorus_of_Insanity_combo_2",
+    "DPS": "33779",
+    "increase": "6.76%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_1_Allies_3",
+    "DPS": "33771",
+    "increase": "6.73%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_2",
+    "DPS": "33766",
+    "increase": "6.72%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1_Spiteful_Apparitions_2_combo_3",
+    "DPS": "33763",
+    "increase": "6.70%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Rite_3",
+    "DPS": "33755",
+    "increase": "6.68%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_Whispers_of_the_Damned_combo_2",
+    "DPS": "33744",
+    "increase": "6.65%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Shadow_of_Elune_3",
+    "DPS": "33742",
+    "increase": "6.64%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Rezans_Fury_2",
+    "DPS": "33675",
+    "increase": "6.43%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Barrage_Of_Many_Bombs_3",
+    "DPS": "33668",
+    "increase": "6.41%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Clockwork_Heart_2",
+    "DPS": "33657",
+    "increase": "6.37%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1_Thought_Harvester_2_combo_3",
+    "DPS": "33639",
+    "increase": "6.31%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_3_Allies_2",
+    "DPS": "33625",
+    "increase": "6.27%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Meticulous_Scheming_2",
+    "DPS": "33622",
+    "increase": "6.26%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1_Death_Throes_2_combo_3",
+    "DPS": "33524",
+    "increase": "5.95%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Relational_Normalization_Gizmo_2",
+    "DPS": "33504",
+    "increase": "5.89%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_Spiteful_Apparitions_combo_2",
+    "DPS": "33479",
+    "increase": "5.81%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1",
+    "DPS": "33445",
+    "increase": "5.70%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_Chorus_of_Insanity_combo_2",
+    "DPS": "33436",
+    "increase": "5.67%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Chorus_of_Insanity_1_Searing_Dialogue_2_combo_3",
+    "DPS": "33432",
+    "increase": "5.66%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thunderous_Blast_2",
+    "DPS": "33391",
+    "increase": "5.53%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Overwhelming_Power_2",
+    "DPS": "33382",
+    "increase": "5.50%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1_Thought_Harvester_2_combo_3",
+    "DPS": "33368",
+    "increase": "5.46%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Filthy_Transfusion_2",
+    "DPS": "33353",
+    "increase": "5.41%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Apothecarys_Concoctions_2",
+    "DPS": "33346",
+    "increase": "5.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_0_Allies_3",
+    "DPS": "33345",
+    "increase": "5.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tradewinds_2",
+    "DPS": "33344",
+    "increase": "5.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_2_Allies_2",
+    "DPS": "33337",
+    "increase": "5.36%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Catalyst_2",
+    "DPS": "33331",
+    "increase": "5.34%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Undulating_Tides_1",
+    "DPS": "33312",
+    "increase": "5.28%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_Thought_Harvester_combo_2",
+    "DPS": "33294",
+    "increase": "5.22%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tidal_Surge_2",
+    "DPS": "33252",
+    "increase": "5.09%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Glory_in_Battle_2",
+    "DPS": "33213",
+    "increase": "4.97%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Incite_the_Pack_2",
+    "DPS": "33210",
+    "increase": "4.96%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Shadow_of_Elune_2",
+    "DPS": "33189",
+    "increase": "4.89%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1_Death_Throes_2_combo_3",
+    "DPS": "33187",
+    "increase": "4.88%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Rite_2",
+    "DPS": "33185",
+    "increase": "4.88%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Arcane_Heart_2",
+    "DPS": "33184",
+    "increase": "4.88%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_2",
+    "DPS": "33182",
+    "increase": "4.87%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Gutripper_3",
+    "DPS": "33162",
+    "increase": "4.80%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Front_2",
+    "DPS": "33147",
+    "increase": "4.76%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Secrets_of_the_Deep_2",
+    "DPS": "33140",
+    "increase": "4.74%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Seductive_Power_2",
+    "DPS": "33107",
+    "increase": "4.63%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Sylvanas_Resolve_2",
+    "DPS": "33090",
+    "increase": "4.58%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1_Thought_Harvester_2_combo_3",
+    "DPS": "33086",
+    "increase": "4.56%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ruinous_Bolt_3",
+    "DPS": "33077",
+    "increase": "4.54%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Bonded_Souls_3",
+    "DPS": "33067",
+    "increase": "4.50%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_1_Allies_2",
+    "DPS": "33049",
+    "increase": "4.45%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_Spiteful_Apparitions_combo_2",
+    "DPS": "33034",
+    "increase": "4.40%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Heed_My_Call_3",
+    "DPS": "33026",
+    "increase": "4.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Retaliatory_Fury_3",
+    "DPS": "33008",
+    "increase": "4.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Barrage_Of_Many_Bombs_2",
+    "DPS": "32993",
+    "increase": "4.27%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1_Searing_Dialogue_2_combo_3",
+    "DPS": "32986",
+    "increase": "4.25%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1_Searing_Dialogue_2_combo_3",
+    "DPS": "32976",
+    "increase": "4.22%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_1",
+    "DPS": "32968",
+    "increase": "4.19%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Flames_3",
+    "DPS": "32966",
+    "increase": "4.19%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Whispers_of_the_Damned_Searing_Dialogue_combo_2",
+    "DPS": "32959",
+    "increase": "4.16%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Synaptic_Spark_Capacitor_3",
+    "DPS": "32952",
+    "increase": "4.14%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blightborne_Infusion_1",
+    "DPS": "32923",
+    "increase": "4.05%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ancients_Bulwark_1",
+    "DPS": "32886",
+    "increase": "3.93%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Endless_Hunger_1",
+    "DPS": "32879",
+    "increase": "3.91%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Elemental_Whirl_3",
+    "DPS": "32869",
+    "increase": "3.88%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_3",
+    "DPS": "32861",
+    "increase": "3.85%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Champion_of_Azeroth_1",
+    "DPS": "32849",
+    "increase": "3.82%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1_Thought_Harvester_2_combo_3",
+    "DPS": "32823",
+    "increase": "3.74%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Swirling_Sands_1",
+    "DPS": "32799",
+    "increase": "3.66%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Treacherous_Covenant_1",
+    "DPS": "32773",
+    "increase": "3.58%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_4_Allies_1",
+    "DPS": "32772",
+    "increase": "3.57%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_0_Allies_2",
+    "DPS": "32772",
+    "increase": "3.57%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_Thought_Harvester_combo_2",
+    "DPS": "32753",
+    "increase": "3.51%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Behind_1",
+    "DPS": "32724",
+    "increase": "3.42%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "On_My_Way_3",
+    "DPS": "32714",
+    "increase": "3.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Battlefield_Focus_1",
+    "DPS": "32710",
+    "increase": "3.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1",
+    "DPS": "32701",
+    "increase": "3.35%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Spiteful_Apparitions_1_Searing_Dialogue_2_combo_3",
+    "DPS": "32701",
+    "increase": "3.35%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_Spiteful_Apparitions_combo_2",
+    "DPS": "32698",
+    "increase": "3.34%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Meticulous_Scheming_1",
+    "DPS": "32666",
+    "increase": "3.24%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Rezans_Fury_1",
+    "DPS": "32653",
+    "increase": "3.20%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Gutripper_2",
+    "DPS": "32653",
+    "increase": "3.20%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_3",
+    "DPS": "32647",
+    "increase": "3.18%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_3_Allies_1",
+    "DPS": "32635",
+    "increase": "3.14%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Relational_Normalization_Gizmo_1",
+    "DPS": "32626",
+    "increase": "3.11%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Collective_Will_3",
+    "DPS": "32616",
+    "increase": "3.08%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ruinous_Bolt_2",
+    "DPS": "32597",
+    "increase": "3.02%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Bonded_Souls_2",
+    "DPS": "32592",
+    "increase": "3.00%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Clockwork_Heart_1",
+    "DPS": "32588",
+    "increase": "2.99%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Siphon_3",
+    "DPS": "32588",
+    "increase": "2.99%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Heed_My_Call_2",
+    "DPS": "32568",
+    "increase": "2.93%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Globules_3",
+    "DPS": "32567",
+    "increase": "2.93%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Retaliatory_Fury_2",
+    "DPS": "32541",
+    "increase": "2.84%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Flames_2",
+    "DPS": "32531",
+    "increase": "2.81%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Overwhelming_Power_1",
+    "DPS": "32521",
+    "increase": "2.78%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thunderous_Blast_1",
+    "DPS": "32520",
+    "increase": "2.78%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Synaptic_Spark_Capacitor_2",
+    "DPS": "32519",
+    "increase": "2.77%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Fight_or_Flight_3",
+    "DPS": "32505",
+    "increase": "2.73%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_Searing_Dialogue_combo_2",
+    "DPS": "32498",
+    "increase": "2.71%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Filthy_Transfusion_1",
+    "DPS": "32492",
+    "increase": "2.69%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tradewinds_1",
+    "DPS": "32489",
+    "increase": "2.68%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_2_Allies_1",
+    "DPS": "32489",
+    "increase": "2.68%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Apothecarys_Concoctions_1",
+    "DPS": "32486",
+    "increase": "2.67%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Catalyst_1",
+    "DPS": "32485",
+    "increase": "2.66%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Elemental_Whirl_2",
+    "DPS": "32451",
+    "increase": "2.56%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_2",
+    "DPS": "32449",
+    "increase": "2.55%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Tidal_Surge_1",
+    "DPS": "32446",
+    "increase": "2.54%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Combined_Might_3",
+    "DPS": "32438",
+    "increase": "2.52%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Shadow_of_Elune_1",
+    "DPS": "32436",
+    "increase": "2.51%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Rite_1",
+    "DPS": "32433",
+    "increase": "2.50%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Incite_the_Pack_1",
+    "DPS": "32430",
+    "increase": "2.49%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Arcane_Heart_1",
+    "DPS": "32420",
+    "increase": "2.46%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1",
+    "DPS": "32417",
+    "increase": "2.45%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_Searing_Dialogue_combo_2",
+    "DPS": "32415",
+    "increase": "2.44%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Death_Throes_1_Searing_Dialogue_2_combo_3",
+    "DPS": "32413",
+    "increase": "2.44%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Glory_in_Battle_1",
+    "DPS": "32412",
+    "increase": "2.43%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Secrets_of_the_Deep_1",
+    "DPS": "32406",
+    "increase": "2.42%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Dagger_in_the_Back_Front_1",
+    "DPS": "32398",
+    "increase": "2.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Earthlink_3",
+    "DPS": "32394",
+    "increase": "2.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Seductive_Power_1",
+    "DPS": "32376",
+    "increase": "2.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Sylvanas_Resolve_1",
+    "DPS": "32370",
+    "increase": "2.30%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "On_My_Way_2",
+    "DPS": "32365",
+    "increase": "2.28%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_1_Allies_1",
+    "DPS": "32347",
+    "increase": "2.23%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Barrage_Of_Many_Bombs_1",
+    "DPS": "32324",
+    "increase": "2.16%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_2",
+    "DPS": "32300",
+    "increase": "2.08%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Collective_Will_2",
+    "DPS": "32289",
+    "increase": "2.05%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Siphon_2",
+    "DPS": "32278",
+    "increase": "2.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Globules_2",
+    "DPS": "32252",
+    "increase": "1.93%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Fight_or_Flight_2",
+    "DPS": "32206",
+    "increase": "1.78%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Loyal_to_the_End_0_Allies_1",
+    "DPS": "32199",
+    "increase": "1.76%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Combined_Might_2",
+    "DPS": "32185",
+    "increase": "1.72%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Earthlink_2",
+    "DPS": "32145",
+    "increase": "1.59%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Gutripper_1",
+    "DPS": "32144",
+    "increase": "1.59%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Bonded_Souls_1",
+    "DPS": "32121",
+    "increase": "1.52%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ruinous_Bolt_1",
+    "DPS": "32120",
+    "increase": "1.51%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Heed_My_Call_1",
+    "DPS": "32106",
+    "increase": "1.47%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Retaliatory_Fury_1",
+    "DPS": "32094",
+    "increase": "1.43%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Unstable_Flames_1",
+    "DPS": "32082",
+    "increase": "1.39%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Synaptic_Spark_Capacitor_1",
+    "DPS": "32079",
+    "increase": "1.38%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Elemental_Whirl_1",
+    "DPS": "32053",
+    "increase": "1.30%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Ricocheting_Inflatable_Pyrosaw_1",
+    "DPS": "32046",
+    "increase": "1.28%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "On_My_Way_1",
+    "DPS": "31997",
+    "increase": "1.12%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Thought_Harvester_1",
+    "DPS": "31978",
+    "increase": "1.06%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Collective_Will_1",
+    "DPS": "31973",
+    "increase": "1.05%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Blood_Siphon_1",
+    "DPS": "31963",
+    "increase": "1.02%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Empowered_3",
+    "DPS": "31957",
+    "increase": "1.00%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Globules_1",
+    "DPS": "31952",
+    "increase": "0.98%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Fight_or_Flight_1",
+    "DPS": "31922",
+    "increase": "0.89%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Combined_Might_1",
+    "DPS": "31913",
+    "increase": "0.86%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Earthlink_1",
+    "DPS": "31898",
+    "increase": "0.81%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_100",
+    "DPS": "31850",
+    "increase": "0.66%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_90",
+    "DPS": "31839",
+    "increase": "0.62%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Empowered_2",
+    "DPS": "31837",
+    "increase": "0.62%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_80",
+    "DPS": "31819",
+    "increase": "0.56%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_70",
+    "DPS": "31793",
+    "increase": "0.48%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_60",
+    "DPS": "31773",
+    "increase": "0.42%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Azerite_Empowered_1",
+    "DPS": "31747",
+    "increase": "0.33%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_50",
+    "DPS": "31744",
+    "increase": "0.32%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_40",
+    "DPS": "31731",
+    "increase": "0.28%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_30",
+    "DPS": "31707",
+    "increase": "0.21%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_20",
+    "DPS": "31684",
+    "increase": "0.13%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Int_10",
+    "DPS": "31655",
+    "increase": "0.04%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_3",
+    "DPS": "31646",
+    "increase": "0.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_2",
+    "DPS": "31644",
+    "increase": "0.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Searing_Dialogue_1",
+    "DPS": "31644",
+    "increase": "0.01%",
+    "": ""
+  },
+  {
+    "profile": "single_target",
+    "actor": "Base",
+    "DPS": "31642",
+    "increase": "0.00%",
+    "": ""
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Azerite_Beam_3",
+    "DPS": "49453",
+    "increase": "13.36%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Azerite_Beam_2",
+    "DPS": "49322",
+    "increase": "13.05%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Azerite_Beam_1",
+    "DPS": "49164",
+    "increase": "12.69%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Guardian_of_Azeroth_3",
+    "DPS": "47887",
+    "increase": "9.76%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Memory_of_Lucid_Dreams_3",
+    "DPS": "47488",
+    "increase": "8.85%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_100_Uptime_3",
+    "DPS": "47298",
+    "increase": "8.42%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_75_Uptime_3",
+    "DPS": "46784",
+    "increase": "7.24%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purifying_Blast_3",
+    "DPS": "46670",
+    "increase": "6.98%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_100_Uptime_2",
+    "DPS": "46584",
+    "increase": "6.78%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_4_Allies_3",
+    "DPS": "46392",
+    "increase": "6.34%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_3_Allies_3",
+    "DPS": "46322",
+    "increase": "6.18%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_50_Uptime_3",
+    "DPS": "46295",
+    "increase": "6.12%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purifying_Blast_1",
+    "DPS": "46228",
+    "increase": "5.96%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purifying_Blast_2",
+    "DPS": "46209",
+    "increase": "5.92%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_4_Allies_2",
+    "DPS": "46185",
+    "increase": "5.86%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Concentrated_Flame_3",
+    "DPS": "46177",
+    "increase": "5.85%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Memory_of_Lucid_Dreams_2",
+    "DPS": "46154",
+    "increase": "5.79%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Guardian_of_Azeroth_2",
+    "DPS": "46118",
+    "increase": "5.71%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_2_Allies_3",
+    "DPS": "46110",
+    "increase": "5.69%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_75_Uptime_2",
+    "DPS": "46094",
+    "increase": "5.66%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_3_Allies_2",
+    "DPS": "45912",
+    "increase": "5.24%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_4_Allies_3",
+    "DPS": "45836",
+    "increase": "5.07%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_3_Allies_3",
+    "DPS": "45796",
+    "increase": "4.97%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_50_Uptime_2",
+    "DPS": "45759",
+    "increase": "4.89%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purification_Protocol_3",
+    "DPS": "45750",
+    "increase": "4.87%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Memory_of_Lucid_Dreams_1",
+    "DPS": "45722",
+    "increase": "4.80%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_4_Allies_2",
+    "DPS": "45708",
+    "increase": "4.77%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lucid_Dreams_3",
+    "DPS": "45700",
+    "increase": "4.75%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_2_Allies_3",
+    "DPS": "45634",
+    "increase": "4.60%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_4_Allies_1",
+    "DPS": "45550",
+    "increase": "4.41%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strife_3",
+    "DPS": "45548",
+    "increase": "4.40%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Conflict_3",
+    "DPS": "45545",
+    "increase": "4.40%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_100_Uptime_1",
+    "DPS": "45508",
+    "increase": "4.31%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_3_Allies_2",
+    "DPS": "45493",
+    "increase": "4.28%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Concentrated_Flame_2",
+    "DPS": "45483",
+    "increase": "4.25%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_1_Allies_3",
+    "DPS": "45477",
+    "increase": "4.24%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_2_Allies_2",
+    "DPS": "45373",
+    "increase": "4.00%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Energy_3",
+    "DPS": "45335",
+    "increase": "3.92%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purification_Protocol_2",
+    "DPS": "45313",
+    "increase": "3.87%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Purification_Protocol_1",
+    "DPS": "45306",
+    "increase": "3.85%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_Soaked_3",
+    "DPS": "45295",
+    "increase": "3.83%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_Soaked_2",
+    "DPS": "45246",
+    "increase": "3.71%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_1_Allies_3",
+    "DPS": "45222",
+    "increase": "3.66%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Guardian_of_Azeroth_1",
+    "DPS": "45219",
+    "increase": "3.65%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Condensed_Life_Force_3",
+    "DPS": "45212",
+    "increase": "3.63%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ancient_Flame_3",
+    "DPS": "45207",
+    "increase": "3.62%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_75_Uptime_1",
+    "DPS": "45180",
+    "increase": "3.56%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_2_Allies_2",
+    "DPS": "45146",
+    "increase": "3.48%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_3_Allies_1",
+    "DPS": "45144",
+    "increase": "3.48%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Vision_of_Perfection_3",
+    "DPS": "45142",
+    "increase": "3.47%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Energy_2",
+    "DPS": "45140",
+    "increase": "3.47%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_4_Allies_1",
+    "DPS": "45049",
+    "increase": "3.26%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Conflict_2",
+    "DPS": "44899",
+    "increase": "2.92%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strife_2",
+    "DPS": "44886",
+    "increase": "2.89%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_3_Allies_1",
+    "DPS": "44833",
+    "increase": "2.77%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Vision_of_Perfection_2",
+    "DPS": "44821",
+    "increase": "2.74%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_of_the_Enemy_50_Uptime_1",
+    "DPS": "44809",
+    "increase": "2.71%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_2_Allies_1",
+    "DPS": "44805",
+    "increase": "2.70%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "The_Unbound_Force_3",
+    "DPS": "44788",
+    "increase": "2.66%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_1_Allies_2",
+    "DPS": "44771",
+    "increase": "2.62%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Condensed_Life_Force_2",
+    "DPS": "44753",
+    "increase": "2.58%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ripple_in_Space_2",
+    "DPS": "44746",
+    "increase": "2.57%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ripple_in_Space_3",
+    "DPS": "44733",
+    "increase": "2.54%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_1_Allies_2",
+    "DPS": "44644",
+    "increase": "2.33%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Concentrated_Flame_1",
+    "DPS": "44626",
+    "increase": "2.29%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Focused_Energy_1",
+    "DPS": "44619",
+    "increase": "2.27%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ancient_Flame_2",
+    "DPS": "44588",
+    "increase": "2.20%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Condensed_Life_Force_1",
+    "DPS": "44533",
+    "increase": "2.08%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Vision_of_Perfection_1",
+    "DPS": "44524",
+    "increase": "2.06%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lucid_Dreams_2",
+    "DPS": "44515",
+    "increase": "2.04%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lucid_Dreams_1",
+    "DPS": "44475",
+    "increase": "1.95%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_2_Allies_1",
+    "DPS": "44472",
+    "increase": "1.94%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Blood_Soaked_1",
+    "DPS": "44439",
+    "increase": "1.86%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Lifeblood_1_Allies_1",
+    "DPS": "44418",
+    "increase": "1.81%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Conflict_1",
+    "DPS": "44415",
+    "increase": "1.81%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Reckless_Force_3",
+    "DPS": "44399",
+    "increase": "1.77%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ancient_Flame_1",
+    "DPS": "44393",
+    "increase": "1.76%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strife_1",
+    "DPS": "44389",
+    "increase": "1.75%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Ripple_in_Space_1",
+    "DPS": "44334",
+    "increase": "1.62%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Reckless_Force_2",
+    "DPS": "44222",
+    "increase": "1.37%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "The_Unbound_Force_2",
+    "DPS": "44168",
+    "increase": "1.24%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "The_Unbound_Force_1",
+    "DPS": "44166",
+    "increase": "1.24%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Worldvein_Resonance_1_Allies_1",
+    "DPS": "44146",
+    "increase": "1.19%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Reckless_Force_1",
+    "DPS": "44144",
+    "increase": "1.19%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strive_for_Perfection_3",
+    "DPS": "44141",
+    "increase": "1.18%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strive_for_Perfection_1",
+    "DPS": "43944",
+    "increase": "0.73%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Strive_for_Perfection_2",
+    "DPS": "43912",
+    "increase": "0.65%",
+    "": ""
+  },
+  {
+    "profile": "dungeons",
+    "actor": "Base",
+    "DPS": "43627",
+    "increase": "0.00%",
+    "": ""
+  }
+]
