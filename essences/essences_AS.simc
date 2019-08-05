@@ -300,3 +300,105 @@ profileset."Lifeblood_3_Allies_3"+=bfa.worldvein_allies=3
 
 profileset."Lifeblood_4_Allies_3"+=azerite_essences=4:3:0
 profileset."Lifeblood_4_Allies_3"+=bfa.worldvein_allies=4
+
+# 3 Essence Combos
+
+## MoLD + CLF + EotFI
+profileset."MoLD_CLF_EotFI"+=azerite_essences=27:3:1/14:3:0/5:3:0
+
+## MoLD + CLF + PP
+profileset."MoLD_CLF_PP"+=azerite_essences=27:3:1/14:3:0/6:3:0
+
+## MoLD + CLF + CoF
+profileset."MoLD_CLF_CoF"+=azerite_essences=27:3:1/14:3:0/12:3:0
+
+## MoLD + CLF + BotE
+profileset."MoLD_CLF_BotE"+=azerite_essences=27:3:1/14:3:0/23:3:0
+
+## MoLD + CLF + WR4
+profileset."MoLD_CLF_WR4"+=azerite_essences=27:3:1/14:3:0/4:3:0
+profileset."MoLD_CLF_WR4"+=bfa.worldvein_allies=4
+
+## MoLD + EotFI + PP
+profileset."MoLD_EotFI_PP"+=azerite_essences=27:3:1/5:3:0/6:3:0
+
+## MoLD + EotFI + CoF
+profileset."MoLD_EotFI_CoF"+=azerite_essences=27:3:1/5:3:0/12:3:0
+
+## MoLD + EotFI + BotE
+profileset."MoLD_EotFI_BotE"+=azerite_essences=27:3:1/5:3:0/23:3:0
+
+## MoLD + EotFI + WR4
+profileset."MoLD_EotFI_WR4"+=azerite_essences=27:3:1/5:3:0/4:3:0
+profileset."MoLD_EotFI_WR4"+=bfa.worldvein_allies=4
+
+## MoLD + PP + CoF
+profileset."MoLD_PP_CoF"+=azerite_essences=27:3:1/6:3:0/12:3:0
+
+## MoLD + PP + BotE
+profileset."MoLD_PP_BotE"+=azerite_essences=27:3:1/6:3:0/23:3:0
+
+## MoLD + PP + WR4
+profileset."MoLD_PP_WR4"+=azerite_essences=27:3:1/6:3:0/4:3:0
+profileset."MoLD_PP_WR4"+=bfa.worldvein_allies=4
+
+## MoLD + CoF + BotE
+profileset."MoLD_CoF_BotE"+=azerite_essences=27:3:1/12:3:0/23:3:0
+
+## MoLD + CoF + WR4
+profileset."MoLD_CoF_WR4"+=azerite_essences=27:3:1/12:3:0/4:3:0
+profileset."MoLD_CoF_WR4"+=bfa.worldvein_allies=4
+
+## MoLD + BotE + WR4
+profileset."MoLD_BotE_WR4"+=azerite_essences=27:3:1/23:3:0/4:3:0
+profileset."MoLD_BotE_WR4"+=bfa.worldvein_allies=4
+
+## CLF + MoLD + EotFI
+profileset."CLF_MoLD_EotFI"+=azerite_essences=14:3:1/27:3:0/5:3:0
+
+## CLF + MoLD + PP
+profileset."CLF_MoLD_PP"+=azerite_essences=14:3:1/27:3:0/6:3:0
+
+## CLF + MoLD + CoF
+profileset."CLF_MoLD_CoF"+=azerite_essences=14:3:1/27:3:0/12:3:0
+
+## CLF + MoLD + BotE
+profileset."CLF_MoLD_BotE"+=azerite_essences=14:3:1/27:3:0/23:3:0
+
+## CLF + MoLD + WR4
+profileset."CLF_MoLD_WR4"+=azerite_essences=14:3:1/27:3:0/4:3:0
+profileset."CLF_MoLD_WR4"+=bfa.worldvein_allies=4
+
+## CLF + EotFI + PP
+profileset."CLF_EotFI_PP"+=azerite_essences=14:3:1/5:3:0/6:3:0
+
+## CLF + EotFI + CoF
+profileset."CLF_EotFI_CoF"+=azerite_essences=14:3:1/5:3:0/12:3:0
+
+## CLF + EotFI + BotE
+profileset."CLF_EotFI_BotE"+=azerite_essences=14:3:1/5:3:0/23:3:0
+
+## CLF + EotFI + WR4
+profileset."CLF_EotFI_WR4"+=azerite_essences=14:3:1/5:3:0/4:3:0
+profileset."CLF_EotFI_WR4"+=bfa.worldvein_allies=4
+
+## CLF + PP + CoF
+profileset."CLF_PP_CoF"+=azerite_essences=14:3:1/6:3:0/12:3:0
+
+## CLF + PP + BotE
+profileset."CLF_PP_BotE"+=azerite_essences=14:3:1/6:3:0/23:3:0
+
+## CLF + PP + WR4
+profileset."CLF_PP_WR4"+=azerite_essences=14:3:1/6:3:0/4:3:0
+profileset."CLF_PP_WR4"+=bfa.worldvein_allies=4
+
+## CLF + CoF + BotE
+profileset."CLF_CoF_BotE"+=azerite_essences=14:3:1/12:3:0/23:3:0
+
+## CLF + CoF + WR4
+profileset."CLF_CoF_WR4"+=azerite_essences=14:3:1/12:3:0/4:3:0
+profileset."CLF_CoF_WR4"+=bfa.worldvein_allies=4
+
+## CLF + BotE + WR4
+profileset."CLF_BotE_WR4"+=azerite_essences=14:3:1/23:3:0/4:3:0
+profileset."CLF_BotE_WR4"+=bfa.worldvein_allies=4
