@@ -173,7 +173,7 @@ with open(outputCSV, 'w') as resultsCSV:
 if args.dir == "azerite-traits/":
     with open(outputAPW, 'w') as resultsAPW:
         # Battle for Dazar'alor Composite
-        resultsAPW.write("# Eternal Palace\n```\n( AzeritePowerWeights:1:\"Priest - Battle for Dazaralor Composite {0}\":5:258:".format(args.talents))
+        resultsAPW.write("# Eternal Palace\n```\n( AzeritePowerWeights:1:\"Priest - Eternal Palace Composite {0}\":5:258:".format(args.talents))
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             traitID = azeritePowerIDs.get(key)
             if traitID:
