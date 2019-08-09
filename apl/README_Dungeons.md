@@ -1,8 +1,7 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|50932|0.00%|
-|Greater_15_stacks_add_check|50842|-0.18%|
-|Greater_15_stacks|50395|-1.06%|
+|New|50315|0.13%|
+|Base|50250|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
