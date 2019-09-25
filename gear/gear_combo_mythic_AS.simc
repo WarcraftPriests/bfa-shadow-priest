@@ -5,8 +5,6 @@ role="spell"
 position="back"
 name="Priest_Shadow_T24M"
 
-initial_resource=insanity="25"
-
 ### Combo 1
 # Blazewing Hood 415
 head=",id=165500,bonus_id=4824/1537"

@@ -6,7 +6,6 @@ talents=3111111
 spec=shadow
 
 default_actions=0
-initial_resource=insanity=25
 azerite_essences=12:3:1/5:3:0/27:3:0
 
 # Default consumables
@@ -14,8 +13,6 @@ potion=unbridled_fury
 flask=greater_flask_of_endless_fathoms
 food=baked_port_tato
 augmentation=battle_scarred
-
-initial_resource=insanity=25
 
 # This default action priority list is automatically created based on your character.
 # It is a attempt to provide you with a action list that is both simple and practicable,
@@ -134,7 +131,6 @@ talents=3111111
 spec=shadow
 
 default_actions=0
-initial_resource=insanity=25
 azerite_essences=12:3:1/5:3:0/27:3:0
 
 # Default consumables
@@ -142,8 +138,6 @@ potion=unbridled_fury
 flask=greater_flask_of_endless_fathoms
 food=baked_port_tato
 augmentation=battle_scarred
-
-initial_resource=insanity=25
 
 # This default action priority list is automatically created based on your character.
 # It is a attempt to provide you with a action list that is both simple and practicable,
