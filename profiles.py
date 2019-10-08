@@ -20,6 +20,7 @@ parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['AS','SC'])
+parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
 args = parser.parse_args()
 
 # clear out results
@@ -68,6 +69,7 @@ patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
 dungeons = 'fight_style="DungeonSlice"'
+ptr = 'ptr=1\n'
 
 profiles = []
 if args.dir == "stats/":
@@ -171,6 +173,8 @@ for value in profiles:
         else:
             settings = settings + 'desired_targets="2"' + "\n"
     with open(args.dir + value, "w+") as f:
+        if args.ptr:
+            f.writelines(ptr)
         f.writelines(data)
         f.writelines(settings)
         f.close()
