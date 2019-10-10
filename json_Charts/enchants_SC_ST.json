@@ -1,52 +1,52 @@
 {
 	"data": {
 		"Weapon-Quick Navigation": {
-			"DPS" : 47300
+			"DPS" : 42623
 		},
 		"Weapon-Deadly Navigation": {
-			"DPS" : 47132
+			"DPS" : 42457
 		},
 		"Weapon-Machinists Brilliance": {
-			"DPS" : 47068
+			"DPS" : 42439
 		},
 		"Weapon-Torrent of Elements": {
-			"DPS" : 47054
+			"DPS" : 42389
 		},
 		"Weapon-Versatile Navigation": {
-			"DPS" : 47038
+			"DPS" : 42390
 		},
 		"Weapon-Masterful Navigation": {
-			"DPS" : 46871
+			"DPS" : 42262
 		},
 		"Weapon-Oceanic Restoration": {
-			"DPS" : 46476
+			"DPS" : 41886
 		},
 		"Ring Accord of Haste": {
-			"DPS" : 46445
+			"DPS" : 41858
 		},
 		"Ring Accord of Critical Strike": {
-			"DPS" : 46404
+			"DPS" : 41796
 		},
 		"Ring Accord of Versatility": {
-			"DPS" : 46367
+			"DPS" : 41768
 		},
 		"Ring Pact of Haste": {
-			"DPS" : 46333
+			"DPS" : 41736
 		},
 		"Ring Accord of Mastery": {
-			"DPS" : 46295
+			"DPS" : 41731
 		},
 		"Ring Pact of Critical Strike": {
-			"DPS" : 46286
+			"DPS" : 41708
 		},
 		"Ring Pact of Versatility": {
-			"DPS" : 46255
+			"DPS" : 41684
 		},
 		"Ring Pact of Mastery": {
-			"DPS" : 46216
+			"DPS" : 41657
 		},
 		"Base": {
-			"DPS" : 46055
+			"DPS" : 41480
 		}
 	},
 	"simulated_steps" : [
@@ -75,8 +75,8 @@
 		 "Weapon-Quick Navigation",
 		 "Weapon-Deadly Navigation",
 		 "Weapon-Machinists Brilliance",
-		 "Weapon-Torrent of Elements",
 		 "Weapon-Versatile Navigation",
+		 "Weapon-Torrent of Elements",
 		 "Weapon-Masterful Navigation",
 		 "Weapon-Oceanic Restoration",
 		 "Ring Accord of Haste",

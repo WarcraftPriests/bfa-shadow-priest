@@ -1,70 +1,70 @@
 {
 	"data": {
 		"Potion of Unbridled Fury": {
-			"DPS" : 52946
+			"DPS" : 49489
 		},
 		"Greater Flask of Endless Fathoms": {
-			"DPS" : 52731
+			"DPS" : 49302
 		},
 		"Flask of Endless Fathoms": {
-			"DPS" : 52473
+			"DPS" : 48935
 		},
 		"Mech-Dowels Big Mech": {
-			"DPS" : 52330
+			"DPS" : 48894
 		},
 		"Potion of Focused Resolve": {
-			"DPS" : 52320
+			"DPS" : 48871
 		},
 		"Baked Port Tato": {
-			"DPS" : 52241
+			"DPS" : 48841
 		},
 		"Bil Tong": {
-			"DPS" : 52231
-		},
-		"Honey-Glazed Haunches": {
-			"DPS" : 52218
+			"DPS" : 48781
 		},
 		"Fancy Darkmoon Feast": {
-			"DPS" : 52185
+			"DPS" : 48698
 		},
 		"Swamp Fish n Chips": {
-			"DPS" : 52182
+			"DPS" : 48690
 		},
-		"Abyssal-Fried Rissole": {
-			"DPS" : 52173
+		"Honey-Glazed Haunches": {
+			"DPS" : 48687
 		},
 		"Potion of Rising Death": {
-			"DPS" : 52146
+			"DPS" : 48679
 		},
-		"Famine Evaluator and Snack Table": {
-			"DPS" : 52110
+		"Abyssal-Fried Rissole": {
+			"DPS" : 48662
 		},
 		"Superior Battle Potion of Intellect": {
-			"DPS" : 52105
+			"DPS" : 48656
+		},
+		"Famine Evaluator and Snack Table": {
+			"DPS" : 48641
 		},
 		"Spiced Snapper": {
-			"DPS" : 52084
+			"DPS" : 48638
 		},
 		"Sailors Pie": {
-			"DPS" : 52015
-		},
-		"Battle Potion of Intellect": {
-			"DPS" : 52007
+			"DPS" : 48593
 		},
 		"Bountiful Captains Feast": {
-			"DPS" : 52004
+			"DPS" : 48527
+		},
+		"Battle Potion of Intellect": {
+			"DPS" : 48507
 		},
 		"Potion of Empowered Proximity": {
-			"DPS" : 51933
+			"DPS" : 48497
 		},
 		"Galley Banquet": {
-			"DPS" : 51925
+			"DPS" : 48442
 		},
 		"Battle-Scarred Augment Rune": {
-			"DPS" : 51903
+			"DPS" : 48405
 		},
 		"Base": {
-			"DPS" : 51673
+			"DPS" : 48224
 		}
 	},
 	"simulated_steps" : [
@@ -101,17 +101,17 @@
 		 "Potion of Focused Resolve",
 		 "Baked Port Tato",
 		 "Bil Tong",
-		 "Honey-Glazed Haunches",
 		 "Fancy Darkmoon Feast",
 		 "Swamp Fish n Chips",
-		 "Abyssal-Fried Rissole",
+		 "Honey-Glazed Haunches",
 		 "Potion of Rising Death",
-		 "Famine Evaluator and Snack Table",
+		 "Abyssal-Fried Rissole",
 		 "Superior Battle Potion of Intellect",
+		 "Famine Evaluator and Snack Table",
 		 "Spiced Snapper",
 		 "Sailors Pie",
-		 "Battle Potion of Intellect",
 		 "Bountiful Captains Feast",
+		 "Battle Potion of Intellect",
 		 "Potion of Empowered Proximity",
 		 "Galley Banquet",
 		 "Battle-Scarred Augment Rune"
