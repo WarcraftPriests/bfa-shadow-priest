@@ -1,70 +1,70 @@
 {
 	"data": {
 		"Potion of Unbridled Fury": {
-			"DPS" : 52053
+			"DPS" : 47291
 		},
 		"Greater Flask of Endless Fathoms": {
-			"DPS" : 51733
+			"DPS" : 46933
 		},
 		"Flask of Endless Fathoms": {
-			"DPS" : 51340
+			"DPS" : 46564
 		},
 		"Baked Port Tato": {
-			"DPS" : 51252
+			"DPS" : 46454
 		},
 		"Mech-Dowels Big Mech": {
-			"DPS" : 51209
+			"DPS" : 46453
 		},
 		"Superior Battle Potion of Intellect": {
-			"DPS" : 51172
+			"DPS" : 46404
 		},
 		"Potion of Focused Resolve": {
-			"DPS" : 51108
-		},
-		"Bil Tong": {
-			"DPS" : 51082
+			"DPS" : 46367
 		},
 		"Potion of Rising Death": {
-			"DPS" : 51082
+			"DPS" : 46359
+		},
+		"Bil Tong": {
+			"DPS" : 46319
 		},
 		"Swamp Fish n Chips": {
-			"DPS" : 51078
+			"DPS" : 46308
 		},
 		"Honey-Glazed Haunches": {
-			"DPS" : 51038
+			"DPS" : 46302
 		},
 		"Fancy Darkmoon Feast": {
-			"DPS" : 51027
+			"DPS" : 46281
 		},
 		"Abyssal-Fried Rissole": {
-			"DPS" : 51006
-		},
-		"Potion of Empowered Proximity": {
-			"DPS" : 51005
+			"DPS" : 46276
 		},
 		"Battle Potion of Intellect": {
-			"DPS" : 51002
+			"DPS" : 46267
+		},
+		"Potion of Empowered Proximity": {
+			"DPS" : 46261
 		},
 		"Famine Evaluator and Snack Table": {
-			"DPS" : 50988
+			"DPS" : 46230
 		},
 		"Spiced Snapper": {
-			"DPS" : 50944
+			"DPS" : 46198
 		},
 		"Sailors Pie": {
-			"DPS" : 50895
+			"DPS" : 46158
 		},
 		"Bountiful Captains Feast": {
-			"DPS" : 50877
+			"DPS" : 46138
 		},
 		"Galley Banquet": {
-			"DPS" : 50800
+			"DPS" : 46058
 		},
 		"Battle-Scarred Augment Rune": {
-			"DPS" : 50749
+			"DPS" : 46018
 		},
 		"Base": {
-			"DPS" : 50537
+			"DPS" : 45832
 		}
 	},
 	"simulated_steps" : [
@@ -101,14 +101,14 @@
 		 "Mech-Dowels Big Mech",
 		 "Superior Battle Potion of Intellect",
 		 "Potion of Focused Resolve",
-		 "Bil Tong",
 		 "Potion of Rising Death",
+		 "Bil Tong",
 		 "Swamp Fish n Chips",
 		 "Honey-Glazed Haunches",
 		 "Fancy Darkmoon Feast",
 		 "Abyssal-Fried Rissole",
-		 "Potion of Empowered Proximity",
 		 "Battle Potion of Intellect",
+		 "Potion of Empowered Proximity",
 		 "Famine Evaluator and Snack Table",
 		 "Spiced Snapper",
 		 "Sailors Pie",
