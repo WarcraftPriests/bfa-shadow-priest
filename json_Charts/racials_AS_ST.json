@@ -1,73 +1,73 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 48731
+			"DPS" : 44569
 		},
 		"Night Elf Haste": {
-			"DPS" : 48533
+			"DPS" : 44429
 		},
 		"Gnome": {
-			"DPS" : 48498
+			"DPS" : 44373
 		},
 		"Goblin": {
-			"DPS" : 48503
-		},
-		"Panda": {
-			"DPS" : 48479
+			"DPS" : 44383
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 48423
+			"DPS" : 44366
+		},
+		"Panda": {
+			"DPS" : 44337
 		},
 		"Dwarf": {
-			"DPS" : 48436
+			"DPS" : 44317
 		},
 		"Tauren": {
-			"DPS" : 48422
+			"DPS" : 44311
 		},
 		"Night Elf Crit": {
-			"DPS" : 48330
-		},
-		"Void Elf": {
-			"DPS" : 48381
+			"DPS" : 44261
 		},
 		"Blood Elf": {
-			"DPS" : 48310
-		},
-		"Kul Tiran": {
-			"DPS" : 48309
+			"DPS" : 44238
 		},
 		"Worgen": {
-			"DPS" : 48285
+			"DPS" : 44212
+		},
+		"Void Elf": {
+			"DPS" : 44267
+		},
+		"Kul Tiran": {
+			"DPS" : 44226
 		},
 		"Nightborne": {
-			"DPS" : 48287
+			"DPS" : 44219
 		},
 		"Troll": {
-			"DPS" : 48255
+			"DPS" : 44198
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 48227
+			"DPS" : 44203
 		},
 		"Lightforged Draenei": {
-			"DPS" : 48076
+			"DPS" : 44065
 		},
 		"Undead": {
-			"DPS" : 48198
+			"DPS" : 44136
 		},
 		"Maghar Orc": {
-			"DPS" : 48145
+			"DPS" : 44086
 		},
 		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 48147
+			"DPS" : 44105
 		},
 		"Draenei": {
-			"DPS" : 48062
+			"DPS" : 43996
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 47960
+			"DPS" : 43915
 		},
 		"Base": {
-			"DPS" : 47839
+			"DPS" : 43802
 		}
 	},
 	"simulated_steps" : [
@@ -78,9 +78,9 @@
 		 "Night Elf Haste",
 		 "Goblin",
 		 "Gnome",
+		 "Zandalari Troll Paku",
 		 "Panda",
 		 "Dwarf",
-		 "Zandalari Troll Paku",
 		 "Tauren",
 		 "Void Elf",
 		 "Night Elf Crit",
@@ -88,8 +88,8 @@
 		 "Kul Tiran",
 		 "Nightborne",
 		 "Worgen",
-		 "Troll",
 		 "Zandalari Troll Kimbul",
+		 "Troll",
 		 "Undead",
 		 "Zandalari Troll Bwonsamdi",
 		 "Maghar Orc",

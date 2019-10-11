@@ -1,73 +1,73 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 54466
+			"DPS" : 49208
 		},
 		"Night Elf Haste": {
-			"DPS" : 54255
+			"DPS" : 49069
 		},
 		"Goblin": {
-			"DPS" : 54229
+			"DPS" : 49046
 		},
 		"Gnome": {
-			"DPS" : 54226
+			"DPS" : 49042
 		},
 		"Panda": {
-			"DPS" : 54180
-		},
-		"Dwarf": {
-			"DPS" : 54152
-		},
-		"Tauren": {
-			"DPS" : 54146
+			"DPS" : 49000
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 54132
+			"DPS" : 48987
+		},
+		"Tauren": {
+			"DPS" : 48976
+		},
+		"Dwarf": {
+			"DPS" : 48968
 		},
 		"Void Elf": {
-			"DPS" : 54072
+			"DPS" : 48903
 		},
 		"Night Elf Crit": {
-			"DPS" : 54042
+			"DPS" : 48875
 		},
 		"Kul Tiran": {
-			"DPS" : 54020
+			"DPS" : 48866
 		},
 		"Nightborne": {
-			"DPS" : 54012
+			"DPS" : 48856
 		},
 		"Blood Elf": {
-			"DPS" : 53999
+			"DPS" : 48848
 		},
 		"Worgen": {
-			"DPS" : 53988
+			"DPS" : 48833
 		},
 		"Troll": {
-			"DPS" : 53968
+			"DPS" : 48819
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 53852
-		},
-		"Undead": {
-			"DPS" : 53846
-		},
-		"Maghar Orc": {
-			"DPS" : 53825
-		},
-		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 53802
+			"DPS" : 48758
 		},
 		"Lightforged Draenei": {
-			"DPS" : 53792
+			"DPS" : 48748
+		},
+		"Undead": {
+			"DPS" : 48736
+		},
+		"Zandalari Troll Bwonsamdi": {
+			"DPS" : 48707
+		},
+		"Maghar Orc": {
+			"DPS" : 48687
 		},
 		"Draenei": {
-			"DPS" : 53749
+			"DPS" : 48634
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 53617
+			"DPS" : 48513
 		},
 		"Base": {
-			"DPS" : 53509
+			"DPS" : 48389
 		}
 	},
 	"simulated_steps" : [
@@ -79,9 +79,9 @@
 		 "Goblin",
 		 "Gnome",
 		 "Panda",
-		 "Dwarf",
-		 "Tauren",
 		 "Zandalari Troll Paku",
+		 "Tauren",
+		 "Dwarf",
 		 "Void Elf",
 		 "Night Elf Crit",
 		 "Kul Tiran",
@@ -90,10 +90,10 @@
 		 "Worgen",
 		 "Troll",
 		 "Zandalari Troll Kimbul",
-		 "Undead",
-		 "Maghar Orc",
-		 "Zandalari Troll Bwonsamdi",
 		 "Lightforged Draenei",
+		 "Undead",
+		 "Zandalari Troll Bwonsamdi",
+		 "Maghar Orc",
 		 "Draenei",
 		 "Dark Iron Dwarf"
 	]}
