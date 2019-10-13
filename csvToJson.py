@@ -365,23 +365,20 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                 j.write('\t\t}\n')
         j.write('\t},\n')
         j.write('\t"Data_type": "trinkets",\n\t"item_ids" : {\n')
+        tempIlvlList = list()
         maxCnt = len(uniqueList)
-        cnt = 0
         for u in uniqueList:
-            cnt+=1
             u = u.replace(' ','_')
             if not u == 'Base':
                 u = u[:-1]
             itemID = getItemId(u)
             if not str(itemID) == 'None':
-                if cnt < maxCnt:
-                    j.write('\t\t"'+u+'": '+str(itemID)+',\n')
-                else:
-                    j.write('\t\t"'+u+'": '+str(itemID)+'\n')
+                    tempIlvlList.append('\t\t"'+u+'": '+str(itemID))
             else:
                 if not u == 'Base':
                     print('Error: ' + u + ' Trinket was not included in the item ID list. Error occured in {} sim'.format(outjsonFile))
-
+        finalIlvlList = ',\n'.join(tempIlvlList) + '\n'
+        j.write(finalIlvlList)
         j.write('\t},\n')
         j.write('\t"simulated_steps": [\n')
         ilvls = getIlvl(injsonFile)
