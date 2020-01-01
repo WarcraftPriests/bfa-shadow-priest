@@ -1,37 +1,37 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Potion_of_Unbridled_Fury|49489|2.62%|
-|Greater_Flask_of_Endless_Fathoms|49302|2.23%|
-|Flask_of_Endless_Fathoms|48935|1.47%|
-|Mech-Dowels_Big_Mech|48894|1.39%|
-|Potion_of_Focused_Resolve|48871|1.34%|
-|Baked_Port_Tato|48841|1.28%|
-|Bil_Tong|48781|1.15%|
-|Fancy_Darkmoon_Feast|48698|0.98%|
-|Swamp_Fish_n_Chips|48690|0.96%|
-|Honey-Glazed_Haunches|48687|0.96%|
-|Potion_of_Rising_Death|48679|0.94%|
-|Abyssal-Fried_Rissole|48662|0.91%|
-|Superior_Battle_Potion_of_Intellect|48656|0.89%|
-|Famine_Evaluator_and_Snack_Table|48641|0.86%|
-|Spiced_Snapper|48638|0.86%|
-|Sailors_Pie|48593|0.76%|
-|120_Intellect|48585|0.75%|
-|50_Critical_Strike|48571|0.72%|
-|40_Critical_Strike|48537|0.65%|
-|Bountiful_Captains_Feast|48527|0.63%|
-|50_Haste|48524|0.62%|
-|50_Versatility|48509|0.59%|
-|Battle_Potion_of_Intellect|48507|0.59%|
-|Potion_of_Empowered_Proximity|48497|0.57%|
-|40_Haste|48496|0.56%|
-|50_Mastery|48494|0.56%|
-|80_Intellect|48492|0.56%|
-|40_Versatility|48452|0.47%|
-|Galley_Banquet|48442|0.45%|
-|Battle-Scarred Augment Rune|48405|0.37%|
-|40_Mastery|48404|0.37%|
-|Base|48224|0.00%|
+|Potion_of_Unbridled_Fury|59929|1.96%|
+|Greater_Flask_of_Endless_Fathoms|59804|1.75%|
+|Potion_of_Focused_Resolve|59545|1.31%|
+|Baked_Port_Tato|59544|1.31%|
+|Mech-Dowels_Big_Mech|59510|1.25%|
+|Flask_of_Endless_Fathoms|59454|1.16%|
+|Bil_Tong|59374|1.02%|
+|Swamp_Fish_n_Chips|59372|1.01%|
+|Fancy_Darkmoon_Feast|59307|0.91%|
+|Honey-Glazed_Haunches|59287|0.87%|
+|Abyssal-Fried_Rissole|59243|0.80%|
+|Spiced_Snapper|59226|0.77%|
+|50_Critical_Strike|59198|0.72%|
+|Sailors_Pie|59197|0.72%|
+|50_Haste|59189|0.70%|
+|Famine_Evaluator_and_Snack_Table|59188|0.70%|
+|Potion_of_Rising_Death|59171|0.67%|
+|Superior_Battle_Potion_of_Intellect|59160|0.66%|
+|50_Versatility|59143|0.63%|
+|Bountiful_Captains_Feast|59114|0.58%|
+|40_Critical_Strike|59106|0.56%|
+|120_Intellect|59098|0.55%|
+|40_Haste|59077|0.51%|
+|80_Intellect|59074|0.51%|
+|50_Mastery|59070|0.50%|
+|40_Versatility|59058|0.48%|
+|Battle_Potion_of_Intellect|59032|0.44%|
+|Potion_of_Empowered_Proximity|59013|0.41%|
+|Galley_Banquet|59009|0.40%|
+|40_Mastery|58977|0.34%|
+|Battle-Scarred Augment Rune|58965|0.32%|
+|Base|58775|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)
