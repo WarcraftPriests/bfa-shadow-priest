@@ -1,70 +1,70 @@
 {
 	"data": {
 		"Potion of Unbridled Fury": {
-			"DPS" : 42088
+			"DPS" : 50947
 		},
 		"Greater Flask of Endless Fathoms": {
-			"DPS" : 41600
-		},
-		"Flask of Endless Fathoms": {
-			"DPS" : 41272
+			"DPS" : 50507
 		},
 		"Baked Port Tato": {
-			"DPS" : 41179
+			"DPS" : 50259
+		},
+		"Flask of Endless Fathoms": {
+			"DPS" : 50191
 		},
 		"Mech-Dowels Big Mech": {
-			"DPS" : 41171
-		},
-		"Superior Battle Potion of Intellect": {
-			"DPS" : 41129
+			"DPS" : 50169
 		},
 		"Potion of Focused Resolve": {
-			"DPS" : 41388
-		},
-		"Potion of Rising Death": {
-			"DPS" : 41169
-		},
-		"Bil Tong": {
-			"DPS" : 41067
+			"DPS" : 50482
 		},
 		"Swamp Fish n Chips": {
-			"DPS" : 41054
+			"DPS" : 50080
+		},
+		"Superior Battle Potion of Intellect": {
+			"DPS" : 50050
+		},
+		"Bil Tong": {
+			"DPS" : 50038
 		},
 		"Honey-Glazed Haunches": {
-			"DPS" : 41037
-		},
-		"Fancy Darkmoon Feast": {
-			"DPS" : 41039
+			"DPS" : 50011
 		},
 		"Abyssal-Fried Rissole": {
-			"DPS" : 41031
+			"DPS" : 50003
+		},
+		"Fancy Darkmoon Feast": {
+			"DPS" : 49985
+		},
+		"Potion of Rising Death": {
+			"DPS" : 50027
 		},
 		"Battle Potion of Intellect": {
-			"DPS" : 41018
+			"DPS" : 49920
 		},
 		"Potion of Empowered Proximity": {
-			"DPS" : 40939
-		},
-		"Famine Evaluator and Snack Table": {
-			"DPS" : 40974
+			"DPS" : 49844
 		},
 		"Spiced Snapper": {
-			"DPS" : 40964
+			"DPS" : 49922
+		},
+		"Famine Evaluator and Snack Table": {
+			"DPS" : 49895
 		},
 		"Sailors Pie": {
-			"DPS" : 40915
+			"DPS" : 49892
 		},
 		"Bountiful Captains Feast": {
-			"DPS" : 40894
+			"DPS" : 49824
 		},
 		"Galley Banquet": {
-			"DPS" : 40828
+			"DPS" : 49735
 		},
 		"Battle-Scarred Augment Rune": {
-			"DPS" : 40808
+			"DPS" : 49694
 		},
 		"Base": {
-			"DPS" : 40631
+			"DPS" : 49526
 		}
 	},
 	"simulated_steps" : [
@@ -97,21 +97,21 @@
 		 "Potion of Unbridled Fury",
 		 "Greater Flask of Endless Fathoms",
 		 "Potion of Focused Resolve",
-		 "Flask of Endless Fathoms",
 		 "Baked Port Tato",
+		 "Flask of Endless Fathoms",
 		 "Mech-Dowels Big Mech",
-		 "Potion of Rising Death",
+		 "Swamp Fish n Chips",
 		 "Superior Battle Potion of Intellect",
 		 "Bil Tong",
-		 "Swamp Fish n Chips",
-		 "Fancy Darkmoon Feast",
+		 "Potion of Rising Death",
 		 "Honey-Glazed Haunches",
 		 "Abyssal-Fried Rissole",
+		 "Fancy Darkmoon Feast",
+		 "Spiced Snapper",
 		 "Battle Potion of Intellect",
 		 "Famine Evaluator and Snack Table",
-		 "Spiced Snapper",
-		 "Potion of Empowered Proximity",
 		 "Sailors Pie",
+		 "Potion of Empowered Proximity",
 		 "Bountiful Captains Feast",
 		 "Galley Banquet",
 		 "Battle-Scarred Augment Rune"
