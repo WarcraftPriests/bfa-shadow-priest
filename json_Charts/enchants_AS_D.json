@@ -1,52 +1,52 @@
 {
 	"data": {
-		"Weapon-Deadly Navigation": {
-			"DPS" : 50554
-		},
 		"Weapon-Quick Navigation": {
-			"DPS" : 50538
+			"DPS" : 60904
+		},
+		"Weapon-Deadly Navigation": {
+			"DPS" : 60831
 		},
 		"Weapon-Torrent of Elements": {
-			"DPS" : 50400
-		},
-		"Weapon-Versatile Navigation": {
-			"DPS" : 50378
+			"DPS" : 60745
 		},
 		"Weapon-Machinists Brilliance": {
-			"DPS" : 50322
+			"DPS" : 60562
+		},
+		"Weapon-Versatile Navigation": {
+			"DPS" : 60534
 		},
 		"Weapon-Masterful Navigation": {
-			"DPS" : 50219
-		},
-		"Weapon-Oceanic Restoration": {
-			"DPS" : 49735
+			"DPS" : 60435
 		},
 		"Ring Accord of Haste": {
-			"DPS" : 49682
+			"DPS" : 59865
 		},
 		"Ring Accord of Critical Strike": {
-			"DPS" : 49675
+			"DPS" : 59811
+		},
+		"Weapon-Oceanic Restoration": {
+			"DPS" : 59767
 		},
 		"Ring Accord of Versatility": {
-			"DPS" : 49643
+			"DPS" : 59738
 		},
 		"Ring Accord of Mastery": {
-			"DPS" : 49576
+			"DPS" : 59722
 		},
 		"Ring Pact of Haste": {
-			"DPS" : 49559
-		},
-		"Ring Pact of Critical Strike": {
-			"DPS" : 49559
+			"DPS" : 59644
 		},
 		"Ring Pact of Versatility": {
-			"DPS" : 49511
+			"DPS" : 59623
+		},
+		"Ring Pact of Critical Strike": {
+			"DPS" : 59607
 		},
 		"Ring Pact of Mastery": {
-			"DPS" : 49481
+			"DPS" : 59595
 		},
 		"Base": {
-			"DPS" : 49315
+			"DPS" : 59345
 		}
 	},
 	"simulated_steps" : [
@@ -72,19 +72,19 @@
 		"Ring Pact of Mastery" : 255077
 	},
 	"sorted_data_keys":[
-		 "Weapon-Deadly Navigation",
 		 "Weapon-Quick Navigation",
+		 "Weapon-Deadly Navigation",
 		 "Weapon-Torrent of Elements",
-		 "Weapon-Versatile Navigation",
 		 "Weapon-Machinists Brilliance",
+		 "Weapon-Versatile Navigation",
 		 "Weapon-Masterful Navigation",
-		 "Weapon-Oceanic Restoration",
 		 "Ring Accord of Haste",
 		 "Ring Accord of Critical Strike",
+		 "Weapon-Oceanic Restoration",
 		 "Ring Accord of Versatility",
 		 "Ring Accord of Mastery",
 		 "Ring Pact of Haste",
-		 "Ring Pact of Critical Strike",
 		 "Ring Pact of Versatility",
+		 "Ring Pact of Critical Strike",
 		 "Ring Pact of Mastery"
 	]}
