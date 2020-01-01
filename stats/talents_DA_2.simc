@@ -8,22 +8,22 @@ default_actions=1
 # RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
 azerite_essences=27:3:1/5:3:0/12:3:0
 
-head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
-shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=450,azerite_powers=403/405/21/13
-back=drape_of_the_hatcher,id=168604,ilevel=445
-chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
-wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
-hands=shirakess_handwraps,id=167753,ilevel=445
-waist=cephalopods_sash,id=168872,ilevel=445
-legs=shirakess_pants,id=170107,ilevel=445
-feet=supplicants_soiled_slippers,id=169049,ilevel=445
-finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
-finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-trinket1=leviathans_lure,id=169304,ilevel=445
-trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
-off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/582/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+wrists=void_drenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=mana_infused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
 # SI
 copy="SI_Mis_SWD_MB_DA","Base"
 talents=2121222

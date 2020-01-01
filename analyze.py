@@ -7,7 +7,7 @@ import os
 
 azeritePowerIDs = azeritePowerID.azeritePowerIDs
 weightsSingle = weights.weightsSingle
-weightsEP = weights.weightsEP
+weightsNy = weights.weightsNy
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -50,7 +50,7 @@ resultsSingle = {}
 for value in data.iterrows():
     if args.weights:
         profile = value[1].profile
-        weight = weightsEP.get(profile[profile.index('_')+1:])
+        weight = weightsNy.get(profile[profile.index('_')+1:])
         weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
@@ -66,10 +66,10 @@ for value in data.iterrows():
     else:
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/" :
             profile = value[1].profile
-            weight = weightsEP.get(profile[profile.index('_')+1:])
+            weight = weightsNy.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         else:
-            weight = weightsEP.get(value[1].profile)
+            weight = weightsNy.get(value[1].profile)
             weightSingle = weightsSingle.get(value[1].profile)
     if not weightSingle:
         weightSingle = 0
@@ -173,7 +173,7 @@ with open(outputCSV, 'w') as resultsCSV:
 if args.dir == "azerite-traits/":
     with open(outputAPW, 'w') as resultsAPW:
         # Battle for Dazar'alor Composite
-        resultsAPW.write("# Eternal Palace\n```\n( AzeritePowerWeights:1:\"Priest - Eternal Palace Composite {0}\":5:258:".format(args.talents))
+        resultsAPW.write("# Ny'alotha\n```\n( AzeritePowerWeights:1:\"Priest - Ny'alotha Composite {0}\":5:258:".format(args.talents))
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             traitID = azeritePowerIDs.get(key)
             if traitID:
