@@ -78,6 +78,12 @@ profileset."Worldvein_Resonance_4_Allies_1"+=bfa.worldvein_allies=4
 ## Reaping Flames (35) + Lethal Strikes
 profileset."Reaping_Flames_1"+=azerite_essences=35:1:1
 
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_1"+=azerite_essences=36:1:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_1"+=azerite_essences=37:1:1
+
 # Rank 1: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_1"+=azerite_essences=23:1:0
@@ -121,6 +127,12 @@ profileset."Lifeblood_4_Allies_1"+=bfa.worldvein_allies=4
 
 ## Lethal Strikes
 profileset."Lethal_Strikes_1"+=azerite_essences=35:1:0
+
+## Unified Strengh
+profileset."Unified_Strength_1"+=azerite_essences=36:1:0
+
+## Symbiotic Presence
+profileset."Symbiotic_Presence_1"+=azerite_essences=37:1:0
 
 # RANK 2: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
@@ -176,6 +188,12 @@ profileset."Worldvein_Resonance_4_Allies_2"+=bfa.worldvein_allies=4
 ## Reaping Flames (35) + Lethal Strikes
 profileset."Reaping_Flames_2"+=azerite_essences=35:2:1
 
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_2"+=azerite_essences=36:2:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_2"+=azerite_essences=37:2:1
+
 # Rank 2: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_2"+=azerite_essences=23:2:0
@@ -219,6 +237,12 @@ profileset."Lifeblood_4_Allies_2"+=bfa.worldvein_allies=4
 
 ## Lethal Strikes
 profileset."Lethal_Strikes_2"+=azerite_essences=35:2:0
+
+## Unified Strengh
+profileset."Unified_Strength_2"+=azerite_essences=36:2:0
+
+## Symbiotic Presence
+profileset."Symbiotic_Presence_2"+=azerite_essences=37:2:0
 
 # RANK 3: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
@@ -274,6 +298,12 @@ profileset."Worldvein_Resonance_4_Allies_3"+=bfa.worldvein_allies=4
 ## Reaping Flames (35) + Lethal Strikes
 profileset."Reaping_Flames_3"+=azerite_essences=35:3:1
 
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_3"+=azerite_essences=36:3:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_3"+=azerite_essences=37:3:1
+
 # Rank 3: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_3"+=azerite_essences=23:3:0
@@ -317,6 +347,12 @@ profileset."Lifeblood_4_Allies_3"+=bfa.worldvein_allies=4
 
 ## Lethal Strikes
 profileset."Lethal_Strikes_3"+=azerite_essences=35:3:0
+
+## Moment of Glory (36) + Unified Strengh
+profileset."Unified_Strength_3"+=azerite_essences=36:3:0
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Symbiotic_Presence_3"+=azerite_essences=37:3:0
 
 # 3 Essence Combos
 

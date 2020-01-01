@@ -25,12 +25,6 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Dungeon trinkets
-profileset."Vessel_of_Skittering_Shadows_385"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=385
-profileset."Vessel_of_Skittering_Shadows_390"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=390
-profileset."Vessel_of_Skittering_Shadows_395"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=395
-profileset."Vessel_of_Skittering_Shadows_400"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=400
-profileset."Vessel_of_Skittering_Shadows_405"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=405
-profileset."Vessel_of_Skittering_Shadows_410"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=410
 profileset."Vessel_of_Skittering_Shadows_415"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=415
 profileset."Vessel_of_Skittering_Shadows_420"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=420
 profileset."Vessel_of_Skittering_Shadows_425"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=425
@@ -40,13 +34,11 @@ profileset."Vessel_of_Skittering_Shadows_440"+=trinket1=vessel_of_skittering_sha
 profileset."Vessel_of_Skittering_Shadows_445"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=445
 profileset."Vessel_of_Skittering_Shadows_450"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=450
 profileset."Vessel_of_Skittering_Shadows_455"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=455
+profileset."Vessel_of_Skittering_Shadows_460"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=460
+profileset."Vessel_of_Skittering_Shadows_465"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=465
+profileset."Vessel_of_Skittering_Shadows_470"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=470
+profileset."Vessel_of_Skittering_Shadows_475"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=475
 
-profileset."Ignition_Mages_Fuse_385"+=trinket1=ignition_mages_fuse,id=159615,ilevel=385
-profileset."Ignition_Mages_Fuse_390"+=trinket1=ignition_mages_fuse,id=159615,ilevel=390
-profileset."Ignition_Mages_Fuse_395"+=trinket1=ignition_mages_fuse,id=159615,ilevel=395
-profileset."Ignition_Mages_Fuse_400"+=trinket1=ignition_mages_fuse,id=159615,ilevel=400
-profileset."Ignition_Mages_Fuse_405"+=trinket1=ignition_mages_fuse,id=159615,ilevel=405
-profileset."Ignition_Mages_Fuse_410"+=trinket1=ignition_mages_fuse,id=159615,ilevel=410
 profileset."Ignition_Mages_Fuse_415"+=trinket1=ignition_mages_fuse,id=159615,ilevel=415
 profileset."Ignition_Mages_Fuse_420"+=trinket1=ignition_mages_fuse,id=159615,ilevel=420
 profileset."Ignition_Mages_Fuse_425"+=trinket1=ignition_mages_fuse,id=159615,ilevel=425
@@ -56,13 +48,11 @@ profileset."Ignition_Mages_Fuse_440"+=trinket1=ignition_mages_fuse,id=159615,ile
 profileset."Ignition_Mages_Fuse_445"+=trinket1=ignition_mages_fuse,id=159615,ilevel=445
 profileset."Ignition_Mages_Fuse_450"+=trinket1=ignition_mages_fuse,id=159615,ilevel=450
 profileset."Ignition_Mages_Fuse_455"+=trinket1=ignition_mages_fuse,id=159615,ilevel=455
+profileset."Ignition_Mages_Fuse_460"+=trinket1=ignition_mages_fuse,id=159615,ilevel=460
+profileset."Ignition_Mages_Fuse_465"+=trinket1=ignition_mages_fuse,id=159615,ilevel=465
+profileset."Ignition_Mages_Fuse_470"+=trinket1=ignition_mages_fuse,id=159615,ilevel=470
+profileset."Ignition_Mages_Fuse_475"+=trinket1=ignition_mages_fuse,id=159615,ilevel=475
 
-profileset."Conch_of_Dark_Whispers_385"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=385
-profileset."Conch_of_Dark_Whispers_390"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=390
-profileset."Conch_of_Dark_Whispers_395"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=395
-profileset."Conch_of_Dark_Whispers_400"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=400
-profileset."Conch_of_Dark_Whispers_405"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=405
-profileset."Conch_of_Dark_Whispers_410"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=410
 profileset."Conch_of_Dark_Whispers_415"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=415
 profileset."Conch_of_Dark_Whispers_420"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=420
 profileset."Conch_of_Dark_Whispers_425"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=425
@@ -72,13 +62,11 @@ profileset."Conch_of_Dark_Whispers_440"+=trinket1=conch_of_dark_whispers,id=1596
 profileset."Conch_of_Dark_Whispers_445"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=445
 profileset."Conch_of_Dark_Whispers_450"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=450
 profileset."Conch_of_Dark_Whispers_455"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=455
+profileset."Conch_of_Dark_Whispers_460"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=460
+profileset."Conch_of_Dark_Whispers_465"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=465
+profileset."Conch_of_Dark_Whispers_470"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=470
+profileset."Conch_of_Dark_Whispers_475"+=trinket1=conch_of_dark_whispers,id=159620,ilevel=475
 
-profileset."Hadals_Nautilus_385"+=trinket1=hadals_nautilus,id=159622,ilevel=385
-profileset."Hadals_Nautilus_390"+=trinket1=hadals_nautilus,id=159622,ilevel=390
-profileset."Hadals_Nautilus_395"+=trinket1=hadals_nautilus,id=159622,ilevel=395
-profileset."Hadals_Nautilus_400"+=trinket1=hadals_nautilus,id=159622,ilevel=400
-profileset."Hadals_Nautilus_405"+=trinket1=hadals_nautilus,id=159622,ilevel=405
-profileset."Hadals_Nautilus_410"+=trinket1=hadals_nautilus,id=159622,ilevel=410
 profileset."Hadals_Nautilus_415"+=trinket1=hadals_nautilus,id=159622,ilevel=415
 profileset."Hadals_Nautilus_420"+=trinket1=hadals_nautilus,id=159622,ilevel=420
 profileset."Hadals_Nautilus_425"+=trinket1=hadals_nautilus,id=159622,ilevel=425
@@ -88,13 +76,11 @@ profileset."Hadals_Nautilus_440"+=trinket1=hadals_nautilus,id=159622,ilevel=440
 profileset."Hadals_Nautilus_445"+=trinket1=hadals_nautilus,id=159622,ilevel=445
 profileset."Hadals_Nautilus_450"+=trinket1=hadals_nautilus,id=159622,ilevel=450
 profileset."Hadals_Nautilus_455"+=trinket1=hadals_nautilus,id=159622,ilevel=455
+profileset."Hadals_Nautilus_460"+=trinket1=hadals_nautilus,id=159622,ilevel=460
+profileset."Hadals_Nautilus_465"+=trinket1=hadals_nautilus,id=159622,ilevel=465
+profileset."Hadals_Nautilus_470"+=trinket1=hadals_nautilus,id=159622,ilevel=470
+profileset."Hadals_Nautilus_475"+=trinket1=hadals_nautilus,id=159622,ilevel=475
 
-profileset."Rotcrusted_Voodoo_Doll_385"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=385
-profileset."Rotcrusted_Voodoo_Doll_390"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=390
-profileset."Rotcrusted_Voodoo_Doll_395"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=395
-profileset."Rotcrusted_Voodoo_Doll_400"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=400
-profileset."Rotcrusted_Voodoo_Doll_405"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=405
-profileset."Rotcrusted_Voodoo_Doll_410"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=410
 profileset."Rotcrusted_Voodoo_Doll_415"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=415
 profileset."Rotcrusted_Voodoo_Doll_420"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=420
 profileset."Rotcrusted_Voodoo_Doll_425"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=425
@@ -104,13 +90,11 @@ profileset."Rotcrusted_Voodoo_Doll_440"+=trinket1=rotcrusted_voodoo_doll,id=1596
 profileset."Rotcrusted_Voodoo_Doll_445"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=445
 profileset."Rotcrusted_Voodoo_Doll_450"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=450
 profileset."Rotcrusted_Voodoo_Doll_455"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=455
+profileset."Rotcrusted_Voodoo_Doll_460"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=460
+profileset."Rotcrusted_Voodoo_Doll_465"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=465
+profileset."Rotcrusted_Voodoo_Doll_470"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=470
+profileset."Rotcrusted_Voodoo_Doll_475"+=trinket1=rotcrusted_voodoo_doll,id=159624,ilevel=475
 
-profileset."Balefire_Branch_385"+=trinket1=balefire_branch,id=159630,ilevel=385
-profileset."Balefire_Branch_390"+=trinket1=balefire_branch,id=159630,ilevel=390
-profileset."Balefire_Branch_395"+=trinket1=balefire_branch,id=159630,ilevel=395
-profileset."Balefire_Branch_400"+=trinket1=balefire_branch,id=159630,ilevel=400
-profileset."Balefire_Branch_405"+=trinket1=balefire_branch,id=159630,ilevel=405
-profileset."Balefire_Branch_410"+=trinket1=balefire_branch,id=159630,ilevel=410
 profileset."Balefire_Branch_415"+=trinket1=balefire_branch,id=159630,ilevel=415
 profileset."Balefire_Branch_420"+=trinket1=balefire_branch,id=159630,ilevel=420
 profileset."Balefire_Branch_425"+=trinket1=balefire_branch,id=159630,ilevel=425
@@ -120,13 +104,11 @@ profileset."Balefire_Branch_440"+=trinket1=balefire_branch,id=159630,ilevel=440
 profileset."Balefire_Branch_445"+=trinket1=balefire_branch,id=159630,ilevel=445
 profileset."Balefire_Branch_450"+=trinket1=balefire_branch,id=159630,ilevel=450
 profileset."Balefire_Branch_455"+=trinket1=balefire_branch,id=159630,ilevel=455
+profileset."Balefire_Branch_460"+=trinket1=balefire_branch,id=159630,ilevel=460
+profileset."Balefire_Branch_465"+=trinket1=balefire_branch,id=159630,ilevel=465
+profileset."Balefire_Branch_470"+=trinket1=balefire_branch,id=159630,ilevel=470
+profileset."Balefire_Branch_475"+=trinket1=balefire_branch,id=159630,ilevel=475
 
-profileset."Lady_Waycrests_Music_Box_385"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=385
-profileset."Lady_Waycrests_Music_Box_390"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=390
-profileset."Lady_Waycrests_Music_Box_395"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=395
-profileset."Lady_Waycrests_Music_Box_400"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=400
-profileset."Lady_Waycrests_Music_Box_405"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=405
-profileset."Lady_Waycrests_Music_Box_410"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=410
 profileset."Lady_Waycrests_Music_Box_415"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=415
 profileset."Lady_Waycrests_Music_Box_420"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=420
 profileset."Lady_Waycrests_Music_Box_425"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=425
@@ -136,6 +118,10 @@ profileset."Lady_Waycrests_Music_Box_440"+=trinket1=lady_waycrests_music_box,id=
 profileset."Lady_Waycrests_Music_Box_445"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=445
 profileset."Lady_Waycrests_Music_Box_450"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=450
 profileset."Lady_Waycrests_Music_Box_455"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=455
+profileset."Lady_Waycrests_Music_Box_460"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=460
+profileset."Lady_Waycrests_Music_Box_465"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=465
+profileset."Lady_Waycrests_Music_Box_470"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=470
+profileset."Lady_Waycrests_Music_Box_475"+=trinket1=lady_waycrests_music_box,id=159631,ilevel=475
 
 # Pocket-Sized Computation Device
 # Red 415 Yellow 415 - Performant Effective - 168749
@@ -280,112 +266,96 @@ profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_435"+=trinket1=pocke
 
 # Red 435 Yellow 445 - Performant Effective - 168749
 profileset."PSCD_Subroutine_Overclock_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168749/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168749/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168749/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168749/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Effective_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168749/168435
 
 # Red 435 Yellow 445 - Performant Adaptable - 168747
 profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168747/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168747/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168747/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168747/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168747/168435
 
 # Red 435 Yellow 445 - Performant Refined - 168748
 profileset."PSCD_Subroutine_Overclock_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168748/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168748/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168748/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168748/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Refined_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168748/168435
 
 # Red 435 Yellow 445 - Forceful Efficient - 168743
 profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167556/168743/168435
-# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167672/168743/168435
 profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=167677/168743/168435
 profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168800/168743/168435
 profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_440"+=trinket1=pocketsized_computation_device,id=167555,ilevel=440,gem_id=168912/168743/168435
 
 # Red 445 Yellow 445 - Performant Effective - 168749
 profileset."PSCD_Subroutine_Overclock_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168749/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168749/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168749/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168749/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Effective_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168749/168435
 
 # Red 445 Yellow 445 - Performant Adaptable - 168747
 profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168747/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168747/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168747/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168747/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168747/168435
 
 # Red 445 Yellow 445 - Performant Refined - 168748
 profileset."PSCD_Subroutine_Overclock_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168748/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168748/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168748/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168748/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Refined_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168748/168435
 
 # Red 445 Yellow 445 - Forceful Efficient - 168743
 profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167556/168743/168435
-# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167672/168743/168435
 profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=167677/168743/168435
 profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168800/168743/168435
 profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_445"+=trinket1=pocketsized_computation_device,id=167555,ilevel=445,gem_id=168912/168743/168435
 
 # Red 445 Yellow 455 - Performant Effective - 168749
 profileset."PSCD_Subroutine_Overclock_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168749/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168749/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168749/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168749/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Effective_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168749/168435
 
 # Red 445 Yellow 455 - Performant Adaptable - 168747
 profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168747/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168747/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168747/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168747/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168747/168435
 
 # Red 445 Yellow 455 - Performant Refined - 168748
 profileset."PSCD_Subroutine_Overclock_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168748/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168748/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168748/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168748/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Refined_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168748/168435
 
 # Red 445 Yellow 455 - Forceful Efficient - 168743
 profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167556/168743/168435
-# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167672/168743/168435
 profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=167677/168743/168435
 profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168800/168743/168435
 profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_450"+=trinket1=pocketsized_computation_device,id=167555,ilevel=450,gem_id=168912/168743/168435
 
 # Red 455 Yellow 455 - Performant Effective - 168749
 profileset."PSCD_Subroutine_Overclock_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168749/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168749/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168749/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168749/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Effective_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168749/168435
 
 # Red 455 Yellow 455 - Performant Adaptable - 168747
 profileset."PSCD_Subroutine_Overclock_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168747/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168747/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168747/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168747/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Adaptable_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168747/168435
 
 # Red 455 Yellow 455 - Performant Refined - 168748
 profileset."PSCD_Subroutine_Overclock_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168748/168435
-# profileset."PSCD_Cyclotronic_Blast_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168748/168435
 profileset."PSCD_Harmonic_Dematerializer_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168748/168435
 profileset."PSCD_Subroutine_Recalibration_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168748/168435
 profileset."PSCD_Subroutine_Optimization_Performant_Refined_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168748/168435
 
 # Red 455 Yellow 455 - Forceful Efficient - 168743
 profileset."PSCD_Subroutine_Overclock_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167556/168743/168435
-# profileset."PSCD_Cyclotronic_Blast_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167672/168743/168435
 profileset."PSCD_Harmonic_Dematerializer_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=167677/168743/168435
 profileset."PSCD_Subroutine_Recalibration_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168800/168743/168435
 profileset."PSCD_Subroutine_Optimization_Forceful_Efficient_455"+=trinket1=pocketsized_computation_device,id=167555,ilevel=455,gem_id=168912/168743/168435

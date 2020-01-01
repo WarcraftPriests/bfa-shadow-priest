@@ -189,17 +189,17 @@ profileset."S_475_void_ascendants_mantle_CoI_WotD_HMC"+=shoulder=void_ascendants
 profileset."S_475_void_ascendants_mantle_DT_HoD_HMC"+=shoulder=void_ascendants_mantle,id=174120,ilevel=475,azerite_powers=404/582/22/13
 profileset."S_475_void_ascendants_mantle_CoI_HoD_HMC"+=shoulder=void_ascendants_mantle,id=174120,ilevel=475,azerite_powers=405/582/22/13
 
-# Spaulders of Miasmic Mycelia - 445, 460, 475
+# Spaulders of Miasmic Mycelia - 455, 470, 485
 # Spiteful Apparitions + Whispers of the Damned / Chorus of Insanity + Heart of Darkness / Blood Siphon
-profileset."S_445_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=445,azerite_powers=403/405/18/13
-profileset."S_445_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=445,azerite_powers=236/405/18/13
-profileset."S_445_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=445,azerite_powers=403/582/18/13
-profileset."S_445_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=445,azerite_powers=236/582/18/13
-profileset."S_460_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=460,azerite_powers=403/405/18/13
-profileset."S_460_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=460,azerite_powers=236/405/18/13
-profileset."S_460_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=460,azerite_powers=403/582/18/13
-profileset."S_460_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=460,azerite_powers=236/582/18/13
-profileset."S_475_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=403/405/18/13
-profileset."S_475_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=236/405/18/13
-profileset."S_475_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=403/582/18/13
-profileset."S_475_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=236/582/18/13
+profileset."S_455_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=455,azerite_powers=403/405/18/13
+profileset."S_455_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=455,azerite_powers=236/405/18/13
+profileset."S_455_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=455,azerite_powers=403/582/18/13
+profileset."S_455_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=455,azerite_powers=236/582/18/13
+profileset."S_470_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=470,azerite_powers=403/405/18/13
+profileset."S_470_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=470,azerite_powers=236/405/18/13
+profileset."S_470_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=470,azerite_powers=403/582/18/13
+profileset."S_470_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=470,azerite_powers=236/582/18/13
+profileset."S_485_spaulders_of_miasmic_mycelia_SA_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=485,azerite_powers=403/405/18/13
+profileset."S_485_spaulders_of_miasmic_mycelia_WotD_CoI_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=485,azerite_powers=236/405/18/13
+profileset."S_485_spaulders_of_miasmic_mycelia_SA_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=485,azerite_powers=403/582/18/13
+profileset."S_485_spaulders_of_miasmic_mycelia_WotD_HoD_BS"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=485,azerite_powers=236/582/18/13

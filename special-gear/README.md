@@ -11,3 +11,6 @@ For the Benthic gear, there are two sets of sims for each item: `Inactive` and `
 ## Dungeons
 - [SWV_DV_AS_LI_LotV](Results_Dungeons_AS.md)
 - [SWV_DV_SC_LI_LotV](Results_Dungeons_SC.md)
+
+TODO: Corruption
+https://ptr.wowhead.com/guides/corrupted-items-overview-titan-purification-corruption-resistance
