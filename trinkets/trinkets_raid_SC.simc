@@ -232,32 +232,33 @@ profileset."Lions_Grace_455"+=trinket1=lions_grace,id=161472,ilevel=455
 
 # Nyalotha Raid Trinkets - 430, 445, 460, and 475
 profileset."Void_Twisted_Titanshard_430"+=trinket1=void_twisted_titanshard,id=174528,ilevel=430
-profileset."Void_Twisted_Titanshard_430"+=trinket1=void_twisted_titanshard,id=174528,ilevel=445
-profileset."Void_Twisted_Titanshard_430"+=trinket1=void_twisted_titanshard,id=174528,ilevel=460
-profileset."Void_Twisted_Titanshard_430"+=trinket1=void_twisted_titanshard,id=174528,ilevel=475
+profileset."Void_Twisted_Titanshard_445"+=trinket1=void_twisted_titanshard,id=174528,ilevel=445
+profileset."Void_Twisted_Titanshard_460"+=trinket1=void_twisted_titanshard,id=174528,ilevel=460
+profileset."Void_Twisted_Titanshard_475"+=trinket1=void_twisted_titanshard,id=174528,ilevel=475
 
+# TODO factor in allies
 profileset."Manifesto_of_Madness_440"+=trinket2=manifesto_of_madness,id=174103,ilevel=440
-profileset."Manifesto_of_Madness_440"+=trinket2=manifesto_of_madness,id=174103,ilevel=455
-profileset."Manifesto_of_Madness_440"+=trinket2=manifesto_of_madness,id=174103,ilevel=470
-profileset."Manifesto_of_Madness_440"+=trinket2=manifesto_of_madness,id=174103,ilevel=485
+profileset."Manifesto_of_Madness_455"+=trinket2=manifesto_of_madness,id=174103,ilevel=455
+profileset."Manifesto_of_Madness_470"+=trinket2=manifesto_of_madness,id=174103,ilevel=470
+profileset."Manifesto_of_Madness_485"+=trinket2=manifesto_of_madness,id=174103,ilevel=485
 
 profileset."Vita_Charged_Titanshard_430"+=trinket1=vita_charged_titanshard,id=174500,ilevel=430
-profileset."Vita_Charged_Titanshard_430"+=trinket1=vita_charged_titanshard,id=174500,ilevel=445
-profileset."Vita_Charged_Titanshard_430"+=trinket1=vita_charged_titanshard,id=174500,ilevel=460
-profileset."Vita_Charged_Titanshard_430"+=trinket1=vita_charged_titanshard,id=174500,ilevel=475
+profileset."Vita_Charged_Titanshard_445"+=trinket1=vita_charged_titanshard,id=174500,ilevel=445
+profileset."Vita_Charged_Titanshard_460"+=trinket1=vita_charged_titanshard,id=174500,ilevel=460
+profileset."Vita_Charged_Titanshard_475"+=trinket1=vita_charged_titanshard,id=174500,ilevel=475
 
 
 profileset."Humming_Black_Dragonscale_430"+=trinket1=humming_black_dragonscale,id=174044,ilevel=430
-profileset."Humming_Black_Dragonscale_430"+=trinket1=humming_black_dragonscale,id=174044,ilevel=445
-profileset."Humming_Black_Dragonscale_430"+=trinket1=humming_black_dragonscale,id=174044,ilevel=460
-profileset."Humming_Black_Dragonscale_430"+=trinket1=humming_black_dragonscale,id=174044,ilevel=475
+profileset."Humming_Black_Dragonscale_445"+=trinket1=humming_black_dragonscale,id=174044,ilevel=445
+profileset."Humming_Black_Dragonscale_460"+=trinket1=humming_black_dragonscale,id=174044,ilevel=460
+profileset."Humming_Black_Dragonscale_475"+=trinket1=humming_black_dragonscale,id=174044,ilevel=475
 
 profileset."Psyche_Shredder_430"+=trinket1=psyche_shredder,id=174060,ilevel=430
-profileset."Psyche_Shredder_430"+=trinket1=psyche_shredder,id=174060,ilevel=445
-profileset."Psyche_Shredder_430"+=trinket1=psyche_shredder,id=174060,ilevel=460
+profileset."Psyche_Shredder_445"+=trinket1=psyche_shredder,id=174060,ilevel=445
+profileset."Psyche_Shredder_460"+=trinket1=psyche_shredder,id=174060,ilevel=460
 profileset."Psyche_Shredder_430"+=trinket1=psyche_shredder,id=174060,ilevel=475
 
 profileset."Forbidden_Obsidian_Claw_430"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=430
-profileset."Forbidden_Obsidian_Claw_430"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=445
-profileset."Forbidden_Obsidian_Claw_430"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=460
-profileset."Forbidden_Obsidian_Claw_430"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=475
+profileset."Forbidden_Obsidian_Claw_445"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=445
+profileset."Forbidden_Obsidian_Claw_460"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=460
+profileset."Forbidden_Obsidian_Claw_475"+=trinket1=forbidden_obsidian_claw,id=173944,ilevel=475
