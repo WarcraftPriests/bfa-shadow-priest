@@ -133,11 +133,11 @@ else:
 with open(outputMarkdown, 'w') as resultsMD:
     # Battle for Dazar'alor Composite
     if args.weights:
-        resultsMD.write('# Eternal Palace\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        resultsMD.write('# Ny\'alotha\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
-        resultsMD.write('# Eternal Palace\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
+        resultsMD.write('# Ny\'alotha\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
