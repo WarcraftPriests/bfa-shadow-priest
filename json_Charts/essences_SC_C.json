@@ -1,222 +1,242 @@
 {
 	"data": {
-		"CLF EotFI WR": {
-		},
-		"CLF MoLD WR": {
-		},
-		"CLF CoF WR": {
-		},
-		"CLF BotE WR": {
-		},
-		"CLF EotFI CoF": {
-		},
-		"CLF MoLD CoF": {
-		},
-		"CLF MoLD EotFI": {
-		},
 		"MoLD EotFI WR": {
-		},
-		"CLF CoF BotE": {
-		},
-		"CLF EotFI BotE": {
-		},
-		"CLF MoLD BotE": {
-		},
-		"MoLD CoF WR": {
-		},
-		"CLF PP WR": {
-		},
-		"MoLD BotE WR": {
-		},
-		"MoLD EotFI CoF": {
-		},
-		"MoLD CLF WR": {
-		},
-		"CLF EotFI PP": {
-		},
-		"CLF MoLD PP": {
-		},
-		"CLF PP CoF": {
-		},
-		"MoLD CoF BotE": {
 		},
 		"MoLD EotFI BotE": {
 		},
+		"MoLD EotFI CoF": {
+		},
+		"CLF EotFI WR": {
+		},
+		"CLF MoLD EotFI": {
+		},
+		"MoLD BotE WR": {
+		},
+		"CLF MoLD WR": {
+		},
+		"MoLD CoF WR": {
+		},
 		"MoLD CLF EotFI": {
 		},
-		"CLF PP BotE": {
-		},
-		"MoLD PP WR": {
-		},
-		"MoLD CLF CoF": {
+		"CLF EotFI BotE": {
 		},
 		"MoLD EotFI PP": {
 		},
+		"CLF EotFI CoF": {
+		},
+		"MoLD CoF BotE": {
+		},
+		"CLF MoLD BotE": {
+		},
+		"CLF BotE WR": {
+		},
+		"MoLD CLF WR": {
+		},
+		"CLF MoLD CoF": {
+		},
+		"MoLD PP WR": {
+		},
+		"CLF CoF WR": {
+		},
+		"CLF EotFI PP": {
+		},
 		"MoLD CLF BotE": {
 		},
-		"MoLD PP CoF": {
+		"CLF CoF BotE": {
 		},
 		"MoLD PP BotE": {
 		},
+		"MoLD CLF CoF": {
+		},
+		"CLF MoLD PP": {
+		},
+		"MoLD PP CoF": {
+		},
+		"CLF PP WR": {
+		},
+		"CLF PP BotE": {
+		},
 		"MoLD CLF PP": {
 		},
-		"Guardian of Azeroth": {
-			"rank_3": 44783,
-			"rank_2": 42752,
-			"rank_1": 41959
+		"CLF PP CoF": {
 		},
 		"Focused Azerite Beam": {
-			"rank_3": 44528,
-			"rank_2": 44442,
-			"rank_1": 43635
+			"rank_3": 54772,
+			"rank_2": 54717,
+			"rank_1": 53577
 		},
 		"Memory of Lucid Dreams": {
-			"rank_3": 43996,
-			"rank_2": 42838,
-			"rank_1": 42392
+			"rank_3": 54591,
+			"rank_2": 53304,
+			"rank_1": 52873
 		},
-		"Concentrated Flame": {
-			"rank_3": 43789,
-			"rank_2": 42639,
-			"rank_1": 41656
-		},
-		"Purifying Blast": {
-			"rank_3": 42830,
-			"rank_2": 42563,
-			"rank_1": 42563
-		},
-		"The Unbound Force": {
-			"rank_3": 42556,
-			"rank_2": 41476,
-			"rank_1": 41311
-		},
-		"Ancient Flame": {
-			"rank_3": 42087,
-			"rank_2": 41267,
-			"rank_1": 41041
-		},
-		"Focused Energy": {
-			"rank_3": 42038,
-			"rank_2": 42017,
-			"rank_1": 41412
-		},
-		"Lucid Dreams": {
-			"rank_3": 42018,
-			"rank_2": 40953,
-			"rank_1": 40937
-		},
-		"Strife": {
-			"rank_3": 41899,
-			"rank_2": 41325,
-			"rank_1": 40882
-		},
-		"Conflict": {
-			"rank_3": 41897,
-			"rank_2": 41323,
-			"rank_1": 40878
-		},
-		"Vision of Perfection": {
-			"rank_3": 41795,
-			"rank_2": 41248,
-			"rank_1": 40946
-		},
-		"Blood Soaked": {
-			"rank_3": 41792,
-			"rank_2": 41678,
-			"rank_1": 40918
-		},
-		"Condensed Life Force": {
-			"rank_3": 41767,
-			"rank_2": 41238,
-			"rank_1": 41024
-		},
-		"Lethal Strikes": {
-			"rank_3": 41651,
-			"rank_2": 40979,
-			"rank_1": 40977
+		"Guardian of Azeroth": {
+			"rank_3": 54132,
+			"rank_2": 52218,
+			"rank_1": 51483
 		},
 		"Reaping Flames": {
-			"rank_3": 41647,
-			"rank_2": 40979,
-			"rank_1": 40974
+			"rank_3": 53664,
+			"rank_2": 52374,
+			"rank_1": 51960
 		},
-		"Purification Protocol": {
-			"rank_3": 41497,
-			"rank_2": 41233,
-			"rank_1": 41240
+		"Concentrated Flame": {
+			"rank_3": 53441,
+			"rank_2": 52318,
+			"rank_1": 51288
+		},
+		"Lethal Strikes": {
+			"rank_3": 52877,
+			"rank_2": 51589,
+			"rank_1": 51584
+		},
+		"Focused Energy": {
+			"rank_3": 52636,
+			"rank_2": 52614,
+			"rank_1": 51742
+		},
+		"Purifying Blast": {
+			"rank_3": 52550,
+			"rank_2": 52277,
+			"rank_1": 52278
+		},
+		"The Unbound Force": {
+			"rank_3": 52517,
+			"rank_2": 51332,
+			"rank_1": 51216
+		},
+		"Lucid Dreams": {
+			"rank_3": 52328,
+			"rank_2": 51129,
+			"rank_1": 51127
+		},
+		"Vision of Perfection": {
+			"rank_3": 52124,
+			"rank_2": 51445,
+			"rank_1": 51045
+		},
+		"Conflict": {
+			"rank_3": 52028,
+			"rank_2": 51364,
+			"rank_1": 50852
+		},
+		"Strife": {
+			"rank_3": 52026,
+			"rank_2": 51356,
+			"rank_1": 50853
+		},
+		"Blood Soaked": {
+			"rank_3": 51989,
+			"rank_2": 51861,
+			"rank_1": 50866
+		},
+		"Ancient Flame": {
+			"rank_3": 51876,
+			"rank_2": 51114,
+			"rank_1": 50908
 		},
 		"Reckless Force": {
-			"rank_3": 41467,
-			"rank_2": 41042,
-			"rank_1": 40900
+			"rank_3": 51679,
+			"rank_2": 51150,
+			"rank_1": 50937
+		},
+		"Condensed Life Force": {
+			"rank_3": 51413,
+			"rank_2": 51073,
+			"rank_1": 50852
+		},
+		"Purification Protocol": {
+			"rank_3": 51359,
+			"rank_2": 51098,
+			"rank_1": 51090
 		},
 		"Ripple in Space": {
-			"rank_3": 41257,
-			"rank_2": 41251,
-			"rank_1": 41090
+			"rank_3": 51078,
+			"rank_2": 51065,
+			"rank_1": 50887
 		},
 		"Strive for Perfection": {
-			"rank_3": 40714,
-			"rank_2": 40287,
-			"rank_1": 40290
+			"rank_3": 50745,
+			"rank_2": 50239,
+			"rank_1": 50239
+		},
+		"Unified Strength": {
+			"rank_3": 50041,
+			"rank_2": 50036,
+			"rank_1": 50033
+		},
+		"Moment of Glory": {
+			"rank_3": 50037,
+			"rank_2": 50036,
+			"rank_1": 50041
+		},
+		"Symbiotic Presence": {
+			"rank_3": 50037,
+			"rank_2": 50039,
+			"rank_1": 50036
+		},
+		"Replica of Knowledge": {
+			"rank_3": 50037,
+			"rank_2": 50033,
+			"rank_1": 50031
 		},
 		"Base": {
-			"rank_1": 40176
+			"rank_1": 50034
 		},
 		"Blood of the Enemy 100": {
-			"rank_3": 43966,
-			"rank_2": 43306,
-			"rank_1": 42047
+			"rank_3": 54630,
+			"rank_2": 53850,
+			"rank_1": 52601
 		},
 		"Blood of the Enemy 75": {
-			"rank_3": 43401,
-			"rank_2": 42803,
-			"rank_1": 41702
+			"rank_3": 53923,
+			"rank_2": 53231,
+			"rank_1": 52095
 		},
 		"Blood of the Enemy 50": {
-			"rank_3": 42831,
-			"rank_2": 42314,
-			"rank_1": 41364
+			"rank_3": 53219,
+			"rank_2": 52613,
+			"rank_1": 51587
 		},
 		"Worldvein Resonance 3 Allies":{
-			"rank_3": 42239,
-			"rank_2": 41917,
-			"rank_1": 41281
-		},
-		"Worldvein Resonance 4 Allies":{
-			"rank_3": 42238,
-			"rank_2": 42137,
-			"rank_1": 41509
+			"rank_3": 53218,
+			"rank_2": 53486,
+			"rank_1": 52646
 		},
 		"Worldvein Resonance 2 Allies":{
-			"rank_3": 42066,
-			"rank_2": 41528,
-			"rank_1": 40983
+			"rank_3": 53411,
+			"rank_2": 53307,
+			"rank_1": 52202
 		},
 		"Worldvein Resonance 1 Allies":{
-			"rank_3": 41655,
-			"rank_2": 41177,
-			"rank_1": 40676
+			"rank_3": 53408,
+			"rank_2": 53047,
+			"rank_1": 51697
+		},
+		"Worldvein Resonance 4 Allies":{
+			"rank_3": 53237,
+			"rank_2": 53251,
+			"rank_1": 52951
 		},
 		"Lifeblood 4 Allies":{
-			"rank_3": 42472,
-			"rank_2": 42328,
-			"rank_1": 41780
+			"rank_3": 52413,
+			"rank_2": 52260,
+			"rank_1": 51697
 		},
 		"Lifeblood 3 Allies":{
-			"rank_3": 42438,
-			"rank_2": 42149,
-			"rank_1": 41525
+			"rank_3": 52387,
+			"rank_2": 52085,
+			"rank_1": 51427
 		},
 		"Lifeblood 2 Allies":{
-			"rank_3": 42273,
-			"rank_2": 41669,
-			"rank_1": 41181
+			"rank_3": 52217,
+			"rank_2": 51576,
+			"rank_1": 51079
 		},
 		"Lifeblood 1 Allies":{
-			"rank_3": 41799,
-			"rank_2": 41171,
-			"rank_1": 40845
+			"rank_3": 51727,
+			"rank_2": 51066,
+			"rank_1": 50734
 		}
 	},
 	"spell_ids" : {
@@ -258,35 +278,39 @@
 	],
 	"sorted_data_keys" : [
 		 "Focused Azerite Beam",
-		 "Purifying Blast",
-		 "Memory of Lucid Dreams",
-		 "Blood of the Enemy 100",
-		 "Guardian of Azeroth",
-		 "Lifeblood 4 Allies",
-		 "Blood of the Enemy 75",
-		 "Concentrated Flame",
-		 "Lifeblood 3 Allies",
 		 "Worldvein Resonance 4 Allies",
-		 "Focused Energy",
-		 "Blood of the Enemy 50",
-		 "The Unbound Force",
+		 "Memory of Lucid Dreams",
 		 "Worldvein Resonance 3 Allies",
+		 "Blood of the Enemy 100",
+		 "Purifying Blast",
+		 "Worldvein Resonance 2 Allies",
+		 "Blood of the Enemy 75",
+		 "Reaping Flames",
+		 "Focused Energy",
+		 "Lifeblood 4 Allies",
+		 "Worldvein Resonance 1 Allies",
+		 "Blood of the Enemy 50",
+		 "Lethal Strikes",
+		 "Guardian of Azeroth",
+		 "Lifeblood 3 Allies",
+		 "Concentrated Flame",
+		 "The Unbound Force",
+		 "Lucid Dreams",
 		 "Purification Protocol",
 		 "Lifeblood 2 Allies",
-		 "Ripple in Space",
-		 "Ancient Flame",
-		 "Condensed Life Force",
-		 "Worldvein Resonance 2 Allies",
-		 "Lethal Strikes",
-		 "Reaping Flames",
 		 "Vision of Perfection",
-		 "Lucid Dreams",
-		 "Blood Soaked",
 		 "Reckless Force",
+		 "Ancient Flame",
+		 "Ripple in Space",
+		 "Blood Soaked",
 		 "Strife",
 		 "Conflict",
+		 "Condensed Life Force",
 		 "Lifeblood 1 Allies",
-		 "Worldvein Resonance 1 Allies",
-		 "Strive for Perfection"
+		 "Strive for Perfection",
+		 "Moment of Glory",
+		 "Symbiotic Presence",
+		 "Unified Strength",
+		 "Replica of Knowledge"
 	]
 }
