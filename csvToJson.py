@@ -307,7 +307,7 @@ def addNamesToJson(jsonFile):
         f.write(json.dumps(names, sort_keys=False, indent =2))
 
 def ilvlPerItem(itemName):
-    with open(trinketsSCJson) as f:
+    with open(trinketsASJson) as f:
         ilvlList = list()
         data = json.load(f)
         for x in data:
