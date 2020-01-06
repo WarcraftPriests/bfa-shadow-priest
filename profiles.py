@@ -45,7 +45,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/", "essences/"):
+elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/", "essences/", "corruption/"):
     if args.dir == "gear/":
         category = "gear_combo_mythic"
     else:
