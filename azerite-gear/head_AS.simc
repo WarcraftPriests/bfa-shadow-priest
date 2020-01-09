@@ -157,12 +157,12 @@ profileset."H_445_incubators_bellcap_SD_SA_GR"+=head=incubators_bellcap,id=16833
 
 # Inventor's Ingenious Trifocals - 445, 460, 475
 # Whispers of the Damned + Thought Harvester / Chorus of Insanity + (PCI) / Azerite Globules
-profileset."H_445_incubators_bellcap_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=445,azerite_powers=236/405/462/13
-profileset."H_445_incubators_bellcap_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=445,azerite_powers=166/405/462/13
-profileset."H_460_incubators_bellcap_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=460,azerite_powers=236/405/462/13
-profileset."H_460_incubators_bellcap_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=460,azerite_powers=166/405/462/13
-profileset."H_475_incubators_bellcap_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=475,azerite_powers=236/405/462/13
-profileset."H_475_incubators_bellcap_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=475,azerite_powers=166/405/462/13
+profileset."H_445_inventors_ingenious_trifocals_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=445,azerite_powers=236/405/462/13
+profileset."H_445_inventors_ingenious_trifocals_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=445,azerite_powers=166/405/462/13
+profileset."H_460_inventors_ingenious_trifocals_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=460,azerite_powers=236/405/462/13
+profileset."H_460_inventors_ingenious_trifocals_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=460,azerite_powers=166/405/462/13
+profileset."H_475_inventors_ingenious_trifocals_WotD_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=475,azerite_powers=236/405/462/13
+profileset."H_475_inventors_ingenious_trifocals_TH_CoI_AG"+=head=inventors_ingenious_trifocals,id=169006,ilevel=475,azerite_powers=166/405/462/13
 
 # Cowl of Unspeakable Horrors - 445, 460, 475
 # Chorus of Insanity + Whispers of the Damned / Spiteful Apparitions + Heart of Darkness / Overwhelming Power
