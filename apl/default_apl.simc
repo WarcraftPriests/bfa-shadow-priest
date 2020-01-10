@@ -39,9 +39,10 @@ actions.cds+=/blood_of_the_enemy
 actions.cds+=/guardian_of_azeroth,if=buff.voidform.stack>15
 actions.cds+=/focused_azerite_beam,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
 actions.cds+=/purifying_blast,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
-actions.cds+=/the_unbound_force
+# Wait at least 6s between casting CF. Use the first cast ASAP to get it on CD, then every subsequent cast should be used when Chorus of Insanity is active or it will recharge in the next gcd, or the target is about to die.
 actions.cds+=/concentrated_flame,line_cd=6,if=time<=10|(buff.chorus_of_insanity.stack>=15&buff.voidform.up)|full_recharge_time<gcd|target.time_to_die<5
 actions.cds+=/ripple_in_space
+actions.cds+=/reaping_flames
 actions.cds+=/worldvein_resonance,if=buff.lifeblood.stack<3
 # Use these cooldowns in between your 1st and 2nd Void Bolt in your 2nd Voidform when you have Chorus of Insanity active
 actions.cds+=/call_action_list,name=crit_cds,if=(buff.voidform.up&buff.chorus_of_insanity.stack>20)|azerite.chorus_of_insanity.rank=0
@@ -71,27 +72,4 @@ actions.cleave+=/shadow_word_pain
 
 actions.crit_cds=use_item,name=azsharas_font_of_power
 actions.crit_cds+=/use_item,effect_name=cyclotronic_blast
-
-actions.single=void_eruption
-actions.single+=/dark_ascension,if=buff.voidform.down
-actions.single+=/void_bolt
-actions.single+=/call_action_list,name=cds
-# Use Mind Sear on ST only if you get a Thought Harvester Proc with at least 1 Searing Dialogue Trait.
-actions.single+=/mind_sear,if=buff.harvested_thoughts.up&cooldown.void_bolt.remains>=1.5&azerite.searing_dialogue.rank>=1
-# Use SWD before capping charges, or the target is about to die.
-actions.single+=/shadow_word_death,if=target.time_to_die<3|cooldown.shadow_word_death.charges=2|(cooldown.shadow_word_death.charges=1&cooldown.shadow_word_death.remains<gcd.max)
-actions.single+=/surrender_to_madness,if=buff.voidform.stack>10+(10*buff.bloodlust.up)
-# Use Dark Void on CD unless adds are incoming in 10s or less.
-actions.single+=/dark_void,if=raid_event.adds.in>10
-# Use Mindbender at 19 or more stacks, or if the target will die in less than 15s.
-actions.single+=/mindbender,if=talent.mindbender.enabled|(buff.voidform.stack>18|target.time_to_die<15)
-actions.single+=/shadow_word_death,if=!buff.voidform.up|(cooldown.shadow_word_death.charges=2&buff.voidform.stack<15)
-# Use Shadow Crash on CD unless there are adds incoming.
-actions.single+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
-# Bank the Shadow Word: Void charges for a bit to try and avoid overcapping on Insanity.
-actions.single+=/mind_blast,if=variable.dots_up&((raid_event.movement.in>cast_time+0.5&raid_event.movement.in<4)|!talent.shadow_word_void.enabled|buff.voidform.down|buff.voidform.stack>14&(insanity<70|charges_fractional>1.33)|buff.voidform.stack<=14&(insanity<60|charges_fractional>1.33))
-actions.single+=/void_torrent,if=dot.shadow_word_pain.remains>4&dot.vampiric_touch.remains>4&buff.voidform.up
-actions.single+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&!talent.dark_void.enabled
-actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)
-actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
-actions.single+=/shadow_word_pain
+actions.crit_cds+=/the_unbound_force
