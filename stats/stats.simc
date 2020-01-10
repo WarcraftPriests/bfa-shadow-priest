@@ -6,10 +6,10 @@ talents=0000000
 spec=shadow
 
 default_actions=1
-# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
-azerite_essences=27:3:1/5:3:0/12:3:0
+# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
+azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/582/30/13
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
 shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286

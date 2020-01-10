@@ -6,10 +6,10 @@ talents=3111311
 spec=shadow
 
 default_actions=1
-# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
-azerite_essences=27:3:1/5:3:0/12:3:0
+# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
+azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/582/30/13
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
 shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
@@ -237,10 +237,10 @@ profileset."Void_Twisted_Titanshard_460"+=trinket1=void_twisted_titanshard,id=17
 profileset."Void_Twisted_Titanshard_475"+=trinket1=void_twisted_titanshard,id=174528,ilevel=475
 
 # TODO factor in allies
-profileset."Manifesto_of_Madness_440"+=trinket2=manifesto_of_madness,id=174103,ilevel=440
-profileset."Manifesto_of_Madness_455"+=trinket2=manifesto_of_madness,id=174103,ilevel=455
-profileset."Manifesto_of_Madness_470"+=trinket2=manifesto_of_madness,id=174103,ilevel=470
-profileset."Manifesto_of_Madness_485"+=trinket2=manifesto_of_madness,id=174103,ilevel=485
+profileset."Manifesto_of_Madness_440"+=trinket1=manifesto_of_madness,id=174103,ilevel=440
+profileset."Manifesto_of_Madness_455"+=trinket1=manifesto_of_madness,id=174103,ilevel=455
+profileset."Manifesto_of_Madness_470"+=trinket1=manifesto_of_madness,id=174103,ilevel=470
+profileset."Manifesto_of_Madness_485"+=trinket1=manifesto_of_madness,id=174103,ilevel=485
 
 profileset."Vita_Charged_Titanshard_430"+=trinket1=vita_charged_titanshard,id=174500,ilevel=430
 profileset."Vita_Charged_Titanshard_445"+=trinket1=vita_charged_titanshard,id=174500,ilevel=445

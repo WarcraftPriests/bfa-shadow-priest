@@ -7,7 +7,7 @@ spec=shadow
 
 default_actions=1
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/582/30/13
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
 shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
@@ -43,6 +43,10 @@ profileset."Focused_Azerite_Beam_1"+=azerite_essences=5:1:1
 
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_1"+=azerite_essences=6:1:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_1"+=azerite_essences=6:1:1
+profileset."Purifying_Blast_Aberration_1"+=target_race=aberration
 
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_1"+=azerite_essences=28:1:1
@@ -96,6 +100,10 @@ profileset."Focused_Energy_1"+=azerite_essences=5:1:0
 
 # Purification Protocol
 profileset."Purification_Protocol_1"+=azerite_essences=6:1:0
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Protocol_Aberration_1"+=azerite_essences=6:1:0
+profileset."Purifying_Protocol_Aberration_1"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_1"+=azerite_essences=28:1:0
@@ -154,6 +162,10 @@ profileset."Focused_Azerite_Beam_2"+=azerite_essences=5:2:1
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_2"+=azerite_essences=6:2:1
 
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_2"+=azerite_essences=6:2:1
+profileset."Purifying_Blast_Aberration_2"+=target_race=aberration
+
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_2"+=azerite_essences=28:2:1
 
@@ -206,6 +218,10 @@ profileset."Focused_Energy_2"+=azerite_essences=5:2:0
 
 # Purification Protocol
 profileset."Purification_Protocol_2"+=azerite_essences=6:2:0
+
+# Purification Protocol
+profileset."Purification_Protocol_Aberration_2"+=azerite_essences=6:2:0
+profileset."Purification_Protocol_Aberration_2"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_2"+=azerite_essences=28:2:0
@@ -264,6 +280,10 @@ profileset."Focused_Azerite_Beam_3"+=azerite_essences=5:3:1
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_3"+=azerite_essences=6:3:1
 
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_3"+=azerite_essences=6:3:1
+profileset."Purifying_Blast_Aberration_3"+=target_race=aberration
+
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_3"+=azerite_essences=28:3:1
 
@@ -317,6 +337,10 @@ profileset."Focused_Energy_3"+=azerite_essences=5:3:0
 # Purification Protocol
 profileset."Purification_Protocol_3"+=azerite_essences=6:3:0
 
+# Purification Protocol
+profileset."Purification_Protocol_Aberration_3"+=azerite_essences=6:3:0
+profileset."Purification_Protocol_Aberration_3"+=target_race=aberration
+
 # Reckless Force
 profileset."Reckless_Force_3"+=azerite_essences=28:3:0
 
@@ -354,104 +378,104 @@ profileset."Unified_Strength_3"+=azerite_essences=36:3:0
 ## Replica of Knowledge (37) + Symbiotic Presence
 profileset."Symbiotic_Presence_3"+=azerite_essences=37:3:0
 
-# 3 Essence Combos
+# 4 Essence Combos
 
-## MoLD + CLF + EotFI
-profileset."MoLD_CLF_EotFI"+=azerite_essences=27:3:1/14:3:0/5:3:0
+## MoLD + CLF + EotFI + LS
+profileset."MoLD_CLF_EotFI_LS"+=azerite_essences=27:3:1/14:3:0/5:3:0/35:3:0
 
-## MoLD + CLF + PP
-profileset."MoLD_CLF_PP"+=azerite_essences=27:3:1/14:3:0/6:3:0
+## MoLD + CLF + PP + LS
+profileset."MoLD_CLF_PP_LS_Aberration"+=azerite_essences=27:3:1/14:3:0/6:3:0/35:3:0
+profileset."MoLD_CLF_PP_LS_Aberration"+=target_race=aberration
 
-## MoLD + CLF + CoF
-profileset."MoLD_CLF_CoF"+=azerite_essences=27:3:1/14:3:0/12:3:0
+## MoLD + CLF + CoF + LS
+profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + CLF + BotE
-profileset."MoLD_CLF_BotE"+=azerite_essences=27:3:1/14:3:0/23:3:0
+## MoLD + CLF + BotE + LS
+profileset."MoLD_CLF_BotE_LS"+=azerite_essences=27:3:1/14:3:0/23:3:0/35:3:0
 
-## MoLD + CLF + WR4
-profileset."MoLD_CLF_WR4"+=azerite_essences=27:3:1/14:3:0/4:3:0
-profileset."MoLD_CLF_WR4"+=bfa.worldvein_allies=4
+## MoLD + CLF + CoF + LS
+profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + PP
-profileset."MoLD_EotFI_PP"+=azerite_essences=27:3:1/5:3:0/6:3:0
+## MoLD + EotFI + PP + LS
+profileset."MoLD_EotFI_PP_LS_Aberration"+=azerite_essences=27:3:1/5:3:0/6:3:0/35:3:0
+profileset."MoLD_EotFI_PP_LS_Aberration"+=target_race=aberration
 
-## MoLD + EotFI + CoF
-profileset."MoLD_EotFI_CoF"+=azerite_essences=27:3:1/5:3:0/12:3:0
+## MoLD + EotFI + CoF + LS
+profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + BotE
-profileset."MoLD_EotFI_BotE"+=azerite_essences=27:3:1/5:3:0/23:3:0
+## MoLD + EotFI + BotE + LS
+profileset."MoLD_EotFI_BotE_LS"+=azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-## MoLD + EotFI + WR4
-profileset."MoLD_EotFI_WR4"+=azerite_essences=27:3:1/5:3:0/4:3:0
-profileset."MoLD_EotFI_WR4"+=bfa.worldvein_allies=4
+## MoLD + EotFI + CoF + LS
+profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + PP + CoF
-profileset."MoLD_PP_CoF"+=azerite_essences=27:3:1/6:3:0/12:3:0
+## MoLD + PP + CoF + LS
+profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## MoLD + PP + BotE
-profileset."MoLD_PP_BotE"+=azerite_essences=27:3:1/6:3:0/23:3:0
+## MoLD + PP + BotE + LS
+profileset."MoLD_PP_BotE_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/23:3:0/35:3:0
+profileset."MoLD_PP_BotE_LS_Aberration"+=target_race=aberration
 
-## MoLD + PP + WR4
-profileset."MoLD_PP_WR4"+=azerite_essences=27:3:1/6:3:0/4:3:0
-profileset."MoLD_PP_WR4"+=bfa.worldvein_allies=4
+## MoLD + PP + CoF + LS
+profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## MoLD + CoF + BotE
-profileset."MoLD_CoF_BotE"+=azerite_essences=27:3:1/12:3:0/23:3:0
+## MoLD + CoF + BotE + LS
+profileset."MoLD_CoF_BotE_LS"+=azerite_essences=27:3:1/12:3:0/23:3:0/35:3:0
 
-## MoLD + CoF + WR4
-profileset."MoLD_CoF_WR4"+=azerite_essences=27:3:1/12:3:0/4:3:0
-profileset."MoLD_CoF_WR4"+=bfa.worldvein_allies=4
+## MoLD + CoF + CoF + LS
+profileset."MoLD_CoF_CoF_LS"+=azerite_essences=27:3:1/12:3:0/12:3:0/35:3:0
 
-## MoLD + BotE + WR4
-profileset."MoLD_BotE_WR4"+=azerite_essences=27:3:1/23:3:0/4:3:0
-profileset."MoLD_BotE_WR4"+=bfa.worldvein_allies=4
+## MoLD + BotE + CoF + LS
+profileset."MoLD_BotE_CoF_LS"+=azerite_essences=27:3:1/23:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + EotFI
-profileset."CLF_MoLD_EotFI"+=azerite_essences=14:3:1/27:3:0/5:3:0
+## CLF + MoLD + EotFI + LS
+profileset."CLF_MoLD_EotFI_LS"+=azerite_essences=14:3:1/27:3:0/5:3:0/35:3:0
 
-## CLF + MoLD + PP
-profileset."CLF_MoLD_PP"+=azerite_essences=14:3:1/27:3:0/6:3:0
+## CLF + MoLD + PP + LS
+profileset."CLF_MoLD_PP_LS_Aberration"+=azerite_essences=14:3:1/27:3:0/6:3:0/35:3:0
+profileset."CLF_MoLD_PP_LS_Aberration"+=target_race=aberration
 
-## CLF + MoLD + CoF
-profileset."CLF_MoLD_CoF"+=azerite_essences=14:3:1/27:3:0/12:3:0
+## CLF + MoLD + CoF + LS
+profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + BotE
-profileset."CLF_MoLD_BotE"+=azerite_essences=14:3:1/27:3:0/23:3:0
+## CLF + MoLD + BotE + LS
+profileset."CLF_MoLD_BotE_LS"+=azerite_essences=14:3:1/27:3:0/23:3:0/35:3:0
 
-## CLF + MoLD + WR4
-profileset."CLF_MoLD_WR4"+=azerite_essences=14:3:1/27:3:0/4:3:0
-profileset."CLF_MoLD_WR4"+=bfa.worldvein_allies=4
+## CLF + MoLD + CoF + LS
+profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + PP
-profileset."CLF_EotFI_PP"+=azerite_essences=14:3:1/5:3:0/6:3:0
+## CLF + EotFI + PP + LS
+profileset."CLF_EotFI_PP_LS_Aberration"+=azerite_essences=14:3:1/5:3:0/6:3:0/35:3:0
+profileset."CLF_EotFI_PP_LS_Aberration"+=target_race=aberration
 
-## CLF + EotFI + CoF
-profileset."CLF_EotFI_CoF"+=azerite_essences=14:3:1/5:3:0/12:3:0
+## CLF + EotFI + CoF + LS
+profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + BotE
-profileset."CLF_EotFI_BotE"+=azerite_essences=14:3:1/5:3:0/23:3:0
+## CLF + EotFI + BotE + LS
+profileset."CLF_EotFI_BotE_LS"+=azerite_essences=14:3:1/5:3:0/23:3:0/35:3:0
 
-## CLF + EotFI + WR4
-profileset."CLF_EotFI_WR4"+=azerite_essences=14:3:1/5:3:0/4:3:0
-profileset."CLF_EotFI_WR4"+=bfa.worldvein_allies=4
+## CLF + EotFI + CoF + LS
+profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + PP + CoF
-profileset."CLF_PP_CoF"+=azerite_essences=14:3:1/6:3:0/12:3:0
+## CLF + PP + CoF + LS
+profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## CLF + PP + BotE
-profileset."CLF_PP_BotE"+=azerite_essences=14:3:1/6:3:0/23:3:0
+## CLF + PP + BotE + LS
+profileset."CLF_PP_BotE_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/23:3:0/35:3:0
+profileset."CLF_PP_BotE_LS_Aberration"+=target_race=aberration
 
-## CLF + PP + WR4
-profileset."CLF_PP_WR4"+=azerite_essences=14:3:1/6:3:0/4:3:0
-profileset."CLF_PP_WR4"+=bfa.worldvein_allies=4
+## CLF + PP + CoF + LS
+profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## CLF + CoF + BotE
-profileset."CLF_CoF_BotE"+=azerite_essences=14:3:1/12:3:0/23:3:0
+## CLF + CoF + BotE + LS
+profileset."CLF_CoF_BotE_LS"+=azerite_essences=14:3:1/12:3:0/23:3:0/35:3:0
 
-## CLF + CoF + WR4
-profileset."CLF_CoF_WR4"+=azerite_essences=14:3:1/12:3:0/4:3:0
-profileset."CLF_CoF_WR4"+=bfa.worldvein_allies=4
+## CLF + CoF + CoF + LS
+profileset."CLF_CoF_CoF_LS"+=azerite_essences=14:3:1/12:3:0/12:3:0/35:3:0
 
-## CLF + BotE + WR4
-profileset."CLF_BotE_WR4"+=azerite_essences=14:3:1/23:3:0/4:3:0
-profileset."CLF_BotE_WR4"+=bfa.worldvein_allies=4
+## CLF + BotE + CoF + LS
+profileset."CLF_BotE_CoF_LS"+=azerite_essences=14:3:1/23:3:0/12:3:0/35:3:0

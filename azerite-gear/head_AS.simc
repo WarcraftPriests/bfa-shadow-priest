@@ -6,8 +6,8 @@ talents=3111111
 spec=shadow
 
 default_actions=1
-# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
-azerite_essences=27:3:1/5:3:0/12:3:0
+# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
+azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
 # Head/Shoulders/Chest at 445 ilvl
 head=cowl_of_unspeakable_horrors,id=174116,ilevel=445
@@ -168,16 +168,16 @@ profileset."H_475_inventors_ingenious_trifocals_TH_CoI_AG"+=head=inventors_ingen
 # Chorus of Insanity + Whispers of the Damned / Spiteful Apparitions + Heart of Darkness / Overwhelming Power
 profileset."H_445_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=405/403/30/13
 profileset."H_445_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=236/403/30/13
-profileset."H_445_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=405/582/30/13
-profileset."H_445_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=236/582/30/13
+profileset."H_445_cowl_of_unspeakable_horrors_CoI_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=405/582/30/13
+profileset."H_445_cowl_of_unspeakable_horrors_WotD_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=445,azerite_powers=236/582/30/13
 profileset."H_460_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=405/403/30/13
 profileset."H_460_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=236/403/30/13
-profileset."H_460_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=405/582/30/13
-profileset."H_460_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=236/582/30/13
+profileset."H_460_cowl_of_unspeakable_horrors_CoI_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=405/582/30/13
+profileset."H_460_cowl_of_unspeakable_horrors_WotD_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=460,azerite_powers=236/582/30/13
 profileset."H_475_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/403/30/13
 profileset."H_475_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=236/403/30/13
-profileset."H_475_cowl_of_unspeakable_horrors_CoI_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/582/30/13
-profileset."H_475_cowl_of_unspeakable_horrors_WotD_SA_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=236/582/30/13
+profileset."H_475_cowl_of_unspeakable_horrors_CoI_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/582/30/13
+profileset."H_475_cowl_of_unspeakable_horrors_WotD_HoD_OP"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=236/582/30/13
 
 # Visage of Nightmarish Machinations - 455, 470, 485
 # Spiteful Apparitions + Death Throes / Chorus of Insanity + Heart of Darkness / Gutripper
