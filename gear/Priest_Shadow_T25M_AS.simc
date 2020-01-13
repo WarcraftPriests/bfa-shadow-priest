@@ -34,7 +34,7 @@ chest=robe_of_the_fallen_keeper,id=174115,bonus_id=4824/1517,azerite_powers=236/
 # chest=robes_of_unreality,id=174119,bonus_id=4824/1517,azerite_powers=403/582/18/13
 
 # Wrists
-wrists=void_drenched_wristwraps,id=174122,bonus_id=4824/1517 # crit/haste
+wrists=voiddrenched_wristwraps,id=174122,bonus_id=4824/1517 # crit/haste
 # wrists=cuffs_of_grim_conjuration,id=174129,bonus_id=4824/1517 # mast/haste
 
 # Hands
@@ -43,7 +43,7 @@ hands=emberscale_gloves,id=174125,bonus_id=4824/1517 # haste/crit
 
 # Waist
 # waist=binding_of_dark_heresies,id=174126,bonus_id=4824/1517 # mast/vers
-waist=mana_infused_sash,id=174124,bonus_id=4824/1517 # vers/mast
+waist=manainfused_sash,id=174124,bonus_id=4824/1517 # vers/mast
 
 # Legs
 # legs=corporeal_supplicants_trousers,id=174127,bonus_id=4824/1517 # vers/mast
