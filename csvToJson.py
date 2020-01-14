@@ -191,7 +191,7 @@ essences = {
     'Lifeblood' : 'Worldvein Resonance',
     'Ancient Flame' : 'The Crucible of Flame',
     'Reality Shift' : 'Rippled in Space',
-    'Sybiotic Presence' : 'Formless Void',
+    'Symbiotic Presence' : 'Formless Void',
     'Unified Strength' : 'Spark of Inspiration',
     'Lethal Strikes' : 'Breath of the Dying'
 }
