@@ -102,8 +102,8 @@ profileset."Focused_Energy_1"+=azerite_essences=5:1:0
 profileset."Purification_Protocol_1"+=azerite_essences=6:1:0
 
 ## Purifying Blast (6) + Purification Protocol
-profileset."Purifying_Protocol_Aberration_1"+=azerite_essences=6:1:0
-profileset."Purifying_Protocol_Aberration_1"+=target_race=aberration
+profileset."Purification_Protocol_Aberration_1"+=azerite_essences=6:1:0
+profileset."Purification_Protocol_Aberration_1"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_1"+=azerite_essences=28:1:0

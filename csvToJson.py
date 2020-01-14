@@ -148,6 +148,7 @@ traitList = [
 'Loyal_to_the_End_2_Allies_',
 'Loyal_to_the_End_1_Allies_',
 'Loyal_to_the_End_0_Allies_',
+'Heart_of_Darkness',
 
 #Secondary Traits
 'Azerite_Globules_',
@@ -173,6 +174,9 @@ essences = {
     'Concentrated Flame' : 'The Crucible of Flame',
     'Rippled in Space' : 'Rippled in Space',
     'Worldvein Resonance' : 'Worldvein Resonance',
+    'Replica of Knowledge' : 'Formless Void',
+    'Moment of Glory' : 'Spark of Inspiration',
+    'Reaping Flames' : 'Breath of the Dying',
 
 
     #Minors
@@ -186,7 +190,10 @@ essences = {
     'Strife' : 'Conflict and Strife',
     'Lifeblood' : 'Worldvein Resonance',
     'Ancient Flame' : 'The Crucible of Flame',
-    'Reality Shift' : 'Rippled in Space'
+    'Reality Shift' : 'Rippled in Space',
+    'Sybiotic Presence' : 'Formless Void',
+    'Unified Strength' : 'Spark of Inspiration',
+    'Lethal Strikes' : 'Breath of the Dying'
 }
 
 
@@ -524,6 +531,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Filthy Transfusion ":'+'"273836"'+',\n')
         j.write('\t\t"Glory in Battle ":'+'"280852"'+',\n')
         j.write('\t\t"Gutripper ":'+'"266937"'+',\n')
+        j.write('\t\t"Heart of Darkness ":'+'"317137"'+',\n')
         j.write('\t\t"Heed My Call ":'+'"271681"'+',\n')
         j.write('\t\t"Incite the Pack ":'+'"280410"'+',\n')
         j.write('\t\t"Laser Matrix ":'+'"280702"'+',\n')
@@ -799,6 +807,9 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Conflict" : 303823,\n')
         j.write('\t\t"Concentrated Flame" : 295373,\n')
         j.write('\t\t"Ripple in Space" : 302731,\n')
+        j.write('\t\t"Formless Void" : 313922,\n')
+        j.write('\t\t"Spark of Inspiration" : 311303,\n')
+        j.write('\t\t"Breath of the Dying" : 311195,\n')
 
         #Special Majors
         j.write('\t\t"Blood of the Enemy 100" : 297108,\n')
@@ -808,6 +819,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Worldvein Resonance 3 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 2 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 1 Allies" : 295186,\n')
+
 
         #Minors
         j.write('\t\t"Blood-Soaked" : 297147,\n')
@@ -820,6 +832,9 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Strife" : 304081,\n')
         j.write('\t\t"Ancient Flame" : 295365,\n')
         j.write('\t\t"Reality Shift" : 302916,\n')
+        j.write('\t\t"Symbiotic Presence" : 313920,\n')
+        j.write('\t\t"Unified Strength" : 311306,\n')
+        j.write('\t\t"Lethal Strikes" : 311198,\n')
 
         #Special Minors
         j.write('\t\t"Lifeblood 4 Allies" : 295078,\n')

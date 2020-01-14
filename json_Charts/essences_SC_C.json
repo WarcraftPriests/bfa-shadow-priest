@@ -126,6 +126,7 @@
 		"Purification Protocol Aberration": {
 			"rank_3": 55739,
 			"rank_2": 55339,
+			"rank_1": 55348
 		},
 		"Ancient Flame": {
 			"rank_3": 55645,
@@ -136,9 +137,6 @@
 			"rank_3": 55635,
 			"rank_2": 55021,
 			"rank_1": 54779
-		},
-		"Purifying Protocol Aberration": {
-			"rank_1": 55348
 		},
 		"Condensed Life Force": {
 			"rank_3": 55162,
@@ -249,6 +247,9 @@
 		"Conflict" : 303823,
 		"Concentrated Flame" : 295373,
 		"Ripple in Space" : 302731,
+		"Formless Void" : 313922,
+		"Spark of Inspiration" : 311303,
+		"Breath of the Dying" : 311195,
 		"Blood of the Enemy 100" : 297108,
 		"Blood of the Enemy 75" : 297108,
 		"Blood of the Enemy 50" : 297108,
@@ -266,6 +267,9 @@
 		"Strife" : 304081,
 		"Ancient Flame" : 295365,
 		"Reality Shift" : 302916,
+		"Symbiotic Presence" : 313920,
+		"Unified Strength" : 311306,
+		"Lethal Strikes" : 311198,
 		"Lifeblood 4 Allies" : 295078,
 		"Lifeblood 3 Allies" : 295078,
 		"Lifeblood 2 Allies" : 295078,
@@ -291,7 +295,7 @@
 		 "Blood of the Enemy 50",
 		 "Lifeblood 4 Allies",
 		 "Worldvein Resonance 1 Allies",
-		 "Purifying Protocol Aberration",
+		 "Purification Protocol Aberration",
 		 "Lethal Strikes",
 		 "Guardian of Azeroth",
 		 "Lifeblood 3 Allies",

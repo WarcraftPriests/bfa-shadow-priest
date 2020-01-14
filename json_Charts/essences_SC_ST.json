@@ -126,6 +126,7 @@
 		"Purification Protocol Aberration": {
 			"rank_3": 49789,
 			"rank_2": 49519,
+			"rank_1": 49517
 		},
 		"Ancient Flame": {
 			"rank_3": 50413,
@@ -136,9 +137,6 @@
 			"rank_3": 50073,
 			"rank_2": 49538,
 			"rank_1": 49327
-		},
-		"Purifying Protocol Aberration": {
-			"rank_1": 49517
 		},
 		"Condensed Life Force": {
 			"rank_3": 49916,
@@ -249,6 +247,9 @@
 		"Conflict" : 303823,
 		"Concentrated Flame" : 295373,
 		"Ripple in Space" : 302731,
+		"Formless Void" : 313922,
+		"Spark of Inspiration" : 311303,
+		"Breath of the Dying" : 311195,
 		"Blood of the Enemy 100" : 297108,
 		"Blood of the Enemy 75" : 297108,
 		"Blood of the Enemy 50" : 297108,
@@ -266,6 +267,9 @@
 		"Strife" : 304081,
 		"Ancient Flame" : 295365,
 		"Reality Shift" : 302916,
+		"Symbiotic Presence" : 313920,
+		"Unified Strength" : 311306,
+		"Lethal Strikes" : 311198,
 		"Lifeblood 4 Allies" : 295078,
 		"Lifeblood 3 Allies" : 295078,
 		"Lifeblood 2 Allies" : 295078,
@@ -297,7 +301,7 @@
 		 "The Unbound Force",
 		 "Lifeblood 3 Allies",
 		 "Lucid Dreams",
-		 "Purifying Protocol Aberration",
+		 "Purification Protocol Aberration",
 		 "Lifeblood 2 Allies",
 		 "Vision of Perfection",
 		 "Ancient Flame",
