@@ -1,73 +1,79 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 61194
+			"DPS" : 73997
 		},
 		"Night Elf Haste": {
-			"DPS" : 60986
-		},
-		"Panda": {
-			"DPS" : 60972
+			"DPS" : 73653
 		},
 		"Gnome": {
-			"DPS" : 60967
+			"DPS" : 73644
+		},
+		"Panda": {
+			"DPS" : 73635
 		},
 		"Goblin": {
-			"DPS" : 60956
+			"DPS" : 73635
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 60836
-		},
-		"Troll": {
-			"DPS" : 60815
+			"DPS" : 73531
 		},
 		"Dwarf": {
-			"DPS" : 60798
+			"DPS" : 73418
 		},
 		"Tauren": {
-			"DPS" : 60794
+			"DPS" : 73417
+		},
+		"Troll": {
+			"DPS" : 73400
 		},
 		"Night Elf Crit": {
-			"DPS" : 60747
-		},
-		"Void Elf": {
-			"DPS" : 60728
-		},
-		"Nightborne": {
-			"DPS" : 60710
+			"DPS" : 73396
 		},
 		"Blood Elf": {
-			"DPS" : 60709
+			"DPS" : 73375
 		},
 		"Worgen": {
-			"DPS" : 60704
+			"DPS" : 73354
+		},
+		"Void Elf": {
+			"DPS" : 73311
+		},
+		"Nightborne": {
+			"DPS" : 73295
 		},
 		"Kul Tiran": {
-			"DPS" : 60657
-		},
-		"Lightforged Draenei": {
-			"DPS" : 60629
+			"DPS" : 73225
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 60554
+			"DPS" : 73112
+		},
+		"Lightforged Draenei": {
+			"DPS" : 73111
 		},
 		"Undead": {
-			"DPS" : 60539
-		},
-		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 60499
+			"DPS" : 73095
 		},
 		"Maghar Orc": {
-			"DPS" : 60486
+			"DPS" : 73042
+		},
+		"Zandalari Troll Bwonsamdi": {
+			"DPS" : 73002
 		},
 		"Draenei": {
-			"DPS" : 60360
+			"DPS" : 72838
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 60225
+			"DPS" : 72697
+		},
+		"Vulpera": {
+			"DPS" : 72589
+		},
+		"Mechagnome": {
+			"DPS" : 72575
 		},
 		"Base": {
-			"DPS" : 60109
+			"DPS" : 72569
 		}
 	},
 	"simulated_steps" : [
@@ -76,24 +82,26 @@
 	"sorted_data_keys":[
 		 "Human",
 		 "Night Elf Haste",
-		 "Panda",
 		 "Gnome",
+		 "Panda",
 		 "Goblin",
 		 "Zandalari Troll Paku",
-		 "Troll",
 		 "Dwarf",
 		 "Tauren",
+		 "Troll",
 		 "Night Elf Crit",
-		 "Void Elf",
-		 "Nightborne",
 		 "Blood Elf",
 		 "Worgen",
+		 "Void Elf",
+		 "Nightborne",
 		 "Kul Tiran",
-		 "Lightforged Draenei",
 		 "Zandalari Troll Kimbul",
+		 "Lightforged Draenei",
 		 "Undead",
-		 "Zandalari Troll Bwonsamdi",
 		 "Maghar Orc",
+		 "Zandalari Troll Bwonsamdi",
 		 "Draenei",
-		 "Dark Iron Dwarf"
+		 "Dark Iron Dwarf",
+		 "Vulpera",
+		 "Mechagnome"
 	]}

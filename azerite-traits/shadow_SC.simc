@@ -256,6 +256,18 @@ profileset."Spiteful_Apparitions_3_Chorus_of_Insanity_3_combo_6"+=head=cowl_of_u
 profileset."Spiteful_Apparitions_3_Chorus_of_Insanity_3_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=403/405
 profileset."Spiteful_Apparitions_3_Chorus_of_Insanity_3_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=403/405
 
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_3_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/582
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_3_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=405/582
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_3_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=405/582
+
+profileset."Spiteful_Apparitions_3_Heart_of_Darkness_3_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=403/582
+profileset."Spiteful_Apparitions_3_Heart_of_Darkness_3_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=403/582
+profileset."Spiteful_Apparitions_3_Heart_of_Darkness_3_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=403/582
+
+profileset."Whispers_of_the_Damned_3_Heart_of_Darkness_3_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=236/582
+profileset."Whispers_of_the_Damned_3_Heart_of_Darkness_3_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=236/582
+profileset."Whispers_of_the_Damned_3_Heart_of_Darkness_3_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=236/582
+
 # 3 + 2 + 1
 profileset."Chorus_of_Insanity_3_Spiteful_Apparitions_2_Whispers_of_the_Damned_1_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/403
 profileset."Chorus_of_Insanity_3_Spiteful_Apparitions_2_Whispers_of_the_Damned_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=405/403
@@ -277,6 +289,10 @@ profileset."Searing_Dialogue_3_Chorus_of_Insanity_2_Thought_Harvester_1_combo_6"
 profileset."Searing_Dialogue_3_Chorus_of_Insanity_2_Thought_Harvester_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=115/405
 profileset."Searing_Dialogue_3_Chorus_of_Insanity_2_Thought_Harvester_1_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=115/166
 
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_2_Whispers_of_the_Damned_1_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/582
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_2_Whispers_of_the_Damned_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=405/582
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_2_Whispers_of_the_Damned_1_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=405/236
+
 # 3 + 1 + 1 + 1
 profileset."Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=115/166
 profileset."Searing_Dialogue_3_Chorus_of_Insanity_1_Thought_Harvester_1_Whispers_of_the_Damned_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=115/405
@@ -297,3 +313,7 @@ profileset."Searing_Dialogue_3_Spiteful_Apparitions_1_Thought_Harvester_1_Whispe
 profileset."Searing_Dialogue_3_Death_Throes_1_Thought_Harvester_1_Barrage_of_Many_Bombs_1_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=115/404
 profileset."Searing_Dialogue_3_Death_Throes_1_Thought_Harvester_1_Barrage_of_Many_Bombs_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=115/498
 profileset."Searing_Dialogue_3_Death_Throes_1_Thought_Harvester_1_Barrage_of_Many_Bombs_1_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=115/166
+
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_1_Spiteful_Apparitions_1_Whispers_of_the_Damned_1_combo_6"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=405/582
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_1_Spiteful_Apparitions_1_Whispers_of_the_Damned_1_combo_6"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=405/403
+profileset."Chorus_of_Insanity_3_Heart_of_Darkness_1_Spiteful_Apparitions_1_Whispers_of_the_Damned_1_combo_6"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=405/236

@@ -50,3 +50,6 @@ profileset."Neural_Synapse_Enhancer_475"+=main_hand=neural_synapse_enhancer,id=1
 profileset."Neural_Synapse_Enhancer_475"+=off_hand=
 
 profileset."Hyperthread_Wristwraps_475"+=wrists=hyperthread_wristwraps,id=168989,ilevel=475
+
+profileset."Titanshard__Trinket_Set_475"+=trinket1=vita_charged_titanshard,id=174500,ilevel=475
+profileset."Titanshard__Trinket_Set_475"+=trinket2=void_twisted_titanshard,id=174528,ilevel=475
