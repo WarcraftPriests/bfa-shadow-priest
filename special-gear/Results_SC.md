@@ -9,7 +9,7 @@
 |Seabreeze_475|70991|-0.46%|
 |Neural_Synapse_Enhancer_475|70172|-1.61%|
 |Hyperthread_Wristwraps_475|69953|-1.92%|
-|Titanshard__Trinket_Set_475|66572|-6.66%|
+|Titanshard_Trinket_Set_475|66572|-6.66%|
 
 # Single Target
 | Actor | DPS | Increase |
@@ -22,4 +22,4 @@
 |Seabreeze_475|64037|-0.42%|
 |Neural_Synapse_Enhancer_475|63381|-1.44%|
 |Hyperthread_Wristwraps_475|63039|-1.97%|
-|Titanshard__Trinket_Set_475|58849|-8.49%|
+|Titanshard_Trinket_Set_475|58849|-8.49%|
