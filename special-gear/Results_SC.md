@@ -1,25 +1,25 @@
 # Ny'alotha
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Logic_Loop_of_Division_Overclocking_Bit_Band_475|73591|3.18%|
-|Logic_Loop_of_Recursion_Overclocking_Bit_Band_475|73407|2.92%|
-|Logic_Loop_of_Division_Shorting_Bit_Band_475|72524|1.68%|
-|Logic_Loop_of_Recursion_Shorting_Bit_Band_475|72461|1.60%|
-|Base|71323|0.00%|
-|Seabreeze_475|70991|-0.46%|
-|Neural_Synapse_Enhancer_475|70172|-1.61%|
-|Hyperthread_Wristwraps_475|69953|-1.92%|
-|Titanshard_Trinket_Set_475|66572|-6.66%|
+|Logic_Loop_of_Division_Overclocking_Bit_Band_475|73599|3.17%|
+|Logic_Loop_of_Recursion_Overclocking_Bit_Band_475|73393|2.88%|
+|Logic_Loop_of_Division_Shorting_Bit_Band_475|72536|1.68%|
+|Logic_Loop_of_Recursion_Shorting_Bit_Band_475|72427|1.53%|
+|Base|71335|0.00%|
+|Seabreeze_475|70980|-0.50%|
+|Neural_Synapse_Enhancer_475|70193|-1.60%|
+|Hyperthread_Wristwraps_475|69955|-1.93%|
+|Titanshard_Trinket_Set_475|66593|-6.65%|
 
 # Single Target
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Logic_Loop_of_Division_Overclocking_Bit_Band_475|66303|3.11%|
-|Logic_Loop_of_Recursion_Overclocking_Bit_Band_475|66177|2.91%|
-|Logic_Loop_of_Division_Shorting_Bit_Band_475|65444|1.77%|
-|Logic_Loop_of_Recursion_Shorting_Bit_Band_475|65377|1.67%|
-|Base|64306|0.00%|
-|Seabreeze_475|64037|-0.42%|
-|Neural_Synapse_Enhancer_475|63381|-1.44%|
-|Hyperthread_Wristwraps_475|63039|-1.97%|
-|Titanshard_Trinket_Set_475|58849|-8.49%|
+|Logic_Loop_of_Division_Overclocking_Bit_Band_475|66279|3.06%|
+|Logic_Loop_of_Recursion_Overclocking_Bit_Band_475|66142|2.85%|
+|Logic_Loop_of_Division_Shorting_Bit_Band_475|65453|1.78%|
+|Logic_Loop_of_Recursion_Shorting_Bit_Band_475|65336|1.60%|
+|Base|64310|0.00%|
+|Seabreeze_475|63994|-0.49%|
+|Neural_Synapse_Enhancer_475|63397|-1.42%|
+|Hyperthread_Wristwraps_475|63047|-1.96%|
+|Titanshard_Trinket_Set_475|58875|-8.45%|
