@@ -1,9 +1,10 @@
 {
 	"data": {
 		"Psyche Shredder": {
-			"430": 56634,
+			"475": 58766,
 			"460": 57959,
-			"445": 57294
+			"445": 57294,
+			"430": 56634
 		},
 		"Vessel of Skittering Shadows": {
 			"475": 58084,
@@ -953,6 +954,7 @@
 		355
 	],
 	"sorted_data_keys": [
+		"Psyche Shredder",
 		"Vessel of Skittering Shadows",
 		"Hadals Nautilus",
 		"Lady Waycrests Music Box",
@@ -1000,7 +1002,6 @@
 		"Ascended Alchemist Stone",
 		"Tzanes Barkspines",
 		"Pearl Divers Compass",
-		"Psyche Shredder",
 		"Azurethos Singed Plumage",
 		"Vial of Storms",
 		"Living Oil Cannister",
@@ -1016,26 +1017,7 @@
 		"PSCD Harmonic Dematerializer Performant Effective",
 		"PSCD Cyclotronic Blast Performant Effective",
 		"PSCD Cyclotronic Blast Performant Adaptable",
-		"PSCD Cyclotronic Blast Forceful Efficient",
-		"PSCD Harmonic Dematerializer Performant Adaptable",
-		"PSCD Harmonic Dematerializer Forceful Efficient",
-		"PSCD Cyclotronic Blast Performant Refined",
-		"PSCD Subroutine Optimization Forceful Efficient",
-		"PSCD Harmonic Dematerializer Performant Refined",
-		"Self Accelerating Drive Shaft",
-		"Whirlwings Plumage",
-		"Abyssal Alchemist Stone",
-		"PSCD Subroutine Optimization Performant Effective",
-		"Void Twisted Titanshard",
-		"Ancient Knot of Wisdom",
-		"Eternal Alchemist Stone",
-		"Vanquished Tendril of Ghuun",
-		"Ravasaur Skull Bijou",
-		"Crawg Gnawed Femur",
-		"PSCD Subroutine Optimization Performant Adaptable",
-		"Chargestone of the Thunder Kings Court",
-		"PSCD Subroutine Optimization Performant Refined",
-		"Darkmoon Deck Squalls"
+		"PSCD Cyclotronic Blast Forceful Efficient"
 	],
 	"LastUpdated": [
 		"2020/1/14"

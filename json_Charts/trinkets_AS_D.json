@@ -1,9 +1,10 @@
 {
 	"data": {
 		"Psyche Shredder": {
-			"430": 55705,
+			"475": 57896,
 			"460": 57063,
-			"445": 56371
+			"445": 56371,
+			"430": 55705
 		},
 		"Vessel of Skittering Shadows": {
 			"475": 57159,
@@ -962,6 +963,7 @@
 		355
 	],
 	"sorted_data_keys": [
+		"Psyche Shredder",
 		"Vessel of Skittering Shadows",
 		"Lady Waycrests Music Box",
 		"Hadals Nautilus",
@@ -992,8 +994,8 @@
 		"Kajafied Banana",
 		"Doom Shroom",
 		"Oxidized Refuse Power",
-		"Vigilants Bloodshaper",
 		"Incessantly Ticking Clock",
+		"Vigilants Bloodshaper",
 		"Leyshocks Grand Compilation",
 		"Twitching Tentacle of Xalzaix",
 		"Dinobone Charm",
@@ -1017,37 +1019,17 @@
 		"PSCD Subroutine Optimization Forceful Efficient",
 		"PSCD Cyclotronic Blast Performant Effective",
 		"Plunderbeards Flask",
-		"Psyche Shredder",
 		"Living Oil Cannister",
 		"Moonstone of Zin Azshari",
 		"Vial of Storms",
-		"PSCD Harmonic Dematerializer Performant Effective",
 		"PSCD Harmonic Dematerializer Forceful Efficient",
+		"PSCD Harmonic Dematerializer Performant Effective",
 		"PSCD Subroutine Optimization Performant Effective",
 		"PSCD Cyclotronic Blast Forceful Efficient",
 		"Berserkers Juju",
 		"PSCD Harmonic Dematerializer Performant Adaptable",
 		"Enthrallers Bindstone",
-		"PSCD Cyclotronic Blast Performant Adaptable",
-		"PSCD Cyclotronic Blast Performant Refined",
-		"Drust Runed Icicle",
-		"Azsharas Font of Power",
-		"Snowpelt Mangler",
-		"PSCD Harmonic Dematerializer Performant Refined",
-		"Crushing Alchemist Stone",
-		"Whirlwings Plumage",
-		"Self Accelerating Drive Shaft",
-		"Void Twisted Titanshard",
-		"Abyssal Alchemist Stone",
-		"Ancient Knot of Wisdom",
-		"Eternal Alchemist Stone",
-		"Vanquished Tendril of Ghuun",
-		"Crawg Gnawed Femur",
-		"Ravasaur Skull Bijou",
-		"PSCD Subroutine Optimization Performant Adaptable",
-		"Chargestone of the Thunder Kings Court",
-		"PSCD Subroutine Optimization Performant Refined",
-		"Darkmoon Deck Squalls"
+		"PSCD Cyclotronic Blast Performant Adaptable"
 	],
 	"LastUpdated": [
 		"2020/1/14"

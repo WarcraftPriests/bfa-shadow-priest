@@ -1,9 +1,10 @@
 {
 	"data": {
 		"Psyche Shredder": {
-			"430": 52639,
+			"475": 54883,
 			"460": 54045,
-			"445": 53319
+			"445": 53319,
+			"430": 52639
 		},
 		"Harbingers Inscrutable Will": {
 			"455": 54209,
@@ -953,6 +954,7 @@
 		355
 	],
 	"sorted_data_keys": [
+		"Psyche Shredder",
 		"Harbingers Inscrutable Will",
 		"Lady Waycrests Music Box",
 		"Forbidden Obsidian Claw",
@@ -978,8 +980,8 @@
 		"PSCD Subroutine Overclock Performant Effective",
 		"Kajafied Banana",
 		"PSCD Harmonic Dematerializer Performant Adaptable",
-		"PSCD Subroutine Overclock Performant Refined",
 		"PSCD Harmonic Dematerializer Performant Refined",
+		"PSCD Subroutine Overclock Performant Refined",
 		"PSCD Subroutine Overclock Performant Adaptable",
 		"Vigilants Bloodshaper",
 		"Ignition Mages Fuse",
@@ -1003,7 +1005,6 @@
 		"Azurethos Singed Plumage",
 		"Shockbiters Fang",
 		"Sea Giants Tidestone",
-		"Psyche Shredder",
 		"First Mates Spyglass",
 		"Tzanes Barkspines",
 		"Lions Grace",
@@ -1016,26 +1017,7 @@
 		"Ascended Alchemist Stone",
 		"Drust Runed Icicle",
 		"Balefire Branch",
-		"Berserkers Juju",
-		"Snowpelt Mangler",
-		"Pearl Divers Compass",
-		"Enthrallers Bindstone",
-		"Self Accelerating Drive Shaft",
-		"Crushing Alchemist Stone",
-		"Whirlwings Plumage",
-		"PSCD Subroutine Optimization Performant Effective",
-		"PSCD Subroutine Optimization Forceful Efficient",
-		"Abyssal Alchemist Stone",
-		"Ancient Knot of Wisdom",
-		"Void Twisted Titanshard",
-		"Eternal Alchemist Stone",
-		"Vanquished Tendril of Ghuun",
-		"Ravasaur Skull Bijou",
-		"Crawg Gnawed Femur",
-		"PSCD Subroutine Optimization Performant Refined",
-		"PSCD Subroutine Optimization Performant Adaptable",
-		"Chargestone of the Thunder Kings Court",
-		"Darkmoon Deck Squalls"
+		"Berserkers Juju"
 	],
 	"LastUpdated": [
 		"2020/1/14"
