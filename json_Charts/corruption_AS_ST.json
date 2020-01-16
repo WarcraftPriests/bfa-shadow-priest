@@ -121,6 +121,31 @@
 			"3_tier": 0
 		}
 	},
+	"spell_ids" : {
+		"Echoing_Void" : 318486,
+		"Infinite_Star" : 318488,
+		"Gushing_Wound" : 318179,
+		"Twilight_Devastation" : 318478,
+		"Searing_Flames" : 316698,
+		"Ineffable_Truth" : 318484,
+		"Void_Ritual" : 318480,
+		"Lash_of_the_Void" : 317290,
+		"Flash_of_Insight" : 316717,
+		"Whispered_Truths" : 316780,
+		"Obsidian_Skin" : 316651,
+		"Devoir_Vitality" : 318294,
+		"Twisted_Appendage" : 318483,
+		"Percent_Haste" : 315546,
+		"Percent_Crit" : 315531,
+		"Percent_Vers" : 315558,
+		"Percent_Mast" : 315553,
+		"Crit_DMG" : 315282,
+		"Glimpse_of_Clarity" : 315573,
+		"Haste_Proc" : 318496,
+		"Mastery_Proc" : 318498,
+		"Crit_Proc" : 318497,
+		"Versatility_Proc" : 318499
+	},
 	"simulated_steps": [
 		"1_tier",
 		"2_tier",
