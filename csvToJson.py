@@ -1057,9 +1057,16 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
         DPSSort = dict()
         for u in uniqueList:
             for x in data:
-                if x['profile'] == simType and x['actor'] == str(u+'1'):
+                if x['profile'] == simType:
+                    totalDPS = 0
+                    if x['actor'] == str(u+'1'):
+                        totalDPS += int(x["DPS"])
+                    if x['actor'] == str(u+'2'):
+                        totalDPS += int(x["DPS"])
+                    if x['actor'] == str(u+'3'):
+                        totalDPS += int(x["DPS"])
                     u = u.replace('_'," ").rstrip()
-                    DPSSort.update({u : x['DPS']})
+                    DPSSort.update({u : totalDPS})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
