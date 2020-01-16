@@ -1,0 +1,154 @@
+{
+	"data": {
+		"Echoing Void": {
+			"1_tier": 78196,
+			"2_tier": 80796,
+			"3_tier": 86027
+		},
+		"Infinite Star": {
+			"1_tier": 75506,
+			"2_tier": 79760,
+			"3_tier": 83283
+		},
+		"Twilight Devastation": {
+			"1_tier": 74403,
+			"2_tier": 76113,
+			"3_tier": 77797
+		},
+		"Haste Proc": {
+			"1_tier": 74263,
+			"2_tier": 74816,
+			"3_tier": 76284
+		},
+		"Percent Crit": {
+			"1_tier": 74190,
+			"2_tier": 74920,
+			"3_tier": 75688
+		},
+		"Void Ritual": {
+			"1_tier": 73224,
+			"2_tier": 74071,
+			"3_tier": 75373
+		},
+		"Gushing Wound": {
+			"1_tier": 75367,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Percent Haste": {
+			"1_tier": 74035,
+			"2_tier": 74788,
+			"3_tier": 75319
+		},
+		"Mastery Proc": {
+			"1_tier": 73740,
+			"2_tier": 74065,
+			"3_tier": 75163
+		},
+		"Crit DMG": {
+			"1_tier": 73557,
+			"2_tier": 74055,
+			"3_tier": 74443
+		},
+		"Crit Proc": {
+			"1_tier": 73312,
+			"2_tier": 73501,
+			"3_tier": 74154
+		},
+		"Searing Flames": {
+			"1_tier": 73848,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Percent Vers": {
+			"1_tier": 73037,
+			"2_tier": 73212,
+			"3_tier": 73512
+		},
+		"Percent Mast": {
+			"1_tier": 72952,
+			"2_tier": 73152,
+			"3_tier": 73280
+		},
+		"Ineffable Truth": {
+			"1_tier": 72836,
+			"2_tier": 73238,
+			"3_tier": 0
+		},
+		"Lash of the Void": {
+			"1_tier": 73180,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Glimpse of Clarity": {
+			"1_tier": 73102,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Devoir Vitality": {
+			"1_tier": 72725,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Twisted Appendage": {
+			"1_tier": 72670,
+			"2_tier": 72707,
+			"3_tier": 72720
+		},
+		"Versatility Proc": {
+			"1_tier": 72674,
+			"2_tier": 72702,
+			"3_tier": 72642
+		},
+		"Obsidian Skin": {
+			"1_tier": 72683,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Whispered Truths": {
+			"1_tier": 72654,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Flash of Insight": {
+			"1_tier": 72637,
+			"2_tier": 0,
+			"3_tier": 0
+		},
+		"Base": {
+			"1_tier": 72685,
+			"2_tier": 0,
+			"3_tier": 0
+		}
+	},
+	"simulated_steps": [
+		"1_tier",
+		"2_tier",
+		"3_tier"
+	],
+	"sorted_data_keys": [
+		 "Echoing Void",
+		 "Infinite Star",
+		 "Gushing Wound",
+		 "Twilight Devastation",
+		 "Haste Proc",
+		 "Percent Crit",
+		 "Percent Haste",
+		 "Searing Flames",
+		 "Mastery Proc",
+		 "Crit DMG",
+		 "Crit Proc",
+		 "Void Ritual",
+		 "Lash of the Void",
+		 "Glimpse of Clarity",
+		 "Percent Vers",
+		 "Percent Mast",
+		 "Ineffable Truth",
+		 "Devoir Vitality",
+		 "Obsidian Skin",
+		 "Versatility Proc",
+		 "Twisted Appendage",
+		 "Whispered Truths",
+		 "Flash of Insight"
+	]
+}

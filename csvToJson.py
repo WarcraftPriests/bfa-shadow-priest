@@ -48,6 +48,12 @@ consumablesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/
 consumablesSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_SC.csv'))
 consumablesSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_Dungeons_SC.csv'))
 
+#Corruption
+corruptionAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS.csv'))
+corruptionASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_Dungeons_AS.csv'))
+corruptionSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC.csv'))
+corruptionSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_Dungeons_SC.csv'))
+
 #JSON Files
 #Trinkets
 trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
@@ -59,6 +65,11 @@ traitsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits
 traitsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS.json'))
 traitsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC_D.json'))
 traitsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS_D.json'))
+#Corruption
+corruptionSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC.json'))
+corruptionASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS.json'))
+corruptionSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC_D.json'))
+corruptionASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS_D.json'))
 #Essences
 essencesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC.json'))
 essencesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.json'))
@@ -221,6 +232,11 @@ parseCSV(traitsSC,traitsSCJson)
 parseCSV(traitsAS,traitsASJson)
 parseCSV(traitsSCD,traitsSCJsonD)
 parseCSV(traitsASD,traitsASJsonD)
+
+parseCSV(corruptionSC,corruptionSCJson)
+parseCSV(corruptionAS,corruptionASJson)
+parseCSV(corruptionSCD,corruptionSCJsonD)
+parseCSV(corruptionASD,corruptionASJsonD)
 
 parseCSV(essencesAS,essencesASJson)
 parseCSV(essencesSC,essencesSCJson)
@@ -891,6 +907,155 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t]\n')
         j.write('}')
 
+
+def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
+    
+    '''
+    injsonFile - The original CSV data converted to a raw unformatted JSON
+    outjsonFile - The newly formatted JSON
+    simType - Composite, Single Target, Dungeons
+    '''
+    #trinketnames = getNames(injsonFile) #Get all the trinket names from the inputted JSON file
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        '''
+    injsonFile - The original CSV data converted to a raw unformatted JSON
+    outjsonFile - The newly formatted JSON
+    simType - Composite, Single Target, Dungeons
+    '''
+
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        if "Base" in uniqueList: uniqueList.remove("Base")
+        if "Int_" in uniqueList: uniqueList.remove("Int_")
+        j.write('\t"data": {\n')
+        ucntMax = len(uniqueList)
+        #print(ucntMax)
+        ucnt = 0
+        for u in uniqueList:
+            ucnt+=1
+            corruptionSteps = ['1','2','3'] #Should always be 1-3 unless they add extra corruption tiers
+            if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
+                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            maxCnt = 3
+            cnt = 0
+            for y in corruptionSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == str(u+y) and 'base' not in x['actor'].lower():
+                            if x['actor'] == ("Gushing_Wound_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Ineffable_Truth_" + y):
+                                #Hack fix because fuck this corruption
+                                written = False
+                                if y == str(1):
+                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
+                                if y == str(2):
+                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
+                                    written = True
+                                if written:
+                                    j.write('\t\t\t"3_tier": 0\n')
+                            elif "Ineffable_Truth" in x['actor'] and y == str(3):
+                                print("YES")
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Glimpse_of_Clarity_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Lash_of_the_Void_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Flash_of_Insight_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Obsidian_Skin_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Devoir_Vitality_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Searing_Flames_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Whispered_Truths_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            else:
+                                if cnt < maxCnt:
+                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+',\n')
+                                else:
+                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+'\n')
+            if ucnt < ucntMax:
+                if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
+                    j.write('\t\t},\n')
+            if ucnt == ucntMax:
+                j.write('\t\t},')
+                for x in data:
+                    if x['profile'] == simType and x['actor'] == 'Base':
+                        j.write('\n\t\t"Base": {\n')
+                        j.write('\t\t\t"1_tier": '+x['DPS']+',\n')
+                        j.write('\t\t\t"2_tier": 0,\n')
+                        j.write('\t\t\t"3_tier": 0\n') #Have to add empty stacks here because highcharts is dumb.
+                j.write('\t\t}\n')
+        j.write('\t},\n')
+        # Spell Data
+        #j.write('\t},\n')
+        j.write('\t"simulated_steps": [\n')
+        #write the 3 levels of traits
+        j.write('\t\t"1_tier",\n')
+        j.write('\t\t"2_tier",\n')
+        j.write('\t\t"3_tier"\n')
+        j.write('\t],\n')
+        DPSSort = dict()
+        for u in uniqueList:
+            for x in data:
+                if x['profile'] == simType and x['actor'] == str(u+'1'):
+                    u = u.replace('_'," ").rstrip()
+                    DPSSort.update({u : x['DPS']})
+        #if "Int_" in uniqueList: uniqueList.remove("Int_")
+        import operator
+        sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
+
+
+        j.write('\t"sorted_data_keys": [\n')
+        cnt=0
+        ucntMax = len(sorted_x)
+        for key in sorted_x:
+            cnt+=1
+            if 'Int' not in key[0]:
+                if cnt < ucntMax:
+                    j.write('\t\t "' + key[0] + '",\n')
+                else:
+                    j.write('\t\t "' + key[0] + '"\n')
+        j.write('\t]')
+        #j.write('\n\t},')
+        j.write('\n}')
+    j.close()
+
+
 def buildSingleChart(injsonFile, outjsonFile, simType, sim):
     namelist = list()
     j = open(outjsonFile,'w') #Start writing our JSON file
@@ -1058,6 +1223,13 @@ buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
 
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_C.json", 'composite')
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_ST.json", 'single_target')
+buildCorruptionJsonChart(corruptionSCJsonD, "corruption_SC_D.json", 'dungeons')
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_C.json", 'composite')
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_ST.json", 'single_target')
+buildCorruptionJsonChart(corruptionASJsonD, "corruption_AS_D.json", 'dungeons')
+
 #exit()
 
 buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
@@ -1120,6 +1292,10 @@ os.remove(consumablesASJson)
 os.remove(consumablesASJsonD)
 os.remove(consumablesSCJson)
 os.remove(consumablesSCJsonD)
+os.remove(corruptionASJson)
+os.remove(corruptionASJsonD)
+os.remove(corruptionSCJson)
+os.remove(corruptionSCJsonD)
 
 
 
