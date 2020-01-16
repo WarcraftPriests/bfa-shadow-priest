@@ -591,14 +591,22 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t],\n')
         DPSSort = dict()
         for u in traitList:
+            totalDPS = 0
             for x in data:
-                if x['profile'] == simType and x['actor'] == str(u+'1'):
+                if x['profile'] == simType:
+                    if x['actor'] == str(u+'1'):
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == str(u+'2'):
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == str(u+'3'):
+                        totalDPS += int(x['DPS'])
                     u = u.replace('_'," ").rstrip()
-                    DPSSort.update({u : x['DPS']})
+                    DPSSort.update({u : totalDPS})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
 
+        print(DPSSort)
 
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
@@ -868,32 +876,60 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t"sorted_data_keys" : [\n')
         DPSDict = dict()
         for u in uniqueList:
-            for x in data:
-                if x['profile'] == simType and x['actor'] == u+'1':
-                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']})
-
+            totalDPS = 0
+            for x in data:                
+                if x['profile'] == simType:
+                    if x['actor'] == u+'1':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == u+'2':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == u+'3':
+                        totalDPS += int(x['DPS'])
+                    DPSDict.update({u.replace('_',' ').rstrip() : totalDPS})
         for b in boteList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == b+'_Uptime_1' and x['profile'] == simType:
-                    DPSDict.update({b.replace('_',' ').rstrip() : x['DPS']})
+                if x['profile'] == simType:
+                    if x['actor'] == b+'_Uptime_1':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == b+'_Uptime_2':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == b+'_Uptime_3':
+                        totalDPS += int(x['DPS'])
+                    DPSDict.update({b.replace('_',' ').rstrip() : totalDPS})
 
         for l in lifeBloodList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == l + "_Allies_1" and x['profile'] == simType:
+                if x['profile'] == simType:
+                    if x['actor'] == l + "_Allies_1":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == l + "_Allies_2":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == l + "_Allies_3":
+                        totalDPS += int(x['DPS'])
                     name = l.replace('_',' ').rstrip() + ' Allies'
-                    DPSDict.update({ name : x['DPS']})
+                    DPSDict.update({ name : totalDPS})
 
         for w in worldVeinList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == w + "_Allies_1" and x['profile'] == simType:
+                if x['profile'] == simType:
+                    if x['actor'] == w + "_Allies_1":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == w + "_Allies_2":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == w + "_Allies_3":
+                        totalDPS += int(x['DPS'])
                     name = w.replace('_',' ').rstrip() + ' Allies'
-                    DPSDict.update({ name : x['DPS']})
+                    DPSDict.update({ name : totalDPS})
 
 
         cnt=0
         maxCnt = len(DPSDict)
 
         import operator
+
         sorted_x = sorted(DPSDict.items(), key=lambda kv: kv[1], reverse=True)
 
         for key in sorted_x:
