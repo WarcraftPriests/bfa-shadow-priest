@@ -591,22 +591,21 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t],\n')
         DPSSort = dict()
         for u in traitList:
+            trait = u
+            trait.replace(" ", "_")
             totalDPS = 0
             for x in data:
                 if x['profile'] == simType:
-                    if x['actor'] == str(u+'1'):
+                    if x['actor'] == str(trait+'1'):
                         totalDPS += int(x['DPS'])
-                    if x['actor'] == str(u+'2'):
+                    if x['actor'] == str(trait+'2'):
                         totalDPS += int(x['DPS'])
-                    if x['actor'] == str(u+'3'):
+                    if x['actor'] == str(trait+'3'):
                         totalDPS += int(x['DPS'])
-                    u = u.replace('_'," ").rstrip()
                     DPSSort.update({u : totalDPS})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
-
-        print(DPSSort)
 
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
@@ -615,9 +614,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             cnt+=1
             if 'Int' not in key[0]:
                 if cnt < ucntMax:
-                    j.write('\t\t "' + key[0] + '",\n')
+                    j.write('\t\t "' + key[0].replace("_"," ").rstrip() + '",\n')
                 else:
-                    j.write('\t\t "' + key[0] + '"\n')
+                    j.write('\t\t "' + key[0].replace("_"," ").rstrip() + '"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
