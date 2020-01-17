@@ -40,11 +40,11 @@ profileset."Flash_of_Insight_1"+=shirt=,id=52019,bonus_id=6570
 # Lash of the Void
 profileset."Lash_of_the_Void_1"+=shirt=,id=52019,bonus_id=6569
 
-# Whispered Truths
-profileset."Whispered_Truths_1"+=shirt=,id=52019,bonus_id=6568
+# Whispered Truths - Hunter only
+# profileset."Whispered_Truths_1"+=shirt=,id=52019,bonus_id=6568
 
-# Devour Vitality
-profileset."Devoir_Vitality_1"+=shirt=,id=52019,bonus_id=6567
+# Devour Vitality - melee only
+# profileset."Devour_Vitality_1"+=shirt=,id=52019,bonus_id=6567
 
 # Percent Crit - Severe
 profileset."Percent_Crit_1"+=shirt=,id=52019,bonus_id=6480
@@ -118,8 +118,8 @@ profileset."Void_Ritual_3"+=shirt=,id=52019,bonus_id=6542
 # Gushing Wound
 profileset."Gushing_Wound_1"+=shirt=,id=52019,bonus_id=6573
 
-# Obsidian Skin
-profileset."Obsidian_Skin_1"+=shirt=,id=52019,bonus_id=6572
+# Obsidian Skin - tanks only
+# profileset."Obsidian_Skin_1"+=shirt=,id=52019,bonus_id=6572
 
-# Searing Flames
-profileset."Searing_Flames_1"+=shirt=,id=52019,bonus_id=6571
+# Searing Flames - tanks only
+# profileset."Searing_Flames_1"+=shirt=,id=52019,bonus_id=6571
