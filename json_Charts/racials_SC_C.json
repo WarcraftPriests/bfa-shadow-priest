@@ -1,73 +1,79 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 54466
+			"DPS" : 72635
 		},
 		"Night Elf Haste": {
-			"DPS" : 54255
+			"DPS" : 72369
 		},
 		"Goblin": {
-			"DPS" : 54229
-		},
-		"Gnome": {
-			"DPS" : 54226
+			"DPS" : 72325
 		},
 		"Panda": {
-			"DPS" : 54180
+			"DPS" : 72310
 		},
-		"Dwarf": {
-			"DPS" : 54152
-		},
-		"Tauren": {
-			"DPS" : 54146
+		"Gnome": {
+			"DPS" : 72307
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 54132
+			"DPS" : 72185
+		},
+		"Tauren": {
+			"DPS" : 72167
+		},
+		"Dwarf": {
+			"DPS" : 72156
 		},
 		"Void Elf": {
-			"DPS" : 54072
-		},
-		"Night Elf Crit": {
-			"DPS" : 54042
-		},
-		"Kul Tiran": {
-			"DPS" : 54020
-		},
-		"Nightborne": {
-			"DPS" : 54012
-		},
-		"Blood Elf": {
-			"DPS" : 53999
-		},
-		"Worgen": {
-			"DPS" : 53988
+			"DPS" : 72076
 		},
 		"Troll": {
-			"DPS" : 53968
+			"DPS" : 72075
+		},
+		"Night Elf Crit": {
+			"DPS" : 72063
+		},
+		"Nightborne": {
+			"DPS" : 72046
+		},
+		"Blood Elf": {
+			"DPS" : 72026
+		},
+		"Worgen": {
+			"DPS" : 72010
+		},
+		"Kul Tiran": {
+			"DPS" : 71977
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 53852
+			"DPS" : 71857
 		},
 		"Undead": {
-			"DPS" : 53846
-		},
-		"Maghar Orc": {
-			"DPS" : 53825
-		},
-		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 53802
+			"DPS" : 71829
 		},
 		"Lightforged Draenei": {
-			"DPS" : 53792
+			"DPS" : 71815
+		},
+		"Maghar Orc": {
+			"DPS" : 71767
+		},
+		"Zandalari Troll Bwonsamdi": {
+			"DPS" : 71747
 		},
 		"Draenei": {
-			"DPS" : 53749
+			"DPS" : 71575
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 53617
+			"DPS" : 71458
+		},
+		"Vulpera": {
+			"DPS" : 71320
 		},
 		"Base": {
-			"DPS" : 53509
+			"DPS" : 71319
+		},
+		"Mechagnome": {
+			"DPS" : 71298
 		}
 	},
 	"simulated_steps" : [
@@ -77,23 +83,25 @@
 		 "Human",
 		 "Night Elf Haste",
 		 "Goblin",
-		 "Gnome",
 		 "Panda",
-		 "Dwarf",
-		 "Tauren",
+		 "Gnome",
 		 "Zandalari Troll Paku",
+		 "Tauren",
+		 "Dwarf",
 		 "Void Elf",
+		 "Troll",
 		 "Night Elf Crit",
-		 "Kul Tiran",
 		 "Nightborne",
 		 "Blood Elf",
 		 "Worgen",
-		 "Troll",
+		 "Kul Tiran",
 		 "Zandalari Troll Kimbul",
 		 "Undead",
+		 "Lightforged Draenei",
 		 "Maghar Orc",
 		 "Zandalari Troll Bwonsamdi",
-		 "Lightforged Draenei",
 		 "Draenei",
-		 "Dark Iron Dwarf"
+		 "Dark Iron Dwarf",
+		 "Vulpera",
+		 "Mechagnome"
 	]}

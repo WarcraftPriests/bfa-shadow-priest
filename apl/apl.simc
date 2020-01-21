@@ -6,7 +6,13 @@ talents=3111111
 spec=shadow
 
 default_actions=0
-azerite_essences=12:3:1/5:3:0/27:3:0
+azerite_essences=35:3:1/27:3:0/5:3:0/23:3:0/35:3:0
+
+# Default consumables
+potion=unbridled_fury
+flask=greater_flask_of_endless_fathoms
+food=baked_port_tato
+augmentation=battle_scarred
 
 # Default consumables
 potion=unbridled_fury
@@ -49,9 +55,10 @@ actions.cds+=/blood_of_the_enemy
 actions.cds+=/guardian_of_azeroth,if=buff.voidform.stack>15
 actions.cds+=/focused_azerite_beam,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
 actions.cds+=/purifying_blast,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
-actions.cds+=/the_unbound_force
-actions.cds+=/concentrated_flame
+# Wait at least 6s between casting CF. Use the first cast ASAP to get it on CD, then every subsequent cast should be used when Chorus of Insanity is active or it will recharge in the next gcd, or the target is about to die.
+actions.cds+=/concentrated_flame,line_cd=6,if=time<=10|(buff.chorus_of_insanity.stack>=15&buff.voidform.up)|full_recharge_time<gcd|target.time_to_die<5
 actions.cds+=/ripple_in_space
+actions.cds+=/reaping_flames
 actions.cds+=/worldvein_resonance,if=buff.lifeblood.stack<3
 # Use these cooldowns in between your 1st and 2nd Void Bolt in your 2nd Voidform when you have Chorus of Insanity active
 actions.cds+=/call_action_list,name=crit_cds,if=(buff.voidform.up&buff.chorus_of_insanity.stack>20)|azerite.chorus_of_insanity.rank=0
@@ -81,6 +88,7 @@ actions.cleave+=/shadow_word_pain
 
 actions.crit_cds=use_item,name=azsharas_font_of_power
 actions.crit_cds+=/use_item,effect_name=cyclotronic_blast
+actions.crit_cds+=/the_unbound_force
 
 actions.single=void_eruption
 actions.single+=/dark_ascension,if=buff.voidform.down
@@ -106,22 +114,22 @@ actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.mise
 actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.single+=/shadow_word_pain
 
-head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
-shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=450,azerite_powers=403/405/21/13
-back=drape_of_the_hatcher,id=168604,ilevel=445
-chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
-wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
-hands=shirakess_handwraps,id=167753,ilevel=445
-waist=cephalopods_sash,id=168872,ilevel=445
-legs=shirakess_pants,id=170107,ilevel=445
-feet=supplicants_soiled_slippers,id=169049,ilevel=445
-finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
-finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-trinket1=leviathans_lure,id=169304,ilevel=445
-trinket2=aquipotent_nautilus,id=169305,ilevel=455
-main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
-off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+wrists=voiddrenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=manainfused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
 
 priest="New"
 level=120
@@ -131,7 +139,13 @@ talents=3111111
 spec=shadow
 
 default_actions=0
-azerite_essences=12:3:1/5:3:0/27:3:0
+azerite_essences=35:3:1/27:3:0/5:3:0/23:3:0/35:3:0
+
+# Default consumables
+potion=unbridled_fury
+flask=greater_flask_of_endless_fathoms
+food=baked_port_tato
+augmentation=battle_scarred
 
 # Default consumables
 potion=unbridled_fury
@@ -174,9 +188,10 @@ actions.cds+=/blood_of_the_enemy
 actions.cds+=/guardian_of_azeroth,if=buff.voidform.stack>15
 actions.cds+=/focused_azerite_beam,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
 actions.cds+=/purifying_blast,if=spell_targets.mind_sear>=2|raid_event.adds.in>60
-actions.cds+=/the_unbound_force
+# Wait at least 6s between casting CF. Use the first cast ASAP to get it on CD, then every subsequent cast should be used when Chorus of Insanity is active or it will recharge in the next gcd, or the target is about to die.
 actions.cds+=/concentrated_flame,line_cd=6,if=time<=10|(buff.chorus_of_insanity.stack>=15&buff.voidform.up)|full_recharge_time<gcd|target.time_to_die<5
 actions.cds+=/ripple_in_space
+actions.cds+=/reaping_flames,if=target.health.pct>80|target.health.pct<=20|target.time_to_pct_20>30
 actions.cds+=/worldvein_resonance,if=buff.lifeblood.stack<3
 # Use these cooldowns in between your 1st and 2nd Void Bolt in your 2nd Voidform when you have Chorus of Insanity active
 actions.cds+=/call_action_list,name=crit_cds,if=(buff.voidform.up&buff.chorus_of_insanity.stack>20)|azerite.chorus_of_insanity.rank=0
@@ -206,6 +221,7 @@ actions.cleave+=/shadow_word_pain
 
 actions.crit_cds=use_item,name=azsharas_font_of_power
 actions.crit_cds+=/use_item,effect_name=cyclotronic_blast
+actions.crit_cds+=/the_unbound_force
 
 actions.single=void_eruption
 actions.single+=/dark_ascension,if=buff.voidform.down
@@ -231,22 +247,22 @@ actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.mise
 actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.single+=/shadow_word_pain
 
-head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
-shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=450,azerite_powers=403/405/21/13
-back=drape_of_the_hatcher,id=168604,ilevel=445
-chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
-wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
-hands=shirakess_handwraps,id=167753,ilevel=445
-waist=cephalopods_sash,id=168872,ilevel=445
-legs=shirakess_pants,id=170107,ilevel=445
-feet=supplicants_soiled_slippers,id=169049,ilevel=445
-finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
-finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-trinket1=leviathans_lure,id=169304,ilevel=445
-trinket2=aquipotent_nautilus,id=169305,ilevel=455
-main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
-off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+wrists=voiddrenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=manainfused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
 
 single_actor_batch=1
 optimal_raid=1

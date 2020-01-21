@@ -55,7 +55,7 @@ Every sim is run with the top AS and SC build:
     - [Chorus of Insanity](https://www.wowhead.com/spell=278661/chorus-of-insanity)
     - [Whispers of the Damned](https://www.wowhead.com/spell=275722/whispers-of-the-damned)
     - [Overwhelming Power](https://bfa.wowhead.com/spell=271705/overwhelming-power)
-- `neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65`
+- `neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80`
 
 ### Stats - Mythic (Percent Stat - Gear Amount)
 - 27.79% Crit - 1641

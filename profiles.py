@@ -13,13 +13,14 @@ def assure_path_exists(path):
 dungeonsAS = 'talents=3131111'
 dungeonsSC = 'talents=3131311'
 # Set Dungeon Essences manually
-# Mythic+: Major: Focused Azerite Beam, Minors: Lucid Dreams & Purification Protocol
-dungeonsEssences = 'azerite_essences=5:3:1/27:3:0/6:3:0'
+# Mythic+: Major: Focused Azerite Beam, Minors: Lucid Dreams, Blood Soaked, Lethal Strikes
+dungeonsEssences = 'azerite_essences=5:3:1/27:3:0/23:3:0/35:3:0'
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=['AS','SC'])
+parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
 args = parser.parse_args()
 
 # clear out results
@@ -44,7 +45,7 @@ for the_file in os.listdir('%sprofiles/' % args.dir):
 
 if args.dir == "apl/":
     simc = '%sapl.simc' % args.dir
-elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/", "essences/"):
+elif args.dir in ("consumables/", "enchants/", "racials/", "gear/", "special-gear/", "essences/", "corruption/"):
     if args.dir == "gear/":
         category = "gear_combo_mythic"
     else:
@@ -68,6 +69,7 @@ patchwerk = 'fight_style="Patchwerk"'
 light_movement = 'fight_style="LightMovement"'
 heavy_movement = 'fight_style="HeavyMovement"'
 dungeons = 'fight_style="DungeonSlice"'
+ptr = 'ptr=1\n'
 
 profiles = []
 if args.dir == "stats/":
@@ -171,6 +173,8 @@ for value in profiles:
         else:
             settings = settings + 'desired_targets="2"' + "\n"
     with open(args.dir + value, "w+") as f:
+        if args.ptr:
+            f.writelines(ptr)
         f.writelines(data)
         f.writelines(settings)
         f.close()

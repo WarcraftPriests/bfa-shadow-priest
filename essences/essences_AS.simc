@@ -7,22 +7,22 @@ spec=shadow
 
 default_actions=1
 
-head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=403/405/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
-shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=450,azerite_powers=403/405/21/13
-back=drape_of_the_hatcher,id=168604,ilevel=445
-chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=405/236/30/13
-wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
-hands=shirakess_handwraps,id=167753,ilevel=445
-waist=cephalopods_sash,id=168872,ilevel=445
-legs=shirakess_pants,id=170107,ilevel=445
-feet=supplicants_soiled_slippers,id=169049,ilevel=445
-finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
-finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-trinket1=leviathans_lure,id=169304,ilevel=445
-trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
-off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+wrists=voiddrenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=manainfused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # RANK 1: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
@@ -43,6 +43,10 @@ profileset."Focused_Azerite_Beam_1"+=azerite_essences=5:1:1
 
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_1"+=azerite_essences=6:1:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_1"+=azerite_essences=6:1:1
+profileset."Purifying_Blast_Aberration_1"+=target_race=aberration
 
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_1"+=azerite_essences=28:1:1
@@ -75,6 +79,15 @@ profileset."Worldvein_Resonance_3_Allies_1"+=bfa.worldvein_allies=3
 profileset."Worldvein_Resonance_4_Allies_1"+=azerite_essences=4:1:1
 profileset."Worldvein_Resonance_4_Allies_1"+=bfa.worldvein_allies=4
 
+## Reaping Flames (35) + Lethal Strikes
+profileset."Reaping_Flames_1"+=azerite_essences=35:1:1
+
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_1"+=azerite_essences=36:1:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_1"+=azerite_essences=37:1:1
+
 # Rank 1: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_1"+=azerite_essences=23:1:0
@@ -87,6 +100,10 @@ profileset."Focused_Energy_1"+=azerite_essences=5:1:0
 
 # Purification Protocol
 profileset."Purification_Protocol_1"+=azerite_essences=6:1:0
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purification_Protocol_Aberration_1"+=azerite_essences=6:1:0
+profileset."Purification_Protocol_Aberration_1"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_1"+=azerite_essences=28:1:0
@@ -116,6 +133,15 @@ profileset."Lifeblood_3_Allies_1"+=bfa.worldvein_allies=3
 profileset."Lifeblood_4_Allies_1"+=azerite_essences=4:1:0
 profileset."Lifeblood_4_Allies_1"+=bfa.worldvein_allies=4
 
+## Lethal Strikes
+profileset."Lethal_Strikes_1"+=azerite_essences=35:1:0
+
+## Unified Strengh
+profileset."Unified_Strength_1"+=azerite_essences=36:1:0
+
+## Symbiotic Presence
+profileset."Symbiotic_Presence_1"+=azerite_essences=37:1:0
+
 # RANK 2: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
 profileset."Blood_of_the_Enemy_100_Uptime_2"+=azerite_essences=23:2:1
@@ -135,6 +161,10 @@ profileset."Focused_Azerite_Beam_2"+=azerite_essences=5:2:1
 
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_2"+=azerite_essences=6:2:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_2"+=azerite_essences=6:2:1
+profileset."Purifying_Blast_Aberration_2"+=target_race=aberration
 
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_2"+=azerite_essences=28:2:1
@@ -167,6 +197,15 @@ profileset."Worldvein_Resonance_3_Allies_2"+=bfa.worldvein_allies=3
 profileset."Worldvein_Resonance_4_Allies_2"+=azerite_essences=4:2:1
 profileset."Worldvein_Resonance_4_Allies_2"+=bfa.worldvein_allies=4
 
+## Reaping Flames (35) + Lethal Strikes
+profileset."Reaping_Flames_2"+=azerite_essences=35:2:1
+
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_2"+=azerite_essences=36:2:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_2"+=azerite_essences=37:2:1
+
 # Rank 2: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_2"+=azerite_essences=23:2:0
@@ -179,6 +218,10 @@ profileset."Focused_Energy_2"+=azerite_essences=5:2:0
 
 # Purification Protocol
 profileset."Purification_Protocol_2"+=azerite_essences=6:2:0
+
+# Purification Protocol
+profileset."Purification_Protocol_Aberration_2"+=azerite_essences=6:2:0
+profileset."Purification_Protocol_Aberration_2"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_2"+=azerite_essences=28:2:0
@@ -208,6 +251,15 @@ profileset."Lifeblood_3_Allies_2"+=bfa.worldvein_allies=3
 profileset."Lifeblood_4_Allies_2"+=azerite_essences=4:2:0
 profileset."Lifeblood_4_Allies_2"+=bfa.worldvein_allies=4
 
+## Lethal Strikes
+profileset."Lethal_Strikes_2"+=azerite_essences=35:2:0
+
+## Unified Strengh
+profileset."Unified_Strength_2"+=azerite_essences=36:2:0
+
+## Symbiotic Presence
+profileset."Symbiotic_Presence_2"+=azerite_essences=37:2:0
+
 # RANK 3: 1 Major + 1 Minor
 ## Blood of the Enemy (23) + Blood-Soaked
 profileset."Blood_of_the_Enemy_100_Uptime_3"+=azerite_essences=23:3:1
@@ -227,6 +279,10 @@ profileset."Focused_Azerite_Beam_3"+=azerite_essences=5:3:1
 
 ## Purifying Blast (6) + Purification Protocol
 profileset."Purifying_Blast_3"+=azerite_essences=6:3:1
+
+## Purifying Blast (6) + Purification Protocol
+profileset."Purifying_Blast_Aberration_3"+=azerite_essences=6:3:1
+profileset."Purifying_Blast_Aberration_3"+=target_race=aberration
 
 ## The Unbound Force (28) + Reckless Force
 profileset."The_Unbound_Force_3"+=azerite_essences=28:3:1
@@ -259,6 +315,15 @@ profileset."Worldvein_Resonance_3_Allies_3"+=bfa.worldvein_allies=3
 profileset."Worldvein_Resonance_4_Allies_3"+=azerite_essences=4:3:1
 profileset."Worldvein_Resonance_4_Allies_3"+=bfa.worldvein_allies=4
 
+## Reaping Flames (35) + Lethal Strikes
+profileset."Reaping_Flames_3"+=azerite_essences=35:3:1
+
+## Moment of Glory (36) + Unified Strengh
+profileset."Moment_of_Glory_3"+=azerite_essences=36:3:1
+
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Replica_of_Knowledge_3"+=azerite_essences=37:3:1
+
 # Rank 3: Minors
 # Blood-Soaked (23)
 profileset."Blood_Soaked_3"+=azerite_essences=23:3:0
@@ -271,6 +336,10 @@ profileset."Focused_Energy_3"+=azerite_essences=5:3:0
 
 # Purification Protocol
 profileset."Purification_Protocol_3"+=azerite_essences=6:3:0
+
+# Purification Protocol
+profileset."Purification_Protocol_Aberration_3"+=azerite_essences=6:3:0
+profileset."Purification_Protocol_Aberration_3"+=target_race=aberration
 
 # Reckless Force
 profileset."Reckless_Force_3"+=azerite_essences=28:3:0
@@ -300,104 +369,113 @@ profileset."Lifeblood_3_Allies_3"+=bfa.worldvein_allies=3
 profileset."Lifeblood_4_Allies_3"+=azerite_essences=4:3:0
 profileset."Lifeblood_4_Allies_3"+=bfa.worldvein_allies=4
 
-# 3 Essence Combos
+## Lethal Strikes
+profileset."Lethal_Strikes_3"+=azerite_essences=35:3:0
 
-## MoLD + CLF + EotFI
-profileset."MoLD_CLF_EotFI"+=azerite_essences=27:3:1/14:3:0/5:3:0
+## Moment of Glory (36) + Unified Strengh
+profileset."Unified_Strength_3"+=azerite_essences=36:3:0
 
-## MoLD + CLF + PP
-profileset."MoLD_CLF_PP"+=azerite_essences=27:3:1/14:3:0/6:3:0
+## Replica of Knowledge (37) + Symbiotic Presence
+profileset."Symbiotic_Presence_3"+=azerite_essences=37:3:0
 
-## MoLD + CLF + CoF
-profileset."MoLD_CLF_CoF"+=azerite_essences=27:3:1/14:3:0/12:3:0
+# 4 Essence Combos
 
-## MoLD + CLF + BotE
-profileset."MoLD_CLF_BotE"+=azerite_essences=27:3:1/14:3:0/23:3:0
+## MoLD + CLF + EotFI + LS
+profileset."MoLD_CLF_EotFI_LS"+=azerite_essences=27:3:1/14:3:0/5:3:0/35:3:0
 
-## MoLD + CLF + WR4
-profileset."MoLD_CLF_WR4"+=azerite_essences=27:3:1/14:3:0/4:3:0
-profileset."MoLD_CLF_WR4"+=bfa.worldvein_allies=4
+## MoLD + CLF + PP + LS
+profileset."MoLD_CLF_PP_LS_Aberration"+=azerite_essences=27:3:1/14:3:0/6:3:0/35:3:0
+profileset."MoLD_CLF_PP_LS_Aberration"+=target_race=aberration
 
-## MoLD + EotFI + PP
-profileset."MoLD_EotFI_PP"+=azerite_essences=27:3:1/5:3:0/6:3:0
+## MoLD + CLF + CoF + LS
+profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + CoF
-profileset."MoLD_EotFI_CoF"+=azerite_essences=27:3:1/5:3:0/12:3:0
+## MoLD + CLF + BotE + LS
+profileset."MoLD_CLF_BotE_LS"+=azerite_essences=27:3:1/14:3:0/23:3:0/35:3:0
 
-## MoLD + EotFI + BotE
-profileset."MoLD_EotFI_BotE"+=azerite_essences=27:3:1/5:3:0/23:3:0
+## MoLD + CLF + CoF + LS
+profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + WR4
-profileset."MoLD_EotFI_WR4"+=azerite_essences=27:3:1/5:3:0/4:3:0
-profileset."MoLD_EotFI_WR4"+=bfa.worldvein_allies=4
+## MoLD + EotFI + PP + LS
+profileset."MoLD_EotFI_PP_LS_Aberration"+=azerite_essences=27:3:1/5:3:0/6:3:0/35:3:0
+profileset."MoLD_EotFI_PP_LS_Aberration"+=target_race=aberration
 
-## MoLD + PP + CoF
-profileset."MoLD_PP_CoF"+=azerite_essences=27:3:1/6:3:0/12:3:0
+## MoLD + EotFI + CoF + LS
+profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + PP + BotE
-profileset."MoLD_PP_BotE"+=azerite_essences=27:3:1/6:3:0/23:3:0
+## MoLD + EotFI + BotE + LS
+profileset."MoLD_EotFI_BotE_LS"+=azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-## MoLD + PP + WR4
-profileset."MoLD_PP_WR4"+=azerite_essences=27:3:1/6:3:0/4:3:0
-profileset."MoLD_PP_WR4"+=bfa.worldvein_allies=4
+## MoLD + EotFI + CoF + LS
+profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + CoF + BotE
-profileset."MoLD_CoF_BotE"+=azerite_essences=27:3:1/12:3:0/23:3:0
+## MoLD + PP + CoF + LS
+profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## MoLD + CoF + WR4
-profileset."MoLD_CoF_WR4"+=azerite_essences=27:3:1/12:3:0/4:3:0
-profileset."MoLD_CoF_WR4"+=bfa.worldvein_allies=4
+## MoLD + PP + BotE + LS
+profileset."MoLD_PP_BotE_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/23:3:0/35:3:0
+profileset."MoLD_PP_BotE_LS_Aberration"+=target_race=aberration
 
-## MoLD + BotE + WR4
-profileset."MoLD_BotE_WR4"+=azerite_essences=27:3:1/23:3:0/4:3:0
-profileset."MoLD_BotE_WR4"+=bfa.worldvein_allies=4
+## MoLD + PP + CoF + LS
+profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## CLF + MoLD + EotFI
-profileset."CLF_MoLD_EotFI"+=azerite_essences=14:3:1/27:3:0/5:3:0
+## MoLD + CoF + BotE + LS
+profileset."MoLD_CoF_BotE_LS"+=azerite_essences=27:3:1/12:3:0/23:3:0/35:3:0
 
-## CLF + MoLD + PP
-profileset."CLF_MoLD_PP"+=azerite_essences=14:3:1/27:3:0/6:3:0
+## MoLD + CoF + CoF + LS
+profileset."MoLD_CoF_CoF_LS"+=azerite_essences=27:3:1/12:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + CoF
-profileset."CLF_MoLD_CoF"+=azerite_essences=14:3:1/27:3:0/12:3:0
+## MoLD + BotE + CoF + LS
+profileset."MoLD_BotE_CoF_LS"+=azerite_essences=27:3:1/23:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + BotE
-profileset."CLF_MoLD_BotE"+=azerite_essences=14:3:1/27:3:0/23:3:0
+## CLF + MoLD + EotFI + LS
+profileset."CLF_MoLD_EotFI_LS"+=azerite_essences=14:3:1/27:3:0/5:3:0/35:3:0
 
-## CLF + MoLD + WR4
-profileset."CLF_MoLD_WR4"+=azerite_essences=14:3:1/27:3:0/4:3:0
-profileset."CLF_MoLD_WR4"+=bfa.worldvein_allies=4
+## CLF + MoLD + PP + LS
+profileset."CLF_MoLD_PP_LS_Aberration"+=azerite_essences=14:3:1/27:3:0/6:3:0/35:3:0
+profileset."CLF_MoLD_PP_LS_Aberration"+=target_race=aberration
 
-## CLF + EotFI + PP
-profileset."CLF_EotFI_PP"+=azerite_essences=14:3:1/5:3:0/6:3:0
+## CLF + MoLD + CoF + LS
+profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + CoF
-profileset."CLF_EotFI_CoF"+=azerite_essences=14:3:1/5:3:0/12:3:0
+## CLF + MoLD + BotE + LS
+profileset."CLF_MoLD_BotE_LS"+=azerite_essences=14:3:1/27:3:0/23:3:0/35:3:0
 
-## CLF + EotFI + BotE
-profileset."CLF_EotFI_BotE"+=azerite_essences=14:3:1/5:3:0/23:3:0
+## CLF + MoLD + CoF + LS
+profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + WR4
-profileset."CLF_EotFI_WR4"+=azerite_essences=14:3:1/5:3:0/4:3:0
-profileset."CLF_EotFI_WR4"+=bfa.worldvein_allies=4
+## CLF + EotFI + PP + LS
+profileset."CLF_EotFI_PP_LS_Aberration"+=azerite_essences=14:3:1/5:3:0/6:3:0/35:3:0
+profileset."CLF_EotFI_PP_LS_Aberration"+=target_race=aberration
 
-## CLF + PP + CoF
-profileset."CLF_PP_CoF"+=azerite_essences=14:3:1/6:3:0/12:3:0
+## CLF + EotFI + CoF + LS
+profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + PP + BotE
-profileset."CLF_PP_BotE"+=azerite_essences=14:3:1/6:3:0/23:3:0
+## CLF + EotFI + BotE + LS
+profileset."CLF_EotFI_BotE_LS"+=azerite_essences=14:3:1/5:3:0/23:3:0/35:3:0
 
-## CLF + PP + WR4
-profileset."CLF_PP_WR4"+=azerite_essences=14:3:1/6:3:0/4:3:0
-profileset."CLF_PP_WR4"+=bfa.worldvein_allies=4
+## CLF + EotFI + CoF + LS
+profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + CoF + BotE
-profileset."CLF_CoF_BotE"+=azerite_essences=14:3:1/12:3:0/23:3:0
+## CLF + PP + CoF + LS
+profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
 
-## CLF + CoF + WR4
-profileset."CLF_CoF_WR4"+=azerite_essences=14:3:1/12:3:0/4:3:0
-profileset."CLF_CoF_WR4"+=bfa.worldvein_allies=4
+## CLF + PP + BotE + LS
+profileset."CLF_PP_BotE_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/23:3:0/35:3:0
+profileset."CLF_PP_BotE_LS_Aberration"+=target_race=aberration
 
-## CLF + BotE + WR4
-profileset."CLF_BotE_WR4"+=azerite_essences=14:3:1/23:3:0/4:3:0
-profileset."CLF_BotE_WR4"+=bfa.worldvein_allies=4
+## CLF + PP + CoF + LS
+profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
+
+## CLF + CoF + BotE + LS
+profileset."CLF_CoF_BotE_LS"+=azerite_essences=14:3:1/12:3:0/23:3:0/35:3:0
+
+## CLF + CoF + CoF + LS
+profileset."CLF_CoF_CoF_LS"+=azerite_essences=14:3:1/12:3:0/12:3:0/35:3:0
+
+## CLF + BotE + CoF + LS
+profileset."CLF_BotE_CoF_LS"+=azerite_essences=14:3:1/23:3:0/12:3:0/35:3:0

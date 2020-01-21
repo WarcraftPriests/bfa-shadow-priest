@@ -6,25 +6,25 @@ talents=3111111
 spec=shadow
 
 default_actions=1
-# RAIDS: Major: Lucid, Minors: Focused Energy & Ancient Flame
-azerite_essences=27:3:1/5:3:0/12:3:0
+# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
+azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=65
-shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=445
-back=drape_of_the_hatcher,id=168604,ilevel=445
-chest=vestments_of_creeping_terror,id=168337,ilevel=445
-wrists=cuffs_of_soothing_currents,id=169929,ilevel=445
-hands=shirakess_handwraps,id=167753,ilevel=445
-waist=cephalopods_sash,id=168872,ilevel=445
-legs=shirakess_pants,id=170107,ilevel=445
-feet=supplicants_soiled_slippers,id=169049,ilevel=445
-finger1=seal_of_questionable_loyalties,id=158314,ilevel=445,enchant=accord_of_haste
-finger2=band_of_the_ancient_dredger,id=159461,ilevel=445,enchant=accord_of_haste
-trinket1=leviathans_lure,id=169304,ilevel=445
-trinket2=shiver_venom_relic,id=168905,ilevel=445
-main_hand=leaxas_thoughtpiercer,id=159652,ilevel=445,enchant=quick_navigation
-off_hand=rattling_jar_of_eyes,id=159668,ilevel=445
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=475
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=475
+wrists=voiddrenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=manainfused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Add X intellect
 profileset."Int_10"+=enchant_intellect=10
@@ -39,406 +39,406 @@ profileset."Int_90"+=enchant_intellect=90
 profileset."Int_100"+=enchant_intellect=100
 
 # +5 ilvls 13
-profileset."Azerite_Empowered_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=13
+profileset."Azerite_Empowered_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=13
 
-profileset."Azerite_Empowered_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=13
-profileset."Azerite_Empowered_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=450,azerite_powers=13
+profileset."Azerite_Empowered_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=13
+profileset."Azerite_Empowered_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=13
 
-profileset."Azerite_Empowered_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=450,azerite_powers=13
-profileset."Azerite_Empowered_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=450,azerite_powers=13
-profileset."Azerite_Empowered_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=450,azerite_powers=13
+profileset."Azerite_Empowered_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=13
+profileset."Azerite_Empowered_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=13
+profileset."Azerite_Empowered_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=13
 
 # Filthy Transfusion 194
-profileset."Filthy_Transfusion_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=194
+profileset."Filthy_Transfusion_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=194
 
-profileset."Filthy_Transfusion_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=194
-profileset."Filthy_Transfusion_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=194
+profileset."Filthy_Transfusion_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=194
+profileset."Filthy_Transfusion_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=194
 
-profileset."Filthy_Transfusion_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=194
-profileset."Filthy_Transfusion_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=194
-profileset."Filthy_Transfusion_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=194
+profileset."Filthy_Transfusion_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=194
+profileset."Filthy_Transfusion_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=194
+profileset."Filthy_Transfusion_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=194
 
 # Rezan's Fury 157
-profileset."Rezans_Fury_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=157
+profileset."Rezans_Fury_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=157
 
-profileset."Rezans_Fury_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=157
-profileset."Rezans_Fury_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=157
+profileset."Rezans_Fury_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=157
+profileset."Rezans_Fury_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=157
 
-profileset."Rezans_Fury_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=157
-profileset."Rezans_Fury_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=157
-profileset."Rezans_Fury_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=157
+profileset."Rezans_Fury_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=157
+profileset."Rezans_Fury_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=157
+profileset."Rezans_Fury_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=157
 
 # Blightborne Infusion 193
-profileset."Blightborne_Infusion_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=193
+profileset."Blightborne_Infusion_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=193
 
-profileset."Blightborne_Infusion_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=193
-profileset."Blightborne_Infusion_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=193
+profileset."Blightborne_Infusion_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=193
+profileset."Blightborne_Infusion_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=193
 
-profileset."Blightborne_Infusion_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=193
-profileset."Blightborne_Infusion_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=193
-profileset."Blightborne_Infusion_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=193
+profileset."Blightborne_Infusion_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=193
+profileset."Blightborne_Infusion_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=193
+profileset."Blightborne_Infusion_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=193
 
 # Sandstorm - Swirling Sands 196
-profileset."Swirling_Sands_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=196
+profileset."Swirling_Sands_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=196
 
-profileset."Swirling_Sands_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=196
-profileset."Swirling_Sands_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=196
+profileset."Swirling_Sands_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=196
+profileset."Swirling_Sands_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=196
 
-profileset."Swirling_Sands_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=196
-profileset."Swirling_Sands_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=196
-profileset."Swirling_Sands_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=196
+profileset."Swirling_Sands_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=196
+profileset."Swirling_Sands_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=196
+profileset."Swirling_Sands_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=196
 
 # Secrets of the Deep 195
-profileset."Secrets_of_the_Deep_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=195
+profileset."Secrets_of_the_Deep_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=195
 
-profileset."Secrets_of_the_Deep_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=195
-profileset."Secrets_of_the_Deep_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=195
+profileset."Secrets_of_the_Deep_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=195
+profileset."Secrets_of_the_Deep_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=195
 
-profileset."Secrets_of_the_Deep_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=195
-profileset."Secrets_of_the_Deep_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=195
-profileset."Secrets_of_the_Deep_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=195
+profileset."Secrets_of_the_Deep_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=195
+profileset."Secrets_of_the_Deep_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=195
+profileset."Secrets_of_the_Deep_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=195
 
 # Meticulous Scheming 192
-profileset."Meticulous_Scheming_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=192
+profileset."Meticulous_Scheming_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=192
 
-profileset."Meticulous_Scheming_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=192
-profileset."Meticulous_Scheming_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=192
+profileset."Meticulous_Scheming_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=192
+profileset."Meticulous_Scheming_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=192
 
-profileset."Meticulous_Scheming_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=192
-profileset."Meticulous_Scheming_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=192
-profileset."Meticulous_Scheming_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=192
+profileset."Meticulous_Scheming_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=192
+profileset."Meticulous_Scheming_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=192
+profileset."Meticulous_Scheming_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=192
 
 # Earthlink 461
-profileset."Earthlink_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=461
+profileset."Earthlink_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=461
 
-profileset."Earthlink_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=461
-profileset."Earthlink_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=461
+profileset."Earthlink_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=461
+profileset."Earthlink_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=461
 
-profileset."Earthlink_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=461
-profileset."Earthlink_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=461
-profileset."Earthlink_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=461
+profileset."Earthlink_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=461
+profileset."Earthlink_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=461
+profileset."Earthlink_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=461
 
 # Blood Siphon 18
-profileset."Blood_Siphon_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=18
+profileset."Blood_Siphon_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=18
 
-profileset."Blood_Siphon_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=18
-profileset."Blood_Siphon_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=18
+profileset."Blood_Siphon_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=18
+profileset."Blood_Siphon_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=18
 
-profileset."Blood_Siphon_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=18
-profileset."Blood_Siphon_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=18
-profileset."Blood_Siphon_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=18
+profileset."Blood_Siphon_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=18
+profileset."Blood_Siphon_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=18
+profileset."Blood_Siphon_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=18
 
 # Champion of Azeroth 82
-profileset."Champion_of_Azeroth_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=82
+profileset."Champion_of_Azeroth_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=82
 
 # On My Way 38
-profileset."On_My_Way_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=38
+profileset."On_My_Way_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=38
 
-profileset."On_My_Way_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=38
-profileset."On_My_Way_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=38
+profileset."On_My_Way_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=38
+profileset."On_My_Way_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=38
 
-profileset."On_My_Way_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=38
-profileset."On_My_Way_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=38
-profileset."On_My_Way_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=38
+profileset."On_My_Way_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=38
+profileset."On_My_Way_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=38
+profileset."On_My_Way_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=38
 
 # Unstable Flames 459
-profileset."Unstable_Flames_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=459
+profileset."Unstable_Flames_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=459
 
-profileset."Unstable_Flames_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=459
-profileset."Unstable_Flames_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=459
+profileset."Unstable_Flames_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=459
+profileset."Unstable_Flames_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=459
 
-profileset."Unstable_Flames_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=459
-profileset."Unstable_Flames_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=459
-profileset."Unstable_Flames_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=459
+profileset."Unstable_Flames_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=459
+profileset."Unstable_Flames_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=459
+profileset."Unstable_Flames_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=459
 
 # Azerite Globules 462
-profileset."Azerite_Globules_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=462
+profileset."Azerite_Globules_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=462
 
-profileset."Azerite_Globules_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=462
-profileset."Azerite_Globules_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=462
+profileset."Azerite_Globules_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=462
+profileset."Azerite_Globules_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=462
 
-profileset."Azerite_Globules_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=462
-profileset."Azerite_Globules_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=462
-profileset."Azerite_Globules_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=462
+profileset."Azerite_Globules_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=462
+profileset."Azerite_Globules_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=462
+profileset."Azerite_Globules_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=462
 
 # Elemental Whirl 21
-profileset."Elemental_Whirl_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=21
+profileset."Elemental_Whirl_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=21
 
-profileset."Elemental_Whirl_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=21
-profileset."Elemental_Whirl_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=21
+profileset."Elemental_Whirl_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=21
+profileset."Elemental_Whirl_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=21
 
-profileset."Elemental_Whirl_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=21
-profileset."Elemental_Whirl_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=21
-profileset."Elemental_Whirl_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=21
+profileset."Elemental_Whirl_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=21
+profileset."Elemental_Whirl_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=21
+profileset."Elemental_Whirl_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=21
 
 # Gutripper 31
-profileset."Gutripper_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=31
+profileset."Gutripper_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=31
 
-profileset."Gutripper_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=31
-profileset."Gutripper_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=31
+profileset."Gutripper_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=31
+profileset."Gutripper_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=31
 
-profileset."Gutripper_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=31
-profileset."Gutripper_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=31
-profileset."Gutripper_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=31
+profileset."Gutripper_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=31
+profileset."Gutripper_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=31
+profileset."Gutripper_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=31
 
 # Heed My Call 22
-profileset."Heed_My_Call_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=22
+profileset."Heed_My_Call_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=22
 
-profileset."Heed_My_Call_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=22
-profileset."Heed_My_Call_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=22
+profileset."Heed_My_Call_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=22
+profileset."Heed_My_Call_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=22
 
-profileset."Heed_My_Call_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=22
-profileset."Heed_My_Call_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=22
-profileset."Heed_My_Call_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=22
+profileset."Heed_My_Call_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=22
+profileset."Heed_My_Call_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=22
+profileset."Heed_My_Call_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=22
 
 # Overwhelming Power 30
-profileset."Overwhelming_Power_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=30
+profileset."Overwhelming_Power_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=30
 
-profileset."Overwhelming_Power_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=30
-profileset."Overwhelming_Power_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=30
+profileset."Overwhelming_Power_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=30
+profileset."Overwhelming_Power_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=30
 
-profileset."Overwhelming_Power_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=30
-profileset."Overwhelming_Power_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=30
-profileset."Overwhelming_Power_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=30
+profileset."Overwhelming_Power_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=30
+profileset."Overwhelming_Power_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=30
+profileset."Overwhelming_Power_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=30
 
 # Ruinous Bolt 156
-profileset."Ruinous_Bolt_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=156
+profileset."Ruinous_Bolt_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=156
 
-profileset."Ruinous_Bolt_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=156
-profileset."Ruinous_Bolt_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=156
+profileset."Ruinous_Bolt_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=156
+profileset."Ruinous_Bolt_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=156
 
-profileset."Ruinous_Bolt_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=156
-profileset."Ruinous_Bolt_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=156
-profileset."Ruinous_Bolt_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=156
+profileset."Ruinous_Bolt_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=156
+profileset."Ruinous_Bolt_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=156
+profileset."Ruinous_Bolt_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=156
 
 # Barrage Of Many Bombs 498
-profileset."Barrage_Of_Many_Bombs_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=498
 
-profileset."Barrage_Of_Many_Bombs_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=498
-profileset."Barrage_Of_Many_Bombs_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=498
 
-profileset."Barrage_Of_Many_Bombs_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=498
-profileset."Barrage_Of_Many_Bombs_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=498
-profileset."Barrage_Of_Many_Bombs_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=498
+profileset."Barrage_Of_Many_Bombs_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=498
 
 # Ricocheting Inflatable Pyrosaw 499
-profileset."Ricocheting_Inflatable_Pyrosaw_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=499
 
-profileset."Ricocheting_Inflatable_Pyrosaw_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=499
-profileset."Ricocheting_Inflatable_Pyrosaw_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=499
 
-profileset."Ricocheting_Inflatable_Pyrosaw_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=499
-profileset."Ricocheting_Inflatable_Pyrosaw_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=499
-profileset."Ricocheting_Inflatable_Pyrosaw_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=499
+profileset."Ricocheting_Inflatable_Pyrosaw_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=499
 
 # Synaptic Spark Capacitor 500
-profileset."Synaptic_Spark_Capacitor_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=500
 
-profileset."Synaptic_Spark_Capacitor_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=500
-profileset."Synaptic_Spark_Capacitor_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=500
 
-profileset."Synaptic_Spark_Capacitor_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=500
-profileset."Synaptic_Spark_Capacitor_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=500
-profileset."Synaptic_Spark_Capacitor_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=500
+profileset."Synaptic_Spark_Capacitor_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=500
 
 # Relational Normalization Gizmo 501
-profileset."Relational_Normalization_Gizmo_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=501
 
-profileset."Relational_Normalization_Gizmo_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=501
-profileset."Relational_Normalization_Gizmo_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=501
 
-profileset."Relational_Normalization_Gizmo_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=501
-profileset."Relational_Normalization_Gizmo_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=501
-profileset."Relational_Normalization_Gizmo_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=501
+profileset."Relational_Normalization_Gizmo_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=501
 
 # Dagger in the Back 479
-profileset."Dagger_in_the_Back_Behind_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
 
-profileset."Dagger_in_the_Back_Behind_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Behind_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=479
 
-profileset."Dagger_in_the_Back_Behind_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Behind_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Behind_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Behind_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=479
 
-profileset."Dagger_in_the_Back_Front_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
 profileset."Dagger_in_the_Back_Front_1"+=position=ranged_front
 
-profileset."Dagger_in_the_Back_Front_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Front_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=479
 profileset."Dagger_in_the_Back_Front_2"+=position=ranged_front
 
-profileset."Dagger_in_the_Back_Front_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Front_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=479
-profileset."Dagger_in_the_Back_Front_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=479
+profileset."Dagger_in_the_Back_Front_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=479
 profileset."Dagger_in_the_Back_Front_3"+=position=ranged_front
 
 # Thunderous Blast 482
-profileset."Thunderous_Blast_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=482
+profileset."Thunderous_Blast_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=482
 
-profileset."Thunderous_Blast_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=482
-profileset."Thunderous_Blast_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=482
+profileset."Thunderous_Blast_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=482
+profileset."Thunderous_Blast_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=482
 
-profileset."Thunderous_Blast_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=482
-profileset."Thunderous_Blast_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=482
-profileset."Thunderous_Blast_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=482
+profileset."Thunderous_Blast_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=482
+profileset."Thunderous_Blast_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=482
+profileset."Thunderous_Blast_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=482
 
 # Tidal Surge 478
-profileset."Tidal_Surge_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=478
+profileset."Tidal_Surge_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=478
 
-profileset."Tidal_Surge_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=478
-profileset."Tidal_Surge_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=478
+profileset."Tidal_Surge_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=478
+profileset."Tidal_Surge_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=478
 
-profileset."Tidal_Surge_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=478
-profileset."Tidal_Surge_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=478
-profileset."Tidal_Surge_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=478
+profileset."Tidal_Surge_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=478
+profileset."Tidal_Surge_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=478
+profileset."Tidal_Surge_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=478
 
 # Blood Rite 480
-profileset."Blood_Rite_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=480
+profileset."Blood_Rite_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=480
 
-profileset."Blood_Rite_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=480
-profileset."Blood_Rite_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=480
+profileset."Blood_Rite_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=480
+profileset."Blood_Rite_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=480
 
-profileset."Blood_Rite_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=480
-profileset."Blood_Rite_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=480
-profileset."Blood_Rite_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=480
+profileset."Blood_Rite_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=480
+profileset."Blood_Rite_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=480
+profileset."Blood_Rite_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=480
 
 # Incite the Pack 481
-profileset."Incite_the_Pack_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=481
+profileset."Incite_the_Pack_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=481
 
-profileset."Incite_the_Pack_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=481
-profileset."Incite_the_Pack_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=481
+profileset."Incite_the_Pack_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=481
+profileset."Incite_the_Pack_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=481
 
-profileset."Incite_the_Pack_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=481
-profileset."Incite_the_Pack_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=481
-profileset."Incite_the_Pack_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=481
+profileset."Incite_the_Pack_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=481
+profileset."Incite_the_Pack_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=481
+profileset."Incite_the_Pack_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=481
 
 # Glory in Battle 486 - Liberator's Might 492
-profileset."Glory_in_Battle_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=486
+profileset."Glory_in_Battle_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=486
 
-profileset."Glory_in_Battle_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=486
-profileset."Glory_in_Battle_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=486
+profileset."Glory_in_Battle_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=486
+profileset."Glory_in_Battle_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=486
 
-profileset."Glory_in_Battle_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=486
-profileset."Glory_in_Battle_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=486
-profileset."Glory_in_Battle_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=486
+profileset."Glory_in_Battle_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=486
+profileset."Glory_in_Battle_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=486
+profileset."Glory_in_Battle_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=486
 
 # Retaliatory Fury 487 - Last Gift 493
-profileset."Retaliatory_Fury_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=487
+profileset."Retaliatory_Fury_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=487
 
-profileset."Retaliatory_Fury_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=487
-profileset."Retaliatory_Fury_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=487
+profileset."Retaliatory_Fury_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=487
+profileset."Retaliatory_Fury_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=487
 
-profileset."Retaliatory_Fury_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=487
-profileset."Retaliatory_Fury_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=487
-profileset."Retaliatory_Fury_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=487
+profileset."Retaliatory_Fury_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=487
+profileset."Retaliatory_Fury_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=487
+profileset."Retaliatory_Fury_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=487
 
 # Combined Might 490 - Stronger Together 496
-profileset."Combined_Might_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=490
+profileset."Combined_Might_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=490
 
-profileset."Combined_Might_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=490
-profileset."Combined_Might_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=490
+profileset."Combined_Might_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=490
+profileset."Combined_Might_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=490
 
-profileset."Combined_Might_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=490
-profileset."Combined_Might_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=490
-profileset."Combined_Might_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=490
+profileset."Combined_Might_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=490
+profileset."Combined_Might_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=490
+profileset."Combined_Might_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=490
 
 # Collective Will 491 - Stand As One 497
-profileset."Collective_Will_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=491
+profileset."Collective_Will_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=491
 
-profileset."Collective_Will_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=491
-profileset."Collective_Will_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=491
+profileset."Collective_Will_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=491
+profileset."Collective_Will_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=491
 
-profileset."Collective_Will_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=491
-profileset."Collective_Will_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=491
-profileset."Collective_Will_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=491
+profileset."Collective_Will_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=491
+profileset."Collective_Will_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=491
+profileset."Collective_Will_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=491
 
 # Battlefield Focus 488 + Battlefield Precision 494
-profileset."Battlefield_Focus_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=488
+profileset."Battlefield_Focus_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=488
 
-profileset."Battlefield_Focus_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=488
-profileset."Battlefield_Focus_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=488
+profileset."Battlefield_Focus_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=488
+profileset."Battlefield_Focus_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=488
 
-profileset."Battlefield_Focus_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=488
-profileset."Battlefield_Focus_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=488
-profileset."Battlefield_Focus_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=488
+profileset."Battlefield_Focus_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=488
+profileset."Battlefield_Focus_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=488
+profileset."Battlefield_Focus_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=488
 
 # Sylvanas' Resolve 489 + Anduin's Dedication 495
-profileset."Sylvanas_Resolve_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=489
+profileset."Sylvanas_Resolve_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=489
 
-profileset."Sylvanas_Resolve_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=489
-profileset."Sylvanas_Resolve_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=489
+profileset."Sylvanas_Resolve_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=489
+profileset."Sylvanas_Resolve_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=489
 
-profileset."Sylvanas_Resolve_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=489
-profileset."Sylvanas_Resolve_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=489
-profileset."Sylvanas_Resolve_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=489
+profileset."Sylvanas_Resolve_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=489
+profileset."Sylvanas_Resolve_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=489
+profileset."Sylvanas_Resolve_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=489
 
 # Unstable Catalyst 504
-profileset."Unstable_Catalyst_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=504
+profileset."Unstable_Catalyst_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=504
 
-profileset."Unstable_Catalyst_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=504
-profileset."Unstable_Catalyst_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=504
+profileset."Unstable_Catalyst_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=504
+profileset."Unstable_Catalyst_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=504
 
-profileset."Unstable_Catalyst_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=504
-profileset."Unstable_Catalyst_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=504
-profileset."Unstable_Catalyst_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=504
+profileset."Unstable_Catalyst_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=504
+profileset."Unstable_Catalyst_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=504
+profileset."Unstable_Catalyst_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=504
 
 # Tradewinds 505
-profileset."Tradewinds_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=505
+profileset."Tradewinds_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=505
 
-profileset."Tradewinds_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=505
-profileset."Tradewinds_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=505
+profileset."Tradewinds_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=505
+profileset."Tradewinds_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=505
 
-profileset."Tradewinds_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=505
-profileset."Tradewinds_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=505
-profileset."Tradewinds_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=505
+profileset."Tradewinds_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=505
+profileset."Tradewinds_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=505
+profileset."Tradewinds_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=505
 
 # Ancients' Bulwark 522
-profileset."Ancients_Bulwark_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=522
+profileset."Ancients_Bulwark_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=522
 
-profileset."Ancients_Bulwark_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=522
-profileset."Ancients_Bulwark_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=522
+profileset."Ancients_Bulwark_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=522
+profileset."Ancients_Bulwark_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=522
 
-profileset."Ancients_Bulwark_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=522
-profileset."Ancients_Bulwark_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=522
-profileset."Ancients_Bulwark_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=522
+profileset."Ancients_Bulwark_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=522
+profileset."Ancients_Bulwark_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=522
+profileset."Ancients_Bulwark_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=522
 
 # Apothecary's Concoctions 523
-profileset."Apothecarys_Concoctions_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=523
+profileset."Apothecarys_Concoctions_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=523
 
-profileset."Apothecarys_Concoctions_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=523
-profileset."Apothecarys_Concoctions_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=523
+profileset."Apothecarys_Concoctions_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=523
+profileset."Apothecarys_Concoctions_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=523
 
-profileset."Apothecarys_Concoctions_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=523
-profileset."Apothecarys_Concoctions_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=523
-profileset."Apothecarys_Concoctions_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=523
+profileset."Apothecarys_Concoctions_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=523
+profileset."Apothecarys_Concoctions_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=523
+profileset."Apothecarys_Concoctions_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=523
 
 # Endless Hunger 526
-profileset."Endless_Hunger_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=526
+profileset."Endless_Hunger_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=526
 
-profileset."Endless_Hunger_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=526
-profileset."Endless_Hunger_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=526
+profileset."Endless_Hunger_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=526
+profileset."Endless_Hunger_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=526
 
-profileset."Endless_Hunger_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=526
-profileset."Endless_Hunger_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=526
-profileset."Endless_Hunger_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=526
+profileset."Endless_Hunger_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=526
+profileset."Endless_Hunger_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=526
+profileset."Endless_Hunger_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=526
 
 # Fight or Flight 541
-profileset."Fight_or_Flight_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=541
+profileset."Fight_or_Flight_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=541
 
-profileset."Fight_or_Flight_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=541
-profileset."Fight_or_Flight_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=541
+profileset."Fight_or_Flight_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=541
+profileset."Fight_or_Flight_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=541
 
-profileset."Fight_or_Flight_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=541
-profileset."Fight_or_Flight_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=541
-profileset."Fight_or_Flight_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=541
+profileset."Fight_or_Flight_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=541
+profileset."Fight_or_Flight_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=541
+profileset."Fight_or_Flight_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=541
 
 # Shadow of Elune 521
-profileset."Shadow_of_Elune_1"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=521
+profileset."Shadow_of_Elune_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=521
 
-profileset."Shadow_of_Elune_2"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=521
-profileset."Shadow_of_Elune_2"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=521
+profileset."Shadow_of_Elune_2"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=521
+profileset."Shadow_of_Elune_2"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=521
 
-profileset."Shadow_of_Elune_3"+=head=handmaidens_cowl_of_sacrifice,id=168336,ilevel=445,azerite_powers=521
-profileset."Shadow_of_Elune_3"+=shoulder=amice_of_the_reef_witch,id=168338,ilevel=445,azerite_powers=521
-profileset."Shadow_of_Elune_3"+=chest=vestments_of_creeping_terror,id=168337,ilevel=445,azerite_powers=521
+profileset."Shadow_of_Elune_3"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=521
+profileset."Shadow_of_Elune_3"+=shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=475,azerite_powers=521
+profileset."Shadow_of_Elune_3"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=475,azerite_powers=521

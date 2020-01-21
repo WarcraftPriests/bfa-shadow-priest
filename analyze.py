@@ -4,10 +4,12 @@ import argparse
 import operator
 import azeritePowerID
 import os
+import corruptionValues
 
 azeritePowerIDs = azeritePowerID.azeritePowerIDs
 weightsSingle = weights.weightsSingle
-weightsEP = weights.weightsEP
+weightsNy = weights.weightsNy
+corruptionValue = corruptionValues.corruptionValues
 
 parser = argparse.ArgumentParser(description='Analyzes a json file.')
 parser.add_argument('dir', help='Directory you wish to analyze.')
@@ -21,6 +23,8 @@ if args.talents:
     outputMarkdown = "{0}Results_{1}.md".format(args.dir, args.talents)
     outputCSV = "{0}Results_{1}.csv".format(args.dir, args.talents)
     outputAPW = "{0}AzeritePowerWeights_{1}.md".format(args.dir, args.talents)
+    outputCorruptionMD = "{0}Corruption_Value_Results_{1}.md".format(args.dir, args.talents)
+    outputCorruptionCSV = "{0}Corruption_Value_Results_{1}.csv".format(args.dir, args.talents)
 else:
     outputMarkdown = "%sREADME.md" % args.dir
     outputCSV = "%sresults.csv" % args.dir
@@ -38,6 +42,17 @@ def getChange(current, previous):
     except ZeroDivisionError:
         return 0
 
+def getCorruptionValue(baseDPS, newDPS, corruptionValue):
+    delta = newDPS - baseDPS
+    if delta < 0:
+        return 0
+    elif corruptionValue is None:
+        return 0
+    try:
+        return delta / corruptionValue
+    except Exception as e:
+        return 0
+
 if args.weights:
     data = pandas.read_csv(csv,usecols=['profile','actor','DD','DPS','int','haste','crit','mastery','vers'])
 else:
@@ -45,12 +60,14 @@ else:
 
 results = {}
 resultsSingle = {}
+corruptionResults = {}
+corruptionResultsSingle = {}
 
 # ['profile','actor','DD','DPS']
 for value in data.iterrows():
     if args.weights:
         profile = value[1].profile
-        weight = weightsEP.get(profile[profile.index('_')+1:])
+        weight = weightsNy.get(profile[profile.index('_')+1:])
         weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         haste = (value[1].haste / value[1].int) * weight
         crit = (value[1].crit / value[1].int) * weight
@@ -66,10 +83,10 @@ for value in data.iterrows():
     else:
         if args.dir == "talents/" or args.dir == "trinkets/" or args.dir == "azerite-gear/" or args.dir == "azerite-traits/" :
             profile = value[1].profile
-            weight = weightsEP.get(profile[profile.index('_')+1:])
+            weight = weightsNy.get(profile[profile.index('_')+1:])
             weightSingle = weightsSingle.get(profile[profile.index('_')+1:])
         else:
-            weight = weightsEP.get(value[1].profile)
+            weight = weightsNy.get(value[1].profile)
             weightSingle = weightsSingle.get(value[1].profile)
     if not weightSingle:
         weightSingle = 0
@@ -129,15 +146,26 @@ else:
     baseDPS = results.get('Base')
     baseDPSSingle = resultsSingle.get('Base')
 
+# Corruption DPS MD
+if args.dir == "corruption/":
+    for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
+        corrValue = corruptionValue.get(key)
+        if corrValue is None: corrValue = 0
+        corruptionResults[key] = getCorruptionValue(baseDPS, value, corrValue)
+    for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
+        corrValue = corruptionValue.get(key)
+        if corrValue is None: corrValue = 0
+        corruptionResultsSingle[key] = getCorruptionValue(baseDPSSingle, value, corrValue)
+
 # README.md output
 with open(outputMarkdown, 'w') as resultsMD:
-    # Battle for Dazar'alor Composite
+    # Ny'alotha Composite
     if args.weights:
-        resultsMD.write('# Eternal Palace\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
+        resultsMD.write('# Ny\'alotha\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
     else:
-        resultsMD.write('# Eternal Palace\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
+        resultsMD.write('# Ny\'alotha\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPS)))
     # Single Target
@@ -150,9 +178,25 @@ with open(outputMarkdown, 'w') as resultsMD:
         for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsMD.write("|%s|%.0f|%.2f%%|\n" % (key, value, getChange(value, baseDPSSingle)))
 
+# Corruption DPS MD
+if args.dir == "corruption/":
+    with open(outputCorruptionMD, 'w') as resultsMD:
+        resultsMD.write('# Ny\'alotha\n| Actor | DPS | Corruption | Value |\n|---|:---:|:---:|:---:|\n')
+        for key, value in sorted(corruptionResults.items(), key=operator.itemgetter(1), reverse=True):
+            dpsValue = results.get(key)
+            corrValue = corruptionValue.get(key)
+            if corrValue is None: corrValue = 0
+            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key, dpsValue, corrValue, value))
+        resultsMD.write('\n# Single Target\n| Actor | DPS | Corruption | Value |\n|---|:---:|:---:|:---:|\n')
+        for key, value in sorted(corruptionResultsSingle.items(), key=operator.itemgetter(1), reverse=True):
+            dpsValue = resultsSingle.get(key)
+            corrValue = corruptionValue.get(key)
+            if corrValue is None: corrValue = 0
+            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key, dpsValue, corrValue, value))
+
 # results.csv output
 with open(outputCSV, 'w') as resultsCSV:
-    # Battle for Dazar'alor Composite
+    # Ny'alothaBattle for Dazar'alor Composite
     if args.weights:
         resultsCSV.write('profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
@@ -169,11 +213,26 @@ with open(outputCSV, 'w') as resultsCSV:
         for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             resultsCSV.write("single_target,%s,%.0f,%.2f%%,\n" % (key, value, getChange(value, baseDPSSingle)))
 
+# Corruption DPS CSV
+if args.dir == "corruption/":
+    with open(outputCorruptionCSV, 'w') as resultsCSV:
+        resultsCSV.write('profile,actor,DPS,corruption,value,\n')
+        for key, value in sorted(corruptionResults.items(), key=operator.itemgetter(1), reverse=True):
+            dpsValue = results.get(key)
+            corrValue = corruptionValue.get(key)
+            if corrValue is None: corrValue = 0
+            resultsCSV.write("composite,%s,%.0f,%.0f,%.2f%%,\n" % (key, dpsValue, corrValue, value))
+        for key, value in sorted(corruptionResultsSingle.items(), key=operator.itemgetter(1), reverse=True):
+            dpsValue = resultsSingle.get(key)
+            corrValue = corruptionValue.get(key)
+            if corrValue is None: corrValue = 0
+            resultsCSV.write("single_target,%s,%.0f,%.0f,%.2f%%,\n" % (key, dpsValue, corrValue, value))
+
 # AzeritePowerWeights Export
 if args.dir == "azerite-traits/":
     with open(outputAPW, 'w') as resultsAPW:
         # Battle for Dazar'alor Composite
-        resultsAPW.write("# Eternal Palace\n```\n( AzeritePowerWeights:1:\"Priest - Eternal Palace Composite {0}\":5:258:".format(args.talents))
+        resultsAPW.write("# Ny'alotha\n```\n( AzeritePowerWeights:1:\"Priest - Ny'alotha Composite {0}\":5:258:".format(args.talents))
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             traitID = azeritePowerIDs.get(key)
             if traitID:

@@ -48,6 +48,12 @@ consumablesASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/
 consumablesSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_SC.csv'))
 consumablesSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'consumables/Results_Dungeons_SC.csv'))
 
+#Corruption
+corruptionAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS.csv'))
+corruptionASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_Dungeons_AS.csv'))
+corruptionSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC.csv'))
+corruptionSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_Dungeons_SC.csv'))
+
 #JSON Files
 #Trinkets
 trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
@@ -59,6 +65,11 @@ traitsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits
 traitsASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS.json'))
 traitsSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_SC_D.json'))
 traitsASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'azerite-traits/Results_AS_D.json'))
+#Corruption
+corruptionSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC.json'))
+corruptionASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS.json'))
+corruptionSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC_D.json'))
+corruptionASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS_D.json'))
 #Essences
 essencesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC.json'))
 essencesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.json'))
@@ -148,6 +159,7 @@ traitList = [
 'Loyal_to_the_End_2_Allies_',
 'Loyal_to_the_End_1_Allies_',
 'Loyal_to_the_End_0_Allies_',
+'Heart_of_Darkness',
 
 #Secondary Traits
 'Azerite_Globules_',
@@ -173,6 +185,9 @@ essences = {
     'Concentrated Flame' : 'The Crucible of Flame',
     'Rippled in Space' : 'Rippled in Space',
     'Worldvein Resonance' : 'Worldvein Resonance',
+    'Replica of Knowledge' : 'Formless Void',
+    'Moment of Glory' : 'Spark of Inspiration',
+    'Reaping Flames' : 'Breath of the Dying',
 
 
     #Minors
@@ -186,7 +201,10 @@ essences = {
     'Strife' : 'Conflict and Strife',
     'Lifeblood' : 'Worldvein Resonance',
     'Ancient Flame' : 'The Crucible of Flame',
-    'Reality Shift' : 'Rippled in Space'
+    'Reality Shift' : 'Rippled in Space',
+    'Symbiotic Presence' : 'Formless Void',
+    'Unified Strength' : 'Spark of Inspiration',
+    'Lethal Strikes' : 'Breath of the Dying'
 }
 
 
@@ -214,6 +232,11 @@ parseCSV(traitsSC,traitsSCJson)
 parseCSV(traitsAS,traitsASJson)
 parseCSV(traitsSCD,traitsSCJsonD)
 parseCSV(traitsASD,traitsASJsonD)
+
+parseCSV(corruptionSC,corruptionSCJson)
+parseCSV(corruptionAS,corruptionASJson)
+parseCSV(corruptionSCD,corruptionSCJsonD)
+parseCSV(corruptionASD,corruptionASJsonD)
 
 parseCSV(essencesAS,essencesASJson)
 parseCSV(essencesSC,essencesSCJson)
@@ -307,7 +330,7 @@ def addNamesToJson(jsonFile):
         f.write(json.dumps(names, sort_keys=False, indent =2))
 
 def ilvlPerItem(itemName):
-    with open(trinketsSCJson) as f:
+    with open(trinketsASJson) as f:
         ilvlList = list()
         data = json.load(f)
         for x in data:
@@ -365,23 +388,20 @@ def buildTrinketJsonChart(injsonFile, outjsonFile, simType):
                 j.write('\t\t}\n')
         j.write('\t},\n')
         j.write('\t"Data_type": "trinkets",\n\t"item_ids" : {\n')
+        tempIlvlList = list()
         maxCnt = len(uniqueList)
-        cnt = 0
         for u in uniqueList:
-            cnt+=1
             u = u.replace(' ','_')
             if not u == 'Base':
                 u = u[:-1]
             itemID = getItemId(u)
             if not str(itemID) == 'None':
-                if cnt < maxCnt:
-                    j.write('\t\t"'+u+'": '+str(itemID)+',\n')
-                else:
-                    j.write('\t\t"'+u+'": '+str(itemID)+'\n')
+                    tempIlvlList.append('\t\t"'+u+'": '+str(itemID))
             else:
                 if not u == 'Base':
                     print('Error: ' + u + ' Trinket was not included in the item ID list. Error occured in {} sim'.format(outjsonFile))
-
+        finalIlvlList = ',\n'.join(tempIlvlList) + '\n'
+        j.write(finalIlvlList)
         j.write('\t},\n')
         j.write('\t"simulated_steps": [\n')
         ilvls = getIlvl(injsonFile)
@@ -527,6 +547,7 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Filthy Transfusion ":'+'"273836"'+',\n')
         j.write('\t\t"Glory in Battle ":'+'"280852"'+',\n')
         j.write('\t\t"Gutripper ":'+'"266937"'+',\n')
+        j.write('\t\t"Heart of Darkness ":'+'"317137"'+',\n')
         j.write('\t\t"Heed My Call ":'+'"271681"'+',\n')
         j.write('\t\t"Incite the Pack ":'+'"280410"'+',\n')
         j.write('\t\t"Laser Matrix ":'+'"280702"'+',\n')
@@ -570,14 +591,21 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t],\n')
         DPSSort = dict()
         for u in traitList:
+            trait = u
+            trait.replace(" ", "_")
+            totalDPS = 0
             for x in data:
-                if x['profile'] == simType and x['actor'] == str(u+'1'):
-                    u = u.replace('_'," ").rstrip()
-                    DPSSort.update({u : x['DPS']})
+                if x['profile'] == simType:
+                    if x['actor'] == str(trait+'1'):
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == str(trait+'2'):
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == str(trait+'3'):
+                        totalDPS += int(x['DPS'])
+                    DPSSort.update({u : totalDPS})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
-
 
         j.write('\t"sorted_data_keys": [\n')
         cnt=0
@@ -586,9 +614,9 @@ def buildTraitJsonChart(injsonFile, outjsonFile, simType):
             cnt+=1
             if 'Int' not in key[0]:
                 if cnt < ucntMax:
-                    j.write('\t\t "' + key[0] + '",\n')
+                    j.write('\t\t "' + key[0].replace("_"," ").rstrip() + '",\n')
                 else:
-                    j.write('\t\t "' + key[0] + '"\n')
+                    j.write('\t\t "' + key[0].replace("_"," ").rstrip() + '"\n')
         j.write('\t]')
         #j.write('\n\t},')
         j.write('\n}')
@@ -802,6 +830,9 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Conflict" : 303823,\n')
         j.write('\t\t"Concentrated Flame" : 295373,\n')
         j.write('\t\t"Ripple in Space" : 302731,\n')
+        j.write('\t\t"Formless Void" : 313922,\n')
+        j.write('\t\t"Spark of Inspiration" : 311303,\n')
+        j.write('\t\t"Breath of the Dying" : 311195,\n')
 
         #Special Majors
         j.write('\t\t"Blood of the Enemy 100" : 297108,\n')
@@ -811,6 +842,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Worldvein Resonance 3 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 2 Allies" : 295186,\n')
         j.write('\t\t"Worldvein Resonance 1 Allies" : 295186,\n')
+
 
         #Minors
         j.write('\t\t"Blood-Soaked" : 297147,\n')
@@ -823,6 +855,9 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"Strife" : 304081,\n')
         j.write('\t\t"Ancient Flame" : 295365,\n')
         j.write('\t\t"Reality Shift" : 302916,\n')
+        j.write('\t\t"Symbiotic Presence" : 313920,\n')
+        j.write('\t\t"Unified Strength" : 311306,\n')
+        j.write('\t\t"Lethal Strikes" : 311198,\n')
 
         #Special Minors
         j.write('\t\t"Lifeblood 4 Allies" : 295078,\n')
@@ -840,32 +875,60 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t"sorted_data_keys" : [\n')
         DPSDict = dict()
         for u in uniqueList:
-            for x in data:
-                if x['profile'] == simType and x['actor'] == u+'1':
-                    DPSDict.update({u.replace('_',' ').rstrip() : x['DPS']})
-
+            totalDPS = 0
+            for x in data:                
+                if x['profile'] == simType:
+                    if x['actor'] == u+'1':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == u+'2':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == u+'3':
+                        totalDPS += int(x['DPS'])
+                    DPSDict.update({u.replace('_',' ').rstrip() : totalDPS})
         for b in boteList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == b+'_Uptime_1' and x['profile'] == simType:
-                    DPSDict.update({b.replace('_',' ').rstrip() : x['DPS']})
+                if x['profile'] == simType:
+                    if x['actor'] == b+'_Uptime_1':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == b+'_Uptime_2':
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == b+'_Uptime_3':
+                        totalDPS += int(x['DPS'])
+                    DPSDict.update({b.replace('_',' ').rstrip() : totalDPS})
 
         for l in lifeBloodList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == l + "_Allies_1" and x['profile'] == simType:
+                if x['profile'] == simType:
+                    if x['actor'] == l + "_Allies_1":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == l + "_Allies_2":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == l + "_Allies_3":
+                        totalDPS += int(x['DPS'])
                     name = l.replace('_',' ').rstrip() + ' Allies'
-                    DPSDict.update({ name : x['DPS']})
+                    DPSDict.update({ name : totalDPS})
 
         for w in worldVeinList:
+            totalDPS = 0
             for x in data:
-                if x['actor'] == w + "_Allies_1" and x['profile'] == simType:
+                if x['profile'] == simType:
+                    if x['actor'] == w + "_Allies_1":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == w + "_Allies_2":
+                        totalDPS += int(x['DPS'])
+                    if x['actor'] == w + "_Allies_3":
+                        totalDPS += int(x['DPS'])
                     name = w.replace('_',' ').rstrip() + ' Allies'
-                    DPSDict.update({ name : x['DPS']})
+                    DPSDict.update({ name : totalDPS})
 
 
         cnt=0
         maxCnt = len(DPSDict)
 
         import operator
+
         sorted_x = sorted(DPSDict.items(), key=lambda kv: kv[1], reverse=True)
 
         for key in sorted_x:
@@ -878,6 +941,187 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
 
         j.write('\t]\n')
         j.write('}')
+
+
+def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
+    
+    '''
+    injsonFile - The original CSV data converted to a raw unformatted JSON
+    outjsonFile - The newly formatted JSON
+    simType - Composite, Single Target, Dungeons
+    '''
+    #trinketnames = getNames(injsonFile) #Get all the trinket names from the inputted JSON file
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        '''
+    injsonFile - The original CSV data converted to a raw unformatted JSON
+    outjsonFile - The newly formatted JSON
+    simType - Composite, Single Target, Dungeons
+    '''
+
+    namelist = list()
+    j = open(outjsonFile,'w') #Start writing our JSON file
+    j.write('{\n') #JSON formatting
+    with open(injsonFile,'r') as f: #Start reading the inputted JSON file.
+        data = json.load(f)
+        for x in data: #Easier to parse the originally converted JSON to organize the data
+            m = re.search(r"\D*",x['actor'].rstrip()).group(0)
+            namelist.append(m)
+        uniqueList = make_unique(namelist)
+        if "Base" in uniqueList: uniqueList.remove("Base")
+        if "Int_" in uniqueList: uniqueList.remove("Int_")
+        j.write('\t"data": {\n')
+        ucntMax = len(uniqueList)
+        #print(ucntMax)
+        ucnt = 0
+        for u in uniqueList:
+            ucnt+=1
+            corruptionSteps = ['1','2','3'] #Should always be 1-3 unless they add extra corruption tiers
+            if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
+                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
+            maxCnt = 3
+            cnt = 0
+            for y in corruptionSteps:
+                cnt+=1
+                for x in data:
+                    if x['profile'] == simType:
+                        if x['actor'] == str(u+y) and 'base' not in x['actor'].lower():
+                            if x['actor'] == ("Gushing_Wound_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Ineffable_Truth_" + y):
+                                #Hack fix because fuck this corruption
+                                written = False
+                                if y == str(1):
+                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
+                                if y == str(2):
+                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
+                                    written = True
+                                if written:
+                                    j.write('\t\t\t"3_tier": 0\n')
+                            elif "Ineffable_Truth" in x['actor'] and y == str(3):
+                                print("YES")
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Glimpse_of_Clarity_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Lash_of_the_Void_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Flash_of_Insight_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Obsidian_Skin_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Devoir_Vitality_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Searing_Flames_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            elif x['actor'] == ("Whispered_Truths_" + y):
+                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
+                                j.write('\t\t\t"2_tier": 0,\n')
+                                j.write('\t\t\t"3_tier": 0\n')
+                            else:
+                                if cnt < maxCnt:
+                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+',\n')
+                                else:
+                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+'\n')
+            if ucnt < ucntMax:
+                if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
+                    j.write('\t\t},\n')
+            if ucnt == ucntMax:
+                j.write('\t\t},')
+                for x in data:
+                    if x['profile'] == simType and x['actor'] == 'Base':
+                        j.write('\n\t\t"Base": {\n')
+                        j.write('\t\t\t"1_tier": '+x['DPS']+',\n')
+                        j.write('\t\t\t"2_tier": 0,\n')
+                        j.write('\t\t\t"3_tier": 0\n') #Have to add empty stacks here because highcharts is dumb.
+                j.write('\t\t}\n')
+        j.write('\t},\n')
+        # Spell Data
+        j.write('\t"spell_ids" : {\n')
+        j.write('\t\t"Echoing_Void" : 318486,\n')
+        j.write('\t\t"Infinite_Star" : 318488,\n')
+        j.write('\t\t"Gushing_Wound" : 318179,\n')
+        j.write('\t\t"Twilight_Devastation" : 318478,\n')
+        j.write('\t\t"Searing_Flames" : 316698,\n')
+        j.write('\t\t"Ineffable_Truth" : 318484,\n')
+        j.write('\t\t"Void_Ritual" : 318480,\n')
+        j.write('\t\t"Lash_of_the_Void" : 317290,\n')
+        j.write('\t\t"Flash_of_Insight" : 316717,\n')
+        j.write('\t\t"Whispered_Truths" : 316780,\n')
+        j.write('\t\t"Obsidian_Skin" : 316651,\n')
+        j.write('\t\t"Devoir_Vitality" : 318294,\n')
+        j.write('\t\t"Twisted_Appendage" : 318483,\n')
+        j.write('\t\t"Percent_Haste" : 315546,\n')
+        j.write('\t\t"Percent_Crit" : 315531,\n')
+        j.write('\t\t"Percent_Vers" : 315558,\n')
+        j.write('\t\t"Percent_Mast" : 315553,\n')
+        j.write('\t\t"Crit_DMG" : 315282,\n')
+        j.write('\t\t"Glimpse_of_Clarity" : 315573,\n')
+        j.write('\t\t"Haste_Proc" : 318496,\n')
+        j.write('\t\t"Mastery_Proc" : 318498,\n')
+        j.write('\t\t"Crit_Proc" : 318497,\n')
+        j.write('\t\t"Versatility_Proc" : 318499\n')
+        j.write('\t},\n')
+
+        j.write('\t"simulated_steps": [\n')
+        #write the 3 levels of corruption tier
+        j.write('\t\t"1_tier",\n')
+        j.write('\t\t"2_tier",\n')
+        j.write('\t\t"3_tier"\n')
+        j.write('\t],\n')
+        DPSSort = dict()
+        for u in uniqueList:
+            for x in data:
+                if x['profile'] == simType:
+                    totalDPS = 0
+                    if x['actor'] == str(u+'1'):
+                        totalDPS += int(x["DPS"])
+                    if x['actor'] == str(u+'2'):
+                        totalDPS += int(x["DPS"])
+                    if x['actor'] == str(u+'3'):
+                        totalDPS += int(x["DPS"])
+                    u = u.replace('_'," ").rstrip()
+                    DPSSort.update({u : totalDPS})
+        #if "Int_" in uniqueList: uniqueList.remove("Int_")
+        import operator
+        sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
+
+
+        j.write('\t"sorted_data_keys": [\n')
+        cnt=0
+        ucntMax = len(sorted_x)
+        for key in sorted_x:
+            cnt+=1
+            if 'Int' not in key[0]:
+                if cnt < ucntMax:
+                    j.write('\t\t "' + key[0] + '",\n')
+                else:
+                    j.write('\t\t "' + key[0] + '"\n')
+        j.write('\t]')
+        #j.write('\n\t},')
+        j.write('\n}')
+    j.close()
+
 
 def buildSingleChart(injsonFile, outjsonFile, simType, sim):
     namelist = list()
@@ -1046,6 +1290,13 @@ buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
 
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_C.json", 'composite')
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_ST.json", 'single_target')
+buildCorruptionJsonChart(corruptionSCJsonD, "corruption_SC_D.json", 'dungeons')
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_C.json", 'composite')
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_ST.json", 'single_target')
+buildCorruptionJsonChart(corruptionASJsonD, "corruption_AS_D.json", 'dungeons')
+
 #exit()
 
 buildEssenceJsonChart(essencesASJson, "essences_AS_C.json", 'composite')
@@ -1108,6 +1359,10 @@ os.remove(consumablesASJson)
 os.remove(consumablesASJsonD)
 os.remove(consumablesSCJson)
 os.remove(consumablesSCJsonD)
+os.remove(corruptionASJson)
+os.remove(corruptionASJsonD)
+os.remove(corruptionSCJson)
+os.remove(corruptionSCJsonD)
 
 
 

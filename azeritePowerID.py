@@ -25,6 +25,7 @@ azeritePowerIDs = {
     "Filthy_Transfusion_1":194,
     "Glory_in_Battle_1":486,
     "Gutripper_1":31,
+    "Heart_of_Darkness_1":582,
     "Heed_My_Call_1":22,
     "Incite_the_Pack_1":481,
     "Laser_Matrix_1":485,
