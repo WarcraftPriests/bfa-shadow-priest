@@ -1,34 +1,39 @@
 {
 	"data": {
 		"Infinite Star": {
-			"1_tier": 69279,
-			"2_tier": 75917,
-			"3_tier": 81292
+			"1_tier": 69329,
+			"2_tier": 75842,
+			"3_tier": 81344
 		},
 		"Echoing Void": {
-			"1_tier": 69161,
-			"2_tier": 71206,
-			"3_tier": 75234
+			"1_tier": 69150,
+			"2_tier": 71198,
+			"3_tier": 75240
 		},
 		"Twilight Devastation": {
-			"1_tier": 66509,
-			"2_tier": 68023,
-			"3_tier": 69528
+			"1_tier": 66468,
+			"2_tier": 68031,
+			"3_tier": 69569
 		},
 		"Haste Proc": {
-			"1_tier": 66590,
-			"2_tier": 67180,
-			"3_tier": 68788
+			"1_tier": 66610,
+			"2_tier": 67170,
+			"3_tier": 68808
 		},
 		"Percent Crit": {
-			"1_tier": 66515,
-			"2_tier": 67302,
-			"3_tier": 68090
+			"1_tier": 66505,
+			"2_tier": 67303,
+			"3_tier": 68122
 		},
 		"Percent Haste": {
-			"1_tier": 66416,
-			"2_tier": 67117,
-			"3_tier": 67863
+			"1_tier": 66372,
+			"2_tier": 67126,
+			"3_tier": 67891
+		},
+		"Twisted Appendage": {
+			"1_tier": 65395,
+			"2_tier": 66655,
+			"3_tier": 68208
 		},
 		"Gushing Wound": {
 			"1_tier": 67891,
@@ -36,67 +41,62 @@
 			"3_tier": 0
 		},
 		"Void Ritual": {
-			"1_tier": 65457,
-			"2_tier": 66259,
-			"3_tier": 67526
+			"1_tier": 65479,
+			"2_tier": 66278,
+			"3_tier": 67522
 		},
 		"Mastery Proc": {
-			"1_tier": 65932,
-			"2_tier": 66266,
-			"3_tier": 67316
+			"1_tier": 65957,
+			"2_tier": 66298,
+			"3_tier": 67331
 		},
 		"Flash of Insight": {
-			"1_tier": 67112,
+			"1_tier": 67089,
 			"2_tier": 0,
 			"3_tier": 0
 		},
 		"Ineffable Truth": {
-			"1_tier": 65771,
-			"2_tier": 66795,
+			"1_tier": 65770,
+			"2_tier": 66781,
 			"3_tier": 0
 		},
 		"Crit Proc": {
-			"1_tier": 65567,
-			"2_tier": 65733,
-			"3_tier": 66382
+			"1_tier": 65565,
+			"2_tier": 65726,
+			"3_tier": 66396
 		},
 		"Crit DMG": {
-			"1_tier": 65641,
-			"2_tier": 66058,
-			"3_tier": 66374
+			"1_tier": 65636,
+			"2_tier": 66015,
+			"3_tier": 66401
 		},
 		"Glimpse of Clarity": {
-			"1_tier": 66081,
+			"1_tier": 66089,
 			"2_tier": 0,
 			"3_tier": 0
 		},
 		"Percent Vers": {
-			"1_tier": 65240,
-			"2_tier": 65451,
-			"3_tier": 65622
+			"1_tier": 65293,
+			"2_tier": 65432,
+			"3_tier": 65616
 		},
 		"Percent Mast": {
-			"1_tier": 65195,
-			"2_tier": 65382,
-			"3_tier": 65474
+			"1_tier": 65207,
+			"2_tier": 65325,
+			"3_tier": 65451
 		},
 		"Lash of the Void": {
-			"1_tier": 65403,
+			"1_tier": 65440,
 			"2_tier": 0,
 			"3_tier": 0
 		},
-		"Twisted Appendage": {
-			"1_tier": 64930,
-			"2_tier": 64923,
-			"3_tier": 64919
-		},
 		"Versatility Proc": {
-			"1_tier": 64930,
-			"2_tier": 64940,
-			"3_tier": 64906
+			"1_tier": 64889,
+			"2_tier": 64938,
+			"3_tier": 64907
 		},
 		"Base": {
-			"1_tier": 64925,
+			"1_tier": 64907,
 			"2_tier": 0,
 			"3_tier": 0
 		}
@@ -138,6 +138,7 @@
 		 "Haste Proc",
 		 "Percent Crit",
 		 "Percent Haste",
+		 "Twisted Appendage",
 		 "Gushing Wound",
 		 "Void Ritual",
 		 "Mastery Proc",
@@ -149,7 +150,6 @@
 		 "Percent Vers",
 		 "Percent Mast",
 		 "Lash of the Void",
-		 "Twisted Appendage",
 		 "Versatility Proc"
 	]
 }
