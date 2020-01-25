@@ -10,11 +10,11 @@
 		},
 		"MoLD CLF EotFI LS": {
 		},
-		"MoLD PP BotE LS Aberration": {
+		"MoLD CoF BotE LS": {
 		},
 		"MoLD BotE CoF LS": {
 		},
-		"MoLD CoF BotE LS": {
+		"MoLD PP BotE LS Aberration": {
 		},
 		"CLF EotFI BotE LS": {
 		},
@@ -22,9 +22,9 @@
 		},
 		"MoLD CLF BotE LS": {
 		},
-		"CLF EotFI PP LS Aberration": {
-		},
 		"MoLD PP CoF LS Aberration": {
+		},
+		"CLF EotFI PP LS Aberration": {
 		},
 		"CLF EotFI CoF LS": {
 		},
@@ -49,192 +49,192 @@
 		"CLF CoF CoF LS": {
 		},
 		"Memory of Lucid Dreams": {
-			"rank_3": 53190,
-			"rank_2": 51881,
-			"rank_1": 51444
+			"rank_3": 55958,
+			"rank_2": 54630,
+			"rank_1": 54134
 		},
 		"Focused Azerite Beam": {
-			"rank_3": 51883,
-			"rank_2": 51832,
-			"rank_1": 50720
+			"rank_3": 54513,
+			"rank_2": 54453,
+			"rank_1": 53253
 		},
 		"Guardian of Azeroth": {
-			"rank_3": 52785,
-			"rank_2": 50787,
-			"rank_1": 50169
+			"rank_3": 55442,
+			"rank_2": 53334,
+			"rank_1": 52712
 		},
 		"Reaping Flames": {
-			"rank_3": 52337,
-			"rank_2": 51069,
-			"rank_1": 50757
+			"rank_3": 54823,
+			"rank_2": 53540,
+			"rank_1": 53240
 		},
 		"Concentrated Flame": {
-			"rank_3": 52274,
-			"rank_2": 51025,
-			"rank_1": 50022
+			"rank_3": 54740,
+			"rank_2": 53536,
+			"rank_1": 52526
 		},
 		"Purifying Blast Aberration": {
-			"rank_3": 50552,
-			"rank_2": 50278,
-			"rank_1": 50294
+			"rank_3": 53089,
+			"rank_2": 52813,
+			"rank_1": 52831
 		},
 		"Focused Energy": {
-			"rank_3": 51238,
-			"rank_2": 51242,
-			"rank_1": 50389
-		},
-		"Lethal Strikes": {
-			"rank_3": 51501,
-			"rank_2": 50238,
-			"rank_1": 50239
+			"rank_3": 53942,
+			"rank_2": 53930,
+			"rank_1": 53019
 		},
 		"The Unbound Force": {
-			"rank_3": 51158,
-			"rank_2": 50187,
-			"rank_1": 49971
+			"rank_3": 53862,
+			"rank_2": 52877,
+			"rank_1": 52634
+		},
+		"Lethal Strikes": {
+			"rank_3": 54049,
+			"rank_2": 52795,
+			"rank_1": 52775
 		},
 		"Lucid Dreams": {
-			"rank_3": 51086,
-			"rank_2": 49904,
-			"rank_1": 49902
+			"rank_3": 53795,
+			"rank_2": 52500,
+			"rank_1": 52494
 		},
 		"Purifying Blast": {
-			"rank_3": 50121,
-			"rank_2": 49935,
-			"rank_1": 49931
+			"rank_3": 52640,
+			"rank_2": 52466,
+			"rank_1": 52456
 		},
 		"Blood Soaked": {
-			"rank_3": 50650,
-			"rank_2": 50560,
-			"rank_1": 49444
+			"rank_3": 53323,
+			"rank_2": 53199,
+			"rank_1": 52063
 		},
 		"Vision of Perfection": {
-			"rank_3": 50634,
-			"rank_2": 49968,
-			"rank_1": 49575
+			"rank_3": 53310,
+			"rank_2": 52602,
+			"rank_1": 52164
 		},
 		"Strife": {
-			"rank_3": 50618,
-			"rank_2": 49978,
-			"rank_1": 49477
+			"rank_3": 53307,
+			"rank_2": 52556,
+			"rank_1": 52081
 		},
 		"Conflict": {
-			"rank_3": 50604,
-			"rank_2": 49944,
-			"rank_1": 49457
+			"rank_3": 53281,
+			"rank_2": 52593,
+			"rank_1": 52069
 		},
 		"Reckless Force": {
-			"rank_3": 50439,
-			"rank_2": 49864,
-			"rank_1": 49657
+			"rank_3": 53079,
+			"rank_2": 52492,
+			"rank_1": 52277
 		},
 		"Purification Protocol Aberration": {
-			"rank_3": 50006,
-			"rank_2": 49730,
-			"rank_1": 49739
+			"rank_3": 52538,
+			"rank_2": 52294,
+			"rank_1": 52296
 		},
 		"Ancient Flame": {
-			"rank_3": 50639,
-			"rank_2": 49769,
-			"rank_1": 49539
+			"rank_3": 53203,
+			"rank_2": 52320,
+			"rank_1": 52111
 		},
 		"Condensed Life Force": {
-			"rank_3": 50151,
-			"rank_2": 49708,
-			"rank_1": 49503
+			"rank_3": 52704,
+			"rank_2": 52278,
+			"rank_1": 52054
 		},
 		"Purification Protocol": {
-			"rank_3": 49562,
-			"rank_2": 49391,
-			"rank_1": 49395
+			"rank_3": 52118,
+			"rank_2": 51942,
+			"rank_1": 51930
 		},
 		"Ripple in Space": {
-			"rank_3": 49371,
-			"rank_2": 49385,
-			"rank_1": 49214
-		},
-		"Strive for Perfection": {
-			"rank_3": 49261,
-			"rank_2": 48773,
-			"rank_1": 48761
+			"rank_3": 51868,
+			"rank_2": 51879,
+			"rank_1": 51753
 		},
 		"Unified Strength": {
-			"rank_3": 48668,
-			"rank_2": 48680,
-			"rank_1": 48683
-		},
-		"Symbiotic Presence": {
-			"rank_3": 48686,
-			"rank_2": 48687,
-			"rank_1": 48684
+			"rank_3": 51939,
+			"rank_2": 51933,
+			"rank_1": 51628
 		},
 		"Moment of Glory": {
-			"rank_3": 48676,
-			"rank_2": 48679,
-			"rank_1": 48671
+			"rank_3": 51939,
+			"rank_2": 51935,
+			"rank_1": 51658
+		},
+		"Strive for Perfection": {
+			"rank_3": 51854,
+			"rank_2": 51342,
+			"rank_1": 51329
+		},
+		"Symbiotic Presence": {
+			"rank_3": 51220,
+			"rank_2": 51250,
+			"rank_1": 51241
 		},
 		"Replica of Knowledge": {
-			"rank_3": 48663,
-			"rank_2": 48684,
-			"rank_1": 48671
+			"rank_3": 51230,
+			"rank_2": 51210,
+			"rank_1": 51218
 		},
 		"Base": {
-			"rank_1": 48669
+			"rank_1": 51242
 		},
 		"Blood of the Enemy 100": {
-			"rank_3": 52907,
-			"rank_2": 52224,
-			"rank_1": 51165
+			"rank_3": 55625,
+			"rank_2": 54919,
+			"rank_1": 53805
 		},
 		"Blood of the Enemy 75": {
-			"rank_3": 52301,
-			"rank_2": 51697,
-			"rank_1": 50660
+			"rank_3": 55040,
+			"rank_2": 54392,
+			"rank_1": 53295
 		},
 		"Blood of the Enemy 50": {
-			"rank_3": 51733,
-			"rank_2": 51187,
-			"rank_1": 50142
+			"rank_3": 54414,
+			"rank_2": 53850,
+			"rank_1": 52736
 		},
 		"Worldvein Resonance 3 Allies":{
-			"rank_3": 51364,
-			"rank_2": 51583,
-			"rank_1": 50863
-		},
-		"Worldvein Resonance 2 Allies":{
-			"rank_3": 51538,
-			"rank_2": 51453,
-			"rank_1": 50499
-		},
-		"Worldvein Resonance 1 Allies":{
-			"rank_3": 51523,
-			"rank_2": 51231,
-			"rank_1": 50039
+			"rank_3": 54601,
+			"rank_2": 54399,
+			"rank_1": 53415
 		},
 		"Worldvein Resonance 4 Allies":{
-			"rank_3": 51392,
-			"rank_2": 51421,
-			"rank_1": 51134
+			"rank_3": 54618,
+			"rank_2": 54525,
+			"rank_1": 53685
+		},
+		"Worldvein Resonance 2 Allies":{
+			"rank_3": 54510,
+			"rank_2": 54097,
+			"rank_1": 53029
+		},
+		"Worldvein Resonance 1 Allies":{
+			"rank_3": 54195,
+			"rank_2": 53765,
+			"rank_1": 52584
 		},
 		"Lifeblood 4 Allies":{
-			"rank_3": 50764,
-			"rank_2": 50631,
-			"rank_1": 50107
+			"rank_3": 53309,
+			"rank_2": 53176,
+			"rank_1": 52701
 		},
 		"Lifeblood 3 Allies":{
-			"rank_3": 50726,
-			"rank_2": 50451,
-			"rank_1": 49895
+			"rank_3": 53268,
+			"rank_2": 53020,
+			"rank_1": 52433
 		},
 		"Lifeblood 2 Allies":{
-			"rank_3": 50567,
-			"rank_2": 50020,
-			"rank_1": 49591
+			"rank_3": 53126,
+			"rank_2": 52564,
+			"rank_1": 52138
 		},
 		"Lifeblood 1 Allies":{
-			"rank_3": 50155,
-			"rank_2": 49588,
-			"rank_1": 49286
+			"rank_3": 52705,
+			"rank_2": 52122,
+			"rank_1": 51846
 		}
 	},
 	"spell_ids" : {
@@ -283,54 +283,54 @@
 	"sorted_data_keys" : [
 		 "Memory of Lucid Dreams",
 		 "Blood of the Enemy 100",
-		 "Blood of the Enemy 75",
-		 "Focused Azerite Beam",
-		 "Reaping Flames",
 		 "Worldvein Resonance 4 Allies",
+		 "Blood of the Enemy 75",
 		 "Worldvein Resonance 3 Allies",
-		 "Guardian of Azeroth",
+		 "Focused Azerite Beam",
 		 "Worldvein Resonance 2 Allies",
-		 "Concentrated Flame",
+		 "Reaping Flames",
+		 "Guardian of Azeroth",
 		 "Blood of the Enemy 50",
 		 "Focused Energy",
+		 "Concentrated Flame",
 		 "Worldvein Resonance 1 Allies",
 		 "Lethal Strikes",
-		 "Lifeblood 4 Allies",
 		 "The Unbound Force",
+		 "Lifeblood 4 Allies",
+		 "Lucid Dreams",
 		 "Purifying Blast Aberration",
 		 "Lifeblood 3 Allies",
-		 "Lucid Dreams",
 		 "Blood Soaked",
-		 "Lifeblood 2 Allies",
 		 "Vision of Perfection",
 		 "Strife",
 		 "Conflict",
-		 "Purifying Blast",
 		 "Reckless Force",
+		 "Lifeblood 2 Allies",
 		 "Ancient Flame",
+		 "Purifying Blast",
 		 "Purification Protocol Aberration",
 		 "Condensed Life Force",
 		 "Lifeblood 1 Allies",
 		 "Purification Protocol",
+		 "Moment of Glory",
 		 "Ripple in Space",
+		 "Unified Strength",
 		 "Strive for Perfection",
 		 "Symbiotic Presence",
-		 "Unified Strength",
-		 "Moment of Glory",
 		 "Replica of Knowledge",
 		 "MoLD EotFI BotE LS",
 		 "MoLD EotFI PP LS Aberration",
 		 "MoLD EotFI CoF LS",
 		 "CLF MoLD EotFI LS",
 		 "MoLD CLF EotFI LS",
-		 "MoLD PP BotE LS Aberration",
-		 "MoLD BotE CoF LS",
 		 "MoLD CoF BotE LS",
+		 "MoLD BotE CoF LS",
+		 "MoLD PP BotE LS Aberration",
 		 "CLF EotFI BotE LS",
 		 "CLF MoLD BotE LS",
 		 "MoLD CLF BotE LS",
-		 "CLF EotFI PP LS Aberration",
 		 "MoLD PP CoF LS Aberration",
+		 "CLF EotFI PP LS Aberration",
 		 "CLF EotFI CoF LS",
 		 "CLF MoLD PP LS Aberration",
 		 "CLF MoLD CoF LS",
