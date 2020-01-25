@@ -27,99 +27,99 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # CD Reduction - Glimpse of Clarity
-profileset."Glimpse_of_Clarity_1"+=shirt=,id=52019,bonus_id=6486
+profileset."Glimpse_of_Clarity_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6486
 
 # Crit dmg + Healing - Strikethrough
-profileset."Crit_DMG_1"+=shirt=,id=52019,bonus_id=6437
-profileset."Crit_DMG_2"+=shirt=,id=52019,bonus_id=6438
-profileset."Crit_DMG_3"+=shirt=,id=52019,bonus_id=6439
+profileset."Crit_DMG_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6437
+profileset."Crit_DMG_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6438
+profileset."Crit_DMG_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6439
 
 # Flash of Insight
-profileset."Flash_of_Insight_1"+=shirt=,id=52019,bonus_id=6570
+profileset."Flash_of_Insight_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6570
 
 # Lash of the Void
-profileset."Lash_of_the_Void_1"+=shirt=,id=52019,bonus_id=6569
+profileset."Lash_of_the_Void_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6569
 
 # Whispered Truths - Hunter only
-# profileset."Whispered_Truths_1"+=shirt=,id=52019,bonus_id=6568
+# profileset."Whispered_Truths_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6568
 
 # Devour Vitality - melee only
-# profileset."Devour_Vitality_1"+=shirt=,id=52019,bonus_id=6567
+# profileset."Devour_Vitality_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6567
 
 # Percent Crit - Severe
-profileset."Percent_Crit_1"+=shirt=,id=52019,bonus_id=6480
-profileset."Percent_Crit_2"+=shirt=,id=52019,bonus_id=6481
-profileset."Percent_Crit_3"+=shirt=,id=52019,bonus_id=6482
+profileset."Percent_Crit_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6480
+profileset."Percent_Crit_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6481
+profileset."Percent_Crit_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6482
 
 # Percent Haste - Expedient
-profileset."Percent_Haste_1"+=shirt=,id=52019,bonus_id=6474
-profileset."Percent_Haste_2"+=shirt=,id=52019,bonus_id=6475
-profileset."Percent_Haste_3"+=shirt=,id=52019,bonus_id=6476
+profileset."Percent_Haste_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6474
+profileset."Percent_Haste_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6475
+profileset."Percent_Haste_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6476
 
 # Percent Vers - Versatile
-profileset."Percent_Vers_1"+=shirt=,id=52019,bonus_id=6477
-profileset."Percent_Vers_2"+=shirt=,id=52019,bonus_id=6478
-profileset."Percent_Vers_3"+=shirt=,id=52019,bonus_id=6479
+profileset."Percent_Vers_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6477
+profileset."Percent_Vers_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6478
+profileset."Percent_Vers_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6479
 
 # Percent Mast - Masterful
-profileset."Percent_Mast_1"+=shirt=,id=52019,bonus_id=6471
-profileset."Percent_Mast_2"+=shirt=,id=52019,bonus_id=6472
-profileset."Percent_Mast_3"+=shirt=,id=52019,bonus_id=6473
+profileset."Percent_Mast_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6471
+profileset."Percent_Mast_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6472
+profileset."Percent_Mast_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6473
 
 # Raw Crit - Deadly Momentum
-profileset."Crit_Proc_1"+=shirt=,id=52019,bonus_id=6556
-profileset."Crit_Proc_2"+=shirt=,id=52019,bonus_id=6561
-profileset."Crit_Proc_3"+=shirt=,id=52019,bonus_id=6562
+profileset."Crit_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6556
+profileset."Crit_Proc_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6561
+profileset."Crit_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6562
 
 # Raw Haste - Racing Pulse
-profileset."Haste_Proc_1"+=shirt=,id=52019,bonus_id=6555
-profileset."Haste_Proc_2"+=shirt=,id=52019,bonus_id=6559
-profileset."Haste_Proc_3"+=shirt=,id=52019,bonus_id=6560
+profileset."Haste_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6555
+profileset."Haste_Proc_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6559
+profileset."Haste_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6560
 
 # Raw Versatility - Surging Vitality
-profileset."Versatility_Proc_1"+=shirt=,id=52019,bonus_id=6558
-profileset."Versatility_Proc_2"+=shirt=,id=52019,bonus_id=6565
-profileset."Versatility_Proc_3"+=shirt=,id=52019,bonus_id=6566
+profileset."Versatility_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6558
+profileset."Versatility_Proc_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6565
+profileset."Versatility_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6566
 
 # Raw Mastery - Honed Mind
-profileset."Mastery_Proc_1"+=shirt=,id=52019,bonus_id=6557
-profileset."Mastery_Proc_2"+=shirt=,id=52019,bonus_id=6563
-profileset."Mastery_Proc_3"+=shirt=,id=52019,bonus_id=6564
+profileset."Mastery_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6557
+profileset."Mastery_Proc_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6563
+profileset."Mastery_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6564
 
 # Echoing Void
-profileset."Echoing_Void_1"+=shirt=,id=52019,bonus_id=6549
-profileset."Echoing_Void_2"+=shirt=,id=52019,bonus_id=6550
-profileset."Echoing_Void_3"+=shirt=,id=52019,bonus_id=6551
+profileset."Echoing_Void_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6549
+profileset."Echoing_Void_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6550
+profileset."Echoing_Void_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6551
 
 # Infinite Star
-profileset."Infinite_Star_1"+=shirt=,id=52019,bonus_id=6552
-profileset."Infinite_Star_2"+=shirt=,id=52019,bonus_id=6553
-profileset."Infinite_Star_3"+=shirt=,id=52019,bonus_id=6554
+profileset."Infinite_Star_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6552
+profileset."Infinite_Star_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6553
+profileset."Infinite_Star_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6554
 
 # Ineffable Truth
-profileset."Ineffable_Truth_1"+=shirt=,id=52019,bonus_id=6547
-profileset."Ineffable_Truth_2"+=shirt=,id=52019,bonus_id=6548
+profileset."Ineffable_Truth_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6547
+profileset."Ineffable_Truth_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6548
 
 # Twilight Devastation
-profileset."Twilight_Devastation_1"+=shirt=,id=52019,bonus_id=6537
-profileset."Twilight_Devastation_2"+=shirt=,id=52019,bonus_id=6538
-profileset."Twilight_Devastation_3"+=shirt=,id=52019,bonus_id=6539
+profileset."Twilight_Devastation_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6537
+profileset."Twilight_Devastation_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6538
+profileset."Twilight_Devastation_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6539
 
 # Twisted Appendage
-profileset."Twisted_Appendage_1"+=shirt=,id=52019,bonus_id=6543
-profileset."Twisted_Appendage_2"+=shirt=,id=52019,bonus_id=6544
-profileset."Twisted_Appendage_3"+=shirt=,id=52019,bonus_id=6545
+profileset."Twisted_Appendage_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6543
+profileset."Twisted_Appendage_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6544
+profileset."Twisted_Appendage_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6545
 
 # Void Ritual
-profileset."Void_Ritual_1"+=shirt=,id=52019,bonus_id=6540
-profileset."Void_Ritual_2"+=shirt=,id=52019,bonus_id=6541
-profileset."Void_Ritual_3"+=shirt=,id=52019,bonus_id=6542
+profileset."Void_Ritual_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6540
+profileset."Void_Ritual_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6541
+profileset."Void_Ritual_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6542
 
 # Gushing Wound
-profileset."Gushing_Wound_1"+=shirt=,id=52019,bonus_id=6573
+profileset."Gushing_Wound_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6573
 
 # Obsidian Skin - tanks only
-# profileset."Obsidian_Skin_1"+=shirt=,id=52019,bonus_id=6572
+# profileset."Obsidian_Skin_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6572
 
 # Searing Flames - tanks only
-# profileset."Searing_Flames_1"+=shirt=,id=52019,bonus_id=6571
+# profileset."Searing_Flames_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6571
