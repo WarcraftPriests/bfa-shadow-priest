@@ -975,112 +975,73 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
             m = re.search(r"\D*",x['actor'].rstrip()).group(0)
             namelist.append(m)
         uniqueList = make_unique(namelist)
-        if "Base" in uniqueList: uniqueList.remove("Base")
-        if "Int_" in uniqueList: uniqueList.remove("Int_")
         j.write('\t"data": {\n')
+        if '' in uniqueList: uniqueList.remove(''); #Remove random blank sims
         ucntMax = len(uniqueList)
         #print(ucntMax)
-        ucnt = 0
-        for u in uniqueList:
-            ucnt+=1
-            corruptionSteps = ['1','2','3'] #Should always be 1-3 unless they add extra corruption tiers
-            if not u.replace('_',' ').rstrip() == 'Int' or u == 'Base': #Pull the int sims out
-                j.write('\t\t"' + u.replace('_',' ').rstrip() +'": {\n')
-            maxCnt = 3
-            cnt = 0
-            for y in corruptionSteps:
-                cnt+=1
-                for x in data:
-                    if x['profile'] == simType:
-                        if x['actor'] == str(u+y) and 'base' not in x['actor'].lower():
-                            if x['actor'] == ("Gushing_Wound_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Ineffable_Truth_" + y):
-                                #Hack fix because fuck this corruption
-                                written = False
-                                if y == str(1):
-                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
-                                if y == str(2):
-                                    j.write('\t\t\t"' + y + '_tier": ' + x['DPS'] + ',\n')
-                                    written = True
-                                if written:
-                                    j.write('\t\t\t"3_tier": 0\n')
-                            elif "Ineffable_Truth" in x['actor'] and y == str(3):
-                                print("YES")
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Glimpse_of_Clarity_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Lash_of_the_Void_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Flash_of_Insight_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Obsidian_Skin_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Devoir_Vitality_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Searing_Flames_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            elif x['actor'] == ("Whispered_Truths_" + y):
-                                j.write('\t\t\t"1_tier": ' + x['DPS'] + ',\n')
-                                j.write('\t\t\t"2_tier": 0,\n')
-                                j.write('\t\t\t"3_tier": 0\n')
-                            else:
-                                if cnt < maxCnt:
-                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+',\n')
-                                else:
-                                    j.write('\t\t\t"'+y+'_tier": '+x['DPS']+'\n')
-            if ucnt < ucntMax:
-                if not u.replace('_',' ').rstrip() == 'Int': #Have to check for int sims again
-                    j.write('\t\t},\n')
-            if ucnt == ucntMax:
-                j.write('\t\t},')
-                for x in data:
-                    if x['profile'] == simType and x['actor'] == 'Base':
-                        j.write('\n\t\t"Base": {\n')
-                        j.write('\t\t\t"1_tier": '+x['DPS']+',\n')
-                        j.write('\t\t\t"2_tier": 0,\n')
-                        j.write('\t\t\t"3_tier": 0\n') #Have to add empty stacks here because highcharts is dumb.
-                j.write('\t\t}\n')
+        corruptionList = []
+        for x in data:
+            if x['profile'] == simType: 
+                actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'
+                actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+'\n\t\t}'
+                corruptionList.append(actorName + actorDPS)   
+        j.write(',\n'.join(corruptionList) + '\n')
         j.write('\t},\n')
         # Spell Data
         j.write('\t"spell_ids" : {\n')
-        j.write('\t\t"Echoing_Void" : 318486,\n')
-        j.write('\t\t"Infinite_Star" : 318488,\n')
-        j.write('\t\t"Gushing_Wound" : 318179,\n')
-        j.write('\t\t"Twilight_Devastation" : 318478,\n')
-        j.write('\t\t"Searing_Flames" : 316698,\n')
-        j.write('\t\t"Ineffable_Truth" : 318484,\n')
-        j.write('\t\t"Void_Ritual" : 318480,\n')
-        j.write('\t\t"Lash_of_the_Void" : 317290,\n')
-        j.write('\t\t"Flash_of_Insight" : 316717,\n')
-        j.write('\t\t"Whispered_Truths" : 316780,\n')
-        j.write('\t\t"Obsidian_Skin" : 316651,\n')
-        j.write('\t\t"Devoir_Vitality" : 318294,\n')
-        j.write('\t\t"Twisted_Appendage" : 318483,\n')
-        j.write('\t\t"Percent_Haste" : 315546,\n')
-        j.write('\t\t"Percent_Crit" : 315531,\n')
-        j.write('\t\t"Percent_Vers" : 315558,\n')
-        j.write('\t\t"Percent_Mast" : 315553,\n')
-        j.write('\t\t"Crit_DMG" : 315282,\n')
-        j.write('\t\t"Glimpse_of_Clarity" : 315573,\n')
-        j.write('\t\t"Haste_Proc" : 318496,\n')
-        j.write('\t\t"Mastery_Proc" : 318498,\n')
-        j.write('\t\t"Crit_Proc" : 318497,\n')
-        j.write('\t\t"Versatility_Proc" : 318499\n')
+        j.write('\t\t"Echoing_Void_1" : 318280,\n')
+        j.write('\t\t"Echoing_Void_2" : 318485,\n')
+        j.write('\t\t"Echoing_Void_3" : 318486,\n')
+        j.write('\t\t"Infinite_Star_1" : 318489,\n')
+        j.write('\t\t"Infinite_Star_2" : 318487,\n')
+        j.write('\t\t"Infinite_Star_3" : 318488,\n')
+        j.write('\t\t"Gushing_Wound_1" : 318179,\n')
+        j.write('\t\t"Twilight_Devastation_1" : 318276,\n')
+        j.write('\t\t"Twilight_Devastation_2" : 318477,\n')
+        j.write('\t\t"Twilight_Devastation_3" : 318478,\n')
+        j.write('\t\t"Searing_Flames_1" : 316698,\n')
+        j.write('\t\t"Searing_Flames_2" : 316698,\n')
+        j.write('\t\t"Searing_Flames_3" : 316698,\n')
+        j.write('\t\t"Ineffable_Truth_1" : 316799,\n')
+        j.write('\t\t"Ineffable_Truth_2" : 318484,\n')
+        j.write('\t\t"Void_Ritual_1" : 318286,\n')
+        j.write('\t\t"Void_Ritual_2" : 318479,\n')
+        j.write('\t\t"Void_Ritual_3" : 318480,\n')
+        j.write('\t\t"Lash_of_the_Void_1" : 317291,\n')
+        j.write('\t\t"Lash_of_the_Void_2" : 319241,\n')
+        j.write('\t\t"Lash_of_the_Void_3" : 317290,\n')
+        j.write('\t\t"Flash_of_Insight_1" : 316717,\n')
+        j.write('\t\t"Twisted_Appendage_1" : 318481,\n')
+        j.write('\t\t"Twisted_Appendage_2" : 318482,\n')
+        j.write('\t\t"Twisted_Appendage_3" : 318483,\n')
+        j.write('\t\t"Percent_Haste_1" : 315544,\n')
+        j.write('\t\t"Percent_Haste_2" : 315545,\n')
+        j.write('\t\t"Percent_Haste_3" : 315546,\n')
+        j.write('\t\t"Percent_Crit_1" : 315554,\n')
+        j.write('\t\t"Percent_Crit_2" : 315557,\n')
+        j.write('\t\t"Percent_Crit_3" : 315538,\n')
+        j.write('\t\t"Percent_Vers_1" : 315549,\n')
+        j.write('\t\t"Percent_Vers_2" : 315552,\n')
+        j.write('\t\t"Percent_Vers_3" : 315553,\n')
+        j.write('\t\t"Percent_Mast_1" : 315529,\n')
+        j.write('\t\t"Percent_Mast_2" : 315530,\n')
+        j.write('\t\t"Percent_Mast_3" : 315531,\n')
+        j.write('\t\t"Crit_DMG_1" : 315277,\n')
+        j.write('\t\t"Crit_DMG_2" : 315281,\n')
+        j.write('\t\t"Crit_DMG_3" : 315282,\n')
+        j.write('\t\t"Glimpse_of_Clarity_2" : 315573,\n')
+        j.write('\t\t"Haste_Proc_1" : 318266,\n')
+        j.write('\t\t"Haste_Proc_2" : 318492,\n')
+        j.write('\t\t"Haste_Proc_3" : 318496,\n')
+        j.write('\t\t"Mastery_Proc_1" : 318269,\n')
+        j.write('\t\t"Mastery_Proc_2" : 318494,\n')
+        j.write('\t\t"Mastery_Proc_3" : 318498,\n')
+        j.write('\t\t"Crit_Proc_1" : 318268,\n')
+        j.write('\t\t"Crit_Proc_2" : 318493,\n')
+        j.write('\t\t"Crit_Proc_3" : 318497,\n')
+        j.write('\t\t"Versatility_Proc_1" : 318270,\n')
+        j.write('\t\t"Versatility_Proc_2" : 318495,\n')
+        j.write('\t\t"Versatility_Proc_3" : 318499\n')
         j.write('\t},\n')
 
         j.write('\t"simulated_steps": [\n')
@@ -1090,18 +1051,9 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
         j.write('\t\t"3_tier"\n')
         j.write('\t],\n')
         DPSSort = dict()
-        for u in uniqueList:
-            for x in data:
-                if x['profile'] == simType:
-                    totalDPS = 0
-                    if x['actor'] == str(u+'1'):
-                        totalDPS += int(x["DPS"])
-                    if x['actor'] == str(u+'2'):
-                        totalDPS += int(x["DPS"])
-                    if x['actor'] == str(u+'3'):
-                        totalDPS += int(x["DPS"])
-                    u = u.replace('_'," ").rstrip()
-                    DPSSort.update({u : totalDPS})
+        for x in data:
+            if x['profile'] == simType:
+                DPSSort.update({x['actor'] : x['DPS']})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)

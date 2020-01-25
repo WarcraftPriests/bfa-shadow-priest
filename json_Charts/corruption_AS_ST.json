@@ -1,130 +1,207 @@
 {
 	"data": {
-		"Infinite Star": {
-			"1_tier": 69329,
-			"2_tier": 75842,
-			"3_tier": 81344
+		"Infinite Star 3": {
+			"DPS" : 81344
 		},
-		"Echoing Void": {
-			"1_tier": 69150,
-			"2_tier": 71198,
-			"3_tier": 75240
+		"Infinite Star 2": {
+			"DPS" : 75842
 		},
-		"Twilight Devastation": {
-			"1_tier": 66468,
-			"2_tier": 68031,
-			"3_tier": 69569
+		"Echoing Void 3": {
+			"DPS" : 75240
 		},
-		"Haste Proc": {
-			"1_tier": 66610,
-			"2_tier": 67170,
-			"3_tier": 68808
+		"Echoing Void 2": {
+			"DPS" : 71198
 		},
-		"Percent Crit": {
-			"1_tier": 66505,
-			"2_tier": 67303,
-			"3_tier": 68122
+		"Twilight Devastation 3": {
+			"DPS" : 69569
 		},
-		"Percent Haste": {
-			"1_tier": 66372,
-			"2_tier": 67126,
-			"3_tier": 67891
+		"Infinite Star 1": {
+			"DPS" : 69329
 		},
-		"Twisted Appendage": {
-			"1_tier": 65395,
-			"2_tier": 66655,
-			"3_tier": 68208
+		"Echoing Void 1": {
+			"DPS" : 69150
 		},
-		"Gushing Wound": {
-			"1_tier": 67891,
-			"2_tier": 0,
-			"3_tier": 0
+		"Haste Proc 3": {
+			"DPS" : 68808
 		},
-		"Void Ritual": {
-			"1_tier": 65479,
-			"2_tier": 66278,
-			"3_tier": 67522
+		"Twisted Appendage 3": {
+			"DPS" : 68208
 		},
-		"Mastery Proc": {
-			"1_tier": 65957,
-			"2_tier": 66298,
-			"3_tier": 67331
+		"Percent Crit 3": {
+			"DPS" : 68122
 		},
-		"Flash of Insight": {
-			"1_tier": 67089,
-			"2_tier": 0,
-			"3_tier": 0
+		"Twilight Devastation 2": {
+			"DPS" : 68031
 		},
-		"Ineffable Truth": {
-			"1_tier": 65770,
-			"2_tier": 66781,
-			"3_tier": 0
+		"Percent Haste 3": {
+			"DPS" : 67891
 		},
-		"Crit Proc": {
-			"1_tier": 65565,
-			"2_tier": 65726,
-			"3_tier": 66396
+		"Gushing Wound 1": {
+			"DPS" : 67891
 		},
-		"Crit DMG": {
-			"1_tier": 65636,
-			"2_tier": 66015,
-			"3_tier": 66401
+		"Void Ritual 3": {
+			"DPS" : 67522
 		},
-		"Glimpse of Clarity": {
-			"1_tier": 66089,
-			"2_tier": 0,
-			"3_tier": 0
+		"Mastery Proc 3": {
+			"DPS" : 67331
 		},
-		"Percent Vers": {
-			"1_tier": 65293,
-			"2_tier": 65432,
-			"3_tier": 65616
+		"Percent Crit 2": {
+			"DPS" : 67303
 		},
-		"Percent Mast": {
-			"1_tier": 65207,
-			"2_tier": 65325,
-			"3_tier": 65451
+		"Haste Proc 2": {
+			"DPS" : 67170
 		},
-		"Lash of the Void": {
-			"1_tier": 65440,
-			"2_tier": 0,
-			"3_tier": 0
+		"Percent Haste 2": {
+			"DPS" : 67126
 		},
-		"Versatility Proc": {
-			"1_tier": 64889,
-			"2_tier": 64938,
-			"3_tier": 64907
+		"Flash of Insight 1": {
+			"DPS" : 67089
+		},
+		"Ineffable Truth 2": {
+			"DPS" : 66781
+		},
+		"Twisted Appendage 2": {
+			"DPS" : 66655
+		},
+		"Haste Proc 1": {
+			"DPS" : 66610
+		},
+		"Percent Crit 1": {
+			"DPS" : 66505
+		},
+		"Twilight Devastation 1": {
+			"DPS" : 66468
+		},
+		"Crit DMG 3": {
+			"DPS" : 66401
+		},
+		"Crit Proc 3": {
+			"DPS" : 66396
+		},
+		"Percent Haste 1": {
+			"DPS" : 66372
+		},
+		"Mastery Proc 2": {
+			"DPS" : 66298
+		},
+		"Void Ritual 2": {
+			"DPS" : 66278
+		},
+		"Glimpse of Clarity 1": {
+			"DPS" : 66089
+		},
+		"Crit DMG 2": {
+			"DPS" : 66015
+		},
+		"Mastery Proc 1": {
+			"DPS" : 65957
+		},
+		"Ineffable Truth 1": {
+			"DPS" : 65770
+		},
+		"Crit Proc 2": {
+			"DPS" : 65726
+		},
+		"Crit DMG 1": {
+			"DPS" : 65636
+		},
+		"Percent Vers 3": {
+			"DPS" : 65616
+		},
+		"Crit Proc 1": {
+			"DPS" : 65565
+		},
+		"Void Ritual 1": {
+			"DPS" : 65479
+		},
+		"Percent Mast 3": {
+			"DPS" : 65451
+		},
+		"Lash of the Void 1": {
+			"DPS" : 65440
+		},
+		"Percent Vers 2": {
+			"DPS" : 65432
+		},
+		"Twisted Appendage 1": {
+			"DPS" : 65395
+		},
+		"Percent Mast 2": {
+			"DPS" : 65325
+		},
+		"Percent Vers 1": {
+			"DPS" : 65293
+		},
+		"Percent Mast 1": {
+			"DPS" : 65207
+		},
+		"Versatility Proc 2": {
+			"DPS" : 64938
+		},
+		"Versatility Proc 3": {
+			"DPS" : 64907
 		},
 		"Base": {
-			"1_tier": 64907,
-			"2_tier": 0,
-			"3_tier": 0
+			"DPS" : 64907
+		},
+		"Versatility Proc 1": {
+			"DPS" : 64889
 		}
 	},
 	"spell_ids" : {
-		"Echoing_Void" : 318486,
-		"Infinite_Star" : 318488,
-		"Gushing_Wound" : 318179,
-		"Twilight_Devastation" : 318478,
-		"Searing_Flames" : 316698,
-		"Ineffable_Truth" : 318484,
-		"Void_Ritual" : 318480,
-		"Lash_of_the_Void" : 317290,
-		"Flash_of_Insight" : 316717,
-		"Whispered_Truths" : 316780,
-		"Obsidian_Skin" : 316651,
-		"Devoir_Vitality" : 318294,
-		"Twisted_Appendage" : 318483,
-		"Percent_Haste" : 315546,
-		"Percent_Crit" : 315531,
-		"Percent_Vers" : 315558,
-		"Percent_Mast" : 315553,
-		"Crit_DMG" : 315282,
-		"Glimpse_of_Clarity" : 315573,
-		"Haste_Proc" : 318496,
-		"Mastery_Proc" : 318498,
-		"Crit_Proc" : 318497,
-		"Versatility_Proc" : 318499
+		"Echoing_Void_1" : 318280,
+		"Echoing_Void_2" : 318485,
+		"Echoing_Void_3" : 318486,
+		"Infinite_Star_1" : 318489,
+		"Infinite_Star_2" : 318487,
+		"Infinite_Star_3" : 318488,
+		"Gushing_Wound_1" : 318179,
+		"Twilight_Devastation_1" : 318276,
+		"Twilight_Devastation_2" : 318477,
+		"Twilight_Devastation_3" : 318478,
+		"Searing_Flames_1" : 316698,
+		"Searing_Flames_2" : 316698,
+		"Searing_Flames_3" : 316698,
+		"Ineffable_Truth_1" : 316799,
+		"Ineffable_Truth_2" : 318484,
+		"Void_Ritual_1" : 318286,
+		"Void_Ritual_2" : 318479,
+		"Void_Ritual_3" : 318480,
+		"Lash_of_the_Void_1" : 317291,
+		"Lash_of_the_Void_2" : 319241,
+		"Lash_of_the_Void_3" : 317290,
+		"Flash_of_Insight_1" : 316717,
+		"Twisted_Appendage_1" : 318481,
+		"Twisted_Appendage_2" : 318482,
+		"Twisted_Appendage_3" : 318483,
+		"Percent_Haste_1" : 315544,
+		"Percent_Haste_2" : 315545,
+		"Percent_Haste_3" : 315546,
+		"Percent_Crit_1" : 315554,
+		"Percent_Crit_2" : 315557,
+		"Percent_Crit_3" : 315538,
+		"Percent_Vers_1" : 315549,
+		"Percent_Vers_2" : 315552,
+		"Percent_Vers_3" : 315553,
+		"Percent_Mast_1" : 315529,
+		"Percent_Mast_2" : 315530,
+		"Percent_Mast_3" : 315531,
+		"Crit_DMG_1" : 315277,
+		"Crit_DMG_2" : 315281,
+		"Crit_DMG_3" : 315282,
+		"Glimpse_of_Clarity_2" : 315573,
+		"Haste_Proc_1" : 318266,
+		"Haste_Proc_2" : 318492,
+		"Haste_Proc_3" : 318496,
+		"Mastery_Proc_1" : 318269,
+		"Mastery_Proc_2" : 318494,
+		"Mastery_Proc_3" : 318498,
+		"Crit_Proc_1" : 318268,
+		"Crit_Proc_2" : 318493,
+		"Crit_Proc_3" : 318497,
+		"Versatility_Proc_1" : 318270,
+		"Versatility_Proc_2" : 318495,
+		"Versatility_Proc_3" : 318499
 	},
 	"simulated_steps": [
 		"1_tier",
@@ -132,24 +209,54 @@
 		"3_tier"
 	],
 	"sorted_data_keys": [
-		 "Infinite Star",
-		 "Echoing Void",
-		 "Twilight Devastation",
-		 "Haste Proc",
-		 "Percent Crit",
-		 "Percent Haste",
-		 "Twisted Appendage",
-		 "Gushing Wound",
-		 "Void Ritual",
-		 "Mastery Proc",
-		 "Flash of Insight",
-		 "Ineffable Truth",
-		 "Crit Proc",
-		 "Crit DMG",
-		 "Glimpse of Clarity",
-		 "Percent Vers",
-		 "Percent Mast",
-		 "Lash of the Void",
-		 "Versatility Proc"
+		 "Infinite_Star_3",
+		 "Infinite_Star_2",
+		 "Echoing_Void_3",
+		 "Echoing_Void_2",
+		 "Twilight_Devastation_3",
+		 "Infinite_Star_1",
+		 "Echoing_Void_1",
+		 "Haste_Proc_3",
+		 "Twisted_Appendage_3",
+		 "Percent_Crit_3",
+		 "Twilight_Devastation_2",
+		 "Percent_Haste_3",
+		 "Gushing_Wound_1",
+		 "Void_Ritual_3",
+		 "Mastery_Proc_3",
+		 "Percent_Crit_2",
+		 "Haste_Proc_2",
+		 "Percent_Haste_2",
+		 "Flash_of_Insight_1",
+		 "Ineffable_Truth_2",
+		 "Twisted_Appendage_2",
+		 "Haste_Proc_1",
+		 "Percent_Crit_1",
+		 "Twilight_Devastation_1",
+		 "Crit_DMG_3",
+		 "Crit_Proc_3",
+		 "Percent_Haste_1",
+		 "Mastery_Proc_2",
+		 "Void_Ritual_2",
+		 "Glimpse_of_Clarity_1",
+		 "Crit_DMG_2",
+		 "Mastery_Proc_1",
+		 "Ineffable_Truth_1",
+		 "Crit_Proc_2",
+		 "Crit_DMG_1",
+		 "Percent_Vers_3",
+		 "Crit_Proc_1",
+		 "Void_Ritual_1",
+		 "Percent_Mast_3",
+		 "Lash_of_the_Void_1",
+		 "Percent_Vers_2",
+		 "Twisted_Appendage_1",
+		 "Percent_Mast_2",
+		 "Percent_Vers_1",
+		 "Percent_Mast_1",
+		 "Versatility_Proc_2",
+		 "Versatility_Proc_3",
+		 "Base",
+		 "Versatility_Proc_1"
 	]
 }
