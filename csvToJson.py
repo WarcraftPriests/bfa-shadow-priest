@@ -1053,7 +1053,8 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
         DPSSort = dict()
         for x in data:
             if x['profile'] == simType:
-                DPSSort.update({x['actor'] : x['DPS']})
+                formattedActorName = x['actor'].replace("_"," ")
+                DPSSort.update({formattedActorName : x['DPS']})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
