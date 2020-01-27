@@ -30,21 +30,22 @@ profileset."Seabreeze_475"+=main_hand=seabreeze,id=158371,ilevel=475,enchant=qui
 profileset."Seabreeze_475"+=off_hand=
 
 # Mechagon Rings
+# 1/27/2020: Added extra socket to compensate for extra socket in base profile
 # Logic Loop of Recursion + Shorting Bit Band
 profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_475"+=finger1=logic_loop_of_recursion,id=169158,ilevel=475,enchant=accord_of_haste
-profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_475"+=finger2=shorting_bit_band,id=169160,ilevel=475,enchant=accord_of_haste
+profileset."Logic_Loop_of_Recursion_Shorting_Bit_Band_475"+=finger2=shorting_bit_band,id=169160,ilevel=475,enchant=accord_of_haste,gem_id=168641
 
 # Logic Loop of Division + Shorting Bit Band
 profileset."Logic_Loop_of_Division_Shorting_Bit_Band_475"+=finger1=logic_loop_of_division,id=169157,ilevel=475,enchant=accord_of_haste
-profileset."Logic_Loop_of_Division_Shorting_Bit_Band_475"+=finger2=shorting_bit_band,id=169160,ilevel=475,enchant=accord_of_haste
+profileset."Logic_Loop_of_Division_Shorting_Bit_Band_475"+=finger2=shorting_bit_band,id=169160,ilevel=475,enchant=accord_of_haste,gem_id=168641
 
 # Logic Loop of Recursion + Overclocking Bit Band
 profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_475"+=finger1=logic_loop_of_recursion,id=169158,ilevel=475,enchant=accord_of_haste
-profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_475"+=finger2=overclocking_bit_band,id=169159,ilevel=475,enchant=accord_of_haste
+profileset."Logic_Loop_of_Recursion_Overclocking_Bit_Band_475"+=finger2=overclocking_bit_band,id=169159,ilevel=475,enchant=accord_of_haste,gem_id=168641
 
 # Logic Loop of Division + Overclocking Bit Band
 profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_475"+=finger1=logic_loop_of_division,id=169157,ilevel=475,enchant=accord_of_haste
-profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_475"+=finger2=overclocking_bit_band,id=169159,ilevel=475,enchant=accord_of_haste
+profileset."Logic_Loop_of_Division_Overclocking_Bit_Band_475"+=finger2=overclocking_bit_band,id=169159,ilevel=475,enchant=accord_of_haste,gem_id=168641
 
 profileset."Neural_Synapse_Enhancer_475"+=main_hand=neural_synapse_enhancer,id=168973,ilevel=475,enchant=quick_navigation
 profileset."Neural_Synapse_Enhancer_475"+=off_hand=

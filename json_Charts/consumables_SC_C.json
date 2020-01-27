@@ -1,70 +1,70 @@
 {
 	"data": {
 		"Potion of Unbridled Fury": {
-			"DPS" : 68990
+			"DPS" : 69252
 		},
 		"Greater Flask of Endless Fathoms": {
-			"DPS" : 68666
+			"DPS" : 68902
 		},
 		"Baked Port Tato": {
-			"DPS" : 68415
+			"DPS" : 68613
 		},
 		"Mech-Dowels Big Mech": {
-			"DPS" : 68305
+			"DPS" : 68519
 		},
 		"Flask of Endless Fathoms": {
-			"DPS" : 68276
-		},
-		"Swamp Fish n Chips": {
-			"DPS" : 68190
-		},
-		"Potion of Focused Resolve": {
-			"DPS" : 68181
+			"DPS" : 68497
 		},
 		"Bil Tong": {
-			"DPS" : 68158
+			"DPS" : 68411
 		},
-		"Superior Battle Potion of Intellect": {
-			"DPS" : 68107
+		"Potion of Focused Resolve": {
+			"DPS" : 68403
 		},
-		"Honey-Glazed Haunches": {
-			"DPS" : 68101
+		"Swamp Fish n Chips": {
+			"DPS" : 68403
 		},
 		"Fancy Darkmoon Feast": {
-			"DPS" : 68101
+			"DPS" : 68348
+		},
+		"Superior Battle Potion of Intellect": {
+			"DPS" : 68321
+		},
+		"Honey-Glazed Haunches": {
+			"DPS" : 68320
 		},
 		"Abyssal-Fried Rissole": {
-			"DPS" : 68071
+			"DPS" : 68295
 		},
 		"Spiced Snapper": {
-			"DPS" : 68016
+			"DPS" : 68227
 		},
 		"Potion of Rising Death": {
-			"DPS" : 67991
+			"DPS" : 68226
 		},
 		"Potion of Empowered Proximity": {
-			"DPS" : 67954
+			"DPS" : 68169
 		},
 		"Battle Potion of Intellect": {
-			"DPS" : 67941
+			"DPS" : 68158
 		},
 		"Sailors Pie": {
-			"DPS" : 67916
+			"DPS" : 68155
 		},
 		"Famine Evaluator and Snack Table": {
-			"DPS" : 67908
+			"DPS" : 68123
 		},
 		"Bountiful Captains Feast": {
-			"DPS" : 67820
+			"DPS" : 68027
 		},
 		"Galley Banquet": {
-			"DPS" : 67724
+			"DPS" : 67948
 		},
 		"Battle-Scarred Augment Rune": {
-			"DPS" : 67673
+			"DPS" : 67881
 		},
 		"Base": {
-			"DPS" : 67495
+			"DPS" : 67702
 		}
 	},
 	"simulated_steps" : [
@@ -99,12 +99,12 @@
 		 "Baked Port Tato",
 		 "Mech-Dowels Big Mech",
 		 "Flask of Endless Fathoms",
-		 "Swamp Fish n Chips",
-		 "Potion of Focused Resolve",
 		 "Bil Tong",
+		 "Potion of Focused Resolve",
+		 "Swamp Fish n Chips",
+		 "Fancy Darkmoon Feast",
 		 "Superior Battle Potion of Intellect",
 		 "Honey-Glazed Haunches",
-		 "Fancy Darkmoon Feast",
 		 "Abyssal-Fried Rissole",
 		 "Spiced Snapper",
 		 "Potion of Rising Death",

@@ -1,70 +1,70 @@
 {
 	"data": {
 		"Potion of Unbridled Fury": {
-			"DPS" : 62835
+			"DPS" : 62985
 		},
 		"Greater Flask of Endless Fathoms": {
-			"DPS" : 62358
+			"DPS" : 62471
 		},
 		"Baked Port Tato": {
-			"DPS" : 62167
+			"DPS" : 62269
 		},
 		"Mech-Dowels Big Mech": {
-			"DPS" : 62136
-		},
-		"Potion of Focused Resolve": {
-			"DPS" : 62469
+			"DPS" : 62220
 		},
 		"Flask of Endless Fathoms": {
-			"DPS" : 62013
+			"DPS" : 62094
+		},
+		"Potion of Focused Resolve": {
+			"DPS" : 62548
 		},
 		"Swamp Fish n Chips": {
-			"DPS" : 61977
-		},
-		"Honey-Glazed Haunches": {
-			"DPS" : 61935
+			"DPS" : 62050
 		},
 		"Bil Tong": {
-			"DPS" : 61934
+			"DPS" : 62046
+		},
+		"Honey-Glazed Haunches": {
+			"DPS" : 62024
 		},
 		"Fancy Darkmoon Feast": {
-			"DPS" : 61900
-		},
-		"Superior Battle Potion of Intellect": {
-			"DPS" : 61876
+			"DPS" : 62010
 		},
 		"Abyssal-Fried Rissole": {
-			"DPS" : 61840
+			"DPS" : 61993
+		},
+		"Superior Battle Potion of Intellect": {
+			"DPS" : 61981
 		},
 		"Spiced Snapper": {
-			"DPS" : 61780
+			"DPS" : 61898
 		},
 		"Potion of Rising Death": {
-			"DPS" : 61822
+			"DPS" : 61933
 		},
 		"Potion of Empowered Proximity": {
-			"DPS" : 61662
+			"DPS" : 61757
 		},
 		"Sailors Pie": {
-			"DPS" : 61725
+			"DPS" : 61863
 		},
 		"Battle Potion of Intellect": {
-			"DPS" : 61701
+			"DPS" : 61825
 		},
 		"Famine Evaluator and Snack Table": {
-			"DPS" : 61697
+			"DPS" : 61822
 		},
 		"Bountiful Captains Feast": {
-			"DPS" : 61593
+			"DPS" : 61705
 		},
 		"Galley Banquet": {
-			"DPS" : 61536
+			"DPS" : 61648
 		},
 		"Battle-Scarred Augment Rune": {
-			"DPS" : 61487
+			"DPS" : 61605
 		},
 		"Base": {
-			"DPS" : 61316
+			"DPS" : 61437
 		}
 	},
 	"simulated_steps" : [
@@ -101,11 +101,11 @@
 		 "Mech-Dowels Big Mech",
 		 "Flask of Endless Fathoms",
 		 "Swamp Fish n Chips",
-		 "Honey-Glazed Haunches",
 		 "Bil Tong",
+		 "Honey-Glazed Haunches",
 		 "Fancy Darkmoon Feast",
-		 "Superior Battle Potion of Intellect",
 		 "Abyssal-Fried Rissole",
+		 "Superior Battle Potion of Intellect",
 		 "Potion of Rising Death",
 		 "Spiced Snapper",
 		 "Sailors Pie",
