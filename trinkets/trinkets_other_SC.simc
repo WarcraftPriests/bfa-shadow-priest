@@ -234,6 +234,9 @@ profileset."Eternal_Alchemist_Stone_415"+=trinket1=eternal_alchemist_stone,id=16
 profileset."Abyssal_Alchemist_Stone_410"+=trinket1=abyssal_alchemist_stone,id=168674,gem_id=168641
 profileset."Crushing_Alchemist_Stone_425"+=trinket1=crushing_alchemist_stone,id=168675,gem_id=168641
 profileset."Ascended_Alchemist_Stone_440"+=trinket1=ascended_alchemist_stone,id=168676,gem_id=168641
+profileset."Unbound_Alchemist_Stone_440"+=trinket1=unbound_alchemist_stone,id=171088,gem_id=168641
+profileset."Awakened_Alchemist_Stone_455"+=trinket1=awakened_alchemist_stone,id=171087,gem_id=168641
+profileset."Peerless_Alchemist_Stone_470"+=trinket1=peerless_alchemist_stone,id=171085,gem_id=168641
 
 # Leyshock's Grand Compilation
 profileset."Leyshocks_Grand_Compilation_415"+=trinket1=leyshocks_grand_compilation,id=163937,ilevel=415
