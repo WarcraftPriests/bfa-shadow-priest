@@ -54,6 +54,12 @@ corruptionASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Re
 corruptionSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC.csv'))
 corruptionSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_Dungeons_SC.csv'))
 
+#Corruption DPS Point Values
+corruptionPointAS = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_AS.csv'))
+corruptionPointASD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_Dungeons_AS.csv'))
+corruptionPointSC = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_SC.csv'))
+corruptionPointSCD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_Dungeons_SC.csv'))
+
 #JSON Files
 #Trinkets
 trinketsSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'trinkets/Results_SC.json'))
@@ -70,6 +76,12 @@ corruptionSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption
 corruptionASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS.json'))
 corruptionSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_SC_D.json'))
 corruptionASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Results_AS_D.json'))
+#CorruptionDPSPointValues
+corruptionPointSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_SC.json'))
+corruptionPointASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_AS.json'))
+corruptionPointSCJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_SC_D.json'))
+corruptionPointASJsonD = os.path.os.path.abspath(os.path.join(os.getcwd(), 'corruption/Corruption_Value_Results_AS_D.json'))
+
 #Essences
 essencesSCJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_SC.json'))
 essencesASJson = os.path.os.path.abspath(os.path.join(os.getcwd(), 'essences/Results_AS.json'))
@@ -218,6 +230,15 @@ def parseCSV(file, json_file):
             csv_rows.extend([{field[i]:row[field[i]] for i in range(len(field))}])
         csvToJson(csv_rows, json_file)
 
+def parseCorruptionValuesCSV(file, json_file):
+    csv_rows = []
+    with open(file) as csvfile:
+        reader = csv.DictReader(csvfile)
+        field = reader.fieldnames
+        for row in reader:
+            csv_rows.extend([{field[i]:row[field[i]] for i in range(len(field))}])
+        csvToJson(csv_rows, json_file)
+
 def csvToJson(data, json_file):
     with open(json_file, "w") as f:
         f.write(json.dumps(data, sort_keys=False, indent=2, separators=(',', ': ')))
@@ -260,6 +281,11 @@ parseCSV(consumablesAS, consumablesASJson)
 parseCSV(consumablesASD, consumablesASJsonD)
 parseCSV(consumablesSC, consumablesSCJson)
 parseCSV(consumablesSCD, consumablesSCJsonD)
+
+parseCorruptionValuesCSV(corruptionPointAS, corruptionPointASJson)
+parseCorruptionValuesCSV(corruptionPointASD, corruptionPointASJsonD)
+parseCorruptionValuesCSV(corruptionPointSC, corruptionPointSCJson)
+parseCorruptionValuesCSV(corruptionPointSCD, corruptionPointSCJsonD)
 
 def getItemId(itemname):
     itemname = itemname.lower().rstrip()
@@ -943,7 +969,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         j.write('}')
 
 
-def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
+def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
     
     '''
     injsonFile - The original CSV data converted to a raw unformatted JSON
@@ -982,9 +1008,14 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType):
         corruptionList = []
         for x in data:
             if x['profile'] == simType: 
-                actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'
-                actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+'\n\t\t}'
-                corruptionList.append(actorName + actorDPS)   
+                actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'                
+                if points == True:
+                    actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+',\n'
+                    corruptionPoints = '\t\t\t"Corruption" : ' + x['corruption']+'\n\t\t}'
+                    corruptionList.append(actorName + actorDPS + corruptionPoints)
+                else:
+                    actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+'\n\t\t}'
+                    corruptionList.append(actorName + actorDPS)   
         j.write(',\n'.join(corruptionList) + '\n')
         j.write('\t},\n')
         # Spell Data
@@ -1243,12 +1274,19 @@ buildTraitJsonComboChart(traitsASJson, "traits_AS_C_Combo.json", 'composite')
 buildTraitJsonComboChart(traitsASJson, "traits_AS_ST_Combo.json", 'single_target')
 buildTraitJsonComboChart(traitsASJsonD, "traits_AS_D_Combo.json", 'dungeons')
 
-buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_C.json", 'composite')
-buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_ST.json", 'single_target')
-buildCorruptionJsonChart(corruptionSCJsonD, "corruption_SC_D.json", 'dungeons')
-buildCorruptionJsonChart(corruptionASJson, "corruption_AS_C.json", 'composite')
-buildCorruptionJsonChart(corruptionASJson, "corruption_AS_ST.json", 'single_target')
-buildCorruptionJsonChart(corruptionASJsonD, "corruption_AS_D.json", 'dungeons')
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_C.json", 'composite', False)
+buildCorruptionJsonChart(corruptionSCJson, "corruption_SC_ST.json", 'single_target', False)
+buildCorruptionJsonChart(corruptionSCJsonD, "corruption_SC_D.json", 'dungeons', False)
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_C.json", 'composite', False)
+buildCorruptionJsonChart(corruptionASJson, "corruption_AS_ST.json", 'single_target', False)
+buildCorruptionJsonChart(corruptionASJsonD, "corruption_AS_D.json", 'dungeons', False)
+
+buildCorruptionJsonChart(corruptionPointSCJson, "corruption_point_SC_C.json", 'composite', True)
+buildCorruptionJsonChart(corruptionPointSCJson, "corruption_point_SC_ST.json", 'single_target', True)
+buildCorruptionJsonChart(corruptionPointSCJsonD, "corruption_point_SC_D.json", 'dungeons', True)
+buildCorruptionJsonChart(corruptionPointASJson, "corruption_point_AS_C.json", 'composite', True)
+buildCorruptionJsonChart(corruptionPointASJson, "corruption_point_AS_ST.json", 'single_target', True)
+buildCorruptionJsonChart(corruptionPointASJsonD, "corruption_point_AS_D.json", 'dungeons', True)
 
 #exit()
 
@@ -1316,6 +1354,10 @@ os.remove(corruptionASJson)
 os.remove(corruptionASJsonD)
 os.remove(corruptionSCJson)
 os.remove(corruptionSCJsonD)
+os.remove(corruptionPointSCJson)
+os.remove(corruptionPointSCJsonD)
+os.remove(corruptionPointASJson)
+os.remove(corruptionPointASJsonD)
 
 
 
