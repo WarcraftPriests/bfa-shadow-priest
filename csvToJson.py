@@ -1006,11 +1006,18 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
         ucntMax = len(uniqueList)
         #print(ucntMax)
         corruptionList = []
+        baseDPS = 0
+        for x in data:
+            if x['profile'] == simType:
+                if x['actor'] == 'Base':
+                    baseDPS = x['DPS']
         for x in data:
             if x['profile'] == simType: 
                 actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'                
-                if points == True:
-                    actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+',\n'
+                if points == True and x['actor'] != 'Base':
+                    corruptionPointValue = x['corruption']
+                    corruptionDPS = round((int(x['DPS'])-int(baseDPS))/int(corruptionPointValue),2)
+                    actorDPS =  '\t\t\t"DPS" : ' + str(corruptionDPS) + ',\n'
                     corruptionPoints = '\t\t\t"Corruption" : ' + x['corruption']+'\n\t\t}'
                     corruptionList.append(actorName + actorDPS + corruptionPoints)
                 else:
@@ -1085,7 +1092,13 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
         for x in data:
             if x['profile'] == simType:
                 formattedActorName = x['actor'].replace("_"," ")
-                DPSSort.update({formattedActorName : x['DPS']})
+                if points and x['actor'] != 'Base':
+                    corruptedDPS = round((int(x['DPS'])-int(baseDPS))/int(x['corruption']),0)
+                else:
+                    corruptedDPS = x['DPS']
+                DPSSort.update({formattedActorName : int(corruptedDPS)})
+        #manuall update base sorting
+        DPSSort.update({'Base' : 0})
         #if "Int_" in uniqueList: uniqueList.remove("Int_")
         import operator
         sorted_x = sorted(DPSSort.items(), key=operator.itemgetter(1), reverse=True)
