@@ -1057,7 +1057,7 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
         j.write('\t\t"Percent_Haste_3" : 315546,\n')
         j.write('\t\t"Percent_Crit_1" : 315554,\n')
         j.write('\t\t"Percent_Crit_2" : 315557,\n')
-        j.write('\t\t"Percent_Crit_3" : 315538,\n')
+        j.write('\t\t"Percent_Crit_3" : 315558,\n')
         j.write('\t\t"Percent_Vers_1" : 315549,\n')
         j.write('\t\t"Percent_Vers_2" : 315552,\n')
         j.write('\t\t"Percent_Vers_3" : 315553,\n')
