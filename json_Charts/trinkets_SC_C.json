@@ -50,19 +50,6 @@
 			"415": 62606
 		},
 		"PSCD Subroutine Recalibration Forceful Efficient": {
-			"475": 64920,
-			"470": 64850,
-			"465": 64769,
-			"460": 64728,
-			"455": 64642,
-			"450": 64559,
-			"445": 64499,
-			"440": 64426,
-			"435": 64349,
-			"430": 64269,
-			"425": 64198,
-			"420": 64142,
-			"415": 64059
 		},
 		"Forbidden Obsidian Claw": {
 			"475": 64918,
@@ -86,19 +73,6 @@
 			"415": 62393
 		},
 		"PSCD Subroutine Recalibration Performant Effective": {
-			"475": 64867,
-			"470": 64788,
-			"465": 64714,
-			"460": 64664,
-			"455": 64592,
-			"450": 64512,
-			"445": 64453,
-			"440": 64379,
-			"435": 64329,
-			"430": 64250,
-			"425": 64185,
-			"420": 64105,
-			"415": 64045
 		},
 		"Hadals Nautilus": {
 			"475": 64828,
@@ -127,34 +101,8 @@
 			"415": 63748
 		},
 		"PSCD Subroutine Recalibration Performant Adaptable": {
-			"475": 64769,
-			"470": 64707,
-			"465": 64648,
-			"460": 64591,
-			"455": 64514,
-			"450": 64455,
-			"445": 64380,
-			"440": 64306,
-			"435": 64246,
-			"430": 64179,
-			"425": 64113,
-			"420": 64052,
-			"415": 63989
 		},
 		"PSCD Subroutine Recalibration Performant Refined": {
-			"475": 64741,
-			"470": 64659,
-			"465": 64612,
-			"460": 64540,
-			"455": 64470,
-			"450": 64405,
-			"445": 64343,
-			"440": 64272,
-			"435": 64208,
-			"430": 64156,
-			"425": 64079,
-			"420": 64015,
-			"415": 63942
 		},
 		"Vita Charged Titanshard": {
 			"475": 64655,
@@ -195,67 +143,15 @@
 			"430": 63431
 		},
 		"PSCD Harmonic Dematerializer Performant Effective": {
-			"475": 64547,
-			"470": 64390,
-			"465": 64250,
-			"460": 64118,
-			"455": 63999,
-			"450": 63906,
-			"445": 63767,
-			"440": 63637,
-			"435": 63536,
-			"430": 63440,
-			"425": 63337,
-			"420": 63239,
-			"415": 63118
 		},
 		"PSCD Harmonic Dematerializer Forceful Efficient": {
-			"475": 64487,
-			"470": 64370,
-			"465": 64235,
-			"460": 64102,
-			"455": 63972,
-			"450": 63867,
-			"445": 63749,
-			"440": 63630,
-			"435": 63519,
-			"430": 63411,
-			"425": 63304,
-			"420": 63207,
-			"415": 63089
 		},
 		"PSCD Harmonic Dematerializer Performant Adaptable": {
-			"475": 64454,
-			"470": 64314,
-			"465": 64180,
-			"460": 64046,
-			"455": 63919,
-			"450": 63819,
-			"445": 63712,
-			"440": 63587,
-			"435": 63466,
-			"430": 63369,
-			"425": 63280,
-			"420": 63166,
-			"415": 63080
 		},
 		"Highborne Compendium of Storms": {
 			"400": 64394
 		},
 		"PSCD Harmonic Dematerializer Performant Refined": {
-			"475": 64387,
-			"470": 64263,
-			"465": 64143,
-			"460": 64006,
-			"455": 63889,
-			"450": 63780,
-			"445": 63646,
-			"440": 63521,
-			"435": 63429,
-			"430": 63329,
-			"425": 63219,
-			"420": 63135,
-			"415": 63020
 		},
 		"Conch of Dark Whispers": {
 			"475": 64303,
@@ -284,73 +180,14 @@
 			"415": 63253
 		},
 		"PSCD Subroutine Overclock Forceful Efficient": {
-			"475": 64269,
-			"470": 64203,
-			"465": 64155,
-			"460": 64093,
-			"455": 64031,
-			"450": 63968,
-			"445": 63902,
-			"440": 63858,
-			"435": 63783,
-			"430": 63717,
-			"425": 63677,
-			"420": 63615,
-			"415": 63535
 		},
 		"PSCD Subroutine Overclock Performant Effective": {
-			"475": 64215,
-			"470": 64155,
-			"465": 64107,
-			"460": 64041,
-			"455": 63986,
-			"450": 63935,
-			"445": 63867,
-			"440": 63822,
-			"435": 63769,
-			"430": 63695,
-			"425": 63641,
-			"420": 63591,
-			"415": 63534
 		},
 		"PSCD Subroutine Overclock Performant Adaptable": {
-			"475": 64136,
-			"470": 64080,
-			"465": 64027,
-			"460": 63970,
-			"455": 63940,
-			"450": 63871,
-			"445": 63805,
-			"440": 63765,
-			"435": 63695,
-			"430": 63615,
-			"425": 63581,
-			"420": 63514,
-			"415": 63448
 		},
 		"PSCD Subroutine Overclock Performant Refined": {
-			"475": 64098,
-			"470": 64047,
-			"465": 63989,
-			"460": 63946,
-			"455": 63877,
-			"450": 63833,
-			"445": 63763,
-			"440": 63705,
-			"435": 63655,
-			"430": 63596,
-			"425": 63538,
-			"420": 63493,
-			"415": 63427
 		},
 		"PSCD Cyclotronic Blast Performant Effective": {
-			"445": 64090,
-			"440": 63921,
-			"435": 63753,
-			"430": 63623,
-			"425": 63455,
-			"420": 63329,
-			"415": 63194
 		},
 		"Leyshocks Grand Compilation": {
 			"455": 64083,
@@ -375,13 +212,6 @@
 			"415": 62435
 		},
 		"PSCD Cyclotronic Blast Performant Adaptable": {
-			"445": 64015,
-			"440": 63830,
-			"435": 63695,
-			"430": 63546,
-			"425": 63397,
-			"420": 63280,
-			"415": 63127
 		},
 		"Kajafied Banana": {
 			"455": 64005,
@@ -406,24 +236,8 @@
 			"415": 63082
 		},
 		"Oxidized Refuse Power": {
-			"455": 63980,
-			"450": 63844,
-			"445": 63724,
-			"440": 63579,
-			"435": 63465,
-			"430": 63347,
-			"425": 63247,
-			"420": 63138,
-			"415": 63020
 		},
 		"PSCD Cyclotronic Blast Performant Refined": {
-			"445": 63971,
-			"440": 63789,
-			"435": 63637,
-			"430": 63494,
-			"425": 63355,
-			"420": 63213,
-			"415": 63086
 		},
 		"Tidestorm Codex": {
 			"455": 63939,
@@ -448,12 +262,6 @@
 			"415": 62364
 		},
 		"PSCD Cyclotronic Blast Forceful Efficient": {
-			"440": 63881,
-			"435": 63724,
-			"430": 63573,
-			"425": 63425,
-			"420": 63285,
-			"415": 63155
 		},
 		"Ignition Mages Fuse": {
 			"475": 63876,
@@ -504,15 +312,6 @@
 			"415": 62929
 		},
 		"Ruthless Protocol Augment": {
-			"455": 63781,
-			"450": 63663,
-			"445": 63532,
-			"440": 63420,
-			"435": 63316,
-			"430": 63209,
-			"425": 63096,
-			"420": 63000,
-			"415": 62913
 		},
 		"Emblem of Zandalar": {
 			"455": 63752,
@@ -639,19 +438,6 @@
 			"415": 62618
 		},
 		"PSCD Subroutine Optimization Forceful Efficient": {
-			"475": 63423,
-			"470": 63371,
-			"465": 63323,
-			"460": 63281,
-			"455": 63229,
-			"450": 63175,
-			"445": 63138,
-			"440": 63078,
-			"435": 63006,
-			"430": 62976,
-			"425": 62919,
-			"420": 62854,
-			"415": 62807
 		},
 		"Balefire Branch": {
 			"475": 63394,
@@ -799,30 +585,8 @@
 			"430": 62688
 		},
 		"Self Accelerating Drive Shaft": {
-			"455": 63023,
-			"450": 62929,
-			"445": 62834,
-			"440": 62706,
-			"435": 62609,
-			"430": 62521,
-			"425": 62418,
-			"420": 62338,
-			"415": 62257
 		},
 		"PSCD Subroutine Optimization Performant Effective": {
-			"475": 62959,
-			"470": 62918,
-			"465": 62888,
-			"460": 62851,
-			"455": 62797,
-			"450": 62766,
-			"445": 62694,
-			"440": 62660,
-			"435": 62602,
-			"430": 62563,
-			"425": 62505,
-			"420": 62477,
-			"415": 62436
 		},
 		"Abyssal Alchemist Stone": {
 			"410": 62949
@@ -889,34 +653,8 @@
 			"415": 60533
 		},
 		"PSCD Subroutine Optimization Performant Refined": {
-			"475": 60589,
-			"470": 60564,
-			"465": 60519,
-			"460": 60468,
-			"455": 60431,
-			"450": 60408,
-			"445": 60360,
-			"440": 60302,
-			"435": 60282,
-			"430": 60252,
-			"425": 60191,
-			"420": 60168,
-			"415": 60118
 		},
 		"PSCD Subroutine Optimization Performant Adaptable": {
-			"475": 60566,
-			"470": 60543,
-			"465": 60497,
-			"460": 60457,
-			"455": 60409,
-			"450": 60375,
-			"445": 60327,
-			"440": 60288,
-			"435": 60244,
-			"430": 60224,
-			"425": 60168,
-			"420": 60155,
-			"415": 60099
 		},
 		"Base": {
 			"300": 59900
@@ -1010,35 +748,35 @@
 		"Lady Waycrests Music Box",
 		"Shiver Venom Relic",
 		"Harbingers Inscrutable Will",
-		"PSCD Subroutine Recalibration Forceful Efficient",
 		"Forbidden Obsidian Claw",
 		"Vessel of Skittering Shadows",
 		"PSCD Subroutine Recalibration Performant Effective",
 		"Hadals Nautilus",
 		"Incandescent Sliver",
-		"PSCD Subroutine Recalibration Performant Adaptable",
-		"PSCD Subroutine Recalibration Performant Refined",
 		"Vita Charged Titanshard",
+		"PSCD Subroutine Recalibration Forceful Efficient",
 		"Rotcrusted Voodoo Doll",
 		"Leviathans Lure",
 		"Humming Black Dragonscale",
 		"PSCD Harmonic Dematerializer Performant Effective",
+		"PSCD Subroutine Recalibration Performant Adaptable",
 		"PSCD Harmonic Dematerializer Forceful Efficient",
+		"PSCD Subroutine Recalibration Performant Refined",
 		"PSCD Harmonic Dematerializer Performant Adaptable",
 		"Highborne Compendium of Storms",
 		"PSCD Harmonic Dematerializer Performant Refined",
 		"Conch of Dark Whispers",
-		"Zaquls Portal Key",
-		"PSCD Subroutine Overclock Forceful Efficient",
-		"PSCD Subroutine Overclock Performant Effective",
-		"PSCD Subroutine Overclock Performant Adaptable",
 		"PSCD Subroutine Overclock Performant Refined",
 		"PSCD Cyclotronic Blast Performant Effective",
+		"Zaquls Portal Key",
 		"Leyshocks Grand Compilation",
 		"Doom Shroom",
+		"PSCD Subroutine Overclock Forceful Efficient",
 		"PSCD Cyclotronic Blast Performant Adaptable",
+		"PSCD Subroutine Overclock Performant Effective",
 		"Kajafied Banana",
 		"Incessantly Ticking Clock",
+		"PSCD Subroutine Overclock Performant Adaptable",
 		"Oxidized Refuse Power",
 		"PSCD Cyclotronic Blast Performant Refined",
 		"Tidestorm Codex",
@@ -1056,7 +794,6 @@
 		"Aquipotent Nautilus",
 		"Dooms Hatred",
 		"Lions Grace",
-		"Tzanes Barkspines",
 		"Ascended Alchemist Stone",
 		"Gilded Loa Figurine",
 		"Azurethos Singed Plumage",
@@ -1064,8 +801,9 @@
 		"PSCD Subroutine Optimization Forceful Efficient",
 		"Balefire Branch",
 		"Moonstone of Zin Azshari",
-		"Enthrallers Bindstone",
+		"Tzanes Barkspines",
 		"Sea Giants Tidestone",
+		"Enthrallers Bindstone",
 		"Plunderbeards Flask",
 		"Drust Runed Icicle",
 		"Pearl Divers Compass",
@@ -1082,12 +820,7 @@
 		"Ancient Knot of Wisdom",
 		"Eternal Alchemist Stone",
 		"Vanquished Tendril of Ghuun",
-		"Crawg Gnawed Femur",
-		"Ravasaur Skull Bijou",
-		"Darkmoon Deck Squalls",
-		"Chargestone of the Thunder Kings Court",
-		"PSCD Subroutine Optimization Performant Refined",
-		"PSCD Subroutine Optimization Performant Adaptable"
+		"Crawg Gnawed Femur"
 	],
 	"LastUpdated": [
 		"2020/1/29"
