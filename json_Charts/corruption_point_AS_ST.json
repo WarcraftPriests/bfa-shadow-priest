@@ -181,7 +181,8 @@
 			"Corruption" : 20
 		},
 		"Base": {
-			"DPS" : 66868
+			"DPS" : 0,
+			"Corruption" : 20
 		},
 		"Lash of the Void 1": {
 			"DPS" : -0.68,

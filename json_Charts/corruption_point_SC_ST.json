@@ -185,7 +185,8 @@
 			"Corruption" : 20
 		},
 		"Base": {
-			"DPS" : 65913
+			"DPS" : 0,
+			"Corruption" : 20
 		},
 		"Versatility Proc 1": {
 			"DPS" : -0.4,

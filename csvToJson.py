@@ -1020,6 +1020,10 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
                     actorDPS =  '\t\t\t"DPS" : ' + str(corruptionDPS) + ',\n'
                     corruptionPoints = '\t\t\t"Corruption" : ' + x['corruption']+'\n\t\t}'
                     corruptionList.append(actorName + actorDPS + corruptionPoints)
+                elif points == True and x['actor'] == 'Base':
+                    actorDPS = '\t\t\t"DPS" : 0,\n'
+                    corruptionPoint = '\t\t\t"Corruption" : 0\n\t\t}'
+                    corruptionList.append(actorName + actorDPS + corruptionPoints)
                 else:
                     actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+'\n\t\t}'
                     corruptionList.append(actorName + actorDPS)   

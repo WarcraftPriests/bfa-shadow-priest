@@ -193,7 +193,8 @@
 			"Corruption" : 20
 		},
 		"Base": {
-			"DPS" : 73318
+			"DPS" : 0,
+			"Corruption" : 20
 		}
 	},
 	"spell_ids" : {
