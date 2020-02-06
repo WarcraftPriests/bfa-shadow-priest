@@ -27,6 +27,10 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
 main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
+# Override the gear_corruption and gear_corruption_resistance to 30 to ensure that Heart of Darkness is always active
+gear_corruption=30
+gear_corruption_resistance=0
+
 # Mantle of Ceremonial Ascension - 445, 460, 475
 # Spiteful Apparitions + Searing Dialogue / Chorus of Insanity + Incite the Pack / Elemental Whirl
 profileset."S_460_mantle_of_ceremonial_ascension_SA_CoI_EW"+=shoulder=mantle_of_ceremonial_ascension,id=158344,ilevel=460,azerite_powers=403/405/21/13

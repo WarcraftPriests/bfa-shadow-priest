@@ -902,7 +902,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
         DPSDict = dict()
         for u in uniqueList:
             totalDPS = 0
-            for x in data:                
+            for x in data:
                 if x['profile'] == simType:
                     if x['actor'] == u+'1':
                         totalDPS += int(x['DPS'])
@@ -970,7 +970,7 @@ def buildEssenceJsonChart(injsonFile, outjsonFile, simType):
 
 
 def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
-    
+
     '''
     injsonFile - The original CSV data converted to a raw unformatted JSON
     outjsonFile - The newly formatted JSON
@@ -1012,8 +1012,8 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
                 if x['actor'] == 'Base':
                     baseDPS = x['DPS']
         for x in data:
-            if x['profile'] == simType: 
-                actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'                
+            if x['profile'] == simType:
+                actorName = '\t\t"' + x['actor'].replace('_',' ').rstrip() +'": {\n'
                 if points == True and x['actor'] != 'Base':
                     corruptionPointValue = x['corruption']
                     corruptionDPS = round((int(x['DPS'])-int(baseDPS))/int(corruptionPointValue),2)
@@ -1026,7 +1026,7 @@ def buildCorruptionJsonChart(injsonFile, outjsonFile, simType, points):
                     corruptionList.append(actorName + actorDPS + corruptionPoints)
                 else:
                     actorDPS =  '\t\t\t"DPS" : ' + x['DPS']+'\n\t\t}'
-                    corruptionList.append(actorName + actorDPS)   
+                    corruptionList.append(actorName + actorDPS)
         j.write(',\n'.join(corruptionList) + '\n')
         j.write('\t},\n')
         # Spell Data

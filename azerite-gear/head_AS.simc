@@ -27,6 +27,10 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
 main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
+# Override the gear_corruption and gear_corruption_resistance to 30 to ensure that Heart of Darkness is always active
+gear_corruption=30
+gear_corruption_resistance=0
+
 # Smartly Plumed Cap - 445, 460, 475
 # Death Throes + Spiteful Apparitions / Searing Dialogue + Meticulous Scheming / Azerite Globules
 profileset."H_445_smartly_plumed_cap_DT_SD_AG"+=head=smartly_plumed_cap,id=155886,ilevel=445,azerite_powers=404/115/462/13

@@ -27,6 +27,10 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
 main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
+# Override the gear_corruption and gear_corruption_resistance to 30 to ensure that Heart of Darkness is always active
+gear_corruption=30
+gear_corruption_resistance=0
+
 # Ruffled Poet Blouse - 445, 460, 475
 # Chorus of Insanity + Thought Harvester / Spiteful Apparitions + Tradewinds / Elemental Whirl + On My Way
 profileset."C_445_ruffled_poet_blouse_CoI_SA_EW"+=chest=ruffled_poet_blouse,id=158301,ilevel=445,azerite_powers=405/403/21/13

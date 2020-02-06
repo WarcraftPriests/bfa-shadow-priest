@@ -26,6 +26,10 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
 main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
+# Override the gear_corruption and gear_corruption_resistance to 30 to ensure that Heart of Darkness is always active
+gear_corruption=30
+gear_corruption_resistance=0
+
 # Loyal to the End 576
 profileset."Loyal_to_the_End_0_Allies_1"+=head=cowl_of_unspeakable_horrors,id=174116,ilevel=475,azerite_powers=576
 profileset."Loyal_to_the_End_0_Allies_1"+=bfa.loyal_to_the_end_allies=0
