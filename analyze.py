@@ -151,11 +151,11 @@ if args.dir == "corruption/":
     for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
         corrValue = corruptionValue.get(key)
         if corrValue is None: corrValue = 0
-        if key[-2:] is "_1": corruptionResults[key] = getCorruptionValue(baseDPS, value, corrValue)
+        corruptionResults[key] = getCorruptionValue(baseDPS, value, corrValue)
     for key, value in sorted(resultsSingle.items(), key=operator.itemgetter(1), reverse=True):
         corrValue = corruptionValue.get(key)
         if corrValue is None: corrValue = 0
-        if key[-2:] is "_1": corruptionResultsSingle[key] = getCorruptionValue(baseDPSSingle, value, corrValue)
+        corruptionResultsSingle[key] = getCorruptionValue(baseDPSSingle, value, corrValue)
 
 # README.md output
 with open(outputMarkdown, 'w') as resultsMD:
@@ -186,13 +186,13 @@ if args.dir == "corruption/":
             dpsValue = results.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key, dpsValue, corrValue, value))
         resultsMD.write('\n# Single Target\n| Actor | DPS | Corruption | Value |\n|---|:---:|:---:|:---:|\n')
         for key, value in sorted(corruptionResultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             dpsValue = resultsSingle.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key, dpsValue, corrValue, value))
 
 # results.csv output
 with open(outputCSV, 'w') as resultsCSV:
@@ -221,12 +221,12 @@ if args.dir == "corruption/":
             dpsValue = results.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsCSV.write("composite,%s,%.0f,%.0f,%.2f%%,\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsCSV.write("composite,%s,%.0f,%.0f,%.2f%%,\n" % (key, dpsValue, corrValue, value))
         for key, value in sorted(corruptionResultsSingle.items(), key=operator.itemgetter(1), reverse=True):
             dpsValue = resultsSingle.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsCSV.write("single_target,%s,%.0f,%.0f,%.2f%%,\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsCSV.write("single_target,%s,%.0f,%.0f,%.2f%%,\n" % (key, dpsValue, corrValue, value))
 
 # AzeritePowerWeights Export
 if args.dir == "azerite-traits/":

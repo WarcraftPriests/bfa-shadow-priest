@@ -95,7 +95,7 @@ if args.dir == "corruption/":
     for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
         corrValue = corruptionValue.get(key)
         if corrValue is None: corrValue = 0
-        if key[-2:] is "_1": corruptionResults[key] = getCorruptionValue(baseDPS, value, corrValue)
+        corruptionResults[key] = getCorruptionValue(baseDPS, value, corrValue)
 
 # README.md output
 with open(outputMarkdown, 'w') as resultsMD:
@@ -118,7 +118,7 @@ if args.dir == "corruption/":
             dpsValue = results.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsMD.write("|%s|%.0f|%.0f|%.2f|\n" % (key, dpsValue, corrValue, value))
         resultsMD.write('\n Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)')
 
 # results.csv output
@@ -141,7 +141,7 @@ if args.dir == "corruption/":
             dpsValue = results.get(key)
             corrValue = corruptionValue.get(key)
             if corrValue is None: corrValue = 0
-            resultsCSV.write("dungeons,%s,%.0f,%.0f,%.2f%%,\n" % (key[:-2], dpsValue, corrValue, value))
+            resultsCSV.write("dungeons,%s,%.0f,%.0f,%.2f%%,\n" % (key, dpsValue, corrValue, value))
 
 # AzeritePowerWeights Export
 if args.dir == "azerite-traits/":
