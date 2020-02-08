@@ -28,7 +28,7 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Override the gear_corruption and gear_corruption_resistance to 30 to ensure that Heart of Darkness is always active
-gear_corruption=30
+enchant_corruption=90
 gear_corruption_resistance=0
 
 # Ruffled Poet Blouse - 445, 460, 475

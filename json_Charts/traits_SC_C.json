@@ -1,280 +1,280 @@
 {
 	"data": {
 		"Ancients Bulwark": {
-			"1_stack": 54979,
-			"2_stack": 57224,
-			"3_stack": 59469
+			"1_stack": 53495,
+			"2_stack": 55687,
+			"3_stack": 57876
 		},
 		"Apothecarys Concoctions": {
-			"1_stack": 54011,
-			"2_stack": 55203,
-			"3_stack": 56375
+			"1_stack": 52583,
+			"2_stack": 53760,
+			"3_stack": 54943
 		},
 		"Arcane Heart": {
-			"1_stack": 54257,
-			"2_stack": 55716,
-			"3_stack": 56788
+			"1_stack": 52831,
+			"2_stack": 54285,
+			"3_stack": 55400
 		},
 		"Barrage Of Many Bombs": {
-			"1_stack": 54182,
-			"2_stack": 55580,
-			"3_stack": 56991
+			"1_stack": 52770,
+			"2_stack": 54172,
+			"3_stack": 55561
 		},
 		"Battlefield Focus": {
-			"1_stack": 53944,
-			"2_stack": 55081,
-			"3_stack": 56223
+			"1_stack": 52516,
+			"2_stack": 53652,
+			"3_stack": 54783
 		},
 		"Blightborne Infusion": {
-			"1_stack": 55170,
-			"2_stack": 57628,
-			"3_stack": 60121
+			"1_stack": 53698,
+			"2_stack": 56086,
+			"3_stack": 58508
 		},
 		"Blood Rite": {
-			"1_stack": 54290,
-			"2_stack": 55631,
-			"3_stack": 56491
+			"1_stack": 52847,
+			"2_stack": 54200,
+			"3_stack": 55119
 		},
 		"Bonded Souls": {
 		},
 		"Champion of Azeroth": {
-			"1_stack": 55041,
+			"1_stack": 53594,
 			"2_stack": 0,
 			"3_stack": 0
 		},
 		"Chorus of Insanity": {
-			"1_stack": 55337,
-			"2_stack": 57945,
-			"3_stack": 60627
+			"1_stack": 53848,
+			"2_stack": 56377,
+			"3_stack": 59006
 		},
 		"Clockwork Heart": {
-			"1_stack": 54641,
-			"2_stack": 56799,
-			"3_stack": 59193
+			"1_stack": 53207,
+			"2_stack": 55322,
+			"3_stack": 57684
 		},
 		"Collective Will": {
-			"1_stack": 53281,
-			"2_stack": 53821,
-			"3_stack": 54362
+			"1_stack": 51876,
+			"2_stack": 52408,
+			"3_stack": 52943
 		},
 		"Combined Might": {
-			"1_stack": 53299,
-			"2_stack": 53852,
-			"3_stack": 54403
+			"1_stack": 51884,
+			"2_stack": 52442,
+			"3_stack": 52964
 		},
 		"Dagger in the Back Behind": {
-			"1_stack": 54358,
-			"2_stack": 55877,
-			"3_stack": 57383
+			"1_stack": 52936,
+			"2_stack": 54436,
+			"3_stack": 55938
 		},
 		"Dagger in the Back Front": {
-			"1_stack": 53841,
-			"2_stack": 54827,
-			"3_stack": 55807
+			"1_stack": 52415,
+			"2_stack": 53400,
+			"3_stack": 54386
 		},
 		"Death Throes": {
-			"1_stack": 54250,
-			"2_stack": 55763,
-			"3_stack": 57275
+			"1_stack": 52835,
+			"2_stack": 54340,
+			"3_stack": 55848
 		},
 		"Fight or Flight": {
-			"1_stack": 53367,
-			"2_stack": 53988,
-			"3_stack": 54623
+			"1_stack": 51955,
+			"2_stack": 52569,
+			"3_stack": 53220
 		},
 		"Filthy Transfusion": {
-			"1_stack": 53975,
-			"2_stack": 55142,
-			"3_stack": 56331
+			"1_stack": 52553,
+			"2_stack": 53714,
+			"3_stack": 54893
 		},
 		"Glory in Battle": {
-			"1_stack": 54190,
-			"2_stack": 55679,
-			"3_stack": 57234
+			"1_stack": 52741,
+			"2_stack": 54202,
+			"3_stack": 55713
 		},
 		"Incite the Pack": {
-			"1_stack": 54142,
-			"2_stack": 55547,
-			"3_stack": 56965
+			"1_stack": 52732,
+			"2_stack": 54130,
+			"3_stack": 55534
 		},
 		"Meticulous Scheming": {
-			"1_stack": 54609,
-			"2_stack": 56167,
-			"3_stack": 57132
+			"1_stack": 53178,
+			"2_stack": 54775,
+			"3_stack": 55796
 		},
 		"Relational Normalization Gizmo": {
-			"1_stack": 54447,
-			"2_stack": 55834,
-			"3_stack": 56953
+			"1_stack": 53024,
+			"2_stack": 54440,
+			"3_stack": 55603
 		},
 		"Retaliatory Fury": {
-			"1_stack": 53551,
-			"2_stack": 54353,
-			"3_stack": 55158
+			"1_stack": 52123,
+			"2_stack": 52939,
+			"3_stack": 53741
 		},
 		"Rezans Fury": {
-			"1_stack": 54234,
-			"2_stack": 55661,
-			"3_stack": 57099
+			"1_stack": 52812,
+			"2_stack": 54235,
+			"3_stack": 55653
 		},
 		"Ricocheting Inflatable Pyrosaw": {
-			"1_stack": 53584,
-			"2_stack": 54397,
-			"3_stack": 55229
+			"1_stack": 52162,
+			"2_stack": 52989,
+			"3_stack": 53813
 		},
 		"Ruinous Bolt": {
-			"1_stack": 53427,
-			"2_stack": 54093,
-			"3_stack": 54747
+			"1_stack": 52010,
+			"2_stack": 52666,
+			"3_stack": 53328
 		},
 		"Searing Dialogue": {
-			"1_stack": 54025,
-			"2_stack": 54876,
-			"3_stack": 56721
+			"1_stack": 52603,
+			"2_stack": 53471,
+			"3_stack": 55316
 		},
 		"Secrets of the Deep": {
-			"1_stack": 53971,
-			"2_stack": 55210,
-			"3_stack": 56440
+			"1_stack": 52551,
+			"2_stack": 53785,
+			"3_stack": 55012
 		},
 		"Seductive Power": {
 		},
 		"Shadow of Elune": {
-			"1_stack": 54190,
-			"2_stack": 55483,
-			"3_stack": 56291
+			"1_stack": 52786,
+			"2_stack": 54070,
+			"3_stack": 54936
 		},
 		"Spiteful Apparitions": {
-			"1_stack": 53920,
-			"2_stack": 55091,
-			"3_stack": 56272
+			"1_stack": 52503,
+			"2_stack": 53681,
+			"3_stack": 54860
 		},
 		"Swirling Sands": {
-			"1_stack": 54921,
-			"2_stack": 57130,
-			"3_stack": 59345
+			"1_stack": 53454,
+			"2_stack": 55591,
+			"3_stack": 57772
 		},
 		"Sylvanas Resolve": {
-			"1_stack": 53925,
-			"2_stack": 55098,
-			"3_stack": 56292
+			"1_stack": 52507,
+			"2_stack": 53689,
+			"3_stack": 54872
 		},
 		"Synaptic Spark Capacitor": {
-			"1_stack": 53648,
-			"2_stack": 54560,
-			"3_stack": 55470
+			"1_stack": 52232,
+			"2_stack": 53142,
+			"3_stack": 54054
 		},
 		"Thought Harvester": {
-			"1_stack": 54067,
-			"2_stack": 54704,
-			"3_stack": 55346
+			"1_stack": 52653,
+			"2_stack": 53295,
+			"3_stack": 53933
 		},
 		"Thunderous Blast": {
-			"1_stack": 53995,
-			"2_stack": 55199,
-			"3_stack": 56401
+			"1_stack": 52572,
+			"2_stack": 53781,
+			"3_stack": 54987
 		},
 		"Tidal Surge": {
-			"1_stack": 53842,
-			"2_stack": 54936,
-			"3_stack": 56031
+			"1_stack": 52437,
+			"2_stack": 53527,
+			"3_stack": 54612
 		},
 		"Tradewinds": {
-			"1_stack": 54248,
-			"2_stack": 55749,
-			"3_stack": 57269
+			"1_stack": 52839,
+			"2_stack": 54357,
+			"3_stack": 55844
 		},
 		"Treacherous Covenant": {
 		},
 		"Undulating Tides": {
-			"1_stack": 55072,
-			"2_stack": 57383,
-			"3_stack": 59691
+			"1_stack": 53665,
+			"2_stack": 55960,
+			"3_stack": 58268
 		},
 		"Unstable Catalyst": {
-			"1_stack": 54119,
-			"2_stack": 55489,
-			"3_stack": 56864
+			"1_stack": 52703,
+			"2_stack": 54069,
+			"3_stack": 55460
 		},
 		"Whispers of the Damned": {
-			"1_stack": 54699,
-			"2_stack": 55751,
-			"3_stack": 57041
+			"1_stack": 53293,
+			"2_stack": 54325,
+			"3_stack": 55618
 		},
 		"Loyal to the End 4 Allies": {
-			"1_stack": 54743,
-			"2_stack": 56752,
-			"3_stack": 58760
+			"1_stack": 53337,
+			"2_stack": 55338,
+			"3_stack": 57339
 		},
 		"Loyal to the End 3 Allies": {
-			"1_stack": 54497,
-			"2_stack": 56244,
-			"3_stack": 58005
+			"1_stack": 53088,
+			"2_stack": 54838,
+			"3_stack": 56591
 		},
 		"Loyal to the End 2 Allies": {
-			"1_stack": 54249,
-			"2_stack": 55752,
-			"3_stack": 57262
+			"1_stack": 52828,
+			"2_stack": 54337,
+			"3_stack": 55844
 		},
 		"Loyal to the End 1 Allies": {
-			"1_stack": 53992,
-			"2_stack": 55252,
-			"3_stack": 56499
+			"1_stack": 52585,
+			"2_stack": 53830,
+			"3_stack": 55086
 		},
 		"Loyal to the End 0 Allies": {
-			"1_stack": 53738,
-			"2_stack": 54760,
-			"3_stack": 55754
+			"1_stack": 52338,
+			"2_stack": 53334,
+			"3_stack": 54338
 		},
 		"Heart of Darkness": {
 		},
 		"Azerite Globules": {
-			"1_stack": 53374,
-			"2_stack": 53984,
-			"3_stack": 54600
+			"1_stack": 51957,
+			"2_stack": 52567,
+			"3_stack": 53189
 		},
 		"Blood Siphon": {
-			"1_stack": 53306,
-			"2_stack": 53851,
-			"3_stack": 54417
+			"1_stack": 51885,
+			"2_stack": 52443,
+			"3_stack": 52993
 		},
 		"Earthlink": {
-			"1_stack": 53153,
-			"2_stack": 53558,
-			"3_stack": 53968
+			"1_stack": 51733,
+			"2_stack": 52142,
+			"3_stack": 52560
 		},
 		"Elemental Whirl": {
-			"1_stack": 53486,
-			"2_stack": 54244,
-			"3_stack": 54998
+			"1_stack": 52064,
+			"2_stack": 52799,
+			"3_stack": 53542
 		},
 		"Gutripper": {
-			"1_stack": 53468,
-			"2_stack": 54176,
-			"3_stack": 54888
+			"1_stack": 52049,
+			"2_stack": 52766,
+			"3_stack": 53466
 		},
 		"Heed My Call": {
-			"1_stack": 53462,
-			"2_stack": 54174,
-			"3_stack": 54884
+			"1_stack": 52038,
+			"2_stack": 52756,
+			"3_stack": 53471
 		},
 		"On My Way": {
-			"1_stack": 53391,
-			"2_stack": 54034,
-			"3_stack": 54674
+			"1_stack": 51941,
+			"2_stack": 52585,
+			"3_stack": 53198
 		},
 		"Overwhelming Power": {
-			"1_stack": 53842,
-			"2_stack": 54904,
-			"3_stack": 55837
+			"1_stack": 52430,
+			"2_stack": 53494,
+			"3_stack": 54409
 		},
 		"Unstable Flames": {
-			"1_stack": 53583,
-			"2_stack": 54427,
-			"3_stack": 55256
+			"1_stack": 52152,
+			"2_stack": 52972,
+			"3_stack": 53784
 		},
 		"Base": {
-			"1_stack": 52742,
+			"1_stack": 51334,
 			"2_stack": 0,
 			"3_stack": 0
 		}
@@ -360,12 +360,12 @@
 		 "Meticulous Scheming",
 		 "Dagger in the Back Behind",
 		 "Whispers of the Damned",
-		 "Death Throes",
-		 "Tradewinds",
-		 "Loyal to the End 2 Allies",
 		 "Relational Normalization Gizmo",
-		 "Glory in Battle",
+		 "Tradewinds",
+		 "Death Throes",
+		 "Loyal to the End 2 Allies",
 		 "Rezans Fury",
+		 "Glory in Battle",
 		 "Arcane Heart",
 		 "Barrage Of Many Bombs",
 		 "Incite the Pack",
@@ -387,15 +387,15 @@
 		 "Loyal to the End 0 Allies",
 		 "Thought Harvester",
 		 "Synaptic Spark Capacitor",
-		 "Unstable Flames",
 		 "Ricocheting Inflatable Pyrosaw",
+		 "Unstable Flames",
 		 "Retaliatory Fury",
 		 "Elemental Whirl",
 		 "Gutripper",
 		 "Heed My Call",
 		 "Ruinous Bolt",
-		 "On My Way",
 		 "Fight or Flight",
+		 "On My Way",
 		 "Azerite Globules",
 		 "Blood Siphon",
 		 "Combined Might",
