@@ -171,7 +171,7 @@ traitList = [
 'Loyal_to_the_End_2_Allies_',
 'Loyal_to_the_End_1_Allies_',
 'Loyal_to_the_End_0_Allies_',
-'Heart_of_Darkness',
+'Heart_of_Darkness_',
 
 #Secondary Traits
 'Azerite_Globules_',
