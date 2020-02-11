@@ -227,6 +227,9 @@
 			"3_stack": 57226
 		},
 		"Heart of Darkness": {
+			"1_stack": 56291,
+			"2_stack": 58432,
+			"3_stack": 60651
 		},
 		"Azerite Globules": {
 			"1_stack": 54771,
@@ -354,6 +357,7 @@
 		 "Swirling Sands",
 		 "Ancients Bulwark",
 		 "Undulating Tides",
+		 "Heart of Darkness",
 		 "Loyal to the End 4 Allies",
 		 "Clockwork Heart",
 		 "Barrage Of Many Bombs",
@@ -404,7 +408,6 @@
 		 "Champion of Azeroth",
 		 "Bonded Souls",
 		 "Seductive Power",
-		 "Treacherous Covenant",
-		 "Heart of Darkness"
+		 "Treacherous Covenant"
 	]
 }
