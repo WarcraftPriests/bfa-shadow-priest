@@ -78,8 +78,11 @@ profileset."Haste_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_i
 
 # Raw Versatility - Surging Vitality
 profileset."Versatility_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6558
+profileset."Versatility_Proc_1"+=bfa.surging_vitality_damage_taken_period=1
 profileset."Versatility_Proc_2"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6565
+profileset."Versatility_Proc_2"+=bfa.surging_vitality_damage_taken_period=1
 profileset."Versatility_Proc_3"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6566
+profileset."Versatility_Proc_3"+=bfa.surging_vitality_damage_taken_period=1
 
 # Raw Mastery - Honed Mind
 profileset."Mastery_Proc_1"+=trinket1=psyche_shredder,id=174060,ilevel=475,bonus_id=6557
