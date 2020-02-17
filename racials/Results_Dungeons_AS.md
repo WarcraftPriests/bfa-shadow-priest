@@ -1,30 +1,30 @@
 # HeroDamage Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Human|73433|1.74%|
-|Night_Elf_Haste|73097|1.27%|
-|Lightforged_Draenei|73095|1.27%|
-|Tauren|73092|1.27%|
-|Zandalari_Troll_Paku|73091|1.27%|
-|Goblin|73083|1.25%|
-|Gnome|73070|1.24%|
-|Dwarf|73057|1.22%|
-|Panda|73009|1.15%|
-|Blood_Elf|72971|1.10%|
-|Mechagnome|72952|1.07%|
-|Kul_Tiran|72913|1.02%|
-|Worgen|72902|1.00%|
-|Night_Elf_Crit|72873|0.96%|
-|Void_Elf|72862|0.95%|
-|Nightborne|72858|0.94%|
-|Troll|72762|0.81%|
-|Undead|72686|0.71%|
-|Zandalari_Troll_Bwonsamdi|72629|0.63%|
-|Maghar_Orc|72623|0.62%|
-|Zandalari_Troll_Kimbul|72598|0.58%|
-|Draenei|72446|0.37%|
-|Vulpera|72366|0.26%|
-|Dark_Iron_Dwarf|72312|0.19%|
-|Base|72177|0.00%|
+|Human|73424|1.66%|
+|Gnome|73185|1.33%|
+|Goblin|73127|1.25%|
+|Dwarf|73108|1.22%|
+|Tauren|73094|1.20%|
+|Panda|73077|1.18%|
+|Night_Elf_Haste|73070|1.17%|
+|Zandalari_Troll_Paku|73048|1.14%|
+|Lightforged_Draenei|73036|1.12%|
+|Mechagnome|72926|0.97%|
+|Nightborne|72924|0.97%|
+|Night_Elf_Crit|72902|0.94%|
+|Worgen|72900|0.93%|
+|Blood_Elf|72896|0.93%|
+|Kul_Tiran|72857|0.87%|
+|Void_Elf|72823|0.83%|
+|Troll|72765|0.75%|
+|Zandalari_Troll_Kimbul|72702|0.66%|
+|Maghar_Orc|72674|0.62%|
+|Undead|72607|0.53%|
+|Zandalari_Troll_Bwonsamdi|72601|0.52%|
+|Draenei|72393|0.23%|
+|Vulpera|72348|0.17%|
+|Dark_Iron_Dwarf|72285|0.08%|
+|Base|72227|0.00%|
 
  Dungeon sim profile courtesy of [HeroDamage](https://www.herodamage.com/)

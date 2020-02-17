@@ -1,79 +1,79 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 72921
+			"DPS" : 72952
 		},
 		"Night Elf Haste": {
-			"DPS" : 72651
-		},
-		"Gnome": {
-			"DPS" : 72603
+			"DPS" : 72647
 		},
 		"Goblin": {
-			"DPS" : 72596
+			"DPS" : 72599
+		},
+		"Gnome": {
+			"DPS" : 72590
 		},
 		"Panda": {
-			"DPS" : 72549
-		},
-		"Dwarf": {
-			"DPS" : 72512
+			"DPS" : 72545
 		},
 		"Tauren": {
-			"DPS" : 72512
+			"DPS" : 72518
+		},
+		"Dwarf": {
+			"DPS" : 72500
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 72495
+			"DPS" : 72482
 		},
 		"Mechagnome": {
-			"DPS" : 72425
+			"DPS" : 72418
 		},
 		"Void Elf": {
-			"DPS" : 72392
+			"DPS" : 72364
 		},
 		"Night Elf Crit": {
-			"DPS" : 72363
+			"DPS" : 72354
 		},
 		"Nightborne": {
-			"DPS" : 72335
+			"DPS" : 72348
 		},
 		"Troll": {
-			"DPS" : 72330
-		},
-		"Kul Tiran": {
-			"DPS" : 72318
+			"DPS" : 72341
 		},
 		"Blood Elf": {
-			"DPS" : 72289
+			"DPS" : 72313
+		},
+		"Kul Tiran": {
+			"DPS" : 72312
 		},
 		"Worgen": {
-			"DPS" : 72285
+			"DPS" : 72280
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 72148
+			"DPS" : 72162
 		},
 		"Lightforged Draenei": {
-			"DPS" : 72137
+			"DPS" : 72141
 		},
 		"Undead": {
-			"DPS" : 72135
+			"DPS" : 72126
 		},
 		"Maghar Orc": {
-			"DPS" : 72095
+			"DPS" : 72106
 		},
 		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 72056
+			"DPS" : 72054
 		},
 		"Draenei": {
-			"DPS" : 71887
+			"DPS" : 71885
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 71774
+			"DPS" : 71761
 		},
 		"Base": {
-			"DPS" : 71637
+			"DPS" : 71651
 		},
 		"Vulpera": {
-			"DPS" : 71483
+			"DPS" : 71504
 		}
 	},
 	"simulated_steps" : [
@@ -82,19 +82,19 @@
 	"sorted_data_keys":[
 		 "Human",
 		 "Night Elf Haste",
-		 "Gnome",
 		 "Goblin",
+		 "Gnome",
 		 "Panda",
-		 "Dwarf",
 		 "Tauren",
+		 "Dwarf",
 		 "Zandalari Troll Paku",
 		 "Mechagnome",
 		 "Void Elf",
 		 "Night Elf Crit",
 		 "Nightborne",
 		 "Troll",
-		 "Kul Tiran",
 		 "Blood Elf",
+		 "Kul Tiran",
 		 "Worgen",
 		 "Zandalari Troll Kimbul",
 		 "Lightforged Draenei",

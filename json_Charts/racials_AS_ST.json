@@ -1,79 +1,79 @@
 {
 	"data": {
 		"Human": {
-			"DPS" : 66334
+			"DPS" : 66366
 		},
 		"Night Elf Haste": {
-			"DPS" : 66027
+			"DPS" : 66063
 		},
 		"Goblin": {
-			"DPS" : 66028
+			"DPS" : 66025
 		},
 		"Gnome": {
-			"DPS" : 66021
+			"DPS" : 66003
 		},
 		"Panda": {
-			"DPS" : 65971
+			"DPS" : 65960
 		},
 		"Zandalari Troll Paku": {
-			"DPS" : 65897
+			"DPS" : 65941
 		},
 		"Dwarf": {
-			"DPS" : 65900
+			"DPS" : 65899
 		},
 		"Tauren": {
-			"DPS" : 65894
+			"DPS" : 65860
 		},
 		"Night Elf Crit": {
-			"DPS" : 65810
-		},
-		"Troll": {
-			"DPS" : 65818
+			"DPS" : 65789
 		},
 		"Mechagnome": {
-			"DPS" : 65782
+			"DPS" : 65814
 		},
-		"Blood Elf": {
-			"DPS" : 65760
-		},
-		"Worgen": {
-			"DPS" : 65745
+		"Troll": {
+			"DPS" : 65790
 		},
 		"Void Elf": {
-			"DPS" : 65849
+			"DPS" : 65832
+		},
+		"Blood Elf": {
+			"DPS" : 65739
+		},
+		"Worgen": {
+			"DPS" : 65738
 		},
 		"Nightborne": {
-			"DPS" : 65745
+			"DPS" : 65741
 		},
 		"Kul Tiran": {
-			"DPS" : 65722
+			"DPS" : 65746
 		},
 		"Lightforged Draenei": {
-			"DPS" : 65484
+			"DPS" : 65497
 		},
 		"Zandalari Troll Kimbul": {
-			"DPS" : 65666
+			"DPS" : 65656
 		},
 		"Undead": {
-			"DPS" : 65590
+			"DPS" : 65591
 		},
 		"Maghar Orc": {
-			"DPS" : 65534
+			"DPS" : 65539
 		},
 		"Zandalari Troll Bwonsamdi": {
-			"DPS" : 65529
+			"DPS" : 65524
 		},
 		"Draenei": {
-			"DPS" : 65349
+			"DPS" : 65355
 		},
 		"Dark Iron Dwarf": {
-			"DPS" : 65207
+			"DPS" : 65230
 		},
 		"Base": {
-			"DPS" : 65121
+			"DPS" : 65103
 		},
 		"Vulpera": {
-			"DPS" : 65122
+			"DPS" : 65112
 		}
 	},
 	"simulated_steps" : [
@@ -81,21 +81,21 @@
 	],
 	"sorted_data_keys":[
 		 "Human",
-		 "Goblin",
 		 "Night Elf Haste",
+		 "Goblin",
 		 "Gnome",
 		 "Panda",
-		 "Dwarf",
 		 "Zandalari Troll Paku",
+		 "Dwarf",
 		 "Tauren",
 		 "Void Elf",
+		 "Mechagnome",
 		 "Troll",
 		 "Night Elf Crit",
-		 "Mechagnome",
+		 "Kul Tiran",
+		 "Nightborne",
 		 "Blood Elf",
 		 "Worgen",
-		 "Nightborne",
-		 "Kul Tiran",
 		 "Zandalari Troll Kimbul",
 		 "Undead",
 		 "Maghar Orc",
