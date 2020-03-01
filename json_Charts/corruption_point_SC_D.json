@@ -1,200 +1,200 @@
 {
 	"data": {
 		"Gushing Wound 1": {
-			"DPS" : 187.73,
+			"DPS" : 192.0,
+			"Corruption" : 15
+		},
+		"Percent Crit 2": {
+			"DPS" : 163.0,
 			"Corruption" : 15
 		},
 		"Percent Crit 1": {
-			"DPS" : 158.5,
+			"DPS" : 158.0,
 			"Corruption" : 10
 		},
 		"Percent Crit 3": {
-			"DPS" : 157.75,
+			"DPS" : 157.7,
 			"Corruption" : 20
 		},
-		"Percent Crit 2": {
-			"DPS" : 154.47,
-			"Corruption" : 15
-		},
 		"Percent Haste 2": {
-			"DPS" : 150.93,
+			"DPS" : 154.4,
 			"Corruption" : 15
 		},
 		"Percent Haste 3": {
-			"DPS" : 150.15,
+			"DPS" : 152.4,
 			"Corruption" : 20
 		},
 		"Percent Haste 1": {
-			"DPS" : 147.3,
+			"DPS" : 152.1,
 			"Corruption" : 10
 		},
-		"Twilight Devastation 3": {
-			"DPS" : 142.29,
-			"Corruption" : 75
-		},
-		"Twilight Devastation 1": {
-			"DPS" : 141.72,
-			"Corruption" : 25
-		},
 		"Twilight Devastation 2": {
-			"DPS" : 141.4,
+			"DPS" : 143.38,
 			"Corruption" : 50
 		},
+		"Twilight Devastation 1": {
+			"DPS" : 143.16,
+			"Corruption" : 25
+		},
+		"Twilight Devastation 3": {
+			"DPS" : 141.04,
+			"Corruption" : 75
+		},
 		"Flash of Insight 1": {
-			"DPS" : 114.3,
+			"DPS" : 118.6,
+			"Corruption" : 20
+		},
+		"Haste Proc 2": {
+			"DPS" : 103.6,
 			"Corruption" : 20
 		},
 		"Haste Proc 1": {
-			"DPS" : 100.8,
+			"DPS" : 101.6,
 			"Corruption" : 15
 		},
-		"Haste Proc 2": {
-			"DPS" : 100.65,
-			"Corruption" : 20
-		},
 		"Haste Proc 3": {
-			"DPS" : 97.46,
+			"DPS" : 99.49,
 			"Corruption" : 35
 		},
-		"Infinite Star 3": {
-			"DPS" : 90.15,
-			"Corruption" : 75
-		},
-		"Crit DMG 3": {
-			"DPS" : 89.85,
-			"Corruption" : 20
-		},
 		"Crit DMG 1": {
-			"DPS" : 89.5,
+			"DPS" : 95.8,
 			"Corruption" : 10
 		},
 		"Crit DMG 2": {
-			"DPS" : 87.07,
+			"DPS" : 92.6,
 			"Corruption" : 15
 		},
+		"Crit DMG 3": {
+			"DPS" : 91.1,
+			"Corruption" : 20
+		},
+		"Infinite Star 3": {
+			"DPS" : 88.87,
+			"Corruption" : 75
+		},
+		"Infinite Star 1": {
+			"DPS" : 88.85,
+			"Corruption" : 20
+		},
 		"Twisted Appendage 3": {
-			"DPS" : 86.7,
+			"DPS" : 87.88,
 			"Corruption" : 66
 		},
 		"Twisted Appendage 2": {
-			"DPS" : 86.34,
+			"DPS" : 87.83,
 			"Corruption" : 35
 		},
 		"Infinite Star 2": {
-			"DPS" : 85.08,
+			"DPS" : 85.92,
 			"Corruption" : 50
 		},
 		"Void Ritual 3": {
-			"DPS" : 85.03,
+			"DPS" : 85.55,
 			"Corruption" : 66
 		},
-		"Infinite Star 1": {
-			"DPS" : 84.2,
+		"Crit Proc 2": {
+			"DPS" : 83.45,
 			"Corruption" : 20
 		},
-		"Crit Proc 2": {
-			"DPS" : 81.6,
-			"Corruption" : 20
+		"Crit Proc 1": {
+			"DPS" : 83.13,
+			"Corruption" : 15
 		},
 		"Crit Proc 3": {
-			"DPS" : 81.26,
+			"DPS" : 82.66,
 			"Corruption" : 35
 		},
 		"Void Ritual 2": {
-			"DPS" : 80.66,
+			"DPS" : 79.51,
 			"Corruption" : 35
 		},
-		"Crit Proc 1": {
-			"DPS" : 78.73,
+		"Void Ritual 1": {
+			"DPS" : 77.47,
 			"Corruption" : 15
 		},
-		"Void Ritual 1": {
-			"DPS" : 76.73,
+		"Mastery Proc 2": {
+			"DPS" : 74.7,
+			"Corruption" : 20
+		},
+		"Mastery Proc 1": {
+			"DPS" : 73.47,
 			"Corruption" : 15
 		},
 		"Mastery Proc 3": {
-			"DPS" : 72.49,
+			"DPS" : 73.17,
 			"Corruption" : 35
-		},
-		"Mastery Proc 2": {
-			"DPS" : 72.4,
-			"Corruption" : 20
 		},
 		"Echoing Void 2": {
-			"DPS" : 71.51,
+			"DPS" : 71.71,
 			"Corruption" : 35
 		},
-		"Mastery Proc 1": {
-			"DPS" : 69.53,
-			"Corruption" : 15
-		},
 		"Echoing Void 1": {
-			"DPS" : 68.32,
+			"DPS" : 69.8,
 			"Corruption" : 25
 		},
 		"Echoing Void 3": {
-			"DPS" : 66.17,
+			"DPS" : 65.42,
 			"Corruption" : 60
 		},
 		"Twisted Appendage 1": {
-			"DPS" : 60.2,
-			"Corruption" : 15
-		},
-		"Percent Mast 2": {
-			"DPS" : 30.53,
-			"Corruption" : 15
-		},
-		"Glimpse of Clarity 1": {
-			"DPS" : 28.0,
+			"DPS" : 60.93,
 			"Corruption" : 15
 		},
 		"Percent Mast 1": {
-			"DPS" : 24.9,
+			"DPS" : 29.2,
 			"Corruption" : 10
 		},
+		"Glimpse of Clarity 1": {
+			"DPS" : 28.07,
+			"Corruption" : 15
+		},
+		"Percent Mast 2": {
+			"DPS" : 26.73,
+			"Corruption" : 15
+		},
 		"Percent Mast 3": {
-			"DPS" : 22.15,
+			"DPS" : 25.25,
 			"Corruption" : 20
 		},
 		"Ineffable Truth 2": {
-			"DPS" : 21.37,
+			"DPS" : 22.83,
 			"Corruption" : 30
 		},
 		"Percent Vers 2": {
-			"DPS" : 18.13,
+			"DPS" : 20.73,
 			"Corruption" : 15
 		},
-		"Ineffable Truth 1": {
-			"DPS" : 17.25,
-			"Corruption" : 12
-		},
 		"Percent Vers 1": {
-			"DPS" : 16.5,
+			"DPS" : 20.3,
 			"Corruption" : 10
 		},
 		"Percent Vers 3": {
-			"DPS" : 16.0,
+			"DPS" : 17.75,
 			"Corruption" : 20
+		},
+		"Ineffable Truth 1": {
+			"DPS" : 16.83,
+			"Corruption" : 12
+		},
+		"Versatility Proc 1": {
+			"DPS" : 2.87,
+			"Corruption" : 15
+		},
+		"Versatility Proc 2": {
+			"DPS" : 1.35,
+			"Corruption" : 20
+		},
+		"Lash of the Void 1": {
+			"DPS" : 1.36,
+			"Corruption" : 25
+		},
+		"Versatility Proc 3": {
+			"DPS" : 0.6,
+			"Corruption" : 35
 		},
 		"Base": {
 			"DPS" : 0,
-			"Corruption" : 20
-		},
-		"Versatility Proc 3": {
-			"DPS" : -0.83,
 			"Corruption" : 35
-		},
-		"Versatility Proc 1": {
-			"DPS" : -2.07,
-			"Corruption" : 15
-		},
-		"Lash of the Void 1": {
-			"DPS" : -1.4,
-			"Corruption" : 25
-		},
-		"Versatility Proc 2": {
-			"DPS" : -2.0,
-			"Corruption" : 20
 		}
 	},
 	"spell_ids" : {
@@ -259,53 +259,53 @@
 	],
 	"sorted_data_keys": [
 		 "Gushing Wound 1",
+		 "Percent Crit 2",
 		 "Percent Crit 1",
 		 "Percent Crit 3",
-		 "Percent Crit 2",
 		 "Percent Haste 2",
 		 "Percent Haste 3",
 		 "Percent Haste 1",
-		 "Twilight Devastation 3",
-		 "Twilight Devastation 1",
 		 "Twilight Devastation 2",
+		 "Twilight Devastation 1",
+		 "Twilight Devastation 3",
 		 "Flash of Insight 1",
-		 "Haste Proc 1",
 		 "Haste Proc 2",
+		 "Haste Proc 1",
 		 "Haste Proc 3",
-		 "Infinite Star 3",
-		 "Crit DMG 3",
 		 "Crit DMG 1",
 		 "Crit DMG 2",
+		 "Crit DMG 3",
+		 "Infinite Star 3",
+		 "Infinite Star 1",
 		 "Twisted Appendage 3",
 		 "Twisted Appendage 2",
 		 "Infinite Star 2",
 		 "Void Ritual 3",
-		 "Infinite Star 1",
 		 "Crit Proc 2",
+		 "Crit Proc 1",
 		 "Crit Proc 3",
 		 "Void Ritual 2",
-		 "Crit Proc 1",
 		 "Void Ritual 1",
-		 "Mastery Proc 3",
 		 "Mastery Proc 2",
-		 "Echoing Void 2",
 		 "Mastery Proc 1",
+		 "Mastery Proc 3",
+		 "Echoing Void 2",
 		 "Echoing Void 1",
 		 "Echoing Void 3",
 		 "Twisted Appendage 1",
-		 "Percent Mast 2",
-		 "Glimpse of Clarity 1",
 		 "Percent Mast 1",
+		 "Glimpse of Clarity 1",
+		 "Percent Mast 2",
 		 "Percent Mast 3",
 		 "Ineffable Truth 2",
 		 "Percent Vers 2",
-		 "Ineffable Truth 1",
 		 "Percent Vers 1",
 		 "Percent Vers 3",
-		 "Base",
-		 "Versatility Proc 3",
-		 "Lash of the Void 1",
+		 "Ineffable Truth 1",
 		 "Versatility Proc 1",
-		 "Versatility Proc 2"
+		 "Versatility Proc 2",
+		 "Lash of the Void 1",
+		 "Versatility Proc 3",
+		 "Base"
 	]
 }
