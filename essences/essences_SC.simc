@@ -380,102 +380,102 @@ profileset."Symbiotic_Presence_3"+=azerite_essences=37:3:0
 
 # 4 Essence Combos
 
-## MoLD + CLF + EotFI + LS
-profileset."MoLD_CLF_EotFI_LS"+=azerite_essences=27:3:1/14:3:0/5:3:0/35:3:0
+## MoLD + CLF + EotFI + RF
+profileset."MoLD_CLF_EotFI_RF"+=azerite_essences=27:3:1/14:3:0/5:3:0/35:3:0
 
-## MoLD + CLF + PP + LS
-profileset."MoLD_CLF_PP_LS_Aberration"+=azerite_essences=27:3:1/14:3:0/6:3:0/35:3:0
-profileset."MoLD_CLF_PP_LS_Aberration"+=target_race=aberration
+## MoLD + CLF + PP + RF
+profileset."MoLD_CLF_PP_RF_Aberration"+=azerite_essences=27:3:1/14:3:0/6:3:0/35:3:0
+profileset."MoLD_CLF_PP_RF_Aberration"+=target_race=aberration
 
-## MoLD + CLF + CoF + LS
-profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
+## MoLD + CLF + CoF + RF
+profileset."MoLD_CLF_CoF_RF"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + CLF + BotE + LS
-profileset."MoLD_CLF_BotE_LS"+=azerite_essences=27:3:1/14:3:0/23:3:0/35:3:0
+## MoLD + CLF + BotE + RF
+profileset."MoLD_CLF_BotE_RF"+=azerite_essences=27:3:1/14:3:0/23:3:0/35:3:0
 
-## MoLD + CLF + CoF + LS
-profileset."MoLD_CLF_CoF_LS"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
+## MoLD + CLF + CoF + RF
+profileset."MoLD_CLF_CoF_RF"+=azerite_essences=27:3:1/14:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + PP + LS
-profileset."MoLD_EotFI_PP_LS_Aberration"+=azerite_essences=27:3:1/5:3:0/6:3:0/35:3:0
-profileset."MoLD_EotFI_PP_LS_Aberration"+=target_race=aberration
+## MoLD + EotFI + PP + RF
+profileset."MoLD_EotFI_PP_RF_Aberration"+=azerite_essences=27:3:1/5:3:0/6:3:0/35:3:0
+profileset."MoLD_EotFI_PP_RF_Aberration"+=target_race=aberration
 
-## MoLD + EotFI + CoF + LS
-profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
+## MoLD + EotFI + CoF + RF
+profileset."MoLD_EotFI_CoF_RF"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + EotFI + BotE + LS
-profileset."MoLD_EotFI_BotE_LS"+=azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
+## MoLD + EotFI + BotE + RF
+profileset."MoLD_EotFI_BotE_RF"+=azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-## MoLD + EotFI + CoF + LS
-profileset."MoLD_EotFI_CoF_LS"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
+## MoLD + EotFI + CoF + RF
+profileset."MoLD_EotFI_CoF_RF"+=azerite_essences=27:3:1/5:3:0/12:3:0/35:3:0
 
-## MoLD + PP + CoF + LS
-profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
-profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
+## MoLD + PP + CoF + RF
+profileset."MoLD_PP_CoF_RF_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_RF_Aberration"+=target_race=aberration
 
-## MoLD + PP + BotE + LS
-profileset."MoLD_PP_BotE_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/23:3:0/35:3:0
-profileset."MoLD_PP_BotE_LS_Aberration"+=target_race=aberration
+## MoLD + PP + BotE + RF
+profileset."MoLD_PP_BotE_RF_Aberration"+=azerite_essences=27:3:1/6:3:0/23:3:0/35:3:0
+profileset."MoLD_PP_BotE_RF_Aberration"+=target_race=aberration
 
-## MoLD + PP + CoF + LS
-profileset."MoLD_PP_CoF_LS_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
-profileset."MoLD_PP_CoF_LS_Aberration"+=target_race=aberration
+## MoLD + PP + CoF + RF
+profileset."MoLD_PP_CoF_RF_Aberration"+=azerite_essences=27:3:1/6:3:0/12:3:0/35:3:0
+profileset."MoLD_PP_CoF_RF_Aberration"+=target_race=aberration
 
-## MoLD + CoF + BotE + LS
-profileset."MoLD_CoF_BotE_LS"+=azerite_essences=27:3:1/12:3:0/23:3:0/35:3:0
+## MoLD + CoF + BotE + RF
+profileset."MoLD_CoF_BotE_RF"+=azerite_essences=27:3:1/12:3:0/23:3:0/35:3:0
 
-## MoLD + CoF + CoF + LS
-profileset."MoLD_CoF_CoF_LS"+=azerite_essences=27:3:1/12:3:0/12:3:0/35:3:0
+## MoLD + CoF + CoF + RF
+profileset."MoLD_CoF_CoF_RF"+=azerite_essences=27:3:1/12:3:0/12:3:0/35:3:0
 
-## MoLD + BotE + CoF + LS
-profileset."MoLD_BotE_CoF_LS"+=azerite_essences=27:3:1/23:3:0/12:3:0/35:3:0
+## MoLD + BotE + CoF + RF
+profileset."MoLD_BotE_CoF_RF"+=azerite_essences=27:3:1/23:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + EotFI + LS
-profileset."CLF_MoLD_EotFI_LS"+=azerite_essences=14:3:1/27:3:0/5:3:0/35:3:0
+## CLF + MoLD + EotFI + RF
+profileset."CLF_MoLD_EotFI_RF"+=azerite_essences=14:3:1/27:3:0/5:3:0/35:3:0
 
-## CLF + MoLD + PP + LS
-profileset."CLF_MoLD_PP_LS_Aberration"+=azerite_essences=14:3:1/27:3:0/6:3:0/35:3:0
-profileset."CLF_MoLD_PP_LS_Aberration"+=target_race=aberration
+## CLF + MoLD + PP + RF
+profileset."CLF_MoLD_PP_RF_Aberration"+=azerite_essences=14:3:1/27:3:0/6:3:0/35:3:0
+profileset."CLF_MoLD_PP_RF_Aberration"+=target_race=aberration
 
-## CLF + MoLD + CoF + LS
-profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
+## CLF + MoLD + CoF + RF
+profileset."CLF_MoLD_CoF_RF"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + MoLD + BotE + LS
-profileset."CLF_MoLD_BotE_LS"+=azerite_essences=14:3:1/27:3:0/23:3:0/35:3:0
+## CLF + MoLD + BotE + RF
+profileset."CLF_MoLD_BotE_RF"+=azerite_essences=14:3:1/27:3:0/23:3:0/35:3:0
 
-## CLF + MoLD + CoF + LS
-profileset."CLF_MoLD_CoF_LS"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
+## CLF + MoLD + CoF + RF
+profileset."CLF_MoLD_CoF_RF"+=azerite_essences=14:3:1/27:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + PP + LS
-profileset."CLF_EotFI_PP_LS_Aberration"+=azerite_essences=14:3:1/5:3:0/6:3:0/35:3:0
-profileset."CLF_EotFI_PP_LS_Aberration"+=target_race=aberration
+## CLF + EotFI + PP + RF
+profileset."CLF_EotFI_PP_RF_Aberration"+=azerite_essences=14:3:1/5:3:0/6:3:0/35:3:0
+profileset."CLF_EotFI_PP_RF_Aberration"+=target_race=aberration
 
-## CLF + EotFI + CoF + LS
-profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
+## CLF + EotFI + CoF + RF
+profileset."CLF_EotFI_CoF_RF"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + EotFI + BotE + LS
-profileset."CLF_EotFI_BotE_LS"+=azerite_essences=14:3:1/5:3:0/23:3:0/35:3:0
+## CLF + EotFI + BotE + RF
+profileset."CLF_EotFI_BotE_RF"+=azerite_essences=14:3:1/5:3:0/23:3:0/35:3:0
 
-## CLF + EotFI + CoF + LS
-profileset."CLF_EotFI_CoF_LS"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
+## CLF + EotFI + CoF + RF
+profileset."CLF_EotFI_CoF_RF"+=azerite_essences=14:3:1/5:3:0/12:3:0/35:3:0
 
-## CLF + PP + CoF + LS
-profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
-profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
+## CLF + PP + CoF + RF
+profileset."CLF_PP_CoF_RF_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_RF_Aberration"+=target_race=aberration
 
-## CLF + PP + BotE + LS
-profileset."CLF_PP_BotE_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/23:3:0/35:3:0
-profileset."CLF_PP_BotE_LS_Aberration"+=target_race=aberration
+## CLF + PP + BotE + RF
+profileset."CLF_PP_BotE_RF_Aberration"+=azerite_essences=14:3:1/6:3:0/23:3:0/35:3:0
+profileset."CLF_PP_BotE_RF_Aberration"+=target_race=aberration
 
-## CLF + PP + CoF + LS
-profileset."CLF_PP_CoF_LS_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
-profileset."CLF_PP_CoF_LS_Aberration"+=target_race=aberration
+## CLF + PP + CoF + RF
+profileset."CLF_PP_CoF_RF_Aberration"+=azerite_essences=14:3:1/6:3:0/12:3:0/35:3:0
+profileset."CLF_PP_CoF_RF_Aberration"+=target_race=aberration
 
-## CLF + CoF + BotE + LS
-profileset."CLF_CoF_BotE_LS"+=azerite_essences=14:3:1/12:3:0/23:3:0/35:3:0
+## CLF + CoF + BotE + RF
+profileset."CLF_CoF_BotE_RF"+=azerite_essences=14:3:1/12:3:0/23:3:0/35:3:0
 
-## CLF + CoF + CoF + LS
-profileset."CLF_CoF_CoF_LS"+=azerite_essences=14:3:1/12:3:0/12:3:0/35:3:0
+## CLF + CoF + CoF + RF
+profileset."CLF_CoF_CoF_RF"+=azerite_essences=14:3:1/12:3:0/12:3:0/35:3:0
 
-## CLF + BotE + CoF + LS
-profileset."CLF_BotE_CoF_LS"+=azerite_essences=14:3:1/23:3:0/12:3:0/35:3:0
+## CLF + BotE + CoF + RF
+profileset."CLF_BotE_CoF_RF"+=azerite_essences=14:3:1/23:3:0/12:3:0/35:3:0
